@@ -1,10 +1,10 @@
- Javascript Course
+# Javascript Course
 
-Getting Started
+## Getting Started
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODk4NTMwNDMsMTY4NzE2NzY5NSwtMT
-AxOTM1MTM3NF19
+eyJoaXN0b3J5IjpbNTA4NzM1NTkwLDE2ODcxNjc2OTUsLTEwMT
+kzNTEzNzRdfQ==
 -->
