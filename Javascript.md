@@ -18,10 +18,13 @@ Option `Shift + Alt + F`
 
 It helps preventing extensions running extra code on our apps
 
-### 
+### Dev Tool Chrome
+
+`Control + Shift + I`
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MzgwMTIzLC0xMjMwNDQ4NzIzXX0=
+eyJoaXN0b3J5IjpbLTM1MzE5Nzk5NiwxNDUzODAxMjMsLTEyMz
+A0NDg3MjNdfQ==
 -->
