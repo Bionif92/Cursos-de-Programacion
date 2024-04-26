@@ -22,8 +22,10 @@ It helps preventing extensions running extra code on our apps
 
 `Control + Shift + I`
 
+## Basics: Variables, Data Types, Operators & Functions
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzE5Nzk5Nl19
+eyJoaXN0b3J5IjpbLTEzNzI2NzA0NSwtMzUzMTk3OTk2XX0=
 -->
