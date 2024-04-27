@@ -29,6 +29,5 @@ It helps preventing extensions running extra code on our apps
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzU0NTM3OCwtMTM3MjY3MDQ1LC0zNT
-MxOTc5OTZdfQ==
+eyJoaXN0b3J5IjpbLTQ0NzU0NTM3OF19
 -->
