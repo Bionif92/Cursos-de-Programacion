@@ -64,10 +64,10 @@ and the value is `undefined`.
 Use let to declare the variable, then is not need it more
 
 `let`For defining a variable that can change
-`const`For a variable that can
+`const`For a variable that can´t change
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjMyODEzOSwtMTExNTgyMDgxMywxNj
+eyJoaXN0b3J5IjpbMTI3OTE3NjM4NywtMTExNTgyMDgxMywxNj
 QxMTUzNzEsLTE2MjI3OTMwMCwtNDQ3NTQ1Mzc4XX0=
 -->
