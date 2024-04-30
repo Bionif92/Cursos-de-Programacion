@@ -51,11 +51,20 @@ the downside: the html gets long an messy with inline JS.
    </body>
    ```
 
-### The order if JS imports matter
+#### The order if JS imports matter
 
+### Declaring variables
+
+A variable can be declared, but not defined, so it becomes a **uninitialized variable**:
+
+```js
+let currentResult;
+```
+and the value is `undefined`.
+Use let to declare the variable, then is not need it more
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTE1MzcxLC0xNjIyNzkzMDAsLTQ0Nz
-U0NTM3OF19
+eyJoaXN0b3J5IjpbLTExMTU4MjA4MTMsMTY0MTE1MzcxLC0xNj
+IyNzkzMDAsLTQ0NzU0NTM3OF19
 -->
