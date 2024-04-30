@@ -83,7 +83,16 @@ The operators return things, e.g `+` like the SUM result of two number
 #### Data Types
 1) Numbers
 2) Strings `Hi`The single coma for text, filled with text, nothing or numbers
+
+### String concatenation
+
+adding dinamyc values to strings:
+
+```js
+let fullName = 'Franco ' + surname + ' some extra random surname'
+```
+the `+` operator here doesn't SUM numbers but it joins strings into a single one. Downside? messy syntax. It's better to do **string interpolation**.
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzc3NjA1M119
+eyJoaXN0b3J5IjpbOTU4MDExNzY4LC02MTc3NzYwNTNdfQ==
 -->
