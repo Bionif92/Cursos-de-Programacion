@@ -63,8 +63,11 @@ let currentResult;
 and the value is `undefined`.
 Use let to declare the variable, then is not need it more
 
+`let`For defining a variable that can change
+`const`For a variable that can
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTU4MjA4MTMsMTY0MTE1MzcxLC0xNj
-IyNzkzMDAsLTQ0NzU0NTM3OF19
+eyJoaXN0b3J5IjpbLTUwNjMyODEzOSwtMTExNTgyMDgxMywxNj
+QxMTUzNzEsLTE2MjI3OTMwMCwtNDQ3NTQ1Mzc4XX0=
 -->
