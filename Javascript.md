@@ -85,7 +85,5 @@ The operators return things, e.g `+` like the SUM result of two number
 2) Strings `Hi`The single coma for text, filled with text, nothing or numbers
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzc3NjA1Myw1Njk2NTQyNjAsMTI3OT
-E3NjM4NywtMTExNTgyMDgxMywxNjQxMTUzNzEsLTE2MjI3OTMw
-MCwtNDQ3NTQ1Mzc4XX0=
+eyJoaXN0b3J5IjpbLTYxNzc3NjA1M119
 -->
