@@ -47,13 +47,15 @@ the downside: the html gets long an messy with inline JS.
    
    ```html
    <body>
-       <script src="path-to-the-JS-file"> </script >
+       <script src="path-to-the-JS-file"> </script >
    </body>
    ```
+
+### The order if JS imports matter
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTQzNDEzNTYsLTE2MjI3OTMwMCwtND
-Q3NTQ1Mzc4XX0=
+eyJoaXN0b3J5IjpbMTY0MTE1MzcxLC0xNjIyNzkzMDAsLTQ0Nz
+U0NTM3OF19
 -->
