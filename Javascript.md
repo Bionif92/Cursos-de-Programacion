@@ -26,8 +26,26 @@ It helps preventing extensions running extra code on our apps
 
 `Control + S`Save document
 
+how to add JS code to an `html` file?
+
+1) ```html
+   <head>
+    <script>
+        alert('hey, I'm an alert!)
+    </script>
+   </head>
+   ```
+
+the downside: the html gets long an messy with inline JS.
+
+2) ```html
+   <head>
+       <script src="path-to-the-JS-file"> </script >
+   </head>
+   ```
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NzU0NTM3OF19
+eyJoaXN0b3J5IjpbLTE2MjI3OTMwMCwtNDQ3NTQ1Mzc4XX0=
 -->
