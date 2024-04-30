@@ -92,7 +92,35 @@ adding dinamyc values to strings:
 let fullName = 'Franco ' + surname + ' some extra random surname'
 ```
 the `+` operator here doesn't SUM numbers but it joins strings into a single one. Downside? messy syntax. It's better to do **string interpolation**.
+
+### Template literals or string interpolation
+
+is the solution to string concatenation, which is ugly.
+
+
+
+```js
+let greeting = `Welcome onboard ${userName}`
+```
+
+### Writting strings into multiple lines:
+
+#### with string interpolation:
+
+```js
+let greeting = `Hello
+
+
+this is multiline string`
+```
+
+in the browser, it looks like this:
+
+`Hello this is a multiline string`
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4MDExNzY4LC02MTc3NzYwNTNdfQ==
+eyJoaXN0b3J5IjpbLTE0MDA2MDMwNDgsOTU4MDExNzY4LC02MT
+c3NzYwNTNdfQ==
 -->
