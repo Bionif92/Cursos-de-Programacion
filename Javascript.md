@@ -138,8 +138,10 @@ this `/n` can also be used for backticks, but it's not used too much because the
 
 The `\` character escapes the next one, that means that then next one is not treated ,e.g, as a normal `n`, but is combined with with the `\` to form a `line break`
 
+More escape sequences here: [String - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Escape_notation)
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODUyMjcyMCwtMTQwMDYwMzA0OCw5NT
-gwMTE3NjgsLTYxNzc3NjA1M119
+eyJoaXN0b3J5IjpbMTI0MDY2MDcxOCwxNzk4NTIyNzIwLC0xND
+AwNjAzMDQ4LDk1ODAxMTc2OCwtNjE3Nzc2MDUzXX0=
 -->
