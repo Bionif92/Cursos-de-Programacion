@@ -66,8 +66,24 @@ Use let to declare the variable, then is not need it more
 `let`For defining a variable that can change
 `const`For a variable that can´t change
 
+### Operators
+
+Styntax features that let us manipulate values
+
+#### Mathematical operators
+
+the not known by me are:
+
+1) `%` that returns the remainder of dividing two numbers. 
+
+2) `**`Exponentiation, `2**3=8`
+
+The operators return things, e.g `+` like the SUM result of two number
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3OTE3NjM4NywtMTExNTgyMDgxMywxNj
-QxMTUzNzEsLTE2MjI3OTMwMCwtNDQ3NTQ1Mzc4XX0=
+eyJoaXN0b3J5IjpbNTY5NjU0MjYwLDEyNzkxNzYzODcsLTExMT
+U4MjA4MTMsMTY0MTE1MzcxLC0xNjIyNzkzMDAsLTQ0NzU0NTM3
+OF19
 -->
