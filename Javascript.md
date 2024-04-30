@@ -80,10 +80,12 @@ the not known by me are:
 
 The operators return things, e.g `+` like the SUM result of two number
 
-
+#### Data Types
+1) Numbers
+2) Strings `Hi`
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY5NjU0MjYwLDEyNzkxNzYzODcsLTExMT
-U4MjA4MTMsMTY0MTE1MzcxLC0xNjIyNzkzMDAsLTQ0NzU0NTM3
-OF19
+eyJoaXN0b3J5IjpbLTMxMjYzOTUyOSw1Njk2NTQyNjAsMTI3OT
+E3NjM4NywtMTExNTgyMDgxMywxNjQxMTUzNzEsLTE2MjI3OTMw
+MCwtNDQ3NTQ1Mzc4XX0=
 -->
