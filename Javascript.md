@@ -118,9 +118,28 @@ in the browser, it looks like this:
 
 `Hello this is a multiline string`
 
+#### With single or double quotes
+
+```js
+let greeting = 'Hello ' +
+                'this is multiline string'
+```
+
+White spaces and tab spaces are not taking into account, because there's a calculation`+` in between. 
+
+So, how to add line breakes and spaces then?
+
+```js
+let greeting = 'Hello \n
+                this is a multiline string'
+```
+
+this `/n` can also be used for backticks, but it's not used too much because the backticks allow line splitting in the code already
+
+The `\` character escapes the next one, that means that then next one is not treated ,e.g, as a normal `n`, but is combined with with the `\` to form a `line break`
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA2MDMwNDgsOTU4MDExNzY4LC02MT
-c3NzYwNTNdfQ==
+eyJoaXN0b3J5IjpbMTc5ODUyMjcyMCwtMTQwMDYwMzA0OCw5NT
+gwMTE3NjgsLTYxNzc3NjA1M119
 -->
