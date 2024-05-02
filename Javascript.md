@@ -201,9 +201,14 @@ the `return` statement finish the function execution.
 
 If we give JS a string and number in a sum, it will treat the number as a string, and create a long string:
 
-> Written with [StackEdit](https://stackedit.io/).
+```js
+let sum = 1 + someInput.value // it will return a string 120 e.g,
+//if the input is 20
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTQ2NTczNTksMjA0NjM5MzYzOCw0ND
-AzMDM5NDYsOTAyMTkwNzM1LC0xNzg2Mjc2Njc5LDE5MzkyMDI3
-NSwtNjQ0NDI1NzA1LC02MDA0NTI4MDQsODg2ODQ1NDA5XX0=
+eyJoaXN0b3J5IjpbNTU4NjkxMjkwLDIwNDYzOTM2MzgsNDQwMz
+AzOTQ2LDkwMjE5MDczNSwtMTc4NjI3NjY3OSwxOTM5MjAyNzUs
+LTY0NDQyNTcwNSwtNjAwNDUyODA0LDg4Njg0NTQwOV19
 -->
