@@ -211,6 +211,8 @@ let sum = 1 + +someInput.value;
 ``` 
 `currentResult.toString()`will change number to string
 
+`+` can 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTY5NjYzMV19
+eyJoaXN0b3J5IjpbLTUxMTIzOTk3NiwxMTQ5Njk2NjMxXX0=
 -->
