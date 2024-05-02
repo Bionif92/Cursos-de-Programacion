@@ -202,12 +202,12 @@ the `return` statement finish the function execution.
 If we give JS a string and number in a sum, it will treat the number as a string, and create a long string:
 
 ```js
-let sum = 1 + someInput.value // it will return a string 120 e.g,
-//if the input is 20```
-
-
+let sum = 1 + someInput.value; 
+``` 
+Will returno a string
+To change it to a number use 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDMyNTg4OCwyMDQ2MzkzNjM4LDQ0MD
-MwMzk0Niw5MDIxOTA3MzUsLTE3ODYyNzY2NzksMTkzOTIwMjc1
-LC02NDQ0MjU3MDUsLTYwMDQ1MjgwNCw4ODY4NDU0MDldfQ==
+eyJoaXN0b3J5IjpbNzgxMTQyMjMyLDIwNDYzOTM2MzgsNDQwMz
+AzOTQ2LDkwMjE5MDczNSwtMTc4NjI3NjY3OSwxOTM5MjAyNzUs
+LTY0NDQyNTcwNSwtNjAwNDUyODA0LDg4Njg0NTQwOV19
 -->
