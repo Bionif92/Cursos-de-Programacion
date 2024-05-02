@@ -173,8 +173,29 @@ Funtions can be everywhere in the script, the program will run them first
 
 Can not use variable as global if they are inside a funtion. Whith`return`you can use the variable outside
 
+### Shadow variables
+
+it's a local variable, declared in a function, that has the same name as an already declared global variable.
+
+```js
+let userName = 'Max';
+function greetUser(name) {
+  let userName = name;
+  alert(userName);
+}
+userName = 'Manu';
+greetUser('Max'); // will still greet Max
+```
+
+the local `userName` variable inside the funtion is `shadowed`, so it doesn't overwrite the global variable, it's a different variable than the global one, named the same, inside the function block.
+
+### The return statement:
+
+the `return` statement finish the function execution.
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYyNzY2NzksMTkzOTIwMjc1LC02ND
-Q0MjU3MDUsLTYwMDQ1MjgwNCw4ODY4NDU0MDldfQ==
+eyJoaXN0b3J5IjpbOTg4MTMzNTM3LC0xNzg2Mjc2Njc5LDE5Mz
+kyMDI3NSwtNjQ0NDI1NzA1LC02MDA0NTI4MDQsODg2ODQ1NDA5
+XX0=
 -->
