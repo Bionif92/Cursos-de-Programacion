@@ -204,11 +204,11 @@ If we give JS a string and number in a sum, it will treat the number as a string
 ```js
 let sum = 1 + someInput.value; 
 ``` 
-Will returno a string
-To change it to a number use `parseInt`(without float number) or `parseFloat`(with float)
+Will return a string
+To change it to a number use `parseInt`(without float number) or `parseFloat`(with float) or put a `+`before the variable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMzI5Mzk1LDIwNDYzOTM2MzgsNDQwMz
-AzOTQ2LDkwMjE5MDczNSwtMTc4NjI3NjY3OSwxOTM5MjAyNzUs
-LTY0NDQyNTcwNSwtNjAwNDUyODA0LDg4Njg0NTQwOV19
+eyJoaXN0b3J5IjpbLTE4NDIzNTM1NDAsMjA0NjM5MzYzOCw0ND
+AzMDM5NDYsOTAyMTkwNzM1LC0xNzg2Mjc2Njc5LDE5MzkyMDI3
+NSwtNjQ0NDI1NzA1LC02MDA0NTI4MDQsODg2ODQ1NDA5XX0=
 -->
