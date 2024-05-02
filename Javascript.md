@@ -205,9 +205,10 @@ If we give JS a string and number in a sum, it will treat the number as a string
 let sum = 1 + someInput.value; 
 ``` 
 Will returno a string
-To change it to a number use 
+To change it to a number use `parseInt`(without float number) or `parseFloat`(with float)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMTQyMjMyLDIwNDYzOTM2MzgsNDQwMz
+eyJoaXN0b3J5IjpbNDUwMzI5Mzk1LDIwNDYzOTM2MzgsNDQwMz
 AzOTQ2LDkwMjE5MDczNSwtMTc4NjI3NjY3OSwxOTM5MjAyNzUs
 LTY0NDQyNTcwNSwtNjAwNDUyODA0LDg4Njg0NTQwOV19
 -->
