@@ -196,9 +196,11 @@ the `return` statement finish the function execution.
 ### Direct and Indirect funtion
 `add()`for use the funtion inmidiatelly
 `add` to use the funtion when is called
+
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQwMzAzOTQ2LDkwMjE5MDczNSwtMTc4Nj
-I3NjY3OSwxOTM5MjAyNzUsLTY0NDQyNTcwNSwtNjAwNDUyODA0
-LDg4Njg0NTQwOV19
+eyJoaXN0b3J5IjpbMjA0NjM5MzYzOCw0NDAzMDM5NDYsOTAyMT
+kwNzM1LC0xNzg2Mjc2Njc5LDE5MzkyMDI3NSwtNjQ0NDI1NzA1
+LC02MDA0NTI4MDQsODg2ODQ1NDA5XX0=
 -->
