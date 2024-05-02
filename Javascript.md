@@ -197,10 +197,13 @@ the `return` statement finish the function execution.
 `add()`for use the funtion inmidiatelly
 `add` to use the funtion when is called
 
+### Mixing Numbers & Strings
+
+If we give JS a string and number in a sum, it will treat the number as a string, and create a long string:
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjM5MzYzOCw0NDAzMDM5NDYsOTAyMT
-kwNzM1LC0xNzg2Mjc2Njc5LDE5MzkyMDI3NSwtNjQ0NDI1NzA1
-LC02MDA0NTI4MDQsODg2ODQ1NDA5XX0=
+eyJoaXN0b3J5IjpbLTE0OTQ2NTczNTksMjA0NjM5MzYzOCw0ND
+AzMDM5NDYsOTAyMTkwNzM1LC0xNzg2Mjc2Njc5LDE5MzkyMDI3
+NSwtNjQ0NDI1NzA1LC02MDA0NTI4MDQsODg2ODQ1NDA5XX0=
 -->
