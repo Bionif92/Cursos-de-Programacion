@@ -171,10 +171,10 @@ it gets inputs, returns outputs. With the same intputs, it returns the same outp
 
 Funtions can be everywhere in the script, the program will run them first
 
-Can not use variable as global if they are inside a funtion
+Can not use variable as global if they are inside a funtion. Whith`return`you can use the 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQyOTE2MDUsMTkzOTIwMjc1LC02ND
-Q0MjU3MDUsLTYwMDQ1MjgwNCw4ODY4NDU0MDldfQ==
+eyJoaXN0b3J5IjpbMTU3NDAwMTQ5OCwxOTM5MjAyNzUsLTY0ND
+QyNTcwNSwtNjAwNDUyODA0LDg4Njg0NTQwOV19
 -->
