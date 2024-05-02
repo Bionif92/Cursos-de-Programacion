@@ -169,8 +169,10 @@ function addNumber(num1, num2) {
 
 it gets inputs, returns outputs. With the same intputs, it returns the same outputs. 
 
+Funtions can be everywhere in the script, the program will run them first
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NDQyNTcwNSwtNjAwNDUyODA0LDg4Nj
-g0NTQwOV19
+eyJoaXN0b3J5IjpbMTkzOTIwMjc1LC02NDQ0MjU3MDUsLTYwMD
+Q1MjgwNCw4ODY4NDU0MDldfQ==
 -->
