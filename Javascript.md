@@ -151,11 +151,12 @@ function addNumbers (num1, num2) {
 }
 ```
 Can write the funtion wherever you want
+Need to call a funtion to generate the output
 
 #### IMPORTANT: usually no `;` is added after the the funcion `}` closing curly brace, in function declarations, but it's added to function expressions (functions saved in constants)
 `num1` variable is defined inside the function body of the function, which is a block, but can't be used outside the function.
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2ODQ1NDA5XX0=
+eyJoaXN0b3J5IjpbLTYwMDQ1MjgwNCw4ODY4NDU0MDldfQ==
 -->
