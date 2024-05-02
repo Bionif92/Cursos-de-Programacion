@@ -193,10 +193,12 @@ the local `userName` variable inside the funtion is `shadowed`, so it doesn't ov
 
 the `return` statement finish the function execution.
 
-
+### Direct and Indirect funtion
+`add()`for use the funtion inmidiatelly
+`add` to use the funtion when is called
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAyMTkwNzM1LC0xNzg2Mjc2Njc5LDE5Mz
-kyMDI3NSwtNjQ0NDI1NzA1LC02MDA0NTI4MDQsODg2ODQ1NDA5
-XX0=
+eyJoaXN0b3J5IjpbNDQwMzAzOTQ2LDkwMjE5MDczNSwtMTc4Nj
+I3NjY3OSwxOTM5MjAyNzUsLTY0NDQyNTcwNSwtNjAwNDUyODA0
+LDg4Njg0NTQwOV19
 -->
