@@ -206,9 +206,13 @@ let sum = 1 + someInput.value;
 ``` 
 Will return a string
 To change it to a number use `parseInt`(without float number) or `parseFloat`(with float) or put a `+`before the variable
+```js
+let sum = 1 + +someInput.value; 
+``` 
+`currentResult
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDIzNTM1NDAsMjA0NjM5MzYzOCw0ND
+eyJoaXN0b3J5IjpbLTE3OTM2NzQ1NjMsMjA0NjM5MzYzOCw0ND
 AzMDM5NDYsOTAyMTkwNzM1LC0xNzg2Mjc2Njc5LDE5MzkyMDI3
 NSwtNjQ0NDI1NzA1LC02MDA0NTI4MDQsODg2ODQ1NDA5XX0=
 -->
