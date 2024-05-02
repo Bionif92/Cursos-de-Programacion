@@ -158,8 +158,19 @@ Need to call a funtion to generate the output
 
 **Strings always have to be in one line** (or split into multiple strings, concatenated `via +`)
 
+### Pure function
+
+```js
+// a pure function
+function addNumber(num1, num2) {
+    return num1 + num2;
+}
+```
+
+it gets inputs, returns outputs. With the same intputs, it returns the same outputs. 
+
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzAyMjc0OCwtNjAwNDUyODA0LDg4Nj
+eyJoaXN0b3J5IjpbLTY0NDQyNTcwNSwtNjAwNDUyODA0LDg4Nj
 g0NTQwOV19
 -->
