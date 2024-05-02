@@ -211,8 +211,10 @@ let sum = 1 + +someInput.value;
 ``` 
 `currentResult.toString()`will change number to string
 
-`+` can 
+`+` can add a string with number
+`- , * , / ` generate the ecuation with a number and a string
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMTIzOTk3NiwxMTQ5Njk2NjMxXX0=
+eyJoaXN0b3J5IjpbMTgxNDEwMTIyNSwxMTQ5Njk2NjMxXX0=
 -->
