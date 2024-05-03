@@ -214,7 +214,14 @@ let sum = 1 + +someInput.value;
 `+` can add a string with number
 `- , * , / ` generate the ecuation with a number and a string
 
+```js
+const calcDescription = `${currentResult} + ${userInput.value}`
+
+```
+
+// it has currentResult.toString() under the hood
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDEwMTIyNV19
+eyJoaXN0b3J5IjpbMTYyMzEzNzAzOSwxODE0MTAxMjI1XX0=
 -->
