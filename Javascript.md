@@ -264,9 +264,11 @@ currentResult--
 ```js
 let logEntries = [];
 
-logEntries
+logEntries.push (enteredNumber) // to enter the data you need in the array
+
+console
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU1NzA0NSwtODg1OTA1MDc0XX0=
+eyJoaXN0b3J5IjpbMjI1MTA4NjA3LC04ODU5MDUwNzRdfQ==
 -->
