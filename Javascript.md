@@ -228,8 +228,47 @@ const calcDescription = `${currentResult} + ${userInput.value}`
 /* this is a block comment
 that can use multiple lines!*/
 ```
+### More operators
 
+```js
+currentResult = currentResult + enteredNumber;
+
+// SAME AS
+
+currentResult += enteredNumber
+// it also works for -, * and / operators
+```
+
+```js
+currentResult = currentResult + 1
+
+// SAME AS
+
+currentResult++
+
+// it also works for -
+currentResult--
+
+// the ++ is Increment operator
+// the -- is Decrement operator
+
+//they return the value of the value before change
+```
+
+```js
+++currentResult // returns the modified value
+```
+
+### Arrays
+
+accessing inexisting elements in an array returns `undefined`. Example:
+
+```js
+const logEntries = ['hola'];
+
+console.log(logEntries[1]) // returns undefined
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM1ODU3NTUsMTYyMzEzNzAzOSwxOD
-E0MTAxMjI1XX0=
+eyJoaXN0b3J5IjpbLTg4NTkwNTA3NCwtMTI0MzU4NTc1NSwxNj
+IzMTM3MDM5LDE4MTQxMDEyMjVdfQ==
 -->
