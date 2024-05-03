@@ -261,13 +261,12 @@ currentResult--
 
 ### Arrays
 
-accessing inexisting elements in an array returns `undefined`. Example:
-
 ```js
-const logEntries = ['hola'];
+let logEntries = [];
 
-console.log(logEntries[1]) // returns undefined
+logEntries
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTkwNTA3NF19
+eyJoaXN0b3J5IjpbLTExMjU1NzA0NSwtODg1OTA1MDc0XX0=
 -->
