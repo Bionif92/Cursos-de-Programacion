@@ -269,13 +269,15 @@ logEntries.push (enteredNumber) // to enter the data you need in the array
 console.log (logEntries) // put the list in console of Chrome
 
 console.log (logEntries[0])// only first number of arrray appear, 1 the second, and so on
-
 ```
 Appear `undefined` if the value doesn´t exist yet, 
 
 ### Objects
 
+```js
+const logEntry = {}
 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTI4NTUzMl19
+eyJoaXN0b3J5IjpbLTE5NTg3MzQ2NzUsMTMxMTI4NTUzMl19
 -->
