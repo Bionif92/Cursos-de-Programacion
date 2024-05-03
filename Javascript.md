@@ -218,10 +218,18 @@ let sum = 1 + +someInput.value;
 const calcDescription = `${currentResult} + ${userInput.value}`
 
 ```
-
 // it has currentResult.toString() under the hood
 
+### Comments
+
+```
+// this is a comment
+
+/* this is a block comment
+that can use multiple lines!*/
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzEzNzAzOSwxODE0MTAxMjI1XX0=
+eyJoaXN0b3J5IjpbLTEyNDM1ODU3NTUsMTYyMzEzNzAzOSwxOD
+E0MTAxMjI1XX0=
 -->
