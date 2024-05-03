@@ -269,6 +269,5 @@ const logEntries = ['hola'];
 console.log(logEntries[1]) // returns undefined
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NTkwNTA3NCwtMTI0MzU4NTc1NSwxNj
-IzMTM3MDM5LDE4MTQxMDEyMjVdfQ==
+eyJoaXN0b3J5IjpbLTg4NTkwNTA3NF19
 -->
