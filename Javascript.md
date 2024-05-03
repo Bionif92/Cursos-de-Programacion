@@ -271,6 +271,8 @@ console.log (logEntries) // put the list in console of Chrome
 console.log (logEntries[0])// only first number of arrray appear, 1 the second, and so on
 
 ```
+Appear `undefined` if the value doesn´t exist yet, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4ODExODM3MSwtODg1OTA1MDc0XX0=
+eyJoaXN0b3J5IjpbLTE4MTU5NDMxOTksMTY4ODExODM3MSwtOD
+g1OTA1MDc0XX0=
 -->
