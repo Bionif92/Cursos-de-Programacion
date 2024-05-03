@@ -268,9 +268,9 @@ logEntries.push (enteredNumber) // to enter the data you need in the array
 
 console.log (logEntries) // put the list in console of Chrome
 
-console.log (logEntries[0])// only first number of arrray appear, 1 the second, and
+console.log (logEntries[0])// only first number of arrray appear, 1 the second, and so on
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTkwMjI0OTYsLTg4NTkwNTA3NF19
+eyJoaXN0b3J5IjpbMTY4ODExODM3MSwtODg1OTA1MDc0XX0=
 -->
