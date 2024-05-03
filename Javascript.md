@@ -275,9 +275,9 @@ Appear `undefined` if the value doesn´t exist yet,
 ### Objects
 
 ```js
-const logEntry = {}
+const logEntry = {operation:'ADD',prevResult:number 1}
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg3MzQ2NzUsMTMxMTI4NTUzMl19
+eyJoaXN0b3J5IjpbLTEzNDAxMTIyOTcsMTMxMTI4NTUzMl19
 -->
