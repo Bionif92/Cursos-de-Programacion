@@ -267,8 +267,9 @@ let logEntries = [];
 logEntries.push (enteredNumber) // to enter the data you need in the array
 
 console.log (logEntries) // put the list in console of Chrome
+conso
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxNDc0NjU3LC04ODU5MDUwNzRdfQ==
+eyJoaXN0b3J5IjpbODg4MTExNTkxLC04ODU5MDUwNzRdfQ==
 -->
