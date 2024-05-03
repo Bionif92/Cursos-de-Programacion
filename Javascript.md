@@ -279,9 +279,9 @@ const logEntry = {operation:'ADD',prevResult:number 1,number:number 2,result: nu
 
 logEntries.push (logEntry) 
 
-console.log (logEntries)// log the entire object
+console.log (logEntries)// log the entire object and the array
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MTA3MDE4LDE2NzU2OTM5MDgsMTMxMT
-I4NTUzMl19
+eyJoaXN0b3J5IjpbLTIxMjE5NjM1NzMsMTY3NTY5MzkwOCwxMz
+ExMjg1NTMyXX0=
 -->
