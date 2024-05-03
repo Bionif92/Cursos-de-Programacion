@@ -277,7 +277,11 @@ Appear `undefined` if the value doesn´t exist yet,
 ```js
 const logEntry = {operation:'ADD',prevResult:number 1,number:number 2,result: number 3}
 
+logEntries.push (logEntry) 
+
+console.log (logEntries)// log the entire object
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTY5MzkwOCwxMzExMjg1NTMyXX0=
+eyJoaXN0b3J5IjpbNTE1MTA3MDE4LDE2NzU2OTM5MDgsMTMxMT
+I4NTUzMl19
 -->
