@@ -422,6 +422,9 @@ because there's no such `JS` file to download.😅
 ## Debugging and efficient development
 
 ### VSCode shorcuts
+
+Go to `File` -> `Preferences` -> `Keyboard Shortcuts` and look for command names
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODQ0MjAyNDcsLTY2Nzg0MzIzMl19
+eyJoaXN0b3J5IjpbMjA2MzIyNjY5MiwtMTc4NDQyMDI0NywtNj
+Y3ODQzMjMyXX0=
 -->
