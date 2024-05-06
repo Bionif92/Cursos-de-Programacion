@@ -387,7 +387,7 @@ With `defer` the scripts execution follows the order they're listed on the HTML.
 
 ### Async attribute: when the JS doesn't target the DOM
 
-Download JS -> execute when finished downloading
+Download JS -> execute when finished downloading - difference with defer, execute all right away
 
 when the  `JS` doesnt target the DOM, why bothering waiting for the HTML parse to finish? it just executes the `JS` when the download finished.
 
@@ -420,5 +420,5 @@ because there's no such `JS` file to download.😅
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDI5MjkxNzgsNzcyOTg1ODQ2XX0=
+eyJoaXN0b3J5IjpbLTk2Mjg0OTk4Niw3NzI5ODU4NDZdfQ==
 -->
