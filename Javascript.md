@@ -321,6 +321,69 @@ typeof NaN // print "number"
 typeof {name: "tebi"} // prints "object"
 typeof [1,2] // prints "object"
 ```
+
+### Async and defer: never blocks HTML parsing 😉
+
+#### ⚠️ make sure you start downloading your scripts in the head!
+
+Keep this word in mind: **HTML parsing**
+
+If `JS` code depends on `HTML` (like accessing DOM elements), the `JS` files can be imported at the end of the `<body>`:
+
+```html
+   </body>
+   SOME HTML HERE
+
+    <script src="assets/scripts/vendor.js"></script>
+    <script src="assets/scripts/app.js"></script>
+  </body>
+```
+
+BUT, there's a performace issue, that can be checked going to `Incognito chrome tab` -> `inspect` -> `performance` -> `start recording` -> `check the timeline` -> `expand Network part in the zoom in the middle window`.
+
+Then look at `Main` in the lower window, to see events:
+The HTML is finished parsed, and then after some miliseconds, the `Scripts` are Evaluated. We could do better.
+
+The key:
+
+###### I'd like to `start downloading the scripts` at the same time as `Parsing the HTML`, but executing the `Scripts` after the `HTML Parsing` has been finished.
+
+Option 1: (not recommended)
+
+```html
+<head>
+  <script src="assets/scripts/vendor.js"></script>
+  <script src="assets/scripts/app.js"></script>   
+</head>
+<body>
+</body>
+```
+
+⚠️ It throws an error because the `JS` code targets DOM elements not yet parsed.
+```bash
+Uncaught ReferenceError: addBtn is not defined
+    at app.js:59
+```
+
+The download of the `JS` files blocks (or stops) the HTML parsing.
+
+### Defer attribute: when the JS targets the DOM
+
+Download JS -> execute it when the HTML parsing finished.
+
+it tells the browser to download the `JS` files straight away, no blocking the **HTML parsing**, and execute the `JS` after the HTML has been parsed.
+```html
+<head>
+  <script src="assets/scripts/vendor.js" defer></script>
+  <script src="assets/scripts/app.js" defer></script>   
+</head>
+<body>
+</body>
+```
+
+💡The time difference between the end of the HTML parse and the `Script execution` is much shorter than when importing the scripts at the end of the `<body>`.
+
+With `defer` the scripts execution follows the order they're listed on the HTML.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzMjE0MTZdfQ==
+eyJoaXN0b3J5IjpbNzcyOTg1ODQ2XX0=
 -->
