@@ -300,6 +300,28 @@ NaN means Not a Number
 username = 3 * 'hi'
 ```
 The result will be NaN
+
+### Type Of
+
+Wanna check the `type` of a variable at runtime? it returns a string with the type.
+
+```js
+typeof 'hola' // prints "string"
+typeof 1 // prints "number"
+```
+
+playing with `typeof`:
+
+```js
+typeof undefined; // prints "undefined""
+typeof null; // prints "object"
+typeof NaN // print "number"
+
+
+typeof {name: "tebi"} // prints "object"
+typeof [1,2] // prints "object"
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODIyMzMwNTcsLTM2NjE2NjkxXX0=
+eyJoaXN0b3J5IjpbLTE2MzAzMjE0MTYsLTEzODIyMzMwNTcsLT
+M2NjE2NjkxXX0=
 -->
