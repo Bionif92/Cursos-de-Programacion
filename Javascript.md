@@ -287,6 +287,5 @@ To access an specific part of the object
 console.log (logEntry.operation)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjE2NjkxLC0yMTIxOTYzNTczLDE2Nz
-U2OTM5MDgsMTMxMTI4NTUzMl19
+eyJoaXN0b3J5IjpbLTM2NjE2NjkxXX0=
 -->
