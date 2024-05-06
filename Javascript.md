@@ -384,6 +384,41 @@ it tells the browser to download the `JS` files straight away, no blocking the *
 💡The time difference between the end of the HTML parse and the `Script execution` is much shorter than when importing the scripts at the end of the `<body>`.
 
 With `defer` the scripts execution follows the order they're listed on the HTML.
+
+### Async attribute: when the JS doesn't target the DOM
+
+Download JS -> execute when finished downloading
+
+when the  `JS` doesnt target the DOM, why bothering waiting for the HTML parse to finish? it just executes the `JS` when the download finished.
+
+```html
+<head>
+  <script src="assets/scripts/vendor.js" async></script>
+  <script src="assets/scripts/app.js" async></script>   
+</head>
+<body>
+</body>
+```
+
+when using `async` the order of the scripts executions depends on which one gets downloaded first.
+
+⚠️`async & defer` doesn't have any effect when used here:
+```html
+//No effect!
+<script defer or async>
+ alert('hello world')
+</script>
+```
+
+because there's no such `JS` file to download.😅
+```html
+// DONT combine inline JS and src
+// the inline script will be ignored!
+<script src="...">
+ alert('hello world')
+</script>
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyOTg1ODQ2XX0=
+eyJoaXN0b3J5IjpbLTEwNDI5MjkxNzgsNzcyOTg1ODQ2XX0=
 -->
