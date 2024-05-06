@@ -389,7 +389,7 @@ With `defer` the scripts execution follows the order they're listed on the HTML.
 
 Download JS -> execute when finished downloading - difference with defer, execute all right away
 
-when the  `JS` doesnt target the DOM, why bothering waiting for the HTML parse to finish? it just executes the `JS` when the download finished.
+when the  `JS` doesnt target the DOM, why bothering waiting for the HTML parse to finish? it just executes the `JS` when the download finished. When script dont interact
 
 ```html
 <head>
@@ -420,5 +420,5 @@ because there's no such `JS` file to download.😅
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2Mjg0OTk4Niw3NzI5ODU4NDZdfQ==
+eyJoaXN0b3J5IjpbMTg3NTA5NDc5Miw3NzI5ODU4NDZdfQ==
 -->
