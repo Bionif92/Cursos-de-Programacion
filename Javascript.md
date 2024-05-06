@@ -281,7 +281,8 @@ logEntries.push (logEntry)
 
 console.log (logEntries)// log the entire object and the array
 ```
+For accessi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjE5NjM1NzMsMTY3NTY5MzkwOCwxMz
-ExMjg1NTMyXX0=
+eyJoaXN0b3J5IjpbMjkzNzc2MDQ1LC0yMTIxOTYzNTczLDE2Nz
+U2OTM5MDgsMTMxMTI4NTUzMl19
 -->
