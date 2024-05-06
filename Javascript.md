@@ -322,6 +322,5 @@ typeof {name: "tebi"} // prints "object"
 typeof [1,2] // prints "object"
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzAzMjE0MTYsLTEzODIyMzMwNTcsLT
-M2NjE2NjkxXX0=
+eyJoaXN0b3J5IjpbLTE2MzAzMjE0MTZdfQ==
 -->
