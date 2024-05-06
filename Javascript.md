@@ -286,6 +286,13 @@ To access an specific part of the object
 ```js
 console.log (logEntry.operation)
 ```
+### Undefined, Null and NaN
+
+To reset a variable:
+```js 
+username = null
+```
+NaN means No
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjE2NjkxXX0=
+eyJoaXN0b3J5IjpbMTAzNjgzNzk5NywtMzY2MTY2OTFdfQ==
 -->
