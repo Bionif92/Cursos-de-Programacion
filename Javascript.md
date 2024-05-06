@@ -289,10 +289,17 @@ console.log (logEntry.operation)
 ### Undefined, Null and NaN
 
 To reset a variable:
+
 ```js 
 username = null
 ```
-NaN means No
+
+NaN means Not a Number
+
+```js 
+username = 3 * 'hi'
+```
+The result will be NaN
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNjgzNzk5NywtMzY2MTY2OTFdfQ==
+eyJoaXN0b3J5IjpbLTEzODIyMzMwNTcsLTM2NjE2NjkxXX0=
 -->
