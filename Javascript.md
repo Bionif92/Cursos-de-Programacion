@@ -281,8 +281,12 @@ logEntries.push (logEntry)
 
 console.log (logEntries)// log the entire object and the array
 ```
-For accessi
+To access an specific part of the object 
+
+```js
+console.log (
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzNzc2MDQ1LC0yMTIxOTYzNTczLDE2Nz
-U2OTM5MDgsMTMxMTI4NTUzMl19
+eyJoaXN0b3J5IjpbLTk1MjAxMzg3NSwtMjEyMTk2MzU3MywxNj
+c1NjkzOTA4LDEzMTEyODU1MzJdfQ==
 -->
