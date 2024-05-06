@@ -424,7 +424,13 @@ because there's no such `JS` file to download.😅
 ### VSCode shorcuts
 
 Go to `File` -> `Preferences` -> `Keyboard Shortcuts` and look for command names
+
+### Autocompletion
+
+if the function name autocompletion menu has been exited by pressing `ESC`, it can be re-opened with `ctrl + space`.
+
+if the parameters hint has been escaped, it can be reopened with `Trigger Parameter Hints`, `shift + cmd + space`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MzIyNjY5MiwtMTc4NDQyMDI0NywtNj
-Y3ODQzMjMyXX0=
+eyJoaXN0b3J5IjpbLTE2ODA0MjIxNzMsLTE3ODQ0MjAyNDcsLT
+Y2Nzg0MzIzMl19
 -->
