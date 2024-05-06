@@ -284,9 +284,9 @@ console.log (logEntries)// log the entire object and the array
 To access an specific part of the object 
 
 ```js
-console.log (
+console.log (logEntry.operation)
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MjAxMzg3NSwtMjEyMTk2MzU3MywxNj
-c1NjkzOTA4LDEzMTEyODU1MzJdfQ==
+eyJoaXN0b3J5IjpbLTM2NjE2NjkxLC0yMTIxOTYzNTczLDE2Nz
+U2OTM5MDgsMTMxMTI4NTUzMl19
 -->
