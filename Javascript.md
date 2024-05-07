@@ -431,6 +431,5 @@ if the function name autocompletion menu has been exited by pressing `ESC`, it c
 
 if the parameters hint has been escaped, it can be reopened with `Trigger Parameter Hints`, `shift + cmd + space`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA0MjIxNzMsLTE3ODQ0MjAyNDcsLT
-Y2Nzg0MzIzMl19
+eyJoaXN0b3J5IjpbLTE2ODA0MjIxNzNdfQ==
 -->
