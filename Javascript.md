@@ -437,6 +437,5 @@ https://es.stackoverflow.com/ Forums
 
 To search in google, use `javascript + problem`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODc1OTI4MSwtMTI4NzUzMjI3MSwtMT
-A4MDkyMzg1MV19
+eyJoaXN0b3J5IjpbMTE2ODc1OTI4MV19
 -->
