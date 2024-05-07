@@ -430,6 +430,11 @@ Go to `File` -> `Preferences` -> `Keyboard Shortcuts` and look for command names
 if the function name autocompletion menu has been exited by pressing `ESC`, it can be re-opened with `ctrl + space`.
 
 if the parameters hint has been escaped, it can be reopened with `Trigger Parameter Hints`, `shift + cmd + space`.
+
+### Help and Tips	
+
+https://developer.mozilla.org/es/ Use MDN to help you
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA0MjIxNzNdfQ==
+eyJoaXN0b3J5IjpbLTE4MDAzNjM0MzQsLTE2ODA0MjIxNzNdfQ
+==
 -->
