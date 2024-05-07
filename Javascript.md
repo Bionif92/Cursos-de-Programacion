@@ -433,8 +433,8 @@ if the parameters hint has been escaped, it can be reopened with `Trigger Parame
 
 ### Help and Tips	
 
-https://developer.mozilla.org/es/ Use MDN to help you
+https://developer.mozilla.org/es/ Use MDN to help you 
+https://ecma-international.org/publications-and-standards/standards/ecma-262/ Use ECMA to see Java languague
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDAzNjM0MzQsLTE2ODA0MjIxNzNdfQ
-==
+eyJoaXN0b3J5IjpbLTEwODA5MjM4NTFdfQ==
 -->
