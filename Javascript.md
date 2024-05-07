@@ -442,7 +442,36 @@ Can use `console.log`to see how the code is in certain part of the script
 
 ### Breakpoints
 Tell the browser to stop code execution when a certain part of the code is reached
+After hitting a `debugger` keyword in the code or `breakpoint` applied on the Chrome dev tools, there are buttons:
+
+- Play button: Resume script execution
+
+- Step over next function call. (kind of go the next line):
+  
+  ```js
+   debugger;
+   const enteredNumber = getUserInput();
+   // will jump to this line
+   currentResult += enteredNumber;
+  ```
+
+- down arrow: Step into next function call (chain of function calls)
+
+Will get you inside this function:
+
+```js
+function getUserInput() {
+  return parseInt(userInput.value); //on this line
+}
+```
+
+How to get out of that function? press the up arrow
+
+- up arrow: set out of current function
+
+- The right arrow with the point: Step. It's a combination of `Step Over next function call` and `down arrow`.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDUyNzk0NiwtMTMxMjU2ODMxMCwxMT
-Y4NzU5MjgxXX0=
+eyJoaXN0b3J5IjpbMTUyNTEyMDU1NCwyMDk0NTI3OTQ2LC0xMz
+EyNTY4MzEwLDExNjg3NTkyODFdfQ==
 -->
