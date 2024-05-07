@@ -436,6 +436,9 @@ https://ecma-international.org/publications-and-standards/standards/ecma-262/ Us
 https://es.stackoverflow.com/ Forums
 
 To search in google, use `javascript + problem`
+
+### Debuggin
+Can use `console.log`to see how the code is in certain part of the script
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODc1OTI4MV19
+eyJoaXN0b3J5IjpbLTEzMTI1NjgzMTAsMTE2ODc1OTI4MV19
 -->
