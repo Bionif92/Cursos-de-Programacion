@@ -97,8 +97,6 @@ the `+` operator here doesn't SUM numbers but it joins strings into a single one
 
 is the solution to string concatenation, which is ugly.
 
-
-
 ```js
 let greeting = `Welcome onboard ${userName}`
 ```
@@ -436,5 +434,6 @@ if the parameters hint has been escaped, it can be reopened with `Trigger Parame
 https://developer.mozilla.org/es/ Use MDN to help you 
 https://ecma-international.org/publications-and-standards/standards/ecma-262/ Use ECMA to see Java languague
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA5MjM4NTFdfQ==
+eyJoaXN0b3J5IjpbLTEyODc1MzIyNzEsLTEwODA5MjM4NTFdfQ
+==
 -->
