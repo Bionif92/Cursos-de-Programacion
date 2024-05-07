@@ -435,8 +435,8 @@ https://developer.mozilla.org/es/ Use MDN to help you
 https://ecma-international.org/publications-and-standards/standards/ecma-262/ Use ECMA to see Java languague
 https://es.stackoverflow.com/ Forums
 
-To sear
+To search in google, use `javascript + problem`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYzNjg4OTYsLTEyODc1MzIyNzEsLT
-EwODA5MjM4NTFdfQ==
+eyJoaXN0b3J5IjpbMTE2ODc1OTI4MSwtMTI4NzUzMjI3MSwtMT
+A4MDkyMzg1MV19
 -->
