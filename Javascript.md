@@ -439,6 +439,10 @@ To search in google, use `javascript + problem`
 
 ### Debuggin
 Can use `console.log`to see how the code is in certain part of the script
+
+### Breakpoints
+Tell the browser to stop code execution when a certain part of the code is reached
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI1NjgzMTAsMTE2ODc1OTI4MV19
+eyJoaXN0b3J5IjpbMjA5NDUyNzk0NiwtMTMxMjU2ODMxMCwxMT
+Y4NzU5MjgxXX0=
 -->
