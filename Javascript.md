@@ -495,6 +495,32 @@ Install `Javascript Debugger`, then clic on the left side of the sentence of the
 -   VS Code Keybindings: [https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
 -   VS Code Extensions Docs: [https://code.visualstudio.com/docs/editor/extension-gallery](https://code.visualstudio.com/docs/editor/extension-gallery)
 -   Google Chrome DevTools Docs: [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)
+
+## Control structures
+
+### if blocks
+
+```js
+if (condition1) {
+    //do something
+} else if (condition2) {
+    // do something
+} else {
+    // do something else
+}
+```
+conditions evaluate to true or false.
+
+In order to get this booleans values, `boolean operators` are used:
+
+1) `==` and `!=` equal and un equal operators, they check value. e.g: `3 == '3'` return `true`
+
+2) `===` and `!===` **strict** equal and un equal operators. They **check value and type**. e.g `3 === '3'` returns `false`.
+
+3) `> >= ` and `< <=` for numbers and strings
+
+4) `!` not True operator
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzkwMTMwMywtNzkyMjAzMTc0XX0=
+eyJoaXN0b3J5IjpbMTIwNTg3OTc1MCwtNjQ3OTAxMzAzLC03OT
+IyMDMxNzRdfQ==
 -->
