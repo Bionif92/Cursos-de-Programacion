@@ -522,11 +522,14 @@ In order to get this booleans values, `boolean operators` are used:
 4) `!` not True operator
 
 #### If and Else If
-``
+
+```js 
 if (calculationType == 'ADD') {}
 
-else or else if () {}
+else or else if () {} 
+```
+else if, when you want to next more conditions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDYwNDc2MywtMTU3MjUzOTEzMCwxMj
-A1ODc5NzUwLC02NDc5MDEzMDMsLTc5MjIwMzE3NF19
+eyJoaXN0b3J5IjpbLTE1MDQ4MDI3MTAsLTE1NzI1MzkxMzAsMT
+IwNTg3OTc1MCwtNjQ3OTAxMzAzLC03OTIyMDMxNzRdfQ==
 -->
