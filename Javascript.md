@@ -513,14 +513,14 @@ conditions evaluate to true or false.
 
 In order to get this booleans values, `boolean operators` are used:
 
-1) `==` and `!=` equal and un equal operators, they check value. e.g: `3 == '3'` return `true`
+1) `==` and `!=` equal and non equal operators, they check value. e.g: `3 == '3'` return `true`
 
-2) `===` and `!===` **strict** equal and un equal operators. They **check value and type**. e.g `3 === '3'` returns `false`.
+2) `===` and `!===` **strict** equal and non equal operators. They **check value and type**. e.g `3 === '3'` returns `false`.
 
 3) `> >= ` and `< <=` for numbers and strings
 
 4) `!` not True operator
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNTg3OTc1MCwtNjQ3OTAxMzAzLC03OT
-IyMDMxNzRdfQ==
+eyJoaXN0b3J5IjpbLTE1NzI1MzkxMzAsMTIwNTg3OTc1MCwtNj
+Q3OTAxMzAzLC03OTIyMDMxNzRdfQ==
 -->
