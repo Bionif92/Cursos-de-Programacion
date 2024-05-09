@@ -478,7 +478,14 @@ You can right click `Edit breakpoint` and add a condition for it's triggered.
 ```js
 getUserInput() > 100
 ```
+#### Brekpoints on events
+
+What if I wanna stop JS execution and debbug whenever a registered event for clicks happens in the app? e.g when clicking add, deduct, didive and multiply?
+would be cumbersome to add 4 breakpoint manually.
+
+The most efficient way is to use `Event listeners breakpoint` and select `click`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTU2ODE5MSwxNTI1MTIwNTU0LDIwOT
-Q1Mjc5NDYsLTEzMTI1NjgzMTAsMTE2ODc1OTI4MV19
+eyJoaXN0b3J5IjpbMTg1NDUzNzI4NiwtNzg1NTY4MTkxLDE1Mj
+UxMjA1NTQsMjA5NDUyNzk0NiwtMTMxMjU2ODMxMCwxMTY4NzU5
+MjgxXX0=
 -->
