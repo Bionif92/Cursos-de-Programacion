@@ -471,7 +471,14 @@ How to get out of that function? press the up arrow
 
 - The right arrow with the point: Step. It's a combination of `Step Over next function call` and `down arrow`.
 
+#### Conditional breakpoints
+
+You can right click `Edit breakpoint` and add a condition for it's triggered.
+
+```js
+getUserInput() > 100
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTEyMDU1NCwyMDk0NTI3OTQ2LC0xMz
-EyNTY4MzEwLDExNjg3NTkyODFdfQ==
+eyJoaXN0b3J5IjpbLTc4NTU2ODE5MSwxNTI1MTIwNTU0LDIwOT
+Q1Mjc5NDYsLTEzMTI1NjgzMTAsMTE2ODc1OTI4MV19
 -->
