@@ -487,9 +487,9 @@ The most efficient way is to use `Event listeners breakpoint` and select `click`
 
 #### Conect VS Code to Chrome for debug
 
-Install `Javascript Debugger`, then clic on the left side of the sentence of the script you want a breakpoint, and the 
+Install `Javascript Debugger`, then clic on the left side of the sentence of the script you want a breakpoint, and then clic `Run -> Start Debugging` and select Chrome
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyOTQwODg3MSwxODU0NTM3Mjg2LC03OD
+eyJoaXN0b3J5IjpbMTcyNDAwNDk4OSwxODU0NTM3Mjg2LC03OD
 U1NjgxOTEsMTUyNTEyMDU1NCwyMDk0NTI3OTQ2LC0xMzEyNTY4
 MzEwLDExNjg3NTkyODFdfQ==
 -->
