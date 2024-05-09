@@ -520,7 +520,13 @@ In order to get this booleans values, `boolean operators` are used:
 3) `> >= ` and `< <=` for numbers and strings
 
 4) `!` not True operator
+
+#### If and Else If
+``
+if (calculationType == 'ADD') {}
+
+else or else if () {}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzI1MzkxMzAsMTIwNTg3OTc1MCwtNj
-Q3OTAxMzAzLC03OTIyMDMxNzRdfQ==
+eyJoaXN0b3J5IjpbMTg0MDYwNDc2MywtMTU3MjUzOTEzMCwxMj
+A1ODc5NzUwLC02NDc5MDEzMDMsLTc5MjIwMzE3NF19
 -->
