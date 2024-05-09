@@ -489,7 +489,5 @@ The most efficient way is to use `Event listeners breakpoint` and select `click`
 
 Install `Javascript Debugger`, then clic on the left side of the sentence of the script you want a breakpoint, and then clic `Run -> Start Debugging` and select Chrome, and change Url on the Launch app that appear, and copy the url of the chrome page
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjIwMzE3NCwxNzI0MDA0OTg5LDE4NT
-Q1MzcyODYsLTc4NTU2ODE5MSwxNTI1MTIwNTU0LDIwOTQ1Mjc5
-NDYsLTEzMTI1NjgzMTAsMTE2ODc1OTI4MV19
+eyJoaXN0b3J5IjpbLTc5MjIwMzE3NF19
 -->
