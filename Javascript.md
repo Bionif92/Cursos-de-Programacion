@@ -488,6 +488,13 @@ The most efficient way is to use `Event listeners breakpoint` and select `click`
 #### Conect VS Code to Chrome for debug
 
 Install `Javascript Debugger`, then clic on the left side of the sentence of the script you want a breakpoint, and then clic `Run -> Start Debugging` and select Chrome, and change Url on the Launch app that appear, and copy the url of the chrome page
+
+#### Useful information
+
+-   VS Code Docs: [https://code.visualstudio.com/docs](https://code.visualstudio.com/docs)
+-   VS Code Keybindings: [https://code.visualstudio.com/docs/getstarted/keybindings](https://code.visualstudio.com/docs/getstarted/keybindings)
+-   VS Code Extensions Docs: [https://code.visualstudio.com/docs/editor/extension-gallery](https://code.visualstudio.com/docs/editor/extension-gallery)
+-   Google Chrome DevTools Docs: [https://developers.google.com/web/tools/chrome-devtools/](https://developers.google.com/web/tools/chrome-devtools/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjIwMzE3NF19
+eyJoaXN0b3J5IjpbLTY0NzkwMTMwMywtNzkyMjAzMTc0XX0=
 -->
