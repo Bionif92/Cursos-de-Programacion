@@ -605,7 +605,5 @@ if([]){// all arrays are truthy} ⚠️
 if(null) if(undefined) if(Nan){//all are falsy}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ1MzYyNDksMTM0NzE4NDIyMCwxOT
-kzNjI1OTYxLC00NDg1NTI1NDgsMTQ1MTE1MjE1Niw1MDQwMjM5
-NjksNjIwODYwNTI1LC0zMjg1Njk2MTQsNDc5MTUxOTUxXX0=
+eyJoaXN0b3J5IjpbLTE2MzQ1MzYyNDldfQ==
 -->
