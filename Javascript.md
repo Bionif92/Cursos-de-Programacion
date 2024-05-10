@@ -585,11 +585,27 @@ Which operators are executed first by JS in the same line?
 ```javascript
 3 + 2 < 7 + 20 //returns true
 
-// + operator has precedence over < operator  (is executed first) 
+// + operator has precedence over < operator  (is executed first) 
 ```
+### Falsy an truthy values
 
+if non-bolean values are used as a condition, JS coerces ("convert without really converting") them to booleans.
+
+```javascript
+if(""){// doesn't get executed} // empty string evaluates to false
+if("Hola"){// gets executed} // non-empty strings evaluate to true
+
+
+if(0){//doesn't get executed}
+if(-1){//gets executed} // numbers != 0 evaluate to true
+
+if({}){// all objects are truthy} ⚠️
+if([]){// all arrays are truthy} ⚠️
+
+if(null) if(undefined) if(Nan){//all are falsy}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NzE4NDIyMCwxOTkzNjI1OTYxLC00ND
-g1NTI1NDgsMTQ1MTE1MjE1Niw1MDQwMjM5NjksNjIwODYwNTI1
-LC0zMjg1Njk2MTQsNDc5MTUxOTUxXX0=
+eyJoaXN0b3J5IjpbLTE2MzQ1MzYyNDksMTM0NzE4NDIyMCwxOT
+kzNjI1OTYxLC00NDg1NTI1NDgsMTQ1MTE1MjE1Niw1MDQwMjM5
+NjksNjIwODYwNTI1LC0zMjg1Njk2MTQsNDc5MTUxOTUxXX0=
 -->
