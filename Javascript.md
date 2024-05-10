@@ -532,9 +532,16 @@ else if, when you want to next more conditions
 
 Can put `if`inside a `function`
 
+### Danger!: Comparing objects and Arrays
 
+```javascript
+{name: "Esteban"} == {name: "Esteban"} // returns false
+[1,2] == [1,2] // returns false
+```
+
+event the content is the same, they're different pointers (not copies, like `strings` and `numbers`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjIzOTQyMzcsLTY1MzIxNTE5MywtMT
-U3MjUzOTEzMCwxMjA1ODc5NzUwLC02NDc5MDEzMDMsLTc5MjIw
-MzE3NF19
+eyJoaXN0b3J5IjpbNDc5MTUxOTUxLC02NTMyMTUxOTMsLTE1Nz
+I1MzkxMzAsMTIwNTg3OTc1MCwtNjQ3OTAxMzAzLC03OTIyMDMx
+NzRdfQ==
 -->
