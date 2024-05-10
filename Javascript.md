@@ -575,11 +575,12 @@ if (calculationType === 'ADD'|| calculationType === 'SUBTRACT')
 ```
 `||` Or operator
 
-### Operators
+### Operators precedence
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MTE1MjE1Niw1MDQwMjM5NjksNjIwOD
-YwNTI1LC0zMjg1Njk2MTQsNDc5MTUxOTUxXX0=
+eyJoaXN0b3J5IjpbLTQ0ODU1MjU0OCwxNDUxMTUyMTU2LDUwND
+AyMzk2OSw2MjA4NjA1MjUsLTMyODU2OTYxNCw0NzkxNTE5NTFd
+fQ==
 -->
