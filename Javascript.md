@@ -566,9 +566,11 @@ const someFunction() {
 ### AND and OR operators
 
 ```javascript
-if (calculationType !== 'ADD'&& ca
+if (calculationType !== 'ADD'&& calculationType !== 'SUBTRACT')
 ```
+`&&`For adding conditions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjExNTE0NDAsLTMyODU2OTYxNCw0Nz
-kxNTE5NTFdfQ==
+eyJoaXN0b3J5IjpbNjIwODYwNTI1LC0zMjg1Njk2MTQsNDc5MT
+UxOTUxXX0=
 -->
