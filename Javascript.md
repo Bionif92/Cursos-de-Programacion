@@ -531,7 +531,10 @@ else or else if () {}
 else if, when you want to next more conditions
 
 Can put `if`inside a `function`
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzIxNTE5MywtMTU3MjUzOTEzMCwxMj
-A1ODc5NzUwLC02NDc5MDEzMDMsLTc5MjIwMzE3NF19
+eyJoaXN0b3J5IjpbLTE5MjIzOTQyMzcsLTY1MzIxNTE5MywtMT
+U3MjUzOTEzMCwxMjA1ODc5NzUwLC02NDc5MDEzMDMsLTc5MjIw
+MzE3NF19
 -->
