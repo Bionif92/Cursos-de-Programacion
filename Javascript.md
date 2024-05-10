@@ -578,9 +578,10 @@ if (calculationType === 'ADD'|| calculationType === 'SUBTRACT')
 ### Operators precedence
 
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+Order of priority of operators, which one is evaluated first
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODU1MjU0OCwxNDUxMTUyMTU2LDUwND
-AyMzk2OSw2MjA4NjA1MjUsLTMyODU2OTYxNCw0NzkxNTE5NTFd
-fQ==
+eyJoaXN0b3J5IjpbMTk5MzYyNTk2MSwtNDQ4NTUyNTQ4LDE0NT
+ExNTIxNTYsNTA0MDIzOTY5LDYyMDg2MDUyNSwtMzI4NTY5NjE0
+LDQ3OTE1MTk1MV19
 -->
