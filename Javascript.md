@@ -540,6 +540,30 @@ Can put `if`inside a `function`
 ```
 
 event the content is the same, they're different pointers (not copies, like `strings` and `numbers`).
+
+### Early return
+
+it's better to have early returns, so the main logic is not nested in an `if` block:
+```javascript
+// early return
+const someFunction() {
+    if (condition I don't want) { ✅
+        return
+    }
+
+//rest of the logic
+}
+```
+
+```javascript
+// nested main code here, bad practice ❌
+const someFunction() {
+    if (condition I want) {
+        //rest of the logic
+    }
+}
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MTUxOTUxXX0=
+eyJoaXN0b3J5IjpbLTMyODU2OTYxNCw0NzkxNTE5NTFdfQ==
 -->
