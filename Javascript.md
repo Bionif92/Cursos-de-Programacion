@@ -580,8 +580,16 @@ if (calculationType === 'ADD'|| calculationType === 'SUBTRACT')
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
 Order of priority of operators, which one is evaluated first
 
+Which operators are executed first by JS in the same line?
+
+```javascript
+3 + 2 < 7 + 20 //returns true
+
+// + operator has precedence over < operator  (is executed first) 
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzYyNTk2MSwtNDQ4NTUyNTQ4LDE0NT
-ExNTIxNTYsNTA0MDIzOTY5LDYyMDg2MDUyNSwtMzI4NTY5NjE0
-LDQ3OTE1MTk1MV19
+eyJoaXN0b3J5IjpbMTM0NzE4NDIyMCwxOTkzNjI1OTYxLC00ND
+g1NTI1NDgsMTQ1MTE1MjE1Niw1MDQwMjM5NjksNjIwODYwNTI1
+LC0zMjg1Njk2MTQsNDc5MTUxOTUxXX0=
 -->
