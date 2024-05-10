@@ -563,7 +563,12 @@ const someFunction() {
     }
 }
 ```
+### AND and OR operators
 
+```javascript
+if (calculationType !== 'ADD'&& ca
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyODU2OTYxNCw0NzkxNTE5NTFdfQ==
+eyJoaXN0b3J5IjpbLTE0MjExNTE0NDAsLTMyODU2OTYxNCw0Nz
+kxNTE5NTFdfQ==
 -->
