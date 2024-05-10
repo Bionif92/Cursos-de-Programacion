@@ -541,7 +541,5 @@ Can put `if`inside a `function`
 
 event the content is the same, they're different pointers (not copies, like `strings` and `numbers`).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MTUxOTUxLC02NTMyMTUxOTMsLTE1Nz
-I1MzkxMzAsMTIwNTg3OTc1MCwtNjQ3OTAxMzAzLC03OTIyMDMx
-NzRdfQ==
+eyJoaXN0b3J5IjpbNDc5MTUxOTUxXX0=
 -->
