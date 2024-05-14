@@ -604,6 +604,26 @@ if([]){// all arrays are truthy} ⚠️
 
 if(null) if(undefined) if(Nan){//all are falsy}
 ```
+
+### Hardcoded values convention
+
+```javascript
+const ATTACK_VALUE = 10;
+```
+
+capital letters and underscores.
+
+### Event listeners naming conventions
+
+```javascript
+function attackHandler() {}
+// OR
+function onAttack(){}
+
+attackBtn.addEventListener('click', attackHandler);
+
+attackBtn.addEventListener('click', onAttack);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzQ1MzYyNDldfQ==
+eyJoaXN0b3J5IjpbODI0NTQxNDkzLC0xNjM0NTM2MjQ5XX0=
 -->
