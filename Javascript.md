@@ -639,7 +639,11 @@ function attack(mode) {
 ```
 
 write the string once, and use the variable instead
+
+### Give the user the chance to change initial values
+
+cons
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MTUzMjU5LDgyNDU0MTQ5MywtMTYzND
-UzNjI0OV19
+eyJoaXN0b3J5IjpbMTE5Nzk4MDU1MCwxMTgxNTMyNTksODI0NT
+QxNDkzLC0xNjM0NTM2MjQ5XX0=
 -->
