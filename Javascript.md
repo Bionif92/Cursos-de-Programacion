@@ -642,8 +642,10 @@ write the string once, and use the variable instead
 
 ### Give the user the chance to change initial values
 
-cons
+```js
+const enterValue = parseInt(prompt ('Maximum life monster and you', '100');
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5Nzk4MDU1MCwxMTgxNTMyNTksODI0NT
+eyJoaXN0b3J5IjpbLTIxNzQxMTYzMiwxMTgxNTMyNTksODI0NT
 QxNDkzLC0xNjM0NTM2MjQ5XX0=
 -->
