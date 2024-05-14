@@ -624,6 +624,22 @@ attackBtn.addEventListener('click', attackHandler);
 
 attackBtn.addEventListener('click', onAttack);
 ```
+### Putting re-used strings constants into variables
+
+```js
+const ATTACK = "ATTACK";
+
+function attackHandler(){
+   attack(ATTACK);
+}
+
+function attack(mode) {
+    let attackMonsterValue;
+    if (mode === ATTACK) {...
+```
+
+write the string once, and use the variable instead
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI0NTQxNDkzLC0xNjM0NTM2MjQ5XX0=
+eyJoaXN0b3J5IjpbMTE4MTUzMjU5LDgyNDU0MTQ5MywtMTYzND
+UzNjI0OV19
 -->
