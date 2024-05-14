@@ -670,5 +670,5 @@ const userName = mode===MODE_ATTACK ? ATTACK_VALUE : STRONGATTACK_VALUE;
 use for simple stuff, not nesting it, because gets unreadable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTcwODY1OCwtMTgzNTg3MzQ0Nl19
+eyJoaXN0b3J5IjpbLTg5MTcwODY1OF19
 -->
