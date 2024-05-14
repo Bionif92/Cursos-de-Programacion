@@ -659,6 +659,8 @@ logEntry.target = 'Monster'
 ```
 The new line contain target
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU4NzM0NDZdfQ==
+eyJoaXN0b3J5IjpbLTEzMDQyMDQ1MzYsLTE4MzU4NzM0NDZdfQ
+==
 -->
