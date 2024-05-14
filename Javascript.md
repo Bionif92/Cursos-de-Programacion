@@ -651,7 +651,15 @@ const enterValue = parseInt (prompt ('Maximum life monster and you', '100'));
 isNaN (enterValue)
 ```
 use if to change the value if not a number the one given
+
+### Want to put a new line on an object
+
+```js
+logEntry.target = 'Monster'
+```
+The new line contain target
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDI5NDAyOCwxMTgxNTMyNTksODI0NT
-QxNDkzLC0xNjM0NTM2MjQ5XX0=
+eyJoaXN0b3J5IjpbLTE4MzU4NzM0NDYsMTQ0NDI5NDAyOCwxMT
+gxNTMyNTksODI0NTQxNDkzLC0xNjM0NTM2MjQ5XX0=
 -->
