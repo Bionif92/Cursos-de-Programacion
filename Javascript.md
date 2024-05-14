@@ -645,13 +645,13 @@ write the string once, and use the variable instead
 ```js
 const enterValue = parseInt (prompt ('Maximum life monster and you', '100'));
 ```
-### Check if value is a number
+### Check if value is not a number
 
 ```js
 isNaN (enterValue)
 ```
 use if to change the value if not a number the one given
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTMxMjQ4NywxMTgxNTMyNTksODI0NT
+eyJoaXN0b3J5IjpbMTQ0NDI5NDAyOCwxMTgxNTMyNTksODI0NT
 QxNDkzLC0xNjM0NTM2MjQ5XX0=
 -->
