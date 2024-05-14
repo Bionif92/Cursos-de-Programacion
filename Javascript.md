@@ -648,9 +648,10 @@ const enterValue = parseInt (prompt ('Maximum life monster and you', '100'));
 ### Check if value is a number
 
 ```js
-isNaN 
+isNaN (enterValue)
 ```
+use if to change the value if not a number the one given
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4ODY1MjI4NCwxMTgxNTMyNTksODI0NT
+eyJoaXN0b3J5IjpbLTczNTMxMjQ4NywxMTgxNTMyNTksODI0NT
 QxNDkzLC0xNjM0NTM2MjQ5XX0=
 -->
