@@ -664,11 +664,12 @@ The new line contain target
 It's a great scenario for a `ternary operator`:
 
 ```js
-const userName = isLoggedIn ? 'Max' : null;
+const userName = mode===MODE ? 'Max' : null;
 ```
 
 use for simple stuff, not nesting it, because gets unreadable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MjU1NzQzNywtMTgzNTg3MzQ0Nl19
+eyJoaXN0b3J5IjpbLTE4MDUwMjYwNjUsLTE4MzU4NzM0NDZdfQ
+==
 -->
