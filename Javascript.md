@@ -660,6 +660,5 @@ logEntry.target = 'Monster'
 The new line contain target
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU4NzM0NDYsMTQ0NDI5NDAyOCwxMT
-gxNTMyNTksODI0NTQxNDkzLC0xNjM0NTM2MjQ5XX0=
+eyJoaXN0b3J5IjpbLTE4MzU4NzM0NDZdfQ==
 -->
