@@ -659,8 +659,16 @@ logEntry.target = 'Monster'
 ```
 The new line contain target
 
+### Declaring a constant with 2 possible values
+
+It's a great scenario for a `ternary operator`:
+
+```js
+const userName = isLoggedIn ? 'Max' : null;
+```
+
+use for simple stuff, not nesting it, because gets unreadable
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQyMDQ1MzYsLTE4MzU4NzM0NDZdfQ
-==
+eyJoaXN0b3J5IjpbMTM4MjU1NzQzNywtMTgzNTg3MzQ0Nl19
 -->
