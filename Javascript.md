@@ -669,6 +669,20 @@ const userName = mode===MODE_ATTACK ? ATTACK_VALUE : STRONGATTACK_VALUE;
 
 use for simple stuff, not nesting it, because gets unreadable
 
+### Expression vs Statement
+
+```js
+// expression - used on the right hand side of assignment operators
+// it returns something
+isLoggedIn ? 'Max' : null;
+
+//statement. It CAN'T be used on the right hand side of assignment operators
+
+const username = const somethingelse ❌
+
+// an `if` STATEMENT is an example
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTcwODY1OF19
+eyJoaXN0b3J5IjpbODA0MDA3NDA1LC04OTE3MDg2NThdfQ==
 -->
