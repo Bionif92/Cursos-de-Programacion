@@ -775,7 +775,22 @@ let i = 0;
     i++;
  }
 ```
+### For in (objects)
+```js
+const offer = {
+        price: 10,
+        tag: 'perfume'
+    }
+    for (const key in offer) {
+        console.log(offer[key]);
+    }
+```
+
+`offer.key` won't work because JS will look for a property in the object called `key`.
+
+A string must be passed to inside the brackets [];
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzQ3MTM2NDMsLTExNzI2NjY5NzAsMT
-E5OTIxNDkzMywyMTM0OTQ2MTQ0LC0xMDU3ODg1MDgxXX0=
+eyJoaXN0b3J5IjpbLTUzMTMyMzQ3NCwtMTQzNDcxMzY0MywtMT
+E3MjY2Njk3MCwxMTk5MjE0OTMzLDIxMzQ5NDYxNDQsLTEwNTc4
+ODUwODFdfQ==
 -->
