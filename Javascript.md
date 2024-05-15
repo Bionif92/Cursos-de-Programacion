@@ -732,7 +732,21 @@ switch(location) { // location or and expresion that returns a value
 add `break` keyword, because `switch` statements use `fall through` mechanism, and it doesn't stop till the end.
  Use `default`for the last condition
  
+### For loop
+
+```js
+for (let i = 0; i < 10; i++){
+    //do something
+}
+```
+
+`let i = 10` is code that runs at the beginning, and `let` has been chosen in order to reassign it.
+
+`i < 10` is a condition that gets evaluated on every iteration;
+
+`i++` is a code that runs after every iteration.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTIxNDkzMywyMTM0OTQ2MTQ0LC0xMD
-U3ODg1MDgxXX0=
+eyJoaXN0b3J5IjpbLTExNzI2NjY5NzAsMTE5OTIxNDkzMywyMT
+M0OTQ2MTQ0LC0xMDU3ODg1MDgxXX0=
 -->
