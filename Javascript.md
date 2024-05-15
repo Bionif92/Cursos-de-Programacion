@@ -702,6 +702,34 @@ const userName = isLoggedIn && 'Max'
 // will assign 'Max if isLoggedIn is trushy
 // and will assign the isLoggedIn value if it's falsy
 ```
+
+### Switch statement
+
+```js
+if (location === 'Argentina'){
+    console.log('hola')
+} else if (location === 'UK'){
+    console.log('hello');
+} else if //
+```
+
+the above code repeats the equality expression, so `switch` statement is a more compact alternative:
+
+```js
+switch(location) { // location or and expresion that returns a value
+    case 'argentina':
+        console.log('hola');
+    break;
+    case 'UK': {
+       console.log('hello');
+    }
+    break;
+}
+```
+
+`switch` uses `===` under the hood.
+
+add `break` keyword, because `switch` statements use `fall through` mechanism, and it doesn't stop till the end.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc4ODUwODFdfQ==
+eyJoaXN0b3J5IjpbMjEzNDk0NjE0NCwtMTA1Nzg4NTA4MV19
 -->
