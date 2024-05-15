@@ -813,8 +813,24 @@ A string must be passed to inside the brackets [];
 ```
 
 a while loop start not knowing how many iterations it will take to complete.
+
+### Do while loop
+
+```js
+let i = 10
+do {
+        console.log(i);
+        i++
+    }
+    while (i < 10);
+
+// will print 10, because the do block runs first
+```
+
+how does it work? first do, then check the condition
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDA0NTk5NiwtNTMxMzIzNDc0LC0xND
-M0NzEzNjQzLC0xMTcyNjY2OTcwLDExOTkyMTQ5MzMsMjEzNDk0
-NjE0NCwtMTA1Nzg4NTA4MV19
+eyJoaXN0b3J5IjpbLTE4Njg3OTc4NDgsLTkzNDA0NTk5NiwtNT
+MxMzIzNDc0LC0xNDM0NzEzNjQzLC0xMTcyNjY2OTcwLDExOTky
+MTQ5MzMsMjEzNDk0NjE0NCwtMTA1Nzg4NTA4MV19
 -->
