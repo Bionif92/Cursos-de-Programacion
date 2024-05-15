@@ -699,10 +699,10 @@ const userName = someInput || 'Max'; // the || operator will return the
 **double &&**:
 ```js
 const userName = isLoggedIn && 'Max' 
-// will assign 'Max if isLoggedIn is truish
-// and will assign the isLoggedIn value if it's falsis
+// will assign 'Max if isLoggedIn is trushy
+// and will assign the isLoggedIn value if it's falsy
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI4NjA5NDYsLTIwNDQ4NzU2NzksLT
-g5MTcwODY1OF19
+eyJoaXN0b3J5IjpbLTEwNTc4ODUwODEsLTE5NTI4NjA5NDYsLT
+IwNDQ4NzU2NzksLTg5MTcwODY1OF19
 -->
