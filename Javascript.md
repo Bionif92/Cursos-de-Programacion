@@ -746,7 +746,36 @@ for (let i = 0; i < 10; i++){
 
 `i++` is a code that runs after every iteration.
 
+### For of (arrays)
+```js
+ for (const el of log) {
+    console.log(el);
+ }
+
+ // const is used because el is recreated on every iteration
+```
+
+The above syntax simplifies this loop:
+
+```js
+  for (let i = 0; i < log.length; i++) {
+        console.log(log[i]);
+    }
+```
+
+variables defined inside the `for` parenthesis, are scoped to the loop.
+
+Do you want to keep track of the index as well? no problem:
+
+```js
+let i = 0;
+ for (const el of log) {
+    console.log(el);
+    console.log(i);
+    i++;
+ }
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI2NjY5NzAsMTE5OTIxNDkzMywyMT
-M0OTQ2MTQ0LC0xMDU3ODg1MDgxXX0=
+eyJoaXN0b3J5IjpbLTE0MzQ3MTM2NDMsLTExNzI2NjY5NzAsMT
+E5OTIxNDkzMywyMTM0OTQ2MTQ0LC0xMDU3ODg1MDgxXX0=
 -->
