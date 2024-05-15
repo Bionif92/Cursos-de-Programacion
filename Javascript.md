@@ -703,6 +703,5 @@ const userName = isLoggedIn && 'Max'
 // and will assign the isLoggedIn value if it's falsy
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc4ODUwODEsLTE5NTI4NjA5NDYsLT
-IwNDQ4NzU2NzksLTg5MTcwODY1OF19
+eyJoaXN0b3J5IjpbLTEwNTc4ODUwODFdfQ==
 -->
