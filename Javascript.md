@@ -789,8 +789,32 @@ const offer = {
 `offer.key` won't work because JS will look for a property in the object called `key`.
 
 A string must be passed to inside the brackets [];
+
+### While loop
+
+```js
+ let i = 0;
+    while (i < 10) {
+        console.log(i);
+        i++
+    }
+ // the above example should be done with a classic for loop instead
+
+ let finished = false;
+ const randomNumbers = [];
+ while (!finished) {
+     const rndNumber = Math.random();
+     randomNumbers.push(rndNumber);
+     if (rndNumber < 0.5) {
+         // to exit the loop  
+         finished = true;
+ }
+ }
+```
+
+a while loop start not knowing how many iterations it will take to complete.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMTMyMzQ3NCwtMTQzNDcxMzY0MywtMT
-E3MjY2Njk3MCwxMTk5MjE0OTMzLDIxMzQ5NDYxNDQsLTEwNTc4
-ODUwODFdfQ==
+eyJoaXN0b3J5IjpbLTkzNDA0NTk5NiwtNTMxMzIzNDc0LC0xND
+M0NzEzNjQzLC0xMTcyNjY2OTcwLDExOTkyMTQ5MzMsMjEzNDk0
+NjE0NCwtMTA1Nzg4NTA4MV19
 -->
