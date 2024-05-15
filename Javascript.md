@@ -682,7 +682,20 @@ const username = const somethingelse ❌
 
 // an `if` STATEMENT is an example
 ```
+### Boolean tricks with logical operators
 
+**Double bang** `!!` to convert truthy/falsy values to true/false:
+
+```js
+!!"" // return false
+```
+
+**Default value** assigment via OR || operator:
+
+```js
+const userName = someInput || 'Max'; // the || operator will return the 
+// first truthy value
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MDA3NDA1LC04OTE3MDg2NThdfQ==
+eyJoaXN0b3J5IjpbLTIwNDQ4NzU2NzksLTg5MTcwODY1OF19
 -->
