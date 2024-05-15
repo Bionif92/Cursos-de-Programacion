@@ -730,6 +730,9 @@ switch(location) { // location or and expresion that returns a value
 `switch` uses `===` under the hood.
 
 add `break` keyword, because `switch` statements use `fall through` mechanism, and it doesn't stop till the end.
+ Use `default`for the last condition
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNDk0NjE0NCwtMTA1Nzg4NTA4MV19
+eyJoaXN0b3J5IjpbMTE5OTIxNDkzMywyMTM0OTQ2MTQ0LC0xMD
+U3ODg1MDgxXX0=
 -->
