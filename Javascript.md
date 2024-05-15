@@ -696,6 +696,13 @@ const username = const somethingelse ❌
 const userName = someInput || 'Max'; // the || operator will return the 
 // first truthy value
 ```
+**double &&**:
+```js
+const userName = isLoggedIn && 'Max' 
+// will assign 'Max if isLoggedIn is truish
+// and will assign the isLoggedIn value if it's falsis
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDQ4NzU2NzksLTg5MTcwODY1OF19
+eyJoaXN0b3J5IjpbLTE5NTI4NjA5NDYsLTIwNDQ4NzU2NzksLT
+g5MTcwODY1OF19
 -->
