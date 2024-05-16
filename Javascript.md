@@ -873,8 +873,8 @@ outerLoop: for (let i = 0; i < 5; i++) {
     }
 }
 ```
-
+You name `outerLoop` the loop of your choise
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MDk5MzkxNywtNTM2MTk5MjEsMTE1MD
-Y5MzU5NV19
+eyJoaXN0b3J5IjpbNDk0MDA3ODIyLDE2OTA5OTM5MTcsLTUzNj
+E5OTIxLDExNTA2OTM1OTVdfQ==
 -->
