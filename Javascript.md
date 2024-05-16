@@ -920,7 +920,28 @@ try {
     chosenMaxLife = 100;
 }
 ```
+
+### Finally block
+
+is rarely used.
+
+```js
+try {
+    // some code that might fail
+} catch (error) {
+    // maybe store the error in a database
+    // re-throw the errror
+    throw(error); // not very common, very advanced
+} finally {
+    // runs after the try {} block;
+    // do something, because the rest of the code
+    // wont run if the error was thrown
+}
+// rest of the code
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3NDcwMzgzLDQ5NDAwNzgyMiwxNjkwOT
-kzOTE3LC01MzYxOTkyMSwxMTUwNjkzNTk1XX0=
+eyJoaXN0b3J5IjpbMTczMzk1MjQsMzA3NDcwMzgzLDQ5NDAwNz
+gyMiwxNjkwOTkzOTE3LC01MzYxOTkyMSwxMTUwNjkzNTk1XX0=
+
 -->
