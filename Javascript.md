@@ -934,14 +934,14 @@ try {
     throw(error); // not very common, very advanced
 } finally {
     // runs after the try {} block;
-    // do something, because the rest of the code
-    // wont run if the error was thrown
+    // do something, if throws error, rest of code wont execute 
+    // wont run if there isnt an error
 }
 // rest of the code
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzk1MjQsMzA3NDcwMzgzLDQ5NDAwNz
-gyMiwxNjkwOTkzOTE3LC01MzYxOTkyMSwxMTUwNjkzNTk1XX0=
-
+eyJoaXN0b3J5IjpbOTk1NTE2OTUyLDE3MzM5NTI0LDMwNzQ3MD
+M4Myw0OTQwMDc4MjIsMTY5MDk5MzkxNywtNTM2MTk5MjEsMTE1
+MDY5MzU5NV19
 -->
