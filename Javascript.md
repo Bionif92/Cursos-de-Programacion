@@ -830,7 +830,5 @@ do {
 how does it work? first do, then check the condition
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg3OTc4NDgsLTkzNDA0NTk5NiwtNT
-MxMzIzNDc0LC0xNDM0NzEzNjQzLC0xMTcyNjY2OTcwLDExOTky
-MTQ5MzMsMjEzNDk0NjE0NCwtMTA1Nzg4NTA4MV19
+eyJoaXN0b3J5IjpbLTE4Njg3OTc4NDhdfQ==
 -->
