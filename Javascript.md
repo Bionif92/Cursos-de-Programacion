@@ -829,8 +829,36 @@ do {
 
 how does it work? first do, then check the condition
 
+### Loop + break: good for liping iterations execution
 
+```js
+for (let i = 0; i < 5; i++) {
+        //lets stops the execution if i === 3
+        if (i === 3) {
+            break;
+        }
+        console.log(i);
+    }
+
+//prints 0,1,2
+```
+
+useful for stoping the loop executions under certain conditions.
+
+### Loop + continue:  good for skipping one iteration
+
+```js
+for (let i = 0; i < 5; i++) {
+       //lets avoid printing 3
+       if (i === 3) {
+           continue;
+       }
+       console.log(i);
+   }
+
+// prints 0,1,2,4
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMzA1OTg4LC0xODY4Nzk3ODQ4XX0=
+eyJoaXN0b3J5IjpbMTE1MDY5MzU5NSwtMTg2ODc5Nzg0OF19
 -->
