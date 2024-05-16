@@ -754,6 +754,7 @@ for (let i = 0; i < 10; i++){
 
  // const is used because el is recreated on every iteration
 ```
+**Use log. lenght for the amount of thing inside**
 
 The above syntax simplifies this loop:
 
@@ -860,5 +861,5 @@ for (let i = 0; i < 5; i++) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDY5MzU5NV19
+eyJoaXN0b3J5IjpbLTUzNjE5OTIxLDExNTA2OTM1OTVdfQ==
 -->
