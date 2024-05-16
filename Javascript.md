@@ -874,7 +874,53 @@ outerLoop: for (let i = 0; i < 5; i++) {
 }
 ```
 You name `outerLoop` the loop of your choise
+
+### Try and catch
+
+We can throw many things that will stop execution, like objects, strings, Error, etc
+
+```js
+throw {message: 'code below wont run'};
+
+//it prints: app.js:155 Uncaught {message: 'code below wont run'}
+//, (in red colour, indicating it's a system error);
+```
+
+maybe a `user input` or `network error` causes the code to stop exectution, not ideal, right?
+
+```js
+try {
+    throw {message: 'code below wont run'};
+} catch {
+    console.log('there was an error, but code below will be executed :)')
+}
+// code below keeps being executed!
+```
+
+It's common to throw our own errors in the app, so we save up adding a lot of if statements for different types of errors.
+
+```js
+let chosenMaxLife;
+
+function getValue() {
+    const enteredValue = prompt('enter the max life value', '100');
+    userInput = +enteredValue;
+    if(isNaN(userInput) || userInput <= 0) {
+        throw {message: 'invalid user input'}
+    } else {
+        return userInput;
+    }
+}
+
+try {
+    chosenMaxLife = getValue();
+
+} catch (error) {
+    console.log(error);
+    chosenMaxLife = 100;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk0MDA3ODIyLDE2OTA5OTM5MTcsLTUzNj
-E5OTIxLDExNTA2OTM1OTVdfQ==
+eyJoaXN0b3J5IjpbMzA3NDcwMzgzLDQ5NDAwNzgyMiwxNjkwOT
+kzOTE3LC01MzYxOTkyMSwxMTUwNjkzNTk1XX0=
 -->
