@@ -829,6 +829,8 @@ do {
 
 how does it work? first do, then check the condition
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg3OTc4NDhdfQ==
+eyJoaXN0b3J5IjpbNTIwMzA1OTg4LC0xODY4Nzk3ODQ4XX0=
 -->
