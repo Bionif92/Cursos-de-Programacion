@@ -860,8 +860,21 @@ for (let i = 0; i < 5; i++) {
 // prints 0,1,2,4
 ```
 
+### Labels: useful for breaking outer loop from inside inner loop
+
+```js
+outerLoop: for (let i = 0; i < 5; i++) {
+    console.log('outer', i);
+    for (let i = 0; i < 5; i++) {
+        if (i === 3) {
+            break outerLoop;
+        }
+        console.log('inner', i);
+    }
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDQ0OTE4MSwtNTM2MTk5MjEsMTE1MD
+eyJoaXN0b3J5IjpbMTY5MDk5MzkxNywtNTM2MTk5MjEsMTE1MD
 Y5MzU5NV19
 -->
