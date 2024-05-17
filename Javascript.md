@@ -955,7 +955,9 @@ Var vs Let & Const
 
 3. **Avoids redeclaring variables**:
 
-Use let and const all the time. Block the variables inside the {}, var
+Use let and const all the time. Block the variables inside the {}, var doesn´t
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTU2MTE4MCw3ODM2MjE4OTRdfQ==
+eyJoaXN0b3J5IjpbNzI3MzUxOTA3LDc4MzYyMTg5NF19
 -->
