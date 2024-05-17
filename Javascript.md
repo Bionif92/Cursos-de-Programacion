@@ -991,7 +991,62 @@ Var has global/function (local) scope and let and const have block scope (variab
  const undefined = 'foo'; // Uncaught SyntaxError: Identifier 
  //'undefined' has already been declared
 ```
+## JS engines and what they do
+
+#### Parsing and compilation
+
+code is interpreted to `bytecode` (faster) and starts execution, but still low performance, so it's then compiled to `machine code` (OS code) that runs on the chip.
+
+What are browser APIs? bridges between the JS code and C++ code built in the browser, like `window.document`, etc
+
+#### Execution: inside the JS engine
+
+1) Managing memory: `heap` is long term memory. The `stack` is the short term memory and manages which function is executing and if there's a return, to which function is returning a value to.
+   
+   functions code gets stored in the `heap`.
+   
+   The browser reaches the `heap` and the `stack`.
+
+2) Managing execution steps
+
+
+### The `stack`
+
+the first thing to be pushed to the `stack` is all the code present in the file, and it's kind of wrapped in an `anonymous` function. Then, the function `greet()` is added to the top of the stack, so the thing on top of th stack is the thing that is currently running.
+Then, `getName()` is added to the top of the stack; Then `prompt()` is added to the top of the stack.
+
+The stack manages execution contenxt, e.g which functions are being executed, and the order of the nested calls and primitite values (cheap to re-create). The heap stores reference values, like objects, because are expensive the re-create.
+
+One the `prompt()` function is done, by returning a value to `getName()` is being removed from the stack;
+
+Even if a function doesn't have a `return` statement, there's an implicit return after the last line, which makes the stack to remove when done.
+
+Once the `greet()` function is done, the `anonymous` function is also removed from the stack because there's no more things to run on the file.
+
+```js
+function getUserName() {
+  return prompt('enter userName', '');
+}
+
+
+function greet() {
+  const userName = getUserName();
+  console.log('Hello' + userName);
+}
+
+greet();
+```
+
+The stack is a shortlive data structure to keep track of which functions are being executed.
+
+#### Debugger & the stack
+
+go to `Sources`, place a breakpoint, and the check the stack, you'll see the functions there stacked.
+
+So to sum it up JS engine = heap + stack.
+
+If event listeners have been set up, the `Event loop` knows them and it will reach the JS engine and push callback functions to the stack.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1ODQ1ODU1LC0xNzI3Mzc3MzM5LDcyNz
-M1MTkwNyw3ODM2MjE4OTRdfQ==
+eyJoaXN0b3J5IjpbMTI4ODI1NzUzNF19
 -->
