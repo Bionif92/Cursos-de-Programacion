@@ -944,6 +944,16 @@ The following resources may be helpful.
 
 -   Control Structures (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling)
 -   JavaScript Loops (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration)
+
+### ES5 &  ES6
+
+Var vs Let & Const
+
+1) **Better scoping**
+
+2. **Better variables and usage order declaration**
+
+3. **Avoids redeclaring variables**:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgzNjIxODk0XX0=
+eyJoaXN0b3J5IjpbOTM4MDE5MTYyLDc4MzYyMTg5NF19
 -->
