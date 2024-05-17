@@ -957,6 +957,8 @@ Var vs Let & Const
 
 Use let and const all the time. Block the variables inside the {}, var doesn´t
 
+Var has global/function (local) scope and let and const have block scope (var
+
 4. **Strict-mode can be enabled**
    
    use `use strict` mode at the file or function level, to avoid unexpected behaviours, that browser vendors do when executing the JS code. Generally, it's not neccessary.
@@ -990,6 +992,6 @@ Use let and const all the time. Block the variables inside the {}, var doesn´t
  //'undefined' has already been declared
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjczNzczMzksNzI3MzUxOTA3LDc4Mz
-YyMTg5NF19
+eyJoaXN0b3J5IjpbLTM5MDg5NDI5MCwtMTcyNzM3NzMzOSw3Mj
+czNTE5MDcsNzgzNjIxODk0XX0=
 -->
