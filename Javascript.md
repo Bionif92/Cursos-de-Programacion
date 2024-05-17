@@ -957,7 +957,39 @@ Var vs Let & Const
 
 Use let and const all the time. Block the variables inside the {}, var doesn´t
 
+4. **Strict-mode can be enabled**
+   
+   use `use strict` mode at the file or function level, to avoid unexpected behaviours, that browser vendors do when executing the JS code. Generally, it's not neccessary.
+   
+   ```js
+   // behaviour no 1: assigning a non declared variable
+   
+   userName = 'Max' // assigning value to a non declared variable
+   console.log(userName); // prints Max, wow! 
+   
+   
+   'use strict'
+    userName = 'Max'
+    console.log(userName); // throws an error
+   // uncaught ReferenceError: userName is not defined
 
+​		  
+
+```js
+ // behaviour no 2: assigning a reserved name
+ var undefined = 'foo' // doesnt throw an error
+
+ 'use strict'
+ var undefined = 'foo' // Uncaught TypeError: Cannot assign 
+ // to read only property 'undefined' of object '#<Window>'
+
+
+ //using let or const, also disables this behaviour
+ let undefined = 'foo';
+ const undefined = 'foo'; // Uncaught SyntaxError: Identifier 
+ //'undefined' has already been declared
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3MzUxOTA3LDc4MzYyMTg5NF19
+eyJoaXN0b3J5IjpbLTE3MjczNzczMzksNzI3MzUxOTA3LDc4Mz
+YyMTg5NF19
 -->
