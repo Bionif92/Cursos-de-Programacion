@@ -1362,6 +1362,32 @@ if (!HasEmptyText) {cb ()}
 }
 
 checkImput (() => {console.log ('All not empty')}, 'Hello', '12', 'adsfa','')````
+
+### Adding extra parameters on the fly: the .bind() method:
+
+Using .bind() method returns a new function reference with some new configuration (give values to some params), so that function can be called at some point (upon an event, etc) with the pre-configured param values!
+
+````js
+const sayHello2 = (👉 greeting, name) =>{
+  console.log(greeting + name);
+}
+// silly example calling the function right away, not done in real life
+
+sayHello2.bind(this, 👉'Special greetings ')('tebi!'); // Special greetings, tebi!
+````
+
+💡 usually the binded function is passed as a callback fn an then exectuted at some point by the parent function
+
+````js
+someFn(sayHello2.bind(this, 'Special greetings'), someOtherParams);
+
+const someFn = (callback, someOtherParams) => {
+	callback('tebi');
+}
+
+// there could be some logic inside the someFn to pass the appropiate greeting to callback, but that could lead
+// to a lot of if checks on the someOtherParams, or ternary expressions
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzQwNjYzOV19
+eyJoaXN0b3J5IjpbMTI0Mzk4MDk0MCwxNTIzNDA2NjM5XX0=
 -->
