@@ -1390,7 +1390,7 @@ const sayHello2 = (👉 greeting, name) =>{
 }
 // silly example calling the function right away, not done in real life
 
-sayHello2.bind(this, 👉'Special greetings ')('tebi!'); // Special greetings, tebi!
+sayHello2.bind(this, 👉'Special greetings ','tebi!'); // Special greetings, tebi!
 ````
 
 💡 usually the binded function is passed as a callback fn an then exectuted at some point by the parent function
@@ -1406,5 +1406,5 @@ const someFn = (callback, someOtherParams) => {
 // to a lot of if checks on the someOtherParams, or ternary expressions
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjgxNzc3MV19
+eyJoaXN0b3J5IjpbLTU2OTY1ODc5OF19
 -->
