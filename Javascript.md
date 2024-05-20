@@ -1268,8 +1268,14 @@ const getWinner = (computerSelection, playerSelection👉 = DEFAULT_SELECTION) =
 
 Always the last parameter can put this way, with a default value
 
+### How to add breakpoints when the code stopped in one?
+
+just go to `Source` in the dev tools and add a new breakpoint with the cursos, and press the play button! Easy!
+
+I can also disable the selected breakpoints by going to `Source->Breakpoints` window, and uncheck them!
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTk0MjYxNSwxNTQxODQzNDMsMTU0NT
-QzNDcwOCwxMzg4MjIzMTQ1XX0=
+eyJoaXN0b3J5IjpbNzE2ODUxNjA3LDE0MDE5NDI2MTUsMTU0MT
+g0MzQzLDE1NDU0MzQ3MDgsMTM4ODIyMzE0NV19
 -->
