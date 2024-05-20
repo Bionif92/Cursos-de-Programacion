@@ -1153,8 +1153,23 @@ Function inside an object
 
 `addEventListener`is a method
 
+### Functions are objects
+
+````javascript
+function hello () {
+    console.log('hello');
+} 👈 // no semicolon to function declarations, that's the convention
+
+console.log(typeof hello); // prints `function`
+
+console.dir(hello) // it prints the function object!
+````
+
+The method **`console.dir()`** displays an interactive list of the properties of the specified JavaScript object.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM2ODkyMiwtODU4NzMwODg3LDY0Nz
-Q4NTQ4NCwtMTY0MzQ0OTA5NCwxMjg4MjU3NTM0XX0=
+eyJoaXN0b3J5IjpbMTg5MjI4NzAyMCwtMTUyMzY4OTIyLC04NT
+g3MzA4ODcsNjQ3NDg1NDg0LC0xNjQzNDQ5MDk0LDEyODgyNTc1
+MzRdfQ==
 -->
