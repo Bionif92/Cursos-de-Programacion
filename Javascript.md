@@ -1267,7 +1267,9 @@ const getWinner = (computerSelection, playerSelection👉 = DEFAULT_SELECTION) =
 `const getWinner= (cChoise, pChoise= Default_User_Choise)`
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTg0MzQzLDE1NDU0MzQ3MDgsMTM4OD
-IyMzE0NV19
+eyJoaXN0b3J5IjpbLTc2Nzc2NjU0MSwxNTQxODQzNDMsMTU0NT
+QzNDcwOCwxMzg4MjIzMTQ1XX0=
 -->
