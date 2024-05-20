@@ -1047,7 +1047,51 @@ So to sum it up JS engine = heap + stack.
 
 If event listeners have been set up, the `Event loop` knows them and it will reach the JS engine and push callback functions to the stack.
 
+### Primitive vs Reference values
 
+#### Primitives
+
+ are shared by copy (they'r cheap to re-create! stored in the stack (short term things))
+
+```js
+let name = "Max";
+let anotherName = name; // "Max" was copied, stored in the stack,
+// and passed here
+console.log(anotherName) // prints "Max";
+name = "Manu";
+console.log(anotherName) // still prints "Max";
+```
+
+name.length(), tells us that a string can be temparely be transformed to an object to access some properties.
+
+
+#### Reference values:
+
+when assigning an object to a variable, the pointer is stored in that variable, not the object itself.
+
+they're expensive to re-create (stored in the heap)
+
+```js
+let userData = {
+    name: 'tebi',
+    age: 32
+}; // this object is stored in the heap, and userData holds the 
+// pointer (or reference) to it.
+
+let newUserData  = userData; // the same pointer is passed here
+
+userData.name = 'Sarah';
+console.log(newUserData.name) = 'Sarah';
+```
+
+How to avoid mutating the object? cloning objects and arrays
+
+```js
+let newUserData = {...userData};
+userData.name = 'Sarah'; // 
+console.log(newUserData.name) = 'tebi'; // different pointer
+// it's pointing to another object, a clone one
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTY0NzI2NjAsMTI4ODI1NzUzNF19
+eyJoaXN0b3J5IjpbLTE2NDM0NDkwOTQsMTI4ODI1NzUzNF19
 -->
