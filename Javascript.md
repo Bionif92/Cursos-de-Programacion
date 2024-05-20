@@ -1329,8 +1329,27 @@ functions are objects, so we can can objects stored inside objects, right?
 
 The `validateNumber` function is scoped to the curly braces of the parent function.
 
+### Callbacks
+
+````
+const addNumbers = (👉 callback, ...numbers) => {
+  const validateNumber = (number) => {
+		return isNaN(number) ? 0 : number;
+	}
+
+  let sum = 0;
+  numbers.forEach(number => {
+    sum = sum + validateNumber(number);
+  });
+  👉callback(sum);
+}
+
+const myCallBack = (sum) => {
+  alert(sum);
+}
+
+addNumbers(👉myCallBack, 1,2, 'banana', 5);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ5NTU4OTcsLTE2OTQwMTQxOTksNz
-E2ODUxNjA3LDE0MDE5NDI2MTUsMTU0MTg0MzQzLDE1NDU0MzQ3
-MDgsMTM4ODIyMzE0NV19
+eyJoaXN0b3J5IjpbMTgwNjA5ODY0MF19
 -->
