@@ -1131,8 +1131,22 @@ someHtmlElement.addEventListener('click', function() {console.log('button clicke
 // that's a memory leak;
 ```
 
+## More on functions
 
+### Parameters vs Arguments
+
+**Parameters**  are these variables which you  **specify between parentheses**  when defining a function.
+
+`function sayHi(name) { ... } `
+
+In this example,  `name`  is a parameter.
+
+**Arguments**  then are the  **concrete values**  you pass to a function when calling that function:
+
+`sayHi('Max');`
+
+`'Max'` is an  **argument**  of the function therefore - for the  `name`  parameter to be precise.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ3NDg1NDg0LC0xNjQzNDQ5MDk0LDEyOD
-gyNTc1MzRdfQ==
+eyJoaXN0b3J5IjpbLTg1ODczMDg4Nyw2NDc0ODU0ODQsLTE2ND
+M0NDkwOTQsMTI4ODI1NzUzNF19
 -->
