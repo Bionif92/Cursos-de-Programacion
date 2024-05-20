@@ -1092,6 +1092,47 @@ userData.name = 'Sarah'; //
 console.log(newUserData.name) = 'tebi'; // different pointer
 // it's pointing to another object, a clone one
 ```
+
+### Garbage collection
+
+JS engines have garbage collectors that delete stored things in the heap.
+
+```js
+let person = {name: 'Max'};
+person = null; 
+// garbage collector deletes {name: 'Max'} from the heap;
+// because the pointer is no longer used in the rest of the code
+```
+
+Nowadays, browsers are intelligent enough to check if `person` is being used or not, and also delete the object from the heap, without the need of having to reassign the variable to null, for example.
+
+#### Memory leaks
+
+when you keep having references to objects in the code, but you don't use them, so it's means keeping space in memory for nothing.
+
+adding `click` event listeners to a button will always result on event listener replacement `if the same function pointer is passed as callback`, so a button will woun't trigger 2 callback functions.
+
+```js
+function print() {
+    console.log('button clicked');
+}
+
+someHtmlElement.addEventListener('click', print);
+someHtmlElement.addEventListener('click', print);
+
+// upon click, just one console.log() will be printed
+
+
+someHtmlElement.addEventListener('click', function() {console.log('button clicked')};
+someHtmlElement.addEventListener('click', function() {console.log('button clicked')};
+
+//upon click, 2 console.log() will be printed!!
+// 2 functions that do the same are stored in the heap!
+// that's a memory leak;
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM0NDkwOTQsMTI4ODI1NzUzNF19
+eyJoaXN0b3J5IjpbNjQ3NDg1NDg0LC0xNjQzNDQ5MDk0LDEyOD
+gyNTc1MzRdfQ==
 -->
