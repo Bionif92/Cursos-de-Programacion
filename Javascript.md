@@ -1146,7 +1146,13 @@ In this example,  `name`  is a parameter.
 `sayHi('Max');`
 
 `'Max'` is an  **argument**  of the function therefore - for the  `name`  parameter to be precise.
+
+### Method
+
+Function inside an object
+
+`adde
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODczMDg4Nyw2NDc0ODU0ODQsLTE2ND
-M0NDkwOTQsMTI4ODI1NzUzNF19
+eyJoaXN0b3J5IjpbLTU1ODUzMzM1LC04NTg3MzA4ODcsNjQ3ND
+g1NDg0LC0xNjQzNDQ5MDk0LDEyODgyNTc1MzRdfQ==
 -->
