@@ -1266,10 +1266,10 @@ const getWinner = (computerSelection, playerSelection👉 = DEFAULT_SELECTION) =
 
 `const getWinner= (cChoise, pChoise= Default_User_Choise)`
 
-
+Always the last parameter can put this way, with a default value
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Nzc2NjU0MSwxNTQxODQzNDMsMTU0NT
+eyJoaXN0b3J5IjpbMTQwMTk0MjYxNSwxNTQxODQzNDMsMTU0NT
 QzNDcwOCwxMzg4MjIzMTQ1XX0=
 -->
