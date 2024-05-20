@@ -1363,6 +1363,21 @@ if (!HasEmptyText) {cb ()}
 
 checkImput (() => {console.log ('All not empty')}, 'Hello', '12', 'adsfa','')````
 
+Otro ejemplo
+
+```
+function saludar(nombre) {
+  alert("Hola " + nombre);
+}
+
+function procesarEntradaUsuario(callback) {
+  var nombre = prompt("Por favor ingresa tu nombre.");
+  callback(nombre);
+}
+
+procesarEntradaUsuario(saludar);
+``
+
 ### Adding extra parameters on the fly: the .bind() method:
 
 Using .bind() method returns a new function reference with some new configuration (give values to some params), so that function can be called at some point (upon an event, etc) with the pre-configured param values!
@@ -1389,5 +1404,6 @@ const someFn = (callback, someOtherParams) => {
 // to a lot of if checks on the someOtherParams, or ternary expressions
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Mzk4MDk0MCwxNTIzNDA2NjM5XX0=
+eyJoaXN0b3J5IjpbLTc1ODY1MDM2NSwxMjQzOTgwOTQwLDE1Mj
+M0MDY2MzldfQ==
 -->
