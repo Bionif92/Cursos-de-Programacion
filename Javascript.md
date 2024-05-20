@@ -1363,5 +1363,5 @@ if (!HasEmptyText) {cb ()}
 
 checkImput (() => {console.log ('All not empty')}, 'Hello', '12', 'adsfa','')````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMzQwNjYzOSwxODA2MDk4NjQwXX0=
+eyJoaXN0b3J5IjpbMTUyMzQwNjYzOV19
 -->
