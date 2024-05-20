@@ -1350,6 +1350,40 @@ const myCallBack = (sum) => {
 
 addNumbers(👉myCallBack, 1,2, 'banana', 5);
 ````
+In an example
+
+````
+function checkImput (cb, ...strings) {
+
+let HasEmptyText = false;
+
+for (const text of strings) {
+
+if (!text) {
+
+HasEmptyText = true;
+
+break;
+
+}
+
+}
+
+if (!HasEmptyText) {
+
+cb ();
+
+}
+
+}
+
+  
+
+checkImput (() => {
+
+console.log ('All not empty')
+
+}, 'Hello', '12', 'adsfa','')````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjA5ODY0MF19
+eyJoaXN0b3J5IjpbLTExMDM4MTI2MywxODA2MDk4NjQwXX0=
 -->
