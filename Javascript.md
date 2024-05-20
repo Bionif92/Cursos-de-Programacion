@@ -1194,7 +1194,42 @@ const start = function() {
     at app.js:16:40
 ```
 
+### Which approach to choose?
+
+the expression approach is prefered since it forces devs to declare the function before calling it:
+
+```javascript
+✅ // prefered approach
+const start = function() {
+  console.log('Game is starting...');
+};
+```
+
+### To be anonymous or not, that's the question 🤔
+
+You might want to name them to get better logs in the console when that function breaks.
+
+```javascript
+// anonymous function log
+startGameBtn.addEventListener('click', function() {
+  console.log('Game is starting...', age);
+});
+
+app.js:19 Uncaught ReferenceError: age is not defined
+    at HTMLButtonElement.<anonymous>👈 (app.js:19:38) 👈 // line number is not enough when having bundled code in prod
+
+
+// named function log
+    startGameBtn.addEventListener('click', function startGame() {
+  console.log('Game is starting...', age);
+});
+
+app.js:4 Uncaught ReferenceError: age is not defined
+    at HTMLButtonElement.startGame👈 (app.js:4:38) 
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyMTk2OTA4XX0=
+eyJoaXN0b3J5IjpbMTM4ODIyMzE0NV19
 -->
