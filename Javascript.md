@@ -1151,8 +1151,10 @@ In this example,  `name`  is a parameter.
 
 Function inside an object
 
-`adde
+`addEventListener`is a method
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODUzMzM1LC04NTg3MzA4ODcsNjQ3ND
-g1NDg0LC0xNjQzNDQ5MDk0LDEyODgyNTc1MzRdfQ==
+eyJoaXN0b3J5IjpbLTE1MjM2ODkyMiwtODU4NzMwODg3LDY0Nz
+Q4NTQ4NCwtMTY0MzQ0OTA5NCwxMjg4MjU3NTM0XX0=
 -->
