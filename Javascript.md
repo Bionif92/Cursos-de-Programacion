@@ -1352,7 +1352,7 @@ addNumbers(👉myCallBack, 1,2, 'banana', 5);
 ````
 In an example
 
-````
+```
 function checkImput (cb, ...strings) {
 let HasEmptyText = false
 for (const text of strings) {
@@ -1361,7 +1361,8 @@ break;}}
 if (!HasEmptyText) {cb ()}
 }
 
-checkImput (() => {console.log ('All not empty')}, 'Hello', '12', 'adsfa','')````
+checkImput (() => {console.log ('All not empty')}, 'Hello', '12', 'adsfa','')
+```
 
 Otro ejemplo
 
@@ -1376,6 +1377,7 @@ function procesarEntradaUsuario(callback) {
 }
 
 procesarEntradaUsuario(saludar);
+```
 
 
 ### Adding extra parameters on the fly: the .bind() method:
@@ -1404,6 +1406,6 @@ const someFn = (callback, someOtherParams) => {
 // to a lot of if checks on the someOtherParams, or ternary expressions
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODQxODgxMywxMjQzOTgwOTQwLDE1Mj
+eyJoaXN0b3J5IjpbLTIxNjgxNzc3MSwxMjQzOTgwOTQwLDE1Mj
 M0MDY2MzldfQ==
 -->
