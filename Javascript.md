@@ -1274,8 +1274,42 @@ just go to `Source` in the dev tools and add a new breakpoint with the cursos, a
 
 I can also disable the selected breakpoints by going to `Source->Breakpoints` window, and uncheck them!
 
+### Rest parameters (...someNumers)
 
+variable amount of arguments! https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+
+this function it can handle any number of args:
+
+```js
+const addNumbers = (...numbers) => {
+  let sum = 0;
+  numbers.forEach(number => {
+    sum = sum + number;
+  });
+  return sum;
+}
+
+console.log(addNumbers(1,2));
+```
+
+The arguments get added to an array, so we can iterate over it!
+
+```js
+// OLD way ❌
+
+const addNumbers = function () {
+  let sum = 0;
+  for (number of 👉 arguments) { // arguments is magically in the scope of the fn,
+    // it's not an array, an array-like object, so it doesn't have the .forEach method 😮
+    sum = sum + number;
+  }
+  return sum;
+}
+
+console.log(addNumbers(1,2));
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2ODUxNjA3LDE0MDE5NDI2MTUsMTU0MT
-g0MzQzLDE1NDU0MzQ3MDgsMTM4ODIyMzE0NV19
+eyJoaXN0b3J5IjpbLTE2OTQwMTQxOTksNzE2ODUxNjA3LDE0MD
+E5NDI2MTUsMTU0MTg0MzQzLDE1NDU0MzQ3MDgsMTM4ODIyMzE0
+NV19
 -->
