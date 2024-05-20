@@ -1047,6 +1047,7 @@ So to sum it up JS engine = heap + stack.
 
 If event listeners have been set up, the `Event loop` knows them and it will reach the JS engine and push callback functions to the stack.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODI1NzUzNF19
+eyJoaXN0b3J5IjpbLTExOTY0NzI2NjAsMTI4ODI1NzUzNF19
 -->
