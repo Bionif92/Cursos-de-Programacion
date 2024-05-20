@@ -1356,15 +1356,10 @@ In an example
 function checkImput (cb, ...strings) {
 let HasEmptyText = false;
 for (const text of strings) {
-if (!text) { HasEmptyText = true; break;}
+if (!text) { HasEmptyText = true; 
+break;}}
+if (!HasEmptyText) {cb ();}
 }
-
-if (!HasEmptyText) {
-cb ();
-}
-}
-
-  
 
 checkImput (() => {
 
@@ -1372,5 +1367,5 @@ console.log ('All not empty')
 
 }, 'Hello', '12', 'adsfa','')````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3NjU3ODg3LDE4MDYwOTg2NDBdfQ==
+eyJoaXN0b3J5IjpbMTc0NjI4MDE2OSwxODA2MDk4NjQwXX0=
 -->
