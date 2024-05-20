@@ -1167,9 +1167,35 @@ console.dir(hello) // it prints the function object!
 
 The method **`console.dir()`** displays an interactive list of the properties of the specified JavaScript object.
 
+### Function expression vs function declaration
+
+Expression: right hand side of an `=` operator.
+
+````javascript
+// right hand side, it's an expression
+const start = function 👉 ❌startGame() { // the name of the function is not needed, could be anonymous
+  console.log('Game is starting...');
+}; 👈 // semicolon is usually added to expressions.
+startGameBtn.addEventListener('click', start);
+
+//it's a declaration
+function startGame() {}
+````
+
+```javascript
+// right hand side breaks hoisting! `start` is hoisted as undefined 😕
+startGameBtn.addEventListener('click', start);
+
+const start = function() {
+  console.log('Game is starting...');
+};
+
+❌ Uncaught ReferenceError: Cannot access 'start' before initialization
+    at app.js:16:40
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjI4NzAyMCwtMTUyMzY4OTIyLC04NT
+eyJoaXN0b3J5IjpbLTQ1NzEwNTE1NCwtMTUyMzY4OTIyLC04NT
 g3MzA4ODcsNjQ3NDg1NDg0LC0xNjQzNDQ5MDk0LDEyODgyNTc1
 MzRdfQ==
 -->
