@@ -1262,8 +1262,12 @@ const getWinner = (computerSelection, playerSelection👉 = DEFAULT_SELECTION) =
   const getWinner = (computerSelection, playerSelection👉 = computerSelection === ROCK ? PAPER : DEFAULT_SELECTION) => {
 ````
 
+### Default Arguments
+
+`const getWinner= (cChoise, pChoise= Default_User_Choise)`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTQzNDcwOCwxMzg4MjIzMTQ1XX0=
+eyJoaXN0b3J5IjpbMTU0MTg0MzQzLDE1NDU0MzQ3MDgsMTM4OD
+IyMzE0NV19
 -->
