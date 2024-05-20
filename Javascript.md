@@ -1228,8 +1228,42 @@ app.js:4 Uncaught ReferenceError: age is not defined
     at HTMLButtonElement.startGame👈 (app.js:4:38) 
 ```
 
+### Arrow functions
+
+`=>` is a keyword made up of math symbols, it's not an operator like the `=` operator!
+
+Predence: && have precedence over || operator, so && are executed before.
+
+````javascript
+// empty return, `undefined` is returned
+const getWinner = (computerSelection, playerSelection) => {
+	....some code
+	return;
+}
+
+const winner = getWinner(); // winner will be `undefined`
+````
+
+````javascript
+// calling functions with less arguments than expected
+// there's no JS error 😮
+
+ const winner = getWinner(computerSelection); // doesn't throw error!
+````
+
+````js
+// fallback params!
+
+const getWinner = (computerSelection, playerSelection👉 = DEFAULT_SELECTION) => {
+  // only kicks in when `playerSelection` is `undefined`.
+  // it doesn't work for falsy values, like null, 0, etc
+  
+// we can add a value depending on other argument's values!
+  const getWinner = (computerSelection, playerSelection👉 = computerSelection === ROCK ? PAPER : DEFAULT_SELECTION) => {
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODIyMzE0NV19
+eyJoaXN0b3J5IjpbMTU0NTQzNDcwOCwxMzg4MjIzMTQ1XX0=
 -->
