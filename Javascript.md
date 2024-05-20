@@ -1376,7 +1376,7 @@ function procesarEntradaUsuario(callback) {
 }
 
 procesarEntradaUsuario(saludar);
-``
+
 
 ### Adding extra parameters on the fly: the .bind() method:
 
@@ -1404,6 +1404,6 @@ const someFn = (callback, someOtherParams) => {
 // to a lot of if checks on the someOtherParams, or ternary expressions
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1ODY1MDM2NSwxMjQzOTgwOTQwLDE1Mj
+eyJoaXN0b3J5IjpbLTY2ODQxODgxMywxMjQzOTgwOTQwLDE1Mj
 M0MDY2MzldfQ==
 -->
