@@ -1406,6 +1406,5 @@ const someFn = (callback, someOtherParams) => {
 // to a lot of if checks on the someOtherParams, or ternary expressions
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjgxNzc3MSwxMjQzOTgwOTQwLDE1Mj
-M0MDY2MzldfQ==
+eyJoaXN0b3J5IjpbLTIxNjgxNzc3MV19
 -->
