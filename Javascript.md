@@ -1308,8 +1308,29 @@ const addNumbers = function () {
 
 console.log(addNumbers(1,2));
 ```
+
+### Declaring functions inside functions
+
+````js
+const addNumbers = (...numbers) => {
+  👉 const validateNumber = (number) => {
+		return isNaN(number) ? 0 : number;
+	}
+
+  let sum = 0;
+  numbers.forEach(number => {
+    sum = sum + validateNumber(number);
+  });
+  return sum;
+}
+````
+
+functions are objects, so we can can objects stored inside objects, right?
+
+The `validateNumber` function is scoped to the curly braces of the parent function.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQwMTQxOTksNzE2ODUxNjA3LDE0MD
-E5NDI2MTUsMTU0MTg0MzQzLDE1NDU0MzQ3MDgsMTM4ODIyMzE0
-NV19
+eyJoaXN0b3J5IjpbLTE2NTQ5NTU4OTcsLTE2OTQwMTQxOTksNz
+E2ODUxNjA3LDE0MDE5NDI2MTUsMTU0MTg0MzQzLDE1NDU0MzQ3
+MDgsMTM4ODIyMzE0NV19
 -->
