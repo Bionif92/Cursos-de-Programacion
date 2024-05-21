@@ -1483,8 +1483,18 @@ the last selected element in the `Elements` tab in the dev tools gets stored in 
 
 We can't see the text nodes in the `Elements` tab.
 
+### Targeting elements
+
+there are 2 camps of methods:
+
+- return the fisrt match (getElementById, querySelector)
+- return an array-like array: NodeList (it might not have .forEach and other methods) (e.g querySelectorAll)
+
+💡`getElementBySomething` methods return an object that is updated if the Node changes later in time ⏺
+
+the other ones just return a snapshot of the Nodes 📸
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTA5NjIzMiwtMjE3MjIxMDY5LC04NT
-g5MTkwOTgsLTYyODc1MzQ4NCw2ODUxNTA3ODgsLTU2OTY1ODc5
-OF19
+eyJoaXN0b3J5IjpbNTQ3MDU4MDAwLC01NjkwOTYyMzIsLTIxNz
+IyMTA2OSwtODU4OTE5MDk4LC02Mjg3NTM0ODQsNjg1MTUwNzg4
+LC01Njk2NTg3OThdfQ==
 -->
