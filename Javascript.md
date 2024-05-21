@@ -1467,7 +1467,24 @@ Two are global objetct, Document is part of the Window
 **Document**: Root DOM Node, provide access to element queryng, DOM document
 
 **Window**: The active browser window, act as the global storage of the script, provides access to specific window properties and methods
+
+### The DOM
+
+There are 2 types of Nodes (JS objects):
+
+- Element Nodes divs, paragraphs, etc
+- Text Nodes (white spaces coming from the indentation of the HTML file)
+
+whitespaces are Text Nodes, and not rendered in the screen 😮
+
+#### The `$0` shortcut:
+
+the last selected element in the `Elements` tab in the dev tools gets stored in the `$0` variable, so it can be used in the console, neat!
+
+We can't see the text nodes in the `Elements` tab.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzIyMTA2OSwtODU4OTE5MDk4LC02Mj
-g3NTM0ODQsNjg1MTUwNzg4LC01Njk2NTg3OThdfQ==
+eyJoaXN0b3J5IjpbLTU2OTA5NjIzMiwtMjE3MjIxMDY5LC04NT
+g5MTkwOTgsLTYyODc1MzQ4NCw2ODUxNTA3ODgsLTU2OTY1ODc5
+OF19
 -->
