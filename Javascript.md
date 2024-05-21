@@ -1464,8 +1464,10 @@ because the browser adds the window. to functions and variables it doesn't find 
 
 Two are global objetct, Document is part of the Window
 
-Document: Root DOM Node
+**Document**: Root DOM Node, provide access to element queryng, DOM document
+
+**Window**: The active browser window,
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODM2MDYxLC04NTg5MTkwOTgsLTYyOD
-c1MzQ4NCw2ODUxNTA3ODgsLTU2OTY1ODc5OF19
+eyJoaXN0b3J5IjpbMjExNzg2MDU5MiwtODU4OTE5MDk4LC02Mj
+g3NTM0ODQsNjg1MTUwNzg4LC01Njk2NTg3OThdfQ==
 -->
