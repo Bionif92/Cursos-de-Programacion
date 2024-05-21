@@ -1439,6 +1439,11 @@ multiplyBtn.addEventListener('click', calculate.bind(this, 'MULTIPLY'));
 divideBtn.addEventListener('click', calculate.bind(this, 'DIVIDE'));
 ````
 
+The following resources may be helpful.
+
+-   More on Functions (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+-   bind(): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1MTUwNzg4LC01Njk2NTg3OThdfQ==
+eyJoaXN0b3J5IjpbLTYyODc1MzQ4NCw2ODUxNTA3ODgsLTU2OT
+Y1ODc5OF19
 -->
