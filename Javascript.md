@@ -1405,6 +1405,40 @@ const someFn = (callback, someOtherParams) => {
 // there could be some logic inside the someFn to pass the appropiate greeting to callback, but that could lead
 // to a lot of if checks on the someOtherParams, or ternary expressions
 ````
+
+````js
+// bind usage in the calculator
+// the callbacks are preconfigured for each button 🔥
+const operators = {
+  ADD: '+',
+  SUBSTRACT: '-',
+  MULTIPLY: '*',
+  DIVIDE: '/'
+}
+
+function calculate(operation) {
+  const enteredNumber = getUserNumberInput();
+  const initialResult = currentResult;
+  
+  if (operation === 'ADD') {
+    currentResult += enteredNumber;
+  } else if (operation === 'SUBTRACT') {
+    currentResult -= enteredNumber;
+  } else if (operation === 'MULTIPLY') {
+    currentResult *= enteredNumber;
+  } else {
+    currentResult /= enteredNumber;
+  }
+  createAndWriteOutput(operator.operation, initialResult, enteredNumber);
+  writeToLog(operation, initialResult, enteredNumber, currentResult);
+}
+
+addBtn.addEventListener('click', calculate.bind(this, 'ADD'));
+subtractBtn.addEventListener('click', calculate.bind(this, 'SUBTRACT'));
+multiplyBtn.addEventListener('click', calculate.bind(this, 'MULTIPLY'));
+divideBtn.addEventListener('click', calculate.bind(this, 'DIVIDE'));
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2OTY1ODc5OF19
+eyJoaXN0b3J5IjpbNjg1MTUwNzg4LC01Njk2NTg3OThdfQ==
 -->
