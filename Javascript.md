@@ -1466,8 +1466,8 @@ Two are global objetct, Document is part of the Window
 
 **Document**: Root DOM Node, provide access to element queryng, DOM document
 
-**Window**: The active browser window, act as the global storage of the script
+**Window**: The active browser window, act as the global storage of the script, provides access to specific window properties and methods
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTkxMTE2OCwtODU4OTE5MDk4LC02Mj
+eyJoaXN0b3J5IjpbLTIxNzIyMTA2OSwtODU4OTE5MDk4LC02Mj
 g3NTM0ODQsNjg1MTUwNzg4LC01Njk2NTg3OThdfQ==
 -->
