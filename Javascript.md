@@ -1493,8 +1493,10 @@ there are 2 camps of methods:
 💡`getElementBySomething` methods return an object that is updated if the Node changes later in time ⏺
 
 the other ones just return a snapshot of the Nodes 📸
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3MDU4MDAwLC01NjkwOTYyMzIsLTIxNz
-IyMTA2OSwtODU4OTE5MDk4LC02Mjg3NTM0ODQsNjg1MTUwNzg4
-LC01Njk2NTg3OThdfQ==
+eyJoaXN0b3J5IjpbMzUyNTU1NTY0LDU0NzA1ODAwMCwtNTY5MD
+k2MjMyLC0yMTcyMjEwNjksLTg1ODkxOTA5OCwtNjI4NzUzNDg0
+LDY4NTE1MDc4OCwtNTY5NjU4Nzk4XX0=
 -->
