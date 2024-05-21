@@ -1443,7 +1443,17 @@ The following resources may be helpful.
 
 -   More on Functions (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 -   bind(): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind)
+
+### Interacting with the DOM
+
+````
+// console
+document
+// we see kind of HTML, and we can select html elements, and they get hovered on the page
+// document is just a JS object (with all the methods we need), represented by Chrome in this HTML way in the console.
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyODc1MzQ4NCw2ODUxNTA3ODgsLTU2OT
-Y1ODc5OF19
+eyJoaXN0b3J5IjpbMTU0NTAyMDgzNCwtNjI4NzUzNDg0LDY4NT
+E1MDc4OCwtNTY5NjU4Nzk4XX0=
 -->
