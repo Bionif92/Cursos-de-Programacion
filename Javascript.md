@@ -1452,8 +1452,10 @@ document
 // we see kind of HTML, and we can select html elements, and they get hovered on the page
 // document is just a JS object (with all the methods we need), represented by Chrome in this HTML way in the console.
 ````
-
+````bash
+console.dir(document) // to see the full object!
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NTAyMDgzNCwtNjI4NzUzNDg0LDY4NT
-E1MDc4OCwtNTY5NjU4Nzk4XX0=
+eyJoaXN0b3J5IjpbMzkzMTA5MDEyLC02Mjg3NTM0ODQsNjg1MT
+UwNzg4LC01Njk2NTg3OThdfQ==
 -->
