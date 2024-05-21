@@ -1455,7 +1455,11 @@ document
 ````bash
 console.dir(document) // to see the full object!
 ````
+
+### Why can we use `alert()` without the window.?
+
+because the browser adds the window. to functions and variables it doesn't find in our code! 😮
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMTA5MDEyLC02Mjg3NTM0ODQsNjg1MT
-UwNzg4LC01Njk2NTg3OThdfQ==
+eyJoaXN0b3J5IjpbLTE2MzE3MDI0NTksLTYyODc1MzQ4NCw2OD
+UxNTA3ODgsLTU2OTY1ODc5OF19
 -->
