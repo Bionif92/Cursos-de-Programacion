@@ -1459,7 +1459,11 @@ console.dir(document) // to see the full object!
 ### Why can we use `alert()` without the window.?
 
 because the browser adds the window. to functions and variables it doesn't find in our code! 😮
+
+### Document vs Window
+
+Document is part of the Window
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzE3MDI0NTksLTYyODc1MzQ4NCw2OD
-UxNTA3ODgsLTU2OTY1ODc5OF19
+eyJoaXN0b3J5IjpbLTg1ODkxOTA5OCwtNjI4NzUzNDg0LDY4NT
+E1MDc4OCwtNTY5NjU4Nzk4XX0=
 -->
