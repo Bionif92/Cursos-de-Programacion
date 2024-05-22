@@ -1629,8 +1629,10 @@ Examples
 ```
 const ul = document.querySelector ('ul')
 
-ul.children // s
+ul.children // see an array of the nodes inside
+
+ul.children [1] // get the second line
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODE0NTQyNiwyNjE0NzI5MjUsLTE5MD
+eyJoaXN0b3J5IjpbMTMxMzI3NjA3OSwyNjE0NzI5MjUsLTE5MD
 Y3MzYyNzZdfQ==
 -->
