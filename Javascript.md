@@ -1652,7 +1652,19 @@ someElement.closest('some-selector'); // looks for the closes parent that matche
 
 Deep traversing is also bad for perfomance
 
+### Parent Nodes Examples
+
+```
+const li = document.querySelector ('li')
+
+ul.children // see an array of the nodes inside
+
+ul.children [1] // get the second line
+
+ul.childNodes // see elements and text nodes 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNj
-gyMDYxNDAsMjYxNDcyOTI1LC0xOTA2NzM2Mjc2XX0=
+eyJoaXN0b3J5IjpbLTEzMzc4ODIxMTMsMTI5NDA1NjQyMiwxMT
+M5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcyOTI1LC0xOTA2NzM2
+Mjc2XX0=
 -->
