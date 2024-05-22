@@ -1682,8 +1682,10 @@ ul.nextSibling // Node
 const ul= document.body.firstElementChild.nextElementSibling; // gives you the second child of body
 ```
 This can change if the html change
+
+Use them with care, if the traversal relation will still the same
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcyNzUzNDksLTE2NTM2OTYxMTMsLT
-E3NTkxMzI1MzUsMTI5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNjgy
-MDYxNDAsMjYxNDcyOTI1LC0xOTA2NzM2Mjc2XX0=
+eyJoaXN0b3J5IjpbMTU5NzUxODAzOCwtMTY1MzY5NjExMywtMT
+c1OTEzMjUzNSwxMjk0MDU2NDIyLDExMzkxODkyOTksLTI2ODIw
+NjE0MCwyNjE0NzI5MjUsLTE5MDY3MzYyNzZdfQ==
 -->
