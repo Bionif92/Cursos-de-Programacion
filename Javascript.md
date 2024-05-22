@@ -1660,9 +1660,13 @@ const li = document.querySelector ('li')
 li.parentElement // always parent element node
 
 li.parentNodes // the same as the previous one
+
+const liFirst= document.querySelector ('li')
+
+liFirst.closest (
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkxMzI1MzUsMTI5NDA1NjQyMiwxMT
-M5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcyOTI1LC0xOTA2NzM2
-Mjc2XX0=
+eyJoaXN0b3J5IjpbLTE2NjU1OTYyNjAsLTE3NTkxMzI1MzUsMT
+I5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcy
+OTI1LC0xOTA2NzM2Mjc2XX0=
 -->
