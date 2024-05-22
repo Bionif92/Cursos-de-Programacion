@@ -1595,8 +1595,10 @@ Tip: the JS object propr and the rendered UI are in sync
 
 ### Selecting multiple elements
 
-`document.querySelectorAll()` or `document.getElementsByTag
+`document.querySelectorAll()` or `document.getElementsByTagName ()`
+
+Last one will be dinamic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjcxMTIxLDY1MTY1Mjg3MSwtNjU5NT
-c2MjM4XX0=
+eyJoaXN0b3J5IjpbMTQ5NDIwODE5OSw2NTE2NTI4NzEsLTY1OT
+U3NjIzOF19
 -->
