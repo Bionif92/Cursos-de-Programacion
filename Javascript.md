@@ -1752,7 +1752,8 @@ div.insertAdjacentHTML('beforeend', '<p>Something went wrong</p>'); // doesn't r
  what if I want to attach and event listener to a button I've just added? 🤔
  I'd have to target it with querySelector and then add the prop, so annoying and poor perfomance ❌
 
+Search for insertAdjacentHTML on web to se how to write each 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQwMjE2NDgsLTE0NDI5ODY1MDQsLT
-E5Nzk1ODMxMTYsOTM5MzE2Njk1LDE1OTc1MTgwMzhdfQ==
+eyJoaXN0b3J5IjpbLTE5NzM1MjI1NCwtMTQ0Mjk4NjUwNCwtMT
+k3OTU4MzExNiw5MzkzMTY2OTUsMTU5NzUxODAzOF19
 -->
