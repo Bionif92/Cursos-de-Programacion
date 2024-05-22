@@ -1738,7 +1738,11 @@ ol.innerHTML = ol.innerHTML + '<li>the only element</>'; // re-renders the origi
 const div = document.getElementById('someId')
  div.innerHTML = div.innerHTML + '<p>Something went wrong</p>'; // I loose the input value of the `value` prop
 ````
+
+Use innerHTML when you want to change or add something to the nodes, without caring about previous data (will be gone)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI5ODY1MDQsLTE5Nzk1ODMxMTYsOT
-M5MzE2Njk1LDE1OTc1MTgwMzhdfQ==
+eyJoaXN0b3J5IjpbMTA0MzkxNTQ2NiwtMTQ0Mjk4NjUwNCwtMT
+k3OTU4MzExNiw5MzkzMTY2OTUsMTU5NzUxODAzOF19
 -->
