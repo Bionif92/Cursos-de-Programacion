@@ -1710,7 +1710,35 @@ someElement.id = 'banana'
 // some attributes (that are already targetted in the CSS file)
 someElement.setAttribute('banana', 'true');
 ````
+
+### Creating and inserting Elements
+
+#### #1 HTML string
+
+##### `innerHTML`:
+
+````js
+// innerHtml
+
+const ol = document.querySelector('ol');
+
+ol.innerHTML = '<li>the only element</>'; // replaces ALL original HTML content
+````
+
+Performance and lossing state issues:
+
+````js
+ol.innerHTML = ol.innerHTML + '<li>the only element</>'; // re-renders the original content, purple flashing on those elements
+// on Chrome dev tools ⚠️
+
+<div id="someId">
+  <input>
+</div>
+
+const div = document.getElementById('someId')
+ div.innerHTML = div.innerHTML + '<p>Something went wrong</p>'; // I loose the input value of the `value` prop
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk1ODMxMTYsOTM5MzE2Njk1LDE1OT
-c1MTgwMzhdfQ==
+eyJoaXN0b3J5IjpbLTE0NDI5ODY1MDQsLTE5Nzk1ODMxMTYsOT
+M5MzE2Njk1LDE1OTc1MTgwMzhdfQ==
 -->
