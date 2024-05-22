@@ -1657,12 +1657,12 @@ Deep traversing is also bad for perfomance
 ```
 const li = document.querySelector ('li')
 
-li.parentElement // see an array of the nodes inside
+li.parentElement // always parent element node
 
-li.parentNodes // see elements and text nodes 
+li.parentNodes // the same as the previous one
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTU2ODU3NCwxMjk0MDU2NDIyLDExMz
-kxODkyOTksLTI2ODIwNjE0MCwyNjE0NzI5MjUsLTE5MDY3MzYy
-NzZdfQ==
+eyJoaXN0b3J5IjpbLTE3NTkxMzI1MzUsMTI5NDA1NjQyMiwxMT
+M5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcyOTI1LC0xOTA2NzM2
+Mjc2XX0=
 -->
