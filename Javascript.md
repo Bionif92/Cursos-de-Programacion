@@ -1595,11 +1595,16 @@ Tip: the JS object propr and the rendered UI are in sync
 
 `input.getAttribute()` helps to read the value written in the HTML tag attribute
 
+Changing color 
+
+`const  var1  =  document.getElementById ('task-1');`
+var1.style.color  =  'white';
+
 ### Selecting multiple elements
 
 `document.querySelectorAll()` or `document.getElementsByTagName ()`
 
 Last one will be dinamic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2Nzk3NTEyXX0=
+eyJoaXN0b3J5IjpbNDA4MDIwOTczLDM4Njc5NzUxMl19
 -->
