@@ -1702,7 +1702,7 @@ someElement.classList.remove('banana');
 
 `section.classList.replace`
 
-`section.classList.toggle ('visi // see the classes`
+`section.classList.toggle ('visible´) or invisible // turn on and off the class`
 
 // ids
 someElement.id = 'banana'
@@ -1711,6 +1711,6 @@ someElement.id = 'banana'
 someElement.setAttribute('banana', 'true');
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMTA3ODEzOSw5MzkzMTY2OTUsMTU5Nz
-UxODAzOF19
+eyJoaXN0b3J5IjpbLTE5Nzk1ODMxMTYsOTM5MzE2Njk1LDE1OT
+c1MTgwMzhdfQ==
 -->
