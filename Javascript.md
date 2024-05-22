@@ -1616,7 +1616,7 @@ Remember: even the indentation of the HTML gets converted into text nodes. e.g: 
 
 How to see the text nodes being rendered on the screen:
 ```css
-// add this to the ol/ul or other element
+// add this to the ol/ul or other element on the console
 element.style {
     white-space: pre;
 }
@@ -1637,6 +1637,6 @@ ul.childNodes // see elements and text nodes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODIwNjE0MCwyNjE0NzI5MjUsLTE5MD
-Y3MzYyNzZdfQ==
+eyJoaXN0b3J5IjpbMTEzOTE4OTI5OSwtMjY4MjA2MTQwLDI2MT
+Q3MjkyNSwtMTkwNjczNjI3Nl19
 -->
