@@ -1671,9 +1671,13 @@ liFirst.closest ('body´) // select any ancestor of the tree
 ul.previousElementSibling // Element
 
 ul.previousSibling // Node
+
+ul.nextElementSibling // Element
+
+ul.nextSibling // Node
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI0MTYwNjMsLTE3NTkxMzI1MzUsMT
+eyJoaXN0b3J5IjpbLTE2NTM2OTYxMTMsLTE3NTkxMzI1MzUsMT
 I5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcy
 OTI1LC0xOTA2NzM2Mjc2XX0=
 -->
