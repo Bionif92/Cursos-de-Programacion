@@ -1624,6 +1624,13 @@ element.style {
 
 Then, if we have the nodelist of text and element nodes in the console.dir, and we hover over the text nodes, we'll see them highlighted in the rendered page!
 
+Examples
+
+```
+const ul = document.querySelector ('ul')
+
+ul.children // s
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYxNDcyOTI1LC0xOTA2NzM2Mjc2XX0=
+eyJoaXN0b3J5IjpbLTYzODE0NTQyNiwyNjE0NzI5MjUsLTE5MD
+Y3MzYyNzZdfQ==
 -->
