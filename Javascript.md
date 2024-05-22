@@ -1698,6 +1698,8 @@ someElement.className = 'banana' // add or remove classes, I can re-use styles
 someElement.classList.add('banana'); ✅
 someElement.classList.remove('banana');
 
+`section.classList.contains // see the classes`
+
 // ids
 someElement.id = 'banana'
 
@@ -1705,5 +1707,6 @@ someElement.id = 'banana'
 someElement.setAttribute('banana', 'true');
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5MzE2Njk1LDE1OTc1MTgwMzhdfQ==
+eyJoaXN0b3J5IjpbLTIwNzA5ODI3Myw5MzkzMTY2OTUsMTU5Nz
+UxODAzOF19
 -->
