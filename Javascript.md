@@ -1676,8 +1676,13 @@ ul.nextElementSibling // Element
 
 ul.nextSibling // Node
 ```
+### Query Method
+
+```
+const ul= document.body.firstElementChild.nextElementSibling; // gives you the second child of body
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTM2OTYxMTMsLTE3NTkxMzI1MzUsMT
-I5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcy
-OTI1LC0xOTA2NzM2Mjc2XX0=
+eyJoaXN0b3J5IjpbMTU1MzgxOTgyMiwtMTY1MzY5NjExMywtMT
+c1OTEzMjUzNSwxMjk0MDU2NDIyLDExMzkxODkyOTksLTI2ODIw
+NjE0MCwyNjE0NzI5MjUsLTE5MDY3MzYyNzZdfQ==
 -->
