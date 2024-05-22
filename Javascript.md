@@ -1665,9 +1665,21 @@ const liFirst= document.querySelector ('li')
 
 liFirst.closest ('body´) // select any ancestor of the tree
 ```
+### SiNodes Examples
 
+```
+const li = document.querySelector ('li')
+
+li.parentElement // always parent element node
+
+li.parentNodes // the same as the previous one
+
+const liFirst= document.querySelector ('li')
+
+liFirst.closest ('body´) // select any ancestor of the tree
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTE3ODc2NSwtMTc1OTEzMjUzNSwxMj
-k0MDU2NDIyLDExMzkxODkyOTksLTI2ODIwNjE0MCwyNjE0NzI5
-MjUsLTE5MDY3MzYyNzZdfQ==
+eyJoaXN0b3J5IjpbLTE5MzEzNzUxODgsLTE3NTkxMzI1MzUsMT
+I5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNjgyMDYxNDAsMjYxNDcy
+OTI1LC0xOTA2NzM2Mjc2XX0=
 -->
