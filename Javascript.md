@@ -1554,6 +1554,45 @@ Takes an HTML tag (e.g.  `'p'`) and returns a live  `HTMLCollection`  of matched
 More information: [https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName)
 
 There also is the  `getElementsByName()` method which really isn't used commonly ([https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName)).
+
+### Attributes vs Properties
+
+- Attributes: what's inside the HTML tag, e.g `id`
+- Properties: the browsers configures some props, like the `id` based what is was passed in the HTML as attributes
+
+Some attributes, like <input value="some text here">, can't be changes with input.value method.
+
+````
+<input value="some text here">
+input.value = 'other random text'
+
+// we check Elements tab
+<input value="some text here"> // still the same, one way data binding
+
+
+input.id = 'some-id';
+<input value="some text here" 👉 id="some-id"> // updates the HTML! 2 way data binding
+````
+
+So, when the user types, the value of `value` is updated in the JS object but not on the HTML attribute read on Elements tab, so 
+
+````
+input.setAttribute('value', 'some other default text');
+<input 👉 value="some other default text">
+
+input.value = 'some previous text the user entered' // decoupled state!
+````
+
+💡value attribute and property are decouple on purpose, so we can always backtrack to the original value if we need to, after the user entered some text:
+
+````js
+input.value = input.getAttribute('value'); // reseting the value propr with the original attribute!
+````
+
+Tip: the JS object propr and the rendered UI are in sync
+
+`input.getAttribute()` helps to read the value written in the HTML tag attribute
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTU3NjIzOF19
+eyJoaXN0b3J5IjpbNjUxNjUyODcxLC02NTk1NzYyMzhdfQ==
 -->
