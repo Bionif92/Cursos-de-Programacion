@@ -1508,8 +1508,22 @@ h1.textContent = 'Lalala'; // deletes and creates a new Text Node
 Use mdn to look for the Element Node documentation, e.g h1. Under `DOM interface`, we have, eg. https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement.
 
 Some props are read only ⚠️
+
+### Node query methods
+
+Here's a summary of the various methods you got to reach out to DOM elements (note: you can only query for element nodes).
+
+Besides the below query methods, you also got these special properties on the document object to select parts of the document:
+
+`document.body`  => Selects the  `<body>`  element node.
+
+`document.head`  => Selects the  `<head>` element node.
+
+`document.documentElement`  => Selects the  `<html>`  element node
+
+### Query methods
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MjA1MDg5LDU0NzA1ODAwMCwtNTY5MD
-k2MjMyLC0yMTcyMjEwNjksLTg1ODkxOTA5OCwtNjI4NzUzNDg0
-LDY4NTE1MDc4OCwtNTY5NjU4Nzk4XX0=
+eyJoaXN0b3J5IjpbNjMwNjYwNjM2LDkxNDIwNTA4OSw1NDcwNT
+gwMDAsLTU2OTA5NjIzMiwtMjE3MjIxMDY5LC04NTg5MTkwOTgs
+LTYyODc1MzQ4NCw2ODUxNTA3ODgsLTU2OTY1ODc5OF19
 -->
