@@ -1494,9 +1494,22 @@ there are 2 camps of methods:
 
 the other ones just return a snapshot of the Nodes 📸
 
+### Applying methods on Element Nodes
 
+we can do `someElement.querySelector('some-selector');` that's great! we can have a more scoped search
+
+`getElementById` is not inside Element Nodes, only in the document.
+
+```js
+const h1 = document.querySelector('h1');
+h1.textContent = 'Lalala'; // deletes and creates a new Text Node
+```
+
+Use mdn to look for the Element Node documentation, e.g h1. Under `DOM interface`, we have, eg. https://developer.mozilla.org/en-US/docs/Web/API/HTMLHeadingElement.
+
+Some props are read only ⚠️
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNTU1NTY0LDU0NzA1ODAwMCwtNTY5MD
+eyJoaXN0b3J5IjpbOTE0MjA1MDg5LDU0NzA1ODAwMCwtNTY5MD
 k2MjMyLC0yMTcyMjEwNjksLTg1ODkxOTA5OCwtNjI4NzUzNDg0
 LDY4NTE1MDc4OCwtNTY5NjU4Nzk4XX0=
 -->
