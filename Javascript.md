@@ -1593,6 +1593,10 @@ Tip: the JS object propr and the rendered UI are in sync
 
 `input.getAttribute()` helps to read the value written in the HTML tag attribute
 
+### Selecting multiple elements
+
+`document.querySelectorAll()` or `document.getElementsByTag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxNjUyODcxLC02NTk1NzYyMzhdfQ==
+eyJoaXN0b3J5IjpbMTU4MjcxMTIxLDY1MTY1Mjg3MSwtNjU5NT
+c2MjM4XX0=
 -->
