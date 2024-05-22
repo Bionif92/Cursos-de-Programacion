@@ -1490,7 +1490,8 @@ there are 2 camps of methods:
 - return the fisrt match (getElementById, querySelector)
 - return an array-like array: NodeList (it might not have .forEach and other methods) (e.g querySelectorAll)
 
-`document.querySelector ('li:last-of-type')
+`document.querySelector ('li:last-of-type')` return the last list item
+
 💡`getElementBySomething` methods return an object that is updated if the Node changes later in time ⏺
 
 the other ones just return a snapshot of the Nodes 📸
@@ -1600,6 +1601,5 @@ Tip: the JS object propr and the rendered UI are in sync
 
 Last one will be dinamic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxMjUyMDk2LDE0OTQyMDgxOTksNjUxNj
-UyODcxLC02NTk1NzYyMzhdfQ==
+eyJoaXN0b3J5IjpbMzg2Nzk3NTEyXX0=
 -->
