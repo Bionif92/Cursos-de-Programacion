@@ -1605,6 +1605,25 @@ Tip: the JS object propr and the rendered UI are in sync
 `document.querySelectorAll()` or `document.getElementsByTagName ()`
 
 Last one will be dinamic
+
+### Traversing the DOM: children, descendents, Parent and Ancestors
+
+use `.children` to navigate the Node Elements (skiping the Text Nodes);
+
+if you use `.childNodes` you get the list of all nodes (Elements and Text).
+
+Remember: even the indentation of the HTML gets converted into text nodes. e.g: `someTextNode.data: "\n      "`
+
+How to see the text nodes being rendered on the screen:
+```css
+// add this to the ol/ul or other element
+element.style {
+    white-space: pre;
+}
+```
+
+Then, if we have the nodelist of text and element nodes in the console.dir, and we hover over the text nodes, we'll see them highlighted in the rendered page!
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY3MzYyNzZdfQ==
+eyJoaXN0b3J5IjpbMjYxNDcyOTI1LC0xOTA2NzM2Mjc2XX0=
 -->
