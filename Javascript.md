@@ -1741,8 +1741,18 @@ const div = document.getElementById('someId')
 
 Use innerHTML when you want to change or add something to the nodes, without caring about previous data (will be gone)
 
+##### `insertAdjacentHTML`
+
+```js
+div.insertAdjacentHTML('beforeend', '<p>Something went wrong</p>'); // doesn't re-render the input field!
+// more performant ✅
+// but I only set the attributes ⚠️
+```
+
+ what if I want to attach and event listener to a button I've just added? 🤔
+ I'd have to target it with querySelector and then add the prop, so annoying and poor perfomance ❌
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MzkxNTQ2NiwtMTQ0Mjk4NjUwNCwtMT
-k3OTU4MzExNiw5MzkzMTY2OTUsMTU5NzUxODAzOF19
+eyJoaXN0b3J5IjpbLTE2MjQwMjE2NDgsLTE0NDI5ODY1MDQsLT
+E5Nzk1ODMxMTYsOTM5MzE2Njk1LDE1OTc1MTgwMzhdfQ==
 -->
