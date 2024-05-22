@@ -1523,31 +1523,31 @@ Besides the below query methods, you also got these special properties on the do
 
 ### Query methods
 
-document.querySelector(<CSS selector>);
+`document.querySelector(<CSS selector>);`
 
 Takes any CSS selector (e.g.  `'#some-id'`,  `'.some-class'`  or  `'div p.some-class'`) and returns the first (!) matching element in the DOM. Returns  `null`  if no matching element could be found.
 
 More information: [https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)
 
-document.getElementById(<ID>);
+`document.getElementById(<ID>);`
 
 Takes an ID (without  `#`, just the id name) and returns the element that has this id. Since the same ID shouldn't occur more than once on your page, it'll always return exactly that one element. Returns  `null`  if no element with the specified ID could be found.
 
 More information: [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)
 
-document.querySelectorAll(<CSS selector>);
+`document.querySelectorAll(<CSS selector>);`
 
 Takes any CSS selector (e.g.  `'#some-id'`,  `'.some-class'`  or  `'div p.some-class'`) and returns all matching elements in the DOM as a static (non-live) `NodeList`. Returns and empty  `NodeList`  if no matching element could be found.
 
 More information: [https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)
 
-document.getElementsByClassName(<CSS CLASS>);
+`document.getElementsByClassName(<CSS CLASS>);`
 
 Takes a CSS class g (e.g.  `'some-class'`) and returns a live  `HTMLCollection`  of matched elements in your DOM. Returns an empty  `HTMLCollection`  if not matching elements were found.
 
 More information: [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)
 
-document.getElementsByTagName(<HTML TAG>);
+`document.getElementsByTagName(<HTML TAG>);`
 
 Takes an HTML tag (e.g.  `'p'`) and returns a live  `HTMLCollection`  of matched elements in your DOM. Returns an empty  `HTMLCollection`  if not matching elements were found.
 
@@ -1555,5 +1555,5 @@ More information: [https://developer.mozilla.org/en-US/docs/Web/API/Element/getE
 
 There also is the  `getElementsByName()` method which really isn't used commonly ([https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByName)).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTU4NjcyOF19
+eyJoaXN0b3J5IjpbLTY1OTU3NjIzOF19
 -->
