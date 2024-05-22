@@ -1663,10 +1663,11 @@ li.parentNodes // the same as the previous one
 
 const liFirst= document.querySelector ('li')
 
-liFirst.closest ('body´) // select the ancestor
+liFirst.closest ('body´) // select any ancestor of the tree
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0Nzg3MzI3NiwtMTc1OTEzMjUzNSwxMj
+eyJoaXN0b3J5IjpbMTU1MTE3ODc2NSwtMTc1OTEzMjUzNSwxMj
 k0MDU2NDIyLDExMzkxODkyOTksLTI2ODIwNjE0MCwyNjE0NzI5
 MjUsLTE5MDY3MzYyNzZdfQ==
 -->
