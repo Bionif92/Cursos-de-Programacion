@@ -1635,8 +1635,24 @@ ul.children [1] // get the second line
 
 ul.childNodes // see elements and text nodes 
 ```
+#### Perfomance issues:
+
+````
+document.querySelector('li:last-of-type'); // 🐌 running a query like that at the document level is expensive!
+
+document.querySelector('ul').lastElementChild() 🚀
+````
+
+`````
+someElement.closest('some-selector'); // looks for the closes parent that matches that selector
+// it's kind of querySelector but for looking upstream
+`````
+
+💡 Run as fewer .querySelector queries as possible, and use parent and children navigation instead (always taking into account code readability, and future changes in the HTML order)
+
+Deep traversing is also bad for perfomance
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzOTE4OTI5OSwtMjY4MjA2MTQwLDI2MT
-Q3MjkyNSwtMTkwNjczNjI3Nl19
+eyJoaXN0b3J5IjpbMTI5NDA1NjQyMiwxMTM5MTg5Mjk5LC0yNj
+gyMDYxNDAsMjYxNDcyOTI1LC0xOTA2NzM2Mjc2XX0=
 -->
