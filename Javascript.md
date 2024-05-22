@@ -1684,6 +1684,26 @@ const ul= document.body.firstElementChild.nextElementSibling; // gives you the s
 This can change if the html change
 
 Use them with care, if the traversal relation will still the same
+
+### Styling DOM elements
+
+````
+// inline
+someElement.style.backgroundColor = 'red' // inline style -> highest specificity
+
+// classes
+someElement.className = 'banana' // add or remove classes, I can re-use styles
+// cumbersome, be careful not to override previous classes added to the element ❌
+
+someElement.classList.add('banana'); ✅
+someElement.classList.remove('banana');
+
+// ids
+someElement.id = 'banana'
+
+// some attributes (that are already targetted in the CSS file)
+someElement.setAttribute('banana', 'true');
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzUxODAzOF19
+eyJoaXN0b3J5IjpbOTM5MzE2Njk1LDE1OTc1MTgwMzhdfQ==
 -->
