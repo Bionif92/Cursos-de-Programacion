@@ -1753,6 +1753,28 @@ div.insertAdjacentHTML('beforeend', '<p>Something went wrong</p>'); // doesn't r
  I'd have to target it with querySelector and then add the prop, so annoying and poor perfomance ❌
 
 **Search for insertAdjacentHTML on web to se how to write each way of writing the final statement**
+
+#### Creating Node Element + append it
+
+The methods to add the nodes are `append`, appendChild `prepend`, `before`, `after`, `replaceWith`.
+
+```js
+// createElement + appendChild
+
+const div = document.getElementById('input-wrapper');
+
+const error = document.createElement('p');
+
+error.textContent = 'Something broke!';
+
+div.appendChild(error);
+```
+
+These are better APIs, since I can append a list of Node Elements separated by a coma:
+
+```js
+div.append(error, otherNodeHere);
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2NzE1MTJdfQ==
+eyJoaXN0b3J5IjpbMTIwNjc1Mjc2LC0xODA1NjcxNTEyXX0=
 -->
