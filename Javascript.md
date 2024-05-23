@@ -1775,6 +1775,14 @@ These are better APIs, since I can append a list of Node Elements separated by a
 ```js
 div.append(error, otherNodeHere);
 ```
+### Nodes are objects!
+
+```js
+div.append(error);
+
+div.prepend(error); // moves the element up, it's the same object reference
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjc1Mjc2LC0xODA1NjcxNTEyXX0=
+eyJoaXN0b3J5IjpbOTUyMjk2NDc2LDEyMDY3NTI3NiwtMTgwNT
+Y3MTUxMl19
 -->
