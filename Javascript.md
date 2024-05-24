@@ -1685,7 +1685,7 @@ This can change if the html change
 
 Use them with care, if the traversal relation will still the same
 
-### Styling DOM elements
+### Styling DOM elements - Classes and Attribute
 
 ````
 // inline
@@ -1860,5 +1860,5 @@ someElement.remove()
 Don't use `.classList.add('someClass')` and  `.classList.remove('someClass') 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjQ0MTYyNywtMjA1NTIwNDI4XX0=
+eyJoaXN0b3J5IjpbLTkwMTU0NzMwN119
 -->
