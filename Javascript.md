@@ -1789,8 +1789,8 @@ div.prepend(error); // moves the element up, it's the same object reference
 
 `const newLi = document.createElement ('li')`
 
-`newLi.textContent = 'Item 4' // put text on it
+`newLi.textContent = 'Item 4' // put text on it` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDcxNTY4NjcsOTUyMjk2NDc2XX0=
+eyJoaXN0b3J5IjpbMTI0NTYxMjc3LDk1MjI5NjQ3Nl19
 -->
