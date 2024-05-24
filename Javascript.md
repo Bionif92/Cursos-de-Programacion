@@ -1843,8 +1843,9 @@ console.log('HTMLElementList', HTMLElementList); 👈 updated! ✅
 
 Having a non live array it's maybe not an issue.
 
+`document.getElementsBy(
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU0Mzc1MjIsLTE0NDY5MDc2NjgsLT
-E4NTMwMTQwNTIsLTExNjU4OTIzNzYsMTI0NTYxMjc3LDk1MjI5
-NjQ3Nl19
+eyJoaXN0b3J5IjpbLTU0NTkyMjk3MSwtMTUzNTQzNzUyMiwtMT
+Q0NjkwNzY2OCwtMTg1MzAxNDA1MiwtMTE2NTg5MjM3NiwxMjQ1
+NjEyNzcsOTUyMjk2NDc2XX0=
 -->
