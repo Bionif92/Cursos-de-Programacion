@@ -1850,6 +1850,9 @@ Having a non live array it's maybe not an issue.
 ```js
 someElement.remove()
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDI4OTExMiwzNTM3MzAxNzJdfQ==
+eyJoaXN0b3J5IjpbMTE4Mzc4MTEyNCwtNzk0Mjg5MTEyLDM1Mz
+czMDE3Ml19
 -->
