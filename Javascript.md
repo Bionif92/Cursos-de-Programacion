@@ -1775,6 +1775,8 @@ These are better APIs, since I can append a list of Node Elements separated by a
 ```js
 div.append(error, otherNodeHere);
 ```
+It is the shortest version to add
+
 ### Nodes are objects!
 
 ```js
@@ -1783,5 +1785,5 @@ div.append(error); // put the error on the bottom
 div.prepend(error); // moves the element up, it's the same object reference
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwNDY0Mzk5LDk1MjI5NjQ3Nl19
+eyJoaXN0b3J5IjpbNzU0NDkyMDAxLDk1MjI5NjQ3Nl19
 -->
