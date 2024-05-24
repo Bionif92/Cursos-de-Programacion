@@ -1802,7 +1802,20 @@ The existing element will change place, it dont copy an paste it
 `secondLi.insertAdjacentElement ('afterend',newLi)`
 
 For this one, search on internet different ways as `afterend`
+
+### Cloning elements = cloning objects
+
+Remember to deep clone nodes to, e.g get the textContent cloned as well:
+
+````js
+div.append(error);
+
+const errorClone = error.cloneNode(true);
+
+div.prepend(errorClone);
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTMwMTQwNTIsLTExNjU4OTIzNzYsMT
-I0NTYxMjc3LDk1MjI5NjQ3Nl19
+eyJoaXN0b3J5IjpbLTE0NzcxMTMyMDAsLTE4NTMwMTQwNTIsLT
+ExNjU4OTIzNzYsMTI0NTYxMjc3LDk1MjI5NjQ3Nl19
 -->
