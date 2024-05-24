@@ -1791,6 +1791,12 @@ div.prepend(error); // moves the element up, it's the same object reference
 
 `newLi.textContent = 'Item 4' // put text on it` 
 
+### Example
+
+`list.lastElementChild.before (new`
+
+`newLi.textContent = 'Item 4' // put text on it` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NTYxMjc3LDk1MjI5NjQ3Nl19
+eyJoaXN0b3J5IjpbNjYyMzA3NTg0LDEyNDU2MTI3Nyw5NTIyOT
+Y0NzZdfQ==
 -->
