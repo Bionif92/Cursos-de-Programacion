@@ -1798,7 +1798,11 @@ div.prepend(error); // moves the element up, it's the same object reference
 The existing element will change place, it dont copy an paste it
 
 `list.firstElementChild.replaceWith (newLi) // will replace the item`
+
+`secondLi.insertAdjacentElement ('afterend',newLi)`
+
+For this one, search on internet different ways as `afterend`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjU4OTIzNzYsMTI0NTYxMjc3LDk1Mj
-I5NjQ3Nl19
+eyJoaXN0b3J5IjpbLTE4NTMwMTQwNTIsLTExNjU4OTIzNzYsMT
+I0NTYxMjc3LDk1MjI5NjQ3Nl19
 -->
