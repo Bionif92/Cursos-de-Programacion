@@ -1797,8 +1797,8 @@ div.prepend(error); // moves the element up, it's the same object reference
 
 The existing element will change place, it dont copy an paste it
 
-`list.firstElementChild.replaceWith (newLi) // will repla`
+`list.firstElementChild.replaceWith (newLi) // will replace the item`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcwNDE2OTA4LDEyNDU2MTI3Nyw5NTIyOT
-Y0NzZdfQ==
+eyJoaXN0b3J5IjpbLTExNjU4OTIzNzYsMTI0NTYxMjc3LDk1Mj
+I5NjQ3Nl19
 -->
