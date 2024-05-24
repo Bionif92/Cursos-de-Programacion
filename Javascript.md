@@ -1853,6 +1853,5 @@ someElement.remove()
 
 `list.parentElement.removeChild (list)`is also valid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTUyMDQyOCwtNzk0Mjg5MTEyLDM1Mz
-czMDE3Ml19
+eyJoaXN0b3J5IjpbLTIwNTUyMDQyOF19
 -->
