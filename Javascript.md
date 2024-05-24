@@ -1778,10 +1778,10 @@ div.append(error, otherNodeHere);
 ### Nodes are objects!
 
 ```js
-div.append(error);
+div.append(error); // put the error on the bottom
 
 div.prepend(error); // moves the element up, it's the same object reference
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyMjk2NDc2XX0=
+eyJoaXN0b3J5IjpbNTAwNDY0Mzk5LDk1MjI5NjQ3Nl19
 -->
