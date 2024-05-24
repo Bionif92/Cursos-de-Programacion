@@ -1844,6 +1844,12 @@ console.log('HTMLElementList', HTMLElementList); 👈 updated! ✅
 Having a non live array it's maybe not an issue.
 
 `document.getElementsBy(Name, Class, etc, not By) will be a live array
+
+### Removing elements from the DOM
+
+```js
+someElement.remove()
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzNzMwMTcyXX0=
+eyJoaXN0b3J5IjpbLTc5NDI4OTExMiwzNTM3MzAxNzJdfQ==
 -->
