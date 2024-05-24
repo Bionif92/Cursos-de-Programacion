@@ -1816,8 +1816,35 @@ div.prepend(errorClone);
 ````
 With false, you only copy the item, with true, all the decendents too
 
+#### NodeList vs HTMLCollection
+
+NodeList (querySelectorAll) is more perfomant because it's not updated when inserting **new** Elements there with JS, or deleting them.
+
+HTMLCollection (getElementByTag) reflects new/removed items in the array when targeted with JS
+
+````
+const ol = document.querySelector('ol');
+
+const nodeList = document.querySelectorAll('li');
+
+const HTMLElementList = document.getElementsByTagName('li');
+
+const newLi = document.createElement('li');
+
+newLi.textContent = 'added item';
+
+ol.append(newLi);
+
+
+console.log('nodelist', nodeList); 👈 not updated in terms of new/removed elements
+
+console.log('HTMLElementList', HTMLElementList); 👈 updated! ✅
+````
+
+Having a non live array it's maybe not an issue.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY5MDc2NjgsLTE4NTMwMTQwNTIsLT
-ExNjU4OTIzNzYsMTI0NTYxMjc3LDk1MjI5NjQ3Nl19
+eyJoaXN0b3J5IjpbLTE1MzU0Mzc1MjIsLTE0NDY5MDc2NjgsLT
+E4NTMwMTQwNTIsLTExNjU4OTIzNzYsMTI0NTYxMjc3LDk1MjI5
+NjQ3Nl19
 -->
