@@ -1793,10 +1793,11 @@ div.prepend(error); // moves the element up, it's the same object reference
 
 ### Example
 
-`list.lastElementChild.before (new`
+`list.lastElementChild.before (newLi) // put the item before last element`
 
-`newLi.textContent = 'Item 4' // put text on it` 
+The existing element will change place, it dont copy an paste it
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyMzA3NTg0LDEyNDU2MTI3Nyw5NTIyOT
-Y0NzZdfQ==
+eyJoaXN0b3J5IjpbLTMzODk3NzQxNCwxMjQ1NjEyNzcsOTUyMj
+k2NDc2XX0=
 -->
