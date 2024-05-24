@@ -1814,8 +1814,10 @@ const errorClone = error.cloneNode(true);
 
 div.prepend(errorClone);
 ````
+With false, you only copy the item, with true, all the decendents too
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzcxMTMyMDAsLTE4NTMwMTQwNTIsLT
+eyJoaXN0b3J5IjpbLTE0NDY5MDc2NjgsLTE4NTMwMTQwNTIsLT
 ExNjU4OTIzNzYsMTI0NTYxMjc3LDk1MjI5NjQ3Nl19
 -->
