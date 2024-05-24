@@ -1851,8 +1851,8 @@ Having a non live array it's maybe not an issue.
 someElement.remove()
 ```
 
-
+`list.parentElement.removeChild (list)`is also valid
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4Mzc4MTEyNCwtNzk0Mjg5MTEyLDM1Mz
+eyJoaXN0b3J5IjpbLTIwNTUyMDQyOCwtNzk0Mjg5MTEyLDM1Mz
 czMDE3Ml19
 -->
