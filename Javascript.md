@@ -2075,9 +2075,33 @@ const updatedPrices = [];
 
 prices.forEach(element => updatedPrices.push(element*(1 + tax)));
 ````
+
+### .map
+
+return a new array (shallow copy!)⚠️
+
+````js
+// primitive values
+const prices = [1, 2];
+
+const tax = 0.20;
+
+const updatedPrices = prices.map(element => element*(1 + tax));
+
+// reference values
+const people = [{name: 'Max'}, {name: 'Manu'}];
+const updatedPeople = people.map(element => element.name = 'Banana');
+console.log (people, updatedPeople); // [{name: 'banana'}, {name: 'banana'}];, [{name: 'banana'}, {name: 'banana'}];
+
+// clone deep, to avoid pushing references to the new array
+const updatedPeople = people.map(element => { 
+    return {...element, name: 'Banana'};
+});
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTAxMzk1MSwtMTE3MjQ0NzY1NywtMT
-IxODQwODY4OCw1MTk2Mjc2NTksLTEyNDI1ODY4MzMsODg4MzAx
-NSw5NDM3MDkwNCwtMjAwODU0NTg4MywtNjAyMTE5NzQ3LDExND
-U2NjU3ODQsLTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbLTE4NDI1OTAyNDYsMTkwMTAxMzk1MSwtMT
+E3MjQ0NzY1NywtMTIxODQwODY4OCw1MTk2Mjc2NTksLTEyNDI1
+ODY4MzMsODg4MzAxNSw5NDM3MDkwNCwtMjAwODU0NTg4MywtNj
+AyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUsLTE3MDAw
+MDM4MF19
 -->
