@@ -1985,8 +1985,20 @@ const fromNegativeSlice = animals.slice(-2,2); // always slices to the right! ['
 ```
 it returns a shallow copy of the slice.
 
+### Concat method
+
+useful for combining to arrays into a **brand new one**! (shallow copy)
+
+```
+const wild = ['bison'];
+
+const domestic = ['cat'];
+
+const animals = wild.concat(domestic); // ['bison', 'cat']
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg4MzAxNSw5NDM3MDkwNCwtMjAwODU0NT
-g4MywtNjAyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUs
-LTE3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbLTEyNDI1ODY4MzMsODg4MzAxNSw5NDM3MD
+kwNCwtMjAwODU0NTg4MywtNjAyMTE5NzQ3LDExNDU2NjU3ODQs
+LTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
 -->
