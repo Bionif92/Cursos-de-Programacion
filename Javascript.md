@@ -1957,8 +1957,36 @@ it returns the deleted elements and mutate the array.
 `splice (where to start, how many delete(for all put nothing), add more data)`
 
 **Can put the animal.splice into a constant not to loose the data**
+
+### Slice method
+
+Shallow copies! ⚠️:
+
+`slice() , Array. from() , Object. assign() , and Object. create() ) **do not create deep copies** (instead, they create shallow copies).`
+
+```js
+const users = [{name: 'John'}, {name: 'Paul'}];
+
+const shallowUsersClone = users.slice(); // ⚠️ shallow copy created
+
+users[0].name = 'Matthew';
+
+console.log(users, shallowUsersClone); 
+// outputs [{name: 👉'Matthew'}, {name: 'Paul'}] [{name: 👉'Matthew'}, {name: 'Paul'}]
+```
+```js
+const animals = ['bear', 'parrot', 'fish']
+
+const fullSlice = animals.slice(); // shallow copy ['bear', 'parrot', 'fish'] 
+
+const smallSlice = animals.slice(0,2); ['bear', 'parrot']
+
+const fromNegativeSlice = animals.slice(-2,2); // always slices to the right! ['parrot', 'fish']]
+```
+it returns a shallow copy of the slice.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNzA5MDQsLTIwMDg1NDU4ODMsLTYwMj
-ExOTc0NywxMTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAz
-ODBdfQ==
+eyJoaXN0b3J5IjpbODg4MzAxNSw5NDM3MDkwNCwtMjAwODU0NT
+g4MywtNjAyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUs
+LTE3MDAwMDM4MF19
 -->
