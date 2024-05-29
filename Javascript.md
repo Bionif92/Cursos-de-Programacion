@@ -1898,8 +1898,10 @@ const numbers = Array(5); // [empty x5]
 
 const numbers = new Array(5); // [empty x5 ] // numbers[0] outputs undefined
 
+const moreNewNumbers = Arry.from ('Hi!'); // create array 
+
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTY2NTc4NCwtMjAzOTg3MTI2NSwtMT
-cwMDAwMzgwXX0=
+eyJoaXN0b3J5IjpbMTMzODI1MTg0OCwxMTQ1NjY1Nzg0LC0yMD
+M5ODcxMjY1LC0xNzAwMDAzODBdfQ==
 -->
