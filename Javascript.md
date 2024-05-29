@@ -1855,6 +1855,33 @@ someElement.remove()
 
 ## More on arrays and iterables
 
+### what are iterable objects?
+
+objects that can be looped using a `for of` loop.
+
+````js
+const name = 'Max';
+
+for (letter of myString) { 
+	console.log(letter); // prints 'M', 'a', 'x'
+}
+````
+
+E.g: `NodeList` and `String`.
+
+### what are array-like objects?
+
+E.g: `NodeList` and `String`.
+
+We can access items indexes, and they have a .length property
+
+```js
+const name = 'Max';
+
+console.log(name.length); // outputs '3'
+
+console.log(name[0]); outputs 'M'
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbLTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
 -->
