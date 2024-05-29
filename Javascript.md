@@ -2026,9 +2026,32 @@ console.log(people.findIndex(element => element.name === 'Max')); // 0
 
 similar to the above, but starts looking from the end of the array
 
+### Find method
+
+it accepts a callback that is executed for each element.
+
+it returns the first element that matches the returned condition.
+
+⚠️ It doesn't create a copy of objects returned in the array, they're the same references! 😮
+
+````
+const people = [{name: 'Max'}, {name: 'Manu'}];
+
+const max = people.find(element=> element.name === 'Max');
+
+max.name = "Rob";
+
+console.log(people); // [{name: 'Rob'}, {name: 'Manu'}]
+````
+
+### FindIndex method
+
+```
+console.log(people.findIndex(element => element.name === 'Max')); // 0, found
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg0MDg2ODgsNTE5NjI3NjU5LC0xMj
-QyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQsLTIwMDg1NDU4ODMs
-LTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNz
-AwMDAzODBdfQ==
+eyJoaXN0b3J5IjpbLTExNzI0NDc2NTcsLTEyMTg0MDg2ODgsNT
+E5NjI3NjU5LC0xMjQyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQs
+LTIwMDg1NDU4ODMsLTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMD
+M5ODcxMjY1LC0xNzAwMDAzODBdfQ==
 -->
