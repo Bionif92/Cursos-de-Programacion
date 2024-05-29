@@ -1913,7 +1913,26 @@ const name = 'Max';
 const nameArray = Array.from(name); // ['M', 'a', 'x'];
 ```
 That way, we could use, e.g .splice() on the converted array.
+
+### Adding and removing elements in arrays
+
+```
+.push(element) // 🚀fastest perfomance
+.pop() // removes last element // 🚀 fastest perfomance
+.shift() // removes the first element => shiftes elements to the left // 🐌 bad performance
+.unshift(element) // adds to the begining of the array => // 🐌 shiftes elements to the right
+```
+
+```js
+// how not to mutate elements ❌
+
+const countries = ['Argentina']
+countries[5] = 'Brazil';
+
+console.log(countries); // ['Argentina', empty × 4, 'Brazil']
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDQ2MTUyMTQsLTYwMjExOTc0NywxMT
+eyJoaXN0b3J5IjpbLTIwMDg1NDU4ODMsLTYwMjExOTc0NywxMT
 Q1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAzODBdfQ==
 -->
