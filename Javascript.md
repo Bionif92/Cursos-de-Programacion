@@ -2049,9 +2049,22 @@ console.log(people); // [{name: 'Rob'}, {name: 'Manu'}]
 ```
 console.log(people.findIndex(element => element.name === 'Max')); // 0, found
 ```
+
+### .includes
+
+It's case sensitive
+
+````
+console.log(wildAnimals.includes('bison')); //
+````
+
+Doesn't work to find object and arrays (reference values)
+
+Works well for primitive values
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzI0NDc2NTcsLTEyMTg0MDg2ODgsNT
-E5NjI3NjU5LC0xMjQyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQs
-LTIwMDg1NDU4ODMsLTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMD
-M5ODcxMjY1LC0xNzAwMDAzODBdfQ==
+eyJoaXN0b3J5IjpbMTc0NTA4NDczNCwtMTE3MjQ0NzY1NywtMT
+IxODQwODY4OCw1MTk2Mjc2NTksLTEyNDI1ODY4MzMsODg4MzAx
+NSw5NDM3MDkwNCwtMjAwODU0NTg4MywtNjAyMTE5NzQ3LDExND
+U2NjU3ODQsLTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
 -->
