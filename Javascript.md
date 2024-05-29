@@ -1856,5 +1856,5 @@ someElement.remove()
 ## More on arrays and iterables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDAwMDM4MCwtOTAxNTQ3MzA3XX0=
+eyJoaXN0b3J5IjpbLTE3MDAwMDM4MF19
 -->
