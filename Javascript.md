@@ -1853,12 +1853,8 @@ someElement.remove()
 
 `list.parentElement.removeChild (list)`is also valid
 
-### Favourite movies app
-
-`getElementById` is faster than `querySelector(#someId)`
-
-Don't use `.classList.add('someClass')` and  `.classList.remove('someClass') 
+## More on arrays and iterables
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTU0NzMwN119
+eyJoaXN0b3J5IjpbLTE3MDAwMDM4MCwtOTAxNTQ3MzA3XX0=
 -->
