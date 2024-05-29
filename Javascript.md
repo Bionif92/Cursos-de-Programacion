@@ -1996,9 +1996,38 @@ const domestic = ['cat'];
 
 const animals = wild.concat(domestic); // ['bison', 'cat']
 ```
+### IndexOf method
+
+finds the first index of an occurrance.
+
+```
+const wildAnimals = ['bison', 'lion'];
+
+const lionIndex = wildAnimals.indexOf('lion');
+
+if (lionIndex !== -1) {
+    // and the cat becomes a wild animal!
+    wildAnimals[lionIndex] = 'cat';
+}
+```
+
+Gotcha here: it works fine for primite values, but not for references.
+
+```
+const people = [{name: 'Max'}, {name: 'Manu'}];
+
+console.log(people.indexOf({name: 'Max'})); // -1, not found!
+
+// use .find() instead
+console.log(people.findIndex(element => element.name === 'Max')); // 0
+```
+
+### LastIndexOf method
+
+similar to the above, but starts looking from the end of the array
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDI1ODY4MzMsODg4MzAxNSw5NDM3MD
-kwNCwtMjAwODU0NTg4MywtNjAyMTE5NzQ3LDExNDU2NjU3ODQs
-LTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbNTE5NjI3NjU5LC0xMjQyNTg2ODMzLDg4OD
+MwMTUsOTQzNzA5MDQsLTIwMDg1NDU4ODMsLTYwMjExOTc0Nywx
+MTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAzODBdfQ==
 -->
