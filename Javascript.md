@@ -1901,7 +1901,19 @@ const numbers = new Array(5); // [empty x5 ] // numbers[0] outputs undefined
 const moreNewNumbers = Arry.from ('Hi!'); // create array like objetc, give you back ['H','i','!']
 
 ```
+### Converting iterables and array-like objects into arrays
+
+```js
+// NodeList example
+const divsNodeList = document.querySelectorAll('div');
+const divArray = Array.from(divsNodeList);
+
+//String example
+const name = 'Max';
+const nameArray = Array.from(name); // ['M', 'a', 'x'];
+```
+That way, we could use, e.g .splice() on the converted array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMD
-M5ODcxMjY1LC0xNzAwMDAzODBdfQ==
+eyJoaXN0b3J5IjpbLTEzMDQ2MTUyMTQsLTYwMjExOTc0NywxMT
+Q1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAzODBdfQ==
 -->
