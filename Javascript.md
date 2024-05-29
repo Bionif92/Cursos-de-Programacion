@@ -1954,9 +1954,9 @@ animals.splice(-2, 1); // ['bear', 'fish']
 ```
 
 it returns the deleted elements and mutate the array.
-`splice (where to start, how many delete, add more data)`
+`splice (where to start, how many delete(for all p, add more data)`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDUzMDIwNywtMjAwODU0NTg4MywtNj
-AyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUsLTE3MDAw
-MDM4MF19
+eyJoaXN0b3J5IjpbNjI1NzMxMzksLTIwMDg1NDU4ODMsLTYwMj
+ExOTc0NywxMTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAz
+ODBdfQ==
 -->
