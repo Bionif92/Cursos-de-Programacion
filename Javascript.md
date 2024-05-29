@@ -1931,8 +1931,32 @@ countries[5] = 'Brazil';
 
 console.log(countries); // ['Argentina', empty × 4, 'Brazil']
 ```
+### Splice method: powerful
+
+```js
+  const animals = ['bear', 'parrot', 'fish']
+
+// remove
+animals.splice(1,1) // ['bear','fish']
+
+// add
+animals.splice(1,0, 'donkey');  // ['bear', 'donkey', parrot', 'fish']
+
+// replace
+  animals.splice(0,1, 'wale'); // ['wale', 'parrot', 'fish']
+
+// delete all items (1 arg)
+animals.splice(1); // ['bear']
+
+
+// start from the end of array (negative indexes)
+animals.splice(-2, 1); // ['bear', 'fish']
+```
+
+it returns the deleted elements and mutate the array.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDg1NDU4ODMsLTYwMjExOTc0NywxMT
-Q1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAzODBdfQ==
+eyJoaXN0b3J5IjpbLTEwMzY2NjQ4NTYsLTIwMDg1NDU4ODMsLT
+YwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAw
+MDAzODBdfQ==
 -->
