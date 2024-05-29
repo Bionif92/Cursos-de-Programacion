@@ -2061,9 +2061,22 @@ console.log(wildAnimals.includes('bison')); //
 Doesn't work to find object and arrays (reference values)
 
 Works well for primitive values
-```
+
+### .forEach
+
+doesn't return anything
+
+````js
+const prices = [1, 2];
+
+const tax = 0.20;
+
+const updatedPrices = [];
+
+prices.forEach(element => updatedPrices.push(element*(1 + tax)));
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTA4NDczNCwtMTE3MjQ0NzY1NywtMT
+eyJoaXN0b3J5IjpbMTkwMTAxMzk1MSwtMTE3MjQ0NzY1NywtMT
 IxODQwODY4OCw1MTk2Mjc2NTksLTEyNDI1ODY4MzMsODg4MzAx
 NSw5NDM3MDkwNCwtMjAwODU0NTg4MywtNjAyMTE5NzQ3LDExND
 U2NjU3ODQsLTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
