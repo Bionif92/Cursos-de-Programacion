@@ -2011,7 +2011,7 @@ if (lionIndex !== -1) {
 }
 ```
 
-Gotcha here: it works fine for primite values, but not for references.
+Gotcha here: it works fine for primite values, but not for references (objects)
 
 ```
 const people = [{name: 'Max'}, {name: 'Manu'}];
@@ -2027,7 +2027,8 @@ console.log(people.findIndex(element => element.name === 'Max')); // 0
 similar to the above, but starts looking from the end of the array
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE5NjI3NjU5LC0xMjQyNTg2ODMzLDg4OD
-MwMTUsOTQzNzA5MDQsLTIwMDg1NDU4ODMsLTYwMjExOTc0Nywx
-MTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNzAwMDAzODBdfQ==
+eyJoaXN0b3J5IjpbLTEyMTg0MDg2ODgsNTE5NjI3NjU5LC0xMj
+QyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQsLTIwMDg1NDU4ODMs
+LTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMDM5ODcxMjY1LC0xNz
+AwMDAzODBdfQ==
 -->
