@@ -2079,6 +2079,7 @@ prices.forEach(element => updatedPrices.push(element*(1 + tax)));
 ### .map
 
 return a new array (shallow copy!)⚠️
+Transform into a new array
 
 ````js
 // primitive values
@@ -2099,9 +2100,9 @@ const updatedPeople = people.map(element => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI1OTAyNDYsMTkwMTAxMzk1MSwtMT
-E3MjQ0NzY1NywtMTIxODQwODY4OCw1MTk2Mjc2NTksLTEyNDI1
-ODY4MzMsODg4MzAxNSw5NDM3MDkwNCwtMjAwODU0NTg4MywtNj
-AyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUsLTE3MDAw
-MDM4MF19
+eyJoaXN0b3J5IjpbLTQyMzI3NzE4LC0xODQyNTkwMjQ2LDE5MD
+EwMTM5NTEsLTExNzI0NDc2NTcsLTEyMTg0MDg2ODgsNTE5NjI3
+NjU5LC0xMjQyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQsLTIwMD
+g1NDU4ODMsLTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMDM5ODcx
+MjY1LC0xNzAwMDAzODBdfQ==
 -->
