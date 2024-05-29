@@ -1882,6 +1882,24 @@ console.log(name.length); // outputs '3'
 
 console.log(name[0]); outputs 'M'
 ```
+
+### Creating arrays
+
+```js
+const numbers = [1,2,3]; 🚀 best performance
+
+const numbers = Array(1,2,3); // ❓is Array a function here?
+
+const numbers = new Array(1,2,3);
+
+// unexpected behaviour
+
+const numbers = Array(5); // [empty x5]
+
+const numbers = new Array(5); // [empty x5 ] // numbers[0] outputs undefined
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbMTE0NTY2NTc4NCwtMjAzOTg3MTI2NSwtMT
+cwMDAwMzgwXX0=
 -->
