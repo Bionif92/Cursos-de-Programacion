@@ -2256,7 +2256,13 @@ const [name, surname] = data; // name = 'max', surname = 'schwarz', rest = [ "ge
 ````
 
 **If you put one more variable, and you have a longuer array, it would make an array of the forgotten elements**
+
+### Arrays, sets and maps
+
+Sets have no guaranteed order and there can't be repeated values. Useful for storing unique things. Things can't be accessed with the index, but I can check if things are present. It has some array protoype methods available. It's iterable
+
+Maps have the order guaranteed, and key value pairs are stored; keys can be anything (even objects). There can't be duplication of key 's values. Values are accessed with the key. Some methods are available. It's iterable.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE3MTA0MTcsODM1MTM2NTk5LC0xMD
-Y1MDg0MjU2LDExNTM4MDM3OTBdfQ==
+eyJoaXN0b3J5IjpbLTY3ODU3OTcyNCwtMTg1MTcxMDQxNyw4Mz
+UxMzY1OTksLTEwNjUwODQyNTYsMTE1MzgwMzc5MF19
 -->
