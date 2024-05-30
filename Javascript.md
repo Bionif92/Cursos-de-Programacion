@@ -2206,6 +2206,14 @@ Skiping map step
 const originalArray = [{price: 10.99}, {price: 5.99}, {price: 29.99}];
 const sum = originalArray.reduce((sumVal, curVal) => sumVal + curVal.price, 0); // => 46.97
 ```
+Chaining the steps
+
+```js
+const originalArray = [{price: 10.99}, {price: 5.99}, {price: 29.99}];
+const sum = originalArray.map(obj => obj.price)
+    .reduce((sumVal, curVal) => sumVal + curVal, 0); // => 46.97
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODcxMDU0MywyMTA0MDI2Mjk2XX0=
+eyJoaXN0b3J5IjpbMTE1MzgwMzc5MF19
 -->
