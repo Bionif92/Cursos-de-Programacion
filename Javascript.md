@@ -2262,7 +2262,87 @@ const [name, surname] = data; // name = 'max', surname = 'schwarz', rest = [ "ge
 Sets have no guaranteed order and there can't be repeated values. Useful for storing unique things. Things can't be accessed with the index, but I can check if things are present. It has some array protoype methods available. It's iterable
 
 Maps have the order guaranteed, and key value pairs are stored; keys can be anything (even objects). There can't be duplication of key 's values. Values are accessed with the key. Some methods are available. It's iterable.
+
+### Sets: great for uniqueness
+
+```js
+const mySet = new Set(['hi', 'there']);
+
+mySet.add('man'); // Set(3) [ "hi", "there", "man" ]
+
+mySet.add('man'); // Set(3) [ "hi", "there", "man" ] // it doesn't throw error
+
+mySet.delete('man'); // Set [ "hi", "there" ]
+
+mySet.delete('inexistant'); // Set [ "hi", "there" ] // it doesn't throw error
+
+const isHiPresent = mySet.has('hi'); // true
+
+for (entrie of mySet.entries()) {
+    console.log(entrie); // Array [ "hi", "hi" ] Array [ "there", "there" ]
+}
+
+// entries not very handy, they're more built for maps
+
+// let's use .values() for looping instead
+for (value of mySet.values()) {
+    console.log(value); // hi there
+}
+```
+
+### Maps: great for not bloating objects used heavily in the app
+
+```js
+const animal1 = {name: 'negrito'};
+const animal2 = {name: 'toto'}
+
+const myMap = new Map([[animal1, {favouriteFood: 'fish'}]]); // Map { {…} → {…} }
+
+myMap.set(animal2, {favouriteFood: 'meat'}); // Map { {…} → {…}, {…} → {…} }
+
+const animal1Food = myMap.get(animal1); //Object { favouriteFood: "fish" }
+
+for (entrie of myMap.entries()) {
+    console.log(entrie); // Array [ {…}, {…} ] Array [ {…}, {…} ]
+}
+
+for (key of myMap.keys()) {
+    console.log(key); // Object { name: "negrito" } Object { name: "negrito" }
+}
+
+for (value of myMap.values()) {
+    console.log(value); // { favouriteFood: "fish" } { favouriteFood: "meat" }
+}
+```
+
+### Weak Set and Weak Map: memory management!
+
+only objects and arrays can be stored there! (no primitive values)
+
+they let **garbage collection** of objects that points to null objects. Very efficient! 
+
+No need to delete those object pointers from arrays when making the object values null somewhere else in the app!
+
+```js
+let user1 = {name: 'Max'}
+let user2 = {name: 'Manu'}
+
+const users = new WeakSet([user1, user2]);
+
+user1 = null; // the browser at some point will remove this item from the users WeakSet
+```
+
+WeakMap doesn't have .size prop or entries method, because the gargage collection can happen anytime and affect the size and hence, the number of items to be iterated over.
+
+````js
+let animal1 = {name: 'negrito'};
+
+const myMap = new Map([[animal1, {favouriteFood: 'fish'}]]); // this item will garbage collected at some point after animal1 is set to null
+
+animal1 = null;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODU3OTcyNCwtMTg1MTcxMDQxNyw4Mz
-UxMzY1OTksLTEwNjUwODQyNTYsMTE1MzgwMzc5MF19
+eyJoaXN0b3J5IjpbLTY2NTc3MTEyOCwtNjc4NTc5NzI0LC0xOD
+UxNzEwNDE3LDgzNTEzNjU5OSwtMTA2NTA4NDI1NiwxMTUzODAz
+NzkwXX0=
 -->
