@@ -2187,14 +2187,11 @@ const numbers = [1,2,3];
 const sum = numbers.reduce((prevValue, currentValue) => prevValue + currentValue, 0);
 ````
 
+0 is the prevValue in the first iteration, can be changed
+
 easier than initializing variable and using .forEach to add numbers!
 
 prevValue is `undefined` in the first iteration of not specified.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM2MzYyMDEzLDQ3OTc1MTY4MywxMTc3MT
-Y1NDUxLC0yNTQ2NjE4MzEsLTQyMzI3NzE4LC0xODQyNTkwMjQ2
-LDE5MDEwMTM5NTEsLTExNzI0NDc2NTcsLTEyMTg0MDg2ODgsNT
-E5NjI3NjU5LC0xMjQyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQs
-LTIwMDg1NDU4ODMsLTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMD
-M5ODcxMjY1LC0xNzAwMDAzODBdfQ==
+eyJoaXN0b3J5IjpbMjEwNDAyNjI5Nl19
 -->
