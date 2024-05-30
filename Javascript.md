@@ -2231,6 +2231,22 @@ if the `let` or `const` is missing:
 joinedData = dataArray.join(':'); // 'edinburgh:10' // window.joinedData is created!
 ````
 
+### ...operator
+
+example of Math.min()
+
+```
+const numbers = [1,2,3];
+const min = Math.min(...numbers);// same as (1,2,3)
+```
+
+```
+how not to use it! ❌
+const numbersClone = ...numbers
+```
+
+⚠️ only deep clone things you plan to change on the newly created array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjUwODQyNTYsMTE1MzgwMzc5MF19
+eyJoaXN0b3J5IjpbODM1MTM2NTk5LC0xMDY1MDg0MjU2LDExNT
+M4MDM3OTBdfQ==
 -->
