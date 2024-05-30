@@ -2175,11 +2175,26 @@ console.log(people); // [{name: 'banana'}, {name: 'Manu'}];
 ````
 ✅ use a .forEach and push a cloned object to an array insted OR .map and return a cloned object
 ````
+
+### .reduce
+
+reduce an array into a single value! e.g sum numbers in an array:
+
+
+````js
+const numbers = [1,2,3];
+
+const sum = numbers.reduce((prevValue, currentValue) => prevValue + currentValue, 0);
+````
+
+easier than initializing variable and using .forEach to add numbers!
+
+prevValue is `undefined` in the first iteration of not specified.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5NzUxNjgzLDExNzcxNjU0NTEsLTI1ND
-Y2MTgzMSwtNDIzMjc3MTgsLTE4NDI1OTAyNDYsMTkwMTAxMzk1
-MSwtMTE3MjQ0NzY1NywtMTIxODQwODY4OCw1MTk2Mjc2NTksLT
-EyNDI1ODY4MzMsODg4MzAxNSw5NDM3MDkwNCwtMjAwODU0NTg4
-MywtNjAyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUsLT
-E3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbMzM2MzYyMDEzLDQ3OTc1MTY4MywxMTc3MT
+Y1NDUxLC0yNTQ2NjE4MzEsLTQyMzI3NzE4LC0xODQyNTkwMjQ2
+LDE5MDEwMTM5NTEsLTExNzI0NDc2NTcsLTEyMTg0MDg2ODgsNT
+E5NjI3NjU5LC0xMjQyNTg2ODMzLDg4ODMwMTUsOTQzNzA5MDQs
+LTIwMDg1NDU4ODMsLTYwMjExOTc0NywxMTQ1NjY1Nzg0LC0yMD
+M5ODcxMjY1LC0xNzAwMDAzODBdfQ==
 -->
