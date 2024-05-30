@@ -2146,11 +2146,40 @@ prices.sort((a,b) => {
 
 // [1.5, 3.75, 5.8, 10.99] ✅
 ```
+
+### .filter
+
+returns shallow copy array ⚠️
+
+Callback function return true to keep it, false to discard it in the new array
+
+```js
+// primitive values
+const prices = [10.99, 1.50, 3.75, 5.80];
+
+const filteredPrices = prices.filter(element => element < 10); // [1.5, 3.75, 5.8]
+```
+
+```js
+ // reference values
+// how not to do it ❌
+ const people = [{name: 'Max'}, {name: 'Manu'}];
+
+const filteredPeople = people.filter(element => element.name === 'Max');
+
+filteredPeople[0].name = 'banana';
+
+console.log(people); // [{name: 'banana'}, {name: 'Manu'}];
+```
+
+````
+✅ use a .forEach and push a cloned object to an array insted OR .map and return a cloned object
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NzE2NTQ1MSwtMjU0NjYxODMxLC00Mj
-MyNzcxOCwtMTg0MjU5MDI0NiwxOTAxMDEzOTUxLC0xMTcyNDQ3
-NjU3LC0xMjE4NDA4Njg4LDUxOTYyNzY1OSwtMTI0MjU4NjgzMy
-w4ODgzMDE1LDk0MzcwOTA0LC0yMDA4NTQ1ODgzLC02MDIxMTk3
-NDcsMTE0NTY2NTc4NCwtMjAzOTg3MTI2NSwtMTcwMDAwMzgwXX
-0=
+eyJoaXN0b3J5IjpbNDc5NzUxNjgzLDExNzcxNjU0NTEsLTI1ND
+Y2MTgzMSwtNDIzMjc3MTgsLTE4NDI1OTAyNDYsMTkwMTAxMzk1
+MSwtMTE3MjQ0NzY1NywtMTIxODQwODY4OCw1MTk2Mjc2NTksLT
+EyNDI1ODY4MzMsODg4MzAxNSw5NDM3MDkwNCwtMjAwODU0NTg4
+MywtNjAyMTE5NzQ3LDExNDU2NjU3ODQsLTIwMzk4NzEyNjUsLT
+E3MDAwMDM4MF19
 -->
