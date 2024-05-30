@@ -2101,10 +2101,56 @@ const updatedPeople = people.map(element => {
 ````
 
 with `.reverse`it sort backwards
+
+### .sort
+
+it mutates the array, and returns the mutate one (psss, don't do use that returned value, footgun);
+
+````
+// how not to use it ❌
+
+//footgun here 🔫
+const sortedAnimals = wildAnimals.sort(); // it returns the same array reference ⚠️
+
+wildAnimals[0] = 'banana';
+
+console.log(sortedAnimals); // ['banana', etc] 🤦‍♂️
+
+
+// how to use it
+wildAnimals.sort();
+console.log(wildAnimals) // sorted wild animals
+
+````
+
+it sorts strings alphabetically.
+
+⚠️ If numbers are on the array, they'r converted to a string, and the first string character is used for sorting:
+
+```js
+const prices = [10.99, 1.50, 3.75, 5.80];
+
+prices.sort(); // [1.5, 10.99, 3.75, 5.8] 😮
+
+
+// let's do it properly
+prices.sort((a,b) => {
+    if (a < b) {
+        return -1;
+    } else if (a === b) {
+        return 0;
+    } else {
+        return 1
+    }
+});
+
+// [1.5, 3.75, 5.8, 10.99] ✅
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NDY2MTgzMSwtNDIzMjc3MTgsLTE4ND
-I1OTAyNDYsMTkwMTAxMzk1MSwtMTE3MjQ0NzY1NywtMTIxODQw
-ODY4OCw1MTk2Mjc2NTksLTEyNDI1ODY4MzMsODg4MzAxNSw5ND
-M3MDkwNCwtMjAwODU0NTg4MywtNjAyMTE5NzQ3LDExNDU2NjU3
-ODQsLTIwMzk4NzEyNjUsLTE3MDAwMDM4MF19
+eyJoaXN0b3J5IjpbMTE3NzE2NTQ1MSwtMjU0NjYxODMxLC00Mj
+MyNzcxOCwtMTg0MjU5MDI0NiwxOTAxMDEzOTUxLC0xMTcyNDQ3
+NjU3LC0xMjE4NDA4Njg4LDUxOTYyNzY1OSwtMTI0MjU4NjgzMy
+w4ODgzMDE1LDk0MzcwOTA0LC0yMDA4NTQ1ODgzLC02MDIxMTk3
+NDcsMTE0NTY2NTc4NCwtMjAzOTg3MTI2NSwtMTcwMDAwMzgwXX
+0=
 -->
