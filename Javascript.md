@@ -2255,8 +2255,8 @@ const data = ['max', `schwarz`];
 const [name, surname] = data; // name = 'max', surname = 'schwarz', rest = [ "germany", "34" ]
 ````
 
-If you put one more variable, and you have a longuer array, it wou
+**If you put one more variable, and you have a longuer array, it would make an array of the forgotten elements**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTg5NTg4OTIsODM1MTM2NTk5LC0xMD
+eyJoaXN0b3J5IjpbLTE4NTE3MTA0MTcsODM1MTM2NTk5LC0xMD
 Y1MDg0MjU2LDExNTM4MDM3OTBdfQ==
 -->
