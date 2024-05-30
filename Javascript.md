@@ -2342,7 +2342,5 @@ const myMap = new Map([[animal1, {favouriteFood: 'fish'}]]); // this item will g
 animal1 = null;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTc3MTEyOCwtNjc4NTc5NzI0LC0xOD
-UxNzEwNDE3LDgzNTEzNjU5OSwtMTA2NTA4NDI1NiwxMTUzODAz
-NzkwXX0=
+eyJoaXN0b3J5IjpbLTY2NTc3MTEyOF19
 -->
