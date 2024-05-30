@@ -2247,14 +2247,16 @@ const numbersClone = ...numbers
 
 ⚠️ only deep clone things you plan to change on the newly created array.
 
-### array restructuring
+### array Destructuring
 
 ````js
 const data = ['max', `schwarz`];
 
 const [name, surname] = data; // name = 'max', surname = 'schwarz', rest = [ "germany", "34" ]
 ````
+
+If you put one more variable, and you have a longuer array, it wou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0Nzg5MDYyOCw4MzUxMzY1OTksLTEwNj
-UwODQyNTYsMTE1MzgwMzc5MF19
+eyJoaXN0b3J5IjpbLTEzNTg5NTg4OTIsODM1MTM2NTk5LC0xMD
+Y1MDg0MjU2LDExNTM4MDM3OTBdfQ==
 -->
