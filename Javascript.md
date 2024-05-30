@@ -2214,6 +2214,23 @@ const sum = originalArray.map(obj => obj.price)
     .reduce((sumVal, curVal) => sumVal + curVal, 0); // => 46.97
 ```
 
+### .split and .join
+
+````js
+const data = 'edinburgh;10';
+
+const dataArray = data.split(';'); // ['edinburgh', '10']
+
+const joinedData = dataArray.join(':'); // 'edinburgh:10'
+````
+
+.join will convert everything into a string.
+
+if the `let` or `const` is missing:
+````js
+joinedData = dataArray.join(':'); // 'edinburgh:10' // window.joinedData is created!
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzgwMzc5MF19
+eyJoaXN0b3J5IjpbLTEwNjUwODQyNTYsMTE1MzgwMzc5MF19
 -->
