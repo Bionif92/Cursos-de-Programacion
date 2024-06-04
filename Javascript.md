@@ -2500,13 +2500,13 @@ movies.forEach ((movie) => {
  let text = movie.info.title + '-';
  for (const key in movie.info) {
 	 if (key !== 'title' in movie info) { //title with comas to access properties
-		text= text +  
+		text= text + `${key}:${movie.info[key]};
 	 }
  }
 });
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MjAwNTcyLDExMzIzMjM5MDIsNjAxOT
-Y0NDMxLC0zNDM2OTYzNTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEz
-ODAsMTExNzAxMjc5M119
+eyJoaXN0b3J5IjpbLTEwMzAzNjQ1ODksMTEzMjMyMzkwMiw2MD
+E5NjQ0MzEsLTM0MzY5NjM1NywtMTk3OTYzOTc1MSwtMTc0MjY4
+MTM4MCwxMTE3MDEyNzkzXX0=
 -->
