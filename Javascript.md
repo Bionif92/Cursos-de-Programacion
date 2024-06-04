@@ -2510,8 +2510,10 @@ movies.forEach ((movie) => {
 
 ### Filter functionality
 
+In the function, put the variable like this `(filter='')` to pre
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTczODQ1NSwtMTAzMDM2NDU4OSwxMT
-MyMzIzOTAyLDYwMTk2NDQzMSwtMzQzNjk2MzU3LC0xOTc5NjM5
-NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3OTNdfQ==
+eyJoaXN0b3J5IjpbLTk0NTAwODUyNCwxMzMxNzM4NDU1LC0xMD
+MwMzY0NTg5LDExMzIzMjM5MDIsNjAxOTY0NDMxLC0zNDM2OTYz
+NTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEzODAsMTExNzAxMjc5M1
+19
 -->
