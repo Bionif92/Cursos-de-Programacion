@@ -2376,8 +2376,14 @@ animal.age = 20; // {name: 'negrito', age: 30};
 delete animal.age;
 ````
 
+### Resetting props
 
+````js
+animal.age = undefined // ❌ bad practice! age will still be an active prop though (logged in the console)
+
+animal.age = null ✅// to reset it's value, cleaner, age will still be an active prop though (logged in the console)
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2ODQ3MTAyNSwtMTQwNTE4MzY4LDUzMz
-I4NjM0N119
+eyJoaXN0b3J5IjpbNjQyNTQ0ODI1LC0xNDA1MTgzNjgsNTMzMj
+g2MzQ3XX0=
 -->
