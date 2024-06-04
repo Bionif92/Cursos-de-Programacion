@@ -2498,11 +2498,13 @@ If you want to access properties that are defined with the [] form, you can use 
 movies.forEach ((movie) => {
  const movieEl= document.createElement('li');
  let text = movie.info.title + '-';
- 
-})
+ for (const key in movie.info) {
+	 if (key !==
+ }
+});
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjMyMzkwMiw2MDE5NjQ0MzEsLTM0Mz
-Y5NjM1NywtMTk3OTYzOTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEy
-NzkzXX0=
+eyJoaXN0b3J5IjpbMTU3MTgwMjIzLDExMzIzMjM5MDIsNjAxOT
+Y0NDMxLC0zNDM2OTYzNTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEz
+ODAsMTExNzAxMjc5M119
 -->
