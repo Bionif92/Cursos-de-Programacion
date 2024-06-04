@@ -2383,7 +2383,36 @@ animal.age = undefined // ❌ bad practice! age will still be an active prop tho
 
 animal.age = null ✅// to reset it's value, cleaner, age will still be an active prop though (logged in the console)
 ````
+
+### Key naming
+
+anything that is used as a variable name can be used as a variable key + strings + positive numbers
+
+Key values are coherced into strings when the object is created.
+
+```js
+const first-name = 'tebi'; // Uncaught SyntaxError: Missing initializer in const declaration
+```
+
+```js
+  const person = {
+    'first-name': 'tebi',
+    age: 33,
+    1: 'positive numbers work'
+  }
+
+person['first-name']; // 'tebi'
+person.first name; // Uncaught SyntaxError: Unexpected identifier 'name'
+
+person.age; // 33
+person['age']; 
+person[age]; ❌ // Uncaught ReferenceError: age is not defined at <anonymous>:1:8
+
+person.1; // Uncaught SyntaxError: Unexpected number
+person[1]; // 'positive numbers work'
+person['1'] // 'positive numbers work'
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQyNTQ0ODI1LC0xNDA1MTgzNjgsNTMzMj
-g2MzQ3XX0=
+eyJoaXN0b3J5IjpbMTExNzAxMjc5M119
 -->
