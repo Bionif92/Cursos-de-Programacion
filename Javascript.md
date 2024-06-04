@@ -2519,11 +2519,13 @@ const filteredMovies = !filter
 	? movies
 	:  movies.filter (movie => movie.info.title.includes(filter))
 ````
-Then use filteredMovie
+Then use filteredMovies to show the filter
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU0NjUxMTY5LDEzMzE3Mzg0NTUsLTEwMz
-AzNjQ1ODksMTEzMjMyMzkwMiw2MDE5NjQ0MzEsLTM0MzY5NjM1
-NywtMTk3OTYzOTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEyNzkzXX
-0=
+eyJoaXN0b3J5IjpbMjAyNTg0Nzk0NywxMzMxNzM4NDU1LC0xMD
+MwMzY0NTg5LDExMzIzMjM5MDIsNjAxOTY0NDMxLC0zNDM2OTYz
+NTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEzODAsMTExNzAxMjc5M1
+19
 -->
