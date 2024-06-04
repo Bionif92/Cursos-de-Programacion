@@ -2462,7 +2462,24 @@ for (const key in person) {
 	console.log(person[key]) // ✅ // 'tebi', 33, 'positive numbers work'
 }
 ````
+
+### Dynamically defining key value pairs
+
+```js
+ const userSelectedKey1 = 'someKey';
+
+const animal = {
+    name: 'negrito',
+  	[userSelectedKey1]: 'someValue'
+}
+
+const userSelectedKey2 = 'customKey';
+
+animal[userSelectedKey2] = 'someOtherValue';
+
+console.log(animal); // {name: 'negrito', someKey: 'someValue', customKey: 'someOtherValue'}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0MTQxNTAsLTE5Nzk2Mzk3NTEsLT
-E3NDI2ODEzODAsMTExNzAxMjc5M119
+eyJoaXN0b3J5IjpbLTM0MzY5NjM1NywtMTk3OTYzOTc1MSwtMT
+c0MjY4MTM4MCwxMTE3MDEyNzkzXX0=
 -->
