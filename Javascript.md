@@ -2445,7 +2445,24 @@ li.style['background-color'] = 'red'; // ✅
 li.style.backgroundColor = 'red'; // ✅
 ````
 
+### Dynamically accessing key value pairs
+
+````js
+  const person = {
+    'first-name': 'tebi',
+    age: 33,
+    1: 'positive numbers work'
+  }
+
+for (const key in person) {
+	console.log(person.key) // ❌ undefined x 3, there's no such `key` key
+}
+
+for (const key in person) {
+	console.log(person[key]) // ✅ // 'tebi', 33, 'positive numbers work'
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk2Mzk3NTEsLTE3NDI2ODEzODAsMT
-ExNzAxMjc5M119
+eyJoaXN0b3J5IjpbLTE2MjQ0MTQxNTAsLTE5Nzk2Mzk3NTEsLT
+E3NDI2ODEzODAsMTExNzAxMjc5M119
 -->
