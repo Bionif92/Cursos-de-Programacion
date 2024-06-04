@@ -2514,11 +2514,16 @@ In the function, put the variable like this `(filter='')` to preset it to nun, b
 
 In the string, use the next funtionality:
 
+```` js
 const filteredMovies = !filter 
 	? movies
+	:  movies.filter (movie => movie.info.title.includes(filter))
+````
+Then use filteredMovie
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM1MzY1MTQsMTMzMTczODQ1NSwtMT
-AzMDM2NDU4OSwxMTMyMzIzOTAyLDYwMTk2NDQzMSwtMzQzNjk2
-MzU3LC0xOTc5NjM5NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3OT
-NdfQ==
+eyJoaXN0b3J5IjpbOTU0NjUxMTY5LDEzMzE3Mzg0NTUsLTEwMz
+AzNjQ1ODksMTEzMjMyMzkwMiw2MDE5NjQ0MzEsLTM0MzY5NjM1
+NywtMTk3OTYzOTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEyNzkzXX
+0=
 -->
