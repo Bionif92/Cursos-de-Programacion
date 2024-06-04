@@ -2479,7 +2479,18 @@ animal[userSelectedKey2] = 'someOtherValue';
 
 console.log(animal); // {name: 'negrito', someKey: 'someValue', customKey: 'someOtherValue'}
 ```
+
+### Rendering Elements based on objects project
+
+`renderMovies` clears the `ul` children. It's not ideal. It would be better to keep each movie `li` , and append the new one using the function `addMovie`, but it's done this way to save up some time.
+
+The downside is that each time a renderMovies is called, the entire children are wipped out.
+
+the `renderMovies()` function takes a parameter called filter. `renderMovies(filter = '')`
+
+That was smart, because I didn't need to arrays in the global scope: `movies` and `filteredMovies` ❌, instead, the filtered array was just in the scope of the renderMovies function.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzY5NjM1NywtMTk3OTYzOTc1MSwtMT
-c0MjY4MTM4MCwxMTE3MDEyNzkzXX0=
+eyJoaXN0b3J5IjpbNjAxOTY0NDMxLC0zNDM2OTYzNTcsLTE5Nz
+k2Mzk3NTEsLTE3NDI2ODEzODAsMTExNzAxMjc5M119
 -->
