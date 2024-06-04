@@ -2343,6 +2343,10 @@ const myMap = new Map([[animal1, {favouriteFood: 'fish'}]]); // this item will g
 
 animal1 = null;
 ````
+
+The following resources may be helpful.
+
+-   Thorough Array on MDN (also check the linked methods on the left on that page): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTY2ODM5MV19
+eyJoaXN0b3J5IjpbNTMzMjg2MzQ3XX0=
 -->
