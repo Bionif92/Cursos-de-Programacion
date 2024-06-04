@@ -2435,8 +2435,17 @@ const numbersAndOthers = {
 
 ⚠️ Remember that the console.log when we **expand objects**, always sort things alpabetically. 
 
+### Interacting with the DOM
 
+The DOM Nodes offer both keys!
+
+````js
+li.style['background-color'] = 'red'; // ✅
+// OR
+li.style.backgroundColor = 'red'; // ✅
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDI2ODEzODAsMTExNzAxMjc5M119
+eyJoaXN0b3J5IjpbLTE5Nzk2Mzk3NTEsLTE3NDI2ODEzODAsMT
+ExNzAxMjc5M119
 -->
