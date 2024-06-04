@@ -2358,9 +2358,26 @@ The following resources may be helpful.
 
 ## More on objects
 
+### Adding/overriding new props after object creation
 
+````js
+const animal = {
+    name: 'negrito'
+}
+
+console.log(animal.age); // undefined, doesn't throw an error
+
+animal.age = 20; // {name: 'negrito', age: 30};
+````
+
+### Deleting props
+
+````js
+delete animal.age;
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUxODM2OCw1MzMyODYzNDddfQ==
+eyJoaXN0b3J5IjpbMTM2ODQ3MTAyNSwtMTQwNTE4MzY4LDUzMz
+I4NjM0N119
 -->
