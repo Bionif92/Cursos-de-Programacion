@@ -2504,11 +2504,11 @@ movies.forEach ((movie) => {
 	 }
  }
  movieEl.textContent= text;
- movieList
+ movieList.append (movieEl);
 });
-
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTU4NTY0NzMsLTEwMzAzNjQ1ODksMT
-EzMjMyMzkwMiw2MDE5NjQ0MzEsLTM0MzY5NjM1NywtMTk3OTYz
-OTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEyNzkzXX0=
+eyJoaXN0b3J5IjpbLTI4Nzg2MDU0NCwtMTAzMDM2NDU4OSwxMT
+MyMzIzOTAyLDYwMTk2NDQzMSwtMzQzNjk2MzU3LC0xOTc5NjM5
+NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3OTNdfQ==
 -->
