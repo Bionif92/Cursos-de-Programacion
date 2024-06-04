@@ -2510,10 +2510,15 @@ movies.forEach ((movie) => {
 
 ### Filter functionality
 
-In the function, put the variable like this `(filter='')` to pre
+In the function, put the variable like this `(filter='')` to preset it to nun, but you can put the filter of word you want
+
+In the string, use the next funtionality:
+
+const filteredMovies = !filter 
+	? movies
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NTAwODUyNCwxMzMxNzM4NDU1LC0xMD
-MwMzY0NTg5LDExMzIzMjM5MDIsNjAxOTY0NDMxLC0zNDM2OTYz
-NTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEzODAsMTExNzAxMjc5M1
-19
+eyJoaXN0b3J5IjpbLTExOTM1MzY1MTQsMTMzMTczODQ1NSwtMT
+AzMDM2NDU4OSwxMTMyMzIzOTAyLDYwMTk2NDQzMSwtMzQzNjk2
+MzU3LC0xOTc5NjM5NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3OT
+NdfQ==
 -->
