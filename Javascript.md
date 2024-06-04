@@ -2490,7 +2490,12 @@ the `renderMovies()` function takes a parameter called filter. `renderMovies(fil
 
 That was smart, because I didn't need to arrays in the global scope: `movies` and `filteredMovies` ❌, instead, the filtered array was just in the scope of the renderMovies function.
 
+### For in loops and Outputing Dinamic Properties
+
+If you want to access properties that are defined with the [] form, you can use a for l
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxOTY0NDMxLC0zNDM2OTYzNTcsLTE5Nz
-k2Mzk3NTEsLTE3NDI2ODEzODAsMTExNzAxMjc5M119
+eyJoaXN0b3J5IjpbLTkxMDcyOTQ5OCw2MDE5NjQ0MzEsLTM0Mz
+Y5NjM1NywtMTk3OTYzOTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEy
+NzkzXX0=
 -->
