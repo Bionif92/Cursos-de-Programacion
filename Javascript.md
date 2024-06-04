@@ -2344,9 +2344,21 @@ const myMap = new Map([[animal1, {favouriteFood: 'fish'}]]); // this item will g
 animal1 = null;
 ````
 
+### Short syntax for returning an object
+
+Use parenteshis to indicate that the return is there otherwise, the body of the functions becomes `number: element`, not very useful!
+
+````
+const numbersInObjects = numbers.map(element => 👉( {number: element}));
+````
+
 The following resources may be helpful.
 
 -   Thorough Array on MDN (also check the linked methods on the left on that page): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+## More on objects
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzMjg2MzQ3XX0=
+eyJoaXN0b3J5IjpbNjQwODY1NjA0LDUzMzI4NjM0N119
 -->
