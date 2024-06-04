@@ -2524,8 +2524,5 @@ Then use filteredMovies to show the filter
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTg0Nzk0NywxMzMxNzM4NDU1LC0xMD
-MwMzY0NTg5LDExMzIzMjM5MDIsNjAxOTY0NDMxLC0zNDM2OTYz
-NTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEzODAsMTExNzAxMjc5M1
-19
+eyJoaXN0b3J5IjpbMjAyNTg0Nzk0N119
 -->
