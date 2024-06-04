@@ -2503,10 +2503,12 @@ movies.forEach ((movie) => {
 		text= text + `${key}:${movie.info[key]};
 	 }
  }
+ movieEl.textContent= text;
+ movieList
 });
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzAzNjQ1ODksMTEzMjMyMzkwMiw2MD
-E5NjQ0MzEsLTM0MzY5NjM1NywtMTk3OTYzOTc1MSwtMTc0MjY4
-MTM4MCwxMTE3MDEyNzkzXX0=
+eyJoaXN0b3J5IjpbLTEzOTU4NTY0NzMsLTEwMzAzNjQ1ODksMT
+EzMjMyMzkwMiw2MDE5NjQ0MzEsLTM0MzY5NjM1NywtMTk3OTYz
+OTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEyNzkzXX0=
 -->
