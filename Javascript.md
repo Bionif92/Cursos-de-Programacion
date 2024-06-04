@@ -2492,10 +2492,13 @@ That was smart, because I didn't need to arrays in the global scope: `movies` an
 
 ### For in loops and Outputing Dinamic Properties
 
-If you want to access properties that are defined with the [] form, you can use a for l
+If you want to access properties that are defined with the [] form, you can use a for loop:
+
+````js
+movies.forEach ((movie) => {)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDcyOTQ5OCw2MDE5NjQ0MzEsLTM0Mz
+eyJoaXN0b3J5IjpbMTc3NTY2ODY4NCw2MDE5NjQ0MzEsLTM0Mz
 Y5NjM1NywtMTk3OTYzOTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEy
 NzkzXX0=
 -->
