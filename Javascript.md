@@ -2499,7 +2499,7 @@ movies.forEach ((movie) => {
  const movieEl= document.createElement('li');
  let text = movie.info.title + '-';
  for (const key in movie.info) {
-	 if (key !== 'title' in movie info) { //title with comas to access properties
+	 if (key !== 'title' in movie info) { //title with comas to access properties, exclude fixed property 
 		text= text + `${key}:${movie.info[key]};
 	 }
  }
@@ -2507,8 +2507,9 @@ movies.forEach ((movie) => {
  movieList.append (movieEl);
 });
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4Nzg2MDU0NCwtMTAzMDM2NDU4OSwxMT
+eyJoaXN0b3J5IjpbMTM5MTE5NzgxOSwtMTAzMDM2NDU4OSwxMT
 MyMzIzOTAyLDYwMTk2NDQzMSwtMzQzNjk2MzU3LC0xOTc5NjM5
 NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3OTNdfQ==
 -->
