@@ -2249,6 +2249,8 @@ const numbersClone = ...numbers
 
 ### array Destructuring
 
+Create variables with the information of each element of the array
+
 ````js
 const data = ['max', `schwarz`];
 
@@ -2342,5 +2344,5 @@ const myMap = new Map([[animal1, {favouriteFood: 'fish'}]]); // this item will g
 animal1 = null;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTc3MTEyOF19
+eyJoaXN0b3J5IjpbLTE5OTY2ODM5MV19
 -->
