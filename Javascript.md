@@ -2413,6 +2413,30 @@ person[1]; // 'positive numbers work'
 person['1'] // 'positive numbers work'
 ```
 
+### Order of keys:
+
+If there are only numbers, the order is changed to `ascending`.
+
+If there are at least one string, then the order numbers come first, and then the non numbers order is kept.
+
+````js
+// strange example, only for demo purposes
+const numbers = {
+	5: 'number 5!',
+  1: 'number 1'
+} // {1: 'number 1', 5: 'number 5!'}
+
+const numbersAndOthers = {
+  'hello': 'hello there!',
+  'aaa': 'aaaaaaa',
+  1: 'number 1'
+} // {1: 'number 1', hello: 'hello there!', aaa: 'aaaaaaa'}
+````
+
+⚠️ Remember that the console.log when we **expand objects**, always sort things alpabetically. 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzAxMjc5M119
+eyJoaXN0b3J5IjpbLTE3NDI2ODEzODAsMTExNzAxMjc5M119
 -->
