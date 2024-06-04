@@ -2495,10 +2495,13 @@ That was smart, because I didn't need to arrays in the global scope: `movies` an
 If you want to access properties that are defined with the [] form, you can use a for loop:
 
 ````js
-movies.forEach ((movie) => {)
+movies.forEach ((movie) => {
+ const movieEl= document.createElement('li');
+ let text = movie.info.title 
+})
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTY2ODY4NCw2MDE5NjQ0MzEsLTM0Mz
-Y5NjM1NywtMTk3OTYzOTc1MSwtMTc0MjY4MTM4MCwxMTE3MDEy
-NzkzXX0=
+eyJoaXN0b3J5IjpbMjk0MjAxOTc1LDYwMTk2NDQzMSwtMzQzNj
+k2MzU3LC0xOTc5NjM5NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3
+OTNdfQ==
 -->
