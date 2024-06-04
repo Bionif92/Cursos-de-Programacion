@@ -2508,8 +2508,10 @@ movies.forEach ((movie) => {
 });
 ````
 
+### Filter functionality
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MTE5NzgxOSwtMTAzMDM2NDU4OSwxMT
+eyJoaXN0b3J5IjpbMTMzMTczODQ1NSwtMTAzMDM2NDU4OSwxMT
 MyMzIzOTAyLDYwMTk2NDQzMSwtMzQzNjk2MzU3LC0xOTc5NjM5
 NzUxLC0xNzQyNjgxMzgwLDExMTcwMTI3OTNdfQ==
 -->
