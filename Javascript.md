@@ -2499,12 +2499,14 @@ movies.forEach ((movie) => {
  const movieEl= document.createElement('li');
  let text = movie.info.title + '-';
  for (const key in movie.info) {
-	 if (key !==
+	 if (key !== 'title' in movie info) { //title with comas to access properties
+		text= text +  
+	 }
  }
 });
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTgwMjIzLDExMzIzMjM5MDIsNjAxOT
+eyJoaXN0b3J5IjpbLTU0MjAwNTcyLDExMzIzMjM5MDIsNjAxOT
 Y0NDMxLC0zNDM2OTYzNTcsLTE5Nzk2Mzk3NTEsLTE3NDI2ODEz
 ODAsMTExNzAxMjc5M119
 -->
