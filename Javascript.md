@@ -2539,7 +2539,13 @@ const person 2= {...person 1}
 Make a deep copy of the first object
 
 **Careful, if it is arrays inside, the ... don´t make a deep copy of the array**
+
+If you want to make a real copy you have to:
+
+````js
+const person 2= {...person 1, hobbies: ['C']}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1MDMxNjg1LC0xMTYyNTk0Njg3LDIwMj
-U4NDc5NDddfQ==
+eyJoaXN0b3J5IjpbMTc4MjY1ODcxMSw4OTUwMzE2ODUsLTExNj
+I1OTQ2ODcsMjAyNTg0Nzk0N119
 -->
