@@ -2530,7 +2530,14 @@ Math.random().toString()
 everything has that .toString() method in JS
 
 
+### Spread Operator
 
+````js
+const person 2= {...person 1}
+````
+
+Make a deep copy of the first object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjI1OTQ2ODcsMjAyNTg0Nzk0N119
+eyJoaXN0b3J5IjpbMTAxMzExOTQ5MCwtMTE2MjU5NDY4NywyMD
+I1ODQ3OTQ3XX0=
 -->
