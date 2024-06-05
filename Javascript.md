@@ -2672,8 +2672,54 @@ const { getFormattedName } = person;
 console.log(getFormattedName()); 
 ```
 
+### Let's restructure + bind the function
 
+````js
+const person = {
+  name: 'tebi', 
+  getFormattedName () { 
+    debugger;
+    return this.name.toLocaleUpperCase() } 
+};
+
+let { getFormattedName } = person;
+
+// I can't do getFormattedName.bind(person)(), I need to do in 2 steps ❌
+getFormattedName = getFormattedName.bind(person);
+
+// here the this keyword inside the object refers to the 👉 window object!!
+console.log(getFormattedName()); // throws error
+````
+
+I had to bind and call the function in two steps, because I can't inmediately execute the function.
+
+.bind() is helpful for telling the function what the `this` keyword refers to inside it, when that function is executed in the future upon an event.
+
+The best option to configure the context when we're executing the function straight away is `.call`
+
+```js
+.bind // prepares the function
+.call OR .apply // prepares the function + executes it straight away
+```
+
+```js
+const person = {
+  name: 'tebi', 
+  getFormattedName () { 
+    debugger;
+    return this.name.toLocaleUpperCase() } 
+};
+
+const { getFormattedName } = person;
+
+// shorter than the previous example
+// prepare + call on one line! ✅
+console.log(getFormattedName.call(person)); 
+```
+
+Difference between .**bind** and .**apply**? .bind takes the prepended args separated with **commas**, whilst .apply takes them as an **array**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE5NjM2MTksLTE2OTk5NzE2MjUsLT
-IwMzc4OTMzNTUsMTQwODE3MTMwNiwxNzczNzEzNzhdfQ==
+eyJoaXN0b3J5IjpbOTQwMDA4NzU1LC0yMTQxOTYzNjE5LC0xNj
+k5OTcxNjI1LC0yMDM3ODkzMzU1LDE0MDgxNzEzMDYsMTc3Mzcx
+Mzc4XX0=
 -->
