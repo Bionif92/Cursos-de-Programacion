@@ -2545,7 +2545,18 @@ If you want to make a real copy you have to:
 ````js
 const person 2= {...person 1, hobbies: [...person1.hobbies]}
 ````
+
+### Assign
+
+Another way of coping object
+
+````js
+const person 1 = {'Max'};
+
+const person 2 = Object.
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyNjQxOTE4LDg5NTAzMTY4NSwtMTE2Mj
-U5NDY4NywyMDI1ODQ3OTQ3XX0=
+eyJoaXN0b3J5IjpbLTY3NDI1MzAxNCwzNTI2NDE5MTgsODk1MD
+MxNjg1LC0xMTYyNTk0Njg3LDIwMjU4NDc5NDddfQ==
 -->
