@@ -2717,9 +2717,9 @@ const { getFormattedName } = person;
 console.log(getFormattedName.call(person)); 
 ```
 
-Difference between .**bind** and .**apply**? .bind takes the prepended args separated with **commas**, whilst .apply takes them as an **array**
+Difference between .**call** and .**apply**? .call takes the prepended args separated with **commas**, with .apply takes them as an **array**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMDA4NzU1LC0yMTQxOTYzNjE5LC0xNj
-k5OTcxNjI1LC0yMDM3ODkzMzU1LDE0MDgxNzEzMDYsMTc3Mzcx
-Mzc4XX0=
+eyJoaXN0b3J5IjpbOTc5Njk0NjI4LDk0MDAwODc1NSwtMjE0MT
+k2MzYxOSwtMTY5OTk3MTYyNSwtMjAzNzg5MzM1NSwxNDA4MTcx
+MzA2LDE3NzM3MTM3OF19
 -->
