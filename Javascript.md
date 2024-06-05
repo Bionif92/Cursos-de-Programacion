@@ -2637,8 +2637,43 @@ console.log(person.getFormattedName()); // `TEBI`
 
 who is calling `getFormattedName`? `person`, because it's in front of the function call: `person.` 
 
+### This became the window object!!
+
+```js
+const person = {
+  name: 'tebi', 
+  getFormattedName () { 
+    debugger;
+    return this.name.toLocaleUpperCase() } 
+};
+
+const { getFormattedName } = person;
+
+// here the this keyword inside the object refers to the 👉 window object!!
+console.log(getFormattedName()); 
+```
+
+Who called the function? no one! (well, the global execution context to be precise) there wasn't anything before `getFormattedName()` when calling it. So the window object is what the `this` keyword will default to, when using `non-strict` mode. 
+
+If we use `strict` mode:
+```js
+👉 "use strict"
+const person = {
+  name: 'tebi', 
+  getFormattedName () { 
+    debugger;
+    return this.name.toLocaleUpperCase() } 
+};
+
+// same as const getFormattedName = person.getFormattedName;
+const { getFormattedName } = person;
+
+// here the this keyword is 👉 `undefined`
+console.log(getFormattedName()); 
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTk5NzE2MjUsLTIwMzc4OTMzNTUsMT
-QwODE3MTMwNiwxNzczNzEzNzhdfQ==
+eyJoaXN0b3J5IjpbLTIxNDE5NjM2MTksLTE2OTk5NzE2MjUsLT
+IwMzc4OTMzNTUsMTQwODE3MTMwNiwxNzczNzEzNzhdfQ==
 -->
