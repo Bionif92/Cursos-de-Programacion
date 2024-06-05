@@ -2543,9 +2543,9 @@ Make a deep copy of the first object
 If you want to make a real copy you have to:
 
 ````js
-const person 2= {...person 1, hobbies: ['C']}
+const person 2= {...person 1, hobbies: [...person1.hobbies]}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjY1ODcxMSw4OTUwMzE2ODUsLTExNj
-I1OTQ2ODcsMjAyNTg0Nzk0N119
+eyJoaXN0b3J5IjpbMzUyNjQxOTE4LDg5NTAzMTY4NSwtMTE2Mj
+U5NDY4NywyMDI1ODQ3OTQ3XX0=
 -->
