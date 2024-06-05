@@ -2538,8 +2538,8 @@ const person 2= {...person 1}
 
 Make a deep copy of the first object
 
-Careful, if it is arrays inside, the ... don´t make a deep copy of 
+**Careful, if it is arrays inside, the ... don´t make a deep copy of the array**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTkwNTQwMywtMTE2MjU5NDY4NywyMD
-I1ODQ3OTQ3XX0=
+eyJoaXN0b3J5IjpbODk1MDMxNjg1LC0xMTYyNTk0Njg3LDIwMj
+U4NDc5NDddfQ==
 -->
