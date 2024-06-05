@@ -2585,7 +2585,7 @@ When assigning variables (checks on the right hand side of the equal operator)
 ````js
 const person = {name: 'tebi', surname: 'munch', hobbies: ['fishing', 'coding']};
 
-onst unexistingKey = person.places[0]; // ❌throws error, stops code execution
+const unexistingKey = person.places[0]; // ❌throws error, stops code execution
 // Uncaught TypeError: person.places is undefined
 
 const unexistingkey1  = person?.places?.[0]; // ✅undefined
@@ -2610,5 +2610,6 @@ if (person.name !== undefined) {
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwODE3MTMwNiwxNzczNzEzNzhdfQ==
+eyJoaXN0b3J5IjpbLTIwMzc4OTMzNTUsMTQwODE3MTMwNiwxNz
+czNzEzNzhdfQ==
 -->
