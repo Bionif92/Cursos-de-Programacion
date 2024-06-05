@@ -2558,8 +2558,57 @@ const person2 = Object.assign ({},person1);
 
 With the {} inside assign you create a deep copy
 
+### Object destructuring
 
+Imagine you reference `person.name` a lot of times in your code. Wouldn't be better to create a variable for that?
+````js
+const person = {name: 'tebi', surname: 'munch', hobbies: ['fishing', 'coding']};
+
+// const name = person.name OR
+const {name} = person; //✅
+
+// const customName = person.name OR
+const { name: customName } = person; //✅
+
+// const hobbies = person.hobbies; OR
+const {hobbies} = person; //✅ d oesn't deep clone
+
+hobbies.push('cooking');
+
+console.log(person); // Object { name: "tebi", surname: "munch", hobbies: (3) […] }
+````
+
+### Check for property existance
+
+When assigning variables (checks on the right hand side of the equal operator)
+
+````js
+const person = {name: 'tebi', surname: 'munch', hobbies: ['fishing', 'coding']};
+
+onst unexistingKey = person.places[0]; // ❌throws error, stops code execution
+// Uncaught TypeError: person.places is undefined
+
+const unexistingkey1  = person?.places?.[0]; // ✅undefined
+
+const firstHobbie = person?.hobbies?.[0]; // fishing
+````
+
+
+
+when we need to run blocks of code conditionally
+
+```js
+const person = {name: 'tebi', surname: 'munch', hobbies: ['fishing', 'coding']};
+
+if ('name' in person) {
+  console.log(`person has a 'name' key!`);
+}
+
+if (person.name !== undefined) {
+  console.log(`person has a 'name' key!`);
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA5NTQxNjIsMTc3MzcxMzc4XX0=
+eyJoaXN0b3J5IjpbMTQwODE3MTMwNiwxNzczNzEzNzhdfQ==
 -->
