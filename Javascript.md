@@ -2543,7 +2543,7 @@ Make a deep copy of the first object
 If you want to make a real copy you have to:
 
 ````js
-const person 2= {...person 1, hobbies: [...person1.hobbies]}
+const person2= {...person1, hobbies: [...person1.hobbies]}
 ````
 
 ### Assign
@@ -2551,12 +2551,12 @@ const person 2= {...person 1, hobbies: [...person1.hobbies]}
 Another way of coping object
 
 ````js
-const person 1 = {'Max'};
+const person1 = {'Max'};
 
-const person 2 = Object.
+const person2 = Object.assign ({},person1);
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDI1MzAxNCwzNTI2NDE5MTgsODk1MD
+eyJoaXN0b3J5IjpbMTgxOTMyMzI5NSwzNTI2NDE5MTgsODk1MD
 MxNjg1LC0xMTYyNTk0Njg3LDIwMjU4NDc5NDddfQ==
 -->
