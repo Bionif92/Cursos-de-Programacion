@@ -2558,6 +2558,8 @@ const person2 = Object.assign ({},person1);
 
 With the {} inside assign you create a deep copy
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MzcxMzc4XX0=
+eyJoaXN0b3J5IjpbLTE3NjA5NTQxNjIsMTc3MzcxMzc4XX0=
 -->
