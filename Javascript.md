@@ -2609,7 +2609,36 @@ if (person.name !== undefined) {
 }
 ```
 
+### This keyword
+
+When using `this` inside functions, `this` refers to the thing calling that function.
+
+Don't use arrow functions when using `this`!
+
+````js
+const person = {
+  name: 'tebi', 
+  getFormattedName: function () { // ✅ function keyword
+    return this.name.toLocaleUpperCase();
+  }
+};
+
+// OR
+
+const person = {
+  name: 'tebi', 
+  getFormattedName() {  // it doesn use the function keyword, more in the next modules!
+    return this.name.toLocaleUpperCase() 
+  } 
+};
+
+console.log(person.getFormattedName()); // `TEBI`
+````
+
+who is calling `getFormattedName`? `person`, because it's in front of the function call: `person.` 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzc4OTMzNTUsMTQwODE3MTMwNiwxNz
-czNzEzNzhdfQ==
+eyJoaXN0b3J5IjpbLTE2OTk5NzE2MjUsLTIwMzc4OTMzNTUsMT
+QwODE3MTMwNiwxNzczNzEzNzhdfQ==
 -->
