@@ -2521,8 +2521,16 @@ const filteredMovies = !filter
 ````
 Then use filteredMovies to show the filter
 
+### Chaining methods
+
+````js
+Math.random().toString()
+````
+
+everything has that .toString() method in JS
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTg0Nzk0N119
+eyJoaXN0b3J5IjpbLTExNjI1OTQ2ODcsMjAyNTg0Nzk0N119
 -->
