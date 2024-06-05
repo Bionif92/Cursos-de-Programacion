@@ -2556,7 +2556,8 @@ const person1 = {'Max'};
 const person2 = Object.assign ({},person1);
 ````
 
+With the {} inside assign you create a deep copy
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTMyMzI5NSwzNTI2NDE5MTgsODk1MD
-MxNjg1LC0xMTYyNTk0Njg3LDIwMjU4NDc5NDddfQ==
+eyJoaXN0b3J5IjpbMTc3MzcxMzc4XX0=
 -->
