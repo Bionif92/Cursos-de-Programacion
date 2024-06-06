@@ -2834,6 +2834,44 @@ member.changeTeamName('Sparks');
 console.log(member);
 ````
 
+### Getter and setters
+
+we can run some logic (e.g perform checks) before adding/changing/reading a prop of an object.
+
+Kind of security guards to enter, do things inside and exit the object
+
+we can have a propr with no setter, so it's a read only prop! that's neat
+
+````js
+const member = {
+  _teamName: 'Blue rays', // props with _ are not supposed to be accessed directly
+  get teamName(){
+    return this._teamName.toUpperCase();
+  },
+  set teamName(value){
+    if(value.includes('p')){
+      console.log('sorry, letter p is not allowed')
+    } else {
+      this._teamName = value;
+    }
+  }
+  
+}
+
+
+console.log(member._teamName); // Blue rays ❌ bad practice
+// ❌ member._teamName = 'something' bad practice
+console.log(member.teamName); // getter fired, prints BLUE RAYS
+
+member.teamName = 'pepe'; // setter fired , prints `sorry, letter p is not allowed`
+
+member.teamName = 'Argentina'; // setter fired
+
+console.log(member.teamName); // ARGENTINA
+
+console.log(Object.keys(member)); // ['_teamName', 'teamName']
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDU1MTMzNTcsMzk1MDY3Njg0XX0=
+eyJoaXN0b3J5IjpbLTcxNzM4NjU3N119
 -->
