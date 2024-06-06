@@ -2718,8 +2718,20 @@ console.log(getFormattedName.call(person));
 ```
 
 Difference between .**call** and .**apply**? .call takes the prepended args separated with **commas**, with .apply takes them as an **array**
+
+### Event listners and the this value
+
+````js
+const li = document.querySelector('li');
+
+// using the function keyword
+// the browser binds the function to the Element that has the event listener attached.
+li.addEventListener('click', function () {
+  console.log(this); // li element
+});
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc5Njk0NjI4LDk0MDAwODc1NSwtMjE0MT
-k2MzYxOSwtMTY5OTk3MTYyNSwtMjAzNzg5MzM1NSwxNDA4MTcx
-MzA2LDE3NzM3MTM3OF19
+eyJoaXN0b3J5IjpbNDI4MDAxMTA0LDk3OTY5NDYyOCw5NDAwMD
+g3NTUsLTIxNDE5NjM2MTksLTE2OTk5NzE2MjUsLTIwMzc4OTMz
+NTUsMTQwODE3MTMwNiwxNzczNzEzNzhdfQ==
 -->
