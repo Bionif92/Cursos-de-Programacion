@@ -2872,6 +2872,10 @@ console.log(member.teamName); // ARGENTINA
 console.log(Object.keys(member)); // ['_teamName', 'teamName']
 ````
 
+The following resources may be helpful.
+
+-   More on the `this` keyword (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNzM4NjU3N119
+eyJoaXN0b3J5IjpbMTEzMTkxMjI4LC03MTczODY1NzddfQ==
 -->
