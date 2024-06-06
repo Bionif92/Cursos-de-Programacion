@@ -2730,8 +2730,90 @@ li.addEventListener('click', function () {
   console.log(this); // li element
 });
 ````
+
+### Arrow function and the this keyword
+
+````js
+const li = document.querySelector('li');
+
+// using arrow function
+li.addEventListener('click', () => {
+  console.log(this); // Window
+});
+````
+
+Arrow functions don't know this! 😅
+
+the `this` value is the same as the one outside the function. An object is not a place where you can write the `this` keyword, so that doesn't count. See example below:
+
+````js
+this // window object
+
+// using arrow function
+li.addEventListener('click', () => {
+  console.log(this); // Window object
+});
+
+// next place here
+this
+
+const person = {
+  name: 'tebi',
+  this ❌
+  getFormattedName: () => {
+    console.log(this); // Window // I can't type `this` inside an object, doesn;t count
+    // the next place would be outside the object 😮
+    return this.name.toLocaleUpperCase()
+  }
+};
+
+const { getFormattedName } = person;
+
+console.log(getFormattedName()); // it doesn't work!❌
+
+````
+
+Conclusion: using arrow functions makes the `what thing called the function` rule invalid, same with `use strict` mode. We can get rid of unpleasant side effects!
+
+In other words, using arrow functions doesn't let JS to bind it when called.
+
+Remember React, when using methods defined with arrow functions, I didn;t need to bind the methods before the constructor! ❓
+
+It will be useful to use arrow functions when creating objects with Classes.
+
+If "use strict" is used, then `this` is not `undefined` is still the window object
+
+### When an arrow function can be useful
+
+```js
+// arrow function callback
+const member = {
+  teamName: 'Blue rays',
+  memberNames: ['Max', 'Manu'],
+  printNames(){
+    this.memberNames.forEach(person => console.log(`${person}--${this.teamName}`)); // arrow function as the forEach callback. `this` is the same as the one inside the printNames method, which refers to the `member` object
+  }
+}
+
+member.printNames(); // Max--Blue rays Manu--Blue rays ✅
+```
+
+````js
+// function keyword callback
+const member = {
+  teamName: 'Blue rays',
+  memberNames: ['Max', 'Manu'],
+  printNames(){
+    this.memberNames.forEach(function(person){ 
+      console.log(this); // window object, no one's calling the callback function (well, the browser)
+      // is called by forEach function in our behalf, we don't call it () ourselves
+      console.log(`${person}--${this.teamName}`)
+    });
+  }
+}
+
+member.printNames(); // Max--undefined Manu--undefined ❌
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MDAxMTA0LDk3OTY5NDYyOCw5NDAwMD
-g3NTUsLTIxNDE5NjM2MTksLTE2OTk5NzE2MjUsLTIwMzc4OTMz
-NTUsMTQwODE3MTMwNiwxNzczNzEzNzhdfQ==
+eyJoaXN0b3J5IjpbMzk1MDY3Njg0XX0=
 -->
