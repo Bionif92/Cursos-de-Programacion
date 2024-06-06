@@ -2815,6 +2815,25 @@ const member = {
 member.printNames(); // Max--undefined Manu--undefined ❌
 ````
 
+### Quiz
+
+what's the purpose of using `this` inside non-arrow methods? To provide access to the thing that called the method
+
+### How to change props with what I know so far
+
+````js
+const member = {
+  teamName: 'Blue rays',
+  changeTeamName(newName){
+    this.teamName =  newName;
+  }
+}
+
+member.changeTeamName('Sparks');
+
+console.log(member);
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1ODQ1OTMxMCwzOTUwNjc2ODRdfQ==
+eyJoaXN0b3J5IjpbLTEyMDU1MTMzNTcsMzk1MDY3Njg0XX0=
 -->
