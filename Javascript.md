@@ -2814,6 +2814,7 @@ const member = {
 
 member.printNames(); // Max--undefined Manu--undefined ❌
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk1MDY3Njg0XX0=
+eyJoaXN0b3J5IjpbLTU1ODQ1OTMxMCwzOTUwNjc2ODRdfQ==
 -->
