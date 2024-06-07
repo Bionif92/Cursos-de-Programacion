@@ -2915,12 +2915,10 @@ const ProductList = {
 ProductList.render();
 ````
 
-
-
 With OOP, we can have a class `Products`  that when instantiated, return  objects that have the list of products, a method to render it. Same for a class `Product` that holds props of the products and a method to render it (so that can be used inside the Products class when interating over the array of products).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MTQ1MjEzNywtMjkyMzg2NzA5LDExMz
-E5MTIyOF19
+eyJoaXN0b3J5IjpbLTE2NzI3MTU4OTEsLTI5MjM4NjcwOSwxMT
+MxOTEyMjhdfQ==
 -->
