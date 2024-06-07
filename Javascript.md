@@ -3022,6 +3022,27 @@ class ProductList {} // holds the products list + a render method that appens ul
 ````
 
 he separated Products + ProductItem into 2 lists. I'd just merge them. I like holding data and methods to render that to the DOM altogether.
+
+### How to update the cart UI when an item is added to it?
+
+```js
+class Cart {
+	items = [];
+	
+	addItem(product){
+		items.push(product); // I could use a setter instead, and assign a new array
+    // let's update the DOM
+		👉dynamicMarkupNode.innerHTML = <<div>Total: 1<div>;
+	}
+	
+	render(){
+		some external markup
+    // let's keep the Node as a prop
+		const 👉this.dynamicMarkupNode = // some Node with <div>Total: 0<div>;
+		return all the markup // used by a parent class Shop that renders all parts of the app
+	}
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTYxMTYxMDVdfQ==
+eyJoaXN0b3J5IjpbMTkyMzQ1MTM1MSwtMTI5NjExNjEwNV19
 -->
