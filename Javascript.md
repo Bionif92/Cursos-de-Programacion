@@ -2878,8 +2878,49 @@ The following resources may be helpful.
 
 ## Objects oriented Programming
 
+### OOP programming
+
+so far, to render a list of products into a page with **functional programming**, we'd do:
+````js
+// function to fetch an API
+// function to iterate over the products and append it as a children
+````
+
+Simplified **functional programming** approach
+
+````js
+const productList = [{},{}];
+
+const renderProductList = () => {
+	// create a ul element
+	// iterate over products and append one by one the the ul element
+	// append the ul element to another element already in the HTML
+}
+
+renderProductList();
+````
+
+OOP approach
+
+````js
+const ProductList = {
+	products: [{},{}],
+	render() {
+		// create a ul element
+		// iterate over products 👉(this.products) and append one by one the the ul element
+		// append the ul element to another element already in the HTML
+	}
+}
+
+ProductList.render();
+````
+
+
+
+With OOP, we can have a class `Products`  that when instantiated, return  objects that have the list of products, a method to render it. Same for a class `Product` that holds props of the products and a method to render it (so that can be used inside the Products class when interating over the array of products).
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjM4NjcwOSwxMTMxOTEyMjhdfQ==
+eyJoaXN0b3J5IjpbMTg4MTQ1MjEzNywtMjkyMzg2NzA5LDExMz
+E5MTIyOF19
 -->
