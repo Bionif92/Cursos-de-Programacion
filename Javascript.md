@@ -2924,7 +2924,6 @@ class 👉Dog = {
 	sound 👉= 'wooof';👈
 }
 ```
-
 The convention is to use first letter capitalized.
 
 equal signs and commas are used
@@ -2942,7 +2941,6 @@ const product1 = new Product('Computer', 1000, 'a really nice computer');
 
 console.log(product1);// Product {title: 'Computer', price: 1000, description: 'a really nice computer'}
 // Prototype -> constructor: class Product
-
 
 // TS sugar
 class Product {
@@ -2978,7 +2976,6 @@ class Product {
   }
 }
 
-
 const productFromApi = {
   title: 'computer',
   price: 1000,
@@ -3005,9 +3002,6 @@ class ProductV2 {
   
 const product = new Product(productFromApi);
 ```
-
-
-
 The order of classes doesn't matter.
 
 You can use classes into another classes even if the class is defined after it
@@ -3019,8 +3013,15 @@ const products  = new ProductList();
 
 ````
 
+### Max's classes
 
+````js
+class Products {} // holds the products
+class ProductItem {} // holds the props + a render method that returns a li node element
+class ProductList {} // holds the products list + a render method that appens ul to the DOM
+````
+
+he separated Products + ProductItem into 2 lists. I'd just merge them. I like holding data and methods to render that to the DOM altogether.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjA4MTE0ODEsLTE2NzI3MTU4OTEsLT
-I5MjM4NjcwOSwxMTMxOTEyMjhdfQ==
+eyJoaXN0b3J5IjpbLTEyOTYxMTYxMDVdfQ==
 -->
