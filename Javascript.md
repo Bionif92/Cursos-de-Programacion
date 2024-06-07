@@ -2917,8 +2917,110 @@ ProductList.render();
 
 With OOP, we can have a class `Products`  that when instantiated, return  objects that have the list of products, a method to render it. Same for a class `Product` that holds props of the products and a method to render it (so that can be used inside the Products class when interating over the array of products).
 
+### Classes
+
+```
+class 👉Dog = {
+	sound 👉= 'wooof';👈
+}
+```
+
+The convention is to use first letter capitalized.
+
+equal signs and commas are used
+
+````js
+class Product {
+  constructor(title, price, description) {
+    this.title = title;
+    this.price = price;
+    this.description = description;
+  }
+}
+
+const product1 = new Product('Computer', 1000, 'a really nice computer');
+
+console.log(product1);// Product {title: 'Computer', price: 1000, description: 'a really nice computer'}
+// Prototype -> constructor: class Product
+
+
+// TS sugar
+class Product {
+  title;
+  price;
+  description;
+  constructor( private title, private, private description){}
+}  
+````
+
+the `constructor` method is autmatically called by JS when using the `new` keyword.
+
+We use classes to create objects that have logic (methods in it).
+
+We wouldn't use a class to create objects that just hold props , e.g { sound: 'woof'}
+
+In Max's example, Product can hold some props and a method to render it (e.g under /product?id=xx page);
+
+In the end Macx decided to use a class **Product** to just hold props, and then **ProductItem** that has the props + a render method
+
+Off topic example using an object from an API:
+
+````js
+class Product {
+  title = 'Default'; // ❌ Doesn't make sense in this case. We can define fields before the constructor
+  constructor(title, price, description) { 
+    this.title = title; // overrides default value
+    this.price = price;
+    this.description = description;
+  }
+  reducePrice(){
+    this.price = this.price * 0.8;
+  }
+}
+
+
+const productFromApi = {
+  title: 'computer',
+  price: 1000,
+  description: 'a nice computer'
+}
+
+const product = new Product(...Object.values(productFromApi)); 
+
+console.log(product); // Product {title: 'computer', price: 1000, description: 'a nice computer'}
+````
+
+```js
+class ProductV2 {
+  constructor(product){ // accepts the object, much more easier
+    this.title = product.title;
+    this.price = product.price
+    this.description = product.description
+  }
+  reducePrice(){
+    this.price = this.price * 0.8;
+  }
+  render(){ //return li node}
+}
+  
+const product = new Product(productFromApi);
+```
+
+
+
+The order of classes doesn't matter.
+
+You can use classes into another classes even if the class is defined after it
+
+````js
+class ProductList { products = [new Product(someArgs)]}
+class Product{} // ✅ defined before executing the parent class
+const products  = new ProductList();
+
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzI3MTU4OTEsLTI5MjM4NjcwOSwxMT
-MxOTEyMjhdfQ==
+eyJoaXN0b3J5IjpbLTE3MjA4MTE0ODEsLTE2NzI3MTU4OTEsLT
+I5MjM4NjcwOSwxMTMxOTEyMjhdfQ==
 -->
