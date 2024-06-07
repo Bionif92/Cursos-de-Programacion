@@ -3043,8 +3043,28 @@ class Cart {
 	}
 }
 ```
+### Static props, fields and methods
 
+A way to encapsulate all code on classes:
+
+```js
+// this was the only code of the app outside a class
+const shop = new Shop();
+shop.render
+```
+
+````js
+// let's put inside a box! 📦
+class App {
+	static init(){
+		const shop = new Shop();
+		shop.render();
+	}
+}
+
+App.init();
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDU3MDU1NSwxOTIzNDUxMzUxLC0xMj
-k2MTE2MTA1XX0=
+eyJoaXN0b3J5IjpbLTE3ODUzNjk0ODIsMTkyMzQ1MTM1MSwtMT
+I5NjExNjEwNV19
 -->
