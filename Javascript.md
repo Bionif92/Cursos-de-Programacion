@@ -3064,7 +3064,150 @@ class App {
 
 App.init();
 ````
+
+### How to add products to the cart?
+
+⚠️ **I need just one instance of the Cart class**, and then using all over the app. But where do I store that instance?
+
+In a class!!
+
+So the idea is that there is no global variables outside classes holding that, as I'd have with functional programming.
+
+```js
+//FP way of thinking ❌
+const 👉cart = new Cart();
+
+// then reuse that cart instance in classes
+class Product {
+	constructor(👉cart){}
+	// some methods that pushed to the 👉cart instance
+}
+```
+
+```js
+// OOP what of thinking ✅
+
+class Product {
+  App.cart.addItem(product);
+}
+
+class App {
+  static cart = new Cart // OR
+  
+  static someMethod(){
+    //some logic
+    this.cart = new Cart
+  }
+}
+```
+
+So a static field is really usefull for sharing a class instance!
+
+````js
+// FP concrete example ❌
+class Cart {
+  items = [];  
+  addItem(product) { 
+    this.items.push(product);
+  }  
+}
+
+class ProductList {
+    products = ['banana', 'bread', 'butter'];
+
+    constructor (cartInstance) { ❌
+        this.cartInstance = cartInstance;
+    }
+    pushRandomItem() {
+        this.cartInstance.addItem(this.products[Math.round(Math.random())]);
+    }
+}
+
+const cart = new Cart;
+
+const productList = new ProductList(cart);
+````
+
+The above way is not very helpful ❌. I don't want to use constructors 🤔
+
+I can keep those classes instances as static fields in a class, and access them everywhere without constructors!
+
+
+
+````js
+// OOP concrete example ✅
+
+class Cart {
+    items = [];  
+    addItem(product) { 
+      this.items.push(product);
+    }  
+  }
+  
+  class ProductList {
+      products = ['banana', 'bread', 'butter'];
+      pushRandomItem() {
+          👉 App.cart.addItem(this.products[Math.round(Math.random())]); // I could turn this into a static method as well?
+      }
+  }
+  
+  class Shop {
+      render(){
+        this.cart = new Cart;
+        // some more logic here
+      }
+  }
+  
+  class App {
+      // static cart; // 💡this can be ommitted
+
+      static init(){
+              const shop = new Shop(); 
+              this.cart = shop.cart; // 💡😮 it creates a static field, because we're inside a static method
+              shop.render();
+      }
+
+      static playWithClasses(){
+          const productList = new ProductList;
+          productList.pushRandomItem();
+          productList.pushRandomItem();
+          console.log(App.cart.items);
+      }
+  }
+
+  App.init();
+  App.playWithClasses();
+````
+
+
+
+To recap, static methods and props are good for sharing things across the app.
+
+Remember! class instances are objects, so I can do object destructuring for example:
+
+```js
+class Person {
+	constructor(age){
+		this.age = age;
+	}
+}
+
+const { age } = new Person(35);
+
+console.log(age); // logs 35
+```
+
+### When to use classes?
+
+when we plan to create the same object holding props and logic multiple times.
+
+When we have some methods(logic)
+
+### When to use object literals?
+
+when there's no logic, and we need to have the object create once or so. It performs better than using classes to create it, but that perfomance difference can be seen if we create thousands/millions of objects
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODUzNjk0ODIsMTkyMzQ1MTM1MSwtMT
-I5NjExNjEwNV19
+eyJoaXN0b3J5IjpbMTcxNTE1MjcyNSwtMTc4NTM2OTQ4MiwxOT
+IzNDUxMzUxLC0xMjk2MTE2MTA1XX0=
 -->
