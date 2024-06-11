@@ -3445,7 +3445,5 @@ class ShoppingCart extends Component {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTM3Njc4NjUsLTMwMTk4NjMyLDE3MT
-UxNTI3MjUsLTE3ODUzNjk0ODIsMTkyMzQ1MTM1MSwtMTI5NjEx
-NjEwNV19
+eyJoaXN0b3J5IjpbLTE3OTM3Njc4NjVdfQ==
 -->
