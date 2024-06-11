@@ -3444,8 +3444,10 @@ class ShoppingCart extends Component {
 }
 ````
 
-With `extend` you append the fat
+With `extend` you append the father class to the class you are working
+
+If you dont use a constructor, it will actomatically use the one on the father structure, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzMwNDA2MiwtMTc5Mzc2Nzg2NV19
+eyJoaXN0b3J5IjpbLTQxNTU2NzA3LC0xNzkzNzY3ODY1XX0=
 -->
