@@ -3360,9 +3360,92 @@ const product1 = new ProductItem('banana');
 product1.render();
 ```
 
+### Inheritance
 
+what if two classes have a method that does more or less the same?
+
+````js
+class someClass {
+	render(){
+		// creates Node // shared code ✅
+		// appends some stuff to it (differs from class to class) ❌
+    // appends node to an anchor ✅
+		// return Node // shared code ✅
+	}
+}
+````
+
+Example:
+
+````js
+class Component {
+  constructor(anchorElementId){
+    this.anchorElementId = anchorElementId;
+  }
+  
+  createNode(tag, classes, attributes){
+		...
+    return someNode;
+  }
+}
+````
+
+```js
+class Cart extends Component {
+	render(){
+		const node = this.createNode('section', 'cart');
+		// add some content to the node
+		return node;
+	}
+}
+```
+
+
+
+Extended example:
+````js
+class Component {
+  constructor(renderHookId) {
+    this.hookId = renderHookId;
+  }
+
+  createRootElement(tag, cssClasses, attributes) {
+    // 1- Node creation
+    const rootElement = document.createElement(tag);
+    if (cssClasses) {
+      rootElement.className = cssClasses;
+    }
+    if (attributes && attributes.length > 0) {
+      for (const attr of attributes) {
+        rootElement.setAttribute(attr.name, attr.value);
+      }
+    }
+    // 2 - Node appended
+    document.getElementById(this.hookId).append(rootElement);
+    
+    //3-  Node returned
+    return rootElement; // it returns the node to append things to it later on
+  }
+}
+
+class ShoppingCart extends Component {
+  ...
+  render() {
+    // get the node using the inherited parent method
+    const cartEl = this.createRootElement('section', 'cart');
+    // add some content to the node
+    cartEl.innerHTML = `
+      <h2>Total: \$${0}</h2>
+      <button>Order Now!</button>
+    `;
+    // store some of the Node displaying the total, to be updated when a new item is added to the cart
+    this.totalOutput = cartEl.querySelector('h2');
+  }
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMTk4NjMyLDE3MTUxNTI3MjUsLTE3OD
-UzNjk0ODIsMTkyMzQ1MTM1MSwtMTI5NjExNjEwNV19
+eyJoaXN0b3J5IjpbLTE3OTM3Njc4NjUsLTMwMTk4NjMyLDE3MT
+UxNTI3MjUsLTE3ODUzNjk0ODIsMTkyMzQ1MTM1MSwtMTI5NjEx
+NjEwNV19
 -->
