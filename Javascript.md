@@ -3207,7 +3207,108 @@ When we have some methods(logic)
 
 when there's no logic, and we need to have the object create once or so. It performs better than using classes to create it, but that perfomance difference can be seen if we create thousands/millions of objects
 
+### Setters and getters
+
+we don't use them like this: ❌
+
+````js
+class Cart {
+	items = []; // naming colision here 💥!!
+	set items(newArray){ //❌
+		debugger; //never runs
+        this.items = newArray;
+	}
+}
+
+class App {
+	static playWithCart(){
+		this.cart = new Cart;
+		this.cart.items = ['banana', 'bread']; // ⚠️doesn't trigger the setter, it just re-assigns the prop directly
+	}
+}
+````
+
+
+
+They can be syntactic sugar to run some logic:
+
+````js
+class Cart {
+    items = [];
+      👉set cartItems(itemsArray){
+          this.items = itemsArray // reassigns the prop to a new array
+      // more logic here! like updating the DOM Node displaying the total price
+      console.log('running the setter!')
+      }
+  }
+  
+  class App {
+      static playWithCart(){
+          this.cart = new Cart;
+          this.cart.👉cartItems = ['banana', 'bread']; // ✅ triggers the setter
+      console.log(this.cart.items)
+      }
+  }
+
+  App.playWithCart();
+````
+
+Please note there's no such cartItems prop at all inside the class, but calling the setter syntax is like assigning that prop.
+
+**Without** a setter:
+
+```js
+class Cart {
+    items = [];
+      👉setCartItems(itemsArray){
+          this.items = itemsArray // reassigns the prop to a new array
+      // more logic here! like updating the DOM Node displaying the total price
+      console.log('running the setter!')
+      }
+  }
+  
+  class App {
+      static playWithCart(){
+          this.cart = new Cart;
+          this.cart.👉setCartItems(['banana', 'bread']); // parenthesis syntax
+      console.log(this.cart.items)
+      }
+  }
+
+  App.playWithCart();
+```
+
+An example of getters:
+
+```js
+class Cart {
+    items = [];
+      set cartItems(itemsArray){
+          this.items = itemsArray // reassigns the prop to a new array
+      this.someNode.innerHTML = `<div>Total${this.👉total}</div>`; // 💡triggers the `total` getter
+      console.log('running the setter!')
+      }
+  
+  		👉get total(){
+        return items.reduce((prevValue, currValue) => prevVal + currValue.price, 0);
+      }
+  }
+  
+  class App {
+      static playWithCart(){
+          this.cart = new Cart;
+          this.cart.cartItems = [{ name: 'banana', price: 10} , { name: 'bread', price: 20 }];
+      console.log(this.cart.items);
+      console.log(this.cart.total);  
+      }
+  }
+
+  App.playWithCart();
+```
+
+So, as we can see, OOP does't use much `const` and `let`, but uses `this` to store values, and they'r scoped to the objects, so that's really neat, we'r not polluting the global space.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTE1MjcyNSwtMTc4NTM2OTQ4MiwxOT
-IzNDUxMzUxLC0xMjk2MTE2MTA1XX0=
+eyJoaXN0b3J5IjpbLTE5MzU5MDkwMDMsMTcxNTE1MjcyNSwtMT
+c4NTM2OTQ4MiwxOTIzNDUxMzUxLC0xMjk2MTE2MTA1XX0=
 -->
