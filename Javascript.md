@@ -3308,7 +3308,61 @@ class Cart {
 
 So, as we can see, OOP does't use much `const` and `let`, but uses `this` to store values, and they'r scoped to the objects, so that's really neat, we'r not polluting the global space.
 
+### Event listeners
+
+Two options to fix it: `.bind` the reference, or use arrow syntax
+
+```js
+class ProductItem {
+  constructor(product){
+    this.product = product;
+  }
+  someFunction() {
+    console.log(this.product) // ❌ undefined. This refers to the event object! who called the event listener? JS
+    console.log(this); // document object
+  }
+	render() {
+    document.addEventListener('click', this.someFunction);
+  }
+}
+
+Option #1: Bind the listener
+class ProductItem {
+  constructor(product){
+    this.product = product;
+  }
+  someFunction() {
+    console.log(this.product) // logs 'banana' !
+    console.log(this); // logs ProductItem
+  }
+	render() {
+    document.addEventListener('click', this.someFunction.👉bind(this)); // it works as longs as `render` is called as product1.render()
+  }
+}
+
+// Option 2#: use arrow syntax to define the listener
+class ProductItem {
+  constructor(product){
+    this.product = product;
+  }
+  // `this` (I can type it at the class level, so that's why arrow function works well here)
+  someFunction 👉= () => {
+    console.log(this.product) // logs 'banana' !
+    console.log(this); // logs ProductItem
+  }
+	render() {
+    document.addEventListener('click', this.someFunction);
+  }
+}
+
+const product1 = new ProductItem('banana');
+
+product1.render();
+```
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzU5MDkwMDMsMTcxNTE1MjcyNSwtMT
-c4NTM2OTQ4MiwxOTIzNDUxMzUxLC0xMjk2MTE2MTA1XX0=
+eyJoaXN0b3J5IjpbLTMwMTk4NjMyLDE3MTUxNTI3MjUsLTE3OD
+UzNjk0ODIsMTkyMzQ1MTM1MSwtMTI5NjExNjEwNV19
 -->
