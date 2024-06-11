@@ -3447,7 +3447,12 @@ class ShoppingCart extends Component {
 With `extend` you append the father class to the class you are working
 
 If you dont use a constructor, it will actomatically use the one on the father structure, 
+If you need to make a new contructor and work with the father too, use:
+```` js
+constructor (renderHookId) {
+	super (renderHookId);
+	}
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTU2NzA3LC0xNzkzNzY3ODY1XX0=
+eyJoaXN0b3J5IjpbMTI2NjI0Mzc3NSwtMTc5Mzc2Nzg2NV19
 -->
