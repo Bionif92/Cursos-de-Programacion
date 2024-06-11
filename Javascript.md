@@ -3444,6 +3444,8 @@ class ShoppingCart extends Component {
 }
 ````
 
+With `extend` you append the fat
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTM3Njc4NjVdfQ==
+eyJoaXN0b3J5IjpbMTI5NzMwNDA2MiwtMTc5Mzc2Nzg2NV19
 -->
