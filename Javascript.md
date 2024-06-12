@@ -3454,7 +3454,7 @@ constructor (renderHookId) {
 	}
 ````
 
-```
+````js
 class Rectangle {
   constructor(height, width) {
     this.name = "Rectangle";
@@ -3485,8 +3485,8 @@ class Square extends Rectangle {
     this.name = "Square";
   }
 }
-```
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTk4NDc5MSwxMjY2MjQzNzc1LC0xNz
-kzNzY3ODY1XX0=
+eyJoaXN0b3J5IjpbLTE2MDgyNTIyNzAsMTI2NjI0Mzc3NSwtMT
+c5Mzc2Nzg2NV19
 -->
