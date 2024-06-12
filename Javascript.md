@@ -3486,7 +3486,114 @@ class Square extends Rectangle {
   }
 }
 ````
+
+### Constructors of parent and the extended class
+
+```js
+class Parent {
+	constructor(someArgs){} // get's called ✅
+}
+
+class Child extends Parent {
+  // no constructor here
+}
+
+const newChild = new Child(someArgs);
+```
+
+```js
+class Parent {
+	constructor(someArgs){} // doesn't get called! ❌
+}
+
+class Child extends Parent {
+  	constructor(someArgs){} // get's called ✅
+}
+
+const newChild = new Child(someArgs);
+```
+
+How to solve this problem?
+
+````js
+class Parent {
+	constructor(someArgs){} // doesn't get called second! ✅
+}
+
+class Child extends Parent {
+  	constructor(someArgs){ // get's called first ✅
+  		👉 super(someArgs);
+      // I can now access this, as the object has been initialized
+      this.something = something;
+      //etc
+  	} 
+}
+
+const newChild = new Child(someArgs);
+````
+
+
+
+An example:
+
+```js
+class Parent {
+    constructor(sound){ // gets called ✅
+        this.sound = sound;
+    }
+    makeSound(){
+        console.log(this.sound);
+    }
+}
+
+class Child extends Parent { // no contructor here
+}
+
+const newChild = new Child('wohoo!');
+newChild.makeSound(); // prints wohoo! 
+```
+
+if I add a contructor to `Child`, I get this error:
+````js
+// app.js:12 Uncaught ReferenceError: Must call super constructor in derived class before accessing 'this' or returning from derived constructor
+````
+
+```js
+class Parent {
+    constructor(sound){
+        this.sound = sound;
+    }
+    makeSound(){
+        console.log(this.sound);
+    }
+}
+
+class Child extends Parent { 
+	 constructor(sound, a, b, c,etc){
+        super(sound);
+        // some other logic here, assigning new props using a,b,c
+    }
+}
+
+const newChild = new Child('wohoo!', a,b,c ,etc);
+newChild.makeSound(); // prints wohoo!🎉
+```
+
+When not using TS, a way to ensure a function get objects of the expected shape in a method, is to generate objects using a class for it and pass it to the method.
+
+TS is much better, as we'll find the error before the JS runs in the browser.
+
+### Refactoring rendering methods
+
+classes with the render method can now extend the Component class, and use that logic
+
+`ProductList` and `Cart` are appended to and Node element with id `app`, so they'r the app's top 2 level components.
+
+ProductList needs to be rendered before ProductItem, because ProductItems needs the `ul` element to be added to DOM when in renders.
+
+the original render methods used to return the Node element in order to be appended by the code calling the .render() method. But now, the parent .render() method appends it, so no need to return it anymore.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDgyNTIyNzAsMTI2NjI0Mzc3NSwtMT
-c5Mzc2Nzg2NV19
+eyJoaXN0b3J5IjpbLTM2MDM0NDA0OCwtMTYwODI1MjI3MCwxMj
+Y2MjQzNzc1LC0xNzkzNzY3ODY1XX0=
 -->
