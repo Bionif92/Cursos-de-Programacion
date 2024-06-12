@@ -3893,6 +3893,47 @@ class someClass {
 }
 ````
 
+### Private fields, properties and methods
+
+````js
+class ProductList {
+	products = [];
+  
+  fetchProducts(){
+    //API call
+		this.products = something;
+    render();
+  }
+}
+````
+
+I don't want other devs setting products externally, because that wouldn't be reflected in the UI. (plus, I don't have setters in the class that would update the UI when the setter is called);
+
+So let's make `product` field and the fetchProducts method private 🚫
+
+````js
+class ProductList extends Component {
+
+  👉#products = []; 
+
+  constructor(renderHookId) {
+    super(renderHookId, 👉false);
+    👉this.render();
+    this.#fetchProducts();
+  }
+
+	👉#fetchProducts(){}
+  
+  //replace this.products by this.#products in all instances
+}
+
+const productList = new ProductList();
+productList.#products // throws this error: // Uncaught SyntaxError: Private field '#age' must be declared in an enclosing class (at app.js:195:19)
+````
+
+At this point, having the parent class Component with the selfcalled render() method doesn't make much sense because it's almost always not run because the parent constructor is passed false as a `shouldRender` , but it made sense at the time.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTM5ODc5NSwxMDg1Njc0MTQ5XX0=
+eyJoaXN0b3J5IjpbLTc1NTI5MDk3M119
 -->
