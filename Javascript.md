@@ -3688,6 +3688,167 @@ now, classes rendered themselves when instantiated, that's neat!
 #### Golden rule: `this` inside the parent constructor referes to the created object from the sub-class
 
 Till Boolean tricks with logical operators!
+
+### Constructor execution, Order & this
+
+````js
+// I get the error: this.products is not iterable
+
+class ProductList extends Component {
+
+  products = [
+    new Product(
+      'A Pillow',
+      'https://www.maxpixel.net/static/photo/2x/Soft-Pillow-Green-Decoration-Deco-Snuggle-1241878.jpg',
+      'A soft pillow!',
+      19.99
+    ),
+    new Product(
+      'A Carpet',
+      'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ardabil_Carpet.jpg/397px-Ardabil_Carpet.jpg',
+      'A carpet which you might like - or not.',
+      89.99
+    )
+  ];
+
+  constructor(renderHookId) {
+    super(renderHookId);
+  }
+
+  render() {
+    // create the node element and append it
+    const prodListdEl = this.createRootElement('ul', 'product-list', [new ElementAttribute('id', 'product-list')]);
+
+    // add content to the node
+    for (const prod of this.products) { // `this` only has the parent class props at this point
+      const productItem = new ProductItem(prod, 'product-list');
+    }
+  }
+}
+````
+
+
+
+````js
+class Component {
+  constructor(renderHookId) {
+    this.hookId = renderHookId;
+    this.render(); // get's called before the sub-class constructor finishes running, so the fields to be converted to props in the sub-class are not ready yet (not initialized), e.g products
+  }
+
+  createRootElement(tag, cssClasses, attributes) {
+    const rootElement = document.createElement(tag);
+    if (cssClasses) {
+      rootElement.className = cssClasses;
+    }
+    if (attributes && attributes.length > 0) {
+      for (const attr of attributes) {
+        rootElement.setAttribute(attr.name, attr.value);
+      }
+    }
+    document.getElementById(this.hookId).append(rootElement);
+    return rootElement;
+  }
+}
+````
+
+
+
+2 approaches to fix this:
+
+1. fetch products, and after they're set, render them + add some if check to only render them if set
+
+```js
+class ProductList extends Component {
+
+  constructor(renderHookId) {
+    super(renderHookId);
+    👉this.fetchProducts();
+  }
+
+  fetchProducts(){
+    // some call to an API
+    this.products = [
+      new Product(
+        'A Pillow',
+        'https://www.maxpixel.net/static/photo/2x/Soft-Pillow-Green-Decoration-Deco-Snuggle-1241878.jpg',
+        'A soft pillow!',
+        19.99
+      ),
+      new Product(
+        'A Carpet',
+        'https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Ardabil_Carpet.jpg/397px-Ardabil_Carpet.jpg',
+        'A carpet which you might like - or not.',
+        89.99
+      )
+    ];
+
+    👉this.renderProducts()
+
+  }
+
+  👉renderProducts(){
+     // add content to the node
+     for (const prod of this.products) {
+      const productItem = new ProductItem(prod, 'product-list');
+    }
+  }
+
+  render() {
+    // create the node element and append it
+    const prodListdEl = this.createRootElement('ul', 'product-list', [new ElementAttribute('id', 'product-list')]);
+    👉if (this.products && this.products.length > 0) {
+      this.renderProducts();
+    }
+  }
+}
+```
+
+
+
+2. Modify the parent class to accept a boolean to decide to render or not when instantiated, and call this.render manually inside the sub-class constructor.
+
+   ````js
+   class Component {
+     constructor(renderHookId, 👉shouldRender = true) {
+       this.hookId = renderHookId;
+       👉if (shouldRender){
+         this.render();
+       }
+     }
+     //etc
+   }
+   
+   
+   
+   class ProductItem extends Component{
+     constructor(product, renderHookId) {
+       👉super(renderHookId, false);
+       👉this.product = product;
+       👉this.render();
+     }
+   
+     render() {
+       const prodEl = this.createRootElement('li', 'product-item');
+     
+       prodEl.innerHTML = `
+           <div>
+             <img src="${this.product.imageUrl}" alt="${this.product.title}" >
+             <div class="product-item__content">
+               <h2>${this.product.title}</h2>
+               <h3>\$${this.product.price}</h3>
+               <p>${this.product.description}</p>
+               <button>Add to Cart</button>
+             </div>
+           </div>
+         `;
+   
+       const addCartButton = prodEl.querySelector('button');
+       addCartButton.addEventListener('click', this.addToCart.bind(this));
+     }
+   }
+   ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NzY0OTE4NF19
+eyJoaXN0b3J5IjpbMTA4NTY3NDE0OV19
 -->
