@@ -3447,12 +3447,46 @@ class ShoppingCart extends Component {
 With `extend` you append the father class to the class you are working
 
 If you dont use a constructor, it will actomatically use the one on the father structure, 
-If you need to make a new contructor and work with the father too, use:
+If you need to work with a constructor made in other class use this:
 ```` js
 constructor (renderHookId) {
 	super (renderHookId);
 	}
+````
 
+```
+class Rectangle {
+  constructor(height, width) {
+    this.name = "Rectangle";
+    this.height = height;
+    this.width = width;
+  }
+  sayName() {
+    console.log("Hi, I am a ", this.name + ".");
+  }
+  get area() {
+    return this.height * this.width;
+  }
+  set area(value) {
+    this.height = this.width = Math.sqrt(value);
+  }
+}
+
+class Square extends Rectangle {
+  constructor(length) {
+    this.height; // ReferenceError, super necesita ser llamado primero!
+
+    // Aquí, llama al constructor de la clase padre con las longitudes
+    // previstas para el ancho y la altura de Rectangle
+    super(length, length);
+
+    // Nota: En las clases derivadas, se debe llamar a super() antes de
+    // poder usar 'this'. Salir de esto provocará un error de referencia.
+    this.name = "Square";
+  }
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjI0Mzc3NSwtMTc5Mzc2Nzg2NV19
+eyJoaXN0b3J5IjpbLTI1OTk4NDc5MSwxMjY2MjQzNzc1LC0xNz
+kzNzY3ODY1XX0=
 -->
