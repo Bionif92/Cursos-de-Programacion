@@ -3849,6 +3849,50 @@ class ProductList extends Component {
    }
    ````
 
+### Adding event listeners
+
+option 1: bind the method passed a as a listener:
+
+````js
+class someClass {
+	someListener(){
+		console.log(this);
+	}
+  
+  render(){
+    someNode.addEventListener('click', this.someListener);
+  }
+}
+````
+
+option 2:
+
+````js
+class someClass {
+	someListener(){
+		console.log(this);
+	}
+  
+  render(){
+    someNode.addEventListener('click', 👉() => this.someListener()👈); // arrow functions don't know `this`
+  }
+}
+````
+
+option 3:
+
+````js
+class someClass {
+	someListener = () => {
+		console.log(this);
+	}
+	
+	render(){
+		someNode.addEventListener('click', this.someListener); ❌ // this doesn't have that propr when render is called, so it attaches `undefined`;It works for other scenarios
+	}
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NTY3NDE0OV19
+eyJoaXN0b3J5IjpbMTA3MTM5ODc5NSwxMDg1Njc0MTQ5XX0=
 -->
