@@ -3593,7 +3593,101 @@ ProductList needs to be rendered before ProductItem, because ProductItems needs 
 
 the original render methods used to return the Node element in order to be appended by the code calling the .render() method. But now, the parent .render() method appends it, so no need to return it anymore.
 
+### Let's add some code in the parent constructors
+
+```js
+class Shop {
+  render() {
+    this.cart = new ShoppingCart('app');
+    this.cart.render(); ❌ // let's move both calls to the sub-class constructor
+    this.productList = new ProductList('app');
+    this.productList.render(); ❌
+  }
+}
+
+class ProductList extends Component {
+    // add content to the node
+    for (const prod of this.products) {
+      const productItem = new ProductItem(prod, 'product-list');
+      productItem.render(); ❌
+    }
+  }
+}
+
+```
+
+```js
+// how not to do it ❌
+class ShoppingCart extends Component {
+	  constructor(renderHookId) {
+    super(renderHookId);
+    this.render();
+  }
+}
+```
+
+```js
+// how to do it ✅
+
+ class Component {
+  constructor(renderHookId) {
+    this.hookId = renderHookId;
+    this.render(); // who called the constructor of this function? the sub-class when instantiated with the `new` keyword. 1 object is being created, and that's an object based on the sub-class (+parent).
+  }
+   
+   // I can ommit having a render method in this class
+   // or add it as an empty method, like this: render(){}
+   // then, it get's 👉overriden by the render method of the sub-class
+
+  createRootElement(tag, cssClasses, attributes) {
+    const rootElement = document.createElement(tag);
+    if (cssClasses) {
+      rootElement.className = cssClasses;
+    }
+    if (attributes && attributes.length > 0) {
+      for (const attr of attributes) {
+        rootElement.setAttribute(attr.name, attr.value);
+      }
+    }
+    document.getElementById(this.hookId).append(rootElement);
+    return rootElement;
+  }
+}
+  }
+}
+```
+
+
+
+```js
+// much more simpler than before
+class Shop extends Component{
+  constructor(){
+    super();
+  }
+  render() {
+    this.cart = new ShoppingCart('app');
+    new ProductList('app');
+  }
+}
+
+//OR
+class Shop { // it's an overkill to extend Component here, for just self-rendering functionality
+  constructor(){
+    this.render()
+  }
+  render() {
+    this.cart = new ShoppingCart('app');
+    new ProductList('app');
+  }
+}
+```
+
+now, classes rendered themselves when instantiated, that's neat!
+
+#### Golden rule: `this` inside the parent constructor referes to the created object from the sub-class
+
+Till Boolean tricks with logical operators!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MDM0NDA0OCwtMTYwODI1MjI3MCwxMj
-Y2MjQzNzc1LC0xNzkzNzY3ODY1XX0=
+eyJoaXN0b3J5IjpbMTE1NzY0OTE4NF19
 -->
