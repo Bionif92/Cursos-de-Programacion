@@ -4171,8 +4171,234 @@ console.log(person2); // same as person
 ````
 
 
+### the static keyword under the hood
+
+```js
+class Person {
+	static sayHello(){
+		console.log('hello');
+	}
+}
+
+// is translated to this under the hood
+function Person(){} // a constructor function is create
+
+//then a prop is added
+Person.sayhello = function(){
+  console.log('hello');
+}
+```
+
+
+
+#### 👉 All objects in JS have this `Object.prototype`  as the most parent prototype.👈
+
+What's inside there? Some prop which are like static methods of classes:
+`````js
+console.log(Object.prototype);
+{
+	apply: function apply()
+  arguments: 
+  bind: function bind()
+  call: function call()
+  caller: 
+  constructor: function Function()
+  length: 0
+  name: ""
+  toString: function toString()
+  Symbol(Symbol.hasInstance): function Symbol.hasInstance()
+}	
+`````
+
+#### All objects in JS can use this methods 👆
+
+that' is why I can call `person.toString() ` without getting an error:
+
+```
+person.toString();
+"[object Object]" 
+```
+
+What other things are inside the Object function: (⚠️Firefox browser).
+````
+assign: function assign()
+create: function create()
+defineProperties: function defineProperties()
+defineProperty: function defineProperty()
+entries: function entries()
+freeze: function freeze()
+fromEntries: function fromEntries()
+getOwnPropertyDescriptor: function getOwnPropertyDescriptor()
+getOwnPropertyDescriptors: function getOwnPropertyDescriptors()
+getOwnPropertyNames: function getOwnPropertyNames()
+getOwnPropertySymbols: function getOwnPropertySymbols()
+getPrototypeOf: function getPrototypeOf()
+hasOwn: function hasOwn()
+is: function is()
+isExtensible: function isExtensible()
+isFrozen: function isFrozen()
+isSealed: function isSealed()
+keys: function keys()
+length: 1
+name: "Object"
+preventExtensions: function preventExtensions()
+prototype: Object { … }
+seal: function seal()
+setPrototypeOf: function setPrototypeOf()
+values: function values()
+<prototype> (or ⚠️__proto__ in chrome): function ()
+````
+
+That is why we can't call `isFrozen` in person:
+````
+person.isFrozen(); //❌ Uncaught TypeError: person.isFrozen is not a function
+````
+
+static methods OR, under the hood, properties of constructor functions, can only be called without executing the function/instantianting the class:
+````js
+Object.isFrozen(); // true
+````
+
+```js
+class Dog {
+    static bark(){
+        console.log('woof');
+    }
+}
+
+const dog = new Dog();
+dog.bark(); // Uncaught TypeError: dog.bark is not a function
+Dog.bark(); // work fine
+```
+
+### Where does the chain of prototypes end then?
+
+````js
+console.log(Object.prototype.__proto__); // null 
+````
+
+the fallback object of the objects created wuth Object function don't have a further fallback than the prototype.
+
+### `.__proto__` vs  `.prototype` props: 
+
+__proto__ is the assigned fallback object. Only present on functions.
+
+**prototype** is the to be assigned fallback object. Present on all objects
+
+
+
+### How classes are really translated behind the scenes 
+
+methods are instantiated in a different way, let's start seeing where it has been added: really nested!
+
+````js
+class Human {
+  	👉breathes = true; 
+    👉greet(){
+        console.log('hello');
+    }
+}
+
+class Person extends Human {
+    name = 'Max';
+  	sayBye(){
+      console.log('bye!');
+    }
+}
+
+
+const person = new Person();
+console.log(person);
+
+//{
+	name: 'Max',
+  breathes: true, // 👈 was added to the top level 😮
+  __proto__: { // ⚠️ extra proto added automatically when instanting the class
+    constructor: class Person{},
+    sayBye: function sayBye() // nested inside __proto__ 😮, not a top level prop 
+    __proto__: class Human {
+      prototype: {
+        constructor: class Human {},
+        👉greet: function greet(){} 👈 // not part of the top level object 😮
+      }
+    }
+  }  
+}
+````
+
+I have 2 `__protos__`, and I was expencting only one, (to be the pooped object from the Human class). It seems that using `class` keyword generates the extra one.
+
+On the other hand, fields are added like this:
+
+
+````js
+class Person extends Human {
+    👉name = 'Max'; // under the hood, this is added to the object after calling super
+    
+    constructor(){
+      super();
+      this.age = 30;
+      // this happens under the hood, added AFTER the super() call
+      🔎 this.name = 'Max';
+    }
+}
+````
+
+Everything that is included in the constructor of a class, can me replicated by adding that code to the body a constructor function, and the result will be the same.
+
+### The extra `__proto__`
+
+````js
+class Person extends Human {
+    name = 'Max';
+  	sayBye(){
+      console.log('bye!');
+    }
+}
+
+
+const person = new Person();
+console.log(person);
+
+//{
+	name: 'Max', // this might be assigned other value after object creation
+  breathes: true, 
+  __proto__: { 👈
+    constructor: class Person{},
+    sayBye: function sayBye() // popped objects aren't gonna change the function logic...so
+````
+
+the function is added to the extra photo because all objects created refer to just a single object, which is the `__proto__`, which is very efficient.
+
+Let's prove that 2 objects are using the same `__proto__` object reference!
+
+```js
+class Person extends Human { 
+  name = 'Max';
+  sayBye(){
+    console.log('bye!');
+  }
+}
+
+
+const person1 = new Person();
+const person2 = new Person();
+
+console.log(person1.__proto__.sayBye === person2.__proto__.sayBye); // true!
+```
+
+The same behaviour would be achieved by this:
+
+````js
+function Person(){
+	this.name = 'Max';
+}
+
+Person.prototype = function sayBye(){
+	console.log('bye!');
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM3MTcwNzksLTEyNDE0NTQ1MDZdfQ
-==
+eyJoaXN0b3J5IjpbMTA4MjcyNDMxMl19
 -->
