@@ -3951,8 +3951,49 @@ const numbers = new Array(1,2,3);
 console.log(numbers);// 👉Array(3) [ 1, 2, 3 ], same result as above
 ```
 
+### Object descriptors
+
+it's just some metadata about object props
+
+````js
+const person = {
+    name: 'tebi',
+    printName(){
+        console.log(this.name)
+    }
+}
+
+console.log(Object.getOwnPropertyDescriptors(person));
+
+Object { name: {…}, printName: {…} }
+  name: Object { value: "tebi", writable: true, enumerable: true, … }
+  configurable: true  // the object can be deleted
+  enumerable: true // it can be used in a for loop (useful for skipping methods while looping, and get props, or it can useful for excluding some props)
+  value: "tebi"
+  writable: true // props can be changed
+  etc
+}  
+````
+
+let's lock the name prop! 🔒
+
+```js
+Object.defineProperties(person, {
+    name: {
+        configurable: true,
+        enumerable: true,
+        value: person.name,
+        writable: false
+    }
+});
+
+person.name = 'new name'; // it doesn't throw an error though
+console.log(person.name); // old prop value kept
+```
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDQ3MjA5NzMsLTc1NTI5MDk3M119
+eyJoaXN0b3J5IjpbMTczMDM4NzQzM119
 -->
