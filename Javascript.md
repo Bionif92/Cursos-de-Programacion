@@ -4116,8 +4116,63 @@ double underscore AKA dunderscore 😅
 
 `__proto__` is a prop  in every JS object, but `prototype` only on function objects (pointers);
 
+### Ways to assign the prototype
+
+````js
+// extends keyword does this for me under the hood!
+Person.prototype = new Human();
+//OR
+Person.prototype = {
+    breathes: true,
+    printAge: function(){
+        console.log(this.age);
+    }
+}
+// OR
+Person.prototype.breathes = true;
+Person.prototype.printAge = function(){
+    console.log(this.age);
+}
+````
+
+
+
+### How to prevent overriding the default prototype of a function?
+
+````
+Person.prototype.someNewMethod = function(){}
+````
+
+### What is the `__proto__.constructor`? 
+
+is the reference of the constructor function used to create the object:
+
+````js
+function Person (){
+    this.name = 'Max'; // this is not technically the same as the name = "Max in the class above, tbd"
+    this.age = 30;
+    this.printGreeting = function(){
+        console.log(`Hi I'm ${this.name}`);
+    }
+
+}
+
+Person.prototype.breathes = true;
+Person.prototype.printAge = function(){
+    console.log(this.age);
+}
+
+
+const person = new Person();
+
+const person2 = new person.__proto__.constructor();
+
+console.log(person2); // same as person
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDE0NTQ1MDZdfQ==
+eyJoaXN0b3J5IjpbLTE3NjM3MTcwNzksLTEyNDE0NTQ1MDZdfQ
+==
 -->
