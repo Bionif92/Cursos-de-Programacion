@@ -4007,10 +4007,48 @@ The following resources may be helpful.
 
 -   Classes on MDN: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 
+## Life before the `class` keyword
+
+### Constructor functions
+
+⚠️capital leters are used to indicate that constructor functions should be called with the `new`  keyword, not just as a normal function call
+
+the magic to create the object is given by the usage of the `new` keyword.
+
+```js
+// class Person {
+//     name = "Max";
+
+//     constructor(){
+//         this.age = 30;
+//     }
+
+//     printGreeting(){
+//         console.log(`Hi I'm ${this.name}`);
+//     }
+// }
+
+// ⚠️ the function below doesn't really represent the class, TBD
+function Person (){
+    this.name = 'Max'; 
+    this.age = 30;
+    this.printGreeting = function(){ // ⚠️this is not technically the same as the printGreeting(){} in the class above, tbd"
+        console.log(`Hi I'm ${this.name}`);
+    }
+ // there's no return! it returns an object just because was called with the 👉 `new` keyword
+}
+
+const person = new Person();
+
+console.log(person); // Object { name: "Max", age: 30, printGreeting: printGreeting() }
+```
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE1NzEyMzAsMTExMDQ1MTk0MSwxNz
-MwMzg3NDMzXX0=
+eyJoaXN0b3J5IjpbLTIwODkwNzgzNTgsLTEyNzE1NzEyMzAsMT
+ExMDQ1MTk0MSwxNzMwMzg3NDMzXX0=
 -->
