@@ -4053,11 +4053,71 @@ function person (){
     return this;
 }
 ```
+### the class keyword and how it calls a constructor function under the hood
 
+the class keyword is syntactic sugar 🍭, that runs a constructor function under the hood, providing a better dev experience syntax wise
+
+### What are prototypes?
+
+It's a prop of all JS objects, that is used to share code from other objects, which are  👉 **fallback objects** 👈.
+
+If JS doesn't found a propr in an object, it will look for it in the prototype.
+
+JS is a prototype + constructor functions based language!
+
+the prototype is a **prop** of the constructor **function pointer**:
+
+```
+const Person = (){//some code};
+Person.prototype; //prints Object { … } 
+```
+
+All objects in JS have this `Object.prototype`  as the most parent prototype.
+
+````js
+function Human(){
+    this.breathes = true;
+    this.printAge = function() {
+        console.log(this.age);
+    }
+}
+
+function Person (){
+    this.name = 'Max'; // this is not technically the same as the name = "Max in the class above, tbd"
+    this.age = 30;
+    this.printGreeting = function(){
+        console.log(`Hi I'm ${this.name}`);
+    }
+
+}
+
+// extends keyword does this for me under the hood!
+Person.prototype = new Human(); // there are more ways to assing the prototype, see below
+
+const person = new Person();
+
+
+console.log(person); // Object { name: "Max", age: 30, printGreeting: printGreeting() }
+console.log(person.breathes);
+person.printAge(); //prints 30 // the `this` inside printAge refers to what called printAge, which is person in this case, it works!
+
+console.log(Person.prototype === person.__proto__); // true! is the very same object in memory, not copies 😮
+````
+
+When a propr or method is called, JS checks the chain up one by one:
+
+````js
+const person = new Person();
+person.breathes; 
+// JS will check first in the person object, then in the person.__proto__, if not, person.__proto__.__proto__
+````
+
+double underscore AKA dunderscore 😅
+
+`__proto__` is a prop  in every JS object, but `prototype` only on function objects (pointers);
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzgyNDgyNCwtMTI3MTU3MTIzMCwxMT
-EwNDUxOTQxLDE3MzAzODc0MzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNDE0NTQ1MDZdfQ==
 -->
