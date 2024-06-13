@@ -4399,6 +4399,42 @@ Person.prototype = function sayBye(){
 }
 ````
 
+### How not to write methods ❌
+
+```js
+class Person extends Human { 
+  name = 'Max';
+  constructor(){
+  	sayBye(){
+  		console.log('bye!'); ❌
+  	}
+  }
+  this.sayBye = function(){ // ❌
+    console.log('bye!');
+  }
+  
+  sayBye = ()=> { // ✅ only acceptable as an event listener, to avoid using .bind()
+  	console.log();
+  }
+}
+```
+
+`.bind` is less readable than having arrow functions (even though is less performant).
+
+### Prototypes are everywhere!
+
+let's override `.forEach` method of an Array:
+
+```js
+(2) ['messi', 'martinez']
+0 "messi"
+1"martinez"
+length: 2
+[[Prototype]]:  // console representation of `__proto__`
+	forEach: ƒ forEach()
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjcyNDMxMl19
+eyJoaXN0b3J5IjpbOTUxOTE2ODMyLDEwODI3MjQzMTJdfQ==
 -->
