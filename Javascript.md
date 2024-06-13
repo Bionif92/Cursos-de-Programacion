@@ -4433,8 +4433,102 @@ length: 2
 [[Prototype]]:  // console representation of `__proto__`
 	forEach: ƒ forEach()
 ```
+### Hijacking .forEach
 
+```js
+const players = ['messi', 'martinez'];
+
+// just do this when developing ⚠️
+players.__proto__.forEach = function(){
+    console.log('forEach has been hacked!');
+}
+
+// the official way ✅
+Object.setPrototypeOf(players, {
+    ...Object.getPrototypeOf(players),
+    forEach(){
+        console.log('forEach has been hacked!');
+    }
+});
+
+players.forEach(); // 'forEach has been hacked!'
+```
+
+that is why we see the MDN docs as Array.prototype.forEach, because it's added to the Array constructor function in with that syntax, added that way to the function pointer.
+
+In objects, it's not neccessary to spread the prototype:
+
+````js
+const player = {
+    isRightHanded: false
+}
+
+// player.__proto__ is Object
+
+Object.setPrototypeOf(players, {
+    // ...Object.getPrototypeOf(players)// no need to spread Object, because it will be the protype of the object I'm writing this from
+    forEach(){
+        console.log('forEach has been hacked!');
+    }
+});
+````
+
+
+
+### A new way to create objects
+
+````js
+const player = {};
+const player = new Object();
+const player = Object.create(prototypeHere); // 👈
+````
+
+````js
+const player = Object.create({ 
+    shoutGoal(){
+        console.log('goooooool');
+    }
+}, someOptionalDescriptorHere);
+
+console.log(player);
+
+// {}
+//     [[Prototype]]: Object
+//     	shoutGoal: ƒ shoutGoal()
+//     	[[Prototype]]: Object
+//         constructor: ƒ Object()
+//         hasOwnProperty: ƒ hasOwnProperty()
+
+player.isRightHanded = false;
+
+// Or I could use
+Object.defineProperty('isRightHanded', false, someOptionalDescriptorHere);
+````
+
+Side note: to keep all the default descriptors an modify one, I could do:
+
+````js
+Object.defineProperty('isRightHanded', false, {
+	...Object.getOwnPropertyDescriptor(player),
+	...writable: false
+});
+````
+
+### Differences between constructor functions vs classes
+
+````
+constructor functions:
+- can be called with new
+- all props and METHODS are enumarable
+- not in strict mode by default
+
+classes:
+- must be called with new
+- METHODS are not enumerable (out of the top level object)
+- always strict mode
+
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUxOTE2ODMyLDEwODI3MjQzMTJdfQ==
+eyJoaXN0b3J5IjpbOTM4ODg3Mzg3XX0=
 -->
