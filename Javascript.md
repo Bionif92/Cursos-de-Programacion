@@ -4003,9 +4003,14 @@ console.log(Object); // function Object(){ getOwnPropertyDescriptor: function(){
 // there are some static methods inside the object, no need to run the Object function with `new` keyword to access them.
 ````
 
+The following resources may be helpful.
+
+-   Classes on MDN: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDQ1MTk0MSwxNzMwMzg3NDMzXX0=
+eyJoaXN0b3J5IjpbLTEyNzE1NzEyMzAsMTExMDQ1MTk0MSwxNz
+MwMzg3NDMzXX0=
 -->
