@@ -3991,9 +3991,21 @@ person.name = 'new name'; // it doesn't throw an error though
 console.log(person.name); // old prop value kept
 ```
 
+### Who is Object?
+
+it's constructor function with some static methods, like `assign` method
+
+````js
+const person = new Object(); 
+console.log(person); // {}
+
+console.log(Object); // function Object(){ getOwnPropertyDescriptor: function(){}, etc, etc}
+// there are some static methods inside the object, no need to run the Object function with `new` keyword to access them.
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMDM4NzQzM119
+eyJoaXN0b3J5IjpbMTExMDQ1MTk0MSwxNzMwMzg3NDMzXX0=
 -->
