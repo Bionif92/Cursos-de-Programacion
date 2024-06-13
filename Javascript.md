@@ -4043,12 +4043,21 @@ const person = new Person();
 console.log(person); // Object { name: "Max", age: 30, printGreeting: printGreeting() }
 ```
 
+### what does the new keyword does to the called function??
 
+```js
+function person (){
+    this = {};
+    this.name = 'Max'
+    // etc
+    return this;
+}
+```
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODkwNzgzNTgsLTEyNzE1NzEyMzAsMT
-ExMDQ1MTk0MSwxNzMwMzg3NDMzXX0=
+eyJoaXN0b3J5IjpbMTA5MzgyNDgyNCwtMTI3MTU3MTIzMCwxMT
+EwNDUxOTQxLDE3MzAzODc0MzNdfQ==
 -->
