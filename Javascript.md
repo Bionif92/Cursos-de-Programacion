@@ -3933,7 +3933,26 @@ productList.#products // throws this error: // Uncaught SyntaxError: Private fie
 
 At this point, having the parent class Component with the selfcalled render() method doesn't make much sense because it's almost always not run because the parent constructor is passed false as a `shouldRender` , but it made sense at the time.
 
+### Instanceof
+
+it's an operator, like <, >, etc
+
+````
+const numbers = [1,2,3]; 
+console.log(numbers);// 👉Array(3) [ 1, 2, 3 ]
+numbers instanceof Array; // true
+
+````
+
+using [] instantiates an Array class under the hood (maybe not with the new keyword exactly??, because it has slower performance than using the literal notation []);
+
+```js
+const numbers = new Array(1,2,3);
+console.log(numbers);// 👉Array(3) [ 1, 2, 3 ], same result as above
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NTI5MDk3M119
+eyJoaXN0b3J5IjpbLTE3NDQ3MjA5NzMsLTc1NTI5MDk3M119
 -->
