@@ -4433,7 +4433,7 @@ length: 2
 [[Prototype]]:  // console representation of `__proto__`
 	forEach: ƒ forEach()
 ```
-### Hijacking .forEach
+### Hijacking .forEach - Use getting and Setting Prototypes
 
 ```js
 const players = ['messi', 'martinez'];
@@ -4530,5 +4530,5 @@ classes:
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4ODg3Mzg3XX0=
+eyJoaXN0b3J5IjpbMTc5MzMxNzcxMSw5Mzg4ODczODddfQ==
 -->
