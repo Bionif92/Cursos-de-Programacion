@@ -4669,6 +4669,8 @@ element.scrollIntoView({behavior: 'smooth'});
 
 `scrollTo` and `scrollBy`to move it absolute or relative the element
 
+### Avoid mixing JS and HTML as strings
+
 ```js
 element.innerHTML = `<h2>More info</h2><p>${this.someContent}</p>`; ❌
 ```
@@ -4697,7 +4699,5 @@ tooltipElement.querySelector('p').textContent = content;
 
 .content is only a prop of a  HTMLTemplateElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement/content
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTA5NjU3MzUsNjk0NTkxNTU2LDE3ND
-M2NjQxMywtNTUxMDM4NjUzLDEyMTI0OTE0NTQsNTg2MTM2NDEs
-NTY2NDcxMjk3LC04NjE5MzMxODgsMTI5ODkyMTYzMl19
+eyJoaXN0b3J5IjpbOTIzNTUwMzEwXX0=
 -->
