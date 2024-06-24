@@ -4698,6 +4698,24 @@ tooltipElement.querySelector('p').textContent = content;
 ```
 
 .content is only a prop of a  HTMLTemplateElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement/content
+
+### Importing and executing JS files programatically
+
+```js
+// let's import secondary.js and run it when I want (maybe after a really intensive task), e.g here, for demo //purposes
+const script = document.createElement('script');
+script.src = 'assets/scripts/secondary.js'; // ⚠️ write the path as if it were added to the HTML
+document.head.append(script);
+```
+
+​	Tinypass library is loaded like this!
+
+In the Network tab, `Initiator` is set to `app.js`
+
+For app.js, `Initiator` is set to `index.html`
+
+⚠️ Always sanitize the JS content, in case the JS depends on some user input
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzNTUwMzEwXX0=
+eyJoaXN0b3J5IjpbNjM3MjA1MjI3LDkyMzU1MDMxMF19
 -->
