@@ -4564,7 +4564,29 @@ We can change the `data-tooltip-content` dynamically (changing the markup) by:
 document.getElementById('p1').dataset.tootipContent = 'some other value here'
 ````
 
+### Getting element dimensions and relative coordinates in JS
+
+````js
+$0.getBoundingClientRect();
+// DOMRect {x: 266, y: 205, width: 606, height: 169.8125, top: 205, …}
+// bottom: 374.8125
+// height: 169.8125
+// left: 266
+// right: 872
+// top: 205
+// width: 606
+// x: 266
+// y: 205
+````
+
+When there's a negative width, x and left, and y and top can differ
+
+Top and left are the to left part of the box
+
+Bottom and right are the bottom right part of the box
+
+The values CHANGE upon scrolling, because they'r relative to the viewport
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg2MTM2NDEsNTY2NDcxMjk3LC04NjE5Mz
-MxODgsMTI5ODkyMTYzMl19
+eyJoaXN0b3J5IjpbMTA2Mjk4OTcwNyw1ODYxMzY0MSw1NjY0Nz
+EyOTcsLTg2MTkzMzE4OCwxMjk4OTIxNjMyXX0=
 -->
