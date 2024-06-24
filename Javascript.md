@@ -4669,9 +4669,35 @@ element.scrollIntoView({behavior: 'smooth'});
 
 `scrollTo` and `scrollBy`to move it absolute or relative the element
 
+```js
+element.innerHTML = `<h2>More info</h2><p>${this.someContent}</p>`; ❌
+```
 
+We can store the HTML template in the markup
+
+````html
+<body>
+    <template id="tooltip">
+      <h2>More info</h2>
+      <p></p>
+    </template>
+````
+
+No dynamic values in the template 😕
+
+Max's way:
+
+```js
+const templateElement = document.getElementById('tooltip');
+// deep clone the content, keeping props
+const tooltipBody = document.importNode(templateElement.content, true);
+tooltipElement.append(tooltipBody);
+tooltipElement.querySelector('p').textContent = content;
+```
+
+.content is only a prop of a  HTMLTemplateElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLTemplateElement/content
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk0NTkxNTU2LDE3NDM2NjQxMywtNTUxMD
-M4NjUzLDEyMTI0OTE0NTQsNTg2MTM2NDEsNTY2NDcxMjk3LC04
-NjE5MzMxODgsMTI5ODkyMTYzMl19
+eyJoaXN0b3J5IjpbLTIxMTA5NjU3MzUsNjk0NTkxNTU2LDE3ND
+M2NjQxMywtNTUxMDM4NjUzLDEyMTI0OTE0NTQsNTg2MTM2NDEs
+NTY2NDcxMjk3LC04NjE5MzMxODgsMTI5ODkyMTYzMl19
 -->
