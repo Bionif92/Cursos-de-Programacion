@@ -4586,7 +4586,45 @@ Top and left are the to left part of the box
 Bottom and right are the bottom right part of the box
 
 The values CHANGE upon scrolling, because they'r relative to the viewport
+
+### Getting document abosolute coordinates
+
+They don't change when scrolling, they'r relative to the html document, not the viewport
+
+```
+$0.offsetTop
+$0.offsetLeft
+```
+
+### Internal coordinates (or inner positioning of the content)
+
+```js
+$0.clientTop
+$0.clientLeft
+```
+
+position of the content (content doesn't count borders or scrollbars) and top left point relative to the outer top left edge of the box's border (usual point for meassuring x, y, etc)
+
+### Getting the box dimentions INCLUDING borders and scrollbars
+
+```js
+// same as getBoundingClientRect(); -> width
+$0.offsetWidth
+```
+
+### Getting the box dimentions WITHOUT borders and scrollbars
+
+```js
+$0.clientWidth
+```
+
+### How to know about scrolling boxes
+
+```
+$0.scrollHeight; // includes not yet visible part
+$0.scrollTop// pixeles the user scrolled already
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2Mjk4OTcwNyw1ODYxMzY0MSw1NjY0Nz
+eyJoaXN0b3J5IjpbMTIxMjQ5MTQ1NCw1ODYxMzY0MSw1NjY0Nz
 EyOTcsLTg2MTkzMzE4OCwxMjk4OTIxNjMyXX0=
 -->
