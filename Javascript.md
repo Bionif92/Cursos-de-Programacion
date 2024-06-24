@@ -4660,8 +4660,10 @@ tooltipElement.style.left = x + 'px';
 Something scrollable has the same relative postition to the html before and after it has been scrolled, that's why the scrollTop prop of the parent was used to correct that. My approach was easier, because it was relative to the viewport!
 
 To have a sticky Tooltip, I'd need event listeners to listen to the scroll event, and grab the scrollTop prop, and adjust the top prop of the tolltip
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzY2NDEzLC01NTEwMzg2NTMsMTIxMj
-Q5MTQ1NCw1ODYxMzY0MSw1NjY0NzEyOTcsLTg2MTkzMzE4OCwx
-Mjk4OTIxNjMyXX0=
+eyJoaXN0b3J5IjpbMTkzNDYwNDU4NSwxNzQzNjY0MTMsLTU1MT
+AzODY1MywxMjEyNDkxNDU0LDU4NjEzNjQxLDU2NjQ3MTI5Nywt
+ODYxOTMzMTg4LDEyOTg5MjE2MzJdfQ==
 -->
