@@ -4624,7 +4624,24 @@ $0.clientWidth
 $0.scrollHeight; // includes not yet visible part
 $0.scrollTop// pixeles the user scrolled already
 ```
+
+### How to get the width and height without scrolling bars
+
+````js
+// scrollbar is included in the values ❌
+window.innerWith;
+window.innerHeight;
+
+// scrollbar is NOT included in the values ✅
+document.documentElement.clientWidth;
+document.documentElement.clientHeight;
+````
+
+documentElement includes the head and body of the HTML (head is not rendered in the UI)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMjQ5MTQ1NCw1ODYxMzY0MSw1NjY0Nz
-EyOTcsLTg2MTkzMzE4OCwxMjk4OTIxNjMyXX0=
+eyJoaXN0b3J5IjpbLTU1MTAzODY1MywxMjEyNDkxNDU0LDU4Nj
+EzNjQxLDU2NjQ3MTI5NywtODYxOTMzMTg4LDEyOTg5MjE2MzJd
+fQ==
 -->
