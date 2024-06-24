@@ -4716,6 +4716,7 @@ For app.js, `Initiator` is set to `index.html`
 
 ⚠️ Always sanitize the JS content, in case the JS depends on some user input
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3MjA1MjI3LDkyMzU1MDMxMF19
+eyJoaXN0b3J5IjpbMjA3NDg1NTI5LDkyMzU1MDMxMF19
 -->
