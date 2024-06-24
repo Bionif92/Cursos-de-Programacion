@@ -4639,9 +4639,29 @@ document.documentElement.clientHeight;
 
 documentElement includes the head and body of the HTML (head is not rendered in the UI)
 
+### Exercise: positioning the tooltip better
 
+````js
+const hostPosLeft = this.hostElement.offsetLeft;
+const hostPosTop = this.hostElement.offsetTop;
+const height = this.hostElement.clientHeight; // without borders
+const scrolledHeight = this.hostElement.parentElement.scrollTop
+
+const x = hostPosLeft + 20;
+const y = hostPosTop -10 + height - scrolledHeight;
+
+tooltipElement.style.position = 'absolute';
+tooltipElement.style.top = y + 'px'; // we must pass the units when setting it
+tooltipElement.style.left = x + 'px';
+````
+
+`offsetTop` doesn't care if the element is not visible or not in the scroll box, it returns the top from the document, not the viewport
+
+Something scrollable has the same relative postition to the html before and after it has been scrolled, that's why the scrollTop prop of the parent was used to correct that. My approach was easier, because it was relative to the viewport!
+
+To have a sticky Tooltip, I'd need event listeners to listen to the scroll event, and grab the scrollTop prop, and adjust the top prop of the tolltip
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTAzODY1MywxMjEyNDkxNDU0LDU4Nj
-EzNjQxLDU2NjQ3MTI5NywtODYxOTMzMTg4LDEyOTg5MjE2MzJd
-fQ==
+eyJoaXN0b3J5IjpbMTc0MzY2NDEzLC01NTEwMzg2NTMsMTIxMj
+Q5MTQ1NCw1ODYxMzY0MSw1NjY0NzEyOTcsLTg2MTkzMzE4OCwx
+Mjk4OTIxNjMyXX0=
 -->
