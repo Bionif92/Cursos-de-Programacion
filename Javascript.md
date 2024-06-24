@@ -4534,8 +4534,11 @@ The following resources may be helpful.
 -   Constructor Functions (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_a_constructor_function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects#Using_a_constructor_function)
 -   Prototypes (MDN): [https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object_prototypes)
 
+## Dom & More Browser API
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTkzMzE4OCwxMjk4OTIxNjMyXX0=
+eyJoaXN0b3J5IjpbNTY2NDcxMjk3LC04NjE5MzMxODgsMTI5OD
+kyMTYzMl19
 -->
