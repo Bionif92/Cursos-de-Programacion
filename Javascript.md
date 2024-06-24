@@ -4716,7 +4716,107 @@ For app.js, `Initiator` is set to `index.html`
 
 ⚠️ Always sanitize the JS content, in case the JS depends on some user input
 
+### Window.setInterval & window.setTimeout
 
+there browser APIs, it's part of the language itself. Same with window.console.log
+
+````js
+this.interval = setInterval(()=> console.log('setInterval working'), 1000); // returns an id e.g 1 
+
+this.timeOut = setTimeout(()=> console.log('setTimeout working'), 2000); // 2
+
+function clear(){
+debugger;
+clearInterval(this.interval); // let's use the id. e.g hey, stop interval 1!
+clearTimeout(this.timeOut);
+}
+
+document.getElementById('stop').addEventListener('click', clear.bind(this));
+````
+
+### Location
+
+```js
+location.href = 'https://google.com'; // I can go back to the previous page
+location.replace('https://google.com'); // I CAN'T go back
+```
+
+### History
+
+```js
+history.length; // 24 pages visited in the same tab
+history.back();
+history.forward();
+history.go(5);
+```
+
+It's not a good UX to move users from page to page ⚠️
+
+### Navigator
+
+````js
+navigator.userAgent;
+// 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 // Safari/537.36'
+````
+
+What?? Chrome is pretending to be all browser, so it gets all the features that old apps use to restrict to some browsers
+
+Give me all baby!
+
+The most reliable way to know which browser it is, is to check if some features are available.
+
+````js
+navigator.geolocation.getCurrentPosition((data) => console.log(data));
+````
+
+````js
+const getMacBattery = async () => {
+    const data = await navigator.getBattery();
+    console.log(data);
+};
+getMacBattery();
+// BatteryManager{}
+````
+
+### Date object
+
+Really handy to perform calculations:
+
+````js
+const today = new Date;
+const birthday = new Date('07/23/1989');
+(today - birthday) / 1000 / 60 / 60 / 24
+12212.483495393519
+````
+
+### Error
+
+you can throw anything in JS
+
+````js
+throw 'something went wrong'; // string;
+VM2962:1 Uncaught something went wrong // NO stacktrace ❌
+(anonymous) @ VM2962:1
+
+throw new Error('something went wrong'); // an Error object
+VM3013:1 Uncaught Error: something went wrong // stacktrace ✅
+    at <anonymous>:1:7
+````
+
+````js
+const customError = new Error('something went wrong');
+customError.code = 404; // code is a new prop added to the object
+console.dir(customError);
+
+Error: something went wrong
+    at <anonymous>:1:21
+code: 404
+message: "something went wrong"
+stack: "Error: something went wrong\n    at <anonymous>:1:21"
+[[Prototype]]: Object
+````
+
+Error object is good for custom error handling (checking codes, etc)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDg1NTI5LDkyMzU1MDMxMF19
+eyJoaXN0b3J5IjpbLTYxMDU4MDY5MCw5MjM1NTAzMTBdfQ==
 -->
