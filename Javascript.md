@@ -4661,9 +4661,17 @@ Something scrollable has the same relative postition to the html before and afte
 
 To have a sticky Tooltip, I'd need event listeners to listen to the scroll event, and grab the scrollTop prop, and adjust the top prop of the tolltip
 
+### Let's scroll users to a part of the doc!
+
+```js
+element.scrollIntoView({behavior: 'smooth'});
+```
+
+`scrollTo` and `scrollBy`to move it absolute or relative the element
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDYwNDU4NSwxNzQzNjY0MTMsLTU1MT
-AzODY1MywxMjEyNDkxNDU0LDU4NjEzNjQxLDU2NjQ3MTI5Nywt
-ODYxOTMzMTg4LDEyOTg5MjE2MzJdfQ==
+eyJoaXN0b3J5IjpbNjk0NTkxNTU2LDE3NDM2NjQxMywtNTUxMD
+M4NjUzLDEyMTI0OTE0NTQsNTg2MTM2NDEsNTY2NDcxMjk3LC04
+NjE5MzMxODgsMTI5ODkyMTYzMl19
 -->
