@@ -4536,9 +4536,35 @@ The following resources may be helpful.
 
 ## Dom & More Browser API
 
+### Using `dataset`: HTML metadata!
 
+In Max's example, the description of the Project is not kept as state in JS, so it needs to be picked up from the template using
+
+````html
+<li id="p1" data-tooltip-content="hello world"></li>
+````
+
+I can pick up that data by:
+
+````js
+document.getElementById('p1').dataset.tootipContent; // "hello world"
+// alternatevily
+document.getElementById('p1').dataset['tootipContent']; // "hello world"
+````
+
+The advantage is that data doesn't need to be stored in JS, but stored in the DOM, not affecting the UI
+
+properties are camelCased! Dashes are stripped out
+
+`dataSet` is DOMStringMap, an object
+
+We can change the `data-tooltip-content` dynamically (changing the markup) by:
+
+````js
+document.getElementById('p1').dataset.tootipContent = 'some other value here'
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2NDcxMjk3LC04NjE5MzMxODgsMTI5OD
-kyMTYzMl19
+eyJoaXN0b3J5IjpbNTg2MTM2NDEsNTY2NDcxMjk3LC04NjE5Mz
+MxODgsMTI5ODkyMTYzMl19
 -->
