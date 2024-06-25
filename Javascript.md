@@ -4817,6 +4817,13 @@ stack: "Error: something went wrong\n    at <anonymous>:1:21"
 ````
 
 Error object is good for custom error handling (checking codes, etc)
+
+The following resources may be helpful.
+
+-   DOM getBoundingClientRect(): [https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect)
+-   More on location Object: [https://developer.mozilla.org/en-US/docs/Web/API/Location](https://developer.mozilla.org/en-US/docs/Web/API/Location)
+-   More on window Object: [https://developer.mozilla.org/en-US/docs/Web/API/Window](https://developer.mozilla.org/en-US/docs/Web/API/Window)
+-   More on navigator Object: [https://developer.mozilla.org/en-US/docs/Web/API/Navigator](https://developer.mozilla.org/en-US/docs/Web/API/Navigator)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDU4MDY5MCw5MjM1NTAzMTBdfQ==
+eyJoaXN0b3J5IjpbOTAzNjMxNzE2XX0=
 -->
