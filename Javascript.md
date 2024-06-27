@@ -4870,8 +4870,20 @@ const boundPrintHello = printHello.bind(this);
 buttonElement.addEventListener('click', boundPrintHello);
 buttonElement.removeEventListener('click', boundPrintHello); // same pointer ✅
 ```
+### Event object
 
+````js
+const clickHandler = (event) => {
+    event.target.style.backgroundColor = 'yellow'; // event.target has the node element!🎉
+}
+
+const buttonElement = document.querySelector('button');
+
+buttonElement.addEventListener('click', clickHandler);
+````
+
+when event listeners run, they can get all the info about the event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTA2MTUxNjUsLTEzODI4MjE4OTIsLT
-E2NTE3NTA1NjgsOTAzNjMxNzE2XX0=
+eyJoaXN0b3J5IjpbMTg4ODIyMTI4NCwtMTI5MDYxNTE2NSwtMT
+M4MjgyMTg5MiwtMTY1MTc1MDU2OCw5MDM2MzE3MTZdfQ==
 -->
