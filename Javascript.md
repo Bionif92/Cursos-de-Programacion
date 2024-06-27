@@ -4890,8 +4890,9 @@ when event listeners run, they can get all the info about the event
 
 `mouseenter`when enter on the field of the button, the event occurs
 
-
+`window.addEventListener('scroll',)` when you scroll the page
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTk2MTM0NSwtMTI5MDYxNTE2NSwtMT
-M4MjgyMTg5MiwtMTY1MTc1MDU2OCw5MDM2MzE3MTZdfQ==
+eyJoaXN0b3J5IjpbOTA3MzM3MzEwLC00NDE5NjEzNDUsLTEyOT
+A2MTUxNjUsLTEzODI4MjE4OTIsLTE2NTE3NTA1NjgsOTAzNjMx
+NzE2XX0=
 -->
