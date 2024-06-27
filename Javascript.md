@@ -5045,7 +5045,21 @@ document.querySelector('ul').addEventListener('click', function (event) {
     console.log(this); // ul element , the currentTarget! (not the target, aka, the element that triggered the event)
 });
 ```
+
+### Dragging items!
+
+Some notes:
+
+drag enter (can be omitted) vs drag over(triggers in child elements)
+
+preventDefault, because the default is to cancel the dragging
+
+listen to the `drop` event in receiving element
+
+dragend event is always fired in the dragged element, even if the drag was cancelled
+
+seeing the element being dragged doesn't meant it moved in the DOM, we need to do it ourselves programatically
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMTMyNjc4LDE0ODg2OTgzNTYsLTI4ND
-c5ODE4MF19
+eyJoaXN0b3J5IjpbLTEwODYzMTExMjIsMzIzMTMyNjc4LDE0OD
+g2OTgzNTYsLTI4NDc5ODE4MF19
 -->
