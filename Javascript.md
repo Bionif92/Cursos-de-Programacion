@@ -4891,8 +4891,25 @@ when event listeners run, they can get all the info about the event
 `mouseenter`when enter on the field of the button, the event occurs
 
 `window.addEventListener('scroll',)` when you scroll the page
+
+### preventDefault()
+
+a submit button inside a form sends a POST request if clicked
+
+We might want to validate the data with JS, and send a request programatically from the browser, avoiding a page reload, giving a better user experience.
+
+````js
+formElement.addEventListener('submit', (event) => {
+    event.preventDefault();
+    console.log(event)
+})
+
+<form method="post">
+	<button>Submit form</button>
+</form>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3MzM3MzEwLC00NDE5NjEzNDUsLTEyOT
-A2MTUxNjUsLTEzODI4MjE4OTIsLTE2NTE3NTA1NjgsOTAzNjMx
-NzE2XX0=
+eyJoaXN0b3J5IjpbLTMzNDYxNTY2MSw5MDczMzczMTAsLTQ0MT
+k2MTM0NSwtMTI5MDYxNTE2NSwtMTM4MjgyMTg5MiwtMTY1MTc1
+MDU2OCw5MDM2MzE3MTZdfQ==
 -->
