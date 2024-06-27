@@ -4828,6 +4828,21 @@ The following resources may be helpful.
 ## Events
 
 https://developer.mozilla.org/en-US/docs/Web/API/Event
+
+**How to add them?**
+
+```tex
+buttonElement.addEventlistener('click', printHello); ✅ // passes the pointer
+pros: separation of concerns HTML and JS + add and remove multiple event listeners to/from and element
+
+<button onclick="printHello()👈;">Click me</button> // ❌ // ⚠️executes the function with parenthesis
+// everything inside the strings is JS, so I could write inline JS there
+
+buttonElement.onclick = printHello; // pass a named function ❌ drawback: we can only add 1 event handler per element, booo!
+buttonElement.onclick = function(){ console.log('hello')} // anonymous function
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTE3NTA1NjgsOTAzNjMxNzE2XX0=
+eyJoaXN0b3J5IjpbLTEzODI4MjE4OTIsLTE2NTE3NTA1NjgsOT
+AzNjMxNzE2XX0=
 -->
