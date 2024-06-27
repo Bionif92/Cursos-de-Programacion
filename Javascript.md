@@ -5026,6 +5026,15 @@ is the element **which registered the event listener** that is running ATM
 
 Remember: target is the element where the event happened
 
+### Clicking elements and submitting forms programatically
+
+we can simulate clicks and submissions by:
+
+````js
+element.click();
+someForm.submit(); // ⚠️ exception here: on submit event listeners won't run!
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
+eyJoaXN0b3J5IjpbNzY5MjMxMTI5LDE0ODg2OTgzNTYsLTI4ND
+c5ODE4MF19
 -->
