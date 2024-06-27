@@ -4840,9 +4840,38 @@ pros: separation of concerns HTML and JS + add and remove multiple event listene
 
 buttonElement.onclick = printHello; // pass a named function ❌ drawback: we can only add 1 event handler per element, booo!
 buttonElement.onclick = function(){ console.log('hello')} // anonymous function
-
 ```
+
+### Remove event listeners
+
+````js
+buttonElement.addEventListener('click', printHello); // printHello needs to be the exact same pointer
+
+buttonElement.removeEventListener('click', printHello);
+````
+
+example of pitfall:
+
+````js
+buttonElement.addEventListener('click', () => console.log('clicked!'));
+buttonElement.removeEventListener('click', () => console.log('clicked!')); // different pointer! 🚨 doesn't get removed
+
+
+
+buttonElement.addEventListener('click', printHello.bind(this)); // ⚠️.bind return a new function pointer
+buttonElement.removeEventListener('click', printHello.bind(this)); // different pointer! 🚨  doesn't get removed
+````
+
+Workaround to add binded functions:
+
+```js
+const boundPrintHello = printHello.bind(this);
+
+buttonElement.addEventListener('click', boundPrintHello);
+buttonElement.removeEventListener('click', boundPrintHello); // same pointer ✅
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI4MjE4OTIsLTE2NTE3NTA1NjgsOT
-AzNjMxNzE2XX0=
+eyJoaXN0b3J5IjpbLTEyOTA2MTUxNjUsLTEzODI4MjE4OTIsLT
+E2NTE3NTA1NjgsOTAzNjMxNzE2XX0=
 -->
