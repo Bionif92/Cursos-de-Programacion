@@ -4937,8 +4937,20 @@ buttonElement.addEventListener('click', clickHandler);
 
 document.body.addEventListener('click', clickHandlerBody);
 ````
+
+### Let's run the listeners in different order than above!
+
+````js
+
+buttonElement.addEventListener('click', clickHandler); // 2️⃣
+
+document.body.addEventListener('click', clickHandlerBody, true); // 👈 1️⃣
+````
+
+That way, on the trip from the outside to the inside, the browser executes the functions that have the capture option set to `true`.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg0MTA4MzI4LC0zMzQ2MTU2NjEsOTA3Mz
-M3MzEwLC00NDE5NjEzNDUsLTEyOTA2MTUxNjUsLTEzODI4MjE4
-OTIsLTE2NTE3NTA1NjgsOTAzNjMxNzE2XX0=
+eyJoaXN0b3J5IjpbLTE0OTg4NzIwNjQsODg0MTA4MzI4LC0zMz
+Q2MTU2NjEsOTA3MzM3MzEwLC00NDE5NjEzNDUsLTEyOTA2MTUx
+NjUsLTEzODI4MjE4OTIsLTE2NTE3NTA1NjgsOTAzNjMxNzE2XX
+0=
 -->
