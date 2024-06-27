@@ -4888,8 +4888,10 @@ when event listeners run, they can get all the info about the event
 
 ### Supported Event Types
 
+`mouseenter`when enter on the field of the button, the event occurs
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1MDQzMzA4LC0xMjkwNjE1MTY1LC0xMz
-gyODIxODkyLC0xNjUxNzUwNTY4LDkwMzYzMTcxNl19
+eyJoaXN0b3J5IjpbLTQ0MTk2MTM0NSwtMTI5MDYxNTE2NSwtMT
+M4MjgyMTg5MiwtMTY1MTc1MDU2OCw5MDM2MzE3MTZdfQ==
 -->
