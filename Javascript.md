@@ -4908,8 +4908,37 @@ formElement.addEventListener('submit', (event) => {
 	<button>Submit form</button>
 </form>
 ````
+
+### Capturing and bubbling
+
+#### Capturing:
+
+the browser checks, from outside to the inside (event.target) , if there's a `capture` event listener registered 
+
+when an event happens, the browser goes from the outisde to the inside of the event target, checking if there are event listeners registered.
+
+#### Bubbling:
+
+Each event listener is executed, from the inside (target) to the outside.
+
+````js
+const clickHandler = (event) => { // 1️⃣
+    debugger;
+    event.target.style.backgroundColor = 'yellow';
+}
+
+const clickHandlerBody = () => { // 2️⃣
+    debugger;
+}
+
+const buttonElement = document.querySelector('button');
+
+buttonElement.addEventListener('click', clickHandler);
+
+document.body.addEventListener('click', clickHandlerBody);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNDYxNTY2MSw5MDczMzczMTAsLTQ0MT
-k2MTM0NSwtMTI5MDYxNTE2NSwtMTM4MjgyMTg5MiwtMTY1MTc1
-MDU2OCw5MDM2MzE3MTZdfQ==
+eyJoaXN0b3J5IjpbODg0MTA4MzI4LC0zMzQ2MTU2NjEsOTA3Mz
+M3MzEwLC00NDE5NjEzNDUsLTEyOTA2MTUxNjUsLTEzODI4MjE4
+OTIsLTE2NTE3NTA1NjgsOTAzNjMxNzE2XX0=
 -->
