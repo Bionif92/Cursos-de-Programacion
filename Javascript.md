@@ -4948,9 +4948,10 @@ document.body.addEventListener('click', clickHandlerBody, true); // 👈 1️⃣
 ````
 
 That way, on the trip from the outside to the inside, the browser executes the functions that have the capture option set to `true`.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg4NzIwNjQsODg0MTA4MzI4LC0zMz
-Q2MTU2NjEsOTA3MzM3MzEwLC00NDE5NjEzNDUsLTEyOTA2MTUx
-NjUsLTEzODI4MjE4OTIsLTE2NTE3NTA1NjgsOTAzNjMxNzE2XX
-0=
+eyJoaXN0b3J5IjpbMTY2NjQ1NzI0LDg4NDEwODMyOCwtMzM0Nj
+E1NjYxLDkwNzMzNzMxMCwtNDQxOTYxMzQ1LC0xMjkwNjE1MTY1
+LC0xMzgyODIxODkyLC0xNjUxNzUwNTY4LDkwMzYzMTcxNl19
 -->
