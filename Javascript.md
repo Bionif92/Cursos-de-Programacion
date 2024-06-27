@@ -4882,8 +4882,14 @@ const buttonElement = document.querySelector('button');
 buttonElement.addEventListener('click', clickHandler);
 ````
 
+can use `event.target.disable` to disable the button in the example
+
 when event listeners run, they can get all the info about the event
+
+### Supported Event Types
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODIyMTI4NCwtMTI5MDYxNTE2NSwtMT
-M4MjgyMTg5MiwtMTY1MTc1MDU2OCw5MDM2MzE3MTZdfQ==
+eyJoaXN0b3J5IjpbNTA1MDQzMzA4LC0xMjkwNjE1MTY1LC0xMz
+gyODIxODkyLC0xNjUxNzUwNTY4LDkwMzYzMTcxNl19
 -->
