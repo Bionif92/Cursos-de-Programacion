@@ -5019,6 +5019,13 @@ document.querySelector('ul').addEventListener('click', event => event.target.ğŸ‘
 ````
 
 closes returns the 'li' element if it was clicked, so that's neat!
+
+### CurrentTarget
+
+is the element **which registered the event listener** that is running ATM
+
+Remember: target is the element where the event happened
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTA4MDkzOCwtMjg0Nzk4MTgwXX0=
+eyJoaXN0b3J5IjpbMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
 -->
