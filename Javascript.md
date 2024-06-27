@@ -4949,9 +4949,27 @@ document.body.addEventListener('click', clickHandlerBody, true); // 👈 1️⃣
 
 That way, on the trip from the outside to the inside, the browser executes the functions that have the capture option set to `true`.
 
+### Stop propagation (bubbling)! 🛑
 
+```js
+const clickHandler = (event) => {
+    debugger;
+    event.stopPropagation(); 👈 // events on the same element will still run, but not on parents
+    event.target.style.backgroundColor = 'yellow';
+}
+
+const clickHandlerBody = () => { // never runs!😮
+    debugger;
+}
+
+const buttonElement = document.querySelector('button');
+
+buttonElement.addEventListener('click', clickHandler);
+
+document.body.addEventListener('click', clickHandlerBody);
+```
+
+we can stop the event propagating up.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NjQ1NzI0LDg4NDEwODMyOCwtMzM0Nj
-E1NjYxLDkwNzMzNzMxMCwtNDQxOTYxMzQ1LC0xMjkwNjE1MTY1
-LC0xMzgyODIxODkyLC0xNjUxNzUwNTY4LDkwMzYzMTcxNl19
+eyJoaXN0b3J5IjpbLTI4NDc5ODE4MF19
 -->
