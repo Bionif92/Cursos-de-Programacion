@@ -5035,7 +5035,17 @@ element.click();
 someForm.submit(); // ⚠️ exception here: on submit event listeners won't run!
 ````
 
+### This in the event listener
+
+it refers to the `currentTarget`:
+
+```js
+document.querySelector('ul').addEventListener('click', function (event) {
+    event.target.closest('li').classList.toggle('highlight');
+    console.log(this); // ul element , the currentTarget! (not the target, aka, the element that triggered the event)
+});
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjQ2NDE1MjksMTQ4ODY5ODM1NiwtMj
-g0Nzk4MTgwXX0=
+eyJoaXN0b3J5IjpbMzIzMTMyNjc4LDE0ODg2OTgzNTYsLTI4ND
+c5ODE4MF19
 -->
