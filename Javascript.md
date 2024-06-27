@@ -4983,7 +4983,42 @@ event.stopImmediatePropagation();
 event.bubbles; // true or false
 ````
 
+### Event delegation pattern
 
+let's change the background colour of items:
+
+```js
+document.querySelectorAll('li').forEach(li => {
+    li.addEventListener('click', event => { // ❌ performance issues, a lot of listeners!
+        event.target.classList.toggle('highlight')}
+    );
+});
+```
+
+let's use the delegation pattern instead:
+
+````js
+document.querySelector('ul').addEventListener('click', event => event.target.classList.toggle('highlight')); // ✅
+````
+
+It get's messy when the <li> has nested structures, and I want to colour the whole <li>, not what was clicked (e.g button):
+
+````html
+<li>
+	<h2>Some title</h2>
+  <button>Click me</button>
+</li>
+````
+
+so, when I click on the button, h2, or li, I want the whole li item to have the color changed.
+
+Workaround: DOM traversal
+
+````js
+document.querySelector('ul').addEventListener('click', event => event.target.👉closest('li').classList.toggle('highlight'));
+````
+
+closes returns the 'li' element if it was clicked, so that's neat!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMTYzODA3MSwtMjg0Nzk4MTgwXX0=
+eyJoaXN0b3J5IjpbMTA0NTA4MDkzOCwtMjg0Nzk4MTgwXX0=
 -->
