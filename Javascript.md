@@ -4827,7 +4827,7 @@ The following resources may be helpful.
 
 ## Events
 
-
+https://developer.mozilla.org/en-US/docs/Web/API/Event
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMTE0NTc1MSw5MDM2MzE3MTZdfQ==
+eyJoaXN0b3J5IjpbLTE2NTE3NTA1NjgsOTAzNjMxNzE2XX0=
 -->
