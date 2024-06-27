@@ -5034,7 +5034,8 @@ we can simulate clicks and submissions by:
 element.click();
 someForm.submit(); // ⚠️ exception here: on submit event listeners won't run!
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5MjMxMTI5LDE0ODg2OTgzNTYsLTI4ND
-c5ODE4MF19
+eyJoaXN0b3J5IjpbLTE3NjQ2NDE1MjksMTQ4ODY5ODM1NiwtMj
+g0Nzk4MTgwXX0=
 -->
