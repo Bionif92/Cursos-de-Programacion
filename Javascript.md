@@ -4970,6 +4970,20 @@ document.body.addEventListener('click', clickHandlerBody);
 ```
 
 we can stop the event propagating up.
+
+### How to prevent executing other listeners of the element?
+
+```js
+event.stopImmediatePropagation();
+```
+
+### How to quickly find out if event propagates (bubbles) up?
+
+````js
+event.bubbles; // true or false
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NDc5ODE4MF19
+eyJoaXN0b3J5IjpbMTQxMTYzODA3MSwtMjg0Nzk4MTgwXX0=
 -->
