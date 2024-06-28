@@ -5199,6 +5199,19 @@ console.log(acumulate(3)) // 4
 ````
 
 In the case above, the function reads and changes a variable of the outside
+
+````js
+const printHobbies(h) { // passing pointers to functions is a side effect!
+	h.push('fishing');
+	console.log(h);
+}
+
+const hobbies = ['cooking'];
+
+printHobbies(hobbies); 
+
+console.log(hobbies); // ['cooking', 'fishing'] something outisde the function changed!
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzY1MzUwNSwyMDY3OTI4NjE0XX0=
+eyJoaXN0b3J5IjpbNDg4OTMxMzA3LDIwNjc5Mjg2MTRdfQ==
 -->
