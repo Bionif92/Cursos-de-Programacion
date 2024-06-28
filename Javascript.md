@@ -5156,7 +5156,5 @@ list.addEventListener('drop',event => {
 
 `event.dataTransfer.dropEffect` is can be `none` or `move`, or maybe something else, that gives info if the item was moved after dropping. I didn't magage to have `none` as value when dropping in the same box, anyway.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjUzOTc4NSwtMTIzODM4NDc4NSw4Mz
-Y2Nzg0NzksMTE2MTcwNDA1MSwtMTA4NjMxMTEyMiwzMjMxMzI2
-NzgsMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
+eyJoaXN0b3J5IjpbLTQ2NjUzOTc4NV19
 -->
