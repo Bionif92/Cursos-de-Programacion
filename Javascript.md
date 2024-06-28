@@ -5124,11 +5124,12 @@ Make another listener on the proyect list:
 ```` js
 list.addEventListener('drop',event => {
 	const projId = event.dataTransfer.getData('text/plain');
-	if 
+	if (this.proyects.find(p => p.id === projId)) {
+		}
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNzQ0ODkyMywtMTIzODM4NDc4NSw4Mz
+eyJoaXN0b3J5IjpbLTU0NzUzMDM3OCwtMTIzODM4NDc4NSw4Mz
 Y2Nzg0NzksMTE2MTcwNDA1MSwtMTA4NjMxMTEyMiwzMjMxMzI2
 NzgsMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
 -->
