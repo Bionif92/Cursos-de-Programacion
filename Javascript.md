@@ -5122,9 +5122,12 @@ Possible "effectAllowed" Values =>  [https://developer.mozilla.org/en-US/docs/We
 Make another listener on the proyect list:
 
 ```` js
+list.addEventListener('drop',event => {
+	const proj
+});
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1MjQwMjU0LC0xMjM4Mzg0Nzg1LDgzNj
-Y3ODQ3OSwxMTYxNzA0MDUxLC0xMDg2MzExMTIyLDMyMzEzMjY3
-OCwxNDg4Njk4MzU2LC0yODQ3OTgxODBdfQ==
+eyJoaXN0b3J5IjpbLTExNDU2NzMyNzUsLTEyMzgzODQ3ODUsOD
+M2Njc4NDc5LDExNjE3MDQwNTEsLTEwODYzMTExMjIsMzIzMTMy
+Njc4LDE0ODg2OTgzNTYsLTI4NDc5ODE4MF19
 -->
