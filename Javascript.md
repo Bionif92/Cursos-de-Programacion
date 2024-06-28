@@ -5213,6 +5213,41 @@ printHobbies(hobbies);
 console.log(hobbies); // ['cooking', 'fishing'] something outisde the function changed!
 ````
 
+### Factory functions
+
+functions that create a function inside and return it, so it's pre-configured(with a locked-in value inside);
+
+Imagine we wanna calculate the vat and income tax in many parts of the app
+
+````
+const calculateTax(amount, tax){
+	return amount * tax;
+}
+
+const vat1 = calculateTax(100, .2);
+const vat2 = calculateTax(50, .2);
+const vat3 = calculateTax(20, .2); // I'm repeating the .2 a lot!! 🚨
+
+const income1 = calculateTax(100, .4);
+const income2 = calculateTax(80, .4);
+const income1 = calculateTax(70, .4);
+````
+
+let's preconfigure a function with the .2 value baked in!
+
+````js
+const calculateTax = (tax) => {
+    return (amount) => {
+        return amount * tax; // tax got locked in ✅
+    }
+}
+
+const calculateVat = calculateTax(0.2);
+const calculateIncome = calculateTax(0.40);
+
+console.log(calculateVat(100));
+console.log(calculateIncome(100));
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0OTgzMDgyMywyMDY3OTI4NjE0XX0=
+eyJoaXN0b3J5IjpbLTUyNTI5MjgyMCwyMDY3OTI4NjE0XX0=
 -->
