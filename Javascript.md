@@ -5126,11 +5126,11 @@ list.addEventListener('drop',event => {
 	const projId = event.dataTransfer.getData('text/plain');
 	if (this.proyects.find(p => p.id === projId)) {
 		return;}
-	
+	document.getElementById(projId).querySelector ('button:last-of-type').c
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4ODYwNDczLC0xMjM4Mzg0Nzg1LDgzNj
+eyJoaXN0b3J5IjpbNzA1NDQwMzg3LC0xMjM4Mzg0Nzg1LDgzNj
 Y3ODQ3OSwxMTYxNzA0MDUxLC0xMDg2MzExMTIyLDMyMzEzMjY3
 OCwxNDg4Njk4MzU2LC0yODQ3OTgxODBdfQ==
 -->
