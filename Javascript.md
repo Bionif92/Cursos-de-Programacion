@@ -5059,7 +5059,17 @@ listen to the `drop` event in receiving element
 dragend event is always fired in the dragged element, even if the drag was cancelled
 
 seeing the element being dragged doesn't meant it moved in the DOM, we need to do it ourselves programatically
+
+### Let's do it!
+
+1. Mark elements as `dragable="true"`. ⚠️ just `draggable` is not enough, we need `="true"`
+
+   ```html
+   <li draggable="true">
+   ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODYzMTExMjIsMzIzMTMyNjc4LDE0OD
-g2OTgzNTYsLTI4NDc5ODE4MF19
+eyJoaXN0b3J5IjpbMTE2MTcwNDA1MSwtMTA4NjMxMTEyMiwzMj
+MxMzI2NzgsMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
 -->
