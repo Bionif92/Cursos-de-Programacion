@@ -5162,6 +5162,10 @@ The following resources may be helpful.
 -   Events Reference (MDN): [https://developer.mozilla.org/en-US/docs/Web/Events](https://developer.mozilla.org/en-US/docs/Web/Events)
 -   Event Object (MDN): [https://developer.mozilla.org/en-US/docs/Web/API/Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
 -   MDN Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+
+## Advanced Function Concepts
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzkyODYxNF19
+eyJoaXN0b3J5IjpbMTU5NzY5MDQ1NywyMDY3OTI4NjE0XX0=
 -->
