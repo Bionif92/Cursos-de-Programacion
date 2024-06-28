@@ -5128,11 +5128,35 @@ list.addEventListener('drop',event => {
 		return;}
 	document.getElementById(projId).querySelector ('button:last-of-type').click();
 	list.parentElement.classlist.remove('dropabble');
-	event.preventDefault();//not rquired
+	event.preventDefault();//not required
 });
 ````
+
+ #### Bonus
+   
+   the `dragend` event can be listened to in the dragged element:
+   
+   ```js
+    connectDrag(){
+       this.projectItemElement.addEventListener('dragstart', event => {
+         event.dataTransfer.setData('text/plain', this.id);
+         event.dataTransfer.effectAllowed = 'move';
+         // let's add a class
+         this.projectItemElement.classList.add('dragging');
+       });
+   
+       this.projectItemElement.addEventListener('dragend', () => {
+         // let's remove the class
+         this.projectItemElement.classList.remove('dragging'));
+       }				       
+     }
+   ```
+   
+   we can also look at the `event` object and see if the drop event was fired, hence the 
+
+`event.dataTransfer.dropEffect` is can be `none` or `move`, or maybe something else, that gives info if the item was moved after dropping. I didn't magage to have `none` as value when dropping in the same box, anyway.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDgxNzE3NSwtMTIzODM4NDc4NSw4Mz
+eyJoaXN0b3J5IjpbLTQ2NjUzOTc4NSwtMTIzODM4NDc4NSw4Mz
 Y2Nzg0NzksMTE2MTcwNDA1MSwtMTA4NjMxMTEyMiwzMjMxMzI2
 NzgsMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
 -->
