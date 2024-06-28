@@ -5181,6 +5181,24 @@ function add(a,b) {
 	return sum; // even if it returns same output for same input
 }
 ````
+
+**Side effect: change a variable that is defined outside of the function**
+
+
+````js
+let acumulated = 0;
+
+function acumulate(a){
+    debugger;
+	acumulated = acumulated + a;
+    return acumulated; // different output for same input + side effects, the most impure function 😅
+}
+
+console.log(acumulate(1)) // 1
+console.log(acumulate(3)) // 4
+````
+
+In the case above, the function reads and changes a variable of the outside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDQ1NTc4NCwyMDY3OTI4NjE0XX0=
+eyJoaXN0b3J5IjpbMTI1NzY1MzUwNSwyMDY3OTI4NjE0XX0=
 -->
