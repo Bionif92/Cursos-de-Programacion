@@ -5126,11 +5126,13 @@ list.addEventListener('drop',event => {
 	const projId = event.dataTransfer.getData('text/plain');
 	if (this.proyects.find(p => p.id === projId)) {
 		return;}
-	document.getElementById(projId).querySelector ('button:last-of-type').c
+	document.getElementById(projId).querySelector ('button:last-of-type').click();
+	list.parentElement.classlist.remove('dropabble');
+	event.preventDefault();//not rquired
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1NDQwMzg3LC0xMjM4Mzg0Nzg1LDgzNj
-Y3ODQ3OSwxMTYxNzA0MDUxLC0xMDg2MzExMTIyLDMyMzEzMjY3
-OCwxNDg4Njk4MzU2LC0yODQ3OTgxODBdfQ==
+eyJoaXN0b3J5IjpbMTU4NDgxNzE3NSwtMTIzODM4NDc4NSw4Mz
+Y2Nzg0NzksMTE2MTcwNDA1MSwtMTA4NjMxMTEyMiwzMjMxMzI2
+NzgsMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
 -->
