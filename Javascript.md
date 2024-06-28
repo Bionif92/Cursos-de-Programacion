@@ -5068,8 +5068,22 @@ seeing the element being dragged doesn't meant it moved in the DOM, we need to d
    <li draggable="true">
    ```
 
+2. React to the `drag` event on the dragged element (<li>)
+
+   ````js
+   this.projectItemElement.addEventListener('dragstart', function (event) {
+     event.dataTransfer.setData('text/plain', this.id);
+     event.dataTransfer.effectAllowed = 'move';
+   });
+   ````
+
+Supported Data Types =>  [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/Recommended_drag_types)
+
+Possible "effectAllowed" Values =>  [https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/effectAllowed](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/effectAllowed)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTcwNDA1MSwtMTA4NjMxMTEyMiwzMj
-MxMzI2NzgsMTQ4ODY5ODM1NiwtMjg0Nzk4MTgwXX0=
+eyJoaXN0b3J5IjpbODM2Njc4NDc5LDExNjE3MDQwNTEsLTEwOD
+YzMTExMjIsMzIzMTMyNjc4LDE0ODg2OTgzNTYsLTI4NDc5ODE4
+MF19
 -->
