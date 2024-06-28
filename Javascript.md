@@ -5322,7 +5322,7 @@ const userName = 'Anna'
 
 greet(); // prints `hi Anna`, as the variable exists in the global lexical env
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NjI3MTk3OCwtNTI1MjkyODIwLDIwNj
-c5Mjg2MTRdfQ==
+eyJoaXN0b3J5IjpbLTk1NjY4MTMyMF19
 -->
