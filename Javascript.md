@@ -5165,7 +5165,22 @@ The following resources may be helpful.
 
 ## Advanced Function Concepts
 
+### Impure function
 
+```js
+function addRandom(a) {
+	return a + Math.random(); // returns different output for same inputs
+}
+```
+
+````
+results = [];
+function add(a,b) {
+	const sum = a + b;
+	results.push(sum); // side effect
+	return sum; // even if it returns same output for same input
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NzY5MDQ1NywyMDY3OTI4NjE0XX0=
+eyJoaXN0b3J5IjpbMTg0NDQ1NTc4NCwyMDY3OTI4NjE0XX0=
 -->
