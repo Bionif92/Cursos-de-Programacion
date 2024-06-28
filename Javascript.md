@@ -5062,13 +5062,13 @@ seeing the element being dragged doesn't meant it moved in the DOM, we need to d
 
 ### Let's do it!
 
-1. Mark elements as `dragable="true"`. ⚠️ just `draggable` is not enough, we need `="true"`
+**1. Mark elements as `dragable="true"`. ⚠️ just `draggable` is not enough, we need `="true"`**
 
    ```html
    <li draggable="true">
    ```
 
-2. React to the `drag` event on the dragged element (<li>)
+**2. React to the `drag` event on the dragged element `li`**
 
    ````js
    this.projectItemElement.addEventListener('dragstart', function (event) {
@@ -5081,9 +5081,43 @@ Supported Data Types =>  [https://developer.mozilla.org/en-US/docs/Web/API/HTML_
 
 Possible "effectAllowed" Values =>  [https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/effectAllowed](https://developer.mozilla.org/en-US/docs/Web/API/DataTransfer/effectAllowed)
 
+**3. Add event listeners in the drop zones `ul` and prevent the default, which is canceling the `drop` event**
 
+   ````
+   js
+   // 'dragenter'
+   // 'dragover'
+   // 'dragleave'
+   
+   
+   const ulElement = document.querySelector(`#${this.type}-projects ul`)
+   
+    ulElement.addEventListener(👉'dragover', function(event){ // children elements are included
+      // Here, I can only read the type, not the payload, 🤔 ( I can do it only on the drop event)
+      if (event.dataTransfer.types[0] === 'text/plain'){
+        // only avoid canceling the drop event when the data is the one we expect
+        event.preventDefault();
+      }
+      // If I'm droping any other thing here than the li I expect, the drop event will be cancelled by default
+   
+    });
+   
+   ulElement.addEventListener(👉'dragenter', function(event){
+     if (event.dataTransfer.types[0] === 'text/plain'){
+       event.preventDefault();
+       ulElement.parentElement.classList.add('droppable');
+     }
+   });
+   
+   ulElement.addEventListener(👉'dragleave', event => {
+     // if dragged element is on top of the other list, then remove the class
+     if (!event.relatedTarget.closest(`#${this.type}-projects ul`)) {
+       ulElement.parentElement.classList.remove('droppable');
+     }
+   })
+   ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2Njc4NDc5LDExNjE3MDQwNTEsLTEwOD
-YzMTExMjIsMzIzMTMyNjc4LDE0ODg2OTgzNTYsLTI4NDc5ODE4
-MF19
+eyJoaXN0b3J5IjpbLTEyMzgzODQ3ODUsODM2Njc4NDc5LDExNj
+E3MDQwNTEsLTEwODYzMTExMjIsMzIzMTMyNjc4LDE0ODg2OTgz
+NTYsLTI4NDc5ODE4MF19
 -->
