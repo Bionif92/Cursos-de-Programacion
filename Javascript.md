@@ -5248,6 +5248,33 @@ const calculateIncome = calculateTax(0.40);
 console.log(calculateVat(100));
 console.log(calculateIncome(100));
 ````
+
+### Closures: snapshot of lexical environments that updates
+
+#### 🏅golden rule: every function is a closure
+
+When a function is registered (created, not executed), it closes the values of the sorrouning lexical env, and closes them (memorises them, take a snapshot). And it will get the updated values if they change 😁
+
+Functions look at changes of variables of the outer scopes, and if they change they will get the updated values. In case of a factory function, the argument of the outer function never changes for that same inner function
+
+##### Inner functions have the outer function args `locked in`, e.g remain uncheangable in it's lexical environment, with the value of when if was created (the value was closed, memorized);
+
+In reality, the value is not locked in, it happens that it never changes 😅
+
+Every function can access it's arguments and global variables inside the function
+
+things created inside the function + arguments, are only accessible inside the curly braces
+
+a nested function can access global + outer functions things + inner function things
+
+lexical environments: function have their own lexical env, and variables are registered there:
+
+so, an inner function env has a locked in value registered of the outer function arguments! 
+
+Functions look at changes of variables of the outer scopes, and if they change they will get the updated values. In case of a factory function, the argument of the outer function never changes for that same inner function
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTI5MjgyMCwyMDY3OTI4NjE0XX0=
+eyJoaXN0b3J5IjpbLTIwODg0MTU3NzgsLTUyNTI5MjgyMCwyMD
+Y3OTI4NjE0XX0=
 -->
