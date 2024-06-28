@@ -5155,6 +5155,13 @@ list.addEventListener('drop',event => {
    we can also look at the `event` object and see if the drop event was fired, hence the 
 
 `event.dataTransfer.dropEffect` is can be `none` or `move`, or maybe something else, that gives info if the item was moved after dropping. I didn't magage to have `none` as value when dropping in the same box, anyway.
+
+The following resources may be helpful.
+
+-   Events (MDN): [https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)
+-   Events Reference (MDN): [https://developer.mozilla.org/en-US/docs/Web/Events](https://developer.mozilla.org/en-US/docs/Web/Events)
+-   Event Object (MDN): [https://developer.mozilla.org/en-US/docs/Web/API/Event](https://developer.mozilla.org/en-US/docs/Web/API/Event)
+-   MDN Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjUzOTc4NV19
+eyJoaXN0b3J5IjpbMjA2NzkyODYxNF19
 -->
