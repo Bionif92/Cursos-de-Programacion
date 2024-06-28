@@ -5116,8 +5116,15 @@ Possible "effectAllowed" Values =>  [https://developer.mozilla.org/en-US/docs/We
      }
    })
    ````
+
+**4. To react to a drop**
+
+Make another listener on the proyect list:
+
+```` js
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzgzODQ3ODUsODM2Njc4NDc5LDExNj
-E3MDQwNTEsLTEwODYzMTExMjIsMzIzMTMyNjc4LDE0ODg2OTgz
-NTYsLTI4NDc5ODE4MF19
+eyJoaXN0b3J5IjpbODU1MjQwMjU0LC0xMjM4Mzg0Nzg1LDgzNj
+Y3ODQ3OSwxMTYxNzA0MDUxLC0xMDg2MzExMTIyLDMyMzEzMjY3
+OCwxNDg4Njk4MzU2LC0yODQ3OTgxODBdfQ==
 -->
