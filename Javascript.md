@@ -5212,6 +5212,7 @@ printHobbies(hobbies);
 
 console.log(hobbies); // ['cooking', 'fishing'] something outisde the function changed!
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4OTMxMzA3LDIwNjc5Mjg2MTRdfQ==
+eyJoaXN0b3J5IjpbLTU0OTgzMDgyMywyMDY3OTI4NjE0XX0=
 -->
