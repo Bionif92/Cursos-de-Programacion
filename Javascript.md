@@ -5273,8 +5273,56 @@ so, an inner function env has a locked in value registered of the outer function
 
 Functions look at changes of variables of the outer scopes, and if they change they will get the updated values. In case of a factory function, the argument of the outer function never changes for that same inner function
 
+### Closures in practice
 
+```js
+let userName = "Max";
+
+function greet(){
+	console.log('hi' + userName); 
+}
+
+userName = "Manuel";
+
+greet(); // prints `hi Manuel` , as the snapshot is updatable
+```
+
+````js
+let userName = "Max";
+
+function greet(){
+	const name = userName; // when the function runs, it still assigns the updated value of userName
+	console.log('hi' + name); 
+}
+
+userName = "Manuel";
+
+greet(); // prints `hi Manuel` , as the snapshot is updatable
+````
+
+````js
+let userName = "Max";
+
+function greet(){
+  const userName = "Anna";
+	console.log('hi' + userName); 
+}
+
+greet(); // prints `hi Anna` , as the inner lexical environment is looked up first, and if the variable doesn't exists, it goes to the parent, and so on.
+
+// in this case, userName has been shadowed
+````
+
+````js
+function greet(){
+	console.log('hi' + userName); // JS can't find userName in the function lexical env, so it goes to the global one to look for it
+}
+
+const userName = 'Anna'
+
+greet(); // prints `hi Anna`, as the variable exists in the global lexical env
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODg0MTU3NzgsLTUyNTI5MjgyMCwyMD
-Y3OTI4NjE0XX0=
+eyJoaXN0b3J5IjpbMTY4NjI3MTk3OCwtNTI1MjkyODIwLDIwNj
+c5Mjg2MTRdfQ==
 -->
