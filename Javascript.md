@@ -5579,8 +5579,8 @@ const two = 2;
 two.toFixec(2); //10, in the binary system
 ```
 
-
+### Ej Generate Rand
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDA0MTQ4NTEsMTI3ODU1MjM0MCwtMT
-IyNTk5MjEyMV19
+eyJoaXN0b3J5IjpbLTE4MjQ1NjQ1NjUsLTEyNDA0MTQ4NTEsMT
+I3ODU1MjM0MCwtMTIyNTk5MjEyMV19
 -->
