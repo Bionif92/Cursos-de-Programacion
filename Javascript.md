@@ -5659,7 +5659,7 @@ const regex = /^\S+@\S+\.\S+$/; // sugar syntax `//`, same as [] when creating a
 console.log(regex.test('test@test.com')); // true
 ````
 
-just google for `email regex JS`
+**just google for `email regex JS` (stackoverflow is a good page)**
 
 Done
 
@@ -5677,9 +5677,10 @@ const regex = /hello/;
 console.log('hello there'.match(regex));// ['hello', index: 0, input: 'hello there', groups: undefined]
 ````
 
-
+More on Regular Expressions => [https://www.youtube.com/watch?v=0LKdKixl5Ug&list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE](https://www.youtube.com/watch?v=0LKdKixl5Ug&list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjY1NTE1NywzNDY3ODYxODksLTE5OD
-MyMTg3NDUsMTYxNzE5ODc3MCwtODIzMzUyNDUwLC0xMjQwNDE0
-ODUxLDEyNzg1NTIzNDAsLTEyMjU5OTIxMjFdfQ==
+eyJoaXN0b3J5IjpbLTYzMDYzMzI4MiwtODA2NjU1MTU3LDM0Nj
+c4NjE4OSwtMTk4MzIxODc0NSwxNjE3MTk4NzcwLC04MjMzNTI0
+NTAsLTEyNDA0MTQ4NTEsMTI3ODU1MjM0MCwtMTIyNTk5MjEyMV
+19
 -->
