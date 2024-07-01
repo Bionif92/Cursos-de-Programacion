@@ -5530,8 +5530,10 @@ Charging million of users:
 0.6 * 100; // 600 I can work with this number
 ```
 
-2. Libraries
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTEyMTc3OSwxMjc4NTUyMzQwLC0xMj
-I1OTkyMTIxXX0=
+eyJoaXN0b3J5IjpbNDg2MDA0MTkwLDEyNzg1NTIzNDAsLTEyMj
+U5OTIxMjFdfQ==
 -->
