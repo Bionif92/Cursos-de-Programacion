@@ -5679,10 +5679,10 @@ console.log('hello there'.match(regex));// ['hello', index: 0, input: 'hello the
 
 More on Regular Expressions => [https://www.youtube.com/watch?v=0LKdKixl5Ug&list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE](https://www.youtube.com/watch?v=0LKdKixl5Ug&list=PL55RiY5tL51ryV3MhCbH8bLl7O_RZGUUE)
 
+The following resources may be helpful.
 
+-   More on Numbers in JavaScript: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)
+-   Tagged templates (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwNDEyMzE0LC04MDY2NTUxNTcsMzQ2Nz
-g2MTg5LC0xOTgzMjE4NzQ1LDE2MTcxOTg3NzAsLTgyMzM1MjQ1
-MCwtMTI0MDQxNDg1MSwxMjc4NTUyMzQwLC0xMjI1OTkyMTIxXX
-0=
+eyJoaXN0b3J5IjpbMTIyMjIyOTA5Ml19
 -->
