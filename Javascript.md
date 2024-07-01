@@ -5586,7 +5586,8 @@ function randomInBetween (min,max) {
 	return Math.floor(Math.random()*(max-min+1)+min);
 }
 ````
+With `Math.floor` the number is round to the lowest number
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwODA5MjcyLC04MjMzNTI0NTAsLTEyND
+eyJoaXN0b3J5IjpbNTIzODgzMTkxLC04MjMzNTI0NTAsLTEyND
 A0MTQ4NTEsMTI3ODU1MjM0MCwtMTIyNTk5MjEyMV19
 -->
