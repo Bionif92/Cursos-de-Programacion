@@ -5530,10 +5530,36 @@ Charging million of users:
 0.6 * 100; // 600 I can work with this number
 ```
 
+### BigInt: a primite value
 
+manages big numbers (bigger than the JS limit `Number.MAX_SAFE_INTEGER`) as strings, so we can surpass that limit!
+
+```js
+// Max JS integer
+Number.MAX_SAFE_INTEGER ;//9007199254740991
+
+// let's work with a number bigger than that
+const mySuperNumber = 90071992547409911000000n;
+
+typeof mySuperNumber; // "bigint"
+
+10n + 4; //Error: Uncaught TypeError: can't convert BigInt to number
+
+// we nee to convert it ourselves
+parseInt(10n) + 4; // 14
+
+
+10n + BigInt(4); // 14n
+
+10n/3n; // 3n no decimals in the bigint world, it's for big boys
+```
+
+it doesn't support decimal places.
+
+I can only be used in operations with another bigInts
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg2MDA0MTkwLDEyNzg1NTIzNDAsLTEyMj
-U5OTIxMjFdfQ==
+eyJoaXN0b3J5IjpbLTg3NDk5MjAzMCwxMjc4NTUyMzQwLC0xMj
+I1OTkyMTIxXX0=
 -->
