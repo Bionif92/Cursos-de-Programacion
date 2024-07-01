@@ -5601,9 +5601,57 @@ etc
 ```
 **Search for String in MDN to know about all prototypes**
 
+### Template literals + tagged templates
 
+```js
+`My name is ${name}`
+// any expression, (not if statements ⚠️)
+`my name is ${getName()}`
+```
+
+#### this is what styled components use!!! 😮
+
+useful to alter the returned template literal, checking some variables values, and then altering the text:
+
+#### Useful for altering strings before they reach the user!
+
+```js
+`this is ${adjective}`
+
+// I want to add another part that says that I'm enjoying it if it's cool
+
+if adjective === cool => I want to add `and I'm enjoying it!`
+```
+
+let's not reveal expensive prices!!
+
+````js
+const productDescription = (strings, prodName, prodPrice) => { // string array has variables + 1 elements
+  debugger;
+  if (prodPrice > 10){
+    return `${strings[0]}${prodName}, but it's reallty expensive!${strings[2]}`;
+  }
+  return `${strings[0]}${prodName}${strings[1]}${prodPrice}${strings[2]}`;
+  
+  // I could also create an object here, and not return a string
+  return {
+    prodName,
+    prodPrice
+  }
+  
+  // OR convert it to CSS somehow! like styled components
+  
+}
+
+const productName = 'Salami';
+const productPrice = 100;
+
+const productOutput = () => productDescription`This product is named: ${productName} and it costs ${productPrice}`;
+
+console.log(productOutput());
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODMyMTg3NDUsMTYxNzE5ODc3MCwtOD
-IzMzUyNDUwLC0xMjQwNDE0ODUxLDEyNzg1NTIzNDAsLTEyMjU5
-OTIxMjFdfQ==
+eyJoaXN0b3J5IjpbMzQ2Nzg2MTg5LC0xOTgzMjE4NzQ1LDE2MT
+cxOTg3NzAsLTgyMzM1MjQ1MCwtMTI0MDQxNDg1MSwxMjc4NTUy
+MzQwLC0xMjI1OTkyMTIxXX0=
 -->
