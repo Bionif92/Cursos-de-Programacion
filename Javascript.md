@@ -5448,7 +5448,36 @@ The following resources may be helpful.
 
 ## More Numbers and Strings
 
+### Numbers in JS
+
+every number is a float
+
+```js
+const age = 5; // stored as 5.0
+```
+
+Let's find JS number limits
+
+````js
+Number.MAX_SAFE_INTEGER; // a really big number
+````
+
+Sidenote: reminders of static props in constructor functions:
+
+```js
+// constructor function reminder
+
+function NumberCons(){
+    // some interesting props and methods here
+}
+
+NumberCons.MAX_SAFE_INTEGER = 'big number here';
+
+console.log(NumberCons.MAX_SAFE_INTEGER);
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODU1MjM0MCwtMTIyNTk5MjEyMV19
+eyJoaXN0b3J5IjpbLTc4NDExMzQ4MSwxMjc4NTUyMzQwLC0xMj
+I1OTkyMTIxXX0=
 -->
