@@ -5362,6 +5362,85 @@ it has been relaced by `{}` and `const` and `let` usage!
 console.log(age); // Error: "age is not defined"
 ```
 
+### Recursion
+
+functions that call themselves from inside.
+
+Be sure to add an exit condition!
+
+````js
+// without recursion
+const powerOf = (x,n) => {
+	let result = 1;
+	
+	for(let i = 0; i<n; i++){
+		result *= x;
+	}
+	
+	return result;
+}
+
+console.log(powerOf(2,3)); // prints 8
+````
+
+````js
+// with recursion
+const powerOf = (x,n) => {
+    // exit condition
+    if (n === 1){
+        return x;
+    }
+
+    return x * powerOf(x, n - 1); 
+}
+
+console.log(powerOf(2,3)); // prints 8
+````
+
+```js
+// shorter version
+const powerOf = (x,n) => {
+    return n === 1 ? x : x * powerOf(x, n - 1);
+}
+```
+
+There's a chain of returns 
+
+````js
+powerOf(2,3)
+return // 8
+	return 2* powerOf(2,2) // 2 * 4
+		return 2 * powerOf(2,1) // 2 * 2 // JS starts calling the fns from here, upwards 👆
+			return 2 
+````
+
+### Advanced recursion: facing unnknow object depths!
+
+We know the shape of each object.
+
+Best case scenario: I know the depth, but the function has a bunch of nested loops, hard to read!
+
+worst case (usual case): the depth is unknown!
+
+```
+const getAllFriendsNamesArray = (person) => {
+    let allNames = [];
+
+    if (!person.friends){
+        return [];
+    }
+
+    for(let friend of person.friends){
+        // push the name of the friend and a function call to find the friend's friends!
+        allNames = [...allNames, friend.name, ...getAllFriendsNamesArray(friend)];
+    }
+
+    return allNames;
+}
+
+console.log(getAllFriendsNamesArray(mySelf));// [ "Chris", "Caroline", "tomy", "flor", "pao" ] 😮
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NTQyNTY1LC05NTY2ODEzMjBdfQ==
+eyJoaXN0b3J5IjpbLTEyMjU5OTIxMjEsOTk0NTQyNTY1LC05NT
+Y2ODEzMjBdfQ==
 -->
