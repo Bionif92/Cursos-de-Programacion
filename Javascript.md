@@ -5587,7 +5587,20 @@ function randomInBetween (min,max) {
 }
 ````
 With `Math.floor` the number is round to the lowest number
+
+### String
+
+strings have a lot of methods:
+
+```js
+String.toUpperrCase(); 
+etc
+
+
+'hello'.toUpperCase(); // 'HELLO'
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIzODgzMTkxLC04MjMzNTI0NTAsLTEyND
-A0MTQ4NTEsMTI3ODU1MjM0MCwtMTIyNTk5MjEyMV19
+eyJoaXN0b3J5IjpbMTYxNzE5ODc3MCwtODIzMzUyNDUwLC0xMj
+QwNDE0ODUxLDEyNzg1NTIzNDAsLTEyMjU5OTIxMjFdfQ==
 -->
