@@ -5476,8 +5476,62 @@ NumberCons.MAX_SAFE_INTEGER = 'big number here';
 console.log(NumberCons.MAX_SAFE_INTEGER);
 ```
 
+### Undertanding unexpected decimals
 
+```js
+.2 + .4; // 0.6000000000000001 🤔
+```
+
+```js
+.2 + .4 === 0.6; // false 
+```
+
+it's because the binary system (numbers stored as 1 and 0s)
+
+```
+1️⃣  .2 + .4 decimal numbers are transformed to the binary system to perform the calculation
+2️⃣ converting .2 to binary is something imperfect 🚨, like when doing 1/3 in the decimal (yields 1.3 periodic)
+2️⃣ the calculation is then transformed back to decimal, carrying out that imperfection
+```
+
+let's see the .2 conversion to binary in action:
+
+````js
+0.2.toString(2)' //0.001100110011001100110011001100110011001100110011001101' periodic! 🚨
+(2) is the base (binary)
+````
+
+that's why, when converted back it doesn't yield a number with a single decimal
+
+````
+1/3 + 1/3 + 1/3; // 1, so there's some automatic rounding done by JS
+````
+
+### How to prevent presenting weird numbers to users (as a string)?
+
+```js
+(.2 + .4).toFixed(1); '0.6' (string)
+```
+
+### How to prevent this binary imperfection?
+
+Charging million of users:
+
+````js
+0.6000000000000001 
+//instead of 0.6 could mean a lot of money!
+````
+
+
+
+1) Using integers, by multiplying by *100, and using cents instead of dollars, etc
+
+```js
+0.6 * 100; // 600 I can work with this number
+```
+
+2. Libraries
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDExMzQ4MSwxMjc4NTUyMzQwLC0xMj
+eyJoaXN0b3J5IjpbLTUzOTEyMTc3OSwxMjc4NTUyMzQwLC0xMj
 I1OTkyMTIxXX0=
 -->
