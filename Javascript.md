@@ -5558,8 +5558,29 @@ it doesn't support decimal places.
 
 I can only be used in operations with another bigInts
 
+### Number and Math objects
+
+They are constructor functions, with some static methods as well.
+
+```js
+// static prop
+Number.Infinity
+// or the same static prop in the windows object
+window.Infinity
+// is a new value!
+
+1/0; //Infinity
+
+Number.isFinite(Infinity); // false
+
+// try this in the console
+// for an insantiated number from Number
+const two = 2;
+two.toFixec(2); //10, in the binary system
+```
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NDk5MjAzMCwxMjc4NTUyMzQwLC0xMj
-I1OTkyMTIxXX0=
+eyJoaXN0b3J5IjpbLTEyNDA0MTQ4NTEsMTI3ODU1MjM0MCwtMT
+IyNTk5MjEyMV19
 -->
