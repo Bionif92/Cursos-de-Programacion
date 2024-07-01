@@ -5650,8 +5650,10 @@ const productOutput = () => productDescription`This product is named: ${productN
 
 console.log(productOutput());
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2Nzg2MTg5LC0xOTgzMjE4NzQ1LDE2MT
-cxOTg3NzAsLTgyMzM1MjQ1MCwtMTI0MDQxNDg1MSwxMjc4NTUy
-MzQwLC0xMjI1OTkyMTIxXX0=
+eyJoaXN0b3J5IjpbLTY5Mzk0MzMxOSwzNDY3ODYxODksLTE5OD
+MyMTg3NDUsMTYxNzE5ODc3MCwtODIzMzUyNDUwLC0xMjQwNDE0
+ODUxLDEyNzg1NTIzNDAsLTEyMjU5OTIxMjFdfQ==
 -->
