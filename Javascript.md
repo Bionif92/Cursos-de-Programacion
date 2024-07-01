@@ -5440,6 +5440,11 @@ const getAllFriendsNamesArray = (person) => {
 
 console.log(getAllFriendsNamesArray(mySelf));// [ "Chris", "Caroline", "tomy", "flor", "pao" ] 😮
 ```
+
+The following resources may be helpful.
+
+-   More on Closures (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
+-   Recursion (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU5OTIxMjFdfQ==
+eyJoaXN0b3J5IjpbMTY0OTAxMjM2MCwtMTIyNTk5MjEyMV19
 -->
