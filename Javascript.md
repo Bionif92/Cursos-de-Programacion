@@ -5651,9 +5651,35 @@ const productOutput = () => productDescription`This product is named: ${productN
 console.log(productOutput());
 ````
 
+### Regex
+
+````js
+const regex = /^\S+@\S+\.\S+$/; // sugar syntax `//`, same as [] when creating arrays
+
+console.log(regex.test('test@test.com')); // true
+````
+
+just google for `email regex JS`
+
+Done
+
+```js
+const regex = /hello/;
+
+regex.exec('hello there'); // array with info about where the match happened, etc
+// []'hello', index: 👉0, input: 'hello there', groups: undefined]
+```
+
+or use the .match method on strings:
+
+````js
+const regex = /hello/;
+console.log('hello there'.match(regex));// ['hello', index: 0, input: 'hello there', groups: undefined]
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5Mzk0MzMxOSwzNDY3ODYxODksLTE5OD
+eyJoaXN0b3J5IjpbLTgwNjY1NTE1NywzNDY3ODYxODksLTE5OD
 MyMTg3NDUsMTYxNzE5ODc3MCwtODIzMzUyNDUwLC0xMjQwNDE0
 ODUxLDEyNzg1NTIzNDAsLTEyMjU5OTIxMjFdfQ==
 -->
