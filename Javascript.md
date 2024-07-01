@@ -5323,6 +5323,45 @@ const userName = 'Anna'
 greet(); // prints `hi Anna`, as the variable exists in the global lexical env
 ````
 
+### IIFEs: Immediately Invoked Function Expression 
+
+it was a trick to keep the var variables scoped, and prevent global polution, by declaring the variables and using them right inside functions, hence having function scope, the only scope that var respected.
+
+Nowadays, let and const are blocked (curly braces) scoped, so we could safely use 
+
+````js
+(function() { // self called anonymous function. ❌ clunky ()() syntax
+    var age = 30;
+    console.log(age); // 30
+})()
+
+console.log(age); // Error: "age is not defined"
+````
+
+```js
+// another way to do it: I had to keep everything inside a big function and then call it, to keep things scoped to that function, and avoid var polution the global space
+function printAge(){ // big function ❌
+	var age = 30;
+	console.log(age);
+}
+
+printAge(); ❌ // call the function
+
+console.log(age); // Error: "age is not defined"
+```
+
+it has been relaced by `{}` and `const` and `let` usage!
+
+```js
+// let and const can be used inside curly braces (if blocks, for loops, etc) without polutiong the global namespace
+{ // not clunky ()(), just scoped to {} ✅
+	const age = 30; 
+	console.log(age);// 30
+}
+
+console.log(age); // Error: "age is not defined"
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NjY4MTMyMF19
+eyJoaXN0b3J5IjpbOTk0NTQyNTY1LC05NTY2ODEzMjBdfQ==
 -->
