@@ -5445,6 +5445,10 @@ The following resources may be helpful.
 
 -   More on Closures (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures)
 -   Recursion (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions#Recursion)
+
+## More Numbers and Strings
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTAxMjM2MCwtMTIyNTk5MjEyMV19
+eyJoaXN0b3J5IjpbMTI3ODU1MjM0MCwtMTIyNTk5MjEyMV19
 -->
