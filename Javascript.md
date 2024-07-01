@@ -5599,8 +5599,11 @@ etc
 
 'hello'.toUpperCase(); // 'HELLO'
 ```
+**Search for String in MDN to know about all prototypes**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNzE5ODc3MCwtODIzMzUyNDUwLC0xMj
-QwNDE0ODUxLDEyNzg1NTIzNDAsLTEyMjU5OTIxMjFdfQ==
+eyJoaXN0b3J5IjpbLTE5ODMyMTg3NDUsMTYxNzE5ODc3MCwtOD
+IzMzUyNDUwLC0xMjQwNDE0ODUxLDEyNzg1NTIzNDAsLTEyMjU5
+OTIxMjFdfQ==
 -->
