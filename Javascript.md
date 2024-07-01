@@ -5441,6 +5441,5 @@ const getAllFriendsNamesArray = (person) => {
 console.log(getAllFriendsNamesArray(mySelf));// [ "Chris", "Caroline", "tomy", "flor", "pao" ] 😮
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjU5OTIxMjEsOTk0NTQyNTY1LC05NT
-Y2ODEzMjBdfQ==
+eyJoaXN0b3J5IjpbLTEyMjU5OTIxMjFdfQ==
 -->
