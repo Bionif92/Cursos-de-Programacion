@@ -6170,6 +6170,12 @@ xhr.addEventListener('load', function(){
   console.log(xhr.response); // 👈converted to JSON behind the scenes for us
 })
 ```
+### Add info from server to the browser
+
+````js
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NjgzMCwtMTY2MjQ2MDg4N119
+eyJoaXN0b3J5IjpbLTE0ODIxMTEzMCwyODk2ODMwLC0xNjYyND
+YwODg3XX0=
 -->
