@@ -6187,12 +6187,12 @@ for (const post of listOfPost)
 	postEl.querySelector('h2').textContent = post.title.toUpperCase();
 	postEl.querySelector('p').textContent = post.body;
 	}
-	listElement.append(postEl)
+	listElement.append(postEl);
 }
 
 xhr.send();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUzNjE4NjQsNDAzMjQzNjIwLDgyMz
-UzNjU4NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
+eyJoaXN0b3J5IjpbMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNT
+M2NTg2LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
