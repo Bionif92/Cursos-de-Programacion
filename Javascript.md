@@ -5685,6 +5685,9 @@ The following resources may be helpful.
 -   Tagged templates (MDN): [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#Tagged_templates)
 
 ## Promises and Callbacks
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUwNzk0MDEsMTIyMjIyOTA5Ml19
+eyJoaXN0b3J5IjpbLTIwNzI1MjY3MzMsLTE5NTUwNzk0MDEsMT
+IyMjIyOTA5Ml19
 -->
