@@ -6039,10 +6039,14 @@ Workaround? use an IIFE
 
 ````js
 async function trackUserHandler() {
-
+	try {
+		const postData = await getPosition ();
+		const timerData = await setTimer (2000);
+}	catch (error) {
+}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjU0NjczLDEwMjk0NjczNjksLTE2Nj
-kyMjc0NzJdfQ==
+eyJoaXN0b3J5IjpbMTM4MDQyMTUyNSwxMDI5NDY3MzY5LC0xNj
+Y5MjI3NDcyXX0=
 -->
