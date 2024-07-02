@@ -5963,8 +5963,77 @@ we can also have multiple catch
 .catch(error => console.log(error));
 ````
 
+### Async await
 
+👉it can only used in functions👈
+
+adding the keyword `async` in the fn declaration, makes it return a promise, even though there's no `return` keyword.
+
+````js
+const example = async () => { // const example: () => Promise<void>
+}
+````
+
+it replicates the .then method chainging in the end, under the hood
+
+#### Danger: don't be confused! it could look like async code blocks JS from going to the next line, but it's not like that, it's just the way it looks.
+
+in the end, like inside a .then block, we wait for the promise to change state to fire the next .then method.
+
+#### Await = await changes in the promise state, to move to the next line, inside an async fn
+
+### Downside of async await
+
+#1: async tasks can be fired one after the other
+
+````js
+const example = () => {
+	longTask1() // fired straight away
+	.then
+	catch
+	
+	longTask2() // fired straight away
+	.then
+	.catch
+}
+````
+
+
+
+````js
+const example = async () => {
+	try {
+			const data1 = await longTask1()
+	
+			const data2 = await longTask2(); // ❌ I need to wait for the promise above to resolve
+	} catch (error) {
+		console.log(error);
+	}
+  
+	// code that runs even after getting an error
+	console.log('this always runs after waiting for the async stuff');
+}
+````
+
+
+
+The workaround? just move `longTask2` call to a different fn, and call it right after calling `example`
+
+2# Only available inside fns
+
+````js
+// top level in a JS file
+await setTimer(1000).then(() => console.log('1 second passed')); // ❌ await is only valid in async functions and the top level bodies of modules
+````
+
+Workaround? use an IIFE
+
+````js
+(async () => {
+  await SetTimeOutPromsified(1000);
+  console.log('1 second passed');  
+})();
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzgwNTMzNjQsLTE2NjkyMjc0NzJdfQ
-==
+eyJoaXN0b3J5IjpbMTAyOTQ2NzM2OSwtMTY2OTIyNzQ3Ml19
 -->
