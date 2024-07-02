@@ -6187,8 +6187,10 @@ for (const post of listOfPost)
 	postEl.querySelector('h2').textContent = post
 	}
 }
+
+xhr.send();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNTM2NTg2LDI4OTY4MzAsLTE2NjI0Nj
-A4ODddfQ==
+eyJoaXN0b3J5IjpbNDAzMjQzNjIwLDgyMzUzNjU4NiwyODk2OD
+MwLC0xNjYyNDYwODg3XX0=
 -->
