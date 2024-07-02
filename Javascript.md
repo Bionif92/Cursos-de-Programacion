@@ -6114,6 +6114,8 @@ const myPromise = new Promise((resolve, reject) => {
 ````
 
 catch method returns a promise that resolves immediately (if a value other than a promise is returned or no value is returned at all?)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5NzA5MDMzXX0=
+eyJoaXN0b3J5IjpbLTE5MDIyMDg5NTUsNjA5NzA5MDMzXX0=
 -->
