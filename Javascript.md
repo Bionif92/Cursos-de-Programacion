@@ -5711,7 +5711,31 @@ The event loop is part of the browser (not the JS engine). It's an ongoing proce
 #### The event loop coordinates the message queue and the stack. When the stack is free, it pushes the things from the queue to the stack.
 
 the browser uses the `message queue` to push things to the stack in order.
+
+### Geolocation
+
+is a task handled to the browser, hence, it needs to use the message queue to push the callbacks into the stack
+
+```js
+document.querySelector('li').addEventListener('click', () => {
+  navigator.geolocation.getCurrentPosition((data) => {
+    debugger;
+    console.log(data)
+  }, error => console.log(error) );
+  console.log('getCurrentPosition spinning wheels, it will return soon!');// gets printed first
+});
+```
+
+when offloading things to the browser, even a timeout with 0ms, that needs to go through the message queue:
+
+```js
+setTimeout(() => console.log('this was through the message queue'), 0);
+console.log('this prints first');
+```
+
+The browser is multi-threaded, to handle setTimeout, for example
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5Mzk4ODUyLC0xOTU1MDc5NDAxLDEyMj
-IyMjkwOTJdfQ==
+eyJoaXN0b3J5IjpbLTIxMDA5OTQyNzUsODg5Mzk4ODUyLC0xOT
+U1MDc5NDAxLDEyMjIyMjkwOTJdfQ==
 -->
