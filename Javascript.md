@@ -6115,7 +6115,14 @@ const myPromise = new Promise((resolve, reject) => {
 
 catch method returns a promise that resolves immediately (if a value other than a promise is returned or no value is returned at all?)
 
+The following resources may be helpful.
+
+-   More on Promises: [https://developers.google.com/web/fundamentals/primers/promises](https://developers.google.com/web/fundamentals/primers/promises)
+-   More on async/ await: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+
+## HTTP Requests
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDIyMDg5NTUsNjA5NzA5MDMzXX0=
+eyJoaXN0b3J5IjpbLTE2NjI0NjA4ODddfQ==
 -->
