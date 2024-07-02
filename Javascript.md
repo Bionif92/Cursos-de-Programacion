@@ -5691,7 +5691,18 @@ The following resources may be helpful.
 All javascript is synchronous because each script is executed one after another and no simultaneously. When the first task is finished, the next one start
 
 
+### Asynchronous code
+
+JS in single threaded:
+task A , B, C, D, happen one after the other one, like selection a button, creating a function, attaching that function as an event listener.
+
+What about long tasks (reaching to a server!)? do I wanna block the code below from running like PHP does? surely not!
+
+The browser listens to DOM events and registers timeouts,and the pushed the callback funtions to the stack via the message queue and the event loop.
+
+The same with timeouts: the browser makes the countdown and pushes the callback to the stack
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzM1Mjk2MjEsLTE5NTUwNzk0MDEsMT
+eyJoaXN0b3J5IjpbLTIwNzYwODQwNzYsLTE5NTUwNzk0MDEsMT
 IyMjIyOTA5Ml19
 -->
