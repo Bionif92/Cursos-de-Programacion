@@ -6176,9 +6176,13 @@ xhr.addEventListener('load', function(){
 const listElement = document.querySelector ('.posts');
 const postTemplate = document.getElementById ('single-post');
 
-const xhr= new XMLH
+const xhr= new XMLHttpRequest ();
+xhr.open ('GET', url);
+xhr.responseType = 'json';
+
+xhr.onload 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMzU1MDM0NCwyODk2ODMwLC0xNjYyND
+eyJoaXN0b3J5IjpbLTUxMDYyNTkwMCwyODk2ODMwLC0xNjYyND
 YwODg3XX0=
 -->
