@@ -6184,13 +6184,15 @@ xhr.onload = function () {
 const listOfPost= xhr.response;
 for (const post of listOfPost) 
 	const postEl= document.importNode(postTemplate.content,true)
-	postEl.querySelector('h2').textContent = post.title.toUpperCase
+	postEl.querySelector('h2').textContent = post.title.toUpperCase();
+	postEl.querySelector('p').textContent = post.body;
 	}
+	listElement.append(postEl)
 }
 
 xhr.send();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI1NjIwNDM5LDQwMzI0MzYyMCw4MjM1Mz
-Y1ODYsMjg5NjgzMCwtMTY2MjQ2MDg4N119
+eyJoaXN0b3J5IjpbLTIxMDUzNjE4NjQsNDAzMjQzNjIwLDgyMz
+UzNjU4NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
 -->
