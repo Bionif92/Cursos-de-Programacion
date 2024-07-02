@@ -5895,9 +5895,73 @@ getCurrentPositionPromisified()
 
 ```
 
+### Error handling
 
+.catch method is fired when any of the outer promise changes the state to `rejected`.
+
+it can be added anywhere, but it makes more sense to add it the end, so it's a catch all strategy.
+
+```
+// long chain of async stuff
+.catch(error => console.log(error));
+```
+
+2 nd argument of .then, not the best approach
+
+````js
+.then
+.then(successCallback, error => console.log(error)); // catches the error here, but not on the next promise
+.then // this will run
+````
+
+````js
+// same result as above
+.then
+.then
+.catch
+.then // this will run 😮
+````
+
+````js
+const alwaysResolves = () => {
+  const promise = new Promise((resolve, reject) => {
+    resolve('success!');
+  });
+  return promise;
+}
+
+const alwaysRejects = () => {
+  const promise = new Promise((resolve, reject) => {
+    reject('error!');
+  });
+  return promise;
+}
+
+alwaysResolves()
+.then(data => console.log(data))
+.then(data => alwaysRejects())
+.catch(error => console.log(error)) // it doesn't stop other .then methods from beeing called
+.then(data => console.log('this runs!')); 👈
+````
+
+we can return values in this middle catch methods, so the value is picked up in the next .then method
+
+````js
+.then
+.then
+.catch(error => 'someValueHere');
+.then(data => //do something) // this will run, and can picked `someValueHere` as the `data` argument
+````
+
+we can also have multiple catch
+
+````js
+.then
+.then
+.catch(error => 'someValueHere');
+.then // this will run
+.catch(error => console.log(error));
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTc3ODM2ODgsMTE0ODI4NDU3NSwtMT
-I4MDY5ODI2LC0yMTAwOTk0Mjc1LDg4OTM5ODg1MiwtMTk1NTA3
-OTQwMSwxMjIyMjI5MDkyXX0=
+eyJoaXN0b3J5IjpbLTE2NjkyMjc0NzJdfQ==
 -->
