@@ -6173,9 +6173,12 @@ xhr.addEventListener('load', function(){
 ### Add info from server to the browser
 
 ````js
+const listElement = document.querySelector ('.posts');
+const postTemplate = document.getElementById ('single-post');
 
+const xhr= new XMLH
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODIxMTEzMCwyODk2ODMwLC0xNjYyND
+eyJoaXN0b3J5IjpbMTUwMzU1MDM0NCwyODk2ODMwLC0xNjYyND
 YwODg3XX0=
 -->
