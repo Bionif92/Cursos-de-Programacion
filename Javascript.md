@@ -6184,11 +6184,11 @@ xhr.onload = function () {
 const listOfPost= xhr.response;
 for (const post of listOfPost) 
 	const postEl= document.importNode(postTemplate.content,true)
-	postEl
+	postEl.querySelector()
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDE1NTYwNSwyODk2ODMwLC0xNjYyND
-YwODg3XX0=
+eyJoaXN0b3J5IjpbNTI1NDk4NzQ3LDI4OTY4MzAsLTE2NjI0Nj
+A4ODddfQ==
 -->
