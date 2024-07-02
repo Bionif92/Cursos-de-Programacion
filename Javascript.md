@@ -5962,6 +5962,9 @@ we can also have multiple catch
 .then // this will run
 .catch(error => console.log(error));
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjkyMjc0NzJdfQ==
+eyJoaXN0b3J5IjpbLTE5NzgwNTMzNjQsLTE2NjkyMjc0NzJdfQ
+==
 -->
