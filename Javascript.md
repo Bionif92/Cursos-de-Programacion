@@ -5688,8 +5688,10 @@ The following resources may be helpful.
 
 ### Synchronous code
 
-All javascript is synchronous because each script is executed one after another and no simultaneously. When the first task is fini
+All javascript is synchronous because each script is executed one after another and no simultaneously. When the first task is finished, the next one start
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTA0OTE1MywtMTk1NTA3OTQwMSwxMj
-IyMjI5MDkyXX0=
+eyJoaXN0b3J5IjpbLTE5MzM1Mjk2MjEsLTE5NTUwNzk0MDEsMT
+IyMjIyOTA5Ml19
 -->
