@@ -5894,8 +5894,10 @@ getCurrentPositionPromisified()
 .catch(error => console.log(error));
 
 ```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY5NzE3NDgsMTE0ODI4NDU3NSwtMT
+eyJoaXN0b3J5IjpbLTExNTc3ODM2ODgsMTE0ODI4NDU3NSwtMT
 I4MDY5ODI2LC0yMTAwOTk0Mjc1LDg4OTM5ODg1MiwtMTk1NTA3
 OTQwMSwxMjIyMjI5MDkyXX0=
 -->
