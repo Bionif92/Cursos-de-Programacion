@@ -6122,7 +6122,23 @@ The following resources may be helpful.
 
 ## HTTP Requests
 
+### Http requests
+
+XML way:
+
+````js
+const xhr = new XMLHttpRequest();
+
+xhr.open('GET', 'someUrl');
+
+xhr.send();
+````
+
+Default request headers are added by the browser
+
+Fun fact: it's called XMLHttpRequest because it was originally used to fetch XML data
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI0NjA4ODddfQ==
+eyJoaXN0b3J5IjpbLTI5NjI0NDIxNCwtMTY2MjQ2MDg4N119
 -->
