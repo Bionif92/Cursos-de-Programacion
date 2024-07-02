@@ -6180,9 +6180,14 @@ const xhr= new XMLHttpRequest ();
 xhr.open ('GET', url);
 xhr.responseType = 'json';
 
-xhr.onload 
+xhr.onload = function () {
+const listOfPost= xhr.response;
+for (const post of listOfPost) {
+	
+	}
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDYyNTkwMCwyODk2ODMwLC0xNjYyND
+eyJoaXN0b3J5IjpbMTYxOTU2ODU0NiwyODk2ODMwLC0xNjYyND
 YwODg3XX0=
 -->
