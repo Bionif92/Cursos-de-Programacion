@@ -5686,8 +5686,10 @@ The following resources may be helpful.
 
 ## Promises and Callbacks
 
+### Synchronous code
 
+All javascript is synchronous because each script is executed one after another and no simultaneously. When the first task is fini
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzI1MjY3MzMsLTE5NTUwNzk0MDEsMT
-IyMjIyOTA5Ml19
+eyJoaXN0b3J5IjpbMTU0MTA0OTE1MywtMTk1NTA3OTQwMSwxMj
+IyMjI5MDkyXX0=
 -->
