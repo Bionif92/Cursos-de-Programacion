@@ -6051,7 +6051,69 @@ async function trackUserHandler() {
 }
 ````
 
+### Promise.race: 
 
+#### Let's play! Races!
+
+I just want to react to the fastest promise of two, or more
+```js
+const example = async () => {
+  const data = await Promise.race([getCurrentPositionPromisified(), alwaysResolves()]);
+  console.log(data); // 'success'
+}
+
+example();
+```
+
+the looser promise was resolved, but we don't care about it's result
+
+
+
+### Promise.all
+
+#### Let's get the result of more than one promise in an array, after they'r all done
+
+````js
+const example = async () => {
+  const combinedData = await Promise.all([getCurrentPositionPromisified(), alwaysResolves()]);
+  console.log(combinedData); // [GeolocationPosition, 'success']
+}
+
+example();
+````
+
+if one promises fails, then we just go to the catch block
+
+### Promise.allSettled
+
+returns an array with promises states and returned values!
+
+````js
+const example = async () => {
+  const combinedData = await Promise.allSettled([getCurrentPositionPromisified(), alwaysRejects()]);
+  console.log(combinedData); // [GeolocationPosition, 'success']
+}
+
+example(); //[{status: 'fulfilled', value: GeolocationPosition}, {status: 'rejected', reason: 'error!'}]
+````
+
+we wait for things that might not succed, and I wanna do things afterwards checking that array's values
+
+TODO: check the middle catch blocks results
+
+````js
+const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        resolve('Timer completed!');
+    }, 1000);
+})
+    .then((text) => { throw new Error('Failed!') }); // this didn't stop code execution
+    .catch(err => console.log(err)) // this caught the thrown error, same as catch block on try catch syntax
+		// catch resolves, as resolve(undefined);
+    .then((data) => console.log('Does that execute?', data)); // 'Does that execute?', undefined
+````
+
+catch method returns a promise that resolves immediately (if a value other than a promise is returned or no value is returned at all?)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwNTM3MjgxLC0zMTU4NjQzNDddfQ==
+eyJoaXN0b3J5IjpbNjA5NzA5MDMzXX0=
 -->
