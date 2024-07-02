@@ -5804,7 +5804,34 @@ fetch()
 
 The resolve function comes from the JS engine.
 
+#### 👉 The browser executes the resolve and reject functions. 
+
+#### It's the same as the timeOut. We will never see setTimeOut fn in the Stack
+
+#### We will never see `reject` or `resolve` in the Stack👈
+
+```js
+const fetch = (url) => {
+
+	const promise = new Promise((resolve, reject) => {
+    debugger; // 👉 appears as (anonymous) in the stack, because it's an anonymous fn
+    resolve({res: 'the response here'})
+  });
+	return promise;
+}
+
+fetch()
+.then(res => {
+  debugger; // ⚠️ appears as `(anonymous) Promise.then async` in the stack
+  console.log(res)
+})
+```
+
+#### 👉async code is pushed to the stack via the message queue (same as event listeners callbacks)👈
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODA2OTgyNiwtMjEwMDk5NDI3NSw4OD
-kzOTg4NTIsLTE5NTUwNzk0MDEsMTIyMjIyOTA5Ml19
+eyJoaXN0b3J5IjpbMTE0ODI4NDU3NSwtMTI4MDY5ODI2LC0yMT
+AwOTk0Mjc1LDg4OTM5ODg1MiwtMTk1NTA3OTQwMSwxMjIyMjI5
+MDkyXX0=
 -->
