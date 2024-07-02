@@ -5702,8 +5702,16 @@ The browser listens to DOM events and registers timeouts,and the pushed the call
 
 The same with timeouts: the browser makes the countdown and pushes the callback to the stack
 
+### Event loop
 
+recap: heap and stack are part of the JS engine
+
+The event loop is part of the browser (not the JS engine). It's an ongoing process that:
+
+#### The event loop coordinates the message queue and the stack. When the stack is free, it pushes the things from the queue to the stack.
+
+the browser uses the `message queue` to push things to the stack in order.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODM4NTk4MiwtMTk1NTA3OTQwMSwxMj
-IyMjI5MDkyXX0=
+eyJoaXN0b3J5IjpbODg5Mzk4ODUyLC0xOTU1MDc5NDAxLDEyMj
+IyMjkwOTJdfQ==
 -->
