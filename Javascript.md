@@ -6182,12 +6182,13 @@ xhr.responseType = 'json';
 
 xhr.onload = function () {
 const listOfPost= xhr.response;
-for (const post of listOfPost) {
-	
+for (const post of listOfPost) 
+	const postEl= document.importNode(postTemplate.content,true)
+	postEl
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxOTU2ODU0NiwyODk2ODMwLC0xNjYyND
+eyJoaXN0b3J5IjpbMTkyMDE1NTYwNSwyODk2ODMwLC0xNjYyND
 YwODg3XX0=
 -->
