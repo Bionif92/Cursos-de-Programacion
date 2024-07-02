@@ -5702,7 +5702,8 @@ The browser listens to DOM events and registers timeouts,and the pushed the call
 
 The same with timeouts: the browser makes the countdown and pushes the callback to the stack
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYwODQwNzYsLTE5NTUwNzk0MDEsMT
-IyMjIyOTA5Ml19
+eyJoaXN0b3J5IjpbLTIxODM4NTk4MiwtMTk1NTA3OTQwMSwxMj
+IyMjI5MDkyXX0=
 -->
