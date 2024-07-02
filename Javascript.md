@@ -6034,6 +6034,15 @@ Workaround? use an IIFE
   console.log('1 second passed');  
 })();
 ````
+
+### Async Error Handling
+
+````js
+async function trackUserHandler() {
+
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTQ2NzM2OSwtMTY2OTIyNzQ3Ml19
+eyJoaXN0b3J5IjpbMTUzNjU0NjczLDEwMjk0NjczNjksLTE2Nj
+kyMjc0NzJdfQ==
 -->
