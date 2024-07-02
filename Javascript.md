@@ -6037,16 +6037,20 @@ Workaround? use an IIFE
 
 ### Async Error Handling
 
+Use try and catch 
+
 ````js
 async function trackUserHandler() {
 	try {
 		const postData = await getPosition ();
 		const timerData = await setTimer (2000);
-}	catch (error) {
+	}catch (error) {
+		console.log (error);
 }
+	console.log (timerData,postData)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDQyMTUyNSwxMDI5NDY3MzY5LC0xNj
+eyJoaXN0b3J5IjpbLTMxNTg2NDM0NywxMDI5NDY3MzY5LC0xNj
 Y5MjI3NDcyXX0=
 -->
