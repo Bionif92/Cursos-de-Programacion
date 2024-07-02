@@ -6138,7 +6138,38 @@ Default request headers are added by the browser
 
 Fun fact: it's called XMLHttpRequest because it was originally used to fetch XML data
 
+Let's use the data!
 
+we need to run a function after the `load` event. And the data needs to be converted from JSON to JS (an array of objects);
+
+`addEventListener` was not supported in all browser when Max recorded the video
+
+````js
+const xhr = new XMLHttpRequest();
+
+xhr.open('GET', 'https://jsonplaceholder.typicode.com/posts');
+
+xhr.addEventListener('load', function(){ // 💡 OR xrh.onload = function(){}
+  console.log(xhr.response); // prints the JSON (text (string type) that looks like JS)
+})
+
+xhr.send();
+````
+
+the JSON object has 2 methods:
+
+1. Parse: to convert json to JS
+2. Stringify: to convert JS to json
+
+If we wanna avoid calling JSON.parse() ourselves, there's a trick:
+
+```js
+xhr.responseType = 'json'; 👈
+
+xhr.addEventListener('load', function(){
+  console.log(xhr.response); // 👈converted to JSON behind the scenes for us
+})
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjI0NDIxNCwtMTY2MjQ2MDg4N119
+eyJoaXN0b3J5IjpbMjg5NjgzMCwtMTY2MjQ2MDg4N119
 -->
