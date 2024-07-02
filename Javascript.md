@@ -5735,7 +5735,76 @@ console.log('this prints first');
 
 The browser is multi-threaded, to handle setTimeout, for example
 
+### Promises
+
+they avoid nested callbacks (callback hell), so there's one level of nesting
+```js
+someLongTask((data) = > {
+  // do something
+  return (modifiedData) => {
+  	// do something
+  	return (modifiedData) => {
+  			// callback hell!
+		}
+	} 
+})
+
+
+someLongTask()
+// chain of callbacks, instead of nesting them
+.then(data => {
+  // do something
+  return modifiedData
+})
+.then(data => {
+  // do something
+  return modifiedData
+})
+.then(data => {
+  // do something
+  return modifiedData
+}) 
+```
+
+promises are objects. When creating it with the word `new`, it takes an argument, which is a fn that runs straigth away:
+
+the resolve and reject functions can return anything (strings, objects, etc);
+
+we can call .then methid on the object, that will run when the status of the objects is marked as fulfilled 
+
+the object state can pending, fulfilled, rejected
+
+````js
+// we have a top level function that return the promise object
+// object is created and instructions on how to update the state of the object are set up
+// the resolve or the reject functions are called in another thread (browser)
+// resolve and reject change the state of the object, and
+// the object is returned
+
+// we can add .then and .catch methods to the top level fn call to react to the change of the object state
+````
+
+```js
+const fetch = (url) => {
+  // resolve and reject are functions that updates the state of the object and can return data.
+  // callback fn (executor) runs straigh away in the Stack
+	const promise = new Promise((resolve, reject) => {
+    // make http request to the url, a long process
+    resolve({res: 'the response here'})
+    // reject('Im a promise that always rejects!');
+  });
+  debugger;
+	return promise;
+}
+
+fetch()
+.then(res => console.log(res))
+.catch(error => console.log(error));
+```
+
+The resolve function comes from the JS engine.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDA5OTQyNzUsODg5Mzk4ODUyLC0xOT
-U1MDc5NDAxLDEyMjIyMjkwOTJdfQ==
+eyJoaXN0b3J5IjpbLTEyODA2OTgyNiwtMjEwMDk5NDI3NSw4OD
+kzOTg4NTIsLTE5NTUwNzk0MDEsMTIyMjIyOTA5Ml19
 -->
