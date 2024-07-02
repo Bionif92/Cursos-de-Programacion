@@ -5829,9 +5829,73 @@ fetch()
 
 #### 👉async code is pushed to the stack via the message queue (same as event listeners callbacks)👈
 
+### let's promisify setTimeout(), so we can use .then
 
+```js
+const SetTimeOutPromsified = (duration) => {
+  const promise = new Promise((resolve, reject) => {
+    // I need the timeout to have the countdown
+    setTimeout(() => resolve(), duration);
+  });
+
+  return promise;
+}
+
+SetTimeOutPromsified(1000).then(() => console.log('1000ms passed'));
+```
+
+
+
+### Let's promisify getCurrentLocation
+
+````js
+const getCurrentPositionPromisified = (options) => {
+  const promise = new Promise((resolve, reject) => {
+    navigator.geolocation.getCurrentPosition(resolve, reject, options);
+  });
+
+  return promise;
+}
+
+getCurrentPositionPromisified().then(data => console.log(data)).catch(error => console.log(error));
+````
+
+above, we get resolve(GeolocationPosition) and reject(GeolocationPosition) called under the hood, and that way I can use .then(data => etc);
+
+
+
+### Promise chaining
+
+I want to do one async thing after the other, always waiting for the previous thing to finish
+
+````js
+let position; // I use this to have the variable accessible throughout the .then chain
+
+getCurrentPositionPromisified() 
+.then(data => {
+  position = data; // async task1
+  return SetTimeOutPromsified(1000); //return a promise
+})
+.then(() => {
+  console.log('the position is: ', position); // async task 2
+})
+.catch(error => console.log(error));
+````
+
+if things other than promises are returned inside a .then block, the it gets automatically promisified and resolved immediately:
+```js
+getCurrentPositionPromisified()
+.then(data => {
+  return 'someString'; // 👈 get's promisified and resolves inmediately
+})
+.then((data) => {
+  console.log(data); // 'someString'
+})
+.catch(error => console.log(error));
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0ODI4NDU3NSwtMTI4MDY5ODI2LC0yMT
-AwOTk0Mjc1LDg4OTM5ODg1MiwtMTk1NTA3OTQwMSwxMjIyMjI5
-MDkyXX0=
+eyJoaXN0b3J5IjpbLTEzMjY5NzE3NDgsMTE0ODI4NDU3NSwtMT
+I4MDY5ODI2LC0yMTAwOTk0Mjc1LDg4OTM5ODg1MiwtMTk1NTA3
+OTQwMSwxMjIyMjI5MDkyXX0=
 -->
