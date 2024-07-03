@@ -6559,6 +6559,8 @@ createPost('DUMMY','A dummy Post!')
 **The will automatically take the info from the form, only to succeed you need to make sure your inputs in the htlm have a name**
 
 `<imput type='text' id='title' name='title'/>`
+
+**If only the page support Json data, you can only use Json**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MTM4NjkxMSwtNjY4MDk1MDI2XX0=
+eyJoaXN0b3J5IjpbMTUxMzc3MzUzLC02NjgwOTUwMjZdfQ==
 -->
