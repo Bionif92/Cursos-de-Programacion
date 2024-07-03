@@ -6384,7 +6384,8 @@ Modern browser you can use the fetch() API
 
 ```js
 function sendHttpRequest(method, url,data=null) {
-	fetch(url).then(response =>
+	return fetch(url).then(response =>
+	return response.json()
 	);
 }
 ```
@@ -6392,6 +6393,6 @@ Result of fetch is a promise
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzk0NDU3ODYsLTEzMjUxNzIyODEsLT
-YyMDg3MjM0MCwtMTE4MjA2ODg1M119
+eyJoaXN0b3J5IjpbMzc3NDYwOTcwLC0xMzI1MTcyMjgxLC02Mj
+A4NzIzNDAsLTExODIwNjg4NTNdfQ==
 -->
