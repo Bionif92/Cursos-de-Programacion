@@ -6328,10 +6328,12 @@ postList.addEventListener(´click´,event => {
 ```
 It delete the post from the database, here we dont erase the post from the browser, have to do it
 
-### 
+### Handling Errors
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTk2MDU3NCwtMTgyMzQ2NzEzM119
+eyJoaXN0b3J5IjpbLTExNjA2NjU2NTAsLTE4MjM0NjcxMzNdfQ
+==
 -->
