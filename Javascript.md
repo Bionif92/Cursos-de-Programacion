@@ -6338,12 +6338,15 @@ xhr.open (method, url);
 xhr.responseType = 'json';
 
 xhr.onload = function () {
-if (xhr.status >=200 && xhr.status <300)
-resolve(xhr.response);
+if (xhr.status >=200 && xhr.status <300) {
+	resolve(xhr.response);
+	}else {
+	reject(new Error ('Something went wrong!'))
 	}
 };
 
 xhr.onerror = function() {
+	reject(new Error ('Fail'))
 };
 
 xhr.send(JSON.stringify(data));
@@ -6355,6 +6358,6 @@ return promise;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2OTc4NzU0OSwtMTI5NzE2NTQ1MSwtOT
+eyJoaXN0b3J5IjpbLTk3OTg0NzIzMSwtMTI5NzE2NTQ1MSwtOT
 Y5NTc0Mjc2LC0xMTYwNjY1NjUwLC0xODIzNDY3MTMzXX0=
 -->
