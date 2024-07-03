@@ -6506,7 +6506,9 @@ const post = {
 	}
 
 const fd = new FormData();
-fd.append
+fd.append('title',tittle);
+fd.append('body',content);
+fd.append('userId',userId);
 
 sendHttpRequest('POST', same url,post);
 }
@@ -6514,5 +6516,5 @@ sendHttpRequest('POST', same url,post);
 createPost('DUMMY','A dummy Post!')
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTUwMTg5MTAsLTY2ODA5NTAyNl19
+eyJoaXN0b3J5IjpbNTU4OTA0MzA3LC02NjgwOTUwMjZdfQ==
 -->
