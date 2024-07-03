@@ -6431,13 +6431,15 @@ function sendHttpRequest(method, url,data) {
 	return fetch(url, {
 		method:method
 		body: JSON.data
-		headers:
+		headers: {
+			'Content-Type': ''
+		}
 	}).then(response => {
 		return response.json();
 		});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc5NzQ2MiwtNjE3Nzc4MzM1LC0xMz
-I1MTcyMjgxLC02MjA4NzIzNDAsLTExODIwNjg4NTNdfQ==
+eyJoaXN0b3J5IjpbLTIwMTQyMTc3MTQsLTYxNzc3ODMzNSwtMT
+MyNTE3MjI4MSwtNjIwODcyMzQwLC0xMTgyMDY4ODUzXX0=
 -->
