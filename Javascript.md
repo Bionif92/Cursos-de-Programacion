@@ -6432,14 +6432,15 @@ function sendHttpRequest(method, url,data) {
 		method:method
 		body: JSON.data
 		headers: {
-			'Content-Type': ''
+			'Content-Type': 'application/json'
 		}
 	}).then(response => {
 		return response.json();
 		});
 }
 ```
+you can add more than one header
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTQyMTc3MTQsLTYxNzc3ODMzNSwtMT
+eyJoaXN0b3J5IjpbLTExNzM4OTA3NjAsLTYxNzc3ODMzNSwtMT
 MyNTE3MjI4MSwtNjIwODcyMzQwLC0xMTgyMDY4ODUzXX0=
 -->
