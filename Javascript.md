@@ -6285,11 +6285,12 @@ const form = document.querySelector('#new-post form');
 const fetchButton = document.querySelector('available-posts button');
 
 fetchButton.addEventListener(´click´,() => {
+	fetchPost();
 });
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyNzEyNzgyLC0xOTM3ODEwNjQzXX0=
+eyJoaXN0b3J5IjpbLTg1ODI1OTAwNCwtMTkzNzgxMDY0M119
 -->
