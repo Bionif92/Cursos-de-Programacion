@@ -6386,12 +6386,11 @@ Modern browser you can use the fetch() API
 function sendHttpRequest(method, url,data=null) {
 	fetch(url);
 }
-
-
 ```
+Result of fetch is a promise
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ4Mjk2MTQsLTEzMjUxNzIyODEsLT
-YyMDg3MjM0MCwtMTE4MjA2ODg1M119
+eyJoaXN0b3J5IjpbMTE3MDMwNDU4NiwtMTMyNTE3MjI4MSwtNj
+IwODcyMzQwLC0xMTgyMDY4ODUzXX0=
 -->
