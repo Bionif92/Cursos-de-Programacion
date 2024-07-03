@@ -6203,6 +6203,7 @@ xhr.open (method, url);
 xhr.responseType = 'json';
 
 xhr.onload = function () {
+resolve(xhr, response);
 const listOfPost= xhr.response;
 for (const post of listOfPost) {
 	const postEl= document.importNode(postTemplate.content,true)
@@ -6213,12 +6214,13 @@ for (const post of listOfPost) {
 };
 xhr.send();
 });
+return promis
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mzk3Nzc5NDIsLTI4NTQwODY4MSwxNz
-EzMzczMjkxLDIwMzczMDcxNTEsNDAzMjQzNjIwLDgyMzUzNjU4
-NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
+eyJoaXN0b3J5IjpbMTA5NzAyMDA3MywtMjg1NDA4NjgxLDE3MT
+MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
+LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
