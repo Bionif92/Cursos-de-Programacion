@@ -6196,12 +6196,27 @@ xhr.send();
 ### Let's promisify an xhr request
 
 ```js
-function sendHttpRequest(method, url)
+function sendHttpRequest(method, url) {
+const promise =
+const xhr= new XMLHttpRequest ();
+xhr.open (method, url);
+xhr.responseType = 'json';
+
+xhr.onload = function () {
+const listOfPost= xhr.response;
+for (const post of listOfPost) 
+	const postEl= document.importNode(postTemplate.content,true)
+	postEl.querySelector('h2').textContent = post.title.toUpperCase();
+	postEl.querySelector('p').textContent = post.body;
+	}
+	listElement.append(postEl);
+}
+}
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMTYzNTkzOCwtMjg1NDA4NjgxLDE3MT
-MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
-LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
+eyJoaXN0b3J5IjpbLTU5NDIzODQ0LC0yODU0MDg2ODEsMTcxMz
+M3MzI5MSwyMDM3MzA3MTUxLDQwMzI0MzYyMCw4MjM1MzY1ODYs
+Mjg5NjgzMCwtMTY2MjQ2MDg4N119
 -->
