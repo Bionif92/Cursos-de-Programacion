@@ -6287,10 +6287,14 @@ const fetchButton = document.querySelector('available-posts button');
 fetchButton.addEventListener(´click´,() => {
 	fetchPost();
 });
+
+form.addEventListener('submit', event =>{
+	event.prevent
+});
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1ODI1OTAwNCwtMTkzNzgxMDY0M119
+eyJoaXN0b3J5IjpbLTIwNDAyMDI0MiwtMTkzNzgxMDY0M119
 -->
