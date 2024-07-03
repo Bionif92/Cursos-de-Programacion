@@ -6253,11 +6253,12 @@ const post = {
 	body: content,
 	userId: userId;
 	}
+sendHttpRequest('POST', same url);
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjU0MDIxMiwtNzI4NDY5MjMwXX0=
+eyJoaXN0b3J5IjpbNDYzMDQyNzEwLC03Mjg0NjkyMzBdfQ==
 -->
