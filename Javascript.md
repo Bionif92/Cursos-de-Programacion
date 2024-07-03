@@ -6319,12 +6319,16 @@ Need access to the post list:
 ```js
 const postList = document.querySelector('ul');
 
-postList.addEventListener(´click´)
+postList.addEventListener(´click´,event => {
+	if (event.target.tagName === 'BUTTON') {
+		
+	}
+})
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM4NzM3MTcsMTI0MzA5OTE2MSwtMj
+eyJoaXN0b3J5IjpbLTE5NzM3MDE0NTksMTI0MzA5OTE2MSwtMj
 ExMzMxNjgxNV19
 -->
