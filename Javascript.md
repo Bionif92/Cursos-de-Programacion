@@ -6289,12 +6289,14 @@ fetchButton.addEventListener(´click´,() => {
 });
 
 form.addEventListener('submit', event =>{
-	event.prevent
+	event.preventDefault();
+	const enteredTitle = event.currentTarget.querySelector('#title')
 });
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAyMDI0MiwtMTkzNzgxMDY0M119
+eyJoaXN0b3J5IjpbLTEzNjMyNzY3NTcsLTE5Mzc4MTA2NDNdfQ
+==
 -->
