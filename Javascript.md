@@ -6440,7 +6440,35 @@ function sendHttpRequest(method, url,data) {
 }
 ```
 you can add more than one header
+
+With xhr, it would be:
+
+```js
+function sendHttpRequest(method, url,data=null) {
+const promise = new Promise ((resolve,reject)=>{
+const xhr= new XMLHttpRequest ();
+xhr.setRequestHeader(,)
+xhr.open (method, url);
+xhr.responseType = 'json';
+
+xhr.onload = function () {
+if (xhr.status >=200 && xhr.status <300) {
+	resolve(xhr.response);
+	}else {
+	reject(new Error ('Something went wrong!'))
+	}
+};
+
+xhr.onerror = function() {
+	reject(new Error ('Failed to send request!'))
+};
+
+xhr.send(JSON.stringify(data));
+});
+return promise;
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzM4OTA3NjAsLTYxNzc3ODMzNSwtMT
-MyNTE3MjI4MSwtNjIwODcyMzQwLC0xMTgyMDY4ODUzXX0=
+eyJoaXN0b3J5IjpbMzA2ODc2ODgzLC02MTc3NzgzMzUsLTEzMj
+UxNzIyODEsLTYyMDg3MjM0MCwtMTE4MjA2ODg1M119
 -->
