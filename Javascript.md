@@ -6510,11 +6510,31 @@ fd.append('title',tittle);
 fd.append('body',content);
 fd.append('userId',userId);
 
-sendHttpRequest('POST', same url,post);
+sendHttpRequest('POST', same url,fd);
 }
 
 createPost('DUMMY','A dummy Post!')
 ```
+```js
+function sendHttpRequest(method, url,data) {
+	return fetch(url, {
+		method:method
+		body: JSON.data
+	}).then(response => {
+		if (response.status>=200 && response.status<300) {
+			return response.json();
+			} else {
+			return response.json().then(errData => 
+			console.log (errData);
+			throw new Error ('Something wrong -server side');
+			)
+			}
+	.catch (error => {
+		throw new Error ('Something wrong');
+	})
+		});
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4OTA0MzA3LC02NjgwOTUwMjZdfQ==
+eyJoaXN0b3J5IjpbLTQyNDUyNjI3MSwtNjY4MDk1MDI2XX0=
 -->
