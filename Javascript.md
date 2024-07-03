@@ -6376,9 +6376,14 @@ try{
 
 fetchPosts();
 ```
+### Fetch() API
 
+Dive Deeper into XMLHttpRequest => [https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
+
+Mode
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDg3MjM0MCwtMTE4MjA2ODg1M119
+eyJoaXN0b3J5IjpbLTEwNjU2MzgyMzIsLTYyMDg3MjM0MCwtMT
+E4MjA2ODg1M119
 -->
