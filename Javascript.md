@@ -6224,6 +6224,7 @@ for (const post of listOfPost) {
 	listElement.append(postEl);
 	}
 }
+fetchPosts();
 ```
 Or Async
 ```js
@@ -6239,13 +6240,11 @@ for (const post of listOfPost) {
 	}
 }
 
-fetchPosts()
+fetchPosts();
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTYwMzQyNiwtMjg1NDA4NjgxLDE3MT
-MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
-LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
+eyJoaXN0b3J5IjpbLTcyODQ2OTIzMF19
 -->
