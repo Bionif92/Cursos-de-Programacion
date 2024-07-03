@@ -6494,6 +6494,9 @@ function sendHttpRequest(method, url,data) {
 		});
 }
 ```
+### Form Data
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODA5NTAyNl19
+eyJoaXN0b3J5IjpbLTc0NTMyMDQ2OSwtNjY4MDk1MDI2XX0=
 -->
