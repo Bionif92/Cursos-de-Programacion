@@ -6314,9 +6314,17 @@ for (const post of listOfPost) {
 
 fetchPosts();
 ```
+Need access to the post list:
+
+```js
+const postList = document.querySelector('ul');
+
+postList.addEventListener(´click´)
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzA5OTE2MSwtMjExMzMxNjgxNV19
+eyJoaXN0b3J5IjpbLTE4MjM4NzM3MTcsMTI0MzA5OTE2MSwtMj
+ExMzMxNjgxNV19
 -->
