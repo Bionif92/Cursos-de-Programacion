@@ -6197,7 +6197,7 @@ xhr.send();
 
 ```js
 function sendHttpRequest(method, url) {
-const promise =
+const promise = new Promise ((resolve,reject)=>{
 const xhr= new XMLHttpRequest ();
 xhr.open (method, url);
 xhr.responseType = 'json';
@@ -6210,13 +6210,15 @@ for (const post of listOfPost)
 	postEl.querySelector('p').textContent = post.body;
 	}
 	listElement.append(postEl);
+})
+
 }
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDIzODQ0LC0yODU0MDg2ODEsMTcxMz
-M3MzI5MSwyMDM3MzA3MTUxLDQwMzI0MzYyMCw4MjM1MzY1ODYs
-Mjg5NjgzMCwtMTY2MjQ2MDg4N119
+eyJoaXN0b3J5IjpbLTE3MzM5MTIwMDcsLTI4NTQwODY4MSwxNz
+EzMzczMjkxLDIwMzczMDcxNTEsNDAzMjQzNjIwLDgyMzUzNjU4
+NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
 -->
