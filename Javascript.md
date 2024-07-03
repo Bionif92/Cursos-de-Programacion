@@ -6290,13 +6290,15 @@ fetchButton.addEventListener(´click´,() => {
 
 form.addEventListener('submit', event =>{
 	event.preventDefault();
-	const enteredTitle = event.currentTarget.querySelector('#title')
+	const enteredTitle = event.currentTarget.querySelector('#title').value;
+	const enteredContent = event.currentTarget.querySelector('#content').value;
+	createPost(enteredTitle,enteredContent)
 });
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjMyNzY3NTcsLTE5Mzc4MTA2NDNdfQ
+eyJoaXN0b3J5IjpbLTIxMTMzMTY4MTUsLTE5Mzc4MTA2NDNdfQ
 ==
 -->
