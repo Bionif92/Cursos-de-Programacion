@@ -6271,15 +6271,16 @@ const post = {
 	body: content,
 	userId: userId;
 	}
-sendHttpRequest('POST', same url);
+sendHttpRequest('POST', same url,post);
 }
 
-createPost()
+createPost('DUMMY','A dummy Post!')
 ```
+On Console - 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDU3MjkzNzksMTU0MjQ0ODQ0NCwtNz
-I4NDY5MjMwXX0=
+eyJoaXN0b3J5IjpbMTU0MTQ2ODgyMCwxNTQyNDQ4NDQ0LC03Mj
+g0NjkyMzBdfQ==
 -->
