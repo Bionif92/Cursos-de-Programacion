@@ -6355,8 +6355,26 @@ return promise;
 }
 ```
 
+```js
+async function fetchPosts() {
+const responseData = 
+await sendHttpRequest('GET', real url);
+const listOfPost= responseData;
+for (const post of listOfPost) {
+	const postEl= document.importNode(postTemplate.content,true)
+	postEl.querySelector('h2').textContent = post.title.toUpperCase();
+	postEl.querySelector('p').textContent = post.body;
+	postEl.querySelector('li').id = post.id;
+	listElement.append(postEl);
+	}
+}
+
+fetchPosts();
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODIwNjg4NTNdfQ==
+eyJoaXN0b3J5IjpbLTExODMyODk2NTAsLTExODIwNjg4NTNdfQ
+==
 -->
