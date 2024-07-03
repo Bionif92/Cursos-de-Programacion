@@ -6519,7 +6519,7 @@ createPost('DUMMY','A dummy Post!')
 function sendHttpRequest(method, url,data) {
 	return fetch(url, {
 		method:method
-		body: JSON.data
+		body: data // changed and remove headers
 	}).then(response => {
 		if (response.status>=200 && response.status<300) {
 			return response.json();
@@ -6536,5 +6536,5 @@ function sendHttpRequest(method, url,data) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDUyNjI3MSwtNjY4MDk1MDI2XX0=
+eyJoaXN0b3J5IjpbODY2MjA5ODQ0LC02NjgwOTUwMjZdfQ==
 -->
