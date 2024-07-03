@@ -6278,8 +6278,14 @@ createPost('DUMMY','A dummy Post!')
 ```
 On `Console - Network - Status` of the Post, if it is 200 the number, it succeded to pass the information  
 
+### Triggering Request via UI
+
+```js
+
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc4MTA2NDNdfQ==
+eyJoaXN0b3J5IjpbMTIyMjMwMTMzNiwtMTkzNzgxMDY0M119
 -->
