@@ -6391,8 +6391,23 @@ function sendHttpRequest(method, url,data=null) {
 ```
 Result of fetch is a promise
 
+what does the API return?
+```js
+Response
+	body: ReadableStream
+```
 
+That can't be converted with JSON.parse(), that converts the stream in JSON into a snapshot in JS
+
+Remember, use these two together:
+
+#### 👉 fetch() + reponse.json()👈
+
+```
+reponse.text(); // just converts the stream to a snapshot
+response.blob(); // gets me a file after downloading it
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzc3ODMzNSwtMTMyNTE3MjI4MSwtNj
-IwODcyMzQwLC0xMTgyMDY4ODUzXX0=
+eyJoaXN0b3J5IjpbMTQ3OTIwNDg1NSwtNjE3Nzc4MzM1LC0xMz
+I1MTcyMjgxLC02MjA4NzIzNDAsLTExODIwNjg4NTNdfQ==
 -->
