@@ -6330,7 +6330,7 @@ It delete the post from the database, here we dont erase the post from the brows
 
 ### Handling Errors
 
-On 
+On `onload` you see if the error generates when you try to load the data, in `onerror` you see other types of problems such as internet connection
 ```js
 function sendHttpRequest(method, url,data=null) {
 const promise = new Promise ((resolve,reject)=>{
@@ -6380,6 +6380,5 @@ fetchPosts();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI3NTA3MDcsLTExODIwNjg4NTNdfQ
-==
+eyJoaXN0b3J5IjpbLTYyMDg3MjM0MCwtMTE4MjA2ODg1M119
 -->
