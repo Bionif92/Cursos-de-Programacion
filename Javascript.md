@@ -6556,6 +6556,7 @@ sendHttpRequest('POST', same url,fd);
 
 createPost('DUMMY','A dummy Post!')
 ```
+**The will automatically take the info from the form, only to succeed you need to make sure your inputs in the htlm have a name**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM5MDM4MjkxLC02NjgwOTUwMjZdfQ==
+eyJoaXN0b3J5IjpbLTIwNDk4NDAxMjksLTY2ODA5NTAyNl19
 -->
