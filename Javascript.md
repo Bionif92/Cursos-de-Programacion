@@ -6276,11 +6276,10 @@ sendHttpRequest('POST', same url,post);
 
 createPost('DUMMY','A dummy Post!')
 ```
-On Console - 
+On `Console - Network - Status` of the Post, if it is 200 the number, it succeded to pass the information  
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTQ2ODgyMCwxNTQyNDQ4NDQ0LC03Mj
-g0NjkyMzBdfQ==
+eyJoaXN0b3J5IjpbLTE5Mzc4MTA2NDNdfQ==
 -->
