@@ -6281,11 +6281,12 @@ On `Console - Network - Status` of the Post, if it is 200 the number, it succede
 ### Triggering Request via UI
 
 ```js
-
+const form = document.querySelector('#new-post form');
+const fetchButton = document.querySelector('available-posts button');
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjMwMTMzNiwtMTkzNzgxMDY0M119
+eyJoaXN0b3J5IjpbLTI3MDk3MzM0MywtMTkzNzgxMDY0M119
 -->
