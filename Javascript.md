@@ -6484,11 +6484,12 @@ function sendHttpRequest(method, url,data) {
 			return response.json();
 			} else {
 			throw new Error ('Something wrong -server side')
-		
+			}
+	.catch
 		});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxMTg0MDQsNDg1NzQ1MDExLC0xMzMxND
-M2MzU4XX0=
+eyJoaXN0b3J5IjpbLTQwMjg0NDI3Niw0ODU3NDUwMTEsLTEzMz
+E0MzYzNThdfQ==
 -->
