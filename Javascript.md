@@ -6214,13 +6214,18 @@ for (const post of listOfPost) {
 };
 xhr.send();
 });
-return promis
+return promise;
 }
 ```
 
+```js
+function fetchPosts()
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NzAyMDA3MywtMjg1NDA4NjgxLDE3MT
+eyJoaXN0b3J5IjpbLTg2MjEwNzgwNCwtMjg1NDA4NjgxLDE3MT
 MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
 LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
