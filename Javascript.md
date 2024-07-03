@@ -6196,7 +6196,7 @@ xhr.send();
 ### Let's promisify an xhr request
 
 ```js
-function sendHttpRequest(method, url,data=null) {
+function sendHttpRequest(method, url,) {
 const promise = new Promise ((resolve,reject)=>{
 const xhr= new XMLHttpRequest ();
 xhr.open (method, url);
@@ -6245,7 +6245,24 @@ fetchPosts();
 
 ### Send Request
 
-The function sendHttpRequest need an argument of the data 
+The function `sendHttpRequest` need an argument of the data you want to upload
+```js
+function sendHttpRequest(method, url,data=null) {
+const promise = new Promise ((resolve,reject)=>{
+const xhr= new XMLHttpRequest ();
+xhr.open (method, url);
+xhr.responseType = 'json';
+
+xhr.onload = function () {
+resolve(xhr.response);
+	}
+};
+xhr.send(JSON.stringify(data));
+});
+return promise;
+}
+```
+
 ```js
 async function createPost (title,content) {
 const userId = Math.random();
@@ -6261,5 +6278,5 @@ sendHttpRequest('POST', same url);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3Nzc2MjM2MCwtNzI4NDY5MjMwXX0=
+eyJoaXN0b3J5IjpbMTU0MjQ0ODQ0NCwtNzI4NDY5MjMwXX0=
 -->
