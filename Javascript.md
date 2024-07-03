@@ -6204,12 +6204,6 @@ xhr.responseType = 'json';
 
 xhr.onload = function () {
 resolve(xhr, response);
-const listOfPost= xhr.response;
-for (const post of listOfPost) {
-	const postEl= document.importNode(postTemplate.content,true)
-	postEl.querySelector('h2').textContent = post.title.toUpperCase();
-	postEl.querySelector('p').textContent = post.body;
-	listElement.append(postEl);
 	}
 };
 xhr.send();
@@ -6220,15 +6214,34 @@ return promise;
 
 ```js
 function fetchPosts() {
-sendHttpRequest('GET', real url).
-then (responseData)
+sendHttpRequest('GET', real url)
+.then (responseData => 
+const listOfPost= xhr.response;
+for (const post of listOfPost) {
+	const postEl= document.importNode(postTemplate.content,true)
+	postEl.querySelector('h2').textContent = post.title.toUpperCase();
+	postEl.querySelector('p').textContent = post.body;
+	listElement.append(postEl);)
+}
+```
+
+```js
+function fetchPosts() {
+sendHttpRequest('GET', real url)
+.then (responseData => 
+const listOfPost= xhr.response;
+for (const post of listOfPost) {
+	const postEl= document.importNode(postTemplate.content,true)
+	postEl.querySelector('h2').textContent = post.title.toUpperCase();
+	postEl.querySelector('p').textContent = post.body;
+	listElement.append(postEl);)
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTI0MTAzNiwtMjg1NDA4NjgxLDE3MT
-MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
-LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
+eyJoaXN0b3J5IjpbLTExMzM0MjcwMTAsLTI4NTQwODY4MSwxNz
+EzMzczMjkxLDIwMzczMDcxNTEsNDAzMjQzNjIwLDgyMzUzNjU4
+NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
 -->
