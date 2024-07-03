@@ -6410,16 +6410,16 @@ response.blob(); // gets me a file after downloading it
 ### Post Data with Fetch API
 
 ```js
-function sendHttpRequest(method, url,data=null) {
+function sendHttpRequest(method, url,data) {
 	return fetch(url, {
 		method:method
-		body:
+		body: JSON.data
 	}).then(response => {
 		return response.json();
 		});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNjg5Nzk5LC02MTc3NzgzMzUsLTEzMj
-UxNzIyODEsLTYyMDg3MjM0MCwtMTE4MjA2ODg1M119
+eyJoaXN0b3J5IjpbMTQyODQxODY1OSwtNjE3Nzc4MzM1LC0xMz
+I1MTcyMjgxLC02MjA4NzIzNDAsLTExODIwNjg4NTNdfQ==
 -->
