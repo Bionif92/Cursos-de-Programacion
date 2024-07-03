@@ -6330,6 +6330,7 @@ It delete the post from the database, here we dont erase the post from the brows
 
 ### Handling Errors
 
+On 
 ```js
 function sendHttpRequest(method, url,data=null) {
 const promise = new Promise ((resolve,reject)=>{
@@ -6368,7 +6369,9 @@ try{
 			postEl.querySelector('li').id = post.id;
 			listElement.append(postEl);
 		}
-} catch {}
+} catch (error) {
+	alert(error.messaje);
+}
 }
 
 fetchPosts();
@@ -6377,5 +6380,6 @@ fetchPosts();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NjU3ODg1LC0xMTgyMDY4ODUzXX0=
+eyJoaXN0b3J5IjpbLTE0NDI3NTA3MDcsLTExODIwNjg4NTNdfQ
+==
 -->
