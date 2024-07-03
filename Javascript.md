@@ -6245,10 +6245,12 @@ fetchPosts();
 
 ### Send Request
 
+```js
 
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzU2MjYwMiwtNzI4NDY5MjMwXX0=
+eyJoaXN0b3J5IjpbLTEyNzAxOTE5MzMsLTcyODQ2OTIzMF19
 -->
