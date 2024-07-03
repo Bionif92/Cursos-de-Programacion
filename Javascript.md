@@ -6484,6 +6484,7 @@ function sendHttpRequest(method, url,data) {
 			return response.json();
 			} else {
 			response.json().then(errData => 
+			console.log (errData);
 			throw new Error ('Something wrong -server side');
 			)
 			}
@@ -6494,6 +6495,6 @@ function sendHttpRequest(method, url,data) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODc3MjU3MCwtNDc4MjQzNTI5LDQ4NT
-c0NTAxMSwtMTMzMTQzNjM1OF19
+eyJoaXN0b3J5IjpbOTg3NTc2NjkyLC00NzgyNDM1MjksNDg1Nz
+Q1MDExLC0xMzMxNDM2MzU4XX0=
 -->
