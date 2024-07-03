@@ -6192,7 +6192,10 @@ for (const post of listOfPost)
 
 xhr.send();
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNT
-M2NTg2LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
+eyJoaXN0b3J5IjpbMTcxMzM3MzI5MSwyMDM3MzA3MTUxLDQwMz
+I0MzYyMCw4MjM1MzY1ODYsMjg5NjgzMCwtMTY2MjQ2MDg4N119
+
 -->
