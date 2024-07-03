@@ -6496,7 +6496,23 @@ function sendHttpRequest(method, url,data) {
 ```
 ### Form Data
 
+```js
+async function createPost (title,content) {
+const userId = Math.random();
+const post = {
+	title: title,
+	body: content,
+	userId: userId;
+	}
 
+const fd = new FormData();
+fd.append
+
+sendHttpRequest('POST', same url,post);
+}
+
+createPost('DUMMY','A dummy Post!')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0NTMyMDQ2OSwtNjY4MDk1MDI2XX0=
+eyJoaXN0b3J5IjpbLTExNTUwMTg5MTAsLTY2ODA5NTAyNl19
 -->
