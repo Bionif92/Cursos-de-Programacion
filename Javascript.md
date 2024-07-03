@@ -6219,13 +6219,16 @@ return promise;
 ```
 
 ```js
-function fetchPosts()
+function fetchPosts() {
+sendHttpRequest('GET', real url).
+then (responseData)
+}
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjEwNzgwNCwtMjg1NDA4NjgxLDE3MT
+eyJoaXN0b3J5IjpbLTkwMTI0MTAzNiwtMjg1NDA4NjgxLDE3MT
 MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
 LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
