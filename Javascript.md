@@ -6338,6 +6338,7 @@ xhr.open (method, url);
 xhr.responseType = 'json';
 
 xhr.onload = function () {
+if (xhr.status >=200 && xhr.status <300)
 resolve(xhr.response);
 	}
 };
@@ -6354,6 +6355,6 @@ return promise;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTcxNjU0NTEsLTk2OTU3NDI3NiwtMT
-E2MDY2NTY1MCwtMTgyMzQ2NzEzM119
+eyJoaXN0b3J5IjpbMTc2OTc4NzU0OSwtMTI5NzE2NTQ1MSwtOT
+Y5NTc0Mjc2LC0xMTYwNjY1NjUwLC0xODIzNDY3MTMzXX0=
 -->
