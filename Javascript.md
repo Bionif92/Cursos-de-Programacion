@@ -6203,7 +6203,7 @@ xhr.open (method, url);
 xhr.responseType = 'json';
 
 xhr.onload = function () {
-resolve(xhr, response);
+resolve(xhr.response);
 	}
 };
 xhr.send();
@@ -6224,10 +6224,10 @@ for (const post of listOfPost) {
 	listElement.append(postEl);)
 }
 ```
-
+Or Async
 ```js
-function fetchPosts() {
-sendHttpRequest('GET', real url)
+async function fetchPosts() {
+const responseData = sendHttpRequest('GET', real url)
 .then (responseData => 
 const listOfPost= xhr.response;
 for (const post of listOfPost) {
@@ -6241,7 +6241,7 @@ for (const post of listOfPost) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM0MjcwMTAsLTI4NTQwODY4MSwxNz
-EzMzczMjkxLDIwMzczMDcxNTEsNDAzMjQzNjIwLDgyMzUzNjU4
-NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
+eyJoaXN0b3J5IjpbLTYzMDY1OTMxNCwtMjg1NDA4NjgxLDE3MT
+MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
+LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
