@@ -6362,14 +6362,13 @@ try{
 		await sendHttpRequest('GET', real url);
 	const listOfPost= responseData;
 		for (const post of listOfPost) {
-	const postEl= 		document.importNode(postTemplate.content,true)
-	postEl.querySelector('h2').textContent = post.title.toUpperCase();
-	postEl.querySelector('p').textContent = post.body;
-	postEl.querySelector('li').id = post.id;
-	listElement.append(postEl);
-}
-
-	}
+			const postEl= document.importNode(postTemplate.content,true)
+			postEl.querySelector('h2').textContent = post.title.toUpperCase();
+			postEl.querySelector('p').textContent = post.body;
+			postEl.querySelector('li').id = post.id;
+			listElement.append(postEl);
+		}
+} catch {}
 }
 
 fetchPosts();
@@ -6378,5 +6377,5 @@ fetchPosts();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MDg4MDMyMCwtMTE4MjA2ODg1M119
+eyJoaXN0b3J5IjpbNTE0NjU3ODg1LC0xMTgyMDY4ODUzXX0=
 -->
