@@ -6330,11 +6330,30 @@ It delete the post from the database, here we dont erase the post from the brows
 
 ### Handling Errors
 
+```js
+function sendHttpRequest(method, url,data=null) {
+const promise = new Promise ((resolve,reject)=>{
+const xhr= new XMLHttpRequest ();
+xhr.open (method, url);
+xhr.responseType = 'json';
 
+xhr.onload = function () {
+resolve(xhr.response);
+	}
+};
+
+xhr.onerror = function() {
+};
+
+xhr.send(JSON.stringify(data));
+});
+return promise;
+}
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTU3NDI3NiwtMTE2MDY2NTY1MCwtMT
-gyMzQ2NzEzM119
+eyJoaXN0b3J5IjpbLTEyOTcxNjU0NTEsLTk2OTU3NDI3NiwtMT
+E2MDY2NTY1MCwtMTgyMzQ2NzEzM119
 -->
