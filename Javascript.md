@@ -6321,6 +6321,7 @@ const postList = document.querySelector('ul');
 
 postList.addEventListener(´click´,event => {
 	if (event.target.tagName === 'BUTTON') {
+		const postId = event.target.closest('li').id;
 		
 	}
 })
@@ -6329,6 +6330,6 @@ postList.addEventListener(´click´,event => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM3MDE0NTksMTI0MzA5OTE2MSwtMj
-ExMzMxNjgxNV19
+eyJoaXN0b3J5IjpbOTA3NjgyNDIwLDEyNDMwOTkxNjEsLTIxMT
+MzMTY4MTVdfQ==
 -->
