@@ -6483,13 +6483,15 @@ function sendHttpRequest(method, url,data) {
 		if (response.status>=200 && response.status<300) {
 			return response.json();
 			} else {
-			throw new Error ('Something wrong -server side')
+			throw new Error ('Something wrong -server side');
 			}
-	.catch
+	.catch (error => {
+		throw new Error ('Something wrong');
+	})
 		});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMjg0NDI3Niw0ODU3NDUwMTEsLTEzMz
-E0MzYzNThdfQ==
+eyJoaXN0b3J5IjpbLTE4MTgwNjg3NzYsNDg1NzQ1MDExLC0xMz
+MxNDM2MzU4XX0=
 -->
