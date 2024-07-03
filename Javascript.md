@@ -6248,12 +6248,16 @@ fetchPosts();
 ```js
 async function createPost (title,content) {
 const userId = Math.random();
-const post
+const post = {
+	title: title,
+	body: content,
+	userId: userId;
+	}
 }
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MzUxMTE0OSwtNzI4NDY5MjMwXX0=
+eyJoaXN0b3J5IjpbLTM2MjU0MDIxMiwtNzI4NDY5MjMwXX0=
 -->
