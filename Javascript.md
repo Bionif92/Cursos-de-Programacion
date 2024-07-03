@@ -6246,11 +6246,14 @@ fetchPosts();
 ### Send Request
 
 ```js
-
+async function createPost (title,content) {
+const userId = Math.random();
+const post
+}
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzAxOTE5MzMsLTcyODQ2OTIzMF19
+eyJoaXN0b3J5IjpbMTg0MzUxMTE0OSwtNzI4NDY5MjMwXX0=
 -->
