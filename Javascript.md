@@ -6536,7 +6536,26 @@ function sendHttpRequest(method, url,data) {
 		});
 }
 ```
-If you want to use the model for the i
+If you want to use the model for the income data of the web page:
+
+```js
+async function createPost (title,content) {
+const userId = Math.random();
+const post = {
+	title: title,
+	body: content,
+	userId: userId;
+	}
+
+const fd = new FormData(form);// form element of the document
+fd.append('userId',userId);
+
+
+sendHttpRequest('POST', same url,fd);
+}
+
+createPost('DUMMY','A dummy Post!')
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NjI2NTg1OCwtNjY4MDk1MDI2XX0=
+eyJoaXN0b3J5IjpbOTM5MDM4MjkxLC02NjgwOTUwMjZdfQ==
 -->
