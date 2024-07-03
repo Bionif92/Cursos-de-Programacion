@@ -6326,10 +6326,11 @@ postList.addEventListener(´click´,event => {
 	}
 })
 ```
+It delete the post from the database, 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTc2NTEwMDAsMTI0MzA5OTE2MSwtMj
+eyJoaXN0b3J5IjpbLTE3ODYwOTg5ODksMTI0MzA5OTE2MSwtMj
 ExMzMxNjgxNV19
 -->
