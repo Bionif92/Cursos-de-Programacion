@@ -6283,10 +6283,13 @@ On `Console - Network - Status` of the Post, if it is 200 the number, it succede
 ```js
 const form = document.querySelector('#new-post form');
 const fetchButton = document.querySelector('available-posts button');
+
+fetchButton.addEventListener(´click´,() => {
+});
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDk3MzM0MywtMTkzNzgxMDY0M119
+eyJoaXN0b3J5IjpbOTQyNzEyNzgyLC0xOTM3ODEwNjQzXX0=
 -->
