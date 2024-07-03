@@ -6227,8 +6227,8 @@ for (const post of listOfPost) {
 Or Async
 ```js
 async function fetchPosts() {
-const responseData = sendHttpRequest('GET', real url)
-.then (responseData => 
+const responseData = 
+await sendHttpRequest('GET', real url);
 const listOfPost= xhr.response;
 for (const post of listOfPost) {
 	const postEl= document.importNode(postTemplate.content,true)
@@ -6241,7 +6241,7 @@ for (const post of listOfPost) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDY1OTMxNCwtMjg1NDA4NjgxLDE3MT
+eyJoaXN0b3J5IjpbMTg4MjQ4Nzc3OCwtMjg1NDA4NjgxLDE3MT
 MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
 LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
