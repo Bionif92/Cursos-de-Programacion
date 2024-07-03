@@ -6193,9 +6193,67 @@ for (const post of listOfPost)
 xhr.send();
 ````
 
+### Let's promisify an xhr request
 
+```js
+const xhrPromisified = (method, url) => {
+
+  const promise = new Promise((resolve, reject) => {
+
+    const xhr = new XMLHttpRequest();
+  
+    xhr.open(method, url);    
+  
+    xhr.responseType = 'json';
+
+    // debugger;
+
+    xhr.addEventListener('load', function(){
+      debugger;
+      resolve(xhr.response);
+    });
+
+    xhr.send();
+  });
+
+  return promise;
+}
+```
+
+let's use that fn
+
+```js
+xhrPromisified('GET', 'https://jsonplaceholder.typicode.com/posts')
+.then(res => {
+  const tenPosts = res.slice(0,10);
+  tenPosts.forEach(post => {
+    const postNode = document.importNode(postTemplate.content, true);
+    postNode.querySelector('h2').innerText = post.title;
+    postNode.querySelector('p').innerText = post.body;
+    listElement.append(postNode);
+  });
+});
+
+
+// OR
+
+const fetchPosts = async () => {
+  const posts = await xhrPromisified('GET', 'https://jsonplaceholder.typicode.com/posts');
+  const tenPosts = posts.slice(0,10);
+  tenPosts.forEach(post => {
+    const postNode = document.importNode(postTemplate.content, true);
+    postNode.querySelector('h2').innerText = post.title;
+    postNode.querySelector('p').innerText = post.body;
+    listElement.append(postNode);
+  });
+}
+
+fetchPosts();
+```
+
+the method can also be `get` in lower case, but the convention is to use uppercase `GET`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzM3MzI5MSwyMDM3MzA3MTUxLDQwMz
-I0MzYyMCw4MjM1MzY1ODYsMjg5NjgzMCwtMTY2MjQ2MDg4N119
-
+eyJoaXN0b3J5IjpbLTI4NTQwODY4MSwxNzEzMzczMjkxLDIwMz
+czMDcxNTEsNDAzMjQzNjIwLDgyMzUzNjU4NiwyODk2ODMwLC0x
+NjYyNDYwODg3XX0=
 -->
