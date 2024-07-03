@@ -6296,8 +6296,26 @@ form.addEventListener('submit', event =>{
 });
 ```
 
+### Delete Request
+
+```js
+async function fetchPosts() {
+const responseData = 
+await sendHttpRequest('GET', real url);
+const listOfPost= responseData;
+for (const post of listOfPost) {
+	const postEl= document.importNode(postTemplate.content,true)
+	postEl.querySelector('h2').textContent = post.title.toUpperCase();
+	postEl.querySelector('p').textContent = post.body;
+	listElement.append(postEl);
+	}
+}
+
+fetchPosts();
+```
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTMzMTY4MTVdfQ==
+eyJoaXN0b3J5IjpbLTQwMDAzNzQwMywtMjExMzMxNjgxNV19
 -->
