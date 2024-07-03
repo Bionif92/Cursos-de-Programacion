@@ -6385,23 +6385,7 @@ Modern browser you can use the fetch() API
 ```js
 function sendHttpRequest(method, url,data=null) {
 const promise = new Promise ((resolve,reject)=>{
-const xhr= new XMLHttpRequest ();
-xhr.open (method, url);
-xhr.responseType = 'json';
-
-xhr.onload = function () {
-if (xhr.status >=200 && xhr.status <300) {
-	resolve(xhr.response);
-	}else {
-	reject(new Error ('Something went wrong!'))
-	}
-};
-
-xhr.onerror = function() {
-	reject(new Error ('Failed to send request!'))
-};
-
-xhr.send(JSON.stringify(data));
+	fetch();
 });
 return promise;
 }
@@ -6409,6 +6393,6 @@ return promise;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjUxNzIyODEsLTYyMDg3MjM0MCwtMT
-E4MjA2ODg1M119
+eyJoaXN0b3J5IjpbNzU3MzU4MzI4LC0xMzI1MTcyMjgxLC02Mj
+A4NzIzNDAsLTExODIwNjg4NTNdfQ==
 -->
