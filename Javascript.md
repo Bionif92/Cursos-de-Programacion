@@ -6407,7 +6407,8 @@ Remember, use these two together:
 reponse.text(); // just converts the stream to a snapshot
 response.blob(); // gets me a file after downloading it
 ```
+### Post Data with Fetch API
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTIwNDg1NSwtNjE3Nzc4MzM1LC0xMz
+eyJoaXN0b3J5IjpbMTczMzc2NjY0OCwtNjE3Nzc4MzM1LC0xMz
 I1MTcyMjgxLC02MjA4NzIzNDAsLTExODIwNjg4NTNdfQ==
 -->
