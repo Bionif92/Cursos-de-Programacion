@@ -6480,12 +6480,15 @@ function sendHttpRequest(method, url,data) {
 			'Content-Type': 'application/json'
 		}
 	}).then(response => {
-	if (response.status>=200 && response.status<300)
-		return response.json();
+		if (response.status>=200 && response.status<300) {
+			return response.json();
+			} else {
+			throw new Error ('Something wrong -server side')
+		
 		});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjIxOTgyMjUsNDg1NzQ1MDExLC0xMz
-MxNDM2MzU4XX0=
+eyJoaXN0b3J5IjpbNzgxMTg0MDQsNDg1NzQ1MDExLC0xMzMxND
+M2MzU4XX0=
 -->
