@@ -6307,6 +6307,7 @@ for (const post of listOfPost) {
 	const postEl= document.importNode(postTemplate.content,true)
 	postEl.querySelector('h2').textContent = post.title.toUpperCase();
 	postEl.querySelector('p').textContent = post.body;
+	postEl.querySelector('li').id = post.id;
 	listElement.append(postEl);
 	}
 }
@@ -6317,5 +6318,5 @@ fetchPosts();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMDAzNzQwMywtMjExMzMxNjgxNV19
+eyJoaXN0b3J5IjpbMTI0MzA5OTE2MSwtMjExMzMxNjgxNV19
 -->
