@@ -6322,7 +6322,7 @@ const postList = document.querySelector('ul');
 postList.addEventListener(´click´,event => {
 	if (event.target.tagName === 'BUTTON') {
 		const postId = event.target.closest('li').id;
-		
+		sentHttpRequest('DELETE',`url/${postId}`)
 	}
 })
 ```
@@ -6330,6 +6330,6 @@ postList.addEventListener(´click´,event => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA3NjgyNDIwLDEyNDMwOTkxNjEsLTIxMT
-MzMTY4MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1MTc2NTEwMDAsMTI0MzA5OTE2MSwtMj
+ExMzMxNjgxNV19
 -->
