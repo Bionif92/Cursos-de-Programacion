@@ -6562,5 +6562,5 @@ createPost('DUMMY','A dummy Post!')
 
 **If only the page support Json data, you can only use Json**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzc3MzUzLC02NjgwOTUwMjZdfQ==
+eyJoaXN0b3J5IjpbMTUxMzc3MzUzXX0=
 -->
