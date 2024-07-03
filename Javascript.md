@@ -6204,20 +6204,21 @@ xhr.responseType = 'json';
 
 xhr.onload = function () {
 const listOfPost= xhr.response;
-for (const post of listOfPost) 
+for (const post of listOfPost) {
 	const postEl= document.importNode(postTemplate.content,true)
 	postEl.querySelector('h2').textContent = post.title.toUpperCase();
 	postEl.querySelector('p').textContent = post.body;
 	listElement.append(postEl);
 	}
-})
-}
+};
+xhr.send();
+});
 }
 ```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzE3NjUzNzcsLTI4NTQwODY4MSwxNz
+eyJoaXN0b3J5IjpbLTE1Mzk3Nzc5NDIsLTI4NTQwODY4MSwxNz
 EzMzczMjkxLDIwMzczMDcxNTEsNDAzMjQzNjIwLDgyMzUzNjU4
 NiwyODk2ODMwLC0xNjYyNDYwODg3XX0=
 -->
