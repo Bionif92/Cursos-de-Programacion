@@ -6472,31 +6472,19 @@ return promise;
 ### Fetch() Error Handling
 
 ```js
-function sendHttpRequest(method, url,data=null) {
-const promise = new Promise ((resolve,reject)=>{
-const xhr= new XMLHttpRequest ('Content-Type','application/json'); 
-xhr.setRequestHeader(,)
-xhr.open (method, url);
-xhr.responseType = 'json';
-
-xhr.onload = function () {
-if (xhr.status >=200 && xhr.status <300) {
-	resolve(xhr.response);
-	}else {
-	reject(new Error ('Something went wrong!'))
-	}
-};
-
-xhr.onerror = function() {
-	reject(new Error ('Failed to send request!'))
-};
-
-xhr.send(JSON.stringify(data));
-});
-return promise;
+function sendHttpRequest(method, url,data) {
+	return fetch(url, {
+		method:method
+		body: JSON.data
+		headers: {
+			'Content-Type': 'application/json'
+		}
+	}).then(response => {
+		return response.json();
+		});
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMzk5Mzc0Niw0ODU3NDUwMTEsLTEzMz
-E0MzYzNThdfQ==
+eyJoaXN0b3J5IjpbNTI5NjgxMjUzLDQ4NTc0NTAxMSwtMTMzMT
+QzNjM1OF19
 -->
