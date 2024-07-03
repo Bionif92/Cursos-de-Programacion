@@ -6468,6 +6468,10 @@ xhr.send(JSON.stringify(data));
 return promise;
 }
 ```
+
+### Fetch() Error Handling
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE0MzYzNThdfQ==
+eyJoaXN0b3J5IjpbNDg1NzQ1MDExLC0xMzMxNDM2MzU4XX0=
 -->
