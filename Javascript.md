@@ -6346,7 +6346,7 @@ if (xhr.status >=200 && xhr.status <300) {
 };
 
 xhr.onerror = function() {
-	reject(new Error ('Fail'))
+	reject(new Error ('Failed to send request!'))
 };
 
 xhr.send(JSON.stringify(data));
@@ -6358,6 +6358,5 @@ return promise;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTg0NzIzMSwtMTI5NzE2NTQ1MSwtOT
-Y5NTc0Mjc2LC0xMTYwNjY1NjUwLC0xODIzNDY3MTMzXX0=
+eyJoaXN0b3J5IjpbLTExODIwNjg4NTNdfQ==
 -->
