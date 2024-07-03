@@ -6243,8 +6243,12 @@ for (const post of listOfPost) {
 fetchPosts();
 ```
 
+### Send Request
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODQ2OTIzMF19
+eyJoaXN0b3J5IjpbLTc5NzU2MjYwMiwtNzI4NDY5MjMwXX0=
 -->
