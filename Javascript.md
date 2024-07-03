@@ -6483,8 +6483,9 @@ function sendHttpRequest(method, url,data) {
 		if (response.status>=200 && response.status<300) {
 			return response.json();
 			} else {
-			response.json();
+			response.json().then(errData => 
 			throw new Error ('Something wrong -server side');
+			)
 			}
 	.catch (error => {
 		throw new Error ('Something wrong');
@@ -6493,6 +6494,6 @@ function sendHttpRequest(method, url,data) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODI0MzUyOSw0ODU3NDUwMTEsLTEzMz
-E0MzYzNThdfQ==
+eyJoaXN0b3J5IjpbMTI1ODc3MjU3MCwtNDc4MjQzNTI5LDQ4NT
+c0NTAxMSwtMTMzMTQzNjM1OF19
 -->
