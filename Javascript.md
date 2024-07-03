@@ -6561,6 +6561,17 @@ createPost('DUMMY','A dummy Post!')
 `<imput type='text' id='title' name='title'/>`
 
 **If only the page support Json data, you can only use Json**
+
+The following resources may be helpful.
+
+-   How the Web Works: [https://academind.com/learn/web-dev/how-the-web-works/](https://academind.com/learn/web-dev/how-the-web-works/)
+-   More on XMLHttpRequest: [https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest)
+-   More on fetch(): [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
+-   Uploading Files: [https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications)
+
+## Javascript Libraries
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMzc3MzUzXX0=
+eyJoaXN0b3J5IjpbLTE1NTk3NTIzODZdfQ==
 -->
