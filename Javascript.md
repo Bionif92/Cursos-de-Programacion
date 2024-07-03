@@ -6273,10 +6273,13 @@ const post = {
 	}
 sendHttpRequest('POST', same url);
 }
+
+createPost()
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MjQ0ODQ0NCwtNzI4NDY5MjMwXX0=
+eyJoaXN0b3J5IjpbLTEwNDU3MjkzNzksMTU0MjQ0ODQ0NCwtNz
+I4NDY5MjMwXX0=
 -->
