@@ -6509,6 +6509,7 @@ const fd = new FormData();
 fd.append('title',tittle);
 fd.append('body',content);
 fd.append('userId',userId);
+fd.append('someFile',file,'photo.png')// can add file with FormData
 
 sendHttpRequest('POST', same url,fd);
 }
@@ -6536,5 +6537,5 @@ function sendHttpRequest(method, url,data) {
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2MjA5ODQ0LC02NjgwOTUwMjZdfQ==
+eyJoaXN0b3J5IjpbLTE5MjU1MDg1MTMsLTY2ODA5NTAyNl19
 -->
