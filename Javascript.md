@@ -6221,7 +6221,8 @@ for (const post of listOfPost) {
 	const postEl= document.importNode(postTemplate.content,true)
 	postEl.querySelector('h2').textContent = post.title.toUpperCase();
 	postEl.querySelector('p').textContent = post.body;
-	listElement.append(postEl);)
+	listElement.append(postEl);
+	}
 }
 ```
 Or Async
@@ -6229,19 +6230,22 @@ Or Async
 async function fetchPosts() {
 const responseData = 
 await sendHttpRequest('GET', real url);
-const listOfPost= xhr.response;
+const listOfPost= responseData;
 for (const post of listOfPost) {
 	const postEl= document.importNode(postTemplate.content,true)
 	postEl.querySelector('h2').textContent = post.title.toUpperCase();
 	postEl.querySelector('p').textContent = post.body;
-	listElement.append(postEl);)
+	listElement.append(postEl);
+	}
 }
+
+fetchPosts()
 ```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MjQ4Nzc3OCwtMjg1NDA4NjgxLDE3MT
+eyJoaXN0b3J5IjpbLTcxMTYwMzQyNiwtMjg1NDA4NjgxLDE3MT
 MzNzMyOTEsMjAzNzMwNzE1MSw0MDMyNDM2MjAsODIzNTM2NTg2
 LDI4OTY4MzAsLTE2NjI0NjA4ODddfQ==
 -->
