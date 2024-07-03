@@ -6384,15 +6384,15 @@ Modern browser you can use the fetch() API
 
 ```js
 function sendHttpRequest(method, url,data=null) {
-	return fetch(url).then(response =>
-	return response.json()
-	);
+	return fetch(url).then(response => {
+		return response.json();
+		});
 }
 ```
 Result of fetch is a promise
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc3NDYwOTcwLC0xMzI1MTcyMjgxLC02Mj
-A4NzIzNDAsLTExODIwNjg4NTNdfQ==
+eyJoaXN0b3J5IjpbLTYxNzc3ODMzNSwtMTMyNTE3MjI4MSwtNj
+IwODcyMzQwLC0xMTgyMDY4ODUzXX0=
 -->
