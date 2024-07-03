@@ -6446,7 +6446,7 @@ With xhr, it would be:
 ```js
 function sendHttpRequest(method, url,data=null) {
 const promise = new Promise ((resolve,reject)=>{
-const xhr= new XMLHttpRequest ();
+const xhr= new XMLHttpRequest ('Content-Type','application/json'); // here you put the header
 xhr.setRequestHeader(,)
 xhr.open (method, url);
 xhr.responseType = 'json';
@@ -6469,6 +6469,5 @@ return promise;
 }
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2ODc2ODgzLC02MTc3NzgzMzUsLTEzMj
-UxNzIyODEsLTYyMDg3MjM0MCwtMTE4MjA2ODg1M119
+eyJoaXN0b3J5IjpbLTEzMzE0MzYzNThdfQ==
 -->
