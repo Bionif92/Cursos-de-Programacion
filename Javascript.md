@@ -6408,7 +6408,18 @@ reponse.text(); // just converts the stream to a snapshot
 response.blob(); // gets me a file after downloading it
 ```
 ### Post Data with Fetch API
+
+```js
+function sendHttpRequest(method, url,data=null) {
+	return fetch(url, {
+		method:method
+		body:
+	}).then(response => {
+		return response.json();
+		});
+}
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzc2NjY0OCwtNjE3Nzc4MzM1LC0xMz
-I1MTcyMjgxLC02MjA4NzIzNDAsLTExODIwNjg4NTNdfQ==
+eyJoaXN0b3J5IjpbNDkxNjg5Nzk5LC02MTc3NzgzMzUsLTEzMj
+UxNzIyODEsLTYyMDg3MjM0MCwtMTE4MjA2ODg1M119
 -->
