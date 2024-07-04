@@ -6841,7 +6841,9 @@ showMoreInfoHandler() {
 }
 const  projectElement  =  document.getElementById(this.id);
 const  tooltipText  =  projectElement.dataset.extraInfo;
-const  tooltip  =  new  Tooltip(() => {this.hasActiveTooltip  =  false;
+// here you change to a dinn
+import('./Tooltip.js').then(module =>
+const  tooltip  =  new  module.Tooltip(() => {this.hasActiveTooltip  =  false;
 },
 tooltipText,
 this.id
@@ -6862,7 +6864,7 @@ console.log(event);
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTk3NzQ1NjYsMzIwNDM0ODU1LC03Nj
+eyJoaXN0b3J5IjpbLTIwODI1OTk5OTcsMzIwNDM0ODU1LC03Nj
 Q3NTk3ODMsLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5
 NjgsMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
 -->
