@@ -6833,8 +6833,64 @@ import {Button, Paragraph} from './components.js';
 Dynamic imports will only be loaded when when something that we don't control happens (e.g click event)
 
 Lazy loading uses this feature (maybe when the user scrolls down or we load certain routes?)
+
+````js
+showMoreInfoHandler() {
+	if (this.hasActiveTooltip) {
+	return;
+
+}
+
+const  projectElement  =  document.getElementById(this.id);
+
+const  tooltipText  =  projectElement.dataset.extraInfo;
+
+const  tooltip  =  new  Tooltip(
+
+() => {
+
+this.hasActiveTooltip  =  false;
+
+},
+
+tooltipText,
+
+this.id
+
+);
+
+tooltip.attach();
+
+this.hasActiveTooltip  =  true;
+
+}
+
+  
+
+connectDrag() {
+
+const  item  =  document.getElementById(this.id);
+
+item.addEventListener('dragstart', event  => {
+
+event.dataTransfer.setData('text/plain', this.id);
+
+event.dataTransfer.effectAllowed  =  'move';
+
+});
+
+  
+
+item.addEventListener('dragend', event  => {
+
+console.log(event);
+
+});
+
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMjM1OTQsMzIwNDM0ODU1LC03NjQ3NT
-k3ODMsLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5Njgs
-MTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
+eyJoaXN0b3J5IjpbLTE4NDg1Mzc3MDIsMzIwNDM0ODU1LC03Nj
+Q3NTk3ODMsLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5
+NjgsMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
 -->
