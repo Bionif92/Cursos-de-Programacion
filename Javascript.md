@@ -6789,7 +6789,7 @@ set Paragraph: ƒ ()
 by asigning an alias
 
 ````js
-import { Button as RenamedButton }
+import { Button as RenamedButton } from ...
 ````
 
 **Export default**
@@ -6816,7 +6816,7 @@ booFunction();
 
 I just imported outside the brackets and name it whatever, wild west mess 🤠❌
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDM5NTcxNywtNDE0ODQ1NTUsLTYxMD
+eyJoaXN0b3J5IjpbLTc2NDc1OTc4MywtNDE0ODQ1NTUsLTYxMD
 gwODU2MiwtMTE2NjA4OTk2OCwxMTAyMTIzNTAsODg1NTMxMTM5
 LDc2OTA5ODkxOV19
 -->
