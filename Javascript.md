@@ -6861,12 +6861,16 @@ this.hasActiveTooltip  =  true;
 
 **With modules you are on strict mode, so this nos points to the window**
 
-With globalThis you point at the window and you
+With globalThis you point at the window and you can create a global variable
+
+```js
+globalThis.Default_Value = 'Max';
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyNjMzNjg4LC0xMzExMTE0NjMyLDEzOD
-UyNTQ2MzEsMzIwNDM0ODU1LC03NjQ3NTk3ODMsLTQxNDg0NTU1
-LC02MTA4MDg1NjIsLTExNjYwODk5NjgsMTEwMjEyMzUwLDg4NT
-UzMTEzOSw3NjkwOTg5MTldfQ==
+eyJoaXN0b3J5IjpbMTY4MjQwMTYzOSwtMTMxMTExNDYzMiwxMz
+g1MjU0NjMxLDMyMDQzNDg1NSwtNzY0NzU5NzgzLC00MTQ4NDU1
+NSwtNjEwODA4NTYyLC0xMTY2MDg5OTY4LDExMDIxMjM1MCw4OD
+U1MzExMzksNzY5MDk4OTE5XX0=
 -->
