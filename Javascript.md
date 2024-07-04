@@ -6615,10 +6615,15 @@ https://jquery.com/
 
 ### Axios
 
-Use 
+Use axios url
+
+```html
+<script  src="https://unpkg.com/axios/dist/axios.min.js"  defer></script>
+```
+W
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjY5Mjk4MiwtMTkxNjgyMjg3MywtNz
-I1MTg2ODU2LDE1NzM4NzQ2ODgsNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbMTAyOTYzNzQ0LC0xOTE2ODIyODczLC03Mj
+UxODY4NTYsMTU3Mzg3NDY4OCw1NDYzNzM3NjhdfQ==
 -->
