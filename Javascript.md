@@ -6856,9 +6856,11 @@ this.hasActiveTooltip  =  true;
 ### When Module Code is executed?
 
 **console.log as an example, is run in the sistem once and the first time, only the exports can run multiple times**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTExMTQ2MzIsMTM4NTI1NDYzMSwzMj
-A0MzQ4NTUsLTc2NDc1OTc4MywtNDE0ODQ1NTUsLTYxMDgwODU2
-MiwtMTE2NjA4OTk2OCwxMTAyMTIzNTAsODg1NTMxMTM5LDc2OT
-A5ODkxOV19
+eyJoaXN0b3J5IjpbMTY3ODMyOTY4NCwtMTMxMTExNDYzMiwxMz
+g1MjU0NjMxLDMyMDQzNDg1NSwtNzY0NzU5NzgzLC00MTQ4NDU1
+NSwtNjEwODA4NTYyLC0xMTY2MDg5OTY4LDExMDIxMjM1MCw4OD
+U1MzExMzksNzY5MDk4OTE5XX0=
 -->
