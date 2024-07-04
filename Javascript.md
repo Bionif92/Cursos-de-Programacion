@@ -6760,9 +6760,63 @@ someElement.addEventListener('click', () => {
 
 make sure you run the code in the browser to find those missing imports!!
 
+### Named exports syntax variations
 
+**Bundling multiple exports**
+
+what if I want to import all things exported from a file?
+
+```js
+import * as Components from './components.js'; // we bundle all exports in a Module object
+
+Components.Button();
+Components.Paragraph();
+
+console.log(Components);
+
+// Module
+Button: (...)
+Paragraph: (...)
+Symbol(Symbol.toStringTag): "Module"
+get Button: ƒ ()
+set Button: ƒ ()
+get Paragraph: ƒ ()
+set Paragraph: ƒ ()
+```
+
+**Renaming imports**
+
+by asigning an alias
+
+````js
+import { Button as RenamedButton }
+````
+
+**Export default**
+
+````js
+export const Button = function(){}
+
+export const Paragraph = function(){}
+
+// we can have just one default export per file
+export default function(){alert('boooo')} // ❌ wild west naming! 🤠
+````
+
+````js
+import 👉booFunction, {Button as RenamedButton, Paragraph}from './components.js';
+
+// debugger;
+
+RenamedButton();
+Paragraph();
+
+booFunction();
+````
+
+I just imported outside the brackets and name it whatever, wild west mess 🤠❌
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNj
-YwODk5NjgsMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTld
-fQ==
+eyJoaXN0b3J5IjpbLTY4MDM5NTcxNywtNDE0ODQ1NTUsLTYxMD
+gwODU2MiwtMTE2NjA4OTk2OCwxMTAyMTIzNTAsODg1NTMxMTM5
+LDc2OTA5ODkxOV19
 -->
