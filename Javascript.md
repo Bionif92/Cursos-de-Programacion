@@ -6628,9 +6628,11 @@ axios.get(url); -- get response, with response.data
 axios.post()
 axios.delete()
 
+with error, you get a nice type of error with the description on what happen
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQzMTI3MDgwLC0zMzY5Mjk3MzAsLTE5MT
+eyJoaXN0b3J5IjpbNTI1MTgzOTQ4LC0zMzY5Mjk3MzAsLTE5MT
 Y4MjI4NzMsLTcyNTE4Njg1NiwxNTczODc0Njg4LDU0NjM3Mzc2
 OF19
 -->
