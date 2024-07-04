@@ -6577,6 +6577,8 @@ Dont re-invent the wheel, use libraries to copy/paste script
 
 https://lodash.com/
 
+**Utilities for javascript**
+
 Example to difference the content of array:
 
 ```js
@@ -6601,12 +6603,12 @@ const inactiveCostumers = _.difference(customers, activeCustomer);
 
 ### JQuery
 
-Another useful library
+Another useful library: **utilities for the dom**
 
 https://jquery.com/
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTYxNTA0MCwxNTczODc0Njg4LDU0Nj
+eyJoaXN0b3J5IjpbLTcyNTE4Njg1NiwxNTczODc0Njg4LDU0Nj
 M3Mzc2OF19
 -->
