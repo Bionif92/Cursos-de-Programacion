@@ -6634,9 +6634,11 @@ with error, you get a nice type of error with the description on what happen
 
 Downloading more than you need
 
+See if has star rating for the library, has recent activities, and no so many bug or errors
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc2NTQwMTUsNTI1MTgzOTQ4LC0zMz
-Y5Mjk3MzAsLTE5MTY4MjI4NzMsLTcyNTE4Njg1NiwxNTczODc0
-Njg4LDU0NjM3Mzc2OF19
+eyJoaXN0b3J5IjpbMTY4MTk0ODc4LC0xOTI3NjU0MDE1LDUyNT
+E4Mzk0OCwtMzM2OTI5NzMwLC0xOTE2ODIyODczLC03MjUxODY4
+NTYsMTU3Mzg3NDY4OCw1NDYzNzM3NjhdfQ==
 -->
