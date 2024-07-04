@@ -6591,12 +6591,14 @@ Also included in the html before your script:
 ```html
 <script scr='lodash.min.js' defer></script>
 ```
-Then yo
+Then you can use it for your program
 
-
+```js
+const inactiveCostumers = _.difference(customers, activeCustomer);
+```
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDExODAxNiw1NDYzNzM3NjhdfQ==
+eyJoaXN0b3J5IjpbNDAzNzYyNzMxLDU0NjM3Mzc2OF19
 -->
