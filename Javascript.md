@@ -6584,12 +6584,12 @@ _.difference([2,  1], [2,  3]);
 ```
 this is given by lodash, but we need to define '_'
 
-Need to install lodash to define it
+Need to install full build in our program
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA1MDU1MzAsNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbLTUwOTYwMDkyNCw1NDYzNzM3NjhdfQ==
 -->
