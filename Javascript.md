@@ -6579,10 +6579,17 @@ https://lodash.com/
 
 Example to difference the content of array:
 
+```js
+_.difference([2,  1], [2,  3]);
+```
+this is given by lodash, but we need to define '_'
+
+Need to install lodash to define it
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4MDM2MzgwLDU0NjM3Mzc2OF19
+eyJoaXN0b3J5IjpbLTEzNTA1MDU1MzAsNTQ2MzczNzY4XX0=
 -->
