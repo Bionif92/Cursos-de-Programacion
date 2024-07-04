@@ -6742,8 +6742,27 @@ import {} from './component';
 
 Button();
 ````
+
+Autocompletion trick:
+
+```
+import { // ctrl + space wil pop up Button} from './component';
+```
+
+please check for referenced things in a module that are referenced at run time!
+
+````js
+//e.g
+someElement.addEventListener('click', () => {
+	someImportedFn();
+})
+````
+
+make sure you run the code in the browser to find those missing imports!!
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc3MjA4ODc1LC02MTA4MDg1NjIsLTExNj
+eyJoaXN0b3J5IjpbLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNj
 YwODk5NjgsMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTld
 fQ==
 -->
