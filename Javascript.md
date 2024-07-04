@@ -6624,13 +6624,13 @@ With that we have an axios global object
 
 Instead of the promise of sendHttpRequest we made in the previous module, we use axios():
 
-axios.get(url);
+axios.get(url); -- get response, with response.data
 axios.post()
 axios.delete()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTkyMDAzNiwtMzM2OTI5NzMwLC0xOT
-E2ODIyODczLC03MjUxODY4NTYsMTU3Mzg3NDY4OCw1NDYzNzM3
-NjhdfQ==
+eyJoaXN0b3J5IjpbODQzMTI3MDgwLC0zMzY5Mjk3MzAsLTE5MT
+Y4MjI4NzMsLTcyNTE4Njg1NiwxNTczODc0Njg4LDU0NjM3Mzc2
+OF19
 -->
