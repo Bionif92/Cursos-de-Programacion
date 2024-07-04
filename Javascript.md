@@ -6607,10 +6607,16 @@ Another useful library: **utilities for the dom**
 
 https://jquery.com/
 
+### Discovering libraries
 
+**stackoverflow: forum**
+
+**github: learn more about proyects and libraries**
+
+### Axios
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDcwNjc2NCwtNzI1MTg2ODU2LDE1Nz
-M4NzQ2ODgsNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbLTE5MTY4MjI4NzMsLTcyNTE4Njg1NiwxNT
+czODc0Njg4LDU0NjM3Mzc2OF19
 -->
