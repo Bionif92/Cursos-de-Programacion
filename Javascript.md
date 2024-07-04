@@ -6625,14 +6625,14 @@ With that we have an axios global object
 Instead of the promise of sendHttpRequest we made in the previous module, we use axios():
 
 axios.get(url); -- get response, with response.data
-axios.post()
+axios.post() -- dont need to put headers
 axios.delete()
 
 with error, you get a nice type of error with the description on what happen
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1MTgzOTQ4LC0zMzY5Mjk3MzAsLTE5MT
-Y4MjI4NzMsLTcyNTE4Njg1NiwxNTczODc0Njg4LDU0NjM3Mzc2
-OF19
+eyJoaXN0b3J5IjpbLTYxMDc3Mjc5OSw1MjUxODM5NDgsLTMzNj
+kyOTczMCwtMTkxNjgyMjg3MywtNzI1MTg2ODU2LDE1NzM4NzQ2
+ODgsNTQ2MzczNzY4XX0=
 -->
