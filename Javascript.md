@@ -6575,8 +6575,14 @@ Dont re-invent the wheel, use libraries to copy/paste script
 
 ### Example Loadsh
 
+https://lodash.com/
+
+Example to difference the content of array:
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbMzY4MDM2MzgwLDU0NjM3Mzc2OF19
 -->
