@@ -6571,9 +6571,13 @@ The following resources may be helpful.
 
 ## Third Party Libraries
 
-Dont re-invent the wheel
+Dont re-invent the wheel, use libraries to copy/paste script
+
+### Example Loadsh
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTE1NzQ0MzMsLTE1NTk3NTIzODZdfQ
-==
+eyJoaXN0b3J5IjpbNTQ2MzczNzY4LC0yMTExNTc0NDMzLC0xNT
+U5NzUyMzg2XX0=
 -->
