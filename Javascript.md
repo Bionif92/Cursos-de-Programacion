@@ -6703,8 +6703,47 @@ $ nvm install 18.13.0
 $ node -v //18.13.0
 ````
 
+Let's import things!
 
+```js
+<script src="app.js" defer type="module"></script>
+```
+
+````js
+// component.js
+export const Button = () => {
+    const buttonElement = document.createElement('button');
+    buttonElement.textContent = 'click me';
+    document.body.append(buttonElement);
+}
+````
+
+Using just `export` , means we could be exporting multiple things in the file by using that keyword multiple times
+
+```js
+// component.js // named exports, the best approach! ✅
+export fn1(){}
+export fn2(){}
+```
+
+````js
+//app.js // the entry point file or root
+import {fn1, fn2} from './component.js';
+````
+
+If I wanna export just one thing, I can use `export default` and then `import Button from '/.path.js'`, but has the downside of wild-west naming when using it ❌, more about it in the coming blocks
+
+````js
+// app.js
+// let's pick one of the things exported from that module
+import { Button} from './component.js'; //👈 .js or some people will use .mjs (stands for `module`)
+
+import {} from './component';
+
+Button();
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDgwODU2MiwtMTE2NjA4OTk2OCwxMT
-AyMTIzNTAsODg1NTMxMTM5LDc2OTA5ODkxOV19
+eyJoaXN0b3J5IjpbMjc3MjA4ODc1LC02MTA4MDg1NjIsLTExNj
+YwODk5NjgsMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTld
+fQ==
 -->
