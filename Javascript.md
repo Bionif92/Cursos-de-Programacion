@@ -6816,8 +6816,25 @@ booFunction();
 
 The `booFunction` is the default, the {,} are two functions on components we want to export, in resume, we export three functions
 
+### Network tab
+
+the network tab has `app.js` and `components.js` files requested. That's not ideal, I want bundled JS, otherwise it's consuming the max concurrent number of files that the browser can download, latency of requests, parsing the JS, etc, etc, there a lot of "dead time"
+
+### Dynamic imports (load modules conditionally)
+
+Static imports will request the files when the importer file executes e.g app.js
+
+```js
+// static imports, statically defines the dependancy of a file
+// at the top of the file
+import {Button, Paragraph} from './components.js';
+```
+
+Dynamic imports will only be loaded when when something that we don't control happens (e.g click event)
+
+Lazy loading uses this feature (maybe when the user scrolls down or we load certain routes?)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwNDM0ODU1LC03NjQ3NTk3ODMsLTQxND
-g0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5NjgsMTEwMjEyMzUw
-LDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
+eyJoaXN0b3J5IjpbNDkyMjM1OTQsMzIwNDM0ODU1LC03NjQ3NT
+k3ODMsLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5Njgs
+MTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
 -->
