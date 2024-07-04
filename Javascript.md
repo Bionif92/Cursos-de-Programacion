@@ -6680,7 +6680,12 @@ As scripts can import scripts (maybe from other domains!), the browser needs to 
 
 ### We need a development server!
 
-Need to install serve
+Need to install serve 
+https://www.npmjs.com/package/serve
+
+But before need Node Js to run serve
+
+https://nodejs.org/en/download/prebuilt-installer
 
 ````bash
 $ npm i -g serve
@@ -6690,6 +6695,6 @@ then serve the project with that, and the error should be gone at `http://localh
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTEyNjg5NCwxMTAyMTIzNTAsODg1NT
-MxMTM5LDc2OTA5ODkxOV19
+eyJoaXN0b3J5IjpbLTExNjYwODk5NjgsMTEwMjEyMzUwLDg4NT
+UzMTEzOSw3NjkwOTg5MTldfQ==
 -->
