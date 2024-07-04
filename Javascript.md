@@ -6857,9 +6857,13 @@ this.hasActiveTooltip  =  true;
 
 **console.log as an example, is run in the sistem once and the first time, only the exports can run multiple times**
 
+### Modules Scope and this
+
+**With modules you are on strict mode, so this nos points to the window**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3ODMyOTY4NCwtMTMxMTExNDYzMiwxMz
+eyJoaXN0b3J5IjpbMTE2OTkyMDU4NSwtMTMxMTExNDYzMiwxMz
 g1MjU0NjMxLDMyMDQzNDg1NSwtNzY0NzU5NzgzLC00MTQ4NDU1
 NSwtNjEwODA4NTYyLC0xMTY2MDg5OTY4LDExMDIxMjM1MCw4OD
 U1MzExMzksNzY5MDk4OTE5XX0=
