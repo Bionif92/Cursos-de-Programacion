@@ -6622,10 +6622,15 @@ Use axios url
 ```
 With that we have an axios global object
 
-Instead of the promise of sendHttpRequest we made in the previous module, we use axios()
+Instead of the promise of sendHttpRequest we made in the previous module, we use axios():
+
+axios.get(url);
+axios.post()
+axios.delete()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjkyOTczMCwtMTkxNjgyMjg3MywtNz
-I1MTg2ODU2LDE1NzM4NzQ2ODgsNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbMjAzNTkyMDAzNiwtMzM2OTI5NzMwLC0xOT
+E2ODIyODczLC03MjUxODY4NTYsMTU3Mzg3NDY4OCw1NDYzNzM3
+NjhdfQ==
 -->
