@@ -6631,8 +6631,10 @@ axios.delete()
 with error, you get a nice type of error with the description on what happen
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxMDc3Mjc5OSw1MjUxODM5NDgsLTMzNj
-kyOTczMCwtMTkxNjgyMjg3MywtNzI1MTg2ODU2LDE1NzM4NzQ2
-ODgsNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbLTEzNTE3ODgyNTksNTI1MTgzOTQ4LC0zMz
+Y5Mjk3MzAsLTE5MTY4MjI4NzMsLTcyNTE4Njg1NiwxNTczODc0
+Njg4LDU0NjM3Mzc2OF19
 -->
