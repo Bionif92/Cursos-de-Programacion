@@ -6867,12 +6867,11 @@ With globalThis you point at the window and you can create a global variable
 globalThis.Default_Value = 'Max';
 ```
 
+The following resources may be helpful.
 
+-   More on Modules: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5Mjg1MTg3LDE2ODI0MDE2MzksLTEzMT
-ExMTQ2MzIsMTM4NTI1NDYzMSwzMjA0MzQ4NTUsLTc2NDc1OTc4
-MywtNDE0ODQ1NTUsLTYxMDgwODU2MiwtMTE2NjA4OTk2OCwxMT
-AyMTIzNTAsODg1NTMxMTM5LDc2OTA5ODkxOV19
+eyJoaXN0b3J5IjpbLTExNDYwMzEyOTFdfQ==
 -->
