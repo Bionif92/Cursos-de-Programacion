@@ -6597,8 +6597,10 @@ Then you can use it for your program
 const inactiveCostumers = _.difference(customers, activeCustomer);
 ```
 
+With CDN copies, you copie the url, and put it on the html on `scr` without adding the j
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzNzYyNzMxLDU0NjM3Mzc2OF19
+eyJoaXN0b3J5IjpbMTc1NDcwNDgxNyw1NDYzNzM3NjhdfQ==
 -->
