@@ -6589,13 +6589,14 @@ Need to install full build in our program, `save link as`, the 24 kB gzipped is 
 Also included in the html before your script:
 
 ```html
-<script
+<script scr='lodash.min.js' defer></script>
 ```
+Then yo
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxODc2Nzg0LDU0NjM3Mzc2OF19
+eyJoaXN0b3J5IjpbLTU1NDExODAxNiw1NDYzNzM3NjhdfQ==
 -->
