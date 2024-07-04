@@ -6584,12 +6584,18 @@ _.difference([2,  1], [2,  3]);
 ```
 this is given by lodash, but we need to define '_'
 
-Need to install full build in our program, `save link as`, the 24 kB g
+Need to install full build in our program, `save link as`, the 24 kB gzipped is better because is optimized
+
+Also included in the html before your script:
+
+```html
+<script
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY5OTExNjYsNTQ2MzczNzY4XX0=
+eyJoaXN0b3J5IjpbNzYxODc2Nzg0LDU0NjM3Mzc2OF19
 -->
