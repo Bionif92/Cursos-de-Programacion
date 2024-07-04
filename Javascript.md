@@ -6569,9 +6569,11 @@ The following resources may be helpful.
 -   More on fetch(): [https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 -   Uploading Files: [https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications](https://developer.mozilla.org/en-US/docs/Web/API/File/Using_files_from_web_applications)
 
-## Javascript Libraries
+## Third Party Libraries
 
+Dont re-invent the wheel
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk3NTIzODZdfQ==
+eyJoaXN0b3J5IjpbLTIxMTE1NzQ0MzMsLTE1NTk3NTIzODZdfQ
+==
 -->
