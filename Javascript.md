@@ -6676,8 +6676,20 @@ Access to script at 'file:///Users/estebanmunchjones/Documents/Coding/javascript
 
 As scripts can import scripts (maybe from other domains!), the browser needs to be careful
 
+#### 👉The problem is that we'r serving the html file with the `File protocol`, different that how to browser receives an html page from a web server👈
+
+### We need a development server!
+
+Install Node js
+
+````bash
+$ npm i -g serve
+````
+
+then serve the project with that, and the error should be gone at `http://localhost:3000/` 🎉
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOT
-g5MTldfQ==
+eyJoaXN0b3J5IjpbOTU1MTM1NzE3LDExMDIxMjM1MCw4ODU1Mz
+ExMzksNzY5MDk4OTE5XX0=
 -->
