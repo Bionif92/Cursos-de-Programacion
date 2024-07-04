@@ -6693,8 +6693,18 @@ $ npm i -g serve
 
 then serve the project with that, and the error should be gone at `http://localhost:3000/` 🎉
 
+### How to change the global node version?
+
+````bash
+$ node -v // 10.0.0 (I don't like it)
+
+$ nvm install 18.13.0
+
+$ node -v //18.13.0
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjYwODk5NjgsMTEwMjEyMzUwLDg4NT
-UzMTEzOSw3NjkwOTg5MTldfQ==
+eyJoaXN0b3J5IjpbLTYxMDgwODU2MiwtMTE2NjA4OTk2OCwxMT
+AyMTIzNTAsODg1NTMxMTM5LDc2OTA5ODkxOV19
 -->
