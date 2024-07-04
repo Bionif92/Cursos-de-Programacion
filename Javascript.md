@@ -6852,8 +6852,13 @@ tooltip.attach();
 this.hasActiveTooltip  =  true;
 })
 ````
+
+### When Module Code is executed?
+
+**console.log as an example, is run in the sistem once and the first time, only the exports can run multiple times**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NTI1NDYzMSwzMjA0MzQ4NTUsLTc2ND
-c1OTc4MywtNDE0ODQ1NTUsLTYxMDgwODU2MiwtMTE2NjA4OTk2
-OCwxMTAyMTIzNTAsODg1NTMxMTM5LDc2OTA5ODkxOV19
+eyJoaXN0b3J5IjpbLTEzMTExMTQ2MzIsMTM4NTI1NDYzMSwzMj
+A0MzQ4NTUsLTc2NDc1OTc4MywtNDE0ODQ1NTUsLTYxMDgwODU2
+MiwtMTE2NjA4OTk2OCwxMTAyMTIzNTAsODg1NTMxMTM5LDc2OT
+A5ODkxOV19
 -->
