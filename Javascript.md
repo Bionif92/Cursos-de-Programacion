@@ -6814,9 +6814,10 @@ Paragraph();
 booFunction();
 ````
 
-I just imported outside the brackets and name it whatever, wild west mess 🤠❌
+The `booFunction` is the default, the {,} are two functions on components we want to export, in resume, we export three functions
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NDc1OTc4MywtNDE0ODQ1NTUsLTYxMD
-gwODU2MiwtMTE2NjA4OTk2OCwxMTAyMTIzNTAsODg1NTMxMTM5
-LDc2OTA5ODkxOV19
+eyJoaXN0b3J5IjpbMzIwNDM0ODU1LC03NjQ3NTk3ODMsLTQxND
+g0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5NjgsMTEwMjEyMzUw
+LDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
 -->
