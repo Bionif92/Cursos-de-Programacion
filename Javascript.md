@@ -6638,11 +6638,29 @@ See if has star rating for the library, has recent activities, and no so many bu
 
 ## Modules in Javascript
 
+How not to split the code:
 
+we could split the code into multiple files and add them to the html
+
+```js
+<script src='file1.js'>
+<script src="file2.js">
+```
+
+Downsides:
+
+1. to many concurrent script downloads in the browser
+
+2. if file2.js uses things from file1.js and I change the order of the scripts, I get an error of x is not defined
+
+3. every new file created needs to be added to the HTML
+
+4. #### 👉all the variables are in the global scope🤭 (e.g any other files can use them, provided the right file was imported before)👈
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NTMxMTM5LDc2OTA5ODkxOV19
+eyJoaXN0b3J5IjpbLTc0OTc5NzY5Niw4ODU1MzExMzksNzY5MD
+k4OTE5XX0=
 -->
