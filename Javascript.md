@@ -6620,10 +6620,12 @@ Use axios url
 ```html
 <script  src="https://unpkg.com/axios/dist/axios.min.js"  defer></script>
 ```
-W
+With that we have an axios global object
+
+Instead of the promise of sendHttpRequest we made in the previous module, we use axios()
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTYzNzQ0LC0xOTE2ODIyODczLC03Mj
-UxODY4NTYsMTU3Mzg3NDY4OCw1NDYzNzM3NjhdfQ==
+eyJoaXN0b3J5IjpbLTMzNjkyOTczMCwtMTkxNjgyMjg3MywtNz
+I1MTg2ODU2LDE1NzM4NzQ2ODgsNTQ2MzczNzY4XX0=
 -->
