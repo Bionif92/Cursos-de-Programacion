@@ -6841,7 +6841,7 @@ showMoreInfoHandler() {
 }
 const  projectElement  =  document.getElementById(this.id);
 const  tooltipText  =  projectElement.dataset.extraInfo;
-// here you change to a dinn
+// here you change to a dinamic export
 import('./Tooltip.js').then(module =>
 const  tooltip  =  new  module.Tooltip(() => {this.hasActiveTooltip  =  false;
 },
@@ -6850,21 +6850,10 @@ this.id
 );
 tooltip.attach();
 this.hasActiveTooltip  =  true;
-}
-
-connectDrag() {
-const  item  =  document.getElementById(this.id);
-item.addEventListener('dragstart', event  => {
-event.dataTransfer.setData('text/plain', this.id);
-event.dataTransfer.effectAllowed  =  'move';
-});
-item.addEventListener('dragend', event  => {
-console.log(event);
-});
-}
+})
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODI1OTk5OTcsMzIwNDM0ODU1LC03Nj
-Q3NTk3ODMsLTQxNDg0NTU1LC02MTA4MDg1NjIsLTExNjYwODk5
-NjgsMTEwMjEyMzUwLDg4NTUzMTEzOSw3NjkwOTg5MTldfQ==
+eyJoaXN0b3J5IjpbMTM4NTI1NDYzMSwzMjA0MzQ4NTUsLTc2ND
+c1OTc4MywtNDE0ODQ1NTUsLTYxMDgwODU2MiwtMTE2NjA4OTk2
+OCwxMTAyMTIzNTAsODg1NTMxMTM5LDc2OTA5ODkxOV19
 -->
