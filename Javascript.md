@@ -6911,7 +6911,99 @@ what tools have we used so far?
 1. run `npm init`.
 
  It creates a package.json file
+
+### Installing eslint package
+
+1. at the root of your project, run `npm i --save-dev eslint`
+
+I want it to be a dev dependancy, only used on my laptop during dev, and it's not gonna be imported when creating the production bundle
+
+it looks like this:
+````json
+// package.json
+{
+  "devDependencies": {
+    "eslint": "^8.33.0" // carret symbol means any higher version will work
+  },
+}
+````
+
+
+
+2. if `git init` was run before, but no `.gitignore` file wasn't created, please create one and add `node_modules` to it.
+
+### Let's set up ESLint
+
+1. go to VSCode
+2. install the ESLint plugin
+3. Close and open VSCode
+4. Enable it by going the the command pallet cmd + shif + p
+5. Choose `Enable ESLint` ❌ (couldn't find this option)
+6. Choose `ESLint: Create ESLint Configuration`. Not the best way ❌(check out the easier way below 👇)
+7. I had to downgrade eslint `npm i --save-dev eslint@7.19.0`
+8. I'll get a .eslintrc.json (or other format) file added to the project
+
+Easier way:✅
+
+a.   `npx eslint init` and follow the steps
+
+b. You will have the eslint package installed (and some plugins) as dev dependencies
+
+Hot tip: how to enable seeing the ESLint output when going to the tab near Terminal called `Outputs`? just use the dropdown and select ESLint, that save my butt!
+
+9. Use double quotes:
+   ```
+   // app.js
+   const name = "esteban"
+   ```
+
+   close vscode and reopen it (we'll run a command later on, but needs to be defined in package.json first)
+
+10. The error should be highlighted in red!
+    ````text
+    Combine this with the previous 'const' statement.eslintone-var
+    Strings must use singlequote.eslintquotes
+    ````
+
+    
+
+11. We can disable rules per line basis, by clicking on `Quick Fix`, as a last resort.
+
+    ````
+    // eslint-disable-next-line quotes
+    const name = "esteban";
+    ````
+
+12. Autompletion trick: in the `.eslintrc.json` file, to see the options for the values, just type `ctrl + space`💡
+
+13. Fix all errors at once in a file: command pallete + `ESLint: Fix all autofixable errors`
+
+14. Loking for errors visually is a pain. Let's find errors with the ESLint CLI:
+    ````bash
+    // let's imagine we have /scripts/app.js and /scripts/components.js
+    
+    // run on all files inside a folder
+    // npx will runs the file "eslint" found on the /node_modules/eslint/eslint.js? (tbc)
+    $ npx eslint /scripts/**
+    
+    //run on a single file
+    $ npx eslint app.js
+    ````
+
+15. Let's add a lint script to package.json
+
+    ````json
+    "scripts": {
+    	"lint": "eslint src/**"
+    }
+    ````
+
+    we can then run that with:
+
+    ```bash
+    $ npm run lint
+    ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzcxMTg1MCwtMTUzNDU0Mzc5NCw0Mj
-U1NDk5NDYsLTExNDYwMzEyOTFdfQ==
+eyJoaXN0b3J5IjpbMTA2NDgyOTI1MywtODYzNzExODUwLC0xNT
+M0NTQzNzk0LDQyNTU0OTk0NiwtMTE0NjAzMTI5MV19
 -->
