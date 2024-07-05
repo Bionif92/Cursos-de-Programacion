@@ -6943,10 +6943,10 @@ Steps:
 
  1. Terminal `npm i --save-dev eslint@7.19.0`
  2. Terminal `npx eslint --init`
- 3. Follow Steps, define style
+ 3. Follow Steps, define style: Inspect Javascript File, the file: assets/scripts/app.js 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzAwNDE3MzIsMjY5MTM3NjY5LC0xNT
-YwNjEwNjQxLDE3MzQ0MjUyNjQsNjk2OTM3MDU0LC0xNzM0NDUw
-MDU0XX0=
+eyJoaXN0b3J5IjpbMjM2NTc4Nzc5LDI2OTEzNzY2OSwtMTU2MD
+YxMDY0MSwxNzM0NDI1MjY0LDY5NjkzNzA1NCwtMTczNDQ1MDA1
+NF19
 -->
