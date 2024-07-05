@@ -6906,7 +6906,7 @@ what tools have we used so far?
   -  Compilation 
   -  optimisation
 
-### Installing eslint package
+### Setting NPM Proyect
 
 1. go to VSCode
 2. install the ESLint plugin
@@ -6915,8 +6915,10 @@ what tools have we used so far?
 5. Need this project manegeable for npm, terminal for this proyect, `npm init` 
 6. Confirm everything, change description if you want, author you can put your name
 7. After all that you will have a package.json
+
+### Working with NPM Packages
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDY1NjI2LDEwNjQ4MjkyNTMsLTg2Mz
-cxMTg1MCwtMTUzNDU0Mzc5NCw0MjU1NDk5NDYsLTExNDYwMzEy
-OTFdfQ==
+eyJoaXN0b3J5IjpbLTE2OTMzOTk0NjMsMTAyNDY1NjI2LDEwNj
+Q4MjkyNTMsLTg2MzcxMTg1MCwtMTUzNDU0Mzc5NCw0MjU1NDk5
+NDYsLTExNDYwMzEyOTFdfQ==
 -->
