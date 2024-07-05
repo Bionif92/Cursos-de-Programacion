@@ -6920,11 +6920,12 @@ what tools have we used so far?
 
 Install our first package:
 
- 1. On terminal`npm install --save-dev eslint` it is a develop dependency
+ 1. On terminal`npm install --save-dev eslint` it is a develop dependency - now you have Dependency eslint in th json.package
  2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NzA0MDA2LC0yOTUxODcyNDAsMTAyND
-Y1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1MCwtMTUzNDU0Mzc5
-NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ==
+eyJoaXN0b3J5IjpbLTExNTE3MDQ3NjcsMjk1NzA0MDA2LC0yOT
+UxODcyNDAsMTAyNDY1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1
+MCwtMTUzNDU0Mzc5NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ
+==
 -->
