@@ -6925,6 +6925,9 @@ Install our first package:
 
 ### Linting with Eslint
 
+ 1. Ctrl+Shift+P - Create Eslint Configuration
+ 2. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ0NTAwNTRdfQ==
+eyJoaXN0b3J5IjpbNjk2OTM3MDU0LC0xNzM0NDUwMDU0XX0=
 -->
