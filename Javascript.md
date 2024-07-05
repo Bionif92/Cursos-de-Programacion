@@ -6911,9 +6911,10 @@ what tools have we used so far?
 1. go to VSCode
 2. install the ESLint plugin
 3. Close and open VSCode
-4. In the terminal, npm install eslint
+4. In the terminal, npm install -g eslint for global
+5. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTc3ODAxMiwxMDY0ODI5MjUzLC04Nj
+eyJoaXN0b3J5IjpbMTQ4MzIzMzkwMSwxMDY0ODI5MjUzLC04Nj
 M3MTE4NTAsLTE1MzQ1NDM3OTQsNDI1NTQ5OTQ2LC0xMTQ2MDMx
 MjkxXX0=
 -->
