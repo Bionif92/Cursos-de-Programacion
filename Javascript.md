@@ -6926,8 +6926,5 @@ Install our first package:
 ### Linting with Eslint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ0NTAwNTQsMjk1NzA0MDA2LC0yOT
-UxODcyNDAsMTAyNDY1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1
-MCwtMTUzNDU0Mzc5NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ
-==
+eyJoaXN0b3J5IjpbLTE3MzQ0NTAwNTRdfQ==
 -->
