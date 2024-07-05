@@ -6885,8 +6885,27 @@ at the moment, using modules, we have these limitations:
 6. 
 
 what tools have we used so far?
+1. Web server (serve): to avoid cors erros when importing modules
 
+### Workflow
+
+**Development**
+
+- I wanna trigger the tooling process upon Save
+- I wanna have 
+  - Linting 
+  - Bundling 
+  - reloading the page
+
+**Production**:
+
+- I wanna trigger the tooling process upon a command
+- I wanna have:
+  -  Linting 
+  - Bundling 
+  -  Compilation 
+  -  optimisation
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzQ1NDM3OTQsNDI1NTQ5OTQ2LC0xMT
-Q2MDMxMjkxXX0=
+eyJoaXN0b3J5IjpbMTY1MDQ1Mjk0OCwtMTUzNDU0Mzc5NCw0Mj
+U1NDk5NDYsLTExNDYwMzEyOTFdfQ==
 -->
