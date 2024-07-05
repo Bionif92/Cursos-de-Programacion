@@ -6917,8 +6917,13 @@ what tools have we used so far?
 7. After all that you will have a package.json
 
 ### Working with NPM Packages
+
+Install our first package:
+
+ 1. O`npm `
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyMjc1OTQ3MywtMjk1MTg3MjQwLDEwMj
-Q2NTYyNiwxMDY0ODI5MjUzLC04NjM3MTE4NTAsLTE1MzQ1NDM3
-OTQsNDI1NTQ5OTQ2LC0xMTQ2MDMxMjkxXX0=
+eyJoaXN0b3J5IjpbNDc0ODgxNTAzLC0yOTUxODcyNDAsMTAyND
+Y1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1MCwtMTUzNDU0Mzc5
+NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ==
 -->
