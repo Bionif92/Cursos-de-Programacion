@@ -6942,9 +6942,10 @@ Also check out the docs in general: [https://eslint.org/docs/user-guide/getting-
 Steps:
 
  1. Ctrl+Shift+P - Create Eslint Configuration
- 2. 
+ 2. Select to check syntacs and find problems
+ 3. Select Javascript modules (import/export)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDQyNTI2NCw2OTY5MzcwNTQsLTE3Mz
-Q0NTAwNTRdfQ==
+eyJoaXN0b3J5IjpbMzY1OTMwNzE0LDE3MzQ0MjUyNjQsNjk2OT
+M3MDU0LC0xNzM0NDUwMDU0XX0=
 -->
