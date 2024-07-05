@@ -6873,7 +6873,20 @@ The following resources may be helpful.
 
 ## Javascript Tooling & Workflows
 
+### Tooling
+
+at the moment, using modules, we have these limitations:
+
+1.  lot of http request to download each JS file (Webpack)
+2. Code not optimised (white spaces, long variable names, etc) (not minified) (Webpack Optimiser)
+3. Browser support (some browsers won't understand some of my modern code) (Babel)
+4. No hot reload (I need to refresh the page after changing things in my code)(I need automatic reloads!) (webpack-dev-server)
+5. Code quality not checked (usage of let when not needed, super nested ternary expressions, etc)(ESLint)
+6. 
+
+what tools have we used so far?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1NTQ5OTQ2LC0xMTQ2MDMxMjkxXX0=
+eyJoaXN0b3J5IjpbLTE1MzQ1NDM3OTQsNDI1NTQ5OTQ2LC0xMT
+Q2MDMxMjkxXX0=
 -->
