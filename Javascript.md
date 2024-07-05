@@ -6905,7 +6905,13 @@ what tools have we used so far?
   - Bundling 
   -  Compilation 
   -  optimisation
+
+### Settiing up an npm project
+
+1. run `npm init`.
+
+ It creates a package.json file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDQ1Mjk0OCwtMTUzNDU0Mzc5NCw0Mj
+eyJoaXN0b3J5IjpbLTg2MzcxMTg1MCwtMTUzNDU0Mzc5NCw0Mj
 U1NDk5NDYsLTExNDYwMzEyOTFdfQ==
 -->
