@@ -6903,7 +6903,7 @@ what tools have we used so far?
 - I wanna have:
   -  Linting 
   - Bundling 
-  -  Compilation 
+  -  Compilation (make js readable for every system)
   -  optimisation
 
 ### Setting NPM Proyect
@@ -6918,7 +6918,7 @@ what tools have we used so far?
 
 ### Working with NPM Packages
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTE4NzI0MCwxMDI0NjU2MjYsMTA2ND
-gyOTI1MywtODYzNzExODUwLC0xNTM0NTQzNzk0LDQyNTU0OTk0
-NiwtMTE0NjAzMTI5MV19
+eyJoaXN0b3J5IjpbMTUyMjc1OTQ3MywtMjk1MTg3MjQwLDEwMj
+Q2NTYyNiwxMDY0ODI5MjUzLC04NjM3MTE4NTAsLTE1MzQ1NDM3
+OTQsNDI1NTQ5OTQ2LC0xMTQ2MDMxMjkxXX0=
 -->
