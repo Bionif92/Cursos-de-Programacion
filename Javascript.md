@@ -6943,10 +6943,10 @@ Steps:
 
  1. Terminal `npm i --save-dev eslint@7.19.0`
  2. Terminal `npx eslint --init`
- 3. Follow Steps
+ 3. Follow Steps, define style
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNTY0NTQzNiwyNjkxMzc2NjksLTE1Nj
-A2MTA2NDEsMTczNDQyNTI2NCw2OTY5MzcwNTQsLTE3MzQ0NTAw
-NTRdfQ==
+eyJoaXN0b3J5IjpbLTE5MzAwNDE3MzIsMjY5MTM3NjY5LC0xNT
+YwNjEwNjQxLDE3MzQ0MjUyNjQsNjk2OTM3MDU0LC0xNzM0NDUw
+MDU0XX0=
 -->
