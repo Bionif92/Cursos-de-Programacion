@@ -6912,9 +6912,9 @@ what tools have we used so far?
 2. install the ESLint plugin
 3. Close and open VSCode
 4. In the terminal, `npm install -g eslint` for global
-5. 
+5. Need this project manegeable for npm, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODMxOTQyNjYzLDEwNjQ4MjkyNTMsLTg2Mz
-cxMTg1MCwtMTUzNDU0Mzc5NCw0MjU1NDk5NDYsLTExNDYwMzEy
-OTFdfQ==
+eyJoaXN0b3J5IjpbMTczNjc5MTk2NSwxMDY0ODI5MjUzLC04Nj
+M3MTE4NTAsLTE1MzQ1NDM3OTQsNDI1NTQ5OTQ2LC0xMTQ2MDMx
+MjkxXX0=
 -->
