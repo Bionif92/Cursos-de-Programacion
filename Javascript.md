@@ -6920,10 +6920,11 @@ what tools have we used so far?
 
 Install our first package:
 
- 1. O`npm `
+ 1. On terminal`npm install --save-dev eslint` it is a develop dependency
+ 2. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0ODgxNTAzLC0yOTUxODcyNDAsMTAyND
+eyJoaXN0b3J5IjpbMjk1NzA0MDA2LC0yOTUxODcyNDAsMTAyND
 Y1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1MCwtMTUzNDU0Mzc5
 NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ==
 -->
