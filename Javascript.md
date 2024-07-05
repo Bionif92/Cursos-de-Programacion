@@ -6944,8 +6944,11 @@ Steps:
  1. Ctrl+Shift+P - Create Eslint Configuration
  2. Select to check syntacs and find problems
  3. Select Javascript modules (import/export)
+ 4. Framework: none of this
+ 5. Typescript - No
+ 6. Where code run - Browser
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY1OTMwNzE0LDE3MzQ0MjUyNjQsNjk2OT
-M3MDU0LC0xNzM0NDUwMDU0XX0=
+eyJoaXN0b3J5IjpbLTE1NjA2MTA2NDEsMTczNDQyNTI2NCw2OT
+Y5MzcwNTQsLTE3MzQ0NTAwNTRdfQ==
 -->
