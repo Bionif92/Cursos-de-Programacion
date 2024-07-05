@@ -6941,7 +6941,7 @@ Also check out the docs in general: [https://eslint.org/docs/user-guide/getting-
 
 Steps:
 
- 1. Ctrl+Shift+P - Create Eslint Configuration
+ 1. Terminal npx eslint -- init
  2. Select to check syntacs and find problems
  3. Select Javascript modules (import/export)
  4. Framework: none of this
@@ -6949,6 +6949,6 @@ Steps:
  6. Where code run - Browser
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjA2MTA2NDEsMTczNDQyNTI2NCw2OT
-Y5MzcwNTQsLTE3MzQ0NTAwNTRdfQ==
+eyJoaXN0b3J5IjpbMjY5MTM3NjY5LC0xNTYwNjEwNjQxLDE3Mz
+Q0MjUyNjQsNjk2OTM3MDU0LC0xNzM0NDUwMDU0XX0=
 -->
