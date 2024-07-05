@@ -6921,10 +6921,10 @@ what tools have we used so far?
 Install our first package:
 
  1. On terminal`npm install --save-dev eslint` it is a develop dependency - now you have Dependency eslint in th json.package
- 2. 
+ 2. Never change data in Node_Modules files
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTE3MDQ3NjcsMjk1NzA0MDA2LC0yOT
+eyJoaXN0b3J5IjpbLTE5MzIxODYyMjcsMjk1NzA0MDA2LC0yOT
 UxODcyNDAsMTAyNDY1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1
 MCwtMTUzNDU0Mzc5NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ
 ==
