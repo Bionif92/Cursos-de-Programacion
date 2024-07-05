@@ -6893,8 +6893,8 @@ what tools have we used so far?
 
 - I wanna trigger the tooling process upon Save
 - I wanna have 
-  - Linting 
-  - Bundling 
+  - Linting (check code and code quality)
+  - Bundling (make a bigger file) 
   - reloading the page
 
 **Production**:
@@ -6918,7 +6918,7 @@ what tools have we used so far?
 
 ### Working with NPM Packages
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMzOTk0NjMsMTAyNDY1NjI2LDEwNj
-Q4MjkyNTMsLTg2MzcxMTg1MCwtMTUzNDU0Mzc5NCw0MjU1NDk5
-NDYsLTExNDYwMzEyOTFdfQ==
+eyJoaXN0b3J5IjpbLTI5NTE4NzI0MCwxMDI0NjU2MjYsMTA2ND
+gyOTI1MywtODYzNzExODUwLC0xNTM0NTQzNzk0LDQyNTU0OTk0
+NiwtMTE0NjAzMTI5MV19
 -->
