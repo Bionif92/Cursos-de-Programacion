@@ -6923,10 +6923,11 @@ Install our first package:
  1. On terminal`npm install --save-dev eslint` it is a develop dependency - now you have Dependency eslint in th json.package
  2. Never change data in Node_Modules files
 
-
+### Linting with Eslint
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1Mzg4MDA5LDI5NTcwNDAwNiwtMjk1MT
-g3MjQwLDEwMjQ2NTYyNiwxMDY0ODI5MjUzLC04NjM3MTE4NTAs
-LTE1MzQ1NDM3OTQsNDI1NTQ5OTQ2LC0xMTQ2MDMxMjkxXX0=
+eyJoaXN0b3J5IjpbLTE3MzQ0NTAwNTQsMjk1NzA0MDA2LC0yOT
+UxODcyNDAsMTAyNDY1NjI2LDEwNjQ4MjkyNTMsLTg2MzcxMTg1
+MCwtMTUzNDU0Mzc5NCw0MjU1NDk5NDYsLTExNDYwMzEyOTFdfQ
+==
 -->
