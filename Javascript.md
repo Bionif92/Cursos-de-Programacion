@@ -6913,9 +6913,10 @@ what tools have we used so far?
 3. Close and open VSCode
 4. In the terminal, `npm install -g eslint` for global
 5. Need this project manegeable for npm, terminal for this proyect, `npm init` 
-6. Confirm everything, change description if you want,
+6. Confirm everything, change description if you want, author you can put your name
+7. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjE4OTA0OTYsMTA2NDgyOTI1MywtOD
-YzNzExODUwLC0xNTM0NTQzNzk0LDQyNTU0OTk0NiwtMTE0NjAz
-MTI5MV19
+eyJoaXN0b3J5IjpbMTk2MTc1MTM3MCwxMDY0ODI5MjUzLC04Nj
+M3MTE4NTAsLTE1MzQ1NDM3OTQsNDI1NTQ5OTQ2LC0xMTQ2MDMx
+MjkxXX0=
 -->
