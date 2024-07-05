@@ -6941,14 +6941,12 @@ Also check out the docs in general: [https://eslint.org/docs/user-guide/getting-
 
 Steps:
 
- 1. Terminal npx eslint -- init
- 2. Select to check syntacs and find problems
- 3. Select Javascript modules (import/export)
- 4. Framework: none of this
- 5. Typescript - No
- 6. Where code run - Browser
+ 1. Terminal `npm i --save-dev eslint@7.19.0`
+ 2. Terminal `npx eslint --init`
+ 3. Follow Steps
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY5MTM3NjY5LC0xNTYwNjEwNjQxLDE3Mz
-Q0MjUyNjQsNjk2OTM3MDU0LC0xNzM0NDUwMDU0XX0=
+eyJoaXN0b3J5IjpbMTYzNTY0NTQzNiwyNjkxMzc2NjksLTE1Nj
+A2MTA2NDEsMTczNDQyNTI2NCw2OTY5MzcwNTQsLTE3MzQ0NTAw
+NTRdfQ==
 -->
