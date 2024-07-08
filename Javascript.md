@@ -7218,6 +7218,7 @@ $ npm i--save lodash// will apear dependency in package.json
 //in app.js file as example
 import * as _ from 'lodash';
 console.log(_.difference([0,1],[]));
+$ npm run build:dev // it will add it to the bundle
 ```
 
 ````js 
@@ -7313,7 +7314,7 @@ module.exports = {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTQxMzA3MiwtMTQ4ODU0NjIzNiwtMT
-MwNTI5Mjk5MywtMTQ0NjY3Mjc1NSwtMTQ3NTcxNDk1OCwyMjY1
-MDc4OThdfQ==
+eyJoaXN0b3J5IjpbMTE2Nzg5NzQ2LC00OTE0MTMwNzIsLTE0OD
+g1NDYyMzYsLTEzMDUyOTI5OTMsLTE0NDY2NzI3NTUsLTE0NzU3
+MTQ5NTgsMjI2NTA3ODk4XX0=
 -->
