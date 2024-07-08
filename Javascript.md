@@ -7041,7 +7041,7 @@ If you want to change the bundle to development mode:
 
 ```js
 module.exports = {
-	mode:'development'
+	mode:'development'// add this
 	entry:'./src/app.js',
 	output: {
 		filename: 'app.js',
@@ -7051,9 +7051,12 @@ module.exports = {
 ```
 And the run: `npm run build`, you have files that are not optimized
 
-If you want to se if it work, use `serve` on terminal, you can see there is only one httpp
+If you want to se if it work, use `serve` on terminal, you can see there is only one http request
+
+We need to fix the route in which the program take the scripts:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTQyNzEyMiw5NDEzMTkwNjAsLTIzOT
-gzODU4NSwtMTMxMDkxMDg0OSwtMzA0ODExNTY5XX0=
+eyJoaXN0b3J5IjpbLTIwMzY2NTIzNjksOTQxMzE5MDYwLC0yMz
+k4Mzg1ODUsLTEzMTA5MTA4NDksLTMwNDgxMTU2OV19
 -->
