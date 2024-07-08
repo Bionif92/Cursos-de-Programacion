@@ -7127,7 +7127,31 @@ That level of source maps detail is too slow to generate for production, so I'll
 
 we need a new webpack.config file!
 
+````js
+// webpack.config.prod.js
+const path = require('path');
+
+module.exports = {
+    mode: 'production',
+    entry: './src/app.js',
+    output: {
+        // relative path to this file
+        filename: 'app.js',
+        // absolute path, as a new file needs to be created using the fs
+        path: path.resolve(__dirname, 'assets', 'scripts'),
+        publicPath: '/assets/scripts/'
+    },
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname)
+        },
+    },
+    devtool: 'source-map'
+
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU4MjY0OTUsLTE0NzU3MTQ5NTgsMj
-I2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbMTM4NjMxMzQ4MiwtMTQ3NTcxNDk1OCwyMj
+Y1MDc4OThdfQ==
 -->
