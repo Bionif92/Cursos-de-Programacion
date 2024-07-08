@@ -7101,9 +7101,9 @@ $ npm run build:dev
 ````
 **It is a process that keep on running, you should keep this running until you finish your day**
 
-W
+With that you have your files automatically changed when you make a change
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjQwOTczMCwtMjA1NjA3Njk3NywtMT
-kxODMxMzI2Myw5NDEzMTkwNjAsLTIzOTgzODU4NSwtMTMxMDkx
-MDg0OSwtMzA0ODExNTY5XX0=
+eyJoaXN0b3J5IjpbMjI2NTA3ODk4XX0=
 -->
