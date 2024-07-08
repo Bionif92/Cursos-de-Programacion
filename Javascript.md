@@ -6985,10 +6985,23 @@ const path = require('path');
  10. Modify errors, and on import, we dont need the .js extension to work, delete it
  **The errors, can be fixed ✅ using a LOADER (check out the section `Browser support` in the course)**
 
+ I got an error because I was using node v.10.0.0. how to change that default version of node nvm uses on every project?
+
+    ````bash
+    $ node -v // v.10.0.0
+    $ nvm alias default //v.10.0.0
+    
+    $nvm ls // to print all version downloaded
+    $ nvm alias default v18.13.0
+    $ nvm use default
+    $ node -v // 18.13.0 ✅
+    ````
 
  12. You have two files as output, one full, and one when tooltip is needed
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk1OTA4MzAyLC0yMzk4Mzg1ODUsLTEzMT
-A5MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTg5MDcxNTA5NCwtMjM5ODM4NTg1LC0xMz
+EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
