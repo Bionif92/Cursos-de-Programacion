@@ -7188,7 +7188,7 @@ After all run `npm run build:prod`
 💡Side note: If we run `npm run serve` before doing any build, the `assets/scripts/` folder will be empty, because the compiled JS is served from memory.
 Plugins can modify the output of webpack
 
- 2. Change name of files when you save
+ 2. Change version of app.js that you save last, generating different name
 
 ````js
    // webpack.config.prod.js
@@ -7210,6 +7210,6 @@ Run `npm run build:prod`
 
 ### Using 3rd part libraries!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxNDU3NDQ4LC0xNDQ2NjcyNzU1LC0xND
-c1NzE0OTU4LDIyNjUwNzg5OF19
+eyJoaXN0b3J5IjpbLTcyNjk0OTQ2NywtMTQ0NjY3Mjc1NSwtMT
+Q3NTcxNDk1OCwyMjY1MDc4OThdfQ==
 -->
