@@ -6945,10 +6945,12 @@ Steps:
  2. Terminal `npx eslint --init`
  3. Follow Steps, define style: Inspect Javascript File, the file: assets/scripts/app.js, format: json
 
-You can 
+You can see the errors on your script, change it to the format they give, or just find the line in the eslint.json and disable if you dont want it
+
+You can also autoformat with
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDY2Nzg0MjUsLTQ3MTAxNzY0MCwtMT
-g1NzM1Mjc5MCwyNjkxMzc2NjksLTE1NjA2MTA2NDEsMTczNDQy
-NTI2NCw2OTY5MzcwNTQsLTE3MzQ0NTAwNTRdfQ==
+eyJoaXN0b3J5IjpbMTkzMzM5MjkxNywtNDcxMDE3NjQwLC0xOD
+U3MzUyNzkwLDI2OTEzNzY2OSwtMTU2MDYxMDY0MSwxNzM0NDI1
+MjY0LDY5NjkzNzA1NCwtMTczNDQ1MDA1NF19
 -->
