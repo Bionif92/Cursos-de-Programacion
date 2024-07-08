@@ -6947,12 +6947,10 @@ Steps:
 
 **You can see the errors on your script, change it to the format they give, or just find the line in the eslint.json and disable if you dont want it
 You can also autoformat with Ctrl+Shift+P:**
-
 `Eslint - Fix all auto-fixable Problems`
-You can remove rules if you want, see what you prefer**** 
+
+**You can remove rules if you want, see what you prefer**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkxNDI2MjMsLTQ3MTAxNzY0MCwtMT
-g1NzM1Mjc5MCwyNjkxMzc2NjksLTE1NjA2MTA2NDEsMTczNDQy
-NTI2NCw2OTY5MzcwNTQsLTE3MzQ0NTAwNTRdfQ==
+eyJoaXN0b3J5IjpbMTQ1NjQ4MzE1MV19
 -->
