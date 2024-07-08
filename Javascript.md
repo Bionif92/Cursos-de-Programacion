@@ -7313,8 +7313,8 @@ module.exports = {
     ]
 }
 ````
+
+## Utilizing Browser Storage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDI0NzU4NSwtNDkxNDEzMDcyLC0xND
-g4NTQ2MjM2LC0xMzA1MjkyOTkzLC0xNDQ2NjcyNzU1LC0xNDc1
-NzE0OTU4LDIyNjUwNzg5OF19
+eyJoaXN0b3J5IjpbLTEyOTc4NzExODldfQ==
 -->
