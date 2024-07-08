@@ -7159,9 +7159,14 @@ module.exports = {
 }
  
 ````
-Run npm run build:prod
+Run `npm run build:prod` and see the code in the browser
+
+### Final Optimizations
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMDc1MTc0OSwtMTQ3NTcxNDk1OCwyMj
-Y1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbMTg2MjcyODg2LC0xNDc1NzE0OTU4LDIyNj
+UwNzg5OF19
 -->
