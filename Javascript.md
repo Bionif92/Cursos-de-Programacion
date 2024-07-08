@@ -7089,9 +7089,19 @@ module.exports = {
     }
 }
 ```
+ 3. Script in package.json:
+````json
+"scripts": {
+  "build:dev": "webpack-dev-server"
+}
+````
+ 4. Run on terminal
+````bash
+$ npm run build:dev
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA2MTE2ODksLTIwNTYwNzY5NzcsLT
-E5MTgzMTMyNjMsOTQxMzE5MDYwLC0yMzk4Mzg1ODUsLTEzMTA5
-MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTk5MTExMDY0MywtMjA1NjA3Njk3NywtMT
+kxODMxMzI2Myw5NDEzMTkwNjAsLTIzOTgzODU4NSwtMTMxMDkx
+MDg0OSwtMzA0ODExNTY5XX0=
 -->
