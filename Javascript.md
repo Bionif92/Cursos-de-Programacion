@@ -6967,9 +6967,15 @@ module.exports = {};
  5. Imput files in a new foulder: src, in this case app.js
  6. In Webpack file:
 ```js
+module.exports = {
+	entry:'./src/app.js',
+	output: {
+		filename:
+	}
+};
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk5NTM2NjEyLC0yMzk4Mzg1ODUsLTEzMT
-A5MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTgwODYzODY3NywtMjM5ODM4NTg1LC0xMz
+EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
