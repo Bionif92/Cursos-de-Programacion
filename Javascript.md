@@ -6957,11 +6957,16 @@ You can also autoformat with Ctrl+Shift+P:**
 
 https://webpack.js.org/
 
-1. Terminal 
-2. `npm i --save-dev webpack webpack-cli`
-3. Create configuration file: `webpack.config.js`
-4. Webpack will import this file (running on Node) to bundle my code: 
+ 1. Terminal 
+ 2. `npm i --save-dev webpack webpack-cli`
+ 3. Create configuration file: `webpack.config.js`
+ 4. Webpack will import this file (running on Node) to bundle my code: 
+```js
+module.exports = {};
+```
+ 5. 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODM2OTE5MiwtMTMxMDkxMDg0OSwtMz
+eyJoaXN0b3J5IjpbLTIzOTgzODU4NSwtMTMxMDkxMDg0OSwtMz
 A0ODExNTY5XX0=
 -->
