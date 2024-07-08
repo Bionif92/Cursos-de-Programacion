@@ -6980,10 +6980,10 @@ module.exports = {
 const path = require('path');
 ```
  8. To use it, come back to package.json, in scripts:
-`{, "build":"webpack"}`
-
+`{, "build":"webpack"}` and save it
+ 9. On terminal, 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTY1Nzk0MywtMjM5ODM4NTg1LC0xMz
+eyJoaXN0b3J5IjpbLTQyMjAzMzczNiwtMjM5ODM4NTg1LC0xMz
 EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
