@@ -7163,6 +7163,8 @@ Run `npm run build:prod` and see the code in the browser
 
 ### Final Optimizations
 
+ 1. Clean Foulders
+
 . the `/assets/script` folder is getting messy; let's delete the content and replace it every time a build process happens.
 
 ````bash
@@ -7186,9 +7188,9 @@ After all run `npm run build:prod`
 💡Side note: If we run `npm run serve` before doing any build, the `assets/scripts/` folder will be empty, because the compiled JS is served from memory.
 Plugins can modify the output of webpack
 
-
+ 2. Change name of files
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjI2MjQwNCwtMTQ3NTcxNDk1OCwyMj
-Y1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbLTE0NDY2NzI3NTUsLTE0NzU3MTQ5NTgsMj
+I2NTA3ODk4XX0=
 -->
