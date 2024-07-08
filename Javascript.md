@@ -6951,6 +6951,10 @@ You can also autoformat with Ctrl+Shift+P:**
 
 **You can remove rules if you want, see what you prefer**
 
+ Autompletion trick: in the `.eslintrc.json` file, to see the options for the values, just type `ctrl + space`💡
+
+### Bundling with We
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NjQ4MzE1MV19
+eyJoaXN0b3J5IjpbMjU0MTEzNzQyLDE0NTY0ODMxNTFdfQ==
 -->
