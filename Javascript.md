@@ -7037,9 +7037,21 @@ You can  **learn more about multiple entry points**  with these two resources:
 
 ### Development Mode & Fixing
 
+If you want to change the bundle to development mode:
 
+```js
+module.exports = {
+	mode:'development'
+	entry:'./src/app.js',
+	output: {
+		filename: 'app.js',
+		path:path.resolve(__dirname,'assets','scripts')
+	}
+};
+```
+And the run: `mp`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMzE5MDYwLC0yMzk4Mzg1ODUsLTEzMT
-A5MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbMTAzMDE5NDQ4Nyw5NDEzMTkwNjAsLTIzOT
+gzODU4NSwtMTMxMDkxMDg0OSwtMzA0ODExNTY5XX0=
 -->
