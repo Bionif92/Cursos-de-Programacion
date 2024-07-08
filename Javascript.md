@@ -7159,7 +7159,8 @@ module.exports = {
 }
  
 ````
+Run npm run build:prod
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjQ0NTA4NDcsLTE0NzU3MTQ5NTgsMj
-I2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbLTYwMTk0NTg0MywtMTQ3NTcxNDk1OCwyMj
+Y1MDc4OThdfQ==
 -->
