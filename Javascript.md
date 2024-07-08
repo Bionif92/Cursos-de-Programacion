@@ -7188,7 +7188,7 @@ After all run `npm run build:prod`
 💡Side note: If we run `npm run serve` before doing any build, the `assets/scripts/` folder will be empty, because the compiled JS is served from memory.
 Plugins can modify the output of webpack
 
- 2. Change version of app.js that you save last, generating different name
+ 2. Change version of app.js that you save last, generating different names to the archives
 
 ````js
    // webpack.config.prod.js
@@ -7209,7 +7209,102 @@ Run `npm run build:prod`
    https://github.com/jantimon/html-webpack-plugin
 
 ### Using 3rd part libraries!
+
+let's use Loadash difference function https://www.npmjs.com/package/lodash.difference:
+
+````js 
+// if we only use one thing from loadash
+$ npm i  lodash.difference 
+const difference = require('lodash.difference');
+
+// if we're gonna use more than one method
+$ npm i loadash
+import { difference } from "lodash";
+````
+
+Here are the final files
+
+````json
+// package.json
+{
+  "name": "arrays-04-splice",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "serve": "webpack-dev-server",
+    "lint": "eslint src/**"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "description": "",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "lodash.difference": "^4.5.0"
+  }
+}
+````
+
+````js
+// webpack.config.js
+const path = require('path');
+const CleanPlugin = require('clean-webpack-plugin');
+
+module.exports = {
+    mode: 'development',
+    entry: './src/app.js',
+    output: {
+        // relative path to this file
+        filename: 'app.js',
+        // absolute path, as a new file needs to be created using the fs
+        path: path.resolve(__dirname, 'assets', 'scripts'),
+        publicPath: '/assets/scripts/'
+    },
+    devServer: {
+        static: {
+            directory: path.resolve(__dirname)
+        },
+    },
+    devtool: 'eval-cheap-module-source-map',
+    plugins: [
+        new CleanPlugin.CleanWebpackPlugin()
+    ]
+
+}
+````
+
+````js
+// webpack.config.prod.js
+const path = require('path');
+const CleanPlugin = require('clean-webpack-plugin');
+
+module.exports = {
+    mode: 'production',
+    entry: './src/app.js',
+    output: {
+        // relative path to this file
+        filename: '[contenthash].app.js',
+        // absolute path, as a new file needs to be created using the fs
+        path: path.resolve(__dirname, 'assets', 'scripts'),
+        publicPath: '/assets/scripts/'
+    },
+    devtool: 'source-map',
+    plugins: [
+        new CleanPlugin.CleanWebpackPlugin()
+    ]
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjk0OTQ2NywtMTQ0NjY3Mjc1NSwtMT
-Q3NTcxNDk1OCwyMjY1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbLTEzMDUyOTI5OTMsLTE0NDY2NzI3NTUsLT
+E0NzU3MTQ5NTgsMjI2NTA3ODk4XX0=
 -->
