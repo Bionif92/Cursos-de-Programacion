@@ -6979,9 +6979,11 @@ module.exports = {
 ```js
 const path = require('path');
 ```
- 8. To use it, come back to packa
+ 8. To use it, come back to package.json, in scripts:
+`{, "build":"webpack"}`
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MDQ1ODY4MywtMjM5ODM4NTg1LC0xMz
+eyJoaXN0b3J5IjpbMTM1OTY1Nzk0MywtMjM5ODM4NTg1LC0xMz
 EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
