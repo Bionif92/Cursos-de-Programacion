@@ -7150,8 +7150,16 @@ module.exports = {
 
 }
 ````
-
+````json
+// package.json
+{
+  "scripts": {
+		"build:prod": "webpack --config webpack.config.prod.js"    
+  }
+}
+ 
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NjMxMzQ4MiwtMTQ3NTcxNDk1OCwyMj
-Y1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbLTIwNjQ0NTA4NDcsLTE0NzU3MTQ5NTgsMj
+I2NTA3ODk4XX0=
 -->
