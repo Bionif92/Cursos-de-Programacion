@@ -6956,7 +6956,10 @@ You can also autoformat with Ctrl+Shift+P:**
 ### Bundling with Webpack
 
 https://webpack.js.org/
+
+1. Terminal 
+2. `npm install --save`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzMzMTY5NjEsLTEwMDU2NTk4OTddfQ
-==
+eyJoaXN0b3J5IjpbLTIwOTc0ODQwOTcsLTE3MzMzMTY5NjEsLT
+EwMDU2NTk4OTddfQ==
 -->
