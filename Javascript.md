@@ -7119,9 +7119,11 @@ In `webpack page/documentation/development/using source maps/different options` 
 
 After selecting devtool, save and run `npm run build:dev`
 
+You will find the code in the `browser/sources/webpack/./src/app.js`
+
 That level of source maps detail is too slow to generate for production, so I'll have a different one for prod.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA4ODk3MzEsMjI2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbMTM3NTkxMzc5MSwyMjY1MDc4OThdfQ==
 -->
