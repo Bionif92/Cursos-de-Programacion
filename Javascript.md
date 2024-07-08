@@ -7115,10 +7115,13 @@ module.exports = {
   devtool: 'eval-cheap-module-source-map'// suitable for development, not prod, too slow to be spit out
 }
 ````
-In webpack page/documentation/development/using source maps you find different ways to debug
+In `webpack page/documentation/development/using source maps/different options` you find different ways to debug
+
+After selecting devtool, save and run `npm run build:dev`
+
 That level of source maps detail is too slow to generate for production, so I'll have a different one for prod.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDIwNTEyMCwyMjY1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbLTE4OTA4ODk3MzEsMjI2NTA3ODk4XX0=
 -->
