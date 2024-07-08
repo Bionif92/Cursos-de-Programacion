@@ -7212,6 +7212,12 @@ Run `npm run build:prod`
 
 let's use Loadash difference function https://www.npmjs.com/package/lodash.difference:
 
+My way:
+```js
+$ npm i--save lodash// will apear dependency in package.json
+
+```
+
 ````js 
 // if we only use one thing from loadash
 $ npm i  lodash.difference 
@@ -7305,6 +7311,6 @@ module.exports = {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDUyOTI5OTMsLTE0NDY2NzI3NTUsLT
-E0NzU3MTQ5NTgsMjI2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbLTE0ODg1NDYyMzYsLTEzMDUyOTI5OTMsLT
+E0NDY2NzI3NTUsLTE0NzU3MTQ5NTgsMjI2NTA3ODk4XX0=
 -->
