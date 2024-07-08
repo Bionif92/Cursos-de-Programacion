@@ -6959,7 +6959,8 @@ https://webpack.js.org/
 
 1. Terminal 
 2. `npm i --save-dev webpack webpack-cli`
+3. Create configuration 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTk0NjUyMiwtMTczMzMxNjk2MSwtMT
+eyJoaXN0b3J5IjpbMTg4OTk2MjU3MSwtMTczMzMxNjk2MSwtMT
 AwNTY1OTg5N119
 -->
