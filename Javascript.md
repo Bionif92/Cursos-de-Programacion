@@ -7099,9 +7099,11 @@ module.exports = {
 ````bash
 $ npm run build:dev
 ````
-It is a process that keep on running, you should keep this running until
+**It is a process that keep on running, you should keep this running until you finish your day**
+
+W
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODQ4ODUxMjIsLTIwNTYwNzY5NzcsLT
-E5MTgzMTMyNjMsOTQxMzE5MDYwLC0yMzk4Mzg1ODUsLTEzMTA5
-MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTIyNjQwOTczMCwtMjA1NjA3Njk3NywtMT
+kxODMxMzI2Myw5NDEzMTkwNjAsLTIzOTgzODU4NSwtMTMxMDkx
+MDg0OSwtMzA0ODExNTY5XX0=
 -->
