@@ -6946,8 +6946,9 @@ Steps:
  3. Follow Steps, define style: Inspect Javascript File, the file: assets/scripts/app.js, format: json
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTczNTI3OTAsMjY5MTM3NjY5LC0xNT
-YwNjEwNjQxLDE3MzQ0MjUyNjQsNjk2OTM3MDU0LC0xNzM0NDUw
-MDU0XX0=
+eyJoaXN0b3J5IjpbLTQ3MTAxNzY0MCwtMTg1NzM1Mjc5MCwyNj
+kxMzc2NjksLTE1NjA2MTA2NDEsMTczNDQyNTI2NCw2OTY5Mzcw
+NTQsLTE3MzQ0NTAwNTRdfQ==
 -->
