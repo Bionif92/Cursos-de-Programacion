@@ -7049,9 +7049,9 @@ module.exports = {
 	}
 };
 ```
-And the run: `mp`
+And the run: `npm run build`, you have files that are not optimized
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDE5NDQ4Nyw5NDEzMTkwNjAsLTIzOT
-gzODU4NSwtMTMxMDkxMDg0OSwtMzA0ODExNTY5XX0=
+eyJoaXN0b3J5IjpbNDc1MDkyNzgzLDk0MTMxOTA2MCwtMjM5OD
+M4NTg1LC0xMzEwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
