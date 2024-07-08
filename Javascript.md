@@ -7073,10 +7073,16 @@ Then run `npm run build` and `serve`
 
 Development server reload every time you change something:
 
+ 1. Terminal:
+```bash
+$ npm i --save-dev webpack-dev-server
+// OR
+$ npm i webpack-dev-server -D
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyODU2Njk3MywtMjA1NjA3Njk3NywtMT
-kxODMxMzI2Myw5NDEzMTkwNjAsLTIzOTgzODU4NSwtMTMxMDkx
-MDg0OSwtMzA0ODExNTY5XX0=
+eyJoaXN0b3J5IjpbNTM4NDM4NTYzLC0yMDU2MDc2OTc3LC0xOT
+E4MzEzMjYzLDk0MTMxOTA2MCwtMjM5ODM4NTg1LC0xMzEwOTEw
+ODQ5LC0zMDQ4MTE1NjldfQ==
 -->
