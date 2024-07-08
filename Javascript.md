@@ -7217,6 +7217,7 @@ My way:
 $ npm i--save lodash// will apear dependency in package.json
 //in app.js file as example
 import * as _ from 'lodash';
+console.log(_.difference([0,1],[]));
 ```
 
 ````js 
@@ -7312,7 +7313,7 @@ module.exports = {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTM2NzA0NDksLTE0ODg1NDYyMzYsLT
-EzMDUyOTI5OTMsLTE0NDY2NzI3NTUsLTE0NzU3MTQ5NTgsMjI2
-NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbLTQ5MTQxMzA3MiwtMTQ4ODU0NjIzNiwtMT
+MwNTI5Mjk5MywtMTQ0NjY3Mjc1NSwtMTQ3NTcxNDk1OCwyMjY1
+MDc4OThdfQ==
 -->
