@@ -7215,7 +7215,8 @@ let's use Loadash difference function https://www.npmjs.com/package/lodash.diffe
 My way:
 ```js
 $ npm i--save lodash// will apear dependency in package.json
-
+//in app.js file as example
+import * as _ from 'lodash';
 ```
 
 ````js 
@@ -7311,6 +7312,7 @@ module.exports = {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg1NDYyMzYsLTEzMDUyOTI5OTMsLT
-E0NDY2NzI3NTUsLTE0NzU3MTQ5NTgsMjI2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbLTE1MTM2NzA0NDksLTE0ODg1NDYyMzYsLT
+EzMDUyOTI5OTMsLTE0NDY2NzI3NTUsLTE0NzU3MTQ5NTgsMjI2
+NTA3ODk4XX0=
 -->
