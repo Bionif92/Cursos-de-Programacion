@@ -6983,9 +6983,9 @@ const path = require('path');
 `{, "build":"webpack"}` and save it
  9. On terminal, `npm run build`
  10. Modify errors, and on import, we dont need the .js extension to work, delete it
- 11. you have two files as output 
+ 11. You have two files as output, one full, and one when tooltip is needed
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5NTcwMTUwLC0yMzk4Mzg1ODUsLTEzMT
-A5MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTQ2NzM4ODUzMCwtMjM5ODM4NTg1LC0xMz
+EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
