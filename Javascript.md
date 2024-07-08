@@ -6953,8 +6953,8 @@ You can also autoformat with Ctrl+Shift+P:**
 
  Autompletion trick: in the `.eslintrc.json` file, to see the options for the values, just type `ctrl + space`💡
 
-### Bundling with We
+### Bundling with Webpack
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0MTEzNzQyLDE0NTY0ODMxNTFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDU2NTk4OTddfQ==
 -->
