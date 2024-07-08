@@ -7123,7 +7123,9 @@ You will find the code in the `browser/sources/webpack/./src/app.js`
 
 That level of source maps detail is too slow to generate for production, so I'll have a different one for prod.
 
+### Building for Production
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTkxMzc5MSwyMjY1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbLTE0NzU3MTQ5NTgsMjI2NTA3ODk4XX0=
 -->
