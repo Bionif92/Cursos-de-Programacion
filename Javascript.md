@@ -6964,9 +6964,21 @@ https://webpack.js.org/
 ```js
 module.exports = {};
 ```
- 5. 
+ 5. Reorganise the project folder, so we have:
+
+   ````js
+   // the input files will be inside src, or whatever folder name you prefer
+   src
+   	app.js
+   	component.js
+   
+   // the output file here, nested inside some folders
+   assets
+   	scripts
+     	bundledFileHere!
+   ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzOTgzODU4NSwtMTMxMDkxMDg0OSwtMz
-A0ODExNTY5XX0=
+eyJoaXN0b3J5IjpbMTk5MTgzODg0NywtMjM5ODM4NTg1LC0xMz
+EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
