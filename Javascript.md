@@ -7200,14 +7200,16 @@ Plugins can modify the output of webpack
            filename: '👉[contenthash].app.js',
    ````
 
-Run 
+Run `npm run build:prod`
+
    That will generate 01adfar4r00101.app.js file names (hash in the filename) that need to be referenced in the HTML <script> tag, so that's not very handy! ❌
    
    Here's the solution: https://webpack.js.org/plugins/html-webpack-plugin/
    
    https://github.com/jantimon/html-webpack-plugin
 
+### Using 3rd part libraries!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NzgxNzgzMiwtMTQ0NjY3Mjc1NSwtMT
-Q3NTcxNDk1OCwyMjY1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbNzYxNDU3NDQ4LC0xNDQ2NjcyNzU1LC0xND
+c1NzE0OTU4LDIyNjUwNzg5OF19
 -->
