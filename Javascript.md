@@ -7125,7 +7125,9 @@ That level of source maps detail is too slow to generate for production, so I'll
 
 ### Building for Production
 
+we need a new webpack.config file!
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzU3MTQ5NTgsMjI2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbLTE5OTU4MjY0OTUsLTE0NzU3MTQ5NTgsMj
+I2NTA3ODk4XX0=
 -->
