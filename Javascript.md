@@ -7163,10 +7163,29 @@ Run `npm run build:prod` and see the code in the browser
 
 ### Final Optimizations
 
+. the `/assets/script` folder is getting messy; let's delete the content and replace it every time a build process happens.
+
+````bash
+$ npm i --save-dev clean-webpack-plugin
+````
+
+````js
+// webpack.config.js
+// webpack.config.prod.js
+const CleanPlugin = require('clean-webpack-plugin');
+
+module.exports = {
+   plugins: [
+        new CleanPlugin.CleanWebpackPlugin()
+    ]
+}
+````
+
+💡Side note: If we run `npm run serve` before doing any build, the `assets/scripts/` folder will be empty, because the compiled JS is served from memory.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MjcyODg2LC0xNDc1NzE0OTU4LDIyNj
-UwNzg5OF19
+eyJoaXN0b3J5IjpbLTExNzk0NjMyOTEsLTE0NzU3MTQ5NTgsMj
+I2NTA3ODk4XX0=
 -->
