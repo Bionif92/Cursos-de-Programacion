@@ -7181,7 +7181,7 @@ module.exports = {
 }
 ````
 
-After all
+After all run `npm run build:prod`
 
 💡Side note: If we run `npm run serve` before doing any build, the `assets/scripts/` folder will be empty, because the compiled JS is served from memory.
 Plugins can modify the output of webpack
@@ -7189,6 +7189,6 @@ Plugins can modify the output of webpack
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NzY0NjA1MCwtMTQ3NTcxNDk1OCwyMj
+eyJoaXN0b3J5IjpbMTM4NjI2MjQwNCwtMTQ3NTcxNDk1OCwyMj
 Y1MDc4OThdfQ==
 -->
