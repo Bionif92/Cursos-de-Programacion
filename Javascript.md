@@ -6982,8 +6982,9 @@ const path = require('path');
  8. To use it, come back to package.json, in scripts:
 `{, "build":"webpack"}` and save it
  9. On terminal, `npm run build`
+ 10. Modify errors, and on import, we dont need the .js extension to work, delete it 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNjUyMTMyLC0yMzk4Mzg1ODUsLTEzMT
-A5MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTE0MTA1MTU4NjcsLTIzOTgzODU4NSwtMT
+MxMDkxMDg0OSwtMzA0ODExNTY5XX0=
 -->
