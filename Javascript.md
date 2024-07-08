@@ -6981,9 +6981,9 @@ const path = require('path');
 ```
  8. To use it, come back to package.json, in scripts:
 `{, "build":"webpack"}` and save it
- 9. On terminal, 
+ 9. On terminal, `npm run build`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMjAzMzczNiwtMjM5ODM4NTg1LC0xMz
-EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
+eyJoaXN0b3J5IjpbLTYyNjUyMTMyLC0yMzk4Mzg1ODUsLTEzMT
+A5MTA4NDksLTMwNDgxMTU2OV19
 -->
