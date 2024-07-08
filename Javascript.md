@@ -7067,9 +7067,13 @@ module.exports = {
 	}
 };
 ```
-Then run 
+Then run `npm run build` and `serve`
+
+### Using webpack-dev-server
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDgzMDM2NDksOTQxMzE5MDYwLC0yMz
+eyJoaXN0b3J5IjpbLTE5MTgzMTMyNjMsOTQxMzE5MDYwLC0yMz
 k4Mzg1ODUsLTEzMTA5MTA4NDksLTMwNDgxMTU2OV19
 -->
