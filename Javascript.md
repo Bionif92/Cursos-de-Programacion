@@ -7105,9 +7105,20 @@ With that you have your files automatically changed when you make a change
 
 ### Generating Sourcemaps
 
-If you want to debug your code:
+I wanna see the code as I wrote it, inside Sources tab in dev tools:
+
+I still have a webpack folder under Sources, `.` folderbut app.js is empty (now, in webpack 5, the files are inside a file named as the project, and the other files have been tweaked by webpack, so they'r not the originals.
+
+````js
+// webpack.config.js
+module.exports = {
+  devtool: 'eval-cheap-module-source-map'// suitable for development, not prod, too slow to be spit out
+}
+````
+
+That level of source maps detail is too slow to generate for production, so I'll have a different one for prod.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDc2Njc3NSwyMjY1MDc4OThdfQ==
+eyJoaXN0b3J5IjpbLTE0OTkwMDIwNDAsMjI2NTA3ODk4XX0=
 -->
