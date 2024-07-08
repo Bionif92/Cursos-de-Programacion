@@ -7051,7 +7051,9 @@ module.exports = {
 ```
 And the run: `npm run build`, you have files that are not optimized
 
+If you want to se if it work, use `serve` on terminal, you can see there is only one httpp
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc1MDkyNzgzLDk0MTMxOTA2MCwtMjM5OD
-M4NTg1LC0xMzEwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
+eyJoaXN0b3J5IjpbMTUxOTQyNzEyMiw5NDEzMTkwNjAsLTIzOT
+gzODU4NSwtMTMxMDkxMDg0OSwtMzA0ODExNTY5XX0=
 -->
