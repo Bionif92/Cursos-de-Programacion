@@ -6971,16 +6971,17 @@ module.exports = {
 	entry:'./src/app.js',
 	output: {
 		filename: 'app.js',
-		path:
+		path:path.resolve(__dirname,'assets','scripts')
 	}
 };
 ```
  7. Generate path:
 ```js
-const path = require();
+const path = require('path');
 ```
+ 8. To use it, come back to packa
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NzMyMTg5OCwtMjM5ODM4NTg1LC0xMz
+eyJoaXN0b3J5IjpbLTY0MDQ1ODY4MywtMjM5ODM4NTg1LC0xMz
 EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
