@@ -7079,10 +7079,19 @@ $ npm i --save-dev webpack-dev-server
 // OR
 $ npm i webpack-dev-server -D
 ```
-
+ 2. Add this to webpack.config.js:
+```js
+module.exports = {
+  devServer: {
+        static: {
+            directory: path.resolve(__dirname)
+        }
+    }
+}
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM4NDM4NTYzLC0yMDU2MDc2OTc3LC0xOT
-E4MzEzMjYzLDk0MTMxOTA2MCwtMjM5ODM4NTg1LC0xMzEwOTEw
-ODQ5LC0zMDQ4MTE1NjldfQ==
+eyJoaXN0b3J5IjpbLTIxNDA2MTE2ODksLTIwNTYwNzY5NzcsLT
+E5MTgzMTMyNjMsOTQxMzE5MDYwLC0yMzk4Mzg1ODUsLTEzMTA5
+MTA4NDksLTMwNDgxMTU2OV19
 -->
