@@ -6958,8 +6958,8 @@ You can also autoformat with Ctrl+Shift+P:**
 https://webpack.js.org/
 
 1. Terminal 
-2. `npm install --save`
+2. `npm install --save dev webpack webpack-cli`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTc0ODQwOTcsLTE3MzMzMTY5NjEsLT
+eyJoaXN0b3J5IjpbLTE2OTA3OTM5NTEsLTE3MzMzMTY5NjEsLT
 EwMDU2NTk4OTddfQ==
 -->
