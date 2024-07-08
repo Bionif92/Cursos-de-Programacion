@@ -7103,7 +7103,11 @@ $ npm run build:dev
 
 With that you have your files automatically changed when you make a change
 
+### Generating Sourcemaps
+
+If you want to debug your code:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NTA3ODk4XX0=
+eyJoaXN0b3J5IjpbMTYwNDc2Njc3NSwyMjY1MDc4OThdfQ==
 -->
