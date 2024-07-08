@@ -7071,9 +7071,10 @@ Then run `npm run build` and `serve`
 
 ### Using webpack-dev-server
 
-
+Development server reload every 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTgzMTMyNjMsOTQxMzE5MDYwLC0yMz
-k4Mzg1ODUsLTEzMTA5MTA4NDksLTMwNDgxMTU2OV19
+eyJoaXN0b3J5IjpbLTE1NzkyNDYxNDcsLTE5MTgzMTMyNjMsOT
+QxMzE5MDYwLC0yMzk4Mzg1ODUsLTEzMTA5MTA4NDksLTMwNDgx
+MTU2OV19
 -->
