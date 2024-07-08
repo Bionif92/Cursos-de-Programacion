@@ -6970,12 +6970,17 @@ module.exports = {};
 module.exports = {
 	entry:'./src/app.js',
 	output: {
-		filename:
+		filename: 'app.js',
+		path:
 	}
 };
 ```
+ 7. Generate path:
+```js
+const path = require();
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODYzODY3NywtMjM5ODM4NTg1LC0xMz
+eyJoaXN0b3J5IjpbLTQ4NzMyMTg5OCwtMjM5ODM4NTg1LC0xMz
 EwOTEwODQ5LC0zMDQ4MTE1NjldfQ==
 -->
