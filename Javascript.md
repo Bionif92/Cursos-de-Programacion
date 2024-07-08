@@ -7054,9 +7054,21 @@ And the run: `npm run build`, you have files that are not optimized
 If you want to se if it work, use `serve` on terminal, you can see there is only one http request
 
 We need to fix the route in which the program take the scripts:
+In webpack.config.js
 
+```js
+module.exports = {
+	mode:'development'// add this
+	entry:'./src/app.js',
+	output: {
+		filename: 'app.js',
+		path:path.resolve(__dirname,'assets','scripts'),
+	publicpath
+	}
+};
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY2NTIzNjksOTQxMzE5MDYwLC0yMz
+eyJoaXN0b3J5IjpbLTEzODkxMjA4OTksOTQxMzE5MDYwLC0yMz
 k4Mzg1ODUsLTEzMTA5MTA4NDksLTMwNDgxMTU2OV19
 -->
