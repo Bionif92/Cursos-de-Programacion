@@ -7063,12 +7063,13 @@ module.exports = {
 	output: {
 		filename: 'app.js',
 		path:path.resolve(__dirname,'assets','scripts'),
-	publicpath
+	publicPath: 'assets/scripts/' // add this
 	}
 };
 ```
+Then run 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkxMjA4OTksOTQxMzE5MDYwLC0yMz
+eyJoaXN0b3J5IjpbLTE3MDgzMDM2NDksOTQxMzE5MDYwLC0yMz
 k4Mzg1ODUsLTEzMTA5MTA4NDksLTMwNDgxMTU2OV19
 -->
