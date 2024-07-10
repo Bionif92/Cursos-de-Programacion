@@ -7728,7 +7728,7 @@ we still need to polyfill some ECMA standards, appart from transpiling the code!
 
 ### How not to do add polyfills for ECMA standards ❌
 
-Well, a non ideal way is to install corejs package and import it at the top of index.js file
+Well, a non ideal way is to install corejs package (collection of polyfills) and import it at the top of index.js file
 
 ````bash
 npm i core-js
@@ -7817,7 +7817,7 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTIwMzAzLDc0NjA0NzkyOSwxMjYwOD
-Y2MDU5LC05NjA1MjcwNiwxOTkxNTgwOTI1LC04NjMxMzMyMzIs
-NzIzNTQ4NDA4LDM0NjYyOTkxOV19
+eyJoaXN0b3J5IjpbNDc2MjI1NjUsLTUwNTIwMzAzLDc0NjA0Nz
+kyOSwxMjYwODY2MDU5LC05NjA1MjcwNiwxOTkxNTgwOTI1LC04
+NjMxMzMyMzIsNzIzNTQ4NDA4LDM0NjYyOTkxOV19
 -->
