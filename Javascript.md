@@ -7340,7 +7340,8 @@ Important: all the frontend code + data stored in the browser (localStorage, ses
 Important: browsers might delete that data if running out of space
 
 Important: WebSQL has been deprecated`
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzM1MTY2Nyw4ODA2NzI0MTQsLTEyOT
-c4NzExODldfQ==
+eyJoaXN0b3J5IjpbLTEyNDAwOTUxMzUsMTQxMzM1MTY2Nyw4OD
+A2NzI0MTQsLTEyOTc4NzExODldfQ==
 -->
