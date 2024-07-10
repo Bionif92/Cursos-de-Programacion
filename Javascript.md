@@ -7853,8 +7853,5 @@ The following resources may be helpful.
 
 ## Share my Place App
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc3NTA0NjI0LC0xMzMxODk3MjUzLDQ5Mz
-g5MjI2LDQ3NjIyNTY1LC01MDUyMDMwMyw3NDYwNDc5MjksMTI2
-MDg2NjA1OSwtOTYwNTI3MDYsMTk5MTU4MDkyNSwtODYzMTMzMj
-MyLDcyMzU0ODQwOCwzNDY2Mjk5MTldfQ==
+eyJoaXN0b3J5IjpbNDc3NTA0NjI0XX0=
 -->
