@@ -7672,6 +7672,8 @@ So, the code shipped to the browser needs to be transpiled.
 
 Let's install Babel loader (a tight integration with webpack)
 
+
+
 `````bash
 npm install -D babel-loader @babel/core @babel/preset-env
 `````
@@ -7722,7 +7724,15 @@ let's make sure the browser we'r targetting is also polyfilled with the features
 #### 🔥The best combo: feature detection + browser feature polyfills + transpiled code + ECMA standards polyfills 🔥
 
 we still need to polyfill some ECMA standards, appart from transpiling the code!👇
+
+Babel Docs =>  [https://babeljs.io/docs/en/](https://babeljs.io/docs/en/)
+
+babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com/babel/babel-loader)
+
+@babel/preset env Docs =>  [https://babeljs.io/docs/en/babel-preset-env](https://babeljs.io/docs/en/babel-preset-env)
+
+browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTU4MDkyNSwtODYzMTMzMjMyLDcyMz
-U0ODQwOCwzNDY2Mjk5MTldfQ==
+eyJoaXN0b3J5IjpbLTk2MDUyNzA2LDE5OTE1ODA5MjUsLTg2Mz
+EzMzIzMiw3MjM1NDg0MDgsMzQ2NjI5OTE5XX0=
 -->
