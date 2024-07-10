@@ -7427,7 +7427,6 @@ const user = {
 
 document.cookie = 'token=jsjsjss';
 
-// document.cookie = 'userName=esteban';
 document.cookie = `user=${JSON.stringify(user)}`;
 
 // document.cookie holds 'token=jsjsjss; user={"name": "tebi", "age": 30}'
@@ -7466,5 +7465,6 @@ document.cookie; // user object, no token
 // trying to set a cookie that is already in there has no effect of duplication 💡
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY1MTc3MTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NDk3ODc4MTIsLTE4NjY1MTc3MTBdfQ
+==
 -->
