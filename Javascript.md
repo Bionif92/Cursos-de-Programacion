@@ -7709,7 +7709,7 @@ We can tell preset-env the targets ((I guess in older package versions)) by addi
 
 ````json
 // package.json
-browsersist: "> 2%"; //browserslist is a package used by preset-env under the hood
+browserslist: "> 2%"; //browserslist is a package used by preset-env under the hood
 // transpiled code has some const keywords
 ````
 
@@ -7732,7 +7732,7 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MDg2NjA1OSwtOTYwNTI3MDYsMTk5MT
-U4MDkyNSwtODYzMTMzMjMyLDcyMzU0ODQwOCwzNDY2Mjk5MTld
-fQ==
+eyJoaXN0b3J5IjpbNzQ2MDQ3OTI5LDEyNjA4NjYwNTksLTk2MD
+UyNzA2LDE5OTE1ODA5MjUsLTg2MzEzMzIzMiw3MjM1NDg0MDgs
+MzQ2NjI5OTE5XX0=
 -->
