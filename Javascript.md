@@ -7816,9 +7816,36 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 @babel/preset env Docs =>  [https://babeljs.io/docs/en/babel-preset-env](https://babeljs.io/docs/en/babel-preset-env)
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
+
+### NodeJS support
+
+is a controlled environment, so no need to polyfill things, as we know which version we'r running the JS on.
+
+Browsers are an uncontrolled environment, such a pain, but the tools we saw make it manageable.
+
+### Some fallbacks
+
+what if we would use modules (not using webpack to bundle scripts into a single one) and the browser doesn't understand them?
+
+````html
+<script src="somefile" type="module"></script>
+<script nomodule>
+  // some fallback code here
+</script>
+````
+
+
+
+what if users disable JS
+
+```html
+<noscript>
+	Hey, enable JS to use this website
+<noscript>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkzODkyMjYsNDc2MjI1NjUsLTUwNTIwMz
-AzLDc0NjA0NzkyOSwxMjYwODY2MDU5LC05NjA1MjcwNiwxOTkx
-NTgwOTI1LC04NjMxMzMyMzIsNzIzNTQ4NDA4LDM0NjYyOTkxOV
-19
+eyJoaXN0b3J5IjpbLTEzMzE4OTcyNTMsNDkzODkyMjYsNDc2Mj
+I1NjUsLTUwNTIwMzAzLDc0NjA0NzkyOSwxMjYwODY2MDU5LC05
+NjA1MjcwNiwxOTkxNTgwOTI1LC04NjMxMzMyMzIsNzIzNTQ4ND
+A4LDM0NjYyOTkxOV19
 -->
