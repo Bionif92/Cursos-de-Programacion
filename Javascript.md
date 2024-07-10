@@ -7587,11 +7587,13 @@ retrBtn.addEventListener('click', () => {
 	const productsStore= db
 		.transaction('products','readwrite')
 		.objectStore('products');
-	const requee
+	const request = productStore.get('p2');
+	
+	request.onsuccess = function()
 });
 ```` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc2OTIxMTMwLDIzMjc2ODc2N119
+eyJoaXN0b3J5IjpbMTM2OTY0ODIwLDIzMjc2ODc2N119
 -->
