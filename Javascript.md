@@ -7380,7 +7380,32 @@ standalone functions can not be saved either.
 data survives only till the user closes the page or closes the browser
 
 localStorage survives those actions
+
+### Cookies
+
+they're added to requests, so they reach the server.
+
+Not all servers do things with cookies (maybe PHP ones).
+
+servers can set cookies through some headers
+
+```js
+// this JS needs to be served from a server, not the file protocol
+// otherwise, it won't take any effect!
+
+document.cookie; // 
+
+// adds to the cookies, because it triggers a setter
+document.cookie = 'userName=esteban'
+document.cookie = 'age=30'
+
+// we can't query a specific key value pair! ❌
+// only the whole string (containing all the key value pairs)
+document.cookie; // 'userName=esteban; age=30'
+ 
+```
+
+Some cookies can only be read programatically in the server, and they have the `Http` flag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgxMTE3ODE1LC01Nzk0MzEyNDIsMTQxMz
-M1MTY2Nyw4ODA2NzI0MTQsLTEyOTc4NzExODldfQ==
+eyJoaXN0b3J5IjpbNzY4MTQwNjI5XX0=
 -->
