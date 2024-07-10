@@ -7796,7 +7796,7 @@ module.exports = {
 
 In Max's example, core-js wasn't added to the bundle because the navigator api was not supported in older browsers anyway. But he added `console.log(new Promise()), and that was enough to see core-js added to the bundle.
 
-If we'r using 3rd part packages, well, babel won't scan them, so let's add them all!
+If we'r using 3rd part packages, well, babel won't scan them, so let's add them all to make sure :
 
 ```js
 // webpack.config.prod.js
@@ -7817,8 +7817,8 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MzM0NTc1LDQ3NjIyNTY1LC01MDUyMD
-MwMyw3NDYwNDc5MjksMTI2MDg2NjA1OSwtOTYwNTI3MDYsMTk5
-MTU4MDkyNSwtODYzMTMzMjMyLDcyMzU0ODQwOCwzNDY2Mjk5MT
-ldfQ==
+eyJoaXN0b3J5IjpbNDkzODkyMjYsNDc2MjI1NjUsLTUwNTIwMz
+AzLDc0NjA0NzkyOSwxMjYwODY2MDU5LC05NjA1MjcwNiwxOTkx
+NTgwOTI1LC04NjMxMzMyMzIsNzIzNTQ4NDA4LDM0NjYyOTkxOV
+19
 -->
