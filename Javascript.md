@@ -7589,11 +7589,13 @@ retrBtn.addEventListener('click', () => {
 		.objectStore('products');
 	const request = productStore.get('p2');
 	
-	request.onsuccess = function()
+	request.onsuccess = function() {
+		console.log(request.result);
+	}
 });
 ```` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTY0ODIwLDIzMjc2ODc2N119
+eyJoaXN0b3J5IjpbLTE0MDUzNjc3MzUsMjMyNzY4NzY3XX0=
 -->
