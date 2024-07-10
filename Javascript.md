@@ -7315,6 +7315,14 @@ module.exports = {
 ````
 
 ## Utilizing Browser Storage
+
+Can store things related to the user:
+
+ - Local Storage, Session Storage
+ - Cookies
+ - IndexedDB
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc4NzExODldfQ==
+eyJoaXN0b3J5IjpbLTExMDYzNDA3ODUsLTEyOTc4NzExODldfQ
+==
 -->
