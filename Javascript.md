@@ -7476,7 +7476,9 @@ Working with the API is a pain, so it's better to use this library: https://gith
 `````js
 // open a connection
 const dbRequest = indexedDB.open('Demo', 1);
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg1MjY0ODE0LC0yNTEwNDY1MDUsLTQzNj
-gwNzM5Ml19
+eyJoaXN0b3J5IjpbMTE0NjY1NDA5MCwtMjUxMDQ2NTA1LC00Mz
+Y4MDczOTJdfQ==
 -->
