@@ -7515,6 +7515,8 @@ dbRequest.onsuccess = event ={ // ❌
 // for this
 dbRequest.onupgradeneeded = event => { // ✅
 ````
+
+Need to delete it from browser application and refresh to see the item
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTk3NzE2NDEsLTQ4NTYwNzMwOV19
+eyJoaXN0b3J5IjpbMTcxMDc2OTAyNCwtNDg1NjA3MzA5XX0=
 -->
