@@ -7473,12 +7473,16 @@ IndexedDB Docs => [https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_AP
 
 Working with the API is a pain, so it's better to use this library: https://github.com/jakearchibald/idb
 
-`````js
+````js
 // open a connection
 const dbRequest = indexedDB.open('Demo', 1);
 
-
+dbRequest.onsuccess  = function (event) => {
+  const db = event.target.result
+		
+		// let's create a Products store
+  const objectStore = db.createObjectStore('products', {keyPath: 'id'});
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NjY1NDA5MCwtMjUxMDQ2NTA1LC00Mz
-Y4MDczOTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NzI2OTA0MTcsLTI1MTA0NjUwNSwtND
+M2ODA3MzkyXX0=
 -->
