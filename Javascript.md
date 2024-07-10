@@ -7391,7 +7391,7 @@ servers can set cookies through some headers
 
 ```js
 // this JS needs to be served from a server, not the file protocol
-// otherwise, it won't take any effect! (with serve c)
+// otherwise, it won't take any effect! (with serve you can see it)
 
 document.cookie; // 
 
@@ -7407,5 +7407,5 @@ document.cookie; // 'userName=esteban; age=30'
 
 Some cookies can only be read programatically in the server, and they have the `Http` flag
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjIwNTU0MCw3NjgxNDA2MjldfQ==
+eyJoaXN0b3J5IjpbLTE3NDE0OTQxNTgsNzY4MTQwNjI5XX0=
 -->
