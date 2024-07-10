@@ -7482,9 +7482,14 @@ dbRequest.onsuccess  = function (event) {
 		
 	// let's create a Products store
   const objectStore = db.createObjectStore('products', {keyPath: 'id'});
-
+  
+	// let's react to the successful object store creation
+  objectStore.transaction.oncomplete = function (event) {
+  
+	}
+	  
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI1NjcwNDI0LC0yNTEwNDY1MDUsLTQzNj
-gwNzM5Ml19
+eyJoaXN0b3J5IjpbLTE3NzU1NTMyMjMsLTI1MTA0NjUwNSwtND
+M2ODA3MzkyXX0=
 -->
