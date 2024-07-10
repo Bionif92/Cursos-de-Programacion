@@ -7406,6 +7406,18 @@ document.cookie; // 'userName=esteban; age=30'
 ```
 
 Some cookies can only be read programatically in the server, and they have the `Http` flag
+
+### Let's save an object in a cookie!
+
+````js
+const user = {
+  name: 'tebi',
+  age: 34
+}
+
+document.cookie = `user=${JSON.stringify(user)}`;
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE0OTQxNTgsNzY4MTQwNjI5XX0=
+eyJoaXN0b3J5IjpbLTg3NzcyODYxNSw3NjgxNDA2MjldfQ==
 -->
