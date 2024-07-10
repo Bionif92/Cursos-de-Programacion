@@ -7421,8 +7421,8 @@ To split the data:
 
 ```js
 const cookieData = document.cookie.split(';');
-coo
+cookieData.map();
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzU2MTE3Myw3NjgxNDA2MjldfQ==
+eyJoaXN0b3J5IjpbMzMzMDY4ODgwLDc2ODE0MDYyOV19
 -->
