@@ -7607,9 +7607,17 @@ The following resources may be helpful.
 
 ## Javascript & Browser Support
 
+### Browser support
 
+#### Browser features vs JS syntax
+
+Browser features are window.fetch(), window.geolocation, etc, things exposed by the browser via the windows object. If a feature is not supported in a browser, it could be polyfilled.
+
+JS syntax are ways to do things in js, like using async/away, promises, let, etc, that are understood by the JS engine of the browser. An example is when JS engines let people write ES6 JS. If a JS engine doesn't support ES6, that can be fixed by transpiling the code with Babel! ✅
+
+Evergreen 🍀 browser updates the versions automatically. IE didn't use to!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ2NjI5OTE5XX0=
+eyJoaXN0b3J5IjpbNzIzNTQ4NDA4LDM0NjYyOTkxOV19
 -->
