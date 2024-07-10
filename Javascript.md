@@ -7477,12 +7477,14 @@ Working with the API is a pain, so it's better to use this library: https://gith
 // open a connection
 const dbRequest = indexedDB.open('Demo', 1);
 
-dbRequest.onsuccess  = function (event) => {
-  const db = event.target.result
+dbRequest.onsuccess  = function (event) {
+  const db = event.target.result;
 		
-		// let's create a Products store
+	// let's create a Products store
   const objectStore = db.createObjectStore('products', {keyPath: 'id'});
+
+}
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzI2OTA0MTcsLTI1MTA0NjUwNSwtND
-M2ODA3MzkyXX0=
+eyJoaXN0b3J5IjpbNTI1NjcwNDI0LC0yNTEwNDY1MDUsLTQzNj
+gwNzM5Ml19
 -->
