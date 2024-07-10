@@ -7599,11 +7599,17 @@ More on IndexedDB (MDN) =>  [https://developer.mozilla.org/en-US/docs/Web/API/In
 
 idb.js Promise based IndexedDB =>  [https://github.com/jakearchibald/idb](https://github.com/jakearchibald/idb)
 
+The following resources may be helpful.
+
+-   More on localStorage / sessionStorage: [https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+-   More on Cookies (in JS): [https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
+-   More on IndexedDB: [https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+
 ## Javascript & Browser Support
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDUyNjAxMDVdfQ==
+eyJoaXN0b3J5IjpbMzQ2NjI5OTE5LC0yMDQ1MjYwMTA1XX0=
 -->
