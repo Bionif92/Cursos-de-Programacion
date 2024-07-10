@@ -7617,7 +7617,18 @@ JS syntax are ways to do things in js, like using async/away, promises, let, etc
 
 Evergreen 🍀 browser updates the versions automatically. IE didn't use to!
 
+### Determining browser support
 
+just use MDN and canisue for browser features and JS syntax support. 
+
+Use https://kangax.github.io/compat-table/es6/ for syntax support. It's got compilers/polyfills compatibility as well!
+
+
+
+### Don't try to support all browsers on earth, and all their versions!❌
+
+define your target, and make things work for them
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIzNTQ4NDA4LDM0NjYyOTkxOV19
+eyJoaXN0b3J5IjpbLTEwMjcxNDkwNjgsNzIzNTQ4NDA4LDM0Nj
+YyOTkxOV19
 -->
