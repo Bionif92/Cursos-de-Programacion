@@ -7341,7 +7341,38 @@ Important: browsers might delete that data if running out of space
 
 Important: WebSQL has been deprecated`
 
+### Let's try storing an object
+
+````js
+const user = {
+  name: 'tebi',
+  age: 34
+}
+
+localStorage.setItem('user', user);
+
+// [Object Object] when we inspect localStorage 😮
+// localStorage calls .toString() on the things it stores
+````
+
+````js
+// JSON is our friend!
+// JSON is a string
+
+const user = {
+  name: 'tebi',
+  age: 34
+}
+
+localStorage.setItem('user', JSON.stringify(user));
+
+const userFromLS = JSON.parse(localStorage.getItem('user'));
+````
+
+Methods of objects get lost!
+
+standalone functions can not be saved either.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDAwOTUxMzUsMTQxMzM1MTY2Nyw4OD
-A2NzI0MTQsLTEyOTc4NzExODldfQ==
+eyJoaXN0b3J5IjpbLTU3OTQzMTI0MiwxNDEzMzUxNjY3LDg4MD
+Y3MjQxNCwtMTI5Nzg3MTE4OV19
 -->
