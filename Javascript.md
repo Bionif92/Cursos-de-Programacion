@@ -7628,7 +7628,9 @@ Use https://kangax.github.io/compat-table/es6/ for syntax support. It's got comp
 ### Don't try to support all browsers on earth, and all their versions!❌
 
 define your target, and make things work for them
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjcxNDkwNjgsNzIzNTQ4NDA4LDM0Nj
-YyOTkxOV19
+eyJoaXN0b3J5IjpbLTg2MzEzMzIzMiw3MjM1NDg0MDgsMzQ2Nj
+I5OTE5XX0=
 -->
