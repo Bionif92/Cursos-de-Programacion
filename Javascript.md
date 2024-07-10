@@ -7437,7 +7437,7 @@ document.cookie = `user=${JSON.stringify(user)}`;
 let cookies = document.cookie.split(';');
 
 // ['token=jsjsjss',' user={"name": "tebi", "age": 30}']
-cookies = cookies.map(item => item.trim());
+cookies = cookies.map(item => item.trim());//remove white space
 
 // it's access via the index in the split array, such a pain❌
 console.log(JSON.parse(cookies[1].split('=')[1])); // {name: 'tebi', age: 30}
@@ -7465,5 +7465,5 @@ document.cookie; // user object, no token
 // trying to set a cookie that is already in there has no effect of duplication 💡
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjE4NzUzOSwtMTg2NjUxNzcxMF19
+eyJoaXN0b3J5IjpbLTQzNjgwNzM5MiwtMTg2NjUxNzcxMF19
 -->
