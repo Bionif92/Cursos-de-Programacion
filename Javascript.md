@@ -7682,7 +7682,7 @@ npm install -D babel-loader @babel/core @babel/preset-env // --save-dev = -D
 
 `babel-loader` is the package that connects webpack and babel
 
-Then on webpack.config.js
+Then on webpack.config.js and webpack.config.prod.js
 ````js
 // webpack.config.prod.js
 module.exports = {
@@ -7732,7 +7732,7 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mzc3NjI1MSwtOTYwNTI3MDYsMTk5MT
+eyJoaXN0b3J5IjpbMTI2MDg2NjA1OSwtOTYwNTI3MDYsMTk5MT
 U4MDkyNSwtODYzMTMzMjMyLDcyMzU0ODQwOCwzNDY2Mjk5MTld
 fQ==
 -->
