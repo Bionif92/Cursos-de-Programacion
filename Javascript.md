@@ -7333,8 +7333,14 @@ localStorage.getItem('token'); // 'jsnfianrgiaenrg'
 
 // getting an item is synchronous 🏎, no need to wait for a promise to resolve, or pass a callback
 ````
-You can see the storage in `browser-application`
+You can see the storage in `browser-application
+
+Important: all the frontend code + data stored in the browser (localStorage, sessionStorage, IndexedDB, Cookies) can be deleted or modified by the user!
+
+Important: browsers might delete that data if running out of space
+
+Important: WebSQL has been deprecated`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQyMTcwNzAsODgwNjcyNDE0LC0xMj
-k3ODcxMTg5XX0=
+eyJoaXN0b3J5IjpbMTQxMzM1MTY2Nyw4ODA2NzI0MTQsLTEyOT
+c4NzExODldfQ==
 -->
