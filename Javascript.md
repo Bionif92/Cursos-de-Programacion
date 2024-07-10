@@ -7320,9 +7320,10 @@ Can store things related to the user:
 
  - Local Storage, Session Storage
  - Cookies
- - IndexedDB
+ - IndexedDB (client-side database)
+
+### Local Storage
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDYzNDA3ODUsLTEyOTc4NzExODldfQ
-==
+eyJoaXN0b3J5IjpbMjE0NjY5NzM4NSwtMTI5Nzg3MTE4OV19
 -->
