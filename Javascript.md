@@ -7595,7 +7595,15 @@ retrBtn.addEventListener('click', () => {
 });
 ```` 
 
+More on IndexedDB (MDN) =>  [https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+
+idb.js Promise based IndexedDB =>  [https://github.com/jakearchibald/idb](https://github.com/jakearchibald/idb)
+
+## Javascript & Browser Support
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUzNjc3MzUsMjMyNzY4NzY3XX0=
+eyJoaXN0b3J5IjpbLTIwNDUyNjAxMDVdfQ==
 -->
