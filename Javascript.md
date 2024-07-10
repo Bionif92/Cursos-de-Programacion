@@ -7372,7 +7372,15 @@ const userFromLS = JSON.parse(localStorage.getItem('user'));
 Methods of objects get lost!
 
 standalone functions can not be saved either.
+
+### SessionStorage
+
+`sessionStorage.setItem`
+
+data survives only till the user closes the page or closes the browser
+
+localStorage survives those actions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTQzMTI0MiwxNDEzMzUxNjY3LDg4MD
-Y3MjQxNCwtMTI5Nzg3MTE4OV19
+eyJoaXN0b3J5IjpbMjgxMTE3ODE1LC01Nzk0MzEyNDIsMTQxMz
+M1MTY2Nyw4ODA2NzI0MTQsLTEyOTc4NzExODldfQ==
 -->
