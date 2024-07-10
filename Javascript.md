@@ -7579,6 +7579,16 @@ saveButtonElement.addEventListener('click', addProduct);
 ````
 
 the, if we click on the button, and refresh the indexDB `products` object store, we should see the item added🍔
+
+To get the item:
+
+````js
+retrBtn.addEventListener('click', () => {
+	const productsStore= 
+});
+```` 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNzY4NzY3XX0=
+eyJoaXN0b3J5IjpbMTYwODgyMjQ5NCwyMzI3Njg3NjddfQ==
 -->
