@@ -7584,11 +7584,14 @@ To get the item:
 
 ````js
 retrBtn.addEventListener('click', () => {
-	const productsStore= 
+	const productsStore= db
+		.transaction('products','readwrite')
+		.objectStore('products');
+	const requee
 });
 ```` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODgyMjQ5NCwyMzI3Njg3NjddfQ==
+eyJoaXN0b3J5IjpbNzc2OTIxMTMwLDIzMjc2ODc2N119
 -->
