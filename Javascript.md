@@ -7724,6 +7724,91 @@ let's make sure the browser we'r targetting is also polyfilled with the features
 
 we still need to polyfill some ECMA standards, appart from transpiling the code!👇
 
+
+
+### How not to do add polyfills for ECMA standards ❌
+
+Well, a non ideal way is to install corejs package and import it at the top of index.js file
+
+````bash
+npm i core-js
+````
+
+````js
+import 'core-js'; // bloats the bundle size ❌
+
+import 'core-js/some-feature' // really manual process, I need to check all files to see what features are used ❌
+````
+
+
+
+### Let's add polyfills for ECMA standards the smart-way! ✅
+
+hey babel: if you see the usage of features not supported by the target, like promises, please, add the polyfills for me. 
+
+#### ⚠️ E.g clipboard api won't be added by core-js or regenerator-runtime polyfills
+
+we need
+
+1 . core-js installed: polyfills the latest ECMAScript standard and proposals
+
+````bash
+npm i core-js
+````
+
+2. https://www.npmjs.com/package/regenerator-runtime installed
+
+````bash
+npm i regenerator-runtime
+````
+
+that suplements core-js
+
+```js
+// webpack.config.prod.js
+module.exports = {
+	module: {
+        rules: [
+            {
+              test: /\.m?js$/,
+              exclude: /node_modules/,
+              use: {
+                loader: 'babel-loader',
+                options: {
+                  presets: [
+                    ['@babel/preset-env', { 
+                        targets: '> 2%' ,
+                        useBuiltIns: 'usage', 👈
+                      	corejs: {👈
+                          version: '3'
+                        }
+                    }]
+                  ]
+                }
+              }
+            }
+        ]
+    }
+}
+```
+
+
+
+In Max's example, core-js wasn't added to the bundle because the navigator api was not supported in older browsers anyway. But he added `console.log(new Promise()), and that was enough to see core-js added to the bundle.
+
+If we'r using 3rd part packages, well, babel won't scan them, se let's add them all!
+
+```js
+// webpack.config.prod.js
+useBuiltIns: 'entry', 👈 // it will load all the polyfills required for the target, specified in the the same file doesn't scan the usage in the scripts. When using 2rd party packages, we don't know what's in there most of the times
+```
+
+```
+// app.js
+import 'core-js/core';
+import 'regenerator-runtime/runtime';
+```
+
 Babel Docs =>  [https://babeljs.io/docs/en/](https://babeljs.io/docs/en/)
 
 babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com/babel/babel-loader)
@@ -7732,7 +7817,7 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MDQ3OTI5LDEyNjA4NjYwNTksLTk2MD
-UyNzA2LDE5OTE1ODA5MjUsLTg2MzEzMzIzMiw3MjM1NDg0MDgs
-MzQ2NjI5OTE5XX0=
+eyJoaXN0b3J5IjpbLTUwNTIwMzAzLDc0NjA0NzkyOSwxMjYwOD
+Y2MDU5LC05NjA1MjcwNiwxOTkxNTgwOTI1LC04NjMxMzMyMzIs
+NzIzNTQ4NDA4LDM0NjYyOTkxOV19
 -->
