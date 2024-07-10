@@ -7333,7 +7333,8 @@ localStorage.getItem('token'); // 'jsnfianrgiaenrg'
 
 // getting an item is synchronous 🏎, no need to wait for a promise to resolve, or pass a callback
 ````
-
+You can see the storage in `browser-application`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODgwNjcyNDE0LC0xMjk3ODcxMTg5XX0=
+eyJoaXN0b3J5IjpbLTE3MzQyMTcwNzAsODgwNjcyNDE0LC0xMj
+k3ODcxMTg5XX0=
 -->
