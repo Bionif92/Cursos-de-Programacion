@@ -7517,6 +7517,68 @@ dbRequest.onupgradeneeded = event => { // ✅
 ````
 
 Need to delete it from browser application and refresh to see the item
+
+### let's add items upon events!
+
+````js
+// let's have a top level variable
+let db;
+
+// if the connection request succedeed
+// this will everytime the db is has already been created, or when there's a change of version
+// so it runs almost most of the times
+dbRequest.onsuccess = event => {
+  db = event.target.result;
+}
+
+// this callback will run only on db creation (first time the file loads) or the version changes
+dbRequest.onupgradeneeded = event => {
+  db = event.target.result
+
+  // let's create a Products store
+  const objectStore = db.createObjectStore('products', { keyPath: 'id' });
+
+  // let's react to the successful object store creation
+  objectStore.transaction.oncomplete = () => {
+    debugger;
+
+    const productStore = db.transaction('products', 'readwrite').objectStore('products');
+
+    // let's add an object (it's an object store!) to the products store
+    // we could add any fields we want
+    // it should have that keyPath (id)
+    productStore.add({
+      id: 'p1',
+      title: 'burger',
+      ingredients: ['bread', 'meat']
+    });
+  }
+};
+
+dbRequest.onerror = event => {
+  console.log(event);
+};
+
+const addProduct = () => {
+  if (!db){
+    return;
+  }
+  const productStore = db.transaction('products', 'readwrite').objectStore('products');
+
+    // let's add an object (it's an object store!) to the products store
+    // we could add any fields we want
+    // it must have that keyPath (id)
+    productStore.add({
+      id: 'p2',
+      title: 'super burger',
+      ingredients: ['bread', 'meat', 'more meat']
+    });
+}
+
+saveButtonElement.addEventListener('click', addProduct);
+````
+
+the, if we click on the button, and refresh the indexDB `products` object store, we should see the item added🍔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDc2OTAyNCwtNDg1NjA3MzA5XX0=
+eyJoaXN0b3J5IjpbMjMyNzY4NzY3XX0=
 -->
