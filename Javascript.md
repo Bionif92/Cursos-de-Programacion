@@ -7496,6 +7496,25 @@ dbRequest.onsuccess  = function (event) {
     });
 	}	  
 }
+```` 
+````
+dbRequest.onerror = event => {
+  console.log(event);
+};
+
+// we get this error! ❌
+````
+// Uncaught DOMException: Failed to execute 'createObjectStore' on 'IDBDatabase': The database is not // running a version change transaction.
+//    at dbRequest.onsuccess (webpack-internal:///./src/app.js:66:26)
+````
+let's make it work!
+
+````js
+// change this
+dbRequest.onsuccess = event ={ // ❌
+// for this
+dbRequest.onupgradeneeded = event => { // ✅
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTYwNzMwOV19
+eyJoaXN0b3J5IjpbLTEzNTk3NzE2NDEsLTQ4NTYwNzMwOV19
 -->
