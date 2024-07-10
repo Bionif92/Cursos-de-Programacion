@@ -7466,6 +7466,9 @@ document.cookie; // user object, no token
 ````
 
 More on Cookies => [https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
+
+### IndexDB
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTA0NjUwNSwtNDM2ODA3MzkyXX0=
+eyJoaXN0b3J5IjpbNTkwMTU3MTk4LC0yNTEwNDY1MDUsLTQzNj
+gwNzM5Ml19
 -->
