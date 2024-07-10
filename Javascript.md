@@ -7844,10 +7844,17 @@ what if users disable JS
 <noscript>
 ```
 
+The following resources may be helpful.
 
+-   Babel (Official Docs): [https://babeljs.io/docs/en/](https://babeljs.io/docs/en/)
+-   babel-loader Docs: [https://github.com/babel/babel-loader](https://github.com/babel/babel-loader)
+-   @babel/preset-env Docs: [https://babeljs.io/docs/en/babel-preset-env](https://babeljs.io/docs/en/babel-preset-env)
+-   core-js Docs: [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js)
+
+## Share my Place App
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ3MjAzMjksLTEzMzE4OTcyNTMsND
-kzODkyMjYsNDc2MjI1NjUsLTUwNTIwMzAzLDc0NjA0NzkyOSwx
-MjYwODY2MDU5LC05NjA1MjcwNiwxOTkxNTgwOTI1LC04NjMxMz
-MyMzIsNzIzNTQ4NDA4LDM0NjYyOTkxOV19
+eyJoaXN0b3J5IjpbNDc3NTA0NjI0LC0xMzMxODk3MjUzLDQ5Mz
+g5MjI2LDQ3NjIyNTY1LC01MDUyMDMwMyw3NDYwNDc5MjksMTI2
+MDg2NjA1OSwtOTYwNTI3MDYsMTk5MTU4MDkyNSwtODYzMTMzMj
+MyLDcyMzU0ODQwOCwzNDY2Mjk5MTldfQ==
 -->
