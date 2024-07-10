@@ -7324,8 +7324,16 @@ Can store things related to the user:
 
 ### Local Storage
 
+store things that can be converted to strings: strings, numbers, booleans, or anything converted into JSON (objects, arrays, etc)
 
+````js
+localStorage.setItem('token', 'jsnfianrgiaenrg');
+
+localStorage.getItem('token'); // 'jsnfianrgiaenrg' 
+
+// getting an item is synchronous 🏎, no need to wait for a promise to resolve, or pass a callback
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyOTA2OTMwNywtMTI5Nzg3MTE4OV19
+eyJoaXN0b3J5IjpbODgwNjcyNDE0LC0xMjk3ODcxMTg5XX0=
 -->
