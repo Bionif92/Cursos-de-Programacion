@@ -7648,8 +7648,81 @@ if (👉navigator.clipboard){
  }
 ````
 
+### Solution 2 for a missing browser feature: Using Polyfills 
 
+let's polyfill the clipboard API: https://www.npmjs.com/package/clipboard-polyfill
+
+Other example: we could polyfill the `fetch `API, so it works on really old browsers.
+
+https://github.com/github/fetch
+
+It's just a script that will add a function fetch() to the window object.
+
+Some JS things, like promises, can be polyfilled, but some browser features can't, as some bridges from the browser to the JS engine are not built
+
+### Solution 3 for missing JS syntax support: transpiling code
+
+What if I wanna write modern JS ES6? I can't detect them, neither polyfill them.
+
+As said above, some features can't be polyfilled or be detected: let, const, async/await, arrow functions, etc (ES6 syntax)
+
+Those ES6 features are not functions we call (like fetch()); instead they'r keywords that tell the JS how to undertand our code.
+
+So, the code shipped to the browser needs to be transpiled.
+
+Let's install Babel loader (a tight integration with webpack)
+
+`````bash
+npm install -D babel-loader @babel/core @babel/preset-env
+`````
+
+`@babel/preset-env` is the package containing the tranlation rules
+
+`@babel/core` is the code that actually transpiles
+
+`babel-loader` is the package that connects webpack and babel
+
+````js
+// webpack.config.prod.js
+module.exports = {
+   module: {
+        rules: [
+            {
+              test: /\.m?js$/,
+              exclude: /node_modules/,
+              use: {
+                loader: 'babel-loader',
+                options: {
+                  presets: [
+                    ['@babel/preset-env', { targets: 'defaults' }]
+                  ]
+                }
+              }
+            }
+        ]
+    }
+}
+````
+
+We can tell preset-env the targets ((I guess in older package versions)) by adding this to the package.json file:
+
+````json
+// package.json
+browsersist: "> 2%"; //browserslist is a package used by preset-env under the hood
+// transpiled code has some const keywords
+````
+
+````js
+// new api
+['@babel/preset-env', { targets: "ie 11" }]; // transpiled code has some var keywords
+````
+
+let's make sure the browser we'r targetting is also polyfilled with the features we need, like promises
+
+#### 🔥The best combo: feature detection + browser feature polyfills + transpiled code + ECMA standards polyfills 🔥
+
+we still need to polyfill some ECMA standards, appart from transpiling the code!👇
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0MzI0NDc3LC04NjMxMzMyMzIsNzIzNT
-Q4NDA4LDM0NjYyOTkxOV19
+eyJoaXN0b3J5IjpbMTk5MTU4MDkyNSwtODYzMTMzMjMyLDcyMz
+U0ODQwOCwzNDY2Mjk5MTldfQ==
 -->
