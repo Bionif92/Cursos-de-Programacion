@@ -7647,7 +7647,9 @@ if (👉navigator.clipboard){
   alert('please install chrome to enjoy this feature');
  }
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjQwNDE5MSwtODYzMTMzMjMyLDcyMz
-U0ODQwOCwzNDY2Mjk5MTldfQ==
+eyJoaXN0b3J5IjpbNjg0MzI0NDc3LC04NjMxMzMyMzIsNzIzNT
+Q4NDA4LDM0NjYyOTkxOV19
 -->
