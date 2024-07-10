@@ -7673,7 +7673,7 @@ So, the code shipped to the browser needs to be transpiled.
 Let's install Babel loader (a tight integration with webpack)
 
 `````bash
-npm install --save babel-loader @babel/core @babel/preset-env
+npm install -D babel-loader @babel/core @babel/preset-env // --save-dev = -D
 `````
 
 `@babel/preset-env` is the package containing the tranlation rules
@@ -7731,7 +7731,7 @@ babel-loader Docs =>  [https://github.com/babel/babel-loader](https://github.com
 
 browserslist Config Options =>  [https://github.com/browserslist/browserslist#full-list](https://github.com/browserslist/browserslist#full-list)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAzODM2NjAsLTk2MDUyNzA2LDE5OT
-E1ODA5MjUsLTg2MzEzMzIzMiw3MjM1NDg0MDgsMzQ2NjI5OTE5
-XX0=
+eyJoaXN0b3J5IjpbNzE3MDYxMzYxLC05NjA1MjcwNiwxOTkxNT
+gwOTI1LC04NjMxMzMyMzIsNzIzNTQ4NDA4LDM0NjYyOTkxOV19
+
 -->
