@@ -7324,6 +7324,8 @@ Can store things related to the user:
 
 ### Local Storage
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjY5NzM4NSwtMTI5Nzg3MTE4OV19
+eyJoaXN0b3J5IjpbLTMyOTA2OTMwNywtMTI5Nzg3MTE4OV19
 -->
