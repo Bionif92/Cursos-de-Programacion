@@ -7464,6 +7464,8 @@ document.cookie; // user object, no token
 
 // trying to set a cookie that is already in there has no effect of duplication 💡
 ````
+
+More on Cookies => [https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjgwNzM5Ml19
+eyJoaXN0b3J5IjpbLTI1MTA0NjUwNSwtNDM2ODA3MzkyXX0=
 -->
