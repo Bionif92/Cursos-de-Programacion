@@ -7417,12 +7417,54 @@ const user = {
 
 document.cookie = `user=${JSON.stringify(user)}`;
 ````
-To split the data:
+### Let's retrieve a key value pair
 
-```js
-const cookieData = document.cookie.split(';');
-cookieData.map();
-```
+````js
+const user = {
+  name: 'tebi',
+  age: 34
+}
+
+document.cookie = 'token=jsjsjss';
+
+// document.cookie = 'userName=esteban';
+document.cookie = `user=${JSON.stringify(user)}`;
+
+// document.cookie holds 'token=jsjsjss; user={"name": "tebi", "age": 30}'
+
+// it's a huge pain!❌
+
+// ['token=jsjsjss;', '  user={"name": "tebi", "age": 30}']
+let cookies = document.cookie.split(';');
+
+// ['token=jsjsjss;', 'user={"name": "tebi", "age": 30}']
+cookies = cookies.map(item => item.trim());
+
+// it's access via the index in the split array, such a pain❌
+console.log(JSON.parse(cookies[1].split('=')[1])); // {name: 'tebi', age: 30}
+
+// it's better to access it via .includes('youKeyHere'); ✅
+// search for the pattern online
+````
+
+An advantage of cookies is that they set them to expire
+
+````js
+// no expiration set => it expires after the session expired (tab closed or browser closed)
+
+// max age in seconds
+document.cookie = 'token=jsjsjss; max-age=5';
+document.cookie = `user=${JSON.stringify(user)}`;
+
+// after 5 seconds
+document.cookie; // user object, no token
+
+// ;expires=someFormatedDate is another option, look in MDN
+
+// after page refreshes in time, the first cookie will be the one that never expired (user), 👉so the order is not guaranteed👈, that's why using indexes is a bad idea, as they might reflect the order of cookies in the code
+
+// trying to set a cookie that is already in there has no effect of duplication 💡
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzMDY4ODgwLDc2ODE0MDYyOV19
+eyJoaXN0b3J5IjpbLTE4NjY1MTc3MTBdfQ==
 -->
