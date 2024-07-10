@@ -7417,7 +7417,12 @@ const user = {
 
 document.cookie = `user=${JSON.stringify(user)}`;
 ````
+To split the data:
 
+```js
+const cookieData = document.cookie.split(';');
+coo
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzcyODYxNSw3NjgxNDA2MjldfQ==
+eyJoaXN0b3J5IjpbMTE0MzU2MTE3Myw3NjgxNDA2MjldfQ==
 -->
