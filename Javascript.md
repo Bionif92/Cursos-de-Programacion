@@ -7486,10 +7486,16 @@ dbRequest.onsuccess  = function (event) {
 	// let's react to the successful object store creation
   objectStore.transaction.oncomplete = function (event) {
 	  const productStore = db.transaction('products', 'readwrite').objectStore('products');
-	}
-	  
+	   // let's add an object (it's an object store!) to the products store
+    // we could add any fields we want
+    // it should have that keyPath (id)
+    productStore.add({
+      id: 'p1',
+      title: 'burger',
+      ingredients: ['bread', 'meat']
+    });
+	}	  
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgwNzk5OTE5LC0yNTEwNDY1MDUsLTQzNj
-gwNzM5Ml19
+eyJoaXN0b3J5IjpbLTQ4NTYwNzMwOV19
 -->
