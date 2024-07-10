@@ -7465,5 +7465,5 @@ document.cookie; // user object, no token
 // trying to set a cookie that is already in there has no effect of duplication 💡
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjgwNzM5MiwtMTg2NjUxNzcxMF19
+eyJoaXN0b3J5IjpbLTQzNjgwNzM5Ml19
 -->
