@@ -7485,11 +7485,11 @@ dbRequest.onsuccess  = function (event) {
   
 	// let's react to the successful object store creation
   objectStore.transaction.oncomplete = function (event) {
-  
+	  const productStore = db.transaction('products', 'readwrite').objectStore('products');
 	}
 	  
 }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU1NTMyMjMsLTI1MTA0NjUwNSwtND
-M2ODA3MzkyXX0=
+eyJoaXN0b3J5IjpbOTgwNzk5OTE5LC0yNTEwNDY1MDUsLTQzNj
+gwNzM5Ml19
 -->
