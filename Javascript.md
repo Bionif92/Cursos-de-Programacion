@@ -7468,7 +7468,15 @@ document.cookie; // user object, no token
 More on Cookies => [https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie](https://developer.mozilla.org/en-US/docs/Web/API/Document/cookie)
 
 ### IndexDB
+
+IndexedDB Docs => [https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB](https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB)
+
+Working with the API is a pain, so it's better to use this library: https://github.com/jakearchibald/idb
+
+`````js
+// open a connection
+const dbRequest = indexedDB.open('Demo', 1);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkwMTU3MTk4LC0yNTEwNDY1MDUsLTQzNj
+eyJoaXN0b3J5IjpbMjg1MjY0ODE0LC0yNTEwNDY1MDUsLTQzNj
 gwNzM5Ml19
 -->
