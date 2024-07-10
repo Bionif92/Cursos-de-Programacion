@@ -7629,8 +7629,25 @@ Use https://kangax.github.io/compat-table/es6/ for syntax support. It's got comp
 
 define your target, and make things work for them
 
+### Solution #1 for a missing browser feature: Feature detection + fallback
 
+when trying to use a browser feature, that is not supported in all browser, do something to prevent the app breaking when that feature is not available.
+
+````js
+if (👉navigator.clipboard){
+  const text = pElement.textContent;
+  try {
+    await navigator.clipboard.writeText(text);
+    const copiedText = await navigator.clipboard.readText();
+    console.log(`the copied text is: ${copiedText}`);
+  } catch (error){
+    console.log('oops, the clipboard API failed')
+  }
+ } else {
+  alert('please install chrome to enjoy this feature');
+ }
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MzEzMzIzMiw3MjM1NDg0MDgsMzQ2Nj
-I5OTE5XX0=
+eyJoaXN0b3J5IjpbLTQ3NjQwNDE5MSwtODYzMTMzMjMyLDcyMz
+U0ODQwOCwzNDY2Mjk5MTldfQ==
 -->
