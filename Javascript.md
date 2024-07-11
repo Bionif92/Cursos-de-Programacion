@@ -7860,8 +7860,8 @@ Then run dev server i maintain it oppen:
 `npm run build:dev`
 When you change something in your source it will automatically refresh
 
-You can 
+You can choose to go object oriented style (classes) or work with different functions
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNzE5MjcyLDIxMjExNjg0NDUsNDc3NT
-A0NjI0XX0=
+eyJoaXN0b3J5IjpbLTUyNzc2NDg1OSwyMTIxMTY4NDQ1LDQ3Nz
+UwNDYyNF19
 -->
