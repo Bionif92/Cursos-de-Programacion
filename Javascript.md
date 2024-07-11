@@ -7853,7 +7853,11 @@ The following resources may be helpful.
 
 ## Share my Place App
 
-Fi
+First i had to install Webpack to function:
+`npm i webpack-dev-server -D`
+
+Then run dev server i maintain it oppen:
+`npm run build:dev`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMzAyMDI1LDQ3NzUwNDYyNF19
+eyJoaXN0b3J5IjpbMTY1NDcxMjgwLDQ3NzUwNDYyNF19
 -->
