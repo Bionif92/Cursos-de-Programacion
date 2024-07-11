@@ -7858,6 +7858,7 @@ First i had to install Webpack to function:
 
 Then run dev server i maintain it oppen:
 `npm run build:dev`
+When you change something in your source it will automatically refresh
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDcxMjgwLDQ3NzUwNDYyNF19
+eyJoaXN0b3J5IjpbMjEyMTE2ODQ0NSw0Nzc1MDQ2MjRdfQ==
 -->
