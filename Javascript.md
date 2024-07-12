@@ -7870,6 +7870,9 @@ Search on google, google maps javascript Api: put in the htlm
 <script  async  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&loading=async&callback=initMap">  
 </script> 
 ```
+erase the part of the callback
+and for `key/your api key` need to create an account, pay money to have the gadgets
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg2MTYyNzU2LDE3MzIxMzQ2NzldfQ==
+eyJoaXN0b3J5IjpbLTEyNDc5OTM3NjUsNzg2MTYyNzU2LDE3Mz
+IxMzQ2NzldfQ==
 -->
