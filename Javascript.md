@@ -7954,11 +7954,22 @@ async findAddressHandler(event){
 
 encodeURI = give a string and give back and url
 
-cpliboard api to copy a link, it return a promise so we need to use then and catch
+clipboard api to copy a link, it return a promise so we need to use then and catch
 
+For extract the info from the clipboard
+````js
+const  url  =  new  URL(location.href);
+const  queryParams  =  url.searchParams;
+const  coords  = {
+lat:  parseFloat(queryParams.get('lat')),
+lng:  +queryParams.get('lng')
+};
 
+const  address  =  queryParams.get('address');
+new  LoadedPlace(coords, address);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3OTI4NjQ0LC0xMDI4MTIwMjI0LDExND
-M0OTcwMDksLTE3NTQyMTcwMDksMTc3MTg3NjU2NCwtNjg0MTgy
-MTc5LDc4NjE2Mjc1NiwxNzMyMTM0Njc5XX0=
+eyJoaXN0b3J5IjpbLTYwNDUyNzQzNywtMTAyODEyMDIyNCwxMT
+QzNDk3MDA5LC0xNzU0MjE3MDA5LDE3NzE4NzY1NjQsLTY4NDE4
+MjE3OSw3ODYxNjI3NTYsMTczMjEzNDY3OV19
 -->
