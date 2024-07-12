@@ -7915,6 +7915,7 @@ In the next lectures, we'll also use the Google API to convert a pair of coordin
 
 Unfortunately, I'm not aware of any credit-card-free alternatives, so for now the solution will be to simply return some dummy data in those utility functions we'll add:
 
+```` js
 export async function getAddressFromCoords(coords) {
   return '6th Avenue'; // return any dummy address you want
 }
@@ -7922,7 +7923,8 @@ export async function getAddressFromCoords(coords) {
 export async function getCoordsFromAddress(address) {
   return {lat: 47.01, lng: 33.55}; // return any dummy coordinates you want
 }
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTUzMTkwMCwxNzcxODc2NTY0LC02OD
-QxODIxNzksNzg2MTYyNzU2LDE3MzIxMzQ2NzldfQ==
+eyJoaXN0b3J5IjpbLTE3NTQyMTcwMDksMTc3MTg3NjU2NCwtNj
+g0MTgyMTc5LDc4NjE2Mjc1NiwxNzMyMTM0Njc5XX0=
 -->
