@@ -7876,7 +7876,9 @@ and for `key/your api key` need to create an account, pay money to have the gadg
 Plug in the html once you have it
 
 Google Maps SDK Docs => [https://developers.google.com/maps/documentation/javascript/tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTg3NjU2NCwtNjg0MTgyMTc5LDc4Nj
-E2Mjc1NiwxNzMyMTM0Njc5XX0=
+eyJoaXN0b3J5IjpbMTk1NTY4ODM2OCwxNzcxODc2NTY0LC02OD
+QxODIxNzksNzg2MTYyNzU2LDE3MzIxMzQ2NzldfQ==
 -->
