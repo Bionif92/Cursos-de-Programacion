@@ -7865,7 +7865,11 @@ You can choose to go object oriented style (classes) or work with different func
 See on MDN if geolocation api works on the popular browsers: it does
 
 To use google maps:
-Search on google, google maps javascript Api 
+Search on google, google maps javascript Api: put in the htlm
+```html
+<script  async  src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&loading=async&callback=initMap">  
+</script> 
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjEzNDY3OV19
+eyJoaXN0b3J5IjpbNzg2MTYyNzU2LDE3MzIxMzQ2NzldfQ==
 -->
