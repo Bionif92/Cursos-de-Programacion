@@ -7863,7 +7863,9 @@ When you change something in your source it will automatically refresh
 You can choose to go object oriented style (classes) or work with different functions: he go with classes
 
 See on MDN if geolocation api works on the popular browsers: it does
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU4NjcxMjAsMTAyNDM0MzUxOCwyMT
-IxMTY4NDQ1LDQ3NzUwNDYyNF19
+eyJoaXN0b3J5IjpbLTMwNzU4MDgyMCwtMTAwNTg2NzEyMCwxMD
+I0MzQzNTE4LDIxMjExNjg0NDUsNDc3NTA0NjI0XX0=
 -->
