@@ -7952,9 +7952,9 @@ async findAddressHandler(event){
     }
 ````
 
-encodeURI =
+encodeURI = give a string and give back and url
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NTYzMjQxMywtMTc1NDIxNzAwOSwxNz
+eyJoaXN0b3J5IjpbMTE0MzQ5NzAwOSwtMTc1NDIxNzAwOSwxNz
 cxODc2NTY0LC02ODQxODIxNzksNzg2MTYyNzU2LDE3MzIxMzQ2
 NzldfQ==
 -->
