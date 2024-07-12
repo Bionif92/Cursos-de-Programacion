@@ -7968,6 +7968,8 @@ lng:  +queryParams.get('lng')
 const  address  =  queryParams.get('address');
 new  LoadedPlace(coords, address);
 ````
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDUyNzQzN119
+eyJoaXN0b3J5IjpbLTU4NDQ3MDEwNywtNjA0NTI3NDM3XX0=
 -->
