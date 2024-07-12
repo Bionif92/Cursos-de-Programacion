@@ -7969,7 +7969,5 @@ const  address  =  queryParams.get('address');
 new  LoadedPlace(coords, address);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDUyNzQzNywtMTAyODEyMDIyNCwxMT
-QzNDk3MDA5LC0xNzU0MjE3MDA5LDE3NzE4NzY1NjQsLTY4NDE4
-MjE3OSw3ODYxNjI3NTYsMTczMjEzNDY3OV19
+eyJoaXN0b3J5IjpbLTYwNDUyNzQzN119
 -->
