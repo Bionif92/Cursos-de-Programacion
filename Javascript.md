@@ -7864,8 +7864,9 @@ You can choose to go object oriented style (classes) or work with different func
 
 See on MDN if geolocation api works on the popular browsers: it does
 
-
+To use google maps:
+Search on google, google maps sdk, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzU4MDgyMCwtMTAwNTg2NzEyMCwxMD
-I0MzQzNTE4LDIxMjExNjg0NDUsNDc3NTA0NjI0XX0=
+eyJoaXN0b3J5IjpbLTIwMDUzNTI3NjYsLTEwMDU4NjcxMjAsMT
+AyNDM0MzUxOCwyMTIxMTY4NDQ1LDQ3NzUwNDYyNF19
 -->
