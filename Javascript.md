@@ -7927,8 +7927,32 @@ export async function getCoordsFromAddress(address) {
 
 For the adress when need to use the google servers:
 google geocoding api
+
+````js
+// improved version with catching errors when calling this function
+async findAddressHandler(event){
+        event.preventDefault();
+        const address = document.querySelector('#place-data input').value;
+        if (!address || address.trim() === 0){
+            alert('oops, please enter an address');
+        }
+
+        const modal = new Modal('modal-template', 'loading-modal-content', 'Loading position, click here to continue');
+        modal.show();
+
+        👉try {
+          	// happy path here
+            const coordinates = await getCoordinatesFromAddress(address.trim());
+            this.selectPlace(coordinates);
+        👉} catch(error){
+            alert(error.message);
+        }
+        
+        modal.hide();
+    }
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjM4MTM5NTUsLTE3NTQyMTcwMDksMT
-c3MTg3NjU2NCwtNjg0MTgyMTc5LDc4NjE2Mjc1NiwxNzMyMTM0
-Njc5XX0=
+eyJoaXN0b3J5IjpbMTM1MDIzNDQwMiwtMTc1NDIxNzAwOSwxNz
+cxODc2NTY0LC02ODQxODIxNzksNzg2MTYyNzU2LDE3MzIxMzQ2
+NzldfQ==
 -->
