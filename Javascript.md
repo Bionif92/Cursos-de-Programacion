@@ -7954,9 +7954,9 @@ async findAddressHandler(event){
 
 encodeURI = give a string and give back and url
 
-cpliboard api to copy a link
+cpliboard api to copy a link, it return a promise so we need to use then and catch
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDkzMjQ0LDExNDM0OTcwMDksLTE3NT
-QyMTcwMDksMTc3MTg3NjU2NCwtNjg0MTgyMTc5LDc4NjE2Mjc1
-NiwxNzMyMTM0Njc5XX0=
+eyJoaXN0b3J5IjpbLTEwMjgxMjAyMjQsMTE0MzQ5NzAwOSwtMT
+c1NDIxNzAwOSwxNzcxODc2NTY0LC02ODQxODIxNzksNzg2MTYy
+NzU2LDE3MzIxMzQ2NzldfQ==
 -->
