@@ -7872,7 +7872,9 @@ Search on google, google maps javascript Api: put in the htlm
 ```
 erase the part of the callback
 and for `key/your api key` need to create an account, pay money to have the gadgets
+
+Plug in the html once you have it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDc5OTM3NjUsNzg2MTYyNzU2LDE3Mz
-IxMzQ2NzldfQ==
+eyJoaXN0b3J5IjpbLTY4NDE4MjE3OSw3ODYxNjI3NTYsMTczMj
+EzNDY3OV19
 -->
