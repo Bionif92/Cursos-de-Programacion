@@ -7924,7 +7924,10 @@ export async function getCoordsFromAddress(address) {
   return {lat: 47.01, lng: 33.55}; // return any dummy coordinates you want
 }
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTQyMTcwMDksMTc3MTg3NjU2NCwtNj
-g0MTgyMTc5LDc4NjE2Mjc1NiwxNzMyMTM0Njc5XX0=
+eyJoaXN0b3J5IjpbLTEwNzI5MTg3NDEsLTE3NTQyMTcwMDksMT
+c3MTg3NjU2NCwtNjg0MTgyMTc5LDc4NjE2Mjc1NiwxNzMyMTM0
+Njc5XX0=
 -->
