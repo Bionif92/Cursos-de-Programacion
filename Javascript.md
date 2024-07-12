@@ -7874,7 +7874,9 @@ erase the part of the callback
 and for `key/your api key` need to create an account, pay money to have the gadgets
 
 Plug in the html once you have it
+
+Google Maps SDK Docs => [https://developers.google.com/maps/documentation/javascript/tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NDE4MjE3OSw3ODYxNjI3NTYsMTczMj
-EzNDY3OV19
+eyJoaXN0b3J5IjpbMTc3MTg3NjU2NCwtNjg0MTgyMTc5LDc4Nj
+E2Mjc1NiwxNzMyMTM0Njc5XX0=
 -->
