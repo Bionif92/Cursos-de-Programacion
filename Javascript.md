@@ -7925,9 +7925,10 @@ export async function getCoordsFromAddress(address) {
 }
 ````
 
-
+For the adress when need to use the google servers:
+google geocoding api
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI5MTg3NDEsLTE3NTQyMTcwMDksMT
+eyJoaXN0b3J5IjpbLTE4MjM4MTM5NTUsLTE3NTQyMTcwMDksMT
 c3MTg3NjU2NCwtNjg0MTgyMTc5LDc4NjE2Mjc1NiwxNzMyMTM0
 Njc5XX0=
 -->
