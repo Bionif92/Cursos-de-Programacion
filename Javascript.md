@@ -8036,12 +8036,13 @@ const company = {
 	}
 }
 
-console.log(complany.next());
-console.log(complany.next());
+console.log(complany.next());// Max object
+console.log(complany.next());// Manu object
+console.log(complany.next());// Anna object
+console.log(complany.next());// object saying loop done
+console.log(complany.next());// object saying loop done
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTQ5ODkxOSw3NTM4NDcxMzgsLTExMD
-cyMzcyMTgsNDI1OTM3MTc4LDE3NTQ0NTk0NzAsLTEyODEwNjg5
-NjYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbMjg2NzM0MDg5XX0=
 -->
