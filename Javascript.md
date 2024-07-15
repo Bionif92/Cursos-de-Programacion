@@ -7971,7 +7971,8 @@ new  LoadedPlace(coords, address);
 
 ## Summary of tools
 
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTE2NjM3OV19
+eyJoaXN0b3J5IjpbMTM3NjU0MDldfQ==
 -->
