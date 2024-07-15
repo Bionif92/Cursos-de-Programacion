@@ -8069,16 +8069,12 @@ employees: ['Max','Manu','Anna'],
 	} 
 };
 
-const it= company.getEmployees();
-
-console.log(it.next());//Max
-console.log(it.next());//Manu
-console.log(it.next());//Anna
-console.log(it.next());//Done iteration
-console.log(it.next());//Done iteration
+for (employee of company) {
+	console.log(employee); // search symbol iterator
+}
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjEyNzI5NTEsMTQzOTYxMTIzMiwtMj
+eyJoaXN0b3J5IjpbLTE1NjIzOTU4NTQsMTQzOTYxMTIzMiwtMj
 AzNjI3NjM1OCwyODY3MzQwODldfQ==
 -->
