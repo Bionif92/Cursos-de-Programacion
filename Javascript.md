@@ -8017,10 +8017,10 @@ Symbols already created that have different bahaviours, search on web
 
 ### Iterators
 
-Object 
+A loopable object
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUzODQ3MTM4LC0xMTA3MjM3MjE4LDQyNT
-kzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4OTY2LDEyOTI1NDY1
-NjldfQ==
+eyJoaXN0b3J5IjpbLTE3OTA1NzY3OTksNzUzODQ3MTM4LC0xMT
+A3MjM3MjE4LDQyNTkzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4
+OTY2LDEyOTI1NDY1NjldfQ==
 -->
