@@ -7977,8 +7977,8 @@ new  LoadedPlace(coords, address);
  - Bundling (make a bigger file) with Webpack
  -  Using webpack-dev-server to reload every time you change something
  - For production you need a Webpack file
- - 
+ - For browser support use fallbacks, polyfills or transporting code with babel
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTI5MzcyMiwxNDU1OTUyODU4XX0=
+eyJoaXN0b3J5IjpbMTI5MjU0NjU2OSwxNDU1OTUyODU4XX0=
 -->
