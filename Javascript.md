@@ -6573,7 +6573,7 @@ The following resources may be helpful.
 
 Dont re-invent the wheel, use libraries to copy/paste script
 
-### Example Loadsh
+### Example Lodash
 
 https://lodash.com/
 
@@ -7974,5 +7974,5 @@ new  LoadedPlace(coords, address);
  - Third Party Libraries (Lodash)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjk1NTUyMTIsMTM3NjU0MDldfQ==
+eyJoaXN0b3J5IjpbMTQ1NTk1Mjg1OF19
 -->
