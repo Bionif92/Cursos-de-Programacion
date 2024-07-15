@@ -8019,8 +8019,14 @@ Symbols already created that have different bahaviours, search on web
 
 A loopable object
 
+````js
+const company = {
+
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA1NzY3OTksNzUzODQ3MTM4LC0xMT
-A3MjM3MjE4LDQyNTkzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4
-OTY2LDEyOTI1NDY1NjldfQ==
+eyJoaXN0b3J5IjpbLTg2OTY4MjEyOSw3NTM4NDcxMzgsLTExMD
+cyMzcyMTgsNDI1OTM3MTc4LDE3NTQ0NTk0NzAsLTEyODEwNjg5
+NjYsMTI5MjU0NjU2OV19
 -->
