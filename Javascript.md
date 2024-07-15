@@ -7972,8 +7972,8 @@ new  LoadedPlace(coords, address);
 ## Summary of tools
 
  - Third Party Libraries (Lodash, Jquery, Axios)
- - 
+ - Modules, need NPM Serve and Node installed, a 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDEzMDM5NSwxNDU1OTUyODU4XX0=
+eyJoaXN0b3J5IjpbMjQ0NDQzNTY2LDE0NTU5NTI4NThdfQ==
 -->
