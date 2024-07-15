@@ -7976,7 +7976,9 @@ new  LoadedPlace(coords, address);
  - Linting (check code and code quality) with Eslint
  - Bundling (make a bigger file) with Webpack
  -  Using webpack-dev-server to reload every time you change something
+ - For production you need a Webpack file
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5OTk3ODExLDE0NTU5NTI4NThdfQ==
+eyJoaXN0b3J5IjpbMTM4OTI5MzcyMiwxNDU1OTUyODU4XX0=
 -->
