@@ -8062,12 +8062,15 @@ const company = {
 employees: ['Max','Manu','Anna'],
 [Symbol.iterator]= function* employeeGenerator () {
 		let currentEmployee = 0;
-		while
+		while (currentEmployee<this.employees.lenght) {
+			yield.this.employees[currentEmployees];
+			currentEmployees++;
+		}
 	} 
-}
+};
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE1MDkxMjcsMTQzOTYxMTIzMiwtMj
+eyJoaXN0b3J5IjpbLTE0Mjc3MTgwNzEsMTQzOTYxMTIzMiwtMj
 AzNjI3NjM1OCwyODY3MzQwODldfQ==
 -->
