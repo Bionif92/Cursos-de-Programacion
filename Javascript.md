@@ -8027,13 +8027,17 @@ const company = {
 		if(this.curEmployee>=this.curEmployee.lenght) {
 			return {value:this.curEmployee,done=true};
 		}
-		
+		const returnValue = {
+		value:this.employees[this.curEmployee],
+		done=false
+		}
+	this.curEmployee
 	}
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk5MTMzNDksNzUzODQ3MTM4LC0xMT
+eyJoaXN0b3J5IjpbLTE2MDQ1MDIzMTYsNzUzODQ3MTM4LC0xMT
 A3MjM3MjE4LDQyNTkzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4
 OTY2LDEyOTI1NDY1NjldfQ==
 -->
