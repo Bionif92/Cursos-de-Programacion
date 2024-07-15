@@ -8058,10 +8058,15 @@ while(!employee.done) {
 Generates an object with an iterator
 
 ````js
-const company = {}
+const company = {
+...
+[Symbol.iterator]= function* employeeGenerator () {
+	
+}
+}
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjUzNjU3NSwtMjAzNjI3NjM1OCwyOD
-Y3MzQwODldfQ==
+eyJoaXN0b3J5IjpbLTE4MTYzNjEwNDgsLTIwMzYyNzYzNTgsMj
+g2NzM0MDg5XX0=
 -->
