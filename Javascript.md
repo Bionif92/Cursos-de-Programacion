@@ -7992,7 +7992,9 @@ A javascript library for building user interfaces
 
 You define the results not the steps that lead to the result
 
+## Meta-Programming: Symbols, Iterators, Generators, Reflect API & Proxy API
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDQ1OTQ3MCwtMTI4MTA2ODk2NiwxMj
-kyNTQ2NTY5XX0=
+eyJoaXN0b3J5IjpbNDI1OTM3MTc4LDE3NTQ0NTk0NzAsLTEyOD
+EwNjg5NjYsMTI5MjU0NjU2OV19
 -->
