@@ -7984,9 +7984,9 @@ new  LoadedPlace(coords, address);
  - Third party packages that add functionalities and rules
  - Provide a complete structure for building JS apps
  - Examples: Angular, Vue and React.js
- - 
+ - Framework for front and back
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjE5NDg2NTIsLTEyODEwNjg5NjYsMT
-I5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbLTI0OTkxNTcyNCwtMTI4MTA2ODk2NiwxMj
+kyNTQ2NTY5XX0=
 -->
