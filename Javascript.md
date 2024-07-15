@@ -8003,13 +8003,13 @@ const uid= Symbol('uid');
 
 const user = {
 id: 'p1',
-[uid]: 'p1', // this can not be changed
+[uid]: 'p1', // this can not be changed outside the librarie
 name: 'Max',
 age:30
 };
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTgwNDYyODgsNDI1OTM3MTc4LDE3NT
-Q0NTk0NzAsLTEyODEwNjg5NjYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbLTYwNTA5NTgzNCw0MjU5MzcxNzgsMTc1ND
+Q1OTQ3MCwtMTI4MTA2ODk2NiwxMjkyNTQ2NTY5XX0=
 -->
