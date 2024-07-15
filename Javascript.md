@@ -8049,10 +8049,12 @@ let employee = company.next();
 
 while(!employee.done) {
 	console.log(employee);
-	employee=c
+	employee= complany.next();// Max, Manu, Anna
 }
 ````
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTAwMDkxMzQsMjg2NzM0MDg5XX0=
+eyJoaXN0b3J5IjpbLTIwMzYyNzYzNTgsMjg2NzM0MDg5XX0=
 -->
