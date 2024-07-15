@@ -8060,7 +8060,7 @@ Generates an object with an iterator, no need to use next
 ````js
 const company = {
 employees: ['Max','Manu','Anna'],
-[Symbol.iterator]= function* employeeGenerator () {
+getEmployees = function* employeeGenerator () {
 		let currentEmployee = 0;
 		while (currentEmployee<this.employees.lenght) {
 			yield.this.employees[currentEmployees];
@@ -8068,9 +8068,17 @@ employees: ['Max','Manu','Anna'],
 		}
 	} 
 };
+
+const it= company.getEmployees();
+
+console.log(it.next());//Max
+console.log(it.next());//Manu
+console.log(it.next());//A
+console.log(it.next());
+console.log(it.next());
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Mjc3MTgwNzEsMTQzOTYxMTIzMiwtMj
-AzNjI3NjM1OCwyODY3MzQwODldfQ==
+eyJoaXN0b3J5IjpbLTcwMDEzOTE3MSwxNDM5NjExMjMyLC0yMD
+M2Mjc2MzU4LDI4NjczNDA4OV19
 -->
