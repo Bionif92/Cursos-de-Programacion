@@ -7986,7 +7986,9 @@ new  LoadedPlace(coords, address);
  - Examples: Angular, Vue and React.js
  - Framework for front and back
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTkxNTcyNCwtMTI4MTA2ODk2NiwxMj
-kyNTQ2NTY5XX0=
+eyJoaXN0b3J5IjpbLTE2NjI0MjU3MTIsLTEyODEwNjg5NjYsMT
+I5MjU0NjU2OV19
 -->
