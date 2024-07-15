@@ -7994,7 +7994,20 @@ You define the results not the steps that lead to the result
 
 ## Meta-Programming: Symbols, Iterators, Generators, Reflect API & Proxy API
 
+### Symbols
+
+Unique identifiers:
+
+````js
+const uid= Symbol('uid');
+
+const user = {
+id: 'p1',
+[uid]:
+};
+```` 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI1OTM3MTc4LDE3NTQ0NTk0NzAsLTEyOD
-EwNjg5NjYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbLTE5NjQ4NTg1OTYsNDI1OTM3MTc4LDE3NT
+Q0NTk0NzAsLTEyODEwNjg5NjYsMTI5MjU0NjU2OV19
 -->
