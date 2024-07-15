@@ -8021,12 +8021,16 @@ A loopable object
 
 ````js
 const company = {
-
+	curEmployee:0,
+	employees: ['Max','Manu','Anna']
+	next () {
+	c
+	}
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTY4MjEyOSw3NTM4NDcxMzgsLTExMD
-cyMzcyMTgsNDI1OTM3MTc4LDE3NTQ0NTk0NzAsLTEyODEwNjg5
-NjYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbODQ1NzU3OTAyLDc1Mzg0NzEzOCwtMTEwNz
+IzNzIxOCw0MjU5MzcxNzgsMTc1NDQ1OTQ3MCwtMTI4MTA2ODk2
+NiwxMjkyNTQ2NTY5XX0=
 -->
