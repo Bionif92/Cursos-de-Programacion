@@ -7981,8 +7981,9 @@ new  LoadedPlace(coords, address);
 
 ## Javascript Frameworks
 
-Bigger 
+Bigger libraries
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgzMDQ4NTU1LDEyOTI1NDY1NjldfQ==
+eyJoaXN0b3J5IjpbLTEyODEwNjg5NjYsMTI5MjU0NjU2OV19
 -->
