@@ -7980,5 +7980,5 @@ new  LoadedPlace(coords, address);
  - For browser support use fallbacks, polyfills or transporting code with babel
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjU0NjU2OSwxNDU1OTUyODU4XX0=
+eyJoaXN0b3J5IjpbMTI5MjU0NjU2OV19
 -->
