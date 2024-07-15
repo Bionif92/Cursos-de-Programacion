@@ -8031,13 +8031,17 @@ const company = {
 		value:this.employees[this.curEmployee],
 		done=false
 		}
-	this.curEmployee
+	this.curEmployee++
+	return returnValue
 	}
 }
+
+console.log(complany.next());
+console.log(complany.next());
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQ1MDIzMTYsNzUzODQ3MTM4LC0xMT
-A3MjM3MjE4LDQyNTkzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4
-OTY2LDEyOTI1NDY1NjldfQ==
+eyJoaXN0b3J5IjpbMTY0OTQ5ODkxOSw3NTM4NDcxMzgsLTExMD
+cyMzcyMTgsNDI1OTM3MTc4LDE3NTQ0NTk0NzAsLTEyODEwNjg5
+NjYsMTI5MjU0NjU2OV19
 -->
