@@ -8009,7 +8009,9 @@ age:30
 };
 ```` 
 
+Only inside the object you can change it
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTA5NTgzNCw0MjU5MzcxNzgsMTc1ND
-Q1OTQ3MCwtMTI4MTA2ODk2NiwxMjkyNTQ2NTY5XX0=
+eyJoaXN0b3J5IjpbNzA1MTA4MTU0LDQyNTkzNzE3OCwxNzU0ND
+U5NDcwLC0xMjgxMDY4OTY2LDEyOTI1NDY1NjldfQ==
 -->
