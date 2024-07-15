@@ -7979,8 +7979,8 @@ new  LoadedPlace(coords, address);
  - For production you need a Webpack file
  - For browser support use fallbacks, polyfills or transporting code with babel
 
-## Javascript 
+## Javascript Frameworks
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDM2NjA4NDYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbNzY5OTU2NzAxLDEyOTI1NDY1NjldfQ==
 -->
