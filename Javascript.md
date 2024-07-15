@@ -8055,11 +8055,11 @@ while(!employee.done) {
 
 ### Generator
 
-Generates an object with an iterator
+Generates an object with an iterator, no need to use next
 
 ````js
 const company = {
-...
+	employees: ['Max','Manu','Anna']
 [Symbol.iterator]= function* employeeGenerator () {
 	let employee = company.next();
 	
@@ -8072,6 +8072,6 @@ const company = {
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNzYwODU3LDE0Mzk2MTEyMzIsLTIwMz
-YyNzYzNTgsMjg2NzM0MDg5XX0=
+eyJoaXN0b3J5IjpbLTM1MjczMTM2MywxNDM5NjExMjMyLC0yMD
+M2Mjc2MzU4LDI4NjczNDA4OV19
 -->
