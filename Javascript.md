@@ -8013,9 +8013,12 @@ Only inside the library you can change it
 
 #### Well kwown-symbols 
 
-Symbols already created that have different bahaviours
+Symbols already created that have different bahaviours, search on web
+
+### Iterators
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDcyMzcyMTgsNDI1OTM3MTc4LDE3NT
-Q0NTk0NzAsLTEyODEwNjg5NjYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbLTExMjQ2OTAzOSwtMTEwNzIzNzIxOCw0Mj
+U5MzcxNzgsMTc1NDQ1OTQ3MCwtMTI4MTA2ODk2NiwxMjkyNTQ2
+NTY5XX0=
 -->
