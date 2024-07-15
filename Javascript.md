@@ -8065,13 +8065,13 @@ const company = {
 	
 	while(!employee.done) {
 	yield.employee.value;
-	employee= complany.next();// Max, Manu, Anna
+	employee= complany.next();
 }
 }
 }
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTYxMTIzMiwtMjAzNjI3NjM1OCwyOD
-Y3MzQwODldfQ==
+eyJoaXN0b3J5IjpbLTMzNzYwODU3LDE0Mzk2MTEyMzIsLTIwMz
+YyNzYzNTgsMjg2NzM0MDg5XX0=
 -->
