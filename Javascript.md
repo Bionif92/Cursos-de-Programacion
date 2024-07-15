@@ -7990,7 +7990,9 @@ new  LoadedPlace(coords, address);
 
 A javascript library for building user interfaces
 
+You define the results not the steps that lead to the result
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjEzMDk1MCwtMTI4MTA2ODk2NiwxMj
+eyJoaXN0b3J5IjpbMTc1NDQ1OTQ3MCwtMTI4MTA2ODk2NiwxMj
 kyNTQ2NTY5XX0=
 -->
