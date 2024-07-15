@@ -8053,8 +8053,15 @@ while(!employee.done) {
 }
 ````
 
+### Generator
 
+Generates an object with an iterator
+
+````js
+const company = {}
+```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzYyNzYzNTgsMjg2NzM0MDg5XX0=
+eyJoaXN0b3J5IjpbLTg2NjUzNjU3NSwtMjAzNjI3NjM1OCwyOD
+Y3MzQwODldfQ==
 -->
