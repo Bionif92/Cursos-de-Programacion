@@ -8003,15 +8003,15 @@ const uid= Symbol('uid');
 
 const user = {
 id: 'p1',
-[uid]: 'p1', // this can not be changed outside the librarie
+[uid]: 'p1', // this can not be changed outside the library
 name: 'Max',
 age:30
 };
 ```` 
 
-Only inside the object you can change it
+Only inside the library you can change it
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA1MTA4MTU0LDQyNTkzNzE3OCwxNzU0ND
-U5NDcwLC0xMjgxMDY4OTY2LDEyOTI1NDY1NjldfQ==
+eyJoaXN0b3J5IjpbLTQzMTA0ODI3NSw0MjU5MzcxNzgsMTc1ND
+Q1OTQ3MCwtMTI4MTA2ODk2NiwxMjkyNTQ2NTY5XX0=
 -->
