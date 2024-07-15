@@ -8043,6 +8043,8 @@ console.log(complany.next());// object saying loop done
 console.log(complany.next());// object saying loop done
 ````
 
+Can make a while loop
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg2NzM0MDg5XX0=
+eyJoaXN0b3J5IjpbMTk4NjI4NDM3NSwyODY3MzQwODldfQ==
 -->
