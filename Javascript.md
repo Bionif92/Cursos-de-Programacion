@@ -8061,12 +8061,17 @@ Generates an object with an iterator
 const company = {
 ...
 [Symbol.iterator]= function* employeeGenerator () {
+	let employee = company.next();
 	
+	while(!employee.done) {
+	yield.employee.value;
+	employee= complany.next();// Max, Manu, Anna
+}
 }
 }
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTYzNjEwNDgsLTIwMzYyNzYzNTgsMj
-g2NzM0MDg5XX0=
+eyJoaXN0b3J5IjpbMTQzOTYxMTIzMiwtMjAzNjI3NjM1OCwyOD
+Y3MzQwODldfQ==
 -->
