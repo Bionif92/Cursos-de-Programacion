@@ -8017,8 +8017,10 @@ Symbols already created that have different bahaviours, search on web
 
 ### Iterators
 
+Object 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQ2OTAzOSwtMTEwNzIzNzIxOCw0Mj
-U5MzcxNzgsMTc1NDQ1OTQ3MCwtMTI4MTA2ODk2NiwxMjkyNTQ2
-NTY5XX0=
+eyJoaXN0b3J5IjpbNzUzODQ3MTM4LC0xMTA3MjM3MjE4LDQyNT
+kzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4OTY2LDEyOTI1NDY1
+NjldfQ==
 -->
