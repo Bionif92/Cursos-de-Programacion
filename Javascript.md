@@ -7971,8 +7971,9 @@ new  LoadedPlace(coords, address);
 
 ## Summary of tools
 
- - Third Party Libraries (Lodash)
+ - Third Party Libraries (Lodash, Jquery, Axios)
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTk1Mjg1OF19
+eyJoaXN0b3J5IjpbMTY4MDEzMDM5NSwxNDU1OTUyODU4XX0=
 -->
