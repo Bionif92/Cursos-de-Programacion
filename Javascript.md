@@ -7971,7 +7971,7 @@ new  LoadedPlace(coords, address);
 
 ## Summary of tools
 
- - Third Party Libraries (Lodash, Jquery, Axios)
+ - Third Party Libraries (Lodash, Jquery, Axios(send http request))
  - Modules, need NPM Serve and Node installed, an own server in my Pc
  - Linting (check code and code quality) with Eslint
  - Bundling (make a bigger file) with Webpack
@@ -7981,9 +7981,9 @@ new  LoadedPlace(coords, address);
 
 ## Javascript Frameworks
 
-Bigger libraries
-
+ - List item
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODEwNjg5NjYsMTI5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbLTk0MjE4MzcyOSwtMTI4MTA2ODk2NiwxMj
+kyNTQ2NTY5XX0=
 -->
