@@ -8044,7 +8044,15 @@ console.log(complany.next());// object saying loop done
 ````
 
 Can make a while loop
+````js
+let employee = company.next();
+
+while(!employee.done) {
+	console.log(employee);
+	employee=c
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NjI4NDM3NSwyODY3MzQwODldfQ==
+eyJoaXN0b3J5IjpbLTE3MTAwMDkxMzQsMjg2NzM0MDg5XX0=
 -->
