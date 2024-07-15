@@ -7971,8 +7971,8 @@ new  LoadedPlace(coords, address);
 
 ## Summary of tools
 
- - List item
+ - Third Party Libraries (Lodash)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjU0MDldfQ==
+eyJoaXN0b3J5IjpbLTE5Mjk1NTUyMTIsMTM3NjU0MDldfQ==
 -->
