@@ -8059,19 +8059,15 @@ Generates an object with an iterator, no need to use next
 
 ````js
 const company = {
-	employees: ['Max','Manu','Anna']
+employees: ['Max','Manu','Anna'],
 [Symbol.iterator]= function* employeeGenerator () {
-	let employee = company.next();
-	
-	while(!employee.done) {
-	yield.employee.value;
-	employee= complany.next();
-}
-}
+		let currentEmployee = 0;
+		while
+	} 
 }
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MjczMTM2MywxNDM5NjExMjMyLC0yMD
-M2Mjc2MzU4LDI4NjczNDA4OV19
+eyJoaXN0b3J5IjpbLTE1MDE1MDkxMjcsMTQzOTYxMTIzMiwtMj
+AzNjI3NjM1OCwyODY3MzQwODldfQ==
 -->
