@@ -7986,9 +7986,11 @@ new  LoadedPlace(coords, address);
  - Examples: Angular, Vue and React.js
  - Framework for front and back
 
+### React.js
 
+A javascript library for building user interfaces
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI0MjU3MTIsLTEyODEwNjg5NjYsMT
-I5MjU0NjU2OV19
+eyJoaXN0b3J5IjpbMTc2MjEzMDk1MCwtMTI4MTA2ODk2NiwxMj
+kyNTQ2NTY5XX0=
 -->
