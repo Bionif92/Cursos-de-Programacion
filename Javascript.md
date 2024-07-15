@@ -7981,9 +7981,11 @@ new  LoadedPlace(coords, address);
 
 ## Javascript Frameworks
 
- - List item
+ - Third party packages that add functionalities and rules
+ - Provide a complete structure for building JS apps
+ - Examples: A
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjE4MzcyOSwtMTI4MTA2ODk2NiwxMj
+eyJoaXN0b3J5IjpbLTg5MjY1MTUwOSwtMTI4MTA2ODk2NiwxMj
 kyNTQ2NTY5XX0=
 -->
