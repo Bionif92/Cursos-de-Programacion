@@ -8003,11 +8003,13 @@ const uid= Symbol('uid');
 
 const user = {
 id: 'p1',
-[uid]:
+[uid]: 'p1', // this can not be changed
+name: 'Max',
+age:30
 };
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjQ4NTg1OTYsNDI1OTM3MTc4LDE3NT
+eyJoaXN0b3J5IjpbLTIxMTgwNDYyODgsNDI1OTM3MTc4LDE3NT
 Q0NTk0NzAsLTEyODEwNjg5NjYsMTI5MjU0NjU2OV19
 -->
