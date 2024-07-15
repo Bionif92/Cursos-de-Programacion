@@ -8024,13 +8024,16 @@ const company = {
 	curEmployee:0,
 	employees: ['Max','Manu','Anna']
 	next () {
-	c
+		if(this.curEmployee>=this.curEmployee.lenght) {
+			return {value:this.curEmployee,done=true};
+		}
+		
 	}
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1NzU3OTAyLDc1Mzg0NzEzOCwtMTEwNz
-IzNzIxOCw0MjU5MzcxNzgsMTc1NDQ1OTQ3MCwtMTI4MTA2ODk2
-NiwxMjkyNTQ2NTY5XX0=
+eyJoaXN0b3J5IjpbLTIwNDk5MTMzNDksNzUzODQ3MTM4LC0xMT
+A3MjM3MjE4LDQyNTkzNzE3OCwxNzU0NDU5NDcwLC0xMjgxMDY4
+OTY2LDEyOTI1NDY1NjldfQ==
 -->
