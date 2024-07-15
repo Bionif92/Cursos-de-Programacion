@@ -7973,9 +7973,10 @@ new  LoadedPlace(coords, address);
 
  - Third Party Libraries (Lodash, Jquery, Axios)
  - Modules, need NPM Serve and Node installed, an own server in my Pc
- - -   Linting (check code and code quality) with Eslint
- - -   Bundling (make a bigger file) with Webpack
+ - Linting (check code and code quality) with Eslint
+ - Bundling (make a bigger file) with Webpack
+ -  Using webpack-dev-server to reload every time you change something
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY2NjA1ODIsMTQ1NTk1Mjg1OF19
+eyJoaXN0b3J5IjpbNTQ5OTk3ODExLDE0NTU5NTI4NThdfQ==
 -->
