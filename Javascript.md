@@ -8119,7 +8119,9 @@ The following resources may be helpful.
 
 Run javascript eveywhere, is like extracting the engine that parse the javascript from the browser
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Nzc1MTAxMiwyMDUxODg4OTkyLC00MD
+eyJoaXN0b3J5IjpbMTU1Nzc3MTMyOCwyMDUxODg4OTkyLC00MD
 k5NzE5NTNdfQ==
 -->
