@@ -8199,8 +8199,48 @@ Gotcha: when HTML is returned from the server, reloading the page submits the fo
 
 How to prevent it? https://www.youtube.com/watch?v=JQFeEscCvTg&ab_channel=DaveHollingworth
 
+````js
+// everytime I reload the page, a POST request is submitted, with the already entered value in the form! ❌
+
+const http = require('http');
+
+    const server = http.createServer((req, res) => {
+        console.log(req.method, req.url);
+        let body = [];
+
+        //the body comes on chunks
+        req.on('data', (data) => {
+            body.push(data);
+        })
+
+        // when finishing reading the response
+
+        
+        req.on('end', () => {
+            let userName = 'unknow users';
+            if (body) {
+                userName = Buffer.concat(body).toString().split('=')[1];
+                console.log(userName);
+            }
+            res.setHeader('Content-type', 'text/html');
+            res.write(
+                `<h1>hello ${userName}</h1>
+                <form method="POST" action="/">
+                    <input name="username" type="text">
+                    </input>
+                    <button type="submit">Send</button>
+                </form>`
+            );
+            res.end();
+
+        })
+    });
+
+    server.listen(4000);
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NDMyMDY4NywtODAzNTIzMjYzLDY4MD
-QzNzM5NiwxODM0MjAwOTU0LC0xMjk5NDEyOTY5LC04OTYwOTQw
-NzgsMjA1MTg4ODk5MiwtNDA5OTcxOTUzXX0=
+eyJoaXN0b3J5IjpbMTExNzA1MDk5LDE4NzQzMjA2ODcsLTgwMz
+UyMzI2Myw2ODA0MzczOTYsMTgzNDIwMDk1NCwtMTI5OTQxMjk2
+OSwtODk2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3MTk1M119
 -->
