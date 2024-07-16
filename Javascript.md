@@ -8205,7 +8205,6 @@ How to prevent it? https://www.youtube.com/watch?v=JQFeEscCvTg&ab_channel=DaveHo
 const http = require('http');
 
     const server = http.createServer((req, res) => {
-        console.log(req.method, req.url);
         let body = [];
 
         //the body comes on chunks
@@ -8217,11 +8216,8 @@ const http = require('http');
 
         
         req.on('end', () => {
-            let userName = 'unknow users';
-            if (body) {
-                userName = Buffer.concat(body).toString().split('=')[1];
-                console.log(userName);
-            }
+            body
+            
             res.setHeader('Content-type', 'text/html');
             res.write(
                 `<h1>hello ${userName}</h1>
@@ -8240,8 +8236,8 @@ const http = require('http');
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzExODE0MywxODc0MzIwNjg3LC04MD
-M1MjMyNjMsNjgwNDM3Mzk2LDE4MzQyMDA5NTQsLTEyOTk0MTI5
-NjksLTg5NjA5NDA3OCwyMDUxODg4OTkyLC00MDk5NzE5NTNdfQ
-==
+eyJoaXN0b3J5IjpbLTIxMzczODE1MzUsMTAxNzExODE0MywxOD
+c0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2LDE4MzQyMDA5
+NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMDUxODg4OTkyLC
+00MDk5NzE5NTNdfQ==
 -->
