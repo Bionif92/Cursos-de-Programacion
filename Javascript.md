@@ -8083,6 +8083,7 @@ Reflect.//here the static method choosen
 
 Similar to the `Object` object
 
+Reflect API vs Object API => [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/Comparing_Reflect_and_Object_methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect/Comparing_Reflect_and_Object_methods)
 
 ### Proxy API
 
@@ -8091,7 +8092,7 @@ Create traps for object operators, give behaviours to the existing object
 Proxy API - A Full List => [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNjcwMDQzNCwtNDAyMzUyOTM2LDc5Nz
+eyJoaXN0b3J5IjpbMTU4NjUwNjE2NywtNDAyMzUyOTM2LDc5Nz
 k5OTE5Myw2MzEwOTM2MDIsLTE1NjIzOTU4NTQsMTQzOTYxMTIz
 MiwtMjAzNjI3NjM1OCwyODY3MzQwODldfQ==
 -->
