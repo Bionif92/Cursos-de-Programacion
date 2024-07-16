@@ -8336,7 +8336,7 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
     const userName = req.body.username || 'Unknown user';
     res.render('index', { // 👈
-        userName
+        user:userName
     });
 });
 
@@ -8356,7 +8356,7 @@ Create and `index.ejs` on the `views` foulder
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello <%= userName%></h1>👈
+    <h1>Hello <%= user%></h1>👈
     <form method="POST" action="/">
         <input name="username" type="text">
         </input>
@@ -8368,5 +8368,5 @@ Create and `index.ejs` on the `views` foulder
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzAyNjg2NywxNzYxNTkwMTQ0XX0=
+eyJoaXN0b3J5IjpbMTgwMjA4MTY3LDE3NjE1OTAxNDRdfQ==
 -->
