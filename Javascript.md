@@ -8320,10 +8320,10 @@ const app = express();
 
 // view configuration
 // let's use ejs as view engine
-app.set('view engine', 'ejs'); 👈
+app.set('view engine', 'ejs'); // engine to parse set to ejs
 
-// the views are found in the `views` folder
-app.set('views') 👉
+// the views are found in the `views` folder you create
+app.set('views','views') 👉
 
 // here we're parsing the Form Data type sent as payload on the request body
 app.use(bodyParser.urlencoded({extended: false}));
@@ -8344,5 +8344,5 @@ app.use((req, res, next) => {
 app.listen(3000);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTU5MDE0NF19
+eyJoaXN0b3J5IjpbNDkxNjE3NTk1LDE3NjE1OTAxNDRdfQ==
 -->
