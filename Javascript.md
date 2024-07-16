@@ -8240,11 +8240,13 @@ const http = require('http');
 
 ### Express.js
 
-Need to install it first
+Need to install it first on terminal:
+
+`npm init`- `npm install`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MjUyNDgsNTMyODE3ODk1LDEwMTcxMT
-gxNDMsMTg3NDMyMDY4NywtODAzNTIzMjYzLDY4MDQzNzM5Niwx
-ODM0MjAwOTU0LC0xMjk5NDEyOTY5LC04OTYwOTQwNzgsMjA1MT
-g4ODk5MiwtNDA5OTcxOTUzXX0=
+eyJoaXN0b3J5IjpbLTUyMzE3ODAyNyw1MzI4MTc4OTUsMTAxNz
+ExODE0MywxODc0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2
+LDE4MzQyMDA5NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMD
+UxODg4OTkyLC00MDk5NzE5NTNdfQ==
 -->
