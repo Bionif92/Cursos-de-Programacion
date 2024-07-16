@@ -8455,8 +8455,8 @@ app.use((req, res, next) => {
   
     next();
 });
-
 ```
+the browser then looks at the response headers and then decides if it let's the app access the response.
 
 
 
@@ -8464,5 +8464,5 @@ app.use((req, res, next) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTc2Njc2NV19
+eyJoaXN0b3J5IjpbMTQzMzYyNTk2MiwtNDgxNzY2NzY1XX0=
 -->
