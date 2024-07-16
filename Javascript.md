@@ -8211,7 +8211,7 @@ const http = require('http');
         //the body comes on chunks
         req.on('data', (chunck) => {
             body.push(chunck);
-        }) // on is an
+        }) // on is an event
 
         // when finishing reading the response
 
@@ -8240,8 +8240,8 @@ const http = require('http');
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzQ4NDMzMjMsMTg3NDMyMDY4NywtOD
-AzNTIzMjYzLDY4MDQzNzM5NiwxODM0MjAwOTU0LC0xMjk5NDEy
-OTY5LC04OTYwOTQwNzgsMjA1MTg4ODk5MiwtNDA5OTcxOTUzXX
-0=
+eyJoaXN0b3J5IjpbMTAxNzExODE0MywxODc0MzIwNjg3LC04MD
+M1MjMyNjMsNjgwNDM3Mzk2LDE4MzQyMDA5NTQsLTEyOTk0MTI5
+NjksLTg5NjA5NDA3OCwyMDUxODg4OTkyLC00MDk5NzE5NTNdfQ
+==
 -->
