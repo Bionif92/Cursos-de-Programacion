@@ -8164,9 +8164,9 @@ differences with the browser:
         res.end();
     });
 
-    server.listen(4000); (
+    server.listen(3000); // you can see in localhost/3000
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzc0NzgzODgsNjgwNDM3Mzk2LDE4Mz
+eyJoaXN0b3J5IjpbLTE5OTcxNjg2NjEsNjgwNDM3Mzk2LDE4Mz
 QyMDA5NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMDUxODg4
 OTkyLC00MDk5NzE5NTNdfQ==
 -->
