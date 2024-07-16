@@ -8625,13 +8625,32 @@ try {
 
 Other options of hosting a db is the self management route, when the db and the REST server are hosted on the same server.
 
+### Nested try blocks
 
+````js
+try {
+    console.log('about to break');
+    try {
+        throw new Error('Oooops');
+    } catch(error){
+        console.log('logging from inner block', error.message); // 👈 this catch block catches the error
+    }
+
+} catch(error){
+    console.log('logging from outer block', error.message);
+}
+
+// the result of running the above
+
+// about to break
+// MyPlace.js?5f3b:58 logging from inner block Oooops
+````
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY3MjQ2MzcsNzE2MTM1MTc1LC0xNz
+eyJoaXN0b3J5IjpbLTE4MDg4NjMwNDgsNzE2MTM1MTc1LC0xNz
 I2NDgyMjcwLDE0MzM2MjU5NjIsLTQ4MTc2Njc2NV19
 -->
