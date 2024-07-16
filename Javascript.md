@@ -8160,7 +8160,7 @@ differences with the browser:
     const http = require('http');
 
     const server = http.createServer((req, res) => {
-        res.write('hello world')
+        res.write('hello world') // response body
         res.end();
     });
 
@@ -8168,7 +8168,7 @@ differences with the browser:
 
 // reponse headers (this is not good ❌, we must specify which content type (json, html, text) we're sending in the response body)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMDIwNDMxOCw2ODA0MzczOTYsMTgzND
+eyJoaXN0b3J5IjpbLTc2Mjg0MjQzMyw2ODA0MzczOTYsMTgzND
 IwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNTE4ODg5
 OTIsLTQwOTk3MTk1M119
 -->
