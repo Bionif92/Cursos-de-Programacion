@@ -8081,7 +8081,9 @@ To control objects
 Reflect.//here the static method choosen
 ````
 
+Similar to the `Object` object
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTcwNzEzMSwtMTU2MjM5NTg1NCwxND
-M5NjExMjMyLC0yMDM2Mjc2MzU4LDI4NjczNDA4OV19
+eyJoaXN0b3J5IjpbNjMxMDkzNjAyLC0xNTYyMzk1ODU0LDE0Mz
+k2MTEyMzIsLTIwMzYyNzYzNTgsMjg2NzM0MDg5XX0=
 -->
