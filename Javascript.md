@@ -8168,9 +8168,9 @@ differences with the browser:
 
 // reponse headers (this is not good ❌, we must specify which content type (json, html, text) we're sending in the response body)
 
-res.setHeader('Content-Type',type) //type example: 'text/html' or ''
+res.setHeader('Content-Type',type) //type example: 'text/html' or 'text/plain' 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjMyMDAyMSw2ODA0MzczOTYsMTgzND
+eyJoaXN0b3J5IjpbLTgwMzUyMzI2Myw2ODA0MzczOTYsMTgzND
 IwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNTE4ODg5
 OTIsLTQwOTk3MTk1M119
 -->
