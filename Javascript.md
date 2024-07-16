@@ -8124,11 +8124,17 @@ On terminal
 ```bash
 node app.js // it will run the script on terminal
 ```
+differences with the browser:
 
+- import and exports are different (module.exports and require)
+- utilities are not added by default, e.g (require fs), although some are included (setTimeout)
+- we could automate tasks, like printing banks statements, or bundling code (webpack)
+- we can access the file system
+- we can create a web server
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM2NDA0OCwtODk2MDk0MDc4LDIwNT
-E4ODg5OTIsLTQwOTk3MTk1M119
+eyJoaXN0b3J5IjpbLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMD
+UxODg4OTkyLC00MDk5NzE5NTNdfQ==
 -->
