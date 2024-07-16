@@ -8366,7 +8366,57 @@ Create and `index.ejs` on the `views` foulder
 </html>
 ````
 
+### Let's build a JSON REST API
+
+res.json() sends the response as JSON, all in one step, instead of manually converting the body to json and then doing res.send()
+
+````js
+res.json({name: 'tebi'}); // ✅
+
+// same as
+
+res.setHeader('Content-type', 'application/json');
+res.send(JSON.stringify({name: 'tebi'})); //❌
+````
+
+
+
+no need to add .js when requiring files, as Node will look for JS files with that name
+
+The share my place app will pass an address and a location, and then get an ID as response
+
+````js
+// share my place app
+ const res = await fetch('http://localhost:4000/add-location',{
+      method: 'POST',
+      headers: {'Content-type': 'application/json'}, // it tells bodyParser to parse it as JSON
+   		// 
+      // I need to send JSON. Axios does this out of the box
+      body: {
+          lat: JSON.stringify(coordinates.lat),
+          lng: JSON.stringify(coordinates.lng),
+          address: JSON.stringify(address)
+      }
+  });
+
+// REST API
+// we expect JSON data
+app.use(bodyParser.json()); 👈
+
+app.use(locationRoutes); // locationRoutes is the imported router from below
+
+router.post('/add-location', (req, res, next) => {
+    console.log(req.method, req.url);
+    res.json('an ID here');
+})
+
+// but I get this CORS error ❌
+Access to fetch at 'http://localhost:4000/add-location' from origin 'http://localhost:8080' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+````
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MzE0NjI3NCwxNzYxNTkwMTQ0XX0=
+eyJoaXN0b3J5IjpbLTE1MzczMTY3OTUsMTI1MzE0NjI3NCwxNz
+YxNTkwMTQ0XX0=
 -->
