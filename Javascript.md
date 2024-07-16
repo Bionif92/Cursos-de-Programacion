@@ -8244,8 +8244,14 @@ Need to install it first on terminal:
 
 `npm init`- `npm install express --save`
 
+it's a middleware centric framework, that funnels the requests into different functions depending on the method, path, etc
+
+Res.send() is a function added by express, doesn't exist in Node (.end() is the way to do it in pure node);
+
+We can chain handlers, and the response and requests can be modified along the way on the chain of fn calls.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzU5NzIwLDUzMjgxNzg5NSwxMDE3MT
+eyJoaXN0b3J5IjpbLTgyNjg3MDQ0LDUzMjgxNzg5NSwxMDE3MT
 E4MTQzLDE4NzQzMjA2ODcsLTgwMzUyMzI2Myw2ODA0MzczOTYs
 MTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNT
 E4ODg5OTIsLTQwOTk3MTk1M119
