@@ -8258,7 +8258,7 @@ const app = express(); // object with a lot of features
 
 app.use((req, res, next) => {
     res.header('Content-type', 'text/html');
-    next();
+    next();// go to the next line
 });
 
 app.use((req, res, next) => {
@@ -8268,8 +8268,8 @@ app.use((req, res, next) => {
 app.listen(3000);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzYwMTU1NSw1MzI4MTc4OTUsMTAxNz
-ExODE0MywxODc0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2
-LDE4MzQyMDA5NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMD
-UxODg4OTkyLC00MDk5NzE5NTNdfQ==
+eyJoaXN0b3J5IjpbLTk3NzUwNTAxMCwxNjkzNjAxNTU1LDUzMj
+gxNzg5NSwxMDE3MTE4MTQzLDE4NzQzMjA2ODcsLTgwMzUyMzI2
+Myw2ODA0MzczOTYsMTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtOD
+k2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3MTk1M119
 -->
