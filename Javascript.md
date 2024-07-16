@@ -8242,11 +8242,11 @@ const http = require('http');
 
 Need to install it first on terminal:
 
-`npm init`- `npm install`
+`npm init`- `npm install express --save`
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMzE3ODAyNyw1MzI4MTc4OTUsMTAxNz
-ExODE0MywxODc0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2
-LDE4MzQyMDA5NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMD
-UxODg4OTkyLC00MDk5NzE5NTNdfQ==
+eyJoaXN0b3J5IjpbMTIyMzU5NzIwLDUzMjgxNzg5NSwxMDE3MT
+E4MTQzLDE4NzQzMjA2ODcsLTgwMzUyMzI2Myw2ODA0MzczOTYs
+MTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNT
+E4ODg5OTIsLTQwOTk3MTk1M119
 -->
