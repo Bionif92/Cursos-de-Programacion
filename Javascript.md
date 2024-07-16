@@ -8216,8 +8216,8 @@ const http = require('http');
 
         
         req.on('end', () => {
-            body
-            
+            body= Buffer.concat(body).toString();
+            const userName= body.split('=')[1];
             res.setHeader('Content-type', 'text/html');
             res.write(
                 `<h1>hello ${userName}</h1>
@@ -8236,7 +8236,7 @@ const http = require('http');
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzczODE1MzUsMTAxNzExODE0MywxOD
+eyJoaXN0b3J5IjpbLTEzOTkyOTA1NDEsMTAxNzExODE0MywxOD
 c0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2LDE4MzQyMDA5
 NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMDUxODg4OTkyLC
 00MDk5NzE5NTNdfQ==
