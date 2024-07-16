@@ -8096,7 +8096,7 @@ const courseHandler = {
 	get (obj,propertyName) {
 		return obj[propertyName] || 'Not found'
 	}
-};
+};// you can use other traps instead of get
 
 const pCourse = new Proxy(course, coursehandler);
 
@@ -8106,5 +8106,5 @@ console.log(course.lenght);// Not found
 Proxy API - A Full List => [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDg0ODQzMjJdfQ==
+eyJoaXN0b3J5IjpbLTU1MzU5MDU5NSwtMTQ0ODQ4NDMyMl19
 -->
