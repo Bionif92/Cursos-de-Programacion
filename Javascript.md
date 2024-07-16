@@ -8100,13 +8100,11 @@ const courseHandler = {
 
 const pCourse = new Proxy(course, coursehandler);
 
-console.log(course.name);
+console.log(course.name);// Javascript
+console.log(course.lenght);// Not found
 ```` 
 Proxy API - A Full List => [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDc5NTMzMTYsMTU4NjUwNjE2NywtND
-AyMzUyOTM2LDc5Nzk5OTE5Myw2MzEwOTM2MDIsLTE1NjIzOTU4
-NTQsMTQzOTYxMTIzMiwtMjAzNjI3NjM1OCwyODY3MzQwODldfQ
-==
+eyJoaXN0b3J5IjpbLTE0NDg0ODQzMjJdfQ==
 -->
