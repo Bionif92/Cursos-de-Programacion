@@ -8073,8 +8073,11 @@ for (employee of company) {
 	console.log(employee); // search symbol iterator
 }
 ```` 
+### Reflect Api
+
+To control objects
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjIzOTU4NTQsMTQzOTYxMTIzMiwtMj
-AzNjI3NjM1OCwyODY3MzQwODldfQ==
+eyJoaXN0b3J5IjpbLTYyOTEzOTc3MCwtMTU2MjM5NTg1NCwxND
+M5NjExMjMyLC0yMDM2Mjc2MzU4LDI4NjczNDA4OV19
 -->
