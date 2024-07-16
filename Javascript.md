@@ -8434,11 +8434,35 @@ The above throws the CORS error by default. Only requests to the same origin are
 
 More on CORS Headers => [https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS)
 
+### An unuseful fix
+
+Some service workers get opaque responses by adding {'mode': 'no-cors'}, and they can't be read in JS, but they'r cached:
+
+````js
+fetch("http://xyz", {'mode': 'no-cors'})
+````
+
+### Solving CORS issues
+
+let's add some headers to the response from the server side, so the browser is happy, by telling what's allowed on our server:
+
+```js
+// ✅
+app.use((req, res, next) => {
+    res.setHeader('Access-Control-Allow-Headers', 'Content-type');
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.setHeader('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
+  
+    next();
+});
+
+```
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2OTgwMDg5MywxNjgxOTU4OTE2LC0xNT
-M3MzE2Nzk1LDEyNTMxNDYyNzQsMTc2MTU5MDE0NF19
+eyJoaXN0b3J5IjpbLTQ4MTc2Njc2NV19
 -->
