@@ -8416,9 +8416,27 @@ Access to fetch at 'http://localhost:4000/add-location' from origin 'http://loca
 
 See `node-10-basic-rest-routes` file to see all the writing
 
+### Understanding CORS issues
+
+Browsers block requests to other domains:
+
+```html
+// domain1.com
+<script src="http://domain2.com/app.js"></script>
+```
+
+````js
+// domain1.com
+fetch('http://domain2.com/posts');
+````
+
+The above throws the CORS error by default. Only requests to the same origin are allowed by default.
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDg4NDI2NiwxNjgxOTU4OTE2LC0xNT
+eyJoaXN0b3J5IjpbMTMxMzAzNDgwNCwxNjgxOTU4OTE2LC0xNT
 M3MzE2Nzk1LDEyNTMxNDYyNzQsMTc2MTU5MDE0NF19
 -->
