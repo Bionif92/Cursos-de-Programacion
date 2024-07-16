@@ -8085,8 +8085,10 @@ Similar to the `Object` object
 
 ### Proxy API
 
+Create traps for object operators
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk3OTk5MTkzLDYzMTA5MzYwMiwtMTU2Mj
-M5NTg1NCwxNDM5NjExMjMyLC0yMDM2Mjc2MzU4LDI4NjczNDA4
-OV19
+eyJoaXN0b3J5IjpbLTQwMjM1MjkzNiw3OTc5OTkxOTMsNjMxMD
+kzNjAyLC0xNTYyMzk1ODU0LDE0Mzk2MTEyMzIsLTIwMzYyNzYz
+NTgsMjg2NzM0MDg5XX0=
 -->
