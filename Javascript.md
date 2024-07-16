@@ -8250,9 +8250,26 @@ Res.send() is a function added by express, doesn't exist in Node (.end() is the 
 
 We can chain handlers, and the response and requests can be modified along the way on the chain of fn calls.
 
+Let's send some HTML in the response:
+````js
+const express = require('express');
+
+const app = express(); // object with a lot of features
+
+app.use((req, res, next) => {
+    res.header('Content-type', 'text/html');
+    next();
+});
+
+app.use((req, res, next) => {
+    res.send('<h1>Hello world</h1>');
+})
+
+app.listen(3000);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNjg3MDQ0LDUzMjgxNzg5NSwxMDE3MT
-E4MTQzLDE4NzQzMjA2ODcsLTgwMzUyMzI2Myw2ODA0MzczOTYs
-MTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNT
-E4ODg5OTIsLTQwOTk3MTk1M119
+eyJoaXN0b3J5IjpbMTY5MzYwMTU1NSw1MzI4MTc4OTUsMTAxNz
+ExODE0MywxODc0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2
+LDE4MzQyMDA5NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMD
+UxODg4OTkyLC00MDk5NzE5NTNdfQ==
 -->
