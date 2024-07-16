@@ -8305,11 +8305,17 @@ app.use((req, res, next) => {
 app.listen(3000);
 ````
 
+### EJS templates
+
+Let's use templates instead of having the HTML inlined in JS
+
+Install `npm install --save ejs`
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTMzOTA3OCwtMTYwNzMzMDcyMiwxNj
-kzNjAxNTU1LDUzMjgxNzg5NSwxMDE3MTE4MTQzLDE4NzQzMjA2
-ODcsLTgwMzUyMzI2Myw2ODA0MzczOTYsMTgzNDIwMDk1NCwtMT
-I5OTQxMjk2OSwtODk2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3
-MTk1M119
+eyJoaXN0b3J5IjpbMTY4MDY5MTc5NCwtNzQ5MzM5MDc4LC0xNj
+A3MzMwNzIyLDE2OTM2MDE1NTUsNTMyODE3ODk1LDEwMTcxMTgx
+NDMsMTg3NDMyMDY4NywtODAzNTIzMjYzLDY4MDQzNzM5NiwxOD
+M0MjAwOTU0LC0xMjk5NDEyOTY5LC04OTYwOTQwNzgsMjA1MTg4
+ODk5MiwtNDA5OTcxOTUzXX0=
 -->
