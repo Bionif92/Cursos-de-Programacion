@@ -8387,7 +8387,7 @@ The share my place app will pass an address and a location, and then get an ID a
 
 ````js
 // share my place app
- const res = await fetch('http://localhost:4000/add-location',{
+ const res = await fetch('http://localhost:3000/add-location',{
       method: 'POST',
       headers: {'Content-type': 'application/json'}, // it tells bodyParser to parse it as JSON
    		// 
@@ -8417,6 +8417,6 @@ Access to fetch at 'http://localhost:4000/add-location' from origin 'http://loca
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzczMTY3OTUsMTI1MzE0NjI3NCwxNz
-YxNTkwMTQ0XX0=
+eyJoaXN0b3J5IjpbMTY4MTk1ODkxNiwtMTUzNzMxNjc5NSwxMj
+UzMTQ2Mjc0LDE3NjE1OTAxNDRdfQ==
 -->
