@@ -8335,7 +8335,7 @@ app.use((req, res, next) => {
 
 app.use((req, res, next) => {
     const userName = req.body.username || 'Unknown user';
-    res.render('index', { // 👈
+    res.render('index', { 
         user:userName
     });
 });
@@ -8368,5 +8368,5 @@ Create and `index.ejs` on the `views` foulder
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjA4MTY3LDE3NjE1OTAxNDRdfQ==
+eyJoaXN0b3J5IjpbMTI1MzE0NjI3NCwxNzYxNTkwMTQ0XX0=
 -->
