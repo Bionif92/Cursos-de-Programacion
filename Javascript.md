@@ -8559,9 +8559,8 @@ const getCoordinatesAndAddress = async (id) => {
 
 ### Mongo DB
 
-data based
 
-we can have a db hosted on AWS, and connect to it with NodeJS drivers: https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb
+we can have a data based hosted on AWS, and connect to it with NodeJS drivers: https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb
 
 Error handling can be added when creating a special ID type with the a driver's method:
 
@@ -8631,6 +8630,6 @@ Other options of hosting a db is the self management route, when the db and the 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc0OTM3MzcsLTE3MjY0ODIyNzAsMT
-QzMzYyNTk2MiwtNDgxNzY2NzY1XX0=
+eyJoaXN0b3J5IjpbNzE2MTM1MTc1LC0xNzI2NDgyMjcwLDE0Mz
+M2MjU5NjIsLTQ4MTc2Njc2NV19
 -->
