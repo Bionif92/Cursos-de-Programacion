@@ -8117,9 +8117,9 @@ The following resources may be helpful.
 
 ## Node js
 
-R
+Run javascript eveywhere, is like extracting the engine that parse the javascript from the browser
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NzUzNDk3NCwyMDUxODg4OTkyLC00MD
+eyJoaXN0b3J5IjpbMTc2Nzc1MTAxMiwyMDUxODg4OTkyLC00MD
 k5NzE5NTNdfQ==
 -->
