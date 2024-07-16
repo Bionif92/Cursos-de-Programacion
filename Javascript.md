@@ -8270,6 +8270,8 @@ app.listen(3000);
 
 Let's parse the body of POST request:
 
+Install `npm install body-parser -- save`
+
 ````js
 // refreshing the front end page with the form will trigger a POST request
 
@@ -8303,8 +8305,8 @@ app.use((req, res, next) => {
 app.listen(3000);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3ODQ2NTY1NCwxNjkzNjAxNTU1LDUzMj
-gxNzg5NSwxMDE3MTE4MTQzLDE4NzQzMjA2ODcsLTgwMzUyMzI2
-Myw2ODA0MzczOTYsMTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtOD
-k2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3MTk1M119
+eyJoaXN0b3J5IjpbLTE2MDczMzA3MjIsMTY5MzYwMTU1NSw1Mz
+I4MTc4OTUsMTAxNzExODE0MywxODc0MzIwNjg3LC04MDM1MjMy
+NjMsNjgwNDM3Mzk2LDE4MzQyMDA5NTQsLTEyOTk0MTI5NjksLT
+g5NjA5NDA3OCwyMDUxODg4OTkyLC00MDk5NzE5NTNdfQ==
 -->
