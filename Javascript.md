@@ -8418,7 +8418,7 @@ See `node-10-basic-rest-routes` file to see all the writing
 
 ### Understanding CORS issues (Cross Origin Resource Sharing)
 
-Browsers block requests to other domains:
+Browsers block requests to other domains, only from same domain are no blocked:
 
 ```html
 // domain1.com
@@ -8439,6 +8439,6 @@ More on CORS Headers => [https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS]
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MDExNTIyMCwxNjgxOTU4OTE2LC0xNT
+eyJoaXN0b3J5IjpbLTQ2OTgwMDg5MywxNjgxOTU4OTE2LC0xNT
 M3MzE2Nzk1LDEyNTMxNDYyNzQsMTc2MTU5MDE0NF19
 -->
