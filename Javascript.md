@@ -8311,8 +8311,6 @@ Let's use templates instead of having the HTML inlined in JS
 
 Install `npm install --save ejs`
 
-Create and `index.ejs` on the `views` foulder
-
 ````js
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -8345,8 +8343,30 @@ app.use((req, res, next) => {
 
 app.listen(3000);
 ````
+Create and `index.ejs` on the `views` foulder
+````ejs
+// views/index.ejs
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello <%= userName%></h1>👈
+    <form method="POST" action="/">
+        <input name="username" type="text">
+        </input>
+        <button type="submit">Send</button>
+    </form>
+</body>
+</html>
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDgxMTE1MjMsMTc2MTU5MDE0NF19
+eyJoaXN0b3J5IjpbLTE1MzAyNjg2NywxNzYxNTkwMTQ0XX0=
 -->
