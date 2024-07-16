@@ -8077,7 +8077,9 @@ for (employee of company) {
 
 To control objects
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyOTEzOTc3MCwtMTU2MjM5NTg1NCwxND
+eyJoaXN0b3J5IjpbMTQ4NTYwNjA1MCwtMTU2MjM5NTg1NCwxND
 M5NjExMjMyLC0yMDM2Mjc2MzU4LDI4NjczNDA4OV19
 -->
