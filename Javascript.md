@@ -8217,7 +8217,9 @@ const http = require('http');
         
         req.on('end', () => {
             body= Buffer.concat(body).toString();
-            const userName= body.split('=')[1];
+            let userName= body.split('=')[1];
+            if (body) {
+            }
             res.setHeader('Content-type', 'text/html');
             res.write(
                 `<h1>hello ${userName}</h1>
@@ -8232,12 +8234,12 @@ const http = require('http');
         })
     });
 
-    server.listen(4000);
+    server.listen(3000);
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkyOTA1NDEsMTAxNzExODE0MywxOD
-c0MzIwNjg3LC04MDM1MjMyNjMsNjgwNDM3Mzk2LDE4MzQyMDA5
-NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMDUxODg4OTkyLC
-00MDk5NzE5NTNdfQ==
+eyJoaXN0b3J5IjpbMzMxNDU0NjgyLDEwMTcxMTgxNDMsMTg3ND
+MyMDY4NywtODAzNTIzMjYzLDY4MDQzNzM5NiwxODM0MjAwOTU0
+LC0xMjk5NDEyOTY5LC04OTYwOTQwNzgsMjA1MTg4ODk5MiwtND
+A5OTcxOTUzXX0=
 -->
