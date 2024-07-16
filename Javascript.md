@@ -8559,13 +8559,76 @@ const getCoordinatesAndAddress = async (id) => {
 
 ### Mongo DB
 
+we can have a db hosted on AWS, and connect to it with NodeJS drivers: https://www.mongodb.com/docs/drivers/node/current/fundamentals/connection/connect/#std-label-node-connect-to-mongodb
 
+Error handling can be added when creating a special ID type with the a driver's method:
+
+```js
+router.get('/location/:lid', (req, res, next) => {
+  const locationId = req.params.lid;
+
+  client.connect(function(err, client) {
+    const db = client.db('locations');
+    
+    👉// THIS WAS ADDED
+    let locationId;
+    try {
+        locationId = new mongodb.ObjectId(locationId);
+    } catch (error) {
+        // return to make sure the other code does not execute
+        return res.status(500).json({message: 'Invalid id!'}); 
+    }
+    // END OF ADDED CODE👈
+
+    // Find a single document
+    db.collection('user-locations').findOne(
+      {
+        _id: locationId // will only be reached if the above code didn't throw an error
+      },
+      function(err, doc) {
+        // if (err) {}
+        if (!doc) {
+          return res.status(404).json({ message: 'Not found!' });
+        }
+        res.json({ address: doc.address, coordinates: doc.coords });
+      }
+    );
+  });
+});
+```
+
+the library uses a **callback approach**, not a promised based approach.
+
+this hipotetical promised based code is much more readable.
+
+```js
+// this could look like a promised based apprach
+try {
+	const client = await client.connect();
+	const db = client.db('locations');
+   let locationId;
+    try {
+        locationId = new mongodb.ObjectId(locationId);
+    } catch (error) {
+        // return to make sure the other code does not execute
+        return res.status(500).json({message: 'Invalid id!'}); 
+    }
+	const doc = await db.collection('user-locations').findOne({ _id: locationId});
+} catch(error){
+	// catch the error here
+	return res.status(404).json({ message: 'Not found!' });
+}
+```
+
+#### 👉Lesson: try and catch blocks need to be added on pieces of code that can throw an error when things go wrong.👈
+
+Other options of hosting a db is the self management route, when the db and the REST server are hosted on the same server.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMjcxMjI2MSwtMTcyNjQ4MjI3MCwxND
-MzNjI1OTYyLC00ODE3NjY3NjVdfQ==
+eyJoaXN0b3J5IjpbLTExMzE4NDg4NDIsLTE3MjY0ODIyNzAsMT
+QzMzYyNTk2MiwtNDgxNzY2NzY1XX0=
 -->
