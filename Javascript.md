@@ -8089,10 +8089,15 @@ Reflect API vs Object API => [https://developer.mozilla.org/en-US/docs/Web/JavaS
 
 Create traps for object operators, give behaviours to the existing object
 
+````js
+const myObj = {...};
+
+
+```` 
 Proxy API - A Full List => [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy#A_complete_traps_list_example)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjUwNjE2NywtNDAyMzUyOTM2LDc5Nz
-k5OTE5Myw2MzEwOTM2MDIsLTE1NjIzOTU4NTQsMTQzOTYxMTIz
-MiwtMjAzNjI3NjM1OCwyODY3MzQwODldfQ==
+eyJoaXN0b3J5IjpbMTM1ODMyODUxMCwxNTg2NTA2MTY3LC00MD
+IzNTI5MzYsNzk3OTk5MTkzLDYzMTA5MzYwMiwtMTU2MjM5NTg1
+NCwxNDM5NjExMjMyLC0yMDM2Mjc2MzU4LDI4NjczNDA4OV19
 -->
