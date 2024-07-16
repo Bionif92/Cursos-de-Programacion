@@ -8133,8 +8133,27 @@ differences with the browser:
 - we can create a web server
 
 
+````js
+// example of fs usage
+    const fs = require('fs');
 
+    fs.writeFile('notes.txt', 'todo: buy milk', error => {
+        if(error){
+            console.log(error);
+        } else {
+            console.log('wrote the file!');
+        }
+    });
+
+    fs.readFile('notes.txt', (error, data) => {
+        if (error){
+            console.log('oops, could not read the file');
+            return;
+        }
+        console.log(data.toString());
+    })
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMD
-UxODg4OTkyLC00MDk5NzE5NTNdfQ==
+eyJoaXN0b3J5IjpbMTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtOD
+k2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3MTk1M119
 -->
