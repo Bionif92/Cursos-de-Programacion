@@ -8119,9 +8119,11 @@ The following resources may be helpful.
 
 Run javascript eveywhere, is like extracting the engine that parse the javascript from the browser
 
+On terminal
 
+``
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1Nzc3MTMyOCwyMDUxODg4OTkyLC00MD
+eyJoaXN0b3J5IjpbMTAyODkzNDQ0NywyMDUxODg4OTkyLC00MD
 k5NzE5NTNdfQ==
 -->
