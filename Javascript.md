@@ -8311,11 +8311,38 @@ Let's use templates instead of having the HTML inlined in JS
 
 Install `npm install --save ejs`
 
+````js
+const express = require('express');
+const bodyParser = require('body-parser');
+const ejs = require('ejs');
 
+const app = express();
+
+// view configuration
+// let's use ejs as view engine
+app.set('view engine', 'ejs'); 👈
+
+// the views are found in the `views` folder
+app.set('views') 👉
+
+// here we're parsing the Form Data type sent as payload on the request body
+app.use(bodyParser.urlencoded({extended: false}));
+
+app.use((req, res, next) => {
+    res.header('Content-type', 'text/html');
+    next();
+});
+
+app.use((req, res, next) => {
+    const userName = req.body.username || 'Unknown user';
+    res.render('index', { // 👈
+        userName
+    });
+});
+
+
+app.listen(3000);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDY5MTc5NCwtNzQ5MzM5MDc4LC0xNj
-A3MzMwNzIyLDE2OTM2MDE1NTUsNTMyODE3ODk1LDEwMTcxMTgx
-NDMsMTg3NDMyMDY4NywtODAzNTIzMjYzLDY4MDQzNzM5NiwxOD
-M0MjAwOTU0LC0xMjk5NDEyOTY5LC04OTYwOTQwNzgsMjA1MTg4
-ODk5MiwtNDA5OTcxOTUzXX0=
+eyJoaXN0b3J5IjpbMTc2MTU5MDE0NF19
 -->
