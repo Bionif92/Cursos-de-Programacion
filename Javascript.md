@@ -8629,7 +8629,9 @@ Other options of hosting a db is the self management route, when the db and the 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MTM1MTc1LC0xNzI2NDgyMjcwLDE0Mz
-M2MjU5NjIsLTQ4MTc2Njc2NV19
+eyJoaXN0b3J5IjpbLTExNTY3MjQ2MzcsNzE2MTM1MTc1LC0xNz
+I2NDgyMjcwLDE0MzM2MjU5NjIsLTQ4MTc2Njc2NV19
 -->
