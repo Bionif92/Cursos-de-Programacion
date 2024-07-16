@@ -8165,8 +8165,10 @@ differences with the browser:
     });
 
     server.listen(3000); // you can see in localhost/3000
+
+// reponse headers (this is not good ❌, we must specify which content type (json, html, text) we're sending in the response body)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTcxNjg2NjEsNjgwNDM3Mzk2LDE4Mz
-QyMDA5NTQsLTEyOTk0MTI5NjksLTg5NjA5NDA3OCwyMDUxODg4
-OTkyLC00MDk5NzE5NTNdfQ==
+eyJoaXN0b3J5IjpbMTAzMDIwNDMxOCw2ODA0MzczOTYsMTgzND
+IwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNTE4ODg5
+OTIsLTQwOTk3MTk1M119
 -->
