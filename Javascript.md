@@ -8169,8 +8169,38 @@ differences with the browser:
 // reponse headers (this is not good ❌, we must specify which content type (json, html, text) we're sending in the response body)
 
 res.setHeader('Content-Type',type) //type example: 'text/html' or 'text/plain' 
+
+let's be more specific and tell which content type we're sending:
+
+````js
+const server = http.createServer((req, res) => {
+    res.setHeader('Content-type', 'text/plain'); 👈
+    res.write('hello world'); // if we send <h1>something</h1>, it won't be parsed as html, but rendered as <pre><h1>something</h1></pre>
+    res.end();
+});
+
+// Response headers
+Content-type: text/plain ✅
+````
+
+### Let's send some HTML
+
+````js
+const server = http.createServer((req, res) => {
+    res.setHeader('Content-type', 'text/html'); 👈
+    res.write('<h1>hello world</h1>'); // renders a proper h1 tag in the browser
+    res.end();
+});
+````
+
+
+
+Gotcha: when HTML is returned from the server, reloading the page submits the form again (POST request again!);
+
+How to prevent it? https://www.youtube.com/watch?v=JQFeEscCvTg&ab_channel=DaveHollingworth
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzUyMzI2Myw2ODA0MzczOTYsMTgzND
-IwMDk1NCwtMTI5OTQxMjk2OSwtODk2MDk0MDc4LDIwNTE4ODg5
-OTIsLTQwOTk3MTk1M119
+eyJoaXN0b3J5IjpbMTg3NDMyMDY4NywtODAzNTIzMjYzLDY4MD
+QzNzM5NiwxODM0MjAwOTU0LC0xMjk5NDEyOTY5LC04OTYwOTQw
+NzgsMjA1MTg4ODk5MiwtNDA5OTcxOTUzXX0=
 -->
