@@ -8458,11 +8458,111 @@ app.use((req, res, next) => {
 ```
 the browser then looks at the response headers and then decides if it let's the app access the response.
 
+### Storing and returning data saved with an ID
+
+async/await learning: **I don't need the use await when I'm not interested in a returned value from an async function**
+
+````js
+const url = new URL(location.href);
+
+const queryParams = url.searchParams;
+
+const id = +queryParams.get('id');
+
+debugger;
+
+const getCoordinatesAndAddress = async (id) => {
+    debugger;
+    const res = await fetch(`http://localhost:4000/location?id=${id}`);
+    const data = await res.json();
+    return data;
+}
+
+const instantiateMyPlace = async (id) => {
+    const {address, lat, lng} = await getCoordinatesAndAddress(id);
+    
+    debugger;
+    
+    const coordinates = {
+        lat: +lat,
+        lng: +lng
+    }
+    
+    new MyPlace(coordinates, address);
+}
+
+// I don't need the use await when I'm not interested in a value from async code
+instantiateMyPlace(id);
+````
+
+Approach 1: retrieving queryparams in the backend:
+
+```js
+router.get('/location', (req, res, next) => {
+
+    const data = locationStorage.locations.find(item => item.id === +req.query👈.id)
+
+    if (!data){
+        res.json('Oops, data for the ID could not be found');
+    }
+
+    res.json({ 
+        address: data.address,
+        lat: data.lat,
+        lng: data.lng
+     })
+});
+```
+
+### Approach 2: using dynamic segments
+
+```js
+router.get('/location/:id👈', (req, res, next) => {
+
+    console.log(+req.params.id);
+
+    const data = locationStorage.locations.find(item => item.id === +req.params.👈id)
+
+    if (!data){
+        res.status(404).json({message: 'Oops, not data for the given ID'});
+    }
+
+    res.json({ 
+        address: data.address,
+        lat: data.lat,
+        lng: data.lng
+     })
+});
+```
+
+
+
+````js
+const getCoordinatesAndAddress = async (id) => {
+    debugger;
+    try {
+        const res = await fetch(`http://localhost:4000/location/${id}👈`);
+        
+        // Axios would do this for me 🚨
+        if(res.status === 404){
+            debugger;
+            throw new Error('Oops, could not found data for the given ID');👈
+        }
+        const data = await res.json();
+
+        return data;
+    } catch (error){
+        alert(error.message);👈
+    }
+}
+````
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzYyNTk2MiwtNDgxNzY2NzY1XX0=
+eyJoaXN0b3J5IjpbLTE3MjY0ODIyNzAsMTQzMzYyNTk2MiwtND
+gxNzY2NzY1XX0=
 -->
