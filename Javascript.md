@@ -8121,9 +8121,13 @@ Run javascript eveywhere, is like extracting the engine that parse the javascrip
 
 On terminal
 
-``
+```bash
+node app.js // it will run the script on terminal
+```
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODkzNDQ0NywyMDUxODg4OTkyLC00MD
+eyJoaXN0b3J5IjpbLTg5NjA5NDA3OCwyMDUxODg4OTkyLC00MD
 k5NzE5NTNdfQ==
 -->
