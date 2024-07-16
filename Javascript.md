@@ -8073,9 +8073,9 @@ for (employee of company) {
 	console.log(employee); // search symbol iterator
 }
 ```` 
-### Reflect Api
+### Reflect API
 
-To control objects
+To configure your objects
 
 ```` js
 Reflect.//here the static method choosen
@@ -8083,7 +8083,10 @@ Reflect.//here the static method choosen
 
 Similar to the `Object` object
 
+### Proxy API
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxMDkzNjAyLC0xNTYyMzk1ODU0LDE0Mz
-k2MTEyMzIsLTIwMzYyNzYzNTgsMjg2NzM0MDg5XX0=
+eyJoaXN0b3J5IjpbNzk3OTk5MTkzLDYzMTA5MzYwMiwtMTU2Mj
+M5NTg1NCwxNDM5NjExMjMyLC0yMDM2Mjc2MzU4LDI4NjczNDA4
+OV19
 -->
