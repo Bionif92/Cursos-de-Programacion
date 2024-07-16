@@ -8414,9 +8414,11 @@ router.post('/add-location', (req, res, next) => {
 Access to fetch at 'http://localhost:4000/add-location' from origin 'http://localhost:8080' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 ````
 
+See `node-10-basic-rest-routes` file to see all the writing
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MTk1ODkxNiwtMTUzNzMxNjc5NSwxMj
-UzMTQ2Mjc0LDE3NjE1OTAxNDRdfQ==
+eyJoaXN0b3J5IjpbLTk3NDg4NDI2NiwxNjgxOTU4OTE2LC0xNT
+M3MzE2Nzk1LDEyNTMxNDYyNzQsMTc2MTU5MDE0NF19
 -->
