@@ -8267,8 +8267,43 @@ app.use((req, res, next) => {
 
 app.listen(3000);
 ````
+
+Let's parse the body of POST request:
+
+````js
+// refreshing the front end page with the form will trigger a POST request
+
+const express = require('express');
+const bodyParser = require('body-parser');
+
+const app = express();
+
+// here we're parsing the Form Data type sent as payload on the request body
+app.use(bodyParser.urlencoded({extended: false})); 👈
+
+app.use((req, res, next) => {
+    res.header('Content-type', 'text/html');
+    next();
+});
+
+app.use((req, res, next) => {
+    const userName = req.body.username || 'Unknown user'; 👈
+
+    res.send(
+        `<h1>Hello ${userName}</h1>
+        <form method="POST" action="/">
+            <input name="username" type="text">
+            </input>
+            <button type="submit">Send</button>
+        </form>`
+    );
+});
+
+
+app.listen(4000);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NzUwNTAxMCwxNjkzNjAxNTU1LDUzMj
+eyJoaXN0b3J5IjpbMTMzMjgyNDcxNSwxNjkzNjAxNTU1LDUzMj
 gxNzg5NSwxMDE3MTE4MTQzLDE4NzQzMjA2ODcsLTgwMzUyMzI2
 Myw2ODA0MzczOTYsMTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtOD
 k2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3MTk1M119
