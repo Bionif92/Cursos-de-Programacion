@@ -8311,6 +8311,8 @@ Let's use templates instead of having the HTML inlined in JS
 
 Install `npm install --save ejs`
 
+Create and `index.ejs` on the `views` foulder
+
 ````js
 const express = require('express');
 const bodyParser = require('body-parser');
@@ -8343,6 +8345,8 @@ app.use((req, res, next) => {
 
 app.listen(3000);
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkxNjE3NTk1LDE3NjE1OTAxNDRdfQ==
+eyJoaXN0b3J5IjpbLTE0MDgxMTE1MjMsMTc2MTU5MDE0NF19
 -->
