@@ -8153,7 +8153,20 @@ differences with the browser:
         console.log(data.toString());
     })
 ````
+
+### My first server!
+
+````js
+    const http = require('http');
+
+    const server = http.createServer((req, res) => {
+        res.write('hello world')
+        res.end();
+    });
+
+    server.listen(4000);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDIwMDk1NCwtMTI5OTQxMjk2OSwtOD
-k2MDk0MDc4LDIwNTE4ODg5OTIsLTQwOTk3MTk1M119
+eyJoaXN0b3J5IjpbNjgwNDM3Mzk2LDE4MzQyMDA5NTQsLTEyOT
+k0MTI5NjksLTg5NjA5NDA3OCwyMDUxODg4OTkyLC00MDk5NzE5
+NTNdfQ==
 -->
