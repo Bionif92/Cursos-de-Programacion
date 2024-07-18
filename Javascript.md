@@ -8710,8 +8710,8 @@ Pages where HTML is generated dynamically on the server require a host that is c
 
 ### Stacic Host
 
-Search Static web hosting on the web (example aws, recomen)
+Search Static web hosting on the web (example aws, recomended by Max: firebase hosting, not free)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDk1NTIxOTQsMTAyMzMzMTksMTA2Mz
-U1OTc5NSwtMTA3MDY1MjQzOF19
+eyJoaXN0b3J5IjpbNDQ5NTk2NDkwLDEwMjMzMzE5LDEwNjM1NT
+k3OTUsLTEwNzA2NTI0MzhdfQ==
 -->
