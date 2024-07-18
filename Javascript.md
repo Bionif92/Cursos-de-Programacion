@@ -8728,8 +8728,8 @@ You can find a detailed documentation on how to use it on this page: [https://gi
 
 ### Dynamic Page Deployment
 
-We need
+We need a host too: search nodejs hosting on the web (heroku)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4Njk1NTEyNCwtMjIyMjM1ODIzLDEwMj
-MzMzE5LDEwNjM1NTk3OTUsLTEwNzA2NTI0MzhdfQ==
+eyJoaXN0b3J5IjpbMTY2NDg0NTExLC0yMjIyMzU4MjMsMTAyMz
+MzMTksMTA2MzU1OTc5NSwtMTA3MDY1MjQzOF19
 -->
