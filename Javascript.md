@@ -8649,10 +8649,25 @@ try {
 ## Security
 
 1. Don't expose important data in the Front End, like databased passwords. The FE JS is PUBLIC! even if it's optimised by webpack.
+2. Are API keys a security hole? no, as long as the BE is restricted to some urls, IPs, etc
+
+3. XSS happens when we use some user input (url, input value, etc) to render some content in page using innerHTML.
+
+   ````
+   someElement.innerHtml(userGeneraterContent🚨) ❌
+   
+   someElement.textContent(userGeneraterContent) ✅
+   
+   // if you really need to use innerHTML
+   
+   someElement.textContent(sanitizeHtml(userGeneraterContent)) ✅
+   ````
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTQ5Mjc5MCwtMTcxODM0NDEwMl19
+eyJoaXN0b3J5IjpbMTE0MDg0Mjc0NiwtNDE1NDkyNzkwLC0xNz
+E4MzQ0MTAyXX0=
 -->
