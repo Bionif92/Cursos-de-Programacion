@@ -8662,12 +8662,23 @@ try {
    
    someElement.textContent(sanitizeHtml(userGeneraterContent)) ✅
    ````
+4. that malicious code can react to events, read the localstorage, and send data to a server. Kind of credit card data harvesting.
+
+5. Browsers prevent the loading of dangerous html via innerHTML prop
+
+6. But user generated data can contain something like this: `<img src=x onerror=alert('img') />`, which can skip the browser defence system.
+
+7. Sanitization package: https://www.npmjs.com/package/sanitize-html
+
+8. Always choose to sanitize in the server side, before storing things in a db.
+
+9. If there's no interaction with a BE, we can sanitize in the FE.
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDg0Mjc0NiwtNDE1NDkyNzkwLC0xNz
-E4MzQ0MTAyXX0=
+eyJoaXN0b3J5IjpbMTM5NjUxNTY5MiwxMTQwODQyNzQ2LC00MT
+U0OTI3OTAsLTE3MTgzNDQxMDJdfQ==
 -->
