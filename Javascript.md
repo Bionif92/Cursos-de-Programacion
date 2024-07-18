@@ -8690,10 +8690,10 @@ Steps for deploying:
  2. Test 
  3. Optimize (fallbacks, babel,polyfills)
  4. Build for production 
- 5. Deploy 
+ 5. Deploy the output
+
+Optimize and production in server side is not relevant
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjkzMjQ0MzAsMTg0NTM3MTE1OSwxMz
-k2NTE1NjkyLDExNDA4NDI3NDYsLTQxNTQ5Mjc5MCwtMTcxODM0
-NDEwMl19
+eyJoaXN0b3J5IjpbLTEwNzA2NTI0MzhdfQ==
 -->
