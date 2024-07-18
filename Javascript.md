@@ -8725,7 +8725,11 @@ For most projects, this is fine - you're probably not going to push out a new ve
 But you could also automate this process if you wanted to - with the help of a special plugin for Webpack: [The HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/).
 
 You can find a detailed documentation on how to use it on this page: [https://github.com/jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
+
+### Dynamic Page Deployment
+
+We need
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzU3NjQ4OTIsLTIyMjIzNTgyMywxMD
-IzMzMxOSwxMDYzNTU5Nzk1LC0xMDcwNjUyNDM4XX0=
+eyJoaXN0b3J5IjpbMTY4Njk1NTEyNCwtMjIyMjM1ODIzLDEwMj
+MzMzE5LDEwNjM1NTk3OTUsLTEwNzA2NTI0MzhdfQ==
 -->
