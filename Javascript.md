@@ -8688,10 +8688,12 @@ Steps for deploying:
 
  1. Develop/Write Code
  2. Test 
- 3. 
+ 3. Optimize (fallbacks, babel,polyfills)
+ 4. Build for production 
+ 5. Deploy 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTQyMzgwMTksMTg0NTM3MTE1OSwxMz
+eyJoaXN0b3J5IjpbLTIxMjkzMjQ0MzAsMTg0NTM3MTE1OSwxMz
 k2NTE1NjkyLDExNDA4NDI3NDYsLTQxNTQ5Mjc5MCwtMTcxODM0
 NDEwMl19
 -->
