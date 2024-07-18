@@ -8648,11 +8648,11 @@ try {
 
 ## Security
 
-
+1. Don't expose important data in the Front End, like databased passwords. The FE JS is PUBLIC! even if it's optimised by webpack.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTgzNDQxMDJdfQ==
+eyJoaXN0b3J5IjpbLTQxNTQ5Mjc5MCwtMTcxODM0NDEwMl19
 -->
