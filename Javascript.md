@@ -8729,7 +8729,10 @@ You can find a detailed documentation on how to use it on this page: [https://gi
 ### Dynamic Page Deployment
 
 We need a host too: search nodejs hosting on the web (heroku)
+
+Install Git and Heroku CLI, then run `heroku login`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDg0NTExLC0yMjIyMzU4MjMsMTAyMz
-MzMTksMTA2MzU1OTc5NSwtMTA3MDY1MjQzOF19
+eyJoaXN0b3J5IjpbLTE5ODAzNzc1OTgsMTY2NDg0NTExLC0yMj
+IyMzU4MjMsMTAyMzMzMTksMTA2MzU1OTc5NSwtMTA3MDY1MjQz
+OF19
 -->
