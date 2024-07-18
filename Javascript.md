@@ -8730,9 +8730,11 @@ You can find a detailed documentation on how to use it on this page: [https://gi
 
 We need a host too: search nodejs hosting on the web (heroku)
 
-Install Git and Heroku CLI, then run `heroku login`
+Install Git and Heroku CLI, then run `heroku login` and follow the steps for instalation
+
+Need to give a
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODAzNzc1OTgsMTY2NDg0NTExLC0yMj
-IyMzU4MjMsMTAyMzMzMTksMTA2MzU1OTc5NSwtMTA3MDY1MjQz
-OF19
+eyJoaXN0b3J5IjpbLTIxODA4NjA3OCwtMTk4MDM3NzU5OCwxNj
+Y0ODQ1MTEsLTIyMjIzNTgyMywxMDIzMzMxOSwxMDYzNTU5Nzk1
+LC0xMDcwNjUyNDM4XX0=
 -->
