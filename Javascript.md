@@ -8708,7 +8708,7 @@ When deploying such websites, it's important to understand that sites with NO se
 
 Pages where HTML is generated dynamically on the server require a host that is capable of executing the server-side code (i.e. a server that supports NodeJS, PHP or whatever language is being used).
 
-### Stacic Host
+### Stacic Page Deployment
 
 Search Static web hosting on the web (example aws, recomended by Max: firebase hosting, not free)
 
@@ -8716,8 +8716,16 @@ Install it with npm, then `firebase init` (need user and password) and choose th
 
 Then use `firebase deploy`
 
-### 
+### Injecting Scripts Imports into HTML Automatically
+
+In the previous lecture, we manually adjusted the HTML files to import the generated JavaScript files.
+
+For most projects, this is fine - you're probably not going to push out a new version of your scripts every few minutes.
+
+But you could also automate this process if you wanted to - with the help of a special plugin for Webpack: [The HtmlWebpackPlugin](https://webpack.js.org/plugins/html-webpack-plugin/).
+
+You can find a detailed documentation on how to use it on this page: [https://github.com/jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDM0NDY4OCwtMjIyMjM1ODIzLDEwMj
-MzMzE5LDEwNjM1NTk3OTUsLTEwNzA2NTI0MzhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzU3NjQ4OTIsLTIyMjIzNTgyMywxMD
+IzMzMxOSwxMDYzNTU5Nzk1LC0xMDcwNjUyNDM4XX0=
 -->
