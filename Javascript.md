@@ -8712,8 +8712,10 @@ Pages where HTML is generated dynamically on the server require a host that is c
 
 Search Static web hosting on the web (example aws, recomended by Max: firebase hosting, not free)
 
-Install it with npm, then firebase init (need user and password) and choose the hosting option
+Install it with npm, then `firebase init` (need user and password) and choose the hosting option and follow the instructions
+
+Then use `firebase deploy`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNjM2OTg5MywxMDIzMzMxOSwxMDYzNT
+eyJoaXN0b3J5IjpbLTIyMjIzNTgyMywxMDIzMzMxOSwxMDYzNT
 U5Nzk1LC0xMDcwNjUyNDM4XX0=
 -->
