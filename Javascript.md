@@ -8694,6 +8694,20 @@ Steps for deploying:
 
 Optimize and production in server side is not relevant
 
+**You can build different kinds of websites/ web apps.**
+
+Specifically, there are three major types you can differentiate:
+
+-   Static Websites (just HTML + CSS + JS)
+-   Single-Page-Applications (SPAs, HTML + CSS + JS with only one HTML page being served, client-side JS is used to re-render the page dynamically)
+-   Dynamic/ Server-side rendered Web Applications: Websites where the HTML pages are created dynamically on the server (e.g. via templating engines like EJS).
+
+You find a more detailed comparison here: [https://academind.com/learn/web-dev/dynamic-vs-static-vs-spa/](https://academind.com/learn/web-dev/dynamic-vs-static-vs-spa/)
+
+When deploying such websites, it's important to understand that sites with NO server-side code (i.e. Static Websites and SPAs), required only a static host (e.g. AWS S3, Firebase Hosting).
+
+Pages where HTML is generated dynamically on the server require a host that is capable of executing the server-side code (i.e. a server that supports NodeJS, PHP or whatever language is being used).
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA2NTI0MzhdfQ==
+eyJoaXN0b3J5IjpbMTA2MzU1OTc5NSwtMTA3MDY1MjQzOF19
 -->
