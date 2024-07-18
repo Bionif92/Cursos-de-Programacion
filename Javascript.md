@@ -8710,8 +8710,8 @@ Pages where HTML is generated dynamically on the server require a host that is c
 
 ### Stacic Host
 
-Search Static web hosting on the web (example aws)
+Search Static web hosting on the web (example aws, recomen)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMzMzMTksMTA2MzU1OTc5NSwtMTA3MD
-Y1MjQzOF19
+eyJoaXN0b3J5IjpbLTIwMDk1NTIxOTQsMTAyMzMzMTksMTA2Mz
+U1OTc5NSwtMTA3MDY1MjQzOF19
 -->
