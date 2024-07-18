@@ -8674,11 +8674,15 @@ try {
 
 9. If there's no interaction with a BE, we can sanitize in the FE.
 
+The following resources may be helpful.
 
+-   More about JavaScript Security: [https://medium.com/@dhtmlx/security-of-javascript-applications-1c95cd2ce533](https://medium.com/@dhtmlx/security-of-javascript-applications-1c95cd2ce533)
+
+##
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjUxNTY5MiwxMTQwODQyNzQ2LC00MT
-U0OTI3OTAsLTE3MTgzNDQxMDJdfQ==
+eyJoaXN0b3J5IjpbLTE0NjI4OTg4MzAsMTM5NjUxNTY5MiwxMT
+QwODQyNzQ2LC00MTU0OTI3OTAsLTE3MTgzNDQxMDJdfQ==
 -->
