@@ -8680,13 +8680,18 @@ The following resources may be helpful.
 
 ## Deploying Javascript Code
 
-Stacic Host (only CCS, HTM y JS)
+Stacic Host (only host and run CCS, HTM y JS)
 
-Dynamic Host (also Node)
+Dynamic Host (host run previous things and also Node)
 
+Steps for deploying:
+
+ 1. Develop/Write Code
+ 2. Test 
+ 3. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTc5MjI3NCwxODQ1MzcxMTU5LDEzOT
-Y1MTU2OTIsMTE0MDg0Mjc0NiwtNDE1NDkyNzkwLC0xNzE4MzQ0
-MTAyXX0=
+eyJoaXN0b3J5IjpbLTEwNTQyMzgwMTksMTg0NTM3MTE1OSwxMz
+k2NTE1NjkyLDExNDA4NDI3NDYsLTQxNTQ5Mjc5MCwtMTcxODM0
+NDEwMl19
 -->
