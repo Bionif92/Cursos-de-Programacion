@@ -8708,6 +8708,10 @@ When deploying such websites, it's important to understand that sites with NO se
 
 Pages where HTML is generated dynamically on the server require a host that is capable of executing the server-side code (i.e. a server that supports NodeJS, PHP or whatever language is being used).
 
+### Stacic Host
+
+Search Static web hosting on the web (example aws)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzU1OTc5NSwtMTA3MDY1MjQzOF19
+eyJoaXN0b3J5IjpbMTAyMzMzMTksMTA2MzU1OTc5NSwtMTA3MD
+Y1MjQzOF19
 -->
