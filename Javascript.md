@@ -8715,7 +8715,9 @@ Search Static web hosting on the web (example aws, recomended by Max: firebase h
 Install it with npm, then `firebase init` (need user and password) and choose the hosting option and follow the instructions
 
 Then use `firebase deploy`
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjIzNTgyMywxMDIzMzMxOSwxMDYzNT
-U5Nzk1LC0xMDcwNjUyNDM4XX0=
+eyJoaXN0b3J5IjpbLTc4NDM0NDY4OCwtMjIyMjM1ODIzLDEwMj
+MzMzE5LDEwNjM1NTk3OTUsLTEwNzA2NTI0MzhdfQ==
 -->
