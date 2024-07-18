@@ -8733,8 +8733,14 @@ We need a host too: search nodejs hosting on the web (heroku)
 Install Git and Heroku CLI, then run `heroku login` and follow the steps for instalation
 
 Need to give access to all IP adress to function
+
+Important need to change the app.listen to the server of heroku:
+
+````js
+app
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExNDIzOTY3LC0xOTgwMzc3NTk4LDE2Nj
-Q4NDUxMSwtMjIyMjM1ODIzLDEwMjMzMzE5LDEwNjM1NTk3OTUs
-LTEwNzA2NTI0MzhdfQ==
+eyJoaXN0b3J5IjpbLTk4MDMzMjY3MSwtMTk4MDM3NzU5OCwxNj
+Y0ODQ1MTEsLTIyMjIzNTgyMywxMDIzMzMxOSwxMDYzNTU5Nzk1
+LC0xMDcwNjUyNDM4XX0=
 -->
