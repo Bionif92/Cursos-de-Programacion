@@ -8759,7 +8759,14 @@ The following resources may be helpful.
  - Use devtools
  - Explore best practices, patterns and benchmarks
 
+### Tools
+
+ - performance.now()
+ - Browser Devtools
+ - jsperf.com
+ - webpagetest.com
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MDc4MDA3OCw0NjYwODUyMjAsLTE3OD
-YyMDEwMjIsMTUyMjIyMDc4Ml19
+eyJoaXN0b3J5IjpbLTEyODI4MjUzMDAsLTg5MDc4MDA3OCw0Nj
+YwODUyMjAsLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
 -->
