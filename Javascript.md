@@ -9122,6 +9122,8 @@ I could have also have `deleteProduct` and `addProduct` in separate files if the
 
 ### Memory leaks
 
+Diving Deeper Into Memory Analysis => [https://developers.google.com/web/tools/chrome-devtools/memory-problems](https://developers.google.com/web/tools/chrome-devtools/memory-problems)
+
 Example:
 
 ```js
@@ -9168,13 +9170,8 @@ For example, browser automatically cache files (e.g. JS files) for you - based o
 
 Server-side caching is all about storing data you work with on the server (e.g. fetched from a database) such that multiple requests requesting the same data can get that cached data.
 
-You can learn more about caching here: https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching
-
-And here: https://wp-rocket.me/blog/different-types-of-caching/
-
-#### HTTP/2
-
-HTTP/2 is the latest "form" of the Http protocol and unlike HTTP 1, it allows for "serv
+You can learn more about caching here: https://developers.google.com/web/fundamentals/performance/optimizing-content-effi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzA3OTE2OCwxNTA1MzgyNTZdfQ==
+eyJoaXN0b3J5IjpbNzY1OTU2NTc1LC01NTMwNzkxNjgsMTUwNT
+M4MjU2XX0=
 -->
