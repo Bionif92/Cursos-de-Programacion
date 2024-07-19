@@ -8793,10 +8793,14 @@ Google Performance Docs =>  [https://developers.google.com/web/fundamentals/perf
 
 Chrome DevTools Performance Analysis =>  [https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
 
+### Preparing the testing setup
 
+run `npm run build:prod` and then `cd dist` `serve`. The JS file is 1.5KB zipped, and 3.5KB unzziped
+
+- The source maps chosen in the webpack config affect the bundle size. `cheap-source-maps` is cheap for prod. `source-maps` can be used in development.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNzI5NDUxNiwtMTc3NDk2OTUzMiw4MD
+eyJoaXN0b3J5IjpbMTQxMTM0MDQzOCwtMTc3NDk2OTUzMiw4MD
 AzNzE3MjcsLTEyODI4MjUzMDAsLTg5MDc4MDA3OCw0NjYwODUy
 MjAsLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
 -->
