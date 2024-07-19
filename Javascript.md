@@ -8817,8 +8817,13 @@ function deleteProduct(productID) {
 };
 ````
 
+### runtime performance: how efficient is the code when running?
+
+- re-rendering all the list items upon adding or deleting elements hits performance!
+- creating node elements that can be added using innerHtml could be expensive (beware of sanitizing). Those elements don't need to be tweak much, like events listeners added or so on, otherwise I'd need to create the node in order to that anyway
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NTQyMjQxOCwtMjEyNzM0NjIwNCwxOT
+eyJoaXN0b3J5IjpbMTIzNDI5NzcwMCwtMjEyNzM0NjIwNCwxOT
 Y1NTgxMzc0LDE0MTEzNDA0MzgsLTE3NzQ5Njk1MzIsODAwMzcx
 NzI3LC0xMjgyODI1MzAwLC04OTA3ODAwNzgsNDY2MDg1MjIwLC
 0xNzg2MjAxMDIyLDE1MjIyMjA3ODJdfQ==
