@@ -8793,8 +8793,10 @@ Google Performance Docs =>  [https://developers.google.com/web/fundamentals/perf
 
 Chrome DevTools Performance Analysis =>  [https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk5MDM5MDY0LC0xNzc0OTY5NTMyLDgwMD
-M3MTcyNywtMTI4MjgyNTMwMCwtODkwNzgwMDc4LDQ2NjA4NTIy
-MCwtMTc4NjIwMTAyMiwxNTIyMjIwNzgyXX0=
+eyJoaXN0b3J5IjpbMTEwNzI5NDUxNiwtMTc3NDk2OTUzMiw4MD
+AzNzE3MjcsLTEyODI4MjUzMDAsLTg5MDc4MDA3OCw0NjYwODUy
+MjAsLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
 -->
