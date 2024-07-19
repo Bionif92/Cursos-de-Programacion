@@ -8766,7 +8766,29 @@ The following resources may be helpful.
  - jsperf.com
  - webpagetest.com
 
+### Dev tools
+
+open pages in incognito, because extensions might add some JS
+
+1. Look at the Elements tab for flashing on the elements when JS touches them (make sure you press Esc key, then the 3 dots, then `Rendering`, then enable `Paint flashing`
+2. Network tab: size, amount of requests
+3. Tick disable cache inside Network tab (that will only apply when the dev tools are open)
+4. Performance tab -> record ->Gives a a profile 
+5. I can enable/disable `Memory` and `screenshots` options.
+6. See the Main (thread)-> Zoom in to see the chain of fns called and how log it took each one
+7. Yellow `Event: click` bar has red staple on a corner, that's a a bad sign! The handler took 68ms to execute, too long
+8. Below the `Function call` yellow bar, there's the callstack, with different colours.
+9. Memory tab -> Heap snapshot -> take snapshot
+10. Perform a task on the app, then take the snapshot again, and the click on comparison, to see things that, e.g should have been removed from memory (some html elements not in the DOM anymore). Delta should be -1 for those elements. If the elements are not removed, that might mean a memory leak!
+11. Lighthouse tab
+
+Useful links:
+
+- https://developer.chrome.com/docs/devtools/
+- https://web.dev/explore/ ->Performance
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODI4MjUzMDAsLTg5MDc4MDA3OCw0Nj
-YwODUyMjAsLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
+eyJoaXN0b3J5IjpbODAwMzcxNzI3LC0xMjgyODI1MzAwLC04OT
+A3ODAwNzgsNDY2MDg1MjIwLC0xNzg2MjAxMDIyLDE1MjIyMjA3
+ODJdfQ==
 -->
