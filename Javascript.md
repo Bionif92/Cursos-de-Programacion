@@ -8798,11 +8798,20 @@ Chrome DevTools Performance Analysis =>  [https://developers.google.com/web/tool
 You can tweak the dev run with another devtool:
 Instead of `cheap-source-maps` use `source-maps`and change mode from `development` to `production`: you will see a size file more similiar to when you run the production
 
+### Optimising start up time
+
+#### How much of the code is used?
+
+- Network tab -> Escape key -> Coverage tab
+- It says 31% of JS unused!
+- 👉Functions like `addProduct` are marked in red inside the webpack folder in source maps.
+- the fix: lazy load that function!
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTU4MTM3NCwxNDExMzQwNDM4LC0xNz
-c0OTY5NTMyLDgwMDM3MTcyNywtMTI4MjgyNTMwMCwtODkwNzgw
-MDc4LDQ2NjA4NTIyMCwtMTc4NjIwMTAyMiwxNTIyMjIwNzgyXX
-0=
+eyJoaXN0b3J5IjpbLTIxMjczNDYyMDQsMTk2NTU4MTM3NCwxND
+ExMzQwNDM4LC0xNzc0OTY5NTMyLDgwMDM3MTcyNywtMTI4Mjgy
+NTMwMCwtODkwNzgwMDc4LDQ2NjA4NTIyMCwtMTc4NjIwMTAyMi
+wxNTIyMjIwNzgyXX0=
 -->
