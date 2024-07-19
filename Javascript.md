@@ -8808,9 +8808,14 @@ Instead of `cheap-source-maps` use `source-maps`and change mode from `developmen
 - the fix: lazy load that function!
 
 
-L
+Lazy Load: instead of exporting the data to the front, call it when it needs:
+````js
+function deleteProduct(productID) {
+	import ('')
+};
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNTU1NjUxNiwtMjEyNzM0NjIwNCwxOT
+eyJoaXN0b3J5IjpbLTEyMTAxNDgzNywtMjEyNzM0NjIwNCwxOT
 Y1NTgxMzc0LDE0MTEzNDA0MzgsLTE3NzQ5Njk1MzIsODAwMzcx
 NzI3LC0xMjgyODI1MzAwLC04OTA3ODAwNzgsNDY2MDg1MjIwLC
 0xNzg2MjAxMDIyLDE1MjIyMjA3ODJdfQ==
