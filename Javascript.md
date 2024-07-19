@@ -8819,13 +8819,341 @@ function deleteProduct(productID) {
 
 ### Updating DOM Correctly
 
-
 - re-rendering all the list items upon adding or deleting elements hits performance! - need to add or delete without changing all the dom, better running performance
 - creating node elements that can be added using innerHtml could be expensive (beware of sanitizing). Those elements don't need to be tweak much, like events listeners added or so on, otherwise I'd need to create the node in order to that anyway
 
+### Optimisations
+
+- avoid usage of a lot of variables
+
+- reaching out to the DOM muliple times (solved by moving code that reached out to the DOM to the root file level, outside fns)
+
+- complex DOM queries: e.g: 
+
+  ````js
+   const titleEl = document.querySelector('#new-product #title'); ❌
+  
+  const titleEl = document.getElementById('title'); ✅ // faster
+  ````
+
+### Micro optimisations
+
+- Don't get into rabbit hole optimisation! e.g replacing .map of .forEach with for loops. Not worth it, unless processing thousands of items
+
+- change the things that change the perfomance metrics (perfjs site) in a considerable way
+
+````js
+// product-management.js
+
+import { renderProducts } from './rendering';
+
+👇// this list can be moved to a different file (module) ❌
+// this array in memory keeps the state of the app. ❌ let's use the DOM as state management
+let products = [
+  {
+    id: new Date('1/1/1970').toString(),
+    title: 'A Book',
+    price: 12.99
+  },
+  {
+    id: new Date('1/2/1970').toString(),
+    title: 'A Carpet',
+    price: 129.99
+  },
+];
+
+export function initProducts() {
+  renderProducts(products, deleteProduct);
+}
+
+export function deleteProduct(prodId) {
+  // I'm using an extra updatedProducts variable ❌
+  const updatedProducts = [];
+  for (const prod of products) {
+    if (prod.id !== prodId) {
+      updatedProducts.push(prod);
+    }
+  }
+  products = updatedProducts;
+  // all products are re-rendered ❌
+  renderProducts(products, deleteProduct);
+}
+
+export function addProduct(event) {
+  event.preventDefault();
+  // reaching out to the DOM to get the form values ❌
+  const titleEl = document.querySelector('#new-product #title');
+  const priceEl = document.querySelector('#new-product #price');
+
+  const title = titleEl.value;
+  const price = priceEl.value;
+
+  if (title.trim().length === 0 || price.trim().length === 0 || +price < 0) {
+    alert('Please enter some valid input values for title and price.');
+    return;
+  }
+
+  const newProduct = {
+    id: new Date().toString(),
+    title: title,
+    price: price
+  };
+
+  products.unshift(newProduct);
+  // all products are re-rendered ❌
+  renderProducts(products, deleteProduct);
+}
+
+````
+
+````js
+// rendering.js
+
+export function renderProducts(products, deleteProductFn) {
+  const productListEl = document.getElementById('product-list');
+  productListEl.innerHTML = '';
+  products.forEach(product => {
+    // creating this nodes is expensive ❌
+    const newListEl = document.createElement('li');
+    const prodTitleEl = document.createElement('h2');
+    const prodPriceEl = document.createElement('p');
+    const prodDeleteButtonEl = document.createElement('button');
+
+    prodTitleEl.innerHTML = product.title;
+    prodPriceEl.innerHTML = product.price;
+    // ❌ innerHTML can be replaced by textContent, safer
+    prodDeleteButtonEl.innerHTML = 'DELETE';
+
+    prodDeleteButtonEl.addEventListener(
+      'click',
+      deleteProductFn.bind(null, product.id)
+    );
+
+    newListEl.appendChild(prodTitleEl);
+    newListEl.appendChild(prodPriceEl);
+    newListEl.appendChild(prodDeleteButtonEl);
+
+    productListEl.appendChild(newListEl);
+  });
+}
+
+````
+
+````js
+// shop.js
+
+👉// even importing one thing from the file, will make the module to be loaded!
+// addProducts code is not needed for the first paint ❌, can be lazy loaded 
+import { initProducts, addProduct } from './product-management';
+
+const addProductForm = document.getElementById('new-product');
+
+initProducts();
+
+addProductForm.addEventListener('submit', addProduct);
+
+````
+
+
+
+Optimized version
+
+```js
+// product-management.js
+
+import { updateProducts } from './rendering';
+import { products } from './products';
+
+const titleEl = document.getElementById('title');
+const priceEl = document.getElementById('price');
+
+👉// I left these 2 fns that I'll lazy load ✅
+export function deleteProduct(prodId) {
+  // got rid off that updatedProducts variable ✅ and now just work on the products array
+  const deletedProductIndex = products.findIndex(prod => prod.id === prodId);
+  const deletedProduct = products[deletedProductIndex];
+  // let's call this helper fn here and on addProducts ✅
+  products.splice(deletedProductIndex, 1);
+  updateProducts(deletedProduct, prodId, deleteProduct, false);
+}
+
+export function addProduct(event) {
+  const title = titleEl.value;
+  const price = priceEl.value;
+
+  if (title.trim().length === 0 || price.trim().length === 0 || +price < 0) {
+    alert('Please enter some valid input values for title and price.');
+    return;
+  }
+
+  const newProduct = {
+    id: new Date().toString(),
+    title: title,
+    price: price
+  };
+
+  products.unshift(newProduct);
+  updateProducts(newProduct, newProduct.id, deleteProduct, true);
+}
+
+```
+
+````js
+// products.js
+
+// this list used for the first rendering is in a separate file, not along the addProduct and deleteProduct in the same module
+
+export const products = [
+  {
+    id: new Date('1/1/1970').toString(),
+    title: 'A Book',
+    price: 12.99
+  },
+  {
+    id: new Date('1/2/1970').toString(),
+    title: 'A Carpet',
+    price: 129.99
+  },
+];
+````
+
+```js
+// rendering.js
+
+const productListEl = document.getElementById('product-list');
+
+// ✅creating a li element is needed in first rendering and adding an item
+// so it has been abstracted on a fn
+function createElement(product, prodId, deleteProductFn) {
+  const newListEl = document.createElement('li');
+  // a cheaper way than creating nodes ✅
+  // I should sanitize here
+  newListEl.innerHTML = `
+    <h2>${product.title}</h2>
+    <p>${product.price}</p>
+  `;
+  const prodDeleteButtonEl = document.createElement('button');
+  // textContent is safer than innerHtml ✅
+  prodDeleteButtonEl.textContent = 'DELETE';
+
+  newListEl.id = prodId;
+
+  prodDeleteButtonEl.addEventListener(
+    'click',
+    deleteProductFn.bind(null, prodId)
+  );
+
+  newListEl.appendChild(prodDeleteButtonEl);
+
+  return newListEl;
+}
+
+export function renderProducts(products, deleteProductFn) {
+  productListEl.innerHTML = '';
+  products.forEach(product => {
+    const newListEl = createElement(product, product.id, deleteProductFn);
+    productListEl.appendChild(newListEl);
+  });
+  // measuring this way gives a lot of different results each time, huge deviation ⚠️
+  // const startTime = performance.now();
+  // for (let i = 0; i < products.length; i++) {
+  //   const newListEl = createElement(
+  //     products[i],
+  //     products[i].id,
+  //     deleteProductFn
+  //   );
+  //   productListEl.appendChild(newListEl);
+  // }
+  // const endTime = performance.now();
+}
+
+// ✅avoids re-painting all the li elements when adding/removing elements
+export function updateProducts(product, prodId, deleteProductFn, isAdding) {
+  if (isAdding) {
+    const newProductEl = createElement(product, prodId, deleteProductFn);
+    productListEl.insertAdjacentElement('afterbegin', newProductEl);
+  } else {
+    // let's reach out the DOM to get the element, not the old products array ✅
+    const productEl = document.getElementById(prodId);
+    productEl.remove();
+    // old browsers code here
+    // productEl.parentElement.removeChild(productEl);
+  }
+}
+```
+
+```js
+// shop.js
+
+import { products } from './products';
+import { renderProducts } from './rendering';
+
+// 👉lazy load this functions that are executed upon user interaction
+function addProduct(event) {
+  // 👉prevent the form submission (POST request), because the module that does that is not ready yet  
+  event.preventDefault();
+  👉import('./product-management.js').then(mod => {
+    mod.addProduct(event);
+  })
+}
+
+// async await version here!👇
+async function deleteProduct(productId) {
+  const module = await 👉import('./product-management.js');
+  module.deleteProduct(productId);
+}
+
+function initProducts() {
+  renderProducts(products, deleteProduct);
+}
+
+const addProductForm = document.getElementById('new-product');
+
+initProducts();
+
+addProductForm.addEventListener('submit', addProduct);
+
+```
+Maybe the numbers were worse in terms of `Coverage` after doing the optimisations, but could have been bigger if the functions would have been more complex.
+
+I could have also have `deleteProduct` and `addProduct` in separate files if they were big enough, and lazy load them separately
+
+### Memory leaks
+
+Example:
+
+```js
+const renderedElements = [];
+
+const addElement(element){
+	// add it to the DOM
+	// then add it to the array
+	renderedElements.push(element); // ❌
+}
+```
+
+Go to memory, and take two snapshots, then compare it, check delta, if not no delta on liElement, then go to summary and search liElement. Then select each of them and see if they render on the screen. Then we'll see a `Detached` list, with liElements in it, which means that the underlying JS objects that make up the DOM node were kept because that renderedElements array holds the references! Conclusion: The liElements are removed from the DOM but the underlying objects are kept
+
+inside `summary`, `Distance` refers to how often the things are used
+
+Solution: don't store node elements in arrays, or take them out  manually when removed from the DOM
+
+Sometimes taking snapshots and comparing them show a delta of 0 when we should be expecting a delta of -1, when removing an element, but that's not a memory leak but how the browser works.
+
+
+
+### Server side performance optimisation
+
+Specifically, there are three main areas of improvement which you might want to look into:
+
+- Compression of served assets
+- Caching (client-side and server-side)
+- HTTP/2
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTU1MDQwMSwxMjM0Mjk3NzAwLC0yMT
-I3MzQ2MjA0LDE5NjU1ODEzNzQsMTQxMTM0MDQzOCwtMTc3NDk2
-OTUzMiw4MDAzNzE3MjcsLTEyODI4MjUzMDAsLTg5MDc4MDA3OC
-w0NjYwODUyMjAsLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
+eyJoaXN0b3J5IjpbMTYwMTkyNTQyNSwxOTg5NTUwNDAxLDEyMz
+QyOTc3MDAsLTIxMjczNDYyMDQsMTk2NTU4MTM3NCwxNDExMzQw
+NDM4LC0xNzc0OTY5NTMyLDgwMDM3MTcyNywtMTI4MjgyNTMwMC
+wtODkwNzgwMDc4LDQ2NjA4NTIyMCwtMTc4NjIwMTAyMiwxNTIy
+MjIwNzgyXX0=
 -->
