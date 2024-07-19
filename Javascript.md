@@ -8773,7 +8773,7 @@ open pages in incognito, because extensions might add some JS
 1. Look at the Elements tab for flashing on the elements when JS touches them (make sure you press Esc key, then the 3 dots, then `Rendering`, then enable `Paint flashing`
 2. Network tab: size, amount of requests
 3. Tick disable cache inside Network tab (that will only apply when the dev tools are open)
-4. Performance tab -> record ->Gives a a profile 
+4. Performance tab -> record ->Gives a  profile 
 5. I can enable/disable `Memory` and `screenshots` options.
 6. See the Main (thread)-> Zoom in to see the chain of fns called and how log it took each one
 7. Yellow `Event: click` bar has red staple on a corner, that's a a bad sign! The handler took 68ms to execute, too long
@@ -8788,7 +8788,7 @@ Useful links:
 - https://web.dev/explore/ ->Performance
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMzcxNzI3LC0xMjgyODI1MzAwLC04OT
-A3ODAwNzgsNDY2MDg1MjIwLC0xNzg2MjAxMDIyLDE1MjIyMjA3
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTE3NzQ5Njk1MzIsODAwMzcxNzI3LC0xMj
+gyODI1MzAwLC04OTA3ODAwNzgsNDY2MDg1MjIwLC0xNzg2MjAx
+MDIyLDE1MjIyMjA3ODJdfQ==
 -->
