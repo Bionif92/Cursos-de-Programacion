@@ -8752,9 +8752,14 @@ The following resources may be helpful.
 
  - Starup time (only in browser JS)
  - Runtime performance (all JS- Front and End)
- - 
+
+### Measuring Performance
+
+ - Check roundtrips + script size and set script/bundle budgets
+ - Use devtools
+ - Explore best practices, patterns and bench
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MDg1MjIwLC0xNzg2MjAxMDIyLDE1Mj
-IyMjA3ODJdfQ==
+eyJoaXN0b3J5IjpbMTcwMzE3ODkwNCw0NjYwODUyMjAsLTE3OD
+YyMDEwMjIsMTUyMjIyMDc4Ml19
 -->
