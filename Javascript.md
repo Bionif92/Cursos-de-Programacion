@@ -8808,7 +8808,7 @@ Instead of `cheap-source-maps` use `source-maps`and change mode from `developmen
 - the fix: lazy load that function!
 
 
-Lazy Load: instead of exporting the data to the front, import them dinamically call it when it needs:
+Lazy Load: instead of exporting the data to the front, import them dinamically when it is called:
 ````js
 function deleteProduct(productID) {
 	import ('./product-managment.js').then (mod => { 
@@ -8817,8 +8817,8 @@ function deleteProduct(productID) {
 };
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMTQyNDAwOSwtMjEyNzM0NjIwNCwxOT
-Y1NTgxMzc0LDE0MTEzNDA0MzgsLTE3NzQ5Njk1MzIsODAwMzcx
-NzI3LC0xMjgyODI1MzAwLC04OTA3ODAwNzgsNDY2MDg1MjIwLC
-0xNzg2MjAxMDIyLDE1MjIyMjA3ODJdfQ==
+eyJoaXN0b3J5IjpbLTEyMjMwMjI5NzYsLTIxMjczNDYyMDQsMT
+k2NTU4MTM3NCwxNDExMzQwNDM4LC0xNzc0OTY5NTMyLDgwMDM3
+MTcyNywtMTI4MjgyNTMwMCwtODkwNzgwMDc4LDQ2NjA4NTIyMC
+wtMTc4NjIwMTAyMiwxNTIyMjIwNzgyXX0=
 -->
