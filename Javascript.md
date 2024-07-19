@@ -8757,9 +8757,9 @@ The following resources may be helpful.
 
  - Check roundtrips + script size and set script/bundle budgets
  - Use devtools
- - Explore best practices, patterns and bench
+ - Explore best practices, patterns and benchmarks
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMzE3ODkwNCw0NjYwODUyMjAsLTE3OD
+eyJoaXN0b3J5IjpbLTg5MDc4MDA3OCw0NjYwODUyMjAsLTE3OD
 YyMDEwMjIsMTUyMjIyMDc4Ml19
 -->
