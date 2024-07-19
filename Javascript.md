@@ -8745,6 +8745,8 @@ The following resources may be helpful.
 -   Static vs Dynamic vs SPAs: [https://academind.com/learn/web-dev/dynamic-vs-static-vs-spa/](https://academind.com/learn/web-dev/dynamic-vs-static-vs-spa/)
 -   Firebase Docs: [https://firebase.google.com/docs/hosting](https://firebase.google.com/docs/hosting)
 -   Heroku Docs: [https://devcenter.heroku.com/categories/reference](https://devcenter.heroku.com/categories/reference)
+
+## Performance & Optimization
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDgzODA2N119
+eyJoaXN0b3J5IjpbMTUyMjIyMDc4MiwyMDA0ODM4MDY3XX0=
 -->
