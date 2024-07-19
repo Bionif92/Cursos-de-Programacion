@@ -8750,10 +8750,11 @@ The following resources may be helpful.
 
 ### Performance
 
- - Starup time
- - Runtime performance
+ - Starup time (only in browser JS)
+ - Runtime performance (all JS- Front and End)
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
+eyJoaXN0b3J5IjpbNDY2MDg1MjIwLC0xNzg2MjAxMDIyLDE1Mj
+IyMjA3ODJdfQ==
 -->
