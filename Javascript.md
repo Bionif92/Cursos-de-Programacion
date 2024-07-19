@@ -8787,8 +8787,12 @@ Useful links:
 - https://developer.chrome.com/docs/devtools/
 - https://web.dev/explore/ ->Performance
 
+Google Performance Docs =>  [https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution](https://developers.google.com/web/fundamentals/performance/rendering/optimize-javascript-execution)
+
+Chrome DevTools Performance Analysis =>  [https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzQ5Njk1MzIsODAwMzcxNzI3LC0xMj
-gyODI1MzAwLC04OTA3ODAwNzgsNDY2MDg1MjIwLC0xNzg2MjAx
-MDIyLDE1MjIyMjA3ODJdfQ==
+eyJoaXN0b3J5IjpbLTIzNDc4NzYyMCwtMTc3NDk2OTUzMiw4MD
+AzNzE3MjcsLTEyODI4MjUzMDAsLTg5MDc4MDA3OCw0NjYwODUy
+MjAsLTE3ODYyMDEwMjIsMTUyMjIyMDc4Ml19
 -->
