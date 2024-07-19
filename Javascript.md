@@ -8842,6 +8842,8 @@ function deleteProduct(productID) {
 
 - change the things that change the perfomance metrics (perfjs site) in a considerable way
 
+**Use `jsPerf` to see which functions are faster to run in your code**
+
 ````js
 // product-management.js
 
@@ -9172,7 +9174,7 @@ And here: https://wp-rocket.me/blog/different-types-of-caching/
 
 #### HTTP/2
 
-HTTP/2 is the latest "form" of the Http protocol and unlike HTTP 1, it allows for "server push". That means that servers can push required assets/ files active
+HTTP/2 is the latest "form" of the Http protocol and unlike HTTP 1, it allows for "serv
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwNTM4MjU2XX0=
+eyJoaXN0b3J5IjpbLTU1MzA3OTE2OCwxNTA1MzgyNTZdfQ==
 -->
