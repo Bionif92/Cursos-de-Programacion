@@ -8796,12 +8796,12 @@ Chrome DevTools Performance Analysis =>  [https://developers.google.com/web/tool
 ### Preparing the testing setup
 
 You can tweak the dev run with another devtool:
-Instead of `cheap-source-maps` use `source-maps`and change mode 
+Instead of `cheap-source-maps` use `source-maps`and change mode from `development` to `production`: you will see a size file more similiar to when you run the production
 
-- The source maps chosen in the webpack config affect the bundle size. `cheap-source-maps` is cheap for prod. `source-maps` can be used in development.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTg5OTM5NiwxNDExMzQwNDM4LC0xNz
+eyJoaXN0b3J5IjpbMTk2NTU4MTM3NCwxNDExMzQwNDM4LC0xNz
 c0OTY5NTMyLDgwMDM3MTcyNywtMTI4MjgyNTMwMCwtODkwNzgw
 MDc4LDQ2NjA4NTIyMCwtMTc4NjIwMTAyMiwxNTIyMjIwNzgyXX
 0=
