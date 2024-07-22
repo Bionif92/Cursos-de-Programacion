@@ -202,7 +202,7 @@ test('should validate name and age', ()=> {
 
 ​	
 
-### e2e (end to end)tests
+### e2e (end to end) tests
 
 we can set up timeouts, like this:
 
@@ -404,5 +404,6 @@ exports.get = (url) => {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg3MTM1MCwtMTgzMzcyOTA1MF19
+eyJoaXN0b3J5IjpbLTE1ODM3NDAwNDgsLTE4MzM3MjkwNTBdfQ
+==
 -->
