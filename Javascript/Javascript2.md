@@ -338,7 +338,7 @@ jest does a file swapping
 Steps:
 
 1. create a `__mocks__` folder at the root level of the project, then add some files inside, that matches the name of the js files we want to replace. eg. http.js
-2. then add `jest.mock('./http'); at the beginning of the test file
+2. then add `jest.mock('./http.js'); at the beginning of the test file
 
 ````js
 // http.js
@@ -404,6 +404,6 @@ exports.get = (url) => {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTM4NjQ3NCwtMTU4Mzc0MDA0OCwtMT
-gzMzcyOTA1MF19
+eyJoaXN0b3J5IjpbNDM2NzA4ODQ5LC05MTUzODY0NzQsLTE1OD
+M3NDAwNDgsLTE4MzM3MjkwNTBdfQ==
 -->
