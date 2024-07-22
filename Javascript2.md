@@ -4,6 +4,13 @@ HTTP/2 is the latest "form" of the Http protocol and unlike HTTP 1, it allows fo
 
 You can learn more about it here: https://developers.google.com/web/fundamentals/performance/http2
 
+
+The following resources may be helpful.
+
+-   Google Performance Docs: [https://developers.google.com/web/fundamentals/performance/rendering](https://developers.google.com/web/fundamentals/performance/rendering)
+-   Chrome DevTools Performance Docs: [https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference)
+-   Chrome DevTools Memory Docs: [https://developers.google.com/web/tools/chrome-devtools/memory-problems](https://developers.google.com/web/tools/chrome-devtools/memory-problems)
+
 ## Testing
 
 we need 3 things:
@@ -395,5 +402,5 @@ exports.get = (url) => {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMDM3Mzg0OF19
+eyJoaXN0b3J5IjpbLTE4MzM3MjkwNTBdfQ==
 -->
