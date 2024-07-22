@@ -1,4 +1,4 @@
-#### HTTP/2
+#### HTTP/2 ped
 
 HTTP/2 is the latest "form" of the Http protocol and unlike HTTP 1, it allows for "server push". That means that servers can push required assets/ files actively to a client (instead of waiting for the client to request them).
 
@@ -404,6 +404,6 @@ exports.get = (url) => {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODM3NDAwNDgsLTE4MzM3MjkwNTBdfQ
-==
+eyJoaXN0b3J5IjpbMTA5MTY5Njk1LC0xNTgzNzQwMDQ4LC0xOD
+MzNzI5MDUwXX0=
 -->
