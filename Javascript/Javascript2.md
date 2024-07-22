@@ -13,6 +13,8 @@ The following resources may be helpful.
 
 ## Testing
 
+To automate testing
+
 we need 3 things:
 
 Test runner: execute tests, summarize results. e.g Mocha, Jest.
@@ -45,7 +47,7 @@ Jest will make test() fn globally available
   "scripts": {
     "start": "webpack app.js --mode development --watch",
       // jest will look for .spec or .test files and execute them
-    👉"test": "jest --watch"
+    👉"test": "jest "
   }
 }
 `````
@@ -200,7 +202,7 @@ test('should validate name and age', ()=> {
 
 ​	
 
-### e2e tests
+### e2e (end to end)tests
 
 we can set up timeouts, like this:
 
@@ -402,5 +404,5 @@ exports.get = (url) => {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzM3MjkwNTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NTg3MTM1MCwtMTgzMzcyOTA1MF19
 -->
