@@ -403,7 +403,13 @@ exports.get = (url) => {
     }
 }
 ````
+
+The following resources may be helpful.
+
+-   Article on JS Testing: [https://academind.com/learn/javascript/javascript-testing-introduction/](https://academind.com/learn/javascript/javascript-testing-introduction/)
+-   Official Jest Docs: [https://jestjs.io/docs/en/getting-started](https://jestjs.io/docs/en/getting-started)
+-   Testing with Spies, Stubs & Mocks: [https://www.harrymt.com/blog/2018/04/11/stubs-spies-and-mocks-in-js.html](https://www.harrymt.com/blog/2018/04/11/stubs-spies-and-mocks-in-js.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2NzA4ODQ5LC05MTUzODY0NzQsLTE1OD
-M3NDAwNDgsLTE4MzM3MjkwNTBdfQ==
+eyJoaXN0b3J5IjpbLTUzMzYxMDcwNCw0MzY3MDg4NDksLTkxNT
+M4NjQ3NCwtMTU4Mzc0MDA0OCwtMTgzMzcyOTA1MF19
 -->
