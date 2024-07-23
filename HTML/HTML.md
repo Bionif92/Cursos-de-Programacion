@@ -4,13 +4,13 @@ Hyper Text Markup Languague
 
 Es la estructura de la pagina Web
 
-Etiquetas:
+### Etiquetas:
 
 ````html
 <tag>.....</tag>
 ````
 
-Estructura inicial:
+### Estructura inicial
 
 ````html
 <!DOCTYPE  html> // version html
@@ -26,13 +26,13 @@ Estructura inicial:
 </html>
 ````
 
-Parrafos:
+### Parrafos:
 
 ````html
 <p>.....</p>
 ````
 
-Encabezados:
+### Encabezados:
 
 ````html
 <h1>.....</h1>
@@ -42,12 +42,20 @@ Mas chico el numero, mas chico el encabezado
 
 **Se usa solo un h1 por pagina web**
 
-Listas:
+### Listas:
 
 Dos tipos: ordenadas y desordenadas
 
+#### Ordenadas
+
+````html
+<ol>.....</ol>
+````
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMTI3MDI5LC0xMjIxMjA5MzQ5LC0xND
-g4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQw
-MzM3MV19
+eyJoaXN0b3J5IjpbLTE1NjY1OTYwMDMsLTEyMjEyMDkzNDksLT
+E0ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0
+NDAzMzcxXX0=
 -->
