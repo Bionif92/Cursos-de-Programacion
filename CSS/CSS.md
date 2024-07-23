@@ -65,6 +65,9 @@ Hay que colocar el . en css
 	color: red;
 }
 ````
+
+### Propiedades de Texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMDA3MzE0OSwtMTMwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbLTE4NTI2ODc2NTksLTEzMDM3OTg1OTBdfQ
+==
 -->
