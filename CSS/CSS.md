@@ -29,6 +29,8 @@ p {
 
 Podes usar el tag `span` para seleccionar algo puntual y cambiarle el estilo, pero no es el caso
 
+#### Clases
+
 Hay que usar las clases para diferenciar:
 
 ````html
@@ -45,6 +47,6 @@ Hay que colocar el . en css
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDMwODU0OTYsLTEzMDM3OTg1OTBdfQ
+eyJoaXN0b3J5IjpbLTE3MTQ3ODMwOTMsLTEzMDM3OTg1OTBdfQ
 ==
 -->
