@@ -71,11 +71,11 @@ Hay que colocar el . en css
 ````css
 p {
 	color: red; // color texto
-	font-family: // tipografias
+	font-family: // tipografias, podes poner mas de una con comas, y si el navegador no la soporta, pasa a la siguiente
 	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMT
-MwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xOD
+UyNjg3NjU5LC0xMzAzNzk4NTkwXX0=
 -->
