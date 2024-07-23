@@ -132,13 +132,14 @@ Hay muchas variantes de input type (email, password, checkbox, radio, file, date
 
 Atributos importantes en formularios:
 
- - required (obliga a colocar el dato para a)
+ - required (obliga a colocar el dato para avanzar)
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0ODA1MjU5NiwtMTE2NzQxNDk5MSwxMT
-U2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2
-NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLD
-ExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4
-ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MD
-MzNzFdfQ==
+eyJoaXN0b3J5IjpbLTE1NTQzMjI1NjUsLTExNjc0MTQ5OTEsMT
+E1NjE0Njg3NywxMDI4NjYxMjM3LC01MjEwNzA3MjgsMTc1NDE4
+NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEyODA1LDc4NDI4NTM3MC
+wxMTg3OTI3NjU2LDEwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0
+ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0ND
+AzMzcxXX0=
 -->
