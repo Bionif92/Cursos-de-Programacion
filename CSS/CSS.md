@@ -97,13 +97,15 @@ Esta es una opcion, la otra y mas recomendable es:
 ````css
 @font-face {
 	font-family: 'nombre de la nueva tipografia';
-	src: url ()
+	src: url () format('truetype')
 }
 ````
 
+ - Descargas la tipografia, y la anexas la url
+ - Luego colocarla en el archivo 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNTQ5Njg4NywtMTk3NzAxMTYwMiwtNz
+eyJoaXN0b3J5IjpbLTU5NzMzMjgzNywtMTk3NzAxMTYwMiwtNz
 M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
 MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
 BdfQ==
