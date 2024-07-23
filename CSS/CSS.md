@@ -87,10 +87,15 @@ la etiqueta `strong` en htlm sirve para resaltar texto
 
 ### Tipografías externas
 
-Buscar google fonts, elegir la version, copias el acceso y lo pegas al lado del link de css en el archivo html
+Buscar google fonts, elegir la version, copias el acceso y lo pegas al lado del link de css en el archivo html. Luego ya la podes seleccionar en css.
+
+Esta es una opcion, la otra y mas recomendable es:
+
+ - Crear 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM4MDUxNjE1LC0xOTc3MDExNjAyLC03Mz
-Y2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0MDkyLDE5ODEzNzAy
-MjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5ODU5MF
-19
+eyJoaXN0b3J5IjpbMTE5MjAwODM5MCwtMTk3NzAxMTYwMiwtNz
+M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
+MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
+BdfQ==
 -->
