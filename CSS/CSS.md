@@ -75,12 +75,12 @@ p {
 	font-size: 13px; // tamaño letra
 	font-weight: bold; //negrita u otro grosor, bolder manda al mas grueso 
 	font-style: ,//estilo (oblique,italic)
-	text-align: ,//posicionar el texto
+	text-align: ,//posicionar el texto (center,left, justify)
 }
 ````
 la etiqueta `strong` en htlm sirve para resaltar texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTEzNDM5MzIsMjY2Njc0MDkyLDE5OD
+eyJoaXN0b3J5IjpbLTExNTU0NzQ3NDEsMjY2Njc0MDkyLDE5OD
 EzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5
 ODU5MF19
 -->
