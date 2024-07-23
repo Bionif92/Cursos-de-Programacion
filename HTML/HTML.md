@@ -114,16 +114,21 @@ Ruta absoluta - podes acceder desde cualquier lado
 Ruta relativa - cambia si modificas la posición del archivo
 
 ````html
-<a href='../listas.html'>Apartado de listas<a/>
+<a href='../listas.html'>Apartado de listas</a>
 ````
 Para ir una carpeta para atras
 Para la misma carpeta o para adelante, escribi la carpeta en las que se encuentra como la ruta
 
 ### Formularios
+
+````html
+<form>...</form>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjc0MTQ5OTEsMTE1NjE0Njg3NywxMD
-I4NjYxMjM3LC01MjEwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0
-NTMxLC0xMTAwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LD
-EwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcw
-NjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbLTgwNDk2NTIxMywtMTE2NzQxNDk5MSwxMT
+U2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2
+NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLD
+ExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4
+ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MD
+MzNzFdfQ==
 -->
