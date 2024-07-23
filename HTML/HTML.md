@@ -82,9 +82,14 @@ Tenemos que colocarle el atributo de hipervinculo
 
 **Podes enlazar otros htlm para moverte entre paginas**
 
+#### Enlance en otra Pestaña
 
+````html
+<a href='https://url'>.....</a>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0Mjg1MzcwLDExODc5Mjc2NTYsMTA5MD
-Q1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LDE0NzA2NDk4
-NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
+eyJoaXN0b3J5IjpbNDg4NzYyMDU4LDc4NDI4NTM3MCwxMTg3OT
+I3NjU2LDEwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5
+NywxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX
+0=
 -->
