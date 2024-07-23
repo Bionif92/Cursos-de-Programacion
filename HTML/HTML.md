@@ -42,8 +42,11 @@ Mas chico el numero, mas chico el encabezado
 
 **Se usa solo un h1 por pagina web**
 
+Listas:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxND
-cwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbMTQyMDM5NzEzMSwtMTIyMTIwOTM0OSwtMT
+Q4ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0
+MDMzNzFdfQ==
 -->
