@@ -129,8 +129,13 @@ Para la misma carpeta o para adelante, escribi la carpeta en las que se encuentr
 ````
 
 Hay muchas variantes de input type (email, password, checkbox, radio, file, date)
+
+Atributos importantes en formularios:
+
+ - required (obliga a colocar el dato para a)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzA0OTQwMiwtMTE2NzQxNDk5MSwxMT
+eyJoaXN0b3J5IjpbLTI0ODA1MjU5NiwtMTE2NzQxNDk5MSwxMT
 U2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2
 NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLD
 ExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4
