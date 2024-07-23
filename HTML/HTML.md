@@ -80,9 +80,11 @@ Tenemos que colocarle el atributo de hipervinculo
 <a href='https://url'>.....</a>
 ````
 
-Podes enlazar otros htl
+**Podes enlazar otros htlm para moverte entre paginas**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwNDc4ODk0LDExODc5Mjc2NTYsMTA5MD
+eyJoaXN0b3J5IjpbNzg0Mjg1MzcwLDExODc5Mjc2NTYsMTA5MD
 Q1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LDE0NzA2NDk4
 NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
 -->
