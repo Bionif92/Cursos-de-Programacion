@@ -37,8 +37,8 @@ Encabezados:
 ````html
 <h1>.....</h1>
 ````
-Tenemos hasta el h6, podemos agregarlos 
+Tenemos hasta el h6, podemos agregarlos todos de una con `h$*6`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzODc1NjYwLC0xNDg4NzkyOTcsMTQ3MD
-Y0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQwMzM3MV19
+eyJoaXN0b3J5IjpbLTEwNjEzNTA0ODIsLTE0ODg3OTI5NywxND
+cwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
