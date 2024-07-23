@@ -102,10 +102,12 @@ Te muestra cuando pasas con el mouse por encima ese titulo
 <img src='imagen.png'alt='texto'title=''>
 ````
 `alt`muestra un texto descriptivo si la imagen no carga
+
+Se autocierra el html de imagen
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDI4NDA0NSwxNzU0MTg2NjYsLTE5MT
-Y1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLDExODc5Mjc2
-NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LD
-E0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzg5MDY4NTgsMTc1NDE4NjY2LC0xOT
+E2NTE0NTMxLC0xMTAwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3
+NjU2LDEwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5Ny
+wxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 
 -->
