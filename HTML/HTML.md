@@ -53,11 +53,17 @@ Dos tipos: ordenadas y desordenadas
 ````
 adentro van los `<li> ` items
 
-Van a ir con numeros al inicio, ordenados, como estandar (pode)
+Van a ir con numeros al inicio, ordenados, como estandar (podes cambiar con Css)
 
+#### Desordenadas
+
+````html
+<ul>.....</ul>
+````
+adentro van los `<li> ` items
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDUzMTI3MiwtMTIyMTIwOTM0OSwtMT
+eyJoaXN0b3J5IjpbMTU1NjIxMjk4MSwtMTIyMTIwOTM0OSwtMT
 Q4ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0
 MDMzNzFdfQ==
 -->
