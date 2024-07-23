@@ -51,11 +51,13 @@ Dos tipos: ordenadas y desordenadas
 ````html
 <ol>.....</ol>
 ````
+adentro van los `<li> ` items
 
+Van a 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY1OTYwMDMsLTEyMjEyMDkzNDksLT
-E0ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0
-NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbMTU2NzMxODE2MiwtMTIyMTIwOTM0OSwtMT
+Q4ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0
+MDMzNzFdfQ==
 -->
