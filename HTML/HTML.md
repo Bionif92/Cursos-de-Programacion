@@ -110,10 +110,14 @@ Se autocierra el html de imagen
 Ruta absoluta - podes acceder desde cualquier lado
 
 Ruta relativa - cambia si modificas la posición del archivo
+
+````html
+<a href='../listas.html'>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NT
-QxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyODUz
-NzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMjA5MzQ5LC
-0xNDg4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0MSwtMTE2
-NDQwMzM3MV19
+eyJoaXN0b3J5IjpbMTE5NDc2MzgyMSwxMDI4NjYxMjM3LC01Mj
+EwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEy
+ODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgsLT
+EyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3
+ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
