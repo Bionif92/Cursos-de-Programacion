@@ -1,10 +1,10 @@
-# CCS Course
+# CSS Course
 
-## CCS Basico
+## CSS Basico
 
 Cascading Style Sheets
 
-Tres maneras de armar CCS:
+Tres maneras de armar CSS:
 
  - Go live, escribir propiedades en el mismo html (mala practica)
  - Los estilos como etiquetas en el html (mala practica)
@@ -14,9 +14,9 @@ Tres maneras de armar CCS:
 
 Se coloca en el head:
 ````html
-<link rel='stylesheet'
+<link rel='stylesheet' hfef='styles.css'
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NjM1MTI2NSwtNzg3NzEyMDg3LC0xOT
-g4NDAyMDYzLC0xNTI4MzM3Nzg1XX0=
+eyJoaXN0b3J5IjpbLTE0MzAzNzI0MzgsLTc4NzcxMjA4NywtMT
+k4ODQwMjA2MywtMTUyODMzNzc4NV19
 -->
