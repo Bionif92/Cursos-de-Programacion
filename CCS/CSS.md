@@ -14,9 +14,13 @@ Tres maneras de armar CSS:
 
 Se coloca en el head:
 ````html
-<link rel='stylesheet' hfef='styles.css'
+<link rel='stylesheet' hfef='styles.css'>
 ````
+
+En la hoja styles.css:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAzNzI0MzgsLTc4NzcxMjA4NywtMT
-k4ODQwMjA2MywtMTUyODMzNzc4NV19
+eyJoaXN0b3J5IjpbMzY3ODc4NTA3LC0xNDMwMzcyNDM4LC03OD
+c3MTIwODcsLTE5ODg0MDIwNjMsLTE1MjgzMzc3ODVdfQ==
 -->
