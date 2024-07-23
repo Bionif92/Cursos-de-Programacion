@@ -107,11 +107,13 @@ Se autocierra el html de imagen
 
 ### Rutas
 
+Ruta absoluta - podes acceder desde cualquier lado
 
+Ruta relativa - cambia si modificas la posición del archivo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTA3MDcyOCwxNzU0MTg2NjYsLTE5MT
-Y1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLDExODc5Mjc2
-NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LD
-E0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
-
+eyJoaXN0b3J5IjpbMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NT
+QxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyODUz
+NzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMjA5MzQ5LC
+0xNDg4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0MSwtMTE2
+NDQwMzM3MV19
 -->
