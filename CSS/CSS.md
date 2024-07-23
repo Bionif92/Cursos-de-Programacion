@@ -71,10 +71,11 @@ Hay que colocar el . en css
 ````css
 p {
 	color: red; // color texto
+	font-family: // tipografias
 	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzk2MzA0MiwtMTg1MjY4NzY1OSwtMT
+eyJoaXN0b3J5IjpbLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMT
 MwMzc5ODU5MF19
 -->
