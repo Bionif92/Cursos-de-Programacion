@@ -29,7 +29,9 @@ p {
 
 Podes usar el tag `span` para seleccionar algo puntual y cambiarle el estilo, pero no es el caso
 
+Hay que usar 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM3OTg1OTBdfQ==
+eyJoaXN0b3J5IjpbMTEwMzYxOTgzNiwtMTMwMzc5ODU5MF19
 -->
