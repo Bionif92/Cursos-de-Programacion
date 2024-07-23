@@ -31,7 +31,13 @@ Parrafos:
 ````html
 <p>.....</p>
 ````
+
+Encabezados:
+
+````html
+<h1>.....</p>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc3MjMzODYsLTE0ODg3OTI5NywxNDcwNj
-Q5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbLTIxMDg3OTQ3MjYsLTE0ODg3OTI5NywxND
+cwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
