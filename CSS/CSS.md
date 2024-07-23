@@ -96,12 +96,14 @@ Esta es una opcion, la otra y mas recomendable es:
 
 ````css
 @font-face {
-	font-family
+	font-family: 'nombre de la nueva tipografia';
+	src: url ()
 }
 ````
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTM3MTA2MiwtMTk3NzAxMTYwMiwtNz
+eyJoaXN0b3J5IjpbMTkzNTQ5Njg4NywtMTk3NzAxMTYwMiwtNz
 M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
 MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
 BdfQ==
