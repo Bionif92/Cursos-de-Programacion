@@ -27,7 +27,13 @@ p {
 
 ### Selectores
 
-#### 
+#### Elemento
+
+````css
+li {
+	color: red;
+}
+````
 
 #### Clases
 
@@ -60,5 +66,5 @@ Hay que colocar el . en css
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIzODE2NzM5LC0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbLTgxMDA3MzE0OSwtMTMwMzc5ODU5MF19
 -->
