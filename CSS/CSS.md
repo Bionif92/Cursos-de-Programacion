@@ -77,11 +77,12 @@ p {
 	font-style: ,//estilo (oblique,italic)
 	text-align: ,//posicionar el texto (center,left, justify)
 	text-decoration: ,// underline, overline,line-through, podes poner mas de una
+	line-height: ,// espacio entre linea y linea
 }
 ````
 la etiqueta `strong` en htlm sirve para resaltar texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTI0NDkxMjAsMjY2Njc0MDkyLDE5OD
-EzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5
-ODU5MF19
+eyJoaXN0b3J5IjpbMTQ3OTcwOTIyNywtMTQ1MjQ0OTEyMCwyNj
+Y2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3
+NjU5LC0xMzAzNzk4NTkwXX0=
 -->
