@@ -44,9 +44,17 @@ Hay que colocar el . en css
 }
 ````
 
+#### Id
 
+````html
+<li id='ingrediente-secreto'>Harina</li>
+````
 
+````css
+.faltante {
+	color: red;
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ3ODMwOTMsLTEzMDM3OTg1OTBdfQ
-==
+eyJoaXN0b3J5IjpbMTYwMzk4MTQ0MiwtMTMwMzc5ODU5MF19
 -->
