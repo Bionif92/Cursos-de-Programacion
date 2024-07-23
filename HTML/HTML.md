@@ -39,7 +39,11 @@ Encabezados:
 ````
 Tenemos hasta el h6, podemos agregarlos todos de una con `h$*6`
 Mas chico el numero, mas chico el encabezado
+
+**Se usa solo un h1 por pagina web**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ1ODU5NjAwLC0xNDg4NzkyOTcsMTQ3MD
-Y0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQwMzM3MV19
+eyJoaXN0b3J5IjpbLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxND
+cwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
