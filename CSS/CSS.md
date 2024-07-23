@@ -84,8 +84,10 @@ p {
 }
 ````
 la etiqueta `strong` en htlm sirve para resaltar texto
+
+### Tipografías externas
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNj
-Y2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3
-NjU5LC0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMT
+Q1MjQ0OTEyMCwyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUx
+ODM5LC0xODUyNjg3NjU5LC0xMzAzNzk4NTkwXX0=
 -->
