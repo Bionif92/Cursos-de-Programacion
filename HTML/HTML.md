@@ -135,12 +135,13 @@ Atributos importantes en formularios:
  - required (obliga a colocar el dato para avanzar)
  - name (le coloca la etiqueta al valor)
  - placeholder (lo que esta escrito en el campo antes de completarlo)
+ - value (se guarda el dato para despues usarlo en js)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzczMDc2MCwtMTE2NzQxNDk5MSwxMT
-U2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2
-NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLD
-ExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4
-ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MD
-MzNzFdfQ==
+eyJoaXN0b3J5IjpbNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNT
+YxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxODY2
+NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyODUzNzAsMT
+E4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMjA5MzQ5LC0xNDg4
+NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQwMz
+M3MV19
 -->
