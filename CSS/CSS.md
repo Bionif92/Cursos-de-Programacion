@@ -74,12 +74,12 @@ p {
 	font-family: ;// tipografias, podes poner mas de una con comas, y si el navegador no la soporta, pasa a la siguiente
 	font-size: 13px; // tamaño letra
 	font-weight: bold; //negrita u otro grosor, bolder manda al mas grueso 
-	font-style:
+	font-style: ,//estilo (oblique,italic)
 }
 ````
 la etiqueta `strong` en htlm sirve para resaltar texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTM3MTA3LDI2NjY3NDA5MiwxOTgxMz
-cwMjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1
-OTBdfQ==
+eyJoaXN0b3J5IjpbLTE2NzMyNjgzNTUsMjY2Njc0MDkyLDE5OD
+EzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5
+ODU5MF19
 -->
