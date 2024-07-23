@@ -112,12 +112,13 @@ Ruta absoluta - podes acceder desde cualquier lado
 Ruta relativa - cambia si modificas la posición del archivo
 
 ````html
-<a href='../listas.html'>
+<a href='../listas.html'>Apartado de listas<a/>
 ````
+Para ir una carpeta para atras
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NDc2MzgyMSwxMDI4NjYxMjM3LC01Mj
-EwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEy
-ODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgsLT
-EyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3
-ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbLTEyOTI0OTY2ODIsMTAyODY2MTIzNywtNT
+IxMDcwNzI4LDE3NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUx
+MjgwNSw3ODQyODUzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC
+0xMjIxMjA5MzQ5LC0xNDg4NzkyOTcsMTQ3MDY0OTg0NiwtMTcy
+Nzg2MDY0MSwtMTE2NDQwMzM3MV19
 -->
