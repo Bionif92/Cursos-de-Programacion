@@ -122,10 +122,14 @@ Para la misma carpeta o para adelante, escribi la carpeta en las que se encuentr
 ### Formularios
 
 ````html
-<form>...</form>
+<form>
+	<input type='text'>
+</form>
 ````
+
+Hay muchas variantes de input type
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDk2NTIxMywtMTE2NzQxNDk5MSwxMT
+eyJoaXN0b3J5IjpbLTk4MDMzNjcxOCwtMTE2NzQxNDk5MSwxMT
 U2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2
 NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLD
 ExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4
