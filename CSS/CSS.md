@@ -97,7 +97,8 @@ Esta es una opcion, la otra y mas recomendable es:
 ````css
 @font-face {
 	font-family: 'nombre de la nueva tipografia';
-	src: url (url.ttf) format('truetype') // colocar el formato hace que cargue mas rapido el ar
+	src: url (url.ttf) format('truetype') // colocar el formato hace que cargue mas rapido el archivo
+	font-weight: 400;
 }
 ````
 
@@ -105,8 +106,8 @@ Esta es una opcion, la otra y mas recomendable es:
  - Luego colocarla en el archivo css base
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzODAwNTE3LC0xOTc3MDExNjAyLC03Mz
-Y2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0MDkyLDE5ODEzNzAy
-MjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5ODU5MF
-19
+eyJoaXN0b3J5IjpbMTQzNDIyNTQxNywtMTk3NzAxMTYwMiwtNz
+M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
+MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
+BdfQ==
 -->
