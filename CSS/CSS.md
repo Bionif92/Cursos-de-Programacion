@@ -91,10 +91,17 @@ Buscar google fonts, elegir la version, copias el acceso y lo pegas al lado del 
 
 Esta es una opcion, la otra y mas recomendable es:
 
- - Crear 
+ - Crear una hoja de fonts y anexarla al html
+ - En el css:
+
+````css
+@font-face {
+	font-family
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjAwODM5MCwtMTk3NzAxMTYwMiwtNz
+eyJoaXN0b3J5IjpbMTIyMTM3MTA2MiwtMTk3NzAxMTYwMiwtNz
 M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
 MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
 BdfQ==
