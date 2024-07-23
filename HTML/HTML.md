@@ -44,9 +44,10 @@ Mas chico el numero, mas chico el encabezado
 
 Listas:
 
+Dos tipos: ordenadas y desordenadas
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDM5NzEzMSwtMTIyMTIwOTM0OSwtMT
-Q4ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0
-MDMzNzFdfQ==
+eyJoaXN0b3J5IjpbMTMzMTI3MDI5LC0xMjIxMjA5MzQ5LC0xND
+g4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQw
+MzM3MV19
 -->
