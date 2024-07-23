@@ -67,7 +67,14 @@ Hay que colocar el . en css
 ````
 
 ### Propiedades de Texto
+
+````css
+p {
+	color: red; // color texto
+	
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTI2ODc2NTksLTEzMDM3OTg1OTBdfQ
-==
+eyJoaXN0b3J5IjpbMTYyMzk2MzA0MiwtMTg1MjY4NzY1OSwtMT
+MwMzc5ODU5MF19
 -->
