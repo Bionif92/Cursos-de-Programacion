@@ -86,8 +86,11 @@ p {
 la etiqueta `strong` en htlm sirve para resaltar texto
 
 ### Tipografías externas
+
+Buscar google fonts, elegir la version
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMT
-Q1MjQ0OTEyMCwyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUx
-ODM5LC0xODUyNjg3NjU5LC0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbMTQ3NDEzODUwOCwtMTk3NzAxMTYwMiwtNz
+M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
+MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
+BdfQ==
 -->
