@@ -74,17 +74,18 @@ p {
 	font-family: ;// tipografias, podes poner mas de una con comas, y si el navegador no la soporta, pasa a la siguiente
 	font-size: 13px; // tamaño letra
 	font-weight: bold; //negrita u otro grosor, bolder manda al mas grueso 
-	font-style: ,//estilo (oblique,italic)
-	text-align: ,//posicionar el texto (center,left, justify)
-	text-decoration: ,// underline, overline,line-through, podes poner mas de una
-	line-height: ,// espacio entre linea y linea
-	letter-spacing: 10px, // sepearado entre letras
+	font-style: ;//estilo (oblique,italic)
+	text-align: ;//posicionar el texto (center,left, justify)
+	text-decoration: ;// underline, overline,line-through, podes poner mas de una
+	line-height: ;// espacio entre linea y linea
+	letter-spacing: 10px; // sepearado entre letras
 	text-transform: ;// uppercase,lowercase, capitalize
+	text-shadow: ;// sombra, lo veremos mas adelante
 }
 ````
 la etiqueta `strong` en htlm sirve para resaltar texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTcyNjYzOSwtMTQ1MjQ0OTEyMCwyNj
+eyJoaXN0b3J5IjpbLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNj
 Y2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3
 NjU5LC0xMzAzNzk4NTkwXX0=
 -->
