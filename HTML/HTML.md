@@ -25,7 +25,13 @@ Estructura inicial:
 </body>
 </html>
 ````
+
+Parrafos:
+
+````html
+<p>.....</p>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU1NDcyOTAyLC0xNDg4NzkyOTcsMTQ3MD
-Y0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQwMzM3MV19
+eyJoaXN0b3J5IjpbNjc3MjMzODYsLTE0ODg3OTI5NywxNDcwNj
+Q5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
