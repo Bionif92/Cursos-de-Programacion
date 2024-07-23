@@ -46,15 +46,17 @@ Hay que colocar el . en css
 
 #### Id
 
+**Se recomienda solo usar el id especifico en un solo elemento**
+
 ````html
 <li id='ingrediente-secreto'>Harina</li>
 ````
 
 ````css
-.faltante {
+#ingrediente-secreto {
 	color: red;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMzk4MTQ0MiwtMTMwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbNjE2NTIzOTUxLC0xMzAzNzk4NTkwXX0=
 -->
