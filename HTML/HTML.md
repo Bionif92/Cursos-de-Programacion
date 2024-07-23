@@ -62,8 +62,9 @@ Van a ir con numeros al inicio, ordenados, como estandar (podes cambiar con Css)
 ````
 adentro van los `<li> ` items
 
+Van a ir con puntos al inicio, ordenados, como estandar (podes cambiar con Css)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjIxMjk4MSwtMTIyMTIwOTM0OSwtMT
+eyJoaXN0b3J5IjpbMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMT
 Q4ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0
 MDMzNzFdfQ==
 -->
