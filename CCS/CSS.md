@@ -27,11 +27,11 @@ p {
 
 ### Selectores
 
-
+Podes usar el tag `span` para seleccionar algo puntual y cambiarle el estilo, pero no es el caso
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzExNDc2MywtMTg5NTU1NzA1OSwtMT
-QzMDM3MjQzOCwtNzg3NzEyMDg3LC0xOTg4NDAyMDYzLC0xNTI4
-MzM3Nzg1XX0=
+eyJoaXN0b3J5IjpbLTEzMDM3OTg1OTAsMTI3MzExNDc2MywtMT
+g5NTU1NzA1OSwtMTQzMDM3MjQzOCwtNzg3NzEyMDg3LC0xOTg4
+NDAyMDYzLC0xNTI4MzM3Nzg1XX0=
 -->
