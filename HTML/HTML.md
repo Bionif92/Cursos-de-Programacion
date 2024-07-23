@@ -15,7 +15,7 @@ Estructura inicial:
 ````html
 <!DOCTYPE  html> // version html
 <html  lang="en"> // idioma
-<head> // formato pagina
+<head> // formato pagina, no visible
 	<meta  charset="UTF-8">
 	<meta  name="viewport"  content="width=device-width, initial-scale=1.0">
 	<title>Primera Web</title>
@@ -25,6 +25,6 @@ Estructura inicial:
 </html>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTg1OTMyOSwtMTQ4ODc5Mjk3LDE0Nz
+eyJoaXN0b3J5IjpbMTI0MzM3NzQ5NiwtMTQ4ODc5Mjk3LDE0Nz
 A2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
 -->
