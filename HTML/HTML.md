@@ -65,8 +65,16 @@ adentro van los `<li> ` items
 Van a ir con puntos al inicio, ordenados, como estandar (podes cambiar con Css)
 
 ### Enlaces
+
+````html
+<a>.....</a>
+````
+
+#### Atributos
+
+Caracteristicas de los elementos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMj
-IxMjA5MzQ5LC0xNDg4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2
-MDY0MSwtMTE2NDQwMzM3MV19
+eyJoaXN0b3J5IjpbNzMzNjg4MjYzLDExODc5Mjc2NTYsMTA5MD
+Q1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LDE0NzA2NDk4
+NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
 -->
