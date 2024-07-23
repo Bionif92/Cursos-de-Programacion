@@ -1,5 +1,7 @@
 # HTML Course
 
+## HTML Básico
+
 Hyper Text Markup Languague
 
 Es la estructura de la pagina Web
@@ -116,10 +118,12 @@ Ruta relativa - cambia si modificas la posición del archivo
 ````
 Para ir una carpeta para atras
 Para la misma carpeta o para adelante, escribi la carpeta en las que se encuentra como la ruta
+
+### Formularios
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01Mj
-EwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEy
-ODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgsLT
-EyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3
-ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbLTExNjc0MTQ5OTEsMTE1NjE0Njg3NywxMD
+I4NjYxMjM3LC01MjEwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0
+NTMxLC0xMTAwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LD
+EwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcw
+NjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
