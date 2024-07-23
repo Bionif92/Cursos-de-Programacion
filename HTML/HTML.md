@@ -96,10 +96,10 @@ Tenemos que colocarle el atributo de hipervinculo
 
 Te muestra cuando pasas con el mouse por encima ese titulo
 
-### Etiquetas de bloque vs Etiqueta de linea
+### Imágenes 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNz
-g0Mjg1MzcwLDExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIw
-OTM0OSwtMTQ4ODc5Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2ND
-EsLTExNjQ0MDMzNzFdfQ==
+eyJoaXN0b3J5IjpbOTMyMDU5ODAzLC0xOTE2NTE0NTMxLC0xMT
+AwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMz
+MzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC
+0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
