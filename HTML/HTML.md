@@ -88,10 +88,16 @@ Tenemos que colocarle el atributo de hipervinculo
 <a href='https://url' target='_blank'>.....</a>
 ````
 
-#
+#### Atributo titulo
+
+````html
+<a href='https://url' target='_blank'title='titulo'>.....</a>
+````
+
+Te muestra cuando pasas con el mouse por encima ese titulo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE2ODIyNDAyLDc4NDI4NTM3MCwxMTg3OT
-I3NjU2LDEwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5
-NywxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX
-0=
+eyJoaXN0b3J5IjpbLTExMDA1MTI4MDUsNzg0Mjg1MzcwLDExOD
+c5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5
+Mjk3LDE0NzA2NDk4NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNz
+FdfQ==
 -->
