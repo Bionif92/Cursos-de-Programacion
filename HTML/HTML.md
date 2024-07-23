@@ -97,8 +97,12 @@ Tenemos que colocarle el atributo de hipervinculo
 Te muestra cuando pasas con el mouse por encima ese titulo
 
 ### Imágenes 
+
+````html
+<img src= 'imagen.png'>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMDU5ODAzLC0xOTE2NTE0NTMxLC0xMT
+eyJoaXN0b3J5IjpbMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMT
 AwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMz
 MzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC
 0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
