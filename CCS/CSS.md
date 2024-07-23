@@ -19,8 +19,14 @@ Se coloca en el head:
 
 En la hoja styles.css:
 
+````css
+p {
+	color: red;
+}
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY3ODc4NTA3LC0xNDMwMzcyNDM4LC03OD
-c3MTIwODcsLTE5ODg0MDIwNjMsLTE1MjgzMzc3ODVdfQ==
+eyJoaXN0b3J5IjpbLTE4OTU1NTcwNTksLTE0MzAzNzI0MzgsLT
+c4NzcxMjA4NywtMTk4ODQwMjA2MywtMTUyODMzNzc4NV19
 -->
