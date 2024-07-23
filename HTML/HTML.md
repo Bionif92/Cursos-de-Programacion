@@ -128,9 +128,9 @@ Para la misma carpeta o para adelante, escribi la carpeta en las que se encuentr
 </form>
 ````
 
-Hay muchas variantes de input type (email)
+Hay muchas variantes de input type (email, password, checkbox, radio, file)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTIyNDIwNywtMTE2NzQxNDk5MSwxMT
+eyJoaXN0b3J5IjpbMTM4MzU1OTc4MCwtMTE2NzQxNDk5MSwxMT
 U2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2
 NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLD
 ExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4
