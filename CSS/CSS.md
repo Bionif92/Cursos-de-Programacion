@@ -73,9 +73,10 @@ p {
 	color: red; // color texto
 	font-family: ;// tipografias, podes poner mas de una con comas, y si el navegador no la soporta, pasa a la siguiente
 	font-size: 13px; // tamaño letra
+	font-weight: bold; //negrita
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDkwMTYxNzAsMTk4MTM3MDIyMCwtND
-gxMzUxODM5LC0xODUyNjg3NjU5LC0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbNDQxMjUzMDM4LDE5ODEzNzAyMjAsLTQ4MT
+M1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5ODU5MF19
 -->
