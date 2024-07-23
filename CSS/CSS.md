@@ -98,7 +98,7 @@ Esta es una opcion, la otra y mas recomendable es:
 @font-face {
 	font-family: 'nombre de la nueva tipografia';
 	src: url (url.ttf) format('truetype') // colocar el formato hace que cargue mas rapido el archivo
-	font-weight: 400;
+	font-weight: 400;// importante para la definicion del grosor
 }
 ````
 
@@ -106,7 +106,7 @@ Esta es una opcion, la otra y mas recomendable es:
  - Luego colocarla en el archivo css base
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDIyNTQxNywtMTk3NzAxMTYwMiwtNz
+eyJoaXN0b3J5IjpbMTIxNzQ3MTI1OCwtMTk3NzAxMTYwMiwtNz
 M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
 MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
 BdfQ==
