@@ -34,8 +34,17 @@ Hay que usar las clases para diferenciar:
 ````html
 <li class='faltante'>Harina</li>
 ````
+Hay que colocar el . en css
+
+````css
+.faltante {
+	color: red;
+}
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4ODYxMzgsLTEzMDM3OTg1OTBdfQ==
+eyJoaXN0b3J5IjpbLTEyMDMwODU0OTYsLTEzMDM3OTg1OTBdfQ
+==
 -->
