@@ -99,11 +99,13 @@ Te muestra cuando pasas con el mouse por encima ese titulo
 ### Imágenes 
 
 ````html
-<img src= 'imagen.png'>
+<img src='imagen.png'alt=''>
 ````
+`alt`muestra una alternativa si la i
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMT
-AwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMz
-MzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC
-0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbLTE0OTk5NDk5NTEsMTc1NDE4NjY2LC0xOT
+E2NTE0NTMxLC0xMTAwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3
+NjU2LDEwOTA0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5Ny
+wxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
+
 -->
