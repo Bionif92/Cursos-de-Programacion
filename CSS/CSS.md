@@ -78,11 +78,13 @@ p {
 	text-align: ,//posicionar el texto (center,left, justify)
 	text-decoration: ,// underline, overline,line-through, podes poner mas de una
 	line-height: ,// espacio entre linea y linea
+	letter-spacing: 10px, // sepearado entre letras
+	text-transf
 }
 ````
 la etiqueta `strong` en htlm sirve para resaltar texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3OTcwOTIyNywtMTQ1MjQ0OTEyMCwyNj
-Y2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3
-NjU5LC0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbODk5NjEwNzEsLTE0NTI0NDkxMjAsMjY2Nj
+c0MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1
+OSwtMTMwMzc5ODU5MF19
 -->
