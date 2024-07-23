@@ -29,9 +29,9 @@ p {
 
 Podes usar el tag `span` para seleccionar algo puntual y cambiarle el estilo, pero no es el caso
 
-Hay que usar 
+Hay que usar las clases para diferenciar
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzYxOTgzNiwtMTMwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbLTc0MDM4MzczMSwtMTMwMzc5ODU5MF19
 -->
