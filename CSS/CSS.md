@@ -73,10 +73,11 @@ p {
 	color: red; // color texto
 	font-family: ;// tipografias, podes poner mas de una con comas, y si el navegador no la soporta, pasa a la siguiente
 	font-size: 13px; // tamaño letra
-	font-weight: bold; //negrita
+	font-weight: bold; //negrita u otro grosor
 }
 ````
+la etiqueta `strong` en htlm sirve para resaltar texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMjUzMDM4LDE5ODEzNzAyMjAsLTQ4MT
+eyJoaXN0b3J5IjpbMjY2Njc0MDkyLDE5ODEzNzAyMjAsLTQ4MT
 M1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5ODU5MF19
 -->
