@@ -77,10 +77,10 @@ Caracteristicas de los elementos
 Tenemos que colocarle el atributo de hipervinculo
 
 ````html
-<a href='https://url'>.....</a>
+<a href='https//url'>.....</a>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAyMjkyOTUzLDExODc5Mjc2NTYsMTA5MD
+eyJoaXN0b3J5IjpbNzI1MzU0ODkzLDExODc5Mjc2NTYsMTA5MD
 Q1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LDE0NzA2NDk4
 NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
 -->
