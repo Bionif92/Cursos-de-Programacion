@@ -70,11 +70,17 @@ Van a ir con puntos al inicio, ordenados, como estandar (podes cambiar con Css)
 <a>.....</a>
 ````
 
-#### Atributos
+#### Atributos 
 
 Caracteristicas de los elementos
+
+Tenemos que colocarle el atributo de hipervinculo
+
+````html
+<a href=''>.....</a>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzNjg4MjYzLDExODc5Mjc2NTYsMTA5MD
-Q1MzMzOCwtMTIyMTIwOTM0OSwtMTQ4ODc5Mjk3LDE0NzA2NDk4
-NDYsLTE3Mjc4NjA2NDEsLTExNjQ0MDMzNzFdfQ==
+eyJoaXN0b3J5IjpbMTgxMzYwNTY0MSwxMTg3OTI3NjU2LDEwOT
+A0NTMzMzgsLTEyMjEyMDkzNDksLTE0ODg3OTI5NywxNDcwNjQ5
+ODQ2LC0xNzI3ODYwNjQxLC0xMTY0NDAzMzcxXX0=
 -->
