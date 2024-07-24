@@ -179,14 +179,16 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 
 ### Colores
 
- - RG
+ - RGB (red-green-blue)
+Hay 256 colores por cada uno (0-255)
 
 ````css
 .box {
+	background: rgb 
 	
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjU4MjA2NCwtOTE5ODE2Mzk5LC03MT
+eyJoaXN0b3J5IjpbLTMyMzczNTMyMiwtOTE5ODE2Mzk5LC03MT
 Y0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mjc2MDA2
 Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgsLTE2MT
 M4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNTcxNzcx
