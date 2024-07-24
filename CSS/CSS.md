@@ -217,14 +217,14 @@ Unidad que depende de otro valor
  - Porcentaje (del elemento padre)
  - em (va al elemento padre, se fija en la propiedad y lo multiplica por el valor del em. Si no tiene esa propiedad, busca al siguiente)
  - rem (va a buscar el elemento raiz, html, y multiplica el valor)
- - vh ()
+ - vh (viewport height) altura de la pantalla, es un porcentaje, vw (viewport width)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Njc0ODQxNSwtMTQzNzI1NDI5MSwtMT
-M1NDM5NTMwLC02MDQ4NjA2NDAsMTMzNDU0MjQzLC05NzQyNzk3
-MzIsMzkzNTEzOTU0LC0xNTgwNjE2MTg2LDE4MTk4OTU3NCwtOT
-E5ODE2Mzk5LC03MTY0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2
-ODYsLTg1Mjc2MDA2Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MT
-MwMzUxMjgsLTE2MTM4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1
-MjE3XX0=
+eyJoaXN0b3J5IjpbLTE5NjA5ODA3OCwxMzU2NzQ4NDE1LC0xND
+M3MjU0MjkxLC0xMzU0Mzk1MzAsLTYwNDg2MDY0MCwxMzM0NTQy
+NDMsLTk3NDI3OTczMiwzOTM1MTM5NTQsLTE1ODA2MTYxODYsMT
+gxOTg5NTc0LC05MTk4MTYzOTksLTcxNjQ0MDQyOSwxMTAyMzcz
+NTYxLC02MjA1NTY4NiwtODUyNzYwMDY2LDQwOTk3NDQ2Myw5Mj
+E5MzcxMTQsLTQxMzAzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIy
+MTc2XX0=
 -->
