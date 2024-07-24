@@ -148,15 +148,16 @@ div {
 ````css
 .box {
 	margin: 10 px; // separación entre cajas
+	margin-top: // y todos los vistos en el anterior
 }
 ````
 
 Colapsan los margenes, dejando el mas grande creado, superponiéndose 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTM4NDg2NjYsLTgxMjQyMjE3NiwyMT
-E4MjU1MjE3LC0xNTcxNzcxMDAsLTEzMTk2MTEzNDUsMjQwMDMx
-NTU1LDIwMDEzMDQ3MzMsLTkyNDAzOTA5MywtNTA1ODM2OTI2LC
-0xOTc3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2
-Njc0MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4Nz
-Y1OSwtMTMwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbLTQxMzAzNTEyOCwtMTYxMzg0ODY2NiwtOD
+EyNDIyMTc2LDIxMTgyNTUyMTcsLTE1NzE3NzEwMCwtMTMxOTYx
+MTM0NSwyNDAwMzE1NTUsMjAwMTMwNDczMywtOTI0MDM5MDkzLC
+01MDU4MzY5MjYsLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1
+MjQ0OTEyMCwyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxOD
+M5LC0xODUyNjg3NjU5LC0xMzAzNzk4NTkwXX0=
 -->
