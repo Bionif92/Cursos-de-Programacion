@@ -205,17 +205,23 @@ Similar al anterior pero con sistema hexa(16):
 
 ### Unidades de medida
 
-Unidades usadas:
+Unidades absolutas:
 
  - Pixeles
  - mm, cm, in (para impresión)
 
+Unidades relativas:
+
+Unidad que depende de otro valor
+
+ - Porcentaje
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDU0MjQzLC05NzQyNzk3MzIsMzkzNT
-EzOTU0LC0xNTgwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2Mzk5
-LC03MTY0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mj
-c2MDA2Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgs
-LTE2MTM4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNT
-cxNzcxMDAsLTEzMTk2MTEzNDUsMjQwMDMxNTU1LDIwMDEzMDQ3
-MzNdfQ==
+eyJoaXN0b3J5IjpbLTYwNDg2MDY0MCwxMzM0NTQyNDMsLTk3ND
+I3OTczMiwzOTM1MTM5NTQsLTE1ODA2MTYxODYsMTgxOTg5NTc0
+LC05MTk4MTYzOTksLTcxNjQ0MDQyOSwxMTAyMzczNTYxLC02Mj
+A1NTY4NiwtODUyNzYwMDY2LDQwOTk3NDQ2Myw5MjE5MzcxMTQs
+LTQxMzAzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIyMTc2LDIxMT
+gyNTUyMTcsLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyNDAwMzE1
+NTVdfQ==
 -->
