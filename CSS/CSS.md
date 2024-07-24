@@ -207,10 +207,11 @@ Similar al anterior pero con sistema hexa(16):
 
 Unidades usadas:
 
- - List item
+ - Pixeles
+ - mm, cm, in (para impresión)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0MTA1NzIzLC05NzQyNzk3MzIsMzkzNT
+eyJoaXN0b3J5IjpbMTMzNDU0MjQzLC05NzQyNzk3MzIsMzkzNT
 EzOTU0LC0xNTgwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2Mzk5
 LC03MTY0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mj
 c2MDA2Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgs
