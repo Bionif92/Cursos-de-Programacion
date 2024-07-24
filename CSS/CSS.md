@@ -245,8 +245,10 @@ Transición entre colores
 	background: conic-gradient(color1,color2);
 }
 ````
+
+### Sombras
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1OTg2NDgxOSw4MDQxMDg2NDMsLTE5Nj
+eyJoaXN0b3J5IjpbMTc1MTExNjE0OSw4MDQxMDg2NDMsLTE5Nj
 A5ODA3OCwxMzU2NzQ4NDE1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1
 MzAsLTYwNDg2MDY0MCwxMzM0NTQyNDMsLTk3NDI3OTczMiwzOT
 M1MTM5NTQsLTE1ODA2MTYxODYsMTgxOTg5NTc0LC05MTk4MTYz
