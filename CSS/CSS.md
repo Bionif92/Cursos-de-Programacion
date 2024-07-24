@@ -250,9 +250,9 @@ Transición entre colores
 
 Tres tipos:
 
- - Box shadow
- - Text shadow
- - Drop shadow
+ - Box shadow- caja
+ - Text shadow - texto
+ - Drop shadow - imagen
 
 ````css
 .box {
@@ -265,13 +265,14 @@ p {
 ````
 
 Para imagenes png que no tenga fondo:
+
 ````css
 img {
 	filter: drop shadow (1horizontal 2vertical 3desenfoque 4color);
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODkxMjAxOSwtMTMxODI2NDI2MSwtMT
+eyJoaXN0b3J5IjpbMTMzNzg5OTAyMCwtMTMxODI2NDI2MSwtMT
 AxODE1MzA5OSwtMTU0MzMwMzMzNiwxNzUxMTE2MTQ5LDgwNDEw
 ODY0MywtMTk2MDk4MDc4LDEzNTY3NDg0MTUsLTE0MzcyNTQyOT
 EsLTEzNTQzOTUzMCwtNjA0ODYwNjQwLDEzMzQ1NDI0MywtOTc0
