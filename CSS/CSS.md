@@ -215,14 +215,15 @@ Unidades relativas:
 Unidad que depende de otro valor
 
  - Porcentaje (del elemento padre)
- - em (va al elemento padre)
+ - em (va al elemento padre, se fija en la propiedad y lo multiplica por el valor del em)
+ - rem (va a buscar el)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzODg0MTUwNiwtMTM1NDM5NTMwLC02MD
-Q4NjA2NDAsMTMzNDU0MjQzLC05NzQyNzk3MzIsMzkzNTEzOTU0
-LC0xNTgwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2Mzk5LC03MT
-Y0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mjc2MDA2
-Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgsLTE2MT
-M4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNTcxNzcx
-MDBdfQ==
+eyJoaXN0b3J5IjpbNjA0MTE5MDI2LC0xMzU0Mzk1MzAsLTYwND
+g2MDY0MCwxMzM0NTQyNDMsLTk3NDI3OTczMiwzOTM1MTM5NTQs
+LTE1ODA2MTYxODYsMTgxOTg5NTc0LC05MTk4MTYzOTksLTcxNj
+Q0MDQyOSwxMTAyMzczNTYxLC02MjA1NTY4NiwtODUyNzYwMDY2
+LDQwOTk3NDQ2Myw5MjE5MzcxMTQsLTQxMzAzNTEyOCwtMTYxMz
+g0ODY2NiwtODEyNDIyMTc2LDIxMTgyNTUyMTcsLTE1NzE3NzEw
+MF19
 -->
