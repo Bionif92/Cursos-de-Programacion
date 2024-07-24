@@ -230,11 +230,12 @@ Unidad que depende de otro valor
 	background-position: center;// left, right, top, bottom
 	background-repeat: no-repeat;// no repite la imagen, repeat-x o y repite en los ejes
 	background-attachment: fixed;// mueve la imagen mientras hacer scroll
+	ba
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTQ4MjczMywtMTk2MDk4MDc4LDEzNT
+eyJoaXN0b3J5IjpbMTQxNTU1NDkwMiwtMTk2MDk4MDc4LDEzNT
 Y3NDg0MTUsLTE0MzcyNTQyOTEsLTEzNTQzOTUzMCwtNjA0ODYw
 NjQwLDEzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5MzUxMzk1NCwtMT
 U4MDYxNjE4NiwxODE5ODk1NzQsLTkxOTgxNjM5OSwtNzE2NDQw
