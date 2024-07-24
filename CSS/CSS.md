@@ -165,14 +165,15 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 	border-radius: 5px; // redondear el borde (px o %)
 	border: 3px solid black;// reemplaza primeras tres
 	border-top: ;// left, right, bottom
+	border-radius: 5 px 10 px
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Mjc2MDA2Niw0MDk5NzQ0NjMsOTIxOT
-M3MTE0LC00MTMwMzUxMjgsLTE2MTM4NDg2NjYsLTgxMjQyMjE3
-NiwyMTE4MjU1MjE3LC0xNTcxNzcxMDAsLTEzMTk2MTEzNDUsMj
-QwMDMxNTU1LDIwMDEzMDQ3MzMsLTkyNDAzOTA5MywtNTA1ODM2
-OTI2LC0xOTc3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMj
-AsMjY2Njc0MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1
-MjY4NzY1OV19
+eyJoaXN0b3J5IjpbMTE4NDU2MTY3LC04NTI3NjAwNjYsNDA5OT
+c0NDYzLDkyMTkzNzExNCwtNDEzMDM1MTI4LC0xNjEzODQ4NjY2
+LC04MTI0MjIxNzYsMjExODI1NTIxNywtMTU3MTc3MTAwLC0xMz
+E5NjExMzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkw
+OTMsLTUwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC
+0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcwMjIwLC00ODEz
+NTE4MzldfQ==
 -->
