@@ -173,15 +173,15 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 
 ````css
 .box {
-	box-sizing: border-box;//
+	box-sizing: border-box;// hace que el padding el border y el content se ajusten a la medida inicial
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU5MzExMDk0LDExMDIzNzM1NjEsLTYyMD
-U1Njg2LC04NTI3NjAwNjYsNDA5OTc0NDYzLDkyMTkzNzExNCwt
-NDEzMDM1MTI4LC0xNjEzODQ4NjY2LC04MTI0MjIxNzYsMjExOD
-I1NTIxNywtMTU3MTc3MTAwLC0xMzE5NjExMzQ1LDI0MDAzMTU1
-NSwyMDAxMzA0NzMzLC05MjQwMzkwOTMsLTUwNTgzNjkyNiwtMT
-k3NzAxMTYwMiwtNzM2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3
-NDA5Ml19
+eyJoaXN0b3J5IjpbLTcxNjQ0MDQyOSwxMTAyMzczNTYxLC02Mj
+A1NTY4NiwtODUyNzYwMDY2LDQwOTk3NDQ2Myw5MjE5MzcxMTQs
+LTQxMzAzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIyMTc2LDIxMT
+gyNTUyMTcsLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyNDAwMzE1
+NTUsMjAwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5MjYsLT
+E5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNjY2
+NzQwOTJdfQ==
 -->
