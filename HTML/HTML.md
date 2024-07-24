@@ -6,7 +6,7 @@ Hyper Text Markup Languague
 
 Es la estructura de la pagina Web
 
-### Etiquetas:
+### Etiquetas
 
 ````html
 <tag>.....</tag>
@@ -28,13 +28,13 @@ Es la estructura de la pagina Web
 </html>
 ````
 
-### Parrafos:
+### Párrafos
 
 ````html
 <p>.....</p>
 ````
 
-### Encabezados:
+### Encabezados
 
 ````html
 <h1>.....</h1>
@@ -44,7 +44,7 @@ Mas chico el numero, mas chico el encabezado
 
 **Se usa solo un h1 por pagina web**
 
-### Listas:
+### Listas
 
 Dos tipos: ordenadas y desordenadas
 
@@ -137,11 +137,16 @@ Atributos importantes en formularios:
  - placeholder (lo que esta escrito en el campo antes de completarlo)
  - value (se guarda el dato para despues usarlo en js)
 
+### Divisor
+
+````html
+<p>.....</p>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNT
-YxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxODY2
-NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyODUzNzAsMT
-E4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMjA5MzQ5LC0xNDg4
-NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0MSwtMTE2NDQwMz
-M3MV19
+eyJoaXN0b3J5IjpbLTEyMzYwMzY5NzAsNDQ2MzM0Mjg3LC0xMT
+Y3NDE0OTkxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcw
+NzI4LDE3NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNS
+w3ODQyODUzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIx
+MjA5MzQ5LC0xNDg4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MD
+Y0MSwtMTE2NDQwMzM3MV19
 -->
