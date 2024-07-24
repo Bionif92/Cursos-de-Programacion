@@ -168,12 +168,14 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 	border-radius: 5 px 10 px// arribaizq/abajoder y arribader/abajoizq y con las 4 tambien podemos
 }
 ````
+
+### Tamaño de la caja
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDU1Njg2LC04NTI3NjAwNjYsNDA5OT
-c0NDYzLDkyMTkzNzExNCwtNDEzMDM1MTI4LC0xNjEzODQ4NjY2
-LC04MTI0MjIxNzYsMjExODI1NTIxNywtMTU3MTc3MTAwLC0xMz
-E5NjExMzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkw
-OTMsLTUwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC
-0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcwMjIwLC00ODEz
-NTE4MzldfQ==
+eyJoaXN0b3J5IjpbMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mj
+c2MDA2Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgs
+LTE2MTM4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNT
+cxNzcxMDAsLTEzMTk2MTEzNDUsMjQwMDMxNTU1LDIwMDEzMDQ3
+MzMsLTkyNDAzOTA5MywtNTA1ODM2OTI2LC0xOTc3MDExNjAyLC
+03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0MDkyLDE5ODEz
+NzAyMjBdfQ==
 -->
