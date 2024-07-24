@@ -119,14 +119,15 @@ Estilo a la caja:
 ````css
 div {
 	background:red;
-	
+	widht: 200 px;
+	height: 200 px;
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk4MjE2MDk4LC05MjQwMzkwOTMsLTUwNT
-gzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC0xNDUyNDQ5
-MTIwLDI2NjY3NDA5MiwxOTgxMzcwMjIwLC00ODEzNTE4MzksLT
-E4NTI2ODc2NTksLTEzMDM3OTg1OTBdfQ==
+eyJoaXN0b3J5IjpbMjAwMTMwNDczMywtOTI0MDM5MDkzLC01MD
+U4MzY5MjYsLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0
+OTEyMCwyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC
+0xODUyNjg3NjU5LC0xMzAzNzk4NTkwXX0=
 -->
