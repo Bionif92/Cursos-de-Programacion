@@ -240,11 +240,11 @@ Transición entre colores
 
 ````css
 .box {
-	background: ;
+	background: linear-gradient(color1,color2);
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc4MDgxOTk5LC0xOTYwOTgwNzgsMTM1Nj
+eyJoaXN0b3J5IjpbODA0MTA4NjQzLC0xOTYwOTgwNzgsMTM1Nj
 c0ODQxNSwtMTQzNzI1NDI5MSwtMTM1NDM5NTMwLC02MDQ4NjA2
 NDAsMTMzNDU0MjQzLC05NzQyNzk3MzIsMzkzNTEzOTU0LC0xNT
 gwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2Mzk5LC03MTY0NDA0
