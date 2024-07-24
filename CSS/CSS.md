@@ -214,10 +214,10 @@ Unidades relativas:
 
 Unidad que depende de otro valor
 
- - Porcentaje (
+ - Porcentaje (de la caja mas arriba)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzExMDA0MCwtNjA0ODYwNjQwLDEzMz
+eyJoaXN0b3J5IjpbLTEzNTQzOTUzMCwtNjA0ODYwNjQwLDEzMz
 Q1NDI0MywtOTc0Mjc5NzMyLDM5MzUxMzk1NCwtMTU4MDYxNjE4
 NiwxODE5ODk1NzQsLTkxOTgxNjM5OSwtNzE2NDQwNDI5LDExMD
 IzNzM1NjEsLTYyMDU1Njg2LC04NTI3NjAwNjYsNDA5OTc0NDYz
