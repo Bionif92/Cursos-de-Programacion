@@ -226,12 +226,12 @@ Unidad que depende de otro valor
 .box {
 	background-color: ;
 	background-image: ;// podes poner url
-	background-
+	background-size: 100% ;// se adapta al ancho, valor con
 	
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDA1MjczMCwtMTk2MDk4MDc4LDEzNT
+eyJoaXN0b3J5IjpbMTI0OTc0MDYyMSwtMTk2MDk4MDc4LDEzNT
 Y3NDg0MTUsLTE0MzcyNTQyOTEsLTEzNTQzOTUzMCwtNjA0ODYw
 NjQwLDEzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5MzUxMzk1NCwtMT
 U4MDYxNjE4NiwxODE5ODk1NzQsLTkxOTgxNjM5OSwtNzE2NDQw
