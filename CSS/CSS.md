@@ -215,15 +215,15 @@ Unidades relativas:
 Unidad que depende de otro valor
 
  - Porcentaje (del elemento padre)
- - em (va al elemento padre, se fija en la propiedad y lo multiplica por el valor del em)
- - rem (va a buscar el)
+ - em (va al elemento padre, se fija en la propiedad y lo multiplica por el valor del em. Si no tiene esa propiedad, busca al siguiente)
+ - rem (va a buscar el elemento raiz, html, y multiplica el valor)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MTE5MDI2LC0xMzU0Mzk1MzAsLTYwND
-g2MDY0MCwxMzM0NTQyNDMsLTk3NDI3OTczMiwzOTM1MTM5NTQs
-LTE1ODA2MTYxODYsMTgxOTg5NTc0LC05MTk4MTYzOTksLTcxNj
-Q0MDQyOSwxMTAyMzczNTYxLC02MjA1NTY4NiwtODUyNzYwMDY2
-LDQwOTk3NDQ2Myw5MjE5MzcxMTQsLTQxMzAzNTEyOCwtMTYxMz
-g0ODY2NiwtODEyNDIyMTc2LDIxMTgyNTUyMTcsLTE1NzE3NzEw
-MF19
+eyJoaXN0b3J5IjpbLTE0MzcyNTQyOTEsLTEzNTQzOTUzMCwtNj
+A0ODYwNjQwLDEzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5MzUxMzk1
+NCwtMTU4MDYxNjE4NiwxODE5ODk1NzQsLTkxOTgxNjM5OSwtNz
+E2NDQwNDI5LDExMDIzNzM1NjEsLTYyMDU1Njg2LC04NTI3NjAw
+NjYsNDA5OTc0NDYzLDkyMTkzNzExNCwtNDEzMDM1MTI4LC0xNj
+EzODQ4NjY2LC04MTI0MjIxNzYsMjExODI1NTIxNywtMTU3MTc3
+MTAwXX0=
 -->
