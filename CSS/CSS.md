@@ -112,10 +112,10 @@ Tiene varias partes:
  - Content - Contenido
  - Padding - Espacio entre el contenido y el borde del elemento
  - Border - Borde
- - Margen - Espacio alrededor d
+ - Margen - Espacio alrededor de la caja, cuanto separamos una caja de otra caja
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMjM2Mjc1MCwtNTA1ODM2OTI2LC0xOT
+eyJoaXN0b3J5IjpbLTkyNDAzOTA5MywtNTA1ODM2OTI2LC0xOT
 c3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0
 MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OS
 wtMTMwMzc5ODU5MF19
