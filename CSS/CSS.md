@@ -186,11 +186,14 @@ Hay 256 colores por cada uno (0-255)
 .box {
 	background: rgb (255,0,0);// red
 	background: rgba (255,0,0,0.8);// agregas opacidad
-	
+}
 ````
 Busca rgba picker en google y podes ver todos los tonos
 
  - Hexadecimal
+
+Similar al anterior pero con sistema hexa(16):
+0,1,2,3,4,5,6,7,8,9,a,b,c,d,e,f
 
 ````css
 .box {
@@ -198,11 +201,11 @@ Busca rgba picker en google y podes ver todos los tonos
 	
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDQzNzEyOSwtOTE5ODE2Mzk5LC03MT
-Y0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mjc2MDA2
-Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgsLTE2MT
-M4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNTcxNzcx
-MDAsLTEzMTk2MTEzNDUsMjQwMDMxNTU1LDIwMDEzMDQ3MzMsLT
-kyNDAzOTA5MywtNTA1ODM2OTI2LC0xOTc3MDExNjAyLC03MzY2
-NzcxNDZdfQ==
+eyJoaXN0b3J5IjpbMTgxOTg5NTc0LC05MTk4MTYzOTksLTcxNj
+Q0MDQyOSwxMTAyMzczNTYxLC02MjA1NTY4NiwtODUyNzYwMDY2
+LDQwOTk3NDQ2Myw5MjE5MzcxMTQsLTQxMzAzNTEyOCwtMTYxMz
+g0ODY2NiwtODEyNDIyMTc2LDIxMTgyNTUyMTcsLTE1NzE3NzEw
+MCwtMTMxOTYxMTM0NSwyNDAwMzE1NTUsMjAwMTMwNDczMywtOT
+I0MDM5MDkzLC01MDU4MzY5MjYsLTE5NzcwMTE2MDIsLTczNjY3
+NzE0Nl19
 -->
