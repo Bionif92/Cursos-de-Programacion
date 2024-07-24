@@ -114,9 +114,11 @@ Tiene varias partes:
  - Border - Borde
  - Margen - Espacio alrededor de la caja, cuanto separamos una caja de otra caja
 
+### Modelo divis
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDAzOTA5MywtNTA1ODM2OTI2LC0xOT
-c3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0
-MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OS
-wtMTMwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbLTEwMjA1MjQ3MjcsLTkyNDAzOTA5MywtNT
+A1ODM2OTI2LC0xOTc3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0
+NDkxMjAsMjY2Njc0MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOS
+wtMTg1MjY4NzY1OSwtMTMwMzc5ODU5MF19
 -->
