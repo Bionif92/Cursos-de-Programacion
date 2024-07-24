@@ -136,13 +136,13 @@ div {
 	padding-left:
 	padding-right:
 	// otra forma
-	padding: 10px 0 px 20px 20px;//arriba, derecha, abajo, izqui
+	padding: 10px 0 20px 20px;//arriba, derecha, abajo, izquierda
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDE1OTQxODIsLTEzMTk2MTEzNDUsMj
-QwMDMxNTU1LDIwMDEzMDQ3MzMsLTkyNDAzOTA5MywtNTA1ODM2
-OTI2LC0xOTc3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMj
-AsMjY2Njc0MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1
-MjY4NzY1OSwtMTMwMzc5ODU5MF19
+eyJoaXN0b3J5IjpbLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyND
+AwMzE1NTUsMjAwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5
+MjYsLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMC
+wyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUy
+Njg3NjU5LC0xMzAzNzk4NTkwXX0=
 -->
