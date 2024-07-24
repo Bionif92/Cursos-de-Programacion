@@ -149,6 +149,7 @@ div {
 .box {
 	margin: 10 px; // separación entre cajas
 	margin-top: // y todos los vistos en el anterior
+	margin: auto; // centra el contenido
 }
 ````
 
@@ -156,11 +157,11 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 
 ### Bordes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIxOTM3MTE0LC00MTMwMzUxMjgsLTE2MT
-M4NDg2NjYsLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNTcxNzcx
-MDAsLTEzMTk2MTEzNDUsMjQwMDMxNTU1LDIwMDEzMDQ3MzMsLT
-kyNDAzOTA5MywtNTA1ODM2OTI2LC0xOTc3MDExNjAyLC03MzY2
-NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0MDkyLDE5ODEzNzAyMj
-AsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5ODU5MF19
-
+eyJoaXN0b3J5IjpbMTQxNzkyNzM5MSw5MjE5MzcxMTQsLTQxMz
+AzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIyMTc2LDIxMTgyNTUy
+MTcsLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyNDAwMzE1NTUsMj
+AwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5MjYsLTE5Nzcw
+MTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNjY2NzQwOT
+IsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3NjU5LC0x
+MzAzNzk4NTkwXX0=
 -->
