@@ -225,15 +225,15 @@ Unidad que depende de otro valor
 ````css
 .box {
 	background-color: ;
-	background-image: ;// podes poner url
+	background-image: url();// podes poner url
 	background-size: ;// 100 % se adapta al ancho, contain obliga imagen a adaptarse, cover rellena
-	backgroun-position: center;// left, right, top, bottom
-	backgr
+	background-position: center;// left, right, top, bottom
+	background-repeat: no-repeat;// no repite la imagen, repeat-x o y repite en los ejes
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTc4OTk2LC0xOTYwOTgwNzgsMTM1Nj
+eyJoaXN0b3J5IjpbOTMxMTcxODMzLC0xOTYwOTgwNzgsMTM1Nj
 c0ODQxNSwtMTQzNzI1NDI5MSwtMTM1NDM5NTMwLC02MDQ4NjA2
 NDAsMTMzNDU0MjQzLC05NzQyNzk3MzIsMzkzNTEzOTU0LC0xNT
 gwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2Mzk5LC03MTY0NDA0
