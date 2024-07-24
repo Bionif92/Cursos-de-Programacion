@@ -106,9 +106,11 @@ Esta es una opcion, la otra y mas recomendable es:
  - Luego colocarla en el archivo css base
 
 ### Modelo de caja
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwODc3OTEzLC01MDU4MzY5MjYsLTE5Nz
-cwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNjY2NzQw
-OTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3NjU5LC
-0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbNTU0MDExNDEsLTUwNTgzNjkyNiwtMTk3Nz
+AxMTYwMiwtNzM2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5
+MiwxOTgxMzcwMjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLT
+EzMDM3OTg1OTBdfQ==
 -->
