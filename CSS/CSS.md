@@ -260,11 +260,11 @@ Tres tipos:
 }
 
 p {
-	text-shadow: ;
+	text-shadow: horizontal vertical desenfoque;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5ODQ2NDg4MCwtMTAxODE1MzA5OSwtMT
+eyJoaXN0b3J5IjpbLTEyMDgyOTg4MywtMTAxODE1MzA5OSwtMT
 U0MzMwMzMzNiwxNzUxMTE2MTQ5LDgwNDEwODY0MywtMTk2MDk4
 MDc4LDEzNTY3NDg0MTUsLTE0MzcyNTQyOTEsLTEzNTQzOTUzMC
 wtNjA0ODYwNjQwLDEzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5MzUx
