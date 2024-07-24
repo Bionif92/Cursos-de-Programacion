@@ -240,11 +240,12 @@ Transición entre colores
 
 ````css
 .box {
-	background: linear-gradient(position,color1,color2,color3);// position: to right, to bottom, to left, to top
+	background: linear-gradient(position,color1 %,color2,color3);// position: to right, to bottom, to left, to top; el % dice cuanto de ese color poner
+	background: radial-gradient(color1,color2)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDIxNzUzMzYsODA0MTA4NjQzLC0xOT
+eyJoaXN0b3J5IjpbLTIxNDQ0MjU1MDYsODA0MTA4NjQzLC0xOT
 YwOTgwNzgsMTM1Njc0ODQxNSwtMTQzNzI1NDI5MSwtMTM1NDM5
 NTMwLC02MDQ4NjA2NDAsMTMzNDU0MjQzLC05NzQyNzk3MzIsMz
 kzNTEzOTU0LC0xNTgwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2
