@@ -142,10 +142,19 @@ div {
 	padding: 20px 50 px// arriba/abajo y derecha/izquierda
 }
 ````
+
+#### Margen
+
+````css
+.box {
+	margin: 10 px; // separación entre cajas
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODI1NTIxNywtMTU3MTc3MTAwLC0xMz
-E5NjExMzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkw
-OTMsLTUwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC
-0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcwMjIwLC00ODEz
-NTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OTBdfQ==
+eyJoaXN0b3J5IjpbLTgxMjQyMjE3NiwyMTE4MjU1MjE3LC0xNT
+cxNzcxMDAsLTEzMTk2MTEzNDUsMjQwMDMxNTU1LDIwMDEzMDQ3
+MzMsLTkyNDAzOTA5MywtNTA1ODM2OTI2LC0xOTc3MDExNjAyLC
+03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0MDkyLDE5ODEz
+NzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMwMzc5OD
+U5MF19
 -->
