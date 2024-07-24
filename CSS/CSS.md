@@ -162,11 +162,11 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 	border-width: ;// espesor
 	border-color: ; // color
 	border-style: ; // estilo (ej solid)
-	border-radius: 5px; // redondear el borde
+	border-radius: 5px; // redondear el borde (px o %)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYwNDM1MTM2LDkyMTkzNzExNCwtNDEzMD
+eyJoaXN0b3J5IjpbNDA5OTc0NDYzLDkyMTkzNzExNCwtNDEzMD
 M1MTI4LC0xNjEzODQ4NjY2LC04MTI0MjIxNzYsMjExODI1NTIx
 NywtMTU3MTc3MTAwLC0xMzE5NjExMzQ1LDI0MDAzMTU1NSwyMD
 AxMzA0NzMzLC05MjQwMzkwOTMsLTUwNTgzNjkyNiwtMTk3NzAx
