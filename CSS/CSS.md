@@ -176,12 +176,14 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 	box-sizing: border-box;// hace que el padding el border y el content se ajusten a la medida inicial
 }
 ````
+
+### Colores
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjQ0MDQyOSwxMTAyMzczNTYxLC02Mj
-A1NTY4NiwtODUyNzYwMDY2LDQwOTk3NDQ2Myw5MjE5MzcxMTQs
-LTQxMzAzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIyMTc2LDIxMT
-gyNTUyMTcsLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyNDAwMzE1
-NTUsMjAwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5MjYsLT
-E5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNjY2
-NzQwOTJdfQ==
+eyJoaXN0b3J5IjpbLTkxOTgxNjM5OSwtNzE2NDQwNDI5LDExMD
+IzNzM1NjEsLTYyMDU1Njg2LC04NTI3NjAwNjYsNDA5OTc0NDYz
+LDkyMTkzNzExNCwtNDEzMDM1MTI4LC0xNjEzODQ4NjY2LC04MT
+I0MjIxNzYsMjExODI1NTIxNywtMTU3MTc3MTAwLC0xMzE5NjEx
+MzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkwOTMsLT
+UwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC0xNDUy
+NDQ5MTIwXX0=
 -->
