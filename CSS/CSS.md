@@ -256,15 +256,15 @@ Tres tipos:
 
 ````css
 .box {
-	box-shadow: horizontal vertical desenfoque
+	box-shadow: horizontal vertical desenfoque extension a difuminar color// las primeras 4 propiedades en px, el tercero es el mas importante
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzIyNjY5MSwtMTU0MzMwMzMzNiwxNz
-UxMTE2MTQ5LDgwNDEwODY0MywtMTk2MDk4MDc4LDEzNTY3NDg0
-MTUsLTE0MzcyNTQyOTEsLTEzNTQzOTUzMCwtNjA0ODYwNjQwLD
-EzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5MzUxMzk1NCwtMTU4MDYx
-NjE4NiwxODE5ODk1NzQsLTkxOTgxNjM5OSwtNzE2NDQwNDI5LD
-ExMDIzNzM1NjEsLTYyMDU1Njg2LC04NTI3NjAwNjYsNDA5OTc0
-NDYzXX0=
+eyJoaXN0b3J5IjpbLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMT
+c1MTExNjE0OSw4MDQxMDg2NDMsLTE5NjA5ODA3OCwxMzU2NzQ4
+NDE1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1MzAsLTYwNDg2MDY0MC
+wxMzM0NTQyNDMsLTk3NDI3OTczMiwzOTM1MTM5NTQsLTE1ODA2
+MTYxODYsMTgxOTg5NTc0LC05MTk4MTYzOTksLTcxNjQ0MDQyOS
+wxMTAyMzczNTYxLC02MjA1NTY4NiwtODUyNzYwMDY2LDQwOTk3
+NDQ2M119
 -->
