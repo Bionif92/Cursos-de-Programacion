@@ -51,6 +51,7 @@ Hay que colocar el . en css
 	color: red;
 }
 ````
+**Podes colocar mas de una clase, dejas un espacio y escribis la siguiente**
 
 #### Id
 
@@ -142,7 +143,7 @@ div {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MTM2Mzc3MCwtMTU3MTc3MTAwLC0xMz
+eyJoaXN0b3J5IjpbMjExODI1NTIxNywtMTU3MTc3MTAwLC0xMz
 E5NjExMzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkw
 OTMsLTUwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC
 0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcwMjIwLC00ODEz
