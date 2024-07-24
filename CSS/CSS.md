@@ -159,15 +159,15 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 
 ````css
 .box {
-	border-width: 3px ;// espesor
+	border-width: 3px;// espesor
 	border-color: ; // color
 	border-style: black; // estilo (ej solid)
 	border-radius: 5px; // redondear el borde (px o %)
-	border: 3px solid black // reemplaza primeras tres
+	border: 3px solid black;// reemplaza primeras tres
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTI3NDY2NCw0MDk5NzQ0NjMsOTIxOT
+eyJoaXN0b3J5IjpbMTcxNTU3MTE4Nyw0MDk5NzQ0NjMsOTIxOT
 M3MTE0LC00MTMwMzUxMjgsLTE2MTM4NDg2NjYsLTgxMjQyMjE3
 NiwyMTE4MjU1MjE3LC0xNTcxNzcxMDAsLTEzMTk2MTEzNDUsMj
 QwMDMxNTU1LDIwMDEzMDQ3MzMsLTkyNDAzOTA5MywtNTA1ODM2
