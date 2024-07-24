@@ -198,15 +198,15 @@ Similar al anterior pero con sistema hexa(16):
 ````css
 .box {
 	background: #n1n2n3n4n5n6 // n1 red, n2 tono del rojo n1, n3 verde, n5 azul
-	background: #n1n2n3 // n1 rojo, n2 verde, n3 azul
+	background: #n1n2n3n4 // n1 rojo, n2 verde, n3 azul
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE5MDc5NzksMTgxOTg5NTc0LC05MT
-k4MTYzOTksLTcxNjQ0MDQyOSwxMTAyMzczNTYxLC02MjA1NTY4
-NiwtODUyNzYwMDY2LDQwOTk3NDQ2Myw5MjE5MzcxMTQsLTQxMz
-AzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIyMTc2LDIxMTgyNTUy
-MTcsLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyNDAwMzE1NTUsMj
-AwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5MjYsLTE5Nzcw
-MTE2MDJdfQ==
+eyJoaXN0b3J5IjpbMjExNzY2NjE3MSwxODE5ODk1NzQsLTkxOT
+gxNjM5OSwtNzE2NDQwNDI5LDExMDIzNzM1NjEsLTYyMDU1Njg2
+LC04NTI3NjAwNjYsNDA5OTc0NDYzLDkyMTkzNzExNCwtNDEzMD
+M1MTI4LC0xNjEzODQ4NjY2LC04MTI0MjIxNzYsMjExODI1NTIx
+NywtMTU3MTc3MTAwLC0xMzE5NjExMzQ1LDI0MDAzMTU1NSwyMD
+AxMzA0NzMzLC05MjQwMzkwOTMsLTUwNTgzNjkyNiwtMTk3NzAx
+MTYwMl19
 -->
