@@ -173,11 +173,11 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 
 ````css
 .box {
-	
+	box-sizing: border-box;//
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5ODM2ODQ3LDExMDIzNzM1NjEsLTYyMD
+eyJoaXN0b3J5IjpbNjU5MzExMDk0LDExMDIzNzM1NjEsLTYyMD
 U1Njg2LC04NTI3NjAwNjYsNDA5OTc0NDYzLDkyMTkzNzExNCwt
 NDEzMDM1MTI4LC0xNjEzODQ4NjY2LC04MTI0MjIxNzYsMjExOD
 I1NTIxNywtMTU3MTc3MTAwLC0xMzE5NjExMzQ1LDI0MDAzMTU1
