@@ -107,10 +107,16 @@ Esta es una opcion, la otra y mas recomendable es:
 
 ### Modelo de caja
 
+Tiene varias partes:
+
+ - Content - Contenido
+ - Padding - Espacio entre el contenido y el borde del elemento
+ - Border - Borde
+ - Margen - Espacio alrededor d
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0MDExNDEsLTUwNTgzNjkyNiwtMTk3Nz
-AxMTYwMiwtNzM2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5
-MiwxOTgxMzcwMjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLT
-EzMDM3OTg1OTBdfQ==
+eyJoaXN0b3J5IjpbMTYzMjM2Mjc1MCwtNTA1ODM2OTI2LC0xOT
+c3MDExNjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0
+MDkyLDE5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OS
+wtMTMwMzc5ODU5MF19
 -->
