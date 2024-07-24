@@ -165,11 +165,11 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 	border-radius: 5px; // redondear el borde (px o %)
 	border: 3px solid black;// reemplaza primeras tres
 	border-top: ;// left, right, bottom
-	border-radius: 5 px 10 px
+	border-radius: 5 px 10 px// arribaizq/abajoder y arribader/abajoizq y con las 4 tambien podemos
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDU2MTY3LC04NTI3NjAwNjYsNDA5OT
+eyJoaXN0b3J5IjpbLTYyMDU1Njg2LC04NTI3NjAwNjYsNDA5OT
 c0NDYzLDkyMTkzNzExNCwtNDEzMDM1MTI4LC0xNjEzODQ4NjY2
 LC04MTI0MjIxNzYsMjExODI1NTIxNywtMTU3MTc3MTAwLC0xMz
 E5NjExMzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkw
