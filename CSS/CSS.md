@@ -229,15 +229,16 @@ Unidad que depende de otro valor
 	background-size: ;// 100 % se adapta al ancho, contain obliga imagen a adaptarse, cover rellena
 	background-position: center;// left, right, top, bottom
 	background-repeat: no-repeat;// no repite la imagen, repeat-x o y repite en los ejes
+	background-attachment
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMTcxODMzLC0xOTYwOTgwNzgsMTM1Nj
-c0ODQxNSwtMTQzNzI1NDI5MSwtMTM1NDM5NTMwLC02MDQ4NjA2
-NDAsMTMzNDU0MjQzLC05NzQyNzk3MzIsMzkzNTEzOTU0LC0xNT
-gwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2Mzk5LC03MTY0NDA0
-MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLTg1Mjc2MDA2Niw0MD
-k5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUxMjgsLTE2MTM4NDg2
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTE3Mzg5OTg0NzUsLTE5NjA5ODA3OCwxMz
+U2NzQ4NDE1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1MzAsLTYwNDg2
+MDY0MCwxMzM0NTQyNDMsLTk3NDI3OTczMiwzOTM1MTM5NTQsLT
+E1ODA2MTYxODYsMTgxOTg5NTc0LC05MTk4MTYzOTksLTcxNjQ0
+MDQyOSwxMTAyMzczNTYxLC02MjA1NTY4NiwtODUyNzYwMDY2LD
+QwOTk3NDQ2Myw5MjE5MzcxMTQsLTQxMzAzNTEyOCwtMTYxMzg0
+ODY2Nl19
 -->
