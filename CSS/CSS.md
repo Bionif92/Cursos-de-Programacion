@@ -161,15 +161,15 @@ Colapsan los margenes, dejando el mas grande creado, superponiéndose
 .box {
 	border-width: ;// espesor
 	border-color: ; // color
-	border-st
+	border-style: ; // estilo (ej solid)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1NDYwMzY4LDkyMTkzNzExNCwtNDEzMD
-M1MTI4LC0xNjEzODQ4NjY2LC04MTI0MjIxNzYsMjExODI1NTIx
-NywtMTU3MTc3MTAwLC0xMzE5NjExMzQ1LDI0MDAzMTU1NSwyMD
-AxMzA0NzMzLC05MjQwMzkwOTMsLTUwNTgzNjkyNiwtMTk3NzAx
-MTYwMiwtNzM2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5Mi
-wxOTgxMzcwMjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEz
-MDM3OTg1OTBdfQ==
+eyJoaXN0b3J5IjpbMTMzNzY3Njc1NCw5MjE5MzcxMTQsLTQxMz
+AzNTEyOCwtMTYxMzg0ODY2NiwtODEyNDIyMTc2LDIxMTgyNTUy
+MTcsLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyNDAwMzE1NTUsMj
+AwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5MjYsLTE5Nzcw
+MTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNjY2NzQwOT
+IsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3NjU5LC0x
+MzAzNzk4NTkwXX0=
 -->
