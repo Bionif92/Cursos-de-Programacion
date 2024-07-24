@@ -241,15 +241,16 @@ Transición entre colores
 ````css
 .box {
 	background: linear-gradient(position,color1 %,color2,color3);// position: to right, to bottom, to left, to top; el % dice cuanto de ese color poner
-	background: radial-gradient(color1,color2)
+	background: radial-gradient(color1,color2);
+	background: conic-gradient(color1,color2);
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ0MjU1MDYsODA0MTA4NjQzLC0xOT
-YwOTgwNzgsMTM1Njc0ODQxNSwtMTQzNzI1NDI5MSwtMTM1NDM5
-NTMwLC02MDQ4NjA2NDAsMTMzNDU0MjQzLC05NzQyNzk3MzIsMz
-kzNTEzOTU0LC0xNTgwNjE2MTg2LDE4MTk4OTU3NCwtOTE5ODE2
-Mzk5LC03MTY0NDA0MjksMTEwMjM3MzU2MSwtNjIwNTU2ODYsLT
-g1Mjc2MDA2Niw0MDk5NzQ0NjMsOTIxOTM3MTE0LC00MTMwMzUx
-MjhdfQ==
+eyJoaXN0b3J5IjpbLTc1OTg2NDgxOSw4MDQxMDg2NDMsLTE5Nj
+A5ODA3OCwxMzU2NzQ4NDE1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1
+MzAsLTYwNDg2MDY0MCwxMzM0NTQyNDMsLTk3NDI3OTczMiwzOT
+M1MTM5NTQsLTE1ODA2MTYxODYsMTgxOTg5NTc0LC05MTk4MTYz
+OTksLTcxNjQ0MDQyOSwxMTAyMzczNTYxLC02MjA1NTY4NiwtOD
+UyNzYwMDY2LDQwOTk3NDQ2Myw5MjE5MzcxMTQsLTQxMzAzNTEy
+OF19
 -->
