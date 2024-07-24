@@ -137,12 +137,14 @@ div {
 	padding-right:
 	// otra forma
 	padding: 10px 0 20px 20px;//arriba, derecha, abajo, izquierda
+	// otra forma
+	padding: 20px 50 px// arriba/abajo y derecha/izquierda
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE3NzEwMCwtMTMxOTYxMTM0NSwyND
-AwMzE1NTUsMjAwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5
-MjYsLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMC
-wyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUy
-Njg3NjU5LC0xMzAzNzk4NTkwXX0=
+eyJoaXN0b3J5IjpbMTQ2MTM2Mzc3MCwtMTU3MTc3MTAwLC0xMz
+E5NjExMzQ1LDI0MDAzMTU1NSwyMDAxMzA0NzMzLC05MjQwMzkw
+OTMsLTUwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNzM2Njc3MTQ2LC
+0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcwMjIwLC00ODEz
+NTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OTBdfQ==
 -->
