@@ -105,9 +105,10 @@ Esta es una opcion, la otra y mas recomendable es:
  - Descargas la tipografia, y la anexas la url
  - Luego colocarla en el archivo css base
 
+### Modelo de caja
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTgzNjkyNiwtMTk3NzAxMTYwMiwtNz
-M2Njc3MTQ2LC0xNDUyNDQ5MTIwLDI2NjY3NDA5MiwxOTgxMzcw
-MjIwLC00ODEzNTE4MzksLTE4NTI2ODc2NTksLTEzMDM3OTg1OT
-BdfQ==
+eyJoaXN0b3J5IjpbNzQwODc3OTEzLC01MDU4MzY5MjYsLTE5Nz
+cwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMCwyNjY2NzQw
+OTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUyNjg3NjU5LC
+0xMzAzNzk4NTkwXX0=
 -->
