@@ -130,13 +130,17 @@ div {
 
 ````css
 .formulario_input {
-	padding: 2p px;
+	padding: 20 px;
+	padding-bottom:
+	padding-top:
+	padding-left:
+	padding-right:
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTk2MTEzNDUsMjQwMDMxNTU1LDIwMD
-EzMDQ3MzMsLTkyNDAzOTA5MywtNTA1ODM2OTI2LC0xOTc3MDEx
-NjAyLC03MzY2NzcxNDYsLTE0NTI0NDkxMjAsMjY2Njc0MDkyLD
-E5ODEzNzAyMjAsLTQ4MTM1MTgzOSwtMTg1MjY4NzY1OSwtMTMw
-Mzc5ODU5MF19
+eyJoaXN0b3J5IjpbMTYzNzYxNzgzNiwtMTMxOTYxMTM0NSwyND
+AwMzE1NTUsMjAwMTMwNDczMywtOTI0MDM5MDkzLC01MDU4MzY5
+MjYsLTE5NzcwMTE2MDIsLTczNjY3NzE0NiwtMTQ1MjQ0OTEyMC
+wyNjY2NzQwOTIsMTk4MTM3MDIyMCwtNDgxMzUxODM5LC0xODUy
+Njg3NjU5LC0xMzAzNzk4NTkwXX0=
 -->
