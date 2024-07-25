@@ -215,13 +215,13 @@ Etiquetar elemento
 <label>Nombre Completo</label>
 ````
 
-Luego modificar con css el estilo
+Luego modificar con css el estilo. Para modificar posicion, modificas la otra caja contra la que esta pegada o usar
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjc0NTAwOCwtNDI3Njk5NjkzLC0xND
-c0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2
-NzA2NSwtMTE0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyOD
-csLTExNjc0MTQ5OTEsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01
-MjEwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNT
-EyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgs
-LTEyMjEyMDkzNDldfQ==
+eyJoaXN0b3J5IjpbLTEyNzIxNDQzMDEsLTQyNzY5OTY5MywtMT
+Q3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0
+NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mj
+g3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAyODY2MTIzNywt
+NTIxMDcwNzI4LDE3NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMD
+UxMjgwNSw3ODQyODUzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4
+LC0xMjIxMjA5MzQ5XX0=
 -->
