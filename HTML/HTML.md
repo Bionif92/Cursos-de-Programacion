@@ -209,9 +209,15 @@ textarea {
 
 ### Labels
 
-Etiquetar el
+Etiquetar elemento
+
+````html
+<label>Nombre Completo</label>
+````
+
+Luego modificar con css el estilo
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMDQ5Nzg2MiwtNDI3Njk5NjkzLC0xND
+eyJoaXN0b3J5IjpbMTcyMjc0NTAwOCwtNDI3Njk5NjkzLC0xND
 c0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2
 NzA2NSwtMTE0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyOD
 csLTExNjc0MTQ5OTEsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01
