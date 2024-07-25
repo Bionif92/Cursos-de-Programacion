@@ -215,9 +215,12 @@ Etiquetar elemento
 <label>Nombre Completo</label>
 ````
 
-Luego modificar con css el estilo. Para modificar posicion, modificas la otra caja contra la que esta pegada o usar
+Luego modificar con css el estilo. Para modificar posición, modificas la otra caja contra la que esta pegada o usar:
+`line-height: ;`
+
+**Para que no sea redundante el label con el placeholder, poner un ejemplo en el place holder**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzIxNDQzMDEsLTQyNzY5OTY5MywtMT
+eyJoaXN0b3J5IjpbLTE0MjQ1ODI3MjAsLTQyNzY5OTY5MywtMT
 Q3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0
 NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mj
 g3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAyODY2MTIzNywt
