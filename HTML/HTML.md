@@ -195,15 +195,18 @@ Hay que modificar en css, para restringir la caja y sus dimensiones a lo que que
 ````css
 textarea {
 	min-width:100%;
-	resize:vertica
+	resize:vertical;//solo puede moverse la caja de forma vertical
+	min-height: ;
+	max-height: ;
+	// tenes que poner tu tipografia si queres modificar la predefinida
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMwMzAxMTQxLC0xNDc0MjE3MTU2LDIxMz
-Y1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3
-Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OT
-EsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01MjEwNzA3MjgsMTc1
-NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEyODA1LDc4NDI4NT
-M3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgsLTEyMjEyMDkzNDks
-LTE0ODg3OTI5N119
+eyJoaXN0b3J5IjpbLTcxODA2Mjk5NSwtMTQ3NDIxNzE1NiwyMT
+M2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDEx
+NzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OT
+kxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3
+NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyOD
+UzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMjA5MzQ5
+LC0xNDg4NzkyOTddfQ==
 -->
