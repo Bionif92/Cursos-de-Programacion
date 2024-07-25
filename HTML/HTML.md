@@ -313,6 +313,11 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 ````html
 <table>
 	<tr>//fila
+		<th>Dato 1</th>//Encabezado
+		<th>Dato 2</th>
+		<th>Dato 3</th>
+	</tr>
+	<tr>//fila
 		<td>Dato 1</td>//columna
 		<td>Dato 2</td>
 		<td>Dato 3</td>
@@ -320,7 +325,7 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 </table>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTUyMjA1MywxNTI0Mjc2MTQ0LDIwMz
+eyJoaXN0b3J5IjpbLTY1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMz
 IxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4
 OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMT
 Y0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5
