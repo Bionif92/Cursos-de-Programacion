@@ -258,12 +258,14 @@ Agrupar y etiquetar los elementos de un formulario
 ````html
 <form> 
 	<fieldset>
-		<legend>Información 
+		<legend>Información basica</legend>
+		<imput type='text'placeholder='Nombre'>
+		<imput type='text'placeholder='Apellido'>
 	</fieldset>
 </form>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTM1MzczMSwtODgxMTg0NDY0LDE2ND
+eyJoaXN0b3J5IjpbMTI2NDE5OTg5MywtODgxMTg0NDY0LDE2ND
 I0MTAwNDcsLTM4OTc0MDA2LC0xNjQzMzA2NzgwLDE0MDM4OTYy
 MTIsNDk3ODY5MzA4LC00Mjc2OTk2OTMsLTE0NzQyMTcxNTYsMj
 EzNjU3MDYyMiwxNjEwNTA5NjU4LC0xMjc5NDY3MDY1LC0xMTQx
