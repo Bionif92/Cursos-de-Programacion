@@ -295,13 +295,15 @@ Le pones el id al apartado que queres que te lleve este vinculo
 
 ````html
 <a href='bebita.com' rel='noopener' target= '_blank'>Bebita.com</a>
+// noopener -- no permite el acceso a window.open
+// noreferrer -- lo mismo que el anterior
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3Mzc0NzMwNiwtMzk2NDcwNTIsLTEyOT
-E1ODk2NDAsMTI2NDE5OTg5MywtODgxMTg0NDY0LDE2NDI0MTAw
-NDcsLTM4OTc0MDA2LC0xNjQzMzA2NzgwLDE0MDM4OTYyMTIsND
-k3ODY5MzA4LC00Mjc2OTk2OTMsLTE0NzQyMTcxNTYsMjEzNjU3
-MDYyMiwxNjEwNTA5NjU4LC0xMjc5NDY3MDY1LC0xMTQxMTcyNz
-k2LC0xOTI5MTM0ODMxLDQ0NjMzNDI4NywtMTE2NzQxNDk5MSwx
-MTU2MTQ2ODc3XX0=
+eyJoaXN0b3J5IjpbLTg3MDczMTUsLTM5NjQ3MDUyLC0xMjkxNT
+g5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3
+LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nz
+g2OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2
+MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5Ni
+wtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OTEsMTE1
+NjE0Njg3N119
 -->
