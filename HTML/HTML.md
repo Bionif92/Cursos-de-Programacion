@@ -296,14 +296,15 @@ Le pones el id al apartado que queres que te lleve este vinculo
 ````html
 <a href='bebita.com' rel='noopener' target= '_blank'>Bebita.com</a>
 // noopener -- no permite el acceso a window.open
-// noreferrer -- lo mismo que el anterior
+// noreferrer -- lo mismo que el anterior y tampoco de donde viene la persona, visita anonima
+// nofollow -- 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDczMTUsLTM5NjQ3MDUyLC0xMjkxNT
-g5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3
-LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nz
-g2OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2
-MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5Ni
-wtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OTEsMTE1
-NjE0Njg3N119
+eyJoaXN0b3J5IjpbLTEyMTc4MzIwNzUsLTM5NjQ3MDUyLC0xMj
+kxNTg5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEw
+MDQ3LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLD
+Q5Nzg2OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1
+NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mj
+c5NiwtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OTEs
+MTE1NjE0Njg3N119
 -->
