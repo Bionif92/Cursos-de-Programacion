@@ -166,9 +166,9 @@ Imagen de 32x32 o 64x64 px
 
 #### Meta etiquetas
 
-Describir ciertos aspectos de nuestra web - Como se llama la web en un enlace o busqueda google
+Describir ciertos aspectos de nuestra web - Como se llama la web en un enlace o búsqueda google
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDA2OTc2NCwtMTI3OTQ2NzA2NSwtMT
+eyJoaXN0b3J5IjpbMTIwMTYyMjg0OSwtMTI3OTQ2NzA2NSwtMT
 E0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0
 MTQ5OTEsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01MjEwNzA3Mj
 gsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEyODA1LDc4
