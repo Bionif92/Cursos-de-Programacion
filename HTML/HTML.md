@@ -356,11 +356,11 @@ Convertí el archivo en audio para que no pese mucho y cargue mas rápido
 
 ### Lazy Loading
 
-Contenido va cargandose cuando 
+Contenido va cargándose cuando el usuario llega esa sección
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTI4ODM3NSwtMTQ0Nzc3OTg2MywtMT
+eyJoaXN0b3J5IjpbLTkyNzgwNzA0MiwtMTQ0Nzc3OTg2MywtMT
 MxMjc2MjgyNywtMTM1OTA3OTY1MSwtMTE3MTAzMjE0MiwtMTEz
 OTgxNTUzMywtNjU3MjgyOTMzLDE1MjQyNzYxNDQsMjAzMjEzOD
 I5NCwtMzk2NDcwNTIsLTEyOTE1ODk2NDAsMTI2NDE5OTg5Mywt
