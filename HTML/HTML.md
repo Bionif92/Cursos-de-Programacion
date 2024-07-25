@@ -291,9 +291,13 @@ Le pones el id al apartado que queres que te lleve este vinculo
 <a href='terms.html'download>Descargar</a>
 ````
 
+#### Mandar a otra pagina
 
+````html
+<a href='bebita.com' rel='noopener' target= '_blank'>Bebita.com</a>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjcwNTg3MywtMzk2NDcwNTIsLTEyOT
+eyJoaXN0b3J5IjpbLTg3Mzc0NzMwNiwtMzk2NDcwNTIsLTEyOT
 E1ODk2NDAsMTI2NDE5OTg5MywtODgxMTg0NDY0LDE2NDI0MTAw
 NDcsLTM4OTc0MDA2LC0xNjQzMzA2NzgwLDE0MDM4OTYyMTIsND
 k3ODY5MzA4LC00Mjc2OTk2OTMsLTE0NzQyMTcxNTYsMjEzNjU3
