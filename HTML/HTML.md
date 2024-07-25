@@ -339,6 +339,7 @@ Extensión mp4
 Tu navegador no soporta video // Mensaje si no reproduce
 </video>
 // reproducción automatica en silencio
+// loop atributo para bucle
 ````
 
 #### Audio
@@ -347,11 +348,11 @@ Lo mismo que video cambiando el tag por audio
 
 Convertí el archivo en audio para que no pese mucho y cargue mas rápido 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTkwNzk2NTEsLTExNzEwMzIxNDIsLT
-ExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIx
-MzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OT
-MsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMTY0
-MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5Nj
-kzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwt
-MTI3OTQ2NzA2NV19
+eyJoaXN0b3J5IjpbLTIwNzExNDA3MDAsLTEzNTkwNzk2NTEsLT
+ExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0
+Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5Nj
+QwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0z
+ODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OT
+MwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIs
+MTYxMDUwOTY1OF19
 -->
