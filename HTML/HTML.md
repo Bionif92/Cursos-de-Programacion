@@ -187,7 +187,7 @@ https://metatags.io/
 Para escribir texto, que puede cambiar sus dimensiones de la caja
 
 ````html
-<textarea placeholder='Deja tu mensaje'></textarea>
+<textarea placeholder='Deja tu mensaje'>...</textarea>
 // readonly atributo para solo leer
 // disable atributo no podes hacerle clic
 // maxlength='140'
@@ -207,7 +207,7 @@ textarea {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MzUzMTIyNywtMTQ3NDIxNzE1NiwyMT
+eyJoaXN0b3J5IjpbLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMT
 M2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDEx
 NzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OT
 kxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3
