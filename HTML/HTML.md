@@ -236,12 +236,14 @@ Seleccionar una opcion entre varias opciones
 // el value es para despues usarlo con js
 ````
 
+en css, no se puede retocar mucho las posiciones
+
 #### Datalist
 
 Escribimos algo y se autocompleta
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzg1NDUyMCw0OTc4NjkzMDgsLTQyNz
+eyJoaXN0b3J5IjpbMTQwMzg5NjIxMiw0OTc4NjkzMDgsLTQyNz
 Y5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2
 NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4Mz
 EsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAy
