@@ -362,11 +362,11 @@ Contenido va cargándose cuando el usuario llega esa sección
 // atributo loading='lazy'
 ````
 
-Baja tiempo de carga a 
+Baja tiempo de carga a objetos que se veran cuando scrolleas
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzk2MjYwMTIsMTE5NTgzNDY2NywtOT
+eyJoaXN0b3J5IjpbLTEwNDQwNjI4NjksMTE5NTgzNDY2NywtOT
 I3ODA3MDQyLC0xNDQ3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5
 MDc5NjUxLC0xMTcxMDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyOD
 I5MzMsMTUyNDI3NjE0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1Miwt
