@@ -221,12 +221,16 @@ Luego modificar con css el estilo. Para modificar posición, modificas la otra c
 **Para que no sea redundante el label con el placeholder, poner un ejemplo en el place holder**
 
 Para que al clickear label te mande al lugar donde tenes que completar, al input le pones un `id` y al label le pones el atributo `for` apuntando al `id`
+
+### Select, Datalist y Option
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk3ODY5MzA4LC00Mjc2OTk2OTMsLTE0Nz
-QyMTcxNTYsMjEzNjU3MDYyMiwxNjEwNTA5NjU4LC0xMjc5NDY3
-MDY1LC0xMTQxMTcyNzk2LC0xOTI5MTM0ODMxLDQ0NjMzNDI4Ny
-wtMTE2NzQxNDk5MSwxMTU2MTQ2ODc3LDEwMjg2NjEyMzcsLTUy
-MTA3MDcyOCwxNzU0MTg2NjYsLTE5MTY1MTQ1MzEsLTExMDA1MT
-I4MDUsNzg0Mjg1MzcwLDExODc5Mjc2NTYsMTA5MDQ1MzMzOCwt
-MTIyMTIwOTM0OV19
+eyJoaXN0b3J5IjpbLTE2OTcwMTczMjcsNDk3ODY5MzA4LC00Mj
+c2OTk2OTMsLTE0NzQyMTcxNTYsMjEzNjU3MDYyMiwxNjEwNTA5
+NjU4LC0xMjc5NDY3MDY1LC0xMTQxMTcyNzk2LC0xOTI5MTM0OD
+MxLDQ0NjMzNDI4NywtMTE2NzQxNDk5MSwxMTU2MTQ2ODc3LDEw
+Mjg2NjEyMzcsLTUyMTA3MDcyOCwxNzU0MTg2NjYsLTE5MTY1MT
+Q1MzEsLTExMDA1MTI4MDUsNzg0Mjg1MzcwLDExODc5Mjc2NTYs
+MTA5MDQ1MzMzOF19
 -->
