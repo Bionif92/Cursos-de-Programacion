@@ -336,9 +336,10 @@ Extensión mp4
 
 ````html
 <video autoplay controls muted src='video.mp4'></video>
+// reproducción automatica en silencio
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTIwMDE1LC0xMTcxMDMyMTQyLC0xMT
+eyJoaXN0b3J5IjpbMzk3MDAwMTI5LC0xMTcxMDMyMTQyLC0xMT
 M5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3NjE0NCwyMDMyMTM4
 Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwxMjY0MTk5ODkzLC
 04ODExODQ0NjQsMTY0MjQxMDA0NywtMzg5NzQwMDYsLTE2NDMz
