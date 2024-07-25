@@ -366,11 +366,14 @@ Baja tiempo de carga a objetos que se veran cuando scrolleas
 
 ### HTML obsoleto
 
+Etiquetas descartadas:
+font, center
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0OTE0NjExOCwxMTk1ODM0NjY3LC05Mj
+eyJoaXN0b3J5IjpbMTY3MjQzMTk3MiwxMTk1ODM0NjY3LC05Mj
 c4MDcwNDIsLTE0NDc3Nzk4NjMsLTEzMTI3NjI4MjcsLTEzNTkw
 Nzk2NTEsLTExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4Mj
 kzMywxNTI0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0x
