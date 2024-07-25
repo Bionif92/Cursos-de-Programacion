@@ -199,10 +199,11 @@ textarea {
 	min-height: ;
 	max-height: ;
 	// tenes que poner tu tipografia si queres modificar la predefinida
+	// para que el texto se adapte form-sizing, todavia no esta implementada
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxODA2Mjk5NSwtMTQ3NDIxNzE1NiwyMT
+eyJoaXN0b3J5IjpbMTc4MzUyODQwNiwtMTQ3NDIxNzE1NiwyMT
 M2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDEx
 NzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OT
 kxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3
