@@ -188,8 +188,8 @@ Para escribir texto, que puede cambiar sus dimensiones de la caja
 
 ````html
 <textarea>....placeholder='Deja tu mensaje'</textarea>
-// readonly propiedad para solo leer
-// disable no podes hacerle clic
+// readonly atributo para solo leer
+// disable atributo no podes hacerle clic
 ````
 
 Hay que modificar en css, para restringir la caja y sus dimensiones a lo que queremos
@@ -205,7 +205,7 @@ textarea {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NjU1OTY0NiwtMTQ3NDIxNzE1NiwyMT
+eyJoaXN0b3J5IjpbMTMxODUwODE0OCwtMTQ3NDIxNzE1NiwyMT
 M2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDEx
 NzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OT
 kxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3
