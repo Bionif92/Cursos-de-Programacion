@@ -330,10 +330,15 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 
 ### Audio y Video
 
+#### Video
 
+Extensión mp4
 
+````html
+<video autoplasrc='video.mp4'></video>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQ5ODUyMTMsLTExNzEwMzIxNDIsLT
+eyJoaXN0b3J5IjpbLTE5OTcyMzMyOTksLTExNzEwMzIxNDIsLT
 ExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIx
 MzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OT
 MsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMTY0
