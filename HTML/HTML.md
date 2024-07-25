@@ -177,10 +177,10 @@ Ej
 ````html
 <meta  name='description' content='Esta pagina se trata de ...'>
 <meta name='keyword' content='palabraclave1,palabraclave2'> // busqueda google
-Otras meta: author, robots
+Otras meta: author, robots (importante, buscar en google),title
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDI5MTM3NTAsLTEyNzk0NjcwNjUsLT
+eyJoaXN0b3J5IjpbLTEyOTgwNjY0MTIsLTEyNzk0NjcwNjUsLT
 ExNDExNzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3
 NDE0OTkxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNz
 I4LDE3NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3
