@@ -243,14 +243,15 @@ en css, no se puede retocar mucho las posiciones
 Escribimos algo y se autocompleta
 
 ````html
-<datalist list='referente'type='type-of-user'>
+<input list='referente'>
+<datalist id='referente'type='type-of-user'>
 	<option value='user1'>option1</option>
 	<option value='user2'>option2</option>
 </datalist>
 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTYyMDg4OTgsMTQwMzg5NjIxMiw0OT
+eyJoaXN0b3J5IjpbLTE2NDMzMDY3ODAsMTQwMzg5NjIxMiw0OT
 c4NjkzMDgsLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcw
 NjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OT
 YsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDEx
