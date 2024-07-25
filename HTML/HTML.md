@@ -248,14 +248,14 @@ Escribimos algo y se autocompleta
 	<option value='user1'>option1</option>
 	<option value='user2'>option2</option>
 </datalist>
-
+// podes cambiar el value a option1 para que aparezca el nombre del referente y no user1
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDMzMDY3ODAsMTQwMzg5NjIxMiw0OT
-c4NjkzMDgsLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcw
-NjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OT
-YsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDEx
-NTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxOD
-Y2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyODUzNzAs
-MTE4NzkyNzY1Nl19
+eyJoaXN0b3J5IjpbLTM4OTc0MDA2LC0xNjQzMzA2NzgwLDE0MD
+M4OTYyMTIsNDk3ODY5MzA4LC00Mjc2OTk2OTMsLTE0NzQyMTcx
+NTYsMjEzNjU3MDYyMiwxNjEwNTA5NjU4LC0xMjc5NDY3MDY1LC
+0xMTQxMTcyNzk2LC0xOTI5MTM0ODMxLDQ0NjMzNDI4NywtMTE2
+NzQxNDk5MSwxMTU2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MD
+cyOCwxNzU0MTg2NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUs
+Nzg0Mjg1MzcwXX0=
 -->
