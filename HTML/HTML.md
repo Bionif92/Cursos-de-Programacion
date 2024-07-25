@@ -312,15 +312,19 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 
 ````html
 <table>
-	
+	<tr>//fila
+		<td>Dato 1</td>//columna
+		<td>Dato 2</td>
+		<td>Dato 3</td>
+	</tr>
 </table>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDI3NjE0NCwyMDMyMTM4Mjk0LC0zOT
-Y0NzA1MiwtMTI5MTU4OTY0MCwxMjY0MTk5ODkzLC04ODExODQ0
-NjQsMTY0MjQxMDA0NywtMzg5NzQwMDYsLTE2NDMzMDY3ODAsMT
-QwMzg5NjIxMiw0OTc4NjkzMDgsLTQyNzY5OTY5MywtMTQ3NDIx
-NzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNj
-UsLTExNDExNzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0x
-MTY3NDE0OTkxXX0=
+eyJoaXN0b3J5IjpbLTUyOTUyMjA1MywxNTI0Mjc2MTQ0LDIwMz
+IxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4
+OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMT
+Y0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5
+NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OC
+wtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0
+NDYzMzQyODddfQ==
 -->
