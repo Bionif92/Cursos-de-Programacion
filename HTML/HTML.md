@@ -342,17 +342,25 @@ Tu navegador no soporta video // Mensaje si no reproduce
 // loop atributo para bucle
 ````
 
+Subtitulos con:
+
+````html
+<track src='subtitulos.vtt'
+````
+
 #### Audio
 
 Lo mismo que video cambiando el tag por audio
 
 Convertí el archivo en audio para que no pese mucho y cargue mas rápido 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzExNDA3MDAsLTEzNTkwNzk2NTEsLT
-ExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0
-Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5Nj
-QwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0z
-ODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OT
-MwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIs
-MTYxMDUwOTY1OF19
+eyJoaXN0b3J5IjpbMTEyNzA5NjYwNywtMTM1OTA3OTY1MSwtMT
+E3MTAzMjE0MiwtMTEzOTgxNTUzMywtNjU3MjgyOTMzLDE1MjQy
+NzYxNDQsMjAzMjEzODI5NCwtMzk2NDcwNTIsLTEyOTE1ODk2ND
+AsMTI2NDE5OTg5MywtODgxMTg0NDY0LDE2NDI0MTAwNDcsLTM4
+OTc0MDA2LC0xNjQzMzA2NzgwLDE0MDM4OTYyMTIsNDk3ODY5Mz
+A4LC00Mjc2OTk2OTMsLTE0NzQyMTcxNTYsMjEzNjU3MDYyMiwx
+NjEwNTA5NjU4XX0=
 -->
