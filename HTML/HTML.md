@@ -256,19 +256,18 @@ Escribimos algo y se autocompleta
 Agrupar y etiquetar los elementos de un formulario
 
 ````html
-<input list='referente'>
-<datalist id='referente'type='type-of-user'>
-	<option value='user1'>option1</option>
-	<option value='user2'>option2</option>
-</datalist>
-// podes cambiar el value a option1 para que aparezca el nombre del referente y no user1
+<form> 
+	<fieldset>
+		<legend>Información 
+	</fieldset>
+</form>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zOD
-k3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OTMw
-OCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIsMT
-YxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5NiwtMTky
-OTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OTEsMTE1NjE0Nj
-g3NywxMDI4NjYxMjM3LC01MjEwNzA3MjgsMTc1NDE4NjY2LC0x
-OTE2NTE0NTMxXX0=
+eyJoaXN0b3J5IjpbMTkwNTM1MzczMSwtODgxMTg0NDY0LDE2ND
+I0MTAwNDcsLTM4OTc0MDA2LC0xNjQzMzA2NzgwLDE0MDM4OTYy
+MTIsNDk3ODY5MzA4LC00Mjc2OTk2OTMsLTE0NzQyMTcxNTYsMj
+EzNjU3MDYyMiwxNjEwNTA5NjU4LC0xMjc5NDY3MDY1LC0xMTQx
+MTcyNzk2LC0xOTI5MTM0ODMxLDQ0NjMzNDI4NywtMTE2NzQxND
+k5MSwxMTU2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwx
+NzU0MTg2NjZdfQ==
 -->
