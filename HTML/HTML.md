@@ -327,12 +327,16 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 // Para decirle al navegador las partes de la tabla,los englobamos en thead,tbody y tfoot
 // para anexar dos filas, atributo colspan='2'
 ````
+
+### Audio y Video
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzEwMzIxNDIsLTExMzk4MTU1MzMsLT
-Y1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3
-MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NC
-wxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAz
-ODk2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MT
-U2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwt
-MTE0MTE3Mjc5Nl19
+eyJoaXN0b3J5IjpbMTA2ODcwMjk5NywtMTE3MTAzMjE0MiwtMT
+EzOTgxNTUzMywtNjU3MjgyOTMzLDE1MjQyNzYxNDQsMjAzMjEz
+ODI5NCwtMzk2NDcwNTIsLTEyOTE1ODk2NDAsMTI2NDE5OTg5My
+wtODgxMTg0NDY0LDE2NDI0MTAwNDcsLTM4OTc0MDA2LC0xNjQz
+MzA2NzgwLDE0MDM4OTYyMTIsNDk3ODY5MzA4LC00Mjc2OTk2OT
+MsLTE0NzQyMTcxNTYsMjEzNjU3MDYyMiwxNjEwNTA5NjU4LC0x
+Mjc5NDY3MDY1XX0=
 -->
