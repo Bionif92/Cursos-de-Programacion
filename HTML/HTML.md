@@ -345,7 +345,7 @@ Tu navegador no soporta video // Mensaje si no reproduce
 Subtitulos con:
 
 ````html
-<track src='subtitulos.vtt'>
+<track src='subtitulos.vtt'default kind='captions' srclang='es'>
 ````
 
 #### Audio
@@ -356,11 +356,11 @@ Convertí el archivo en audio para que no pese mucho y cargue mas rápido
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3NzY1NTI1LC0xMzU5MDc5NjUxLC0xMT
-cxMDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3
-NjE0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MC
-wxMjY0MTk5ODkzLC04ODExODQ0NjQsMTY0MjQxMDA0NywtMzg5
-NzQwMDYsLTE2NDMzMDY3ODAsMTQwMzg5NjIxMiw0OTc4NjkzMD
-gsLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2
-MTA1MDk2NThdfQ==
+eyJoaXN0b3J5IjpbLTEzMTI3NjI4MjcsLTEzNTkwNzk2NTEsLT
+ExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0
+Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5Nj
+QwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0z
+ODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OT
+MwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIs
+MTYxMDUwOTY1OF19
 -->
