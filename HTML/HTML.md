@@ -230,9 +230,10 @@ Seleccionar una opcion entre varias opciones
 
 ````html
 <select type='type-of-user'>
-	<option>option1</option>
-	<option>option2</option>
+	<option value='user1'>option1</option>
+	<option value='user2'>option2</option>
 </select>
+// el value es para despues usarlo con js
 ````
 
 #### Datalist
@@ -240,11 +241,11 @@ Seleccionar una opcion entre varias opciones
 Escribimos algo y se autocompleta
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA3Njg0OTg1LDQ5Nzg2OTMwOCwtNDI3Nj
-k5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1
-OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5NiwtMTkyOTEzNDgzMS
-w0NDYzMzQyODcsLTExNjc0MTQ5OTEsMTE1NjE0Njg3NywxMDI4
-NjYxMjM3LC01MjEwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0NT
-MxLC0xMTAwNTEyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEw
-OTA0NTMzMzhdfQ==
+eyJoaXN0b3J5IjpbLTgwMzg1NDUyMCw0OTc4NjkzMDgsLTQyNz
+Y5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2
+NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4Mz
+EsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAy
+ODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxODY2NiwtMTkxNjUxND
+UzMSwtMTEwMDUxMjgwNSw3ODQyODUzNzAsMTE4NzkyNzY1Niwx
+MDkwNDUzMzM4XX0=
 -->
