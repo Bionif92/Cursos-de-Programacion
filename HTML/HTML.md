@@ -173,12 +173,16 @@ Ej
 
 <meta  name="viewport"  content="width=device-width, initial-scale=1.0"> // zoom 100% con ancho adaptado al dispositivo
 ````
+
+````html
+<meta  name='description' content='Esta pagina se trata de ...'>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTg3MTM1NCwtMTI3OTQ2NzA2NSwtMT
-E0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0
-MTQ5OTEsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01MjEwNzA3Mj
-gsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEyODA1LDc4
-NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgsLTEyMjEyMD
-kzNDksLTE0ODg3OTI5NywxNDcwNjQ5ODQ2LC0xNzI3ODYwNjQx
-LC0xMTY0NDAzMzcxXX0=
+eyJoaXN0b3J5IjpbLTE5MjcxOTkzMzIsLTEyNzk0NjcwNjUsLT
+ExNDExNzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3
+NDE0OTkxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNz
+I4LDE3NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3
+ODQyODUzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMj
+A5MzQ5LC0xNDg4NzkyOTcsMTQ3MDY0OTg0NiwtMTcyNzg2MDY0
+MSwtMTE2NDQwMzM3MV19
 -->
