@@ -354,13 +354,17 @@ Lo mismo que video cambiando el tag por audio
 
 Convertí el archivo en audio para que no pese mucho y cargue mas rápido 
 
+### Lazy Loading
+
+Contenido va cargandose cuando 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDc3Nzk4NjMsLTEzMTI3NjI4MjcsLT
-EzNTkwNzk2NTEsLTExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1
-NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MD
-UyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwx
-NjQyNDEwMDQ3LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzOD
-k2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2
-LDIxMzY1NzA2MjJdfQ==
+eyJoaXN0b3J5IjpbMjEyMTI4ODM3NSwtMTQ0Nzc3OTg2MywtMT
+MxMjc2MjgyNywtMTM1OTA3OTY1MSwtMTE3MTAzMjE0MiwtMTEz
+OTgxNTUzMywtNjU3MjgyOTMzLDE1MjQyNzYxNDQsMjAzMjEzOD
+I5NCwtMzk2NDcwNTIsLTEyOTE1ODk2NDAsMTI2NDE5OTg5Mywt
+ODgxMTg0NDY0LDE2NDI0MTAwNDcsLTM4OTc0MDA2LC0xNjQzMz
+A2NzgwLDE0MDM4OTYyMTIsNDk3ODY5MzA4LC00Mjc2OTk2OTMs
+LTE0NzQyMTcxNTZdfQ==
 -->
