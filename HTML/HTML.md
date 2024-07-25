@@ -189,6 +189,7 @@ Para escribir texto, que puede cambiar sus dimensiones de la caja
 ````html
 <textarea>....placeholder='Deja tu mensaje'</textarea>
 // readonly propiedad para solo leer
+// disable no podes hacerle clic
 ````
 
 Hay que modificar en css, para restringir la caja y sus dimensiones a lo que queremos
@@ -204,11 +205,11 @@ textarea {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDg3MzQ3MTUsLTE0NzQyMTcxNTYsMj
-EzNjU3MDYyMiwxNjEwNTA5NjU4LC0xMjc5NDY3MDY1LC0xMTQx
-MTcyNzk2LC0xOTI5MTM0ODMxLDQ0NjMzNDI4NywtMTE2NzQxND
-k5MSwxMTU2MTQ2ODc3LDEwMjg2NjEyMzcsLTUyMTA3MDcyOCwx
-NzU0MTg2NjYsLTE5MTY1MTQ1MzEsLTExMDA1MTI4MDUsNzg0Mj
-g1MzcwLDExODc5Mjc2NTYsMTA5MDQ1MzMzOCwtMTIyMTIwOTM0
-OSwtMTQ4ODc5Mjk3XX0=
+eyJoaXN0b3J5IjpbMTQ4NjU1OTY0NiwtMTQ3NDIxNzE1NiwyMT
+M2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDEx
+NzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OT
+kxLDExNTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3
+NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyOD
+UzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4LC0xMjIxMjA5MzQ5
+LC0xNDg4NzkyOTddfQ==
 -->
