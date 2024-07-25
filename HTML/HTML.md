@@ -184,13 +184,22 @@ https://metatags.io/
 
 ### TextArea
 
-Para escribitr
+Para escribir texto, que puede cambiar sus dimensiones de la caja
 
 ````html
-<textarea>....</textarea>
+<textarea>....placeholder='Deja tu mensaje'</textarea>
+````
+
+Hay que modificar en css, para restringir la caja y sus dimensiones a lo que queremos
+
+````css
+textarea {
+	min-width:100%;
+	resize:vertica
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNTQyOTMxLC0xNDc0MjE3MTU2LDIxMz
+eyJoaXN0b3J5IjpbNzMwMzAxMTQxLC0xNDc0MjE3MTU2LDIxMz
 Y1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3
 Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OT
 EsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01MjEwNzA3MjgsMTc1
