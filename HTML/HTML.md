@@ -288,10 +288,10 @@ Le pones el id al apartado que queres que te lleve este vinculo
 #### Descargar el contenido
 
 ````html
-<a href='#proceso'>Proceso</a>
+<a href='terms.html'download>Descargar</a>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNDA3MjMwLC0zOTY0NzA1MiwtMTI5MT
+eyJoaXN0b3J5IjpbMjU1MDc3NjIxLC0zOTY0NzA1MiwtMTI5MT
 U4OTY0MCwxMjY0MTk5ODkzLC04ODExODQ0NjQsMTY0MjQxMDA0
 NywtMzg5NzQwMDYsLTE2NDMzMDY3ODAsMTQwMzg5NjIxMiw0OT
 c4NjkzMDgsLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcw
