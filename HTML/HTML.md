@@ -167,8 +167,14 @@ Imagen de 32x32 o 64x64 px
 #### Meta etiquetas
 
 Describir ciertos aspectos de nuestra web - Como se llama la web en un enlace o búsqueda google
+Ej
+````html
+<meta  charset="UTF-8">
+
+<meta  name="viewport"  content="width=device-width, initial-scale=1.0">
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMTYyMjg0OSwtMTI3OTQ2NzA2NSwtMT
+eyJoaXN0b3J5IjpbLTM5MzQwNDAwMywtMTI3OTQ2NzA2NSwtMT
 E0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyODcsLTExNjc0
 MTQ5OTEsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01MjEwNzA3Mj
 gsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNTEyODA1LDc4
