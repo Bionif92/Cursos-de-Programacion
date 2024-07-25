@@ -341,9 +341,13 @@ Tu navegador no soporta video // Mensaje si no reproduce
 // reproducción automatica en silencio
 ````
 
-#### Audio 
+#### Audio
+
+Lo mismo que video cambiando el tag por audio
+
+Convertí el archivo en audio para que no pese mucho y cargue mas rapido 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzI1Mzg4LC0xMTcxMDMyMTQyLC0xMT
+eyJoaXN0b3J5IjpbMTA4Mzc3NzU3LC0xMTcxMDMyMTQyLC0xMT
 M5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3NjE0NCwyMDMyMTM4
 Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwxMjY0MTk5ODkzLC
 04ODExODQ0NjQsMTY0MjQxMDA0NywtMzg5NzQwMDYsLTE2NDMz
