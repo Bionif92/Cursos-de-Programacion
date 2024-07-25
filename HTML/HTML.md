@@ -242,12 +242,19 @@ en css, no se puede retocar mucho las posiciones
 
 Escribimos algo y se autocompleta
 
+````html
+<datalist list='referente'type='type-of-user'>
+	<option value='user1'>option1</option>
+	<option value='user2'>option2</option>
+</datalist>
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMzg5NjIxMiw0OTc4NjkzMDgsLTQyNz
-Y5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2
-NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4Mz
-EsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAy
-ODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxODY2NiwtMTkxNjUxND
-UzMSwtMTEwMDUxMjgwNSw3ODQyODUzNzAsMTE4NzkyNzY1Niwx
-MDkwNDUzMzM4XX0=
+eyJoaXN0b3J5IjpbLTE3OTYyMDg4OTgsMTQwMzg5NjIxMiw0OT
+c4NjkzMDgsLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcw
+NjIyLDE2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OT
+YsLTE5MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDEx
+NTYxNDY4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxOD
+Y2NiwtMTkxNjUxNDUzMSwtMTEwMDUxMjgwNSw3ODQyODUzNzAs
+MTE4NzkyNzY1Nl19
 -->
