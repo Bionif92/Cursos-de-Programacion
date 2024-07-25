@@ -335,15 +335,17 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 Extensión mp4
 
 ````html
-<video autoplay controls muted src='video.mp4'></video>
+<video autoplay controls muted src='video.mp4'>
+Tu navegador no soporta video // Mensaje si no reproduce
+</video>
 // reproducción automatica en silencio
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3MDAwMTI5LC0xMTcxMDMyMTQyLC0xMT
-M5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3NjE0NCwyMDMyMTM4
-Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwxMjY0MTk5ODkzLC
-04ODExODQ0NjQsMTY0MjQxMDA0NywtMzg5NzQwMDYsLTE2NDMz
-MDY3ODAsMTQwMzg5NjIxMiw0OTc4NjkzMDgsLTQyNzY5OTY5My
-wtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2NTgsLTEy
-Nzk0NjcwNjVdfQ==
+eyJoaXN0b3J5IjpbLTQyODQ3MzE1OCwtMTE3MTAzMjE0MiwtMT
+EzOTgxNTUzMywtNjU3MjgyOTMzLDE1MjQyNzYxNDQsMjAzMjEz
+ODI5NCwtMzk2NDcwNTIsLTEyOTE1ODk2NDAsMTI2NDE5OTg5My
+wtODgxMTg0NDY0LDE2NDI0MTAwNDcsLTM4OTc0MDA2LC0xNjQz
+MzA2NzgwLDE0MDM4OTYyMTIsNDk3ODY5MzA4LC00Mjc2OTk2OT
+MsLTE0NzQyMTcxNTYsMjEzNjU3MDYyMiwxNjEwNTA5NjU4LC0x
+Mjc5NDY3MDY1XX0=
 -->
