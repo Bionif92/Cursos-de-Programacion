@@ -253,13 +253,22 @@ Escribimos algo y se autocompleta
 
 ### FieldSet y Legend
 
-Agrupar y etiquetar 
+Agrupar y etiquetar los elementos de un formulario
+
+````html
+<input list='referente'>
+<datalist id='referente'type='type-of-user'>
+	<option value='user1'>option1</option>
+	<option value='user2'>option2</option>
+</datalist>
+// podes cambiar el value a option1 para que aparezca el nombre del referente y no user1
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTYxMDM5MjYsMTY0MjQxMDA0NywtMz
-g5NzQwMDYsLTE2NDMzMDY3ODAsMTQwMzg5NjIxMiw0OTc4Njkz
-MDgsLTQyNzY5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLD
-E2MTA1MDk2NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OTYsLTE5
-MjkxMzQ4MzEsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNTYxND
-Y4NzcsMTAyODY2MTIzNywtNTIxMDcwNzI4LDE3NTQxODY2Niwt
-MTkxNjUxNDUzMV19
+eyJoaXN0b3J5IjpbLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zOD
+k3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OTMw
+OCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIsMT
+YxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5NiwtMTky
+OTEzNDgzMSw0NDYzMzQyODcsLTExNjc0MTQ5OTEsMTE1NjE0Nj
+g3NywxMDI4NjYxMjM3LC01MjEwNzA3MjgsMTc1NDE4NjY2LC0x
+OTE2NTE0NTMxXX0=
 -->
