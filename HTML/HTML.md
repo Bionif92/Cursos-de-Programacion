@@ -345,13 +345,13 @@ Tu navegador no soporta video // Mensaje si no reproduce
 
 Lo mismo que video cambiando el tag por audio
 
-Convertí el archivo en audio para que no pese mucho y cargue mas rapido 
+Convertí el archivo en audio para que no pese mucho y cargue mas rápido 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mzc3NzU3LC0xMTcxMDMyMTQyLC0xMT
-M5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3NjE0NCwyMDMyMTM4
-Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwxMjY0MTk5ODkzLC
-04ODExODQ0NjQsMTY0MjQxMDA0NywtMzg5NzQwMDYsLTE2NDMz
-MDY3ODAsMTQwMzg5NjIxMiw0OTc4NjkzMDgsLTQyNzY5OTY5My
-wtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2NTgsLTEy
-Nzk0NjcwNjVdfQ==
+eyJoaXN0b3J5IjpbLTEzNTkwNzk2NTEsLTExNzEwMzIxNDIsLT
+ExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIx
+MzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OT
+MsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMTY0
+MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5Nj
+kzLC0xNDc0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwt
+MTI3OTQ2NzA2NV19
 -->
