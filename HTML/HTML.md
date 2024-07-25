@@ -298,10 +298,12 @@ Le pones el id al apartado que queres que te lleve este vinculo
 // noopener -- no permite el acceso a window.open
 // noreferrer -- lo mismo que el anterior y tampoco de donde viene la persona, visita anonima
 // nofollow -- no la indexes
-podes usar las tres a la vez
+podes usar las tres a la vez, para dar libre albedrio al usuario
 ````
+
+#### Mandar un mail
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Nzc4MjQ3MiwtMzk2NDcwNTIsLTEyOT
+eyJoaXN0b3J5IjpbLTQ4NzQyNjE2MSwtMzk2NDcwNTIsLTEyOT
 E1ODk2NDAsMTI2NDE5OTg5MywtODgxMTg0NDY0LDE2NDI0MTAw
 NDcsLTM4OTc0MDA2LC0xNjQzMzA2NzgwLDE0MDM4OTYyMTIsND
 k3ODY5MzA4LC00Mjc2OTk2OTMsLTE0NzQyMTcxNTYsMjEzNjU3
