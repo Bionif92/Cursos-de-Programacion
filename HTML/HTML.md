@@ -228,8 +228,16 @@ Para que al clickear label te mande al lugar donde tenes que completar, al input
 
 Seleccionar una opcion entre varias opciones
 
+````html
+<label>Nombre Completo</label>
+````
+
+#### Datalist
+
+Escribimos algo y se autocompleta
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNjg5ODc0OSw0OTc4NjkzMDgsLTQyNz
+eyJoaXN0b3J5IjpbLTUzNTA0NTcyMSw0OTc4NjkzMDgsLTQyNz
 Y5OTY5MywtMTQ3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2
 NTgsLTEyNzk0NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4Mz
 EsNDQ2MzM0Mjg3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAy
