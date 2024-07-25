@@ -219,12 +219,14 @@ Luego modificar con css el estilo. Para modificar posición, modificas la otra c
 `line-height: ;`
 
 **Para que no sea redundante el label con el placeholder, poner un ejemplo en el place holder**
+
+Para que al clickear label te mande al lugar donde tenes que completar, al input le pones un id y al label le pones 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ1ODI3MjAsLTQyNzY5OTY5MywtMT
-Q3NDIxNzE1NiwyMTM2NTcwNjIyLDE2MTA1MDk2NTgsLTEyNzk0
-NjcwNjUsLTExNDExNzI3OTYsLTE5MjkxMzQ4MzEsNDQ2MzM0Mj
-g3LC0xMTY3NDE0OTkxLDExNTYxNDY4NzcsMTAyODY2MTIzNywt
-NTIxMDcwNzI4LDE3NTQxODY2NiwtMTkxNjUxNDUzMSwtMTEwMD
-UxMjgwNSw3ODQyODUzNzAsMTE4NzkyNzY1NiwxMDkwNDUzMzM4
-LC0xMjIxMjA5MzQ5XX0=
+eyJoaXN0b3J5IjpbMTYwMDE1OTA4MCwtNDI3Njk5NjkzLC0xND
+c0MjE3MTU2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2
+NzA2NSwtMTE0MTE3Mjc5NiwtMTkyOTEzNDgzMSw0NDYzMzQyOD
+csLTExNjc0MTQ5OTEsMTE1NjE0Njg3NywxMDI4NjYxMjM3LC01
+MjEwNzA3MjgsMTc1NDE4NjY2LC0xOTE2NTE0NTMxLC0xMTAwNT
+EyODA1LDc4NDI4NTM3MCwxMTg3OTI3NjU2LDEwOTA0NTMzMzgs
+LTEyMjEyMDkzNDldfQ==
 -->
