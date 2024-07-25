@@ -369,15 +369,17 @@ Baja tiempo de carga a objetos que se veran cuando scrolleas
 Etiquetas descartadas:
 font, center, blink, big, strike (se usa del),tt (se usa code)
 
+Atributos de estilo no se usan, se usa css
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTczNTc4NjYsMTE5NTgzNDY2NywtOT
-I3ODA3MDQyLC0xNDQ3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5
-MDc5NjUxLC0xMTcxMDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyOD
-I5MzMsMTUyNDI3NjE0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1Miwt
-MTI5MTU4OTY0MCwxMjY0MTk5ODkzLC04ODExODQ0NjQsMTY0Mj
-QxMDA0NywtMzg5NzQwMDYsLTE2NDMzMDY3ODAsMTQwMzg5NjIx
-Miw0OTc4NjkzMDhdfQ==
+eyJoaXN0b3J5IjpbMTUxMzU2NTAzNiwxMTk1ODM0NjY3LC05Mj
+c4MDcwNDIsLTE0NDc3Nzk4NjMsLTEzMTI3NjI4MjcsLTEzNTkw
+Nzk2NTEsLTExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4Mj
+kzMywxNTI0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0x
+MjkxNTg5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyND
+EwMDQ3LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEy
+LDQ5Nzg2OTMwOF19
 -->
