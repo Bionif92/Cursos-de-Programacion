@@ -324,15 +324,15 @@ podes usar las tres a la vez, para dar libre albedrio al usuario
 	</tr>
 // Subtotal podes usar th
 </table>
-// Para definir las partes los englobamos en thead,tbody y tfoot
+// Para decirle al navegador las partes de la tabla,los englobamos en thead,tbody y tfoot
 // para anexar dos filas, atributo colspan='2'
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzk4MTU1MzMsLTY1NzI4MjkzMywxNT
-I0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5
-NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3LC
-0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAzODk2MjEyLDQ5Nzg2
-OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MTU2LDIxMzY1NzA2Mj
-IsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwtMTE0MTE3Mjc5Niwt
-MTkyOTEzNDgzMV19
+eyJoaXN0b3J5IjpbLTExNzEwMzIxNDIsLTExMzk4MTU1MzMsLT
+Y1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3
+MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NC
+wxNjQyNDEwMDQ3LC0zODk3NDAwNiwtMTY0MzMwNjc4MCwxNDAz
+ODk2MjEyLDQ5Nzg2OTMwOCwtNDI3Njk5NjkzLC0xNDc0MjE3MT
+U2LDIxMzY1NzA2MjIsMTYxMDUwOTY1OCwtMTI3OTQ2NzA2NSwt
+MTE0MTE3Mjc5Nl19
 -->
