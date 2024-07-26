@@ -350,14 +350,16 @@ Si el elemento es mas especifico, le da prioridad (usando clases)**
 
 **Si el estilo se lo damos en el htlm, esa es la máxima prioridad**
 
+Si al valor de css, le anexamos al lado `!important` esta va a ser 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMT
-A5MDMxNiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4
-MSwxMjIzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYwODc1LC0xOT
-g1ODgyNjgwLDE3NDkyNzk0NjgsMTMzNzg5OTAyMCwtMTMxODI2
-NDI2MSwtMTAxODE1MzA5OSwtMTU0MzMwMzMzNiwxNzUxMTE2MT
-Q5LDgwNDEwODY0MywtMTk2MDk4MDc4LDEzNTY3NDg0MTUsLTE0
-MzcyNTQyOTFdfQ==
+eyJoaXN0b3J5IjpbLTI3OTY3MjcxNCw0NDQ1OTU2MDksLTY5NT
+I5MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgyMjMw
+NywxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mj
+g2NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5
+MDIwLC0xMzE4MjY0MjYxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMz
+M2LDE3NTExMTYxNDksODA0MTA4NjQzLC0xOTYwOTgwNzgsMTM1
+Njc0ODQxNV19
 -->
