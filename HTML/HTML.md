@@ -387,17 +387,19 @@ Si la pagina es accesible para todos (discapacidad), se posiciona mejor en las b
 
 Chrome Box - Extension instalar y colocar contenido que la persona con discapacidad pueda escuchar
 
+`aria label` atributo para que lea el contenido
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIzMDc0NTY2LC0xNjE2OTc2OTk5LDEyOD
-AwNjQxNTksMTA4ODQ4MTY4LDE4NzQ3ODMxMywtMjEzNDQ3NzU1
-MCwxMTk1ODM0NjY3LC05Mjc4MDcwNDIsLTE0NDc3Nzk4NjMsLT
-EzMTI3NjI4MjcsLTEzNTkwNzk2NTEsLTExNzEwMzIxNDIsLTEx
-Mzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIxMz
-gyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OTMs
-LTg4MTE4NDQ2NF19
+eyJoaXN0b3J5IjpbNjUyNjE5MzQsLTE2MTY5NzY5OTksMTI4MD
+A2NDE1OSwxMDg4NDgxNjgsMTg3NDc4MzEzLC0yMTM0NDc3NTUw
+LDExOTU4MzQ2NjcsLTkyNzgwNzA0MiwtMTQ0Nzc3OTg2MywtMT
+MxMjc2MjgyNywtMTM1OTA3OTY1MSwtMTE3MTAzMjE0MiwtMTEz
+OTgxNTUzMywtNjU3MjgyOTMzLDE1MjQyNzYxNDQsMjAzMjEzOD
+I5NCwtMzk2NDcwNTIsLTEyOTE1ODk2NDAsMTI2NDE5OTg5Mywt
+ODgxMTg0NDY0XX0=
 -->
