@@ -348,14 +348,14 @@ Si el elemento es mas especifico, le da prioridad (usando clases)**
 
 **Se es mas especifico con un id que una clase**
 
-**Si el estilo se lo damos en el htlm, esa es la máxima prioridad**
+**Si el estilo se lo damos en el htlm, esa es de mayor prioridad que el id**
 
-Si al valor de css, le anexamos al lado `!important` esta va a ser 
+Si al valor de css, le anexamos al lado `!important` esta va a ser la maxima prioriridad
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTY3MjcxNCw0NDQ1OTU2MDksLTY5NT
+eyJoaXN0b3J5IjpbMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NT
 I5MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgyMjMw
 NywxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mj
 g2NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5
