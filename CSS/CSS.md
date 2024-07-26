@@ -290,13 +290,11 @@ img [src='image.png'] {
 
 ````css
 ul li { // busca li dentro de ul
-
 }
 ````
 
 ````css
 li > strong { // si o si strong tiene que ser hijo de li
-
 }
 ````
 
@@ -309,12 +307,18 @@ li > strong { // si o si strong tiene que ser hijo de li
 #### Selector Adyacente
 
 ````css
-li > strong { // si o si strong tiene que ser hijo de li
+h1 + p { // le da estilo a p que este despues de h1
+}
+````
 
+#### Selector hermanos generales
+
+````css
+h1 + p { // le da estilo a p que este despues de h1
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3OTc4MzI2NywxNDcxOTU2OTIzLDUyOD
+eyJoaXN0b3J5IjpbMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyOD
 Y2MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkw
 MjAsLTEzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMz
 YsMTc1MTExNjE0OSw4MDQxMDg2NDMsLTE5NjA5ODA3OCwxMzU2
