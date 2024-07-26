@@ -391,7 +391,7 @@ Chrome Box - Extension instalar y colocar contenido que la persona con discapaci
 
 Podes usar etiquetas de roles- buscar en internet
 
-Usando la funcion lighthouse de la consola, podemos ver que tan accesible es la pagina
+Usando la función lighthouse de la consola, podemos ver que tan accesible es la pagina
 
 
 
@@ -399,11 +399,11 @@ Usando la funcion lighthouse de la consola, podemos ver que tan accesible es la 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzQyODYwNiw2NTI2MTkzNCwtMTYxNj
-k3Njk5OSwxMjgwMDY0MTU5LDEwODg0ODE2OCwxODc0NzgzMTMs
-LTIxMzQ0Nzc1NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQyLC0xND
-Q3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC0xMTcx
-MDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3Nj
-E0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwx
-MjY0MTk5ODkzXX0=
+eyJoaXN0b3J5IjpbNjk1NjYzMTAyLDY1MjYxOTM0LC0xNjE2OT
+c2OTk5LDEyODAwNjQxNTksMTA4ODQ4MTY4LDE4NzQ3ODMxMywt
+MjEzNDQ3NzU1MCwxMTk1ODM0NjY3LC05Mjc4MDcwNDIsLTE0ND
+c3Nzk4NjMsLTEzMTI3NjI4MjcsLTEzNTkwNzk2NTEsLTExNzEw
+MzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MT
+Q0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEy
+NjQxOTk4OTNdfQ==
 -->
