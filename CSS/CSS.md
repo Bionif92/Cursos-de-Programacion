@@ -337,14 +337,16 @@ Los elementos buscan en los elementos superiores ciertas propiedades
 `widht: inherit` // si queremos que herede cierta propiedad
 `color:initial` // mantiene el de defecto , unset si queremos dejecto del inherit, revert intenta encontrar estilo al usuario o sino vuelve a inherit
 
+#### Casca
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NT
-Q4MjIzMDcsMTE0MjE1Mjg4MSwxMjIzMDEyNDEwLDE0NzE5NTY5
-MjMsNTI4NjYwODc1LC0xOTg1ODgyNjgwLDE3NDkyNzk0NjgsMT
-MzNzg5OTAyMCwtMTMxODI2NDI2MSwtMTAxODE1MzA5OSwtMTU0
-MzMwMzMzNiwxNzUxMTE2MTQ5LDgwNDEwODY0MywtMTk2MDk4MD
-c4LDEzNTY3NDg0MTUsLTE0MzcyNTQyOTEsLTEzNTQzOTUzMCwt
-NjA0ODYwNjQwXX0=
+eyJoaXN0b3J5IjpbMTY3MzMwMDc1NywxMDMxMDkwMzE2LC01Nj
+cwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLDEyMjMwMTI0
+MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4ODI2ODAsMT
+c0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0MjYxLC0xMDE4
+MTUzMDk5LC0xNTQzMzAzMzM2LDE3NTExMTYxNDksODA0MTA4Nj
+QzLC0xOTYwOTgwNzgsMTM1Njc0ODQxNSwtMTQzNzI1NDI5MSwt
+MTM1NDM5NTMwXX0=
 -->
