@@ -385,7 +385,7 @@ Mas ejemplos:
 
 Si la pagina es accesible para todos (discapacidad), se posiciona mejor en las busquedas
 
-Chrome Box - Extension 
+Chrome Box - Extension instalar y colocar contenido que la persona con discapacidad pueda escuchar
 
 
 
@@ -393,11 +393,11 @@ Chrome Box - Extension
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjgxMTg5NiwtMTYxNjk3Njk5OSwxMj
-gwMDY0MTU5LDEwODg0ODE2OCwxODc0NzgzMTMsLTIxMzQ0Nzc1
-NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQyLC0xNDQ3Nzc5ODYzLC
-0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC0xMTcxMDMyMTQyLC0x
-MTM5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3NjE0NCwyMDMyMT
-M4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwxMjY0MTk5ODkz
-LC04ODExODQ0NjRdfQ==
+eyJoaXN0b3J5IjpbMjIzMDc0NTY2LC0xNjE2OTc2OTk5LDEyOD
+AwNjQxNTksMTA4ODQ4MTY4LDE4NzQ3ODMxMywtMjEzNDQ3NzU1
+MCwxMTk1ODM0NjY3LC05Mjc4MDcwNDIsLTE0NDc3Nzk4NjMsLT
+EzMTI3NjI4MjcsLTEzNTkwNzk2NTEsLTExNzEwMzIxNDIsLTEx
+Mzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MTQ0LDIwMzIxMz
+gyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEyNjQxOTk4OTMs
+LTg4MTE4NDQ2NF19
 -->
