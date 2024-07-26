@@ -375,17 +375,18 @@ Atributos de estilo no se usan, se usa css
 
 Etiqueta que da significado a lo que estamos armando
 Utilizar bien las etiquetas para cada área, permite buena accesibilidad y para los motores de busqueda
-E
+Mas ejemplos:
 `<section>`Secciones
-`<main>`seccion principal
+`<main>`sección principal
+`<aside>` seccion secundaria que tiene que ver con la seccion principal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNTU5NjY5OCwxMDg4NDgxNjgsMTg3ND
-c4MzEzLC0yMTM0NDc3NTUwLDExOTU4MzQ2NjcsLTkyNzgwNzA0
-MiwtMTQ0Nzc3OTg2MywtMTMxMjc2MjgyNywtMTM1OTA3OTY1MS
-wtMTE3MTAzMjE0MiwtMTEzOTgxNTUzMywtNjU3MjgyOTMzLDE1
-MjQyNzYxNDQsMjAzMjEzODI5NCwtMzk2NDcwNTIsLTEyOTE1OD
-k2NDAsMTI2NDE5OTg5MywtODgxMTg0NDY0LDE2NDI0MTAwNDcs
-LTM4OTc0MDA2XX0=
+eyJoaXN0b3J5IjpbMzAxNjc5MDA1LDEwODg0ODE2OCwxODc0Nz
+gzMTMsLTIxMzQ0Nzc1NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQy
+LC0xNDQ3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC
+0xMTcxMDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyODI5MzMsMTUy
+NDI3NjE0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OT
+Y0MCwxMjY0MTk5ODkzLC04ODExODQ0NjQsMTY0MjQxMDA0Nywt
+Mzg5NzQwMDZdfQ==
 -->
