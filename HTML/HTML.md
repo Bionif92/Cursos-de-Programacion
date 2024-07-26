@@ -378,15 +378,16 @@ Utilizar bien las etiquetas para cada área, permite buena accesibilidad y para 
 Mas ejemplos:
 `<section>`Secciones
 `<main>`sección principal
-`<aside>` seccion secundaria que tiene que ver con la seccion principal
+`<aside>` sección secundaria que tiene que ver con la sección principal
+`<footer>` pie de pagina
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxNjc5MDA1LDEwODg0ODE2OCwxODc0Nz
-gzMTMsLTIxMzQ0Nzc1NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQy
-LC0xNDQ3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC
-0xMTcxMDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyODI5MzMsMTUy
-NDI3NjE0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OT
-Y0MCwxMjY0MTk5ODkzLC04ODExODQ0NjQsMTY0MjQxMDA0Nywt
-Mzg5NzQwMDZdfQ==
+eyJoaXN0b3J5IjpbLTE0MTY5MjkxMTEsMTA4ODQ4MTY4LDE4Nz
+Q3ODMxMywtMjEzNDQ3NzU1MCwxMTk1ODM0NjY3LC05Mjc4MDcw
+NDIsLTE0NDc3Nzk4NjMsLTEzMTI3NjI4MjcsLTEzNTkwNzk2NT
+EsLTExNzEwMzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4MjkzMywx
+NTI0Mjc2MTQ0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNT
+g5NjQwLDEyNjQxOTk4OTMsLTg4MTE4NDQ2NCwxNjQyNDEwMDQ3
+LC0zODk3NDAwNl19
 -->
