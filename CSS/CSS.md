@@ -282,9 +282,10 @@ img {
 img [src='image.png'] {
 
 }
+// para todas las imagenes que terminen con png - scr$='png'
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTU2ODg2OCw1Mjg2NjA4NzUsLTE5OD
+eyJoaXN0b3J5IjpbMTU0MDk0Mjg5Nyw1Mjg2NjA4NzUsLTE5OD
 U4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0
 MjYxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMzM2LDE3NTExMTYxND
 ksODA0MTA4NjQzLC0xOTYwOTgwNzgsMTM1Njc0ODQxNSwtMTQz
