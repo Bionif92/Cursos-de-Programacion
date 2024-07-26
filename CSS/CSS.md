@@ -309,6 +309,7 @@ li > strong { // si o si strong tiene que ser hijo de li
 ````css
 h1 + p { // le da estilo al primer p que este despues de h1
 }
+// h1 + p + p -- a un p que le sigue a un p que le sigue a un h1
 ````
 
 #### Selector hermanos generales
@@ -318,11 +319,11 @@ h1 ~ p { // le da estilo a todos los p que este despues de h1
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MjE1Mjg4MSwxMjIzMDEyNDEwLDE0Nz
-E5NTY5MjMsNTI4NjYwODc1LC0xOTg1ODgyNjgwLDE3NDkyNzk0
-NjgsMTMzNzg5OTAyMCwtMTMxODI2NDI2MSwtMTAxODE1MzA5OS
-wtMTU0MzMwMzMzNiwxNzUxMTE2MTQ5LDgwNDEwODY0MywtMTk2
-MDk4MDc4LDEzNTY3NDg0MTUsLTE0MzcyNTQyOTEsLTEzNTQzOT
-UzMCwtNjA0ODYwNjQwLDEzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5
-MzUxMzk1NF19
+eyJoaXN0b3J5IjpbMzY2ODM5MjU1LDExNDIxNTI4ODEsMTIyMz
+AxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4MjY4
+MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgyNjQyNjEsLT
+EwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1MTExNjE0OSw4MDQx
+MDg2NDMsLTE5NjA5ODA3OCwxMzU2NzQ4NDE1LC0xNDM3MjU0Mj
+kxLC0xMzU0Mzk1MzAsLTYwNDg2MDY0MCwxMzM0NTQyNDMsLTk3
+NDI3OTczMl19
 -->
