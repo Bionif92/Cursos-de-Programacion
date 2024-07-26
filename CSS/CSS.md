@@ -348,16 +348,16 @@ Si el elemento es mas especifico, le da prioridad (usando clases)**
 
 **Se es mas especifico con un id que una clase**
 
-Si el estilo se lo damos en el htlm, esa es la ma
+**Si el estilo se lo damos en el htlm, esa es la máxima prioridad**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDE2MTc2NiwtNjk1MjkzODIxLDEwMz
-EwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4
-ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMT
-k4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgy
-NjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1MTExNj
-E0OSw4MDQxMDg2NDMsLTE5NjA5ODA3OCwxMzU2NzQ4NDE1LC0x
-NDM3MjU0MjkxXX0=
+eyJoaXN0b3J5IjpbNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMT
+A5MDMxNiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4
+MSwxMjIzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYwODc1LC0xOT
+g1ODgyNjgwLDE3NDkyNzk0NjgsMTMzNzg5OTAyMCwtMTMxODI2
+NDI2MSwtMTAxODE1MzA5OSwtMTU0MzMwMzMzNiwxNzUxMTE2MT
+Q5LDgwNDEwODY0MywtMTk2MDk4MDc4LDEzNTY3NDg0MTUsLTE0
+MzcyNTQyOTFdfQ==
 -->
