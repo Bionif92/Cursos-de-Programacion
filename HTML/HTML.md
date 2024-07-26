@@ -374,11 +374,14 @@ Atributos de estilo no se usan, se usa css
 ### HTML Semantico
 
 Etiqueta que da significado a lo que estamos armando
-Utilizar bien las r
+Utilizar bien las etiquetas para cada área, permite buena accesibilidad y para los motores de busqueda
+E
+`<section>`Secciones
+`<main>`seccion principal
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjkyMTI3NywxMDg4NDgxNjgsMTg3ND
+eyJoaXN0b3J5IjpbMTExNTU5NjY5OCwxMDg4NDgxNjgsMTg3ND
 c4MzEzLC0yMTM0NDc3NTUwLDExOTU4MzQ2NjcsLTkyNzgwNzA0
 MiwtMTQ0Nzc3OTg2MywtMTMxMjc2MjgyNywtMTM1OTA3OTY1MS
 wtMTE3MTAzMjE0MiwtMTEzOTgxNTUzMywtNjU3MjgyOTMzLDE1
