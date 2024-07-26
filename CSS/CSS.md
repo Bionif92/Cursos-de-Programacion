@@ -334,9 +334,11 @@ Hay propiedades que pueden heredarse de los padres
 
 Los elementos buscan en los elementos superiores ciertas propiedades
 
+`widht: inherit` // si queremos que herede cierta propiedad
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjUyMDMyOSwtNjU0ODIyMzA3LDExND
+eyJoaXN0b3J5IjpbLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExND
 IxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3
 NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLT
 EzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1
