@@ -335,14 +335,16 @@ Hay propiedades que pueden heredarse de los padres
 Los elementos buscan en los elementos superiores ciertas propiedades
 
 `widht: inherit` // si queremos que herede cierta propiedad
+`color:initial` // mantiene el de defecto
+`color:`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExND
-IxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3
-NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLT
-EzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1
-MTExNjE0OSw4MDQxMDg2NDMsLTE5NjA5ODA3OCwxMzU2NzQ4ND
-E1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1MzAsLTYwNDg2MDY0MCwx
-MzM0NTQyNDNdfQ==
+eyJoaXN0b3J5IjpbLTIwMDg1NTAzNjAsLTU2NzAxOTEzMywtNj
+U0ODIyMzA3LDExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2
+OTIzLDUyODY2MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LD
+EzMzc4OTkwMjAsLTEzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1
+NDMzMDMzMzYsMTc1MTExNjE0OSw4MDQxMDg2NDMsLTE5NjA5OD
+A3OCwxMzU2NzQ4NDE1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1MzAs
+LTYwNDg2MDY0MF19
 -->
