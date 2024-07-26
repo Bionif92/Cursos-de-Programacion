@@ -391,13 +391,15 @@ Chrome Box - Extension instalar y colocar contenido que la persona con discapaci
 
 Podes usar etiquetas de roles- buscar en internet
 
+Usando la funcion lighthouse de la consola, podemos ver que tan accesible es la pagina
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDY5MzQ4OCw2NTI2MTkzNCwtMTYxNj
+eyJoaXN0b3J5IjpbLTgwMzQyODYwNiw2NTI2MTkzNCwtMTYxNj
 k3Njk5OSwxMjgwMDY0MTU5LDEwODg0ODE2OCwxODc0NzgzMTMs
 LTIxMzQ0Nzc1NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQyLC0xND
 Q3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC0xMTcx
