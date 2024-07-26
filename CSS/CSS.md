@@ -299,8 +299,9 @@ li > strong { // si o si strong tiene que ser hijo de li
 
 }
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzQyMDEzMTQsMTQ3MTk1NjkyMyw1Mj
+eyJoaXN0b3J5IjpbLTE2Mjk2MzY2NjAsMTQ3MTk1NjkyMyw1Mj
 g2NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5
 MDIwLC0xMzE4MjY0MjYxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMz
 M2LDE3NTExMTYxNDksODA0MTA4NjQzLC0xOTYwOTgwNzgsMTM1
