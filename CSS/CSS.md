@@ -307,22 +307,22 @@ li > strong { // si o si strong tiene que ser hijo de li
 #### Selector Adyacente
 
 ````css
-h1 + p { // le da estilo a p que este despues de h1
+h1 + p { // le da estilo al primer p que este despues de h1
 }
 ````
 
 #### Selector hermanos generales
 
 ````css
-h1 + p { // le da estilo a p que este despues de h1
+h1 ~ p { // le da estilo a todos los p que este despues de h1
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyOD
-Y2MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkw
-MjAsLTEzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMz
-YsMTc1MTExNjE0OSw4MDQxMDg2NDMsLTE5NjA5ODA3OCwxMzU2
-NzQ4NDE1LC0xNDM3MjU0MjkxLC0xMzU0Mzk1MzAsLTYwNDg2MD
-Y0MCwxMzM0NTQyNDMsLTk3NDI3OTczMiwzOTM1MTM5NTQsLTE1
-ODA2MTYxODZdfQ==
+eyJoaXN0b3J5IjpbMTE0MjE1Mjg4MSwxMjIzMDEyNDEwLDE0Nz
+E5NTY5MjMsNTI4NjYwODc1LC0xOTg1ODgyNjgwLDE3NDkyNzk0
+NjgsMTMzNzg5OTAyMCwtMTMxODI2NDI2MSwtMTAxODE1MzA5OS
+wtMTU0MzMwMzMzNiwxNzUxMTE2MTQ5LDgwNDEwODY0MywtMTk2
+MDk4MDc4LDEzNTY3NDg0MTUsLTE0MzcyNTQyOTEsLTEzNTQzOT
+UzMCwtNjA0ODYwNjQwLDEzMzQ1NDI0MywtOTc0Mjc5NzMyLDM5
+MzUxMzk1NF19
 -->
