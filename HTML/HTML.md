@@ -389,17 +389,19 @@ Chrome Box - Extension instalar y colocar contenido que la persona con discapaci
 
 `aria label` atributo para que lea el contenido
 
+Podes usar etiquetas de roles- buscar en internet
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyNjE5MzQsLTE2MTY5NzY5OTksMTI4MD
-A2NDE1OSwxMDg4NDgxNjgsMTg3NDc4MzEzLC0yMTM0NDc3NTUw
-LDExOTU4MzQ2NjcsLTkyNzgwNzA0MiwtMTQ0Nzc3OTg2MywtMT
-MxMjc2MjgyNywtMTM1OTA3OTY1MSwtMTE3MTAzMjE0MiwtMTEz
-OTgxNTUzMywtNjU3MjgyOTMzLDE1MjQyNzYxNDQsMjAzMjEzOD
-I5NCwtMzk2NDcwNTIsLTEyOTE1ODk2NDAsMTI2NDE5OTg5Mywt
-ODgxMTg0NDY0XX0=
+eyJoaXN0b3J5IjpbMTI0MDY5MzQ4OCw2NTI2MTkzNCwtMTYxNj
+k3Njk5OSwxMjgwMDY0MTU5LDEwODg0ODE2OCwxODc0NzgzMTMs
+LTIxMzQ0Nzc1NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQyLC0xND
+Q3Nzc5ODYzLC0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC0xMTcx
+MDMyMTQyLC0xMTM5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3Nj
+E0NCwyMDMyMTM4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwx
+MjY0MTk5ODkzXX0=
 -->
