@@ -303,10 +303,18 @@ li > strong { // si o si strong tiene que ser hijo de li
 #### Comentario
 
 ````css
-/
+/* Comentario*/
+````
+
+#### Selector Adyacente
+
+````css
+li > strong { // si o si strong tiene que ser hijo de li
+
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTc0NDkzNywxNDcxOTU2OTIzLDUyOD
+eyJoaXN0b3J5IjpbLTM3OTc4MzI2NywxNDcxOTU2OTIzLDUyOD
 Y2MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkw
 MjAsLTEzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMz
 YsMTc1MTExNjE0OSw4MDQxMDg2NDMsLTE5NjA5ODA3OCwxMzU2
