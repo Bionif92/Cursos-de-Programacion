@@ -346,10 +346,12 @@ El orden en el que colocas las propiedades es importante
 **Si la especificidad es igual, la ultima propiedad es la que queda en el estilo
 Si el elemento es mas especifico, le da prioridad (usando clases)**
 
+**Se es mas especifico con un id que una clase**
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjU0NzU4OSwxMDMxMDkwMzE2LC01Nj
+eyJoaXN0b3J5IjpbLTY5NTI5MzgyMSwxMDMxMDkwMzE2LC01Nj
 cwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLDEyMjMwMTI0
 MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4ODI2ODAsMT
 c0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0MjYxLC0xMDE4
