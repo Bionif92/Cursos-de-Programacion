@@ -372,9 +372,15 @@ li:first-child { // busca el primer li
 `nth-child(n)` selecciona el elemento que queramos
 `nth-child(2n)` saltea de a uno, podes cambiar el primer valor
 `nth-of-type(n)`no tiene en cuenta otros hijos que no sean li en este caso, para la busqueda del elemento
-`not(.excluir)` selecciona todos menos el que tiene la clase exc
+`not(.excluir)` selecciona todos menos el que tiene la clase excluir
+
+````css
+div:empty { // solo a los ele
+	color: ;
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NTY3OTkxNSwtMTI5OTIxOTIzNiwtMT
+eyJoaXN0b3J5IjpbMTg4NTQzOTIyMiwtMTI5OTIxOTIzNiwtMT
 YzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1Mjkz
 ODIxLDEwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LD
 ExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2
