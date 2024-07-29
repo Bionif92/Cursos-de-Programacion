@@ -356,16 +356,21 @@ Si al valor de css, le anexamos al lado `!important` esta va a ser la maxima pri
 
 Seleccionar un estado especifico de un elemento que seleccionamos
 
+````css
+h1:hover { // el elemento cambia cundo el mouse esta encima
+	color: ;
+}
+````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk5OTkwMTU2LC0xNjM0NjcwNTQ4LDIwOD
-UzMDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMx
-NiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4MSwxMj
-IzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYwODc1LC0xOTg1ODgy
-NjgwLDE3NDkyNzk0NjgsMTMzNzg5OTAyMCwtMTMxODI2NDI2MS
-wtMTAxODE1MzA5OSwtMTU0MzMwMzMzNiwxNzUxMTE2MTQ5LDgw
-NDEwODY0M119
+eyJoaXN0b3J5IjpbLTU0NjQ3NzI4NCwtMTYzNDY3MDU0OCwyMD
+g1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAz
+MTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMT
+IyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4
+MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgyNjQyNj
+EsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1MTExNjE0OSw4
+MDQxMDg2NDNdfQ==
 -->
