@@ -522,12 +522,15 @@ Creas un modal con las clases
 Pones al modal position absolute y sale del flujo
 El contenido del modal, colocarlo en una caja para darle estilo
 Pones un background color black, width:100vw.height:100vh para que tenga contraste en toda la pagina
+Para el boton de cerrado del modal, poner la caja con position relative, y moverlo donde queremos
+
+Podes usar etiqueta dialog para 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDU1NTUyLC0xNTk1Nzg4NDYsMTA4MD
-E2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3
-NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MT
-ExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgw
-MTUsMTQwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLT
-E4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLTE2MzQ2
-NzA1NDhdfQ==
+eyJoaXN0b3J5IjpbLTEyMjYzNDEyMDUsLTE1OTU3ODg0NiwxMD
+gwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0
+ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLT
+kxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUw
+ODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MS
+wtMTgyMjQ4NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYz
+NDY3MDU0OF19
 -->
