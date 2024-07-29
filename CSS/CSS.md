@@ -521,8 +521,9 @@ Creas un modal con las clases
 
 Pones al modal position absolute y sale del flujo
 El contenido del modal, colocarlo en una caja para darle estilo
+Pones un background color black, width:100vw.height:100vh para que tenga contraste en toda la pagina
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzOTg3ODEzLC0xNTk1Nzg4NDYsMTA4MD
+eyJoaXN0b3J5IjpbMTMxNDU1NTUyLC0xNTk1Nzg4NDYsMTA4MD
 E2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3
 NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MT
 ExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgw
