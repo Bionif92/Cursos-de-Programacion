@@ -516,12 +516,14 @@ Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `pos
 **Si pones las cuatro posiciones en 0 y el margin en auto, el elemento se centra en el bloque**
 
 ### Ventanas Modal
+
+Creas un modal con las clases
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTU3ODg0NiwxMDgwMTYwMDc3LC05MT
-M2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0ODc0LDIwMzg2MjI1
-ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMTEwNjIyNywxNT
-UxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAxNSwxNDA0NTY0
-MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMTgyMjQ4NTk1LD
-g3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1
-MzA3ODA5XX0=
+eyJoaXN0b3J5IjpbLTgxMTI0NjUxNywtMTU5NTc4ODQ2LDEwOD
+AxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NTc0OTQ4
+NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4OCwtOT
+ExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMjM1NTA4
+MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2OTYxLC
+0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5MjM2LC0xNjM0
+NjcwNTQ4XX0=
 -->
