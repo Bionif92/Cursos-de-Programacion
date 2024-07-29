@@ -371,14 +371,14 @@ li:first-child { // busca el primer li
 `last-child`ultimo
 `nth-child(n)` selecciona el elemento que queramos
 `nth-child(2n)` saltea de a uno, podes cambiar el primer valor
-
+`nth-of-type(n)`no tiene en cuenta otros hijos que no sean li en este caso, para la busqueda del elemento
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTkyMTkyMzYsLTE2MzQ2NzA1NDgsMj
-A4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMxMDkw
-MzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLD
-EyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4
-ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0Mj
-YxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMzM2LDE3NTExMTYxNDks
-ODA0MTA4NjQzXX0=
+eyJoaXN0b3J5IjpbLTExMzgwMzYwNDIsLTEyOTkyMTkyMzYsLT
+E2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5
+MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNy
+wxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2
+NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5MD
+IwLC0xMzE4MjY0MjYxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMzM2
+LDE3NTExMTYxNDldfQ==
 -->
