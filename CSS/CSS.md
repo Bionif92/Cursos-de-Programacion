@@ -428,14 +428,14 @@ h1::first-letter { // selecciona la primera letra del h1
 }
 div::first-line // primera linea del div
 h1::selection // cuando lo seleccionas con el mouse 
-input::placeholder
+input::placeholder//modificarlo
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Njc0MjQ3MywxMjQ2MjI4NTE0LC03ND
-M2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTky
-MzYsLTE2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLT
-Y5NTI5MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgy
-MjMwNywxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMy
-w1Mjg2NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3
-ODk5MDIwXX0=
+eyJoaXN0b3J5IjpbLTgxNTU4NzU4LDEyNDYyMjg1MTQsLTc0Mz
+Y3Njk2MSwtMTgyMjQ4NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIz
+NiwtMTYzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNj
+k1MjkzODIxLDEwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIy
+MzA3LDExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLD
+UyODY2MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4
+OTkwMjBdfQ==
 -->
