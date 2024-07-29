@@ -375,12 +375,18 @@ li:first-child { // busca el primer li
 `not(.excluir)` selecciona todos menos el que tiene la clase excluir
 
 ````css
-div:empty { // solo a los ele
-	color: ;
+div:empty { // solo a los elementos vacios
+	background-color: ;
+}
+````
+
+````css
+:roo { // solo a los elementos vacios
+	background-color: ;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTQzOTIyMiwtMTI5OTIxOTIzNiwtMT
+eyJoaXN0b3J5IjpbLTg4NjEzMzM1MywtMTI5OTIxOTIzNiwtMT
 YzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1Mjkz
 ODIxLDEwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LD
 ExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2
