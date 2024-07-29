@@ -486,12 +486,14 @@ En una tabla, tiene un `display:table-cell` por defecto
 La funcion `display:inline-block` tiene las propiedades para modificar en bloque, viendose todos en una  misma linea
 
 `display:none` no ocupa espacio en la pagina y no se ve
+
+### Posición relativa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4Mj
-gxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIw
-OTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNz
-QzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5
-MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC
-02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NTQ4
-MjIzMDddfQ==
+eyJoaXN0b3J5IjpbLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1Nz
+YyNjI3NTUsMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4
+MTgsLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMT
+I0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1
+MzA4LC0xMjk5MjE5MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4MD
+ksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNTY3
+MDE5MTMzXX0=
 -->
