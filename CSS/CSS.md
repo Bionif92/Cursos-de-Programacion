@@ -430,13 +430,15 @@ div::first-line // primera linea del div
 h1::selection // cuando lo seleccionas con el mouse 
 input::placeholder//modificarlo
 li::marker// cambia los puntitos de la li
+li::before // podes poner un contenido extra entre el punto y el contenido de la lista
+li::after// lo mismo que el anterior pero para despues
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjczODE5NywxMjQ2MjI4NTE0LC03ND
-M2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTky
-MzYsLTE2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLT
-Y5NTI5MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgy
-MjMwNywxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMy
-w1Mjg2NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3
-ODk5MDIwXX0=
+eyJoaXN0b3J5IjpbLTIwNDA5MTgzODUsMTI0NjIyODUxNCwtNz
+QzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5
+MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC
+02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NTQ4
+MjIzMDcsMTE0MjE1Mjg4MSwxMjIzMDEyNDEwLDE0NzE5NTY5Mj
+MsNTI4NjYwODc1LC0xOTg1ODgyNjgwLDE3NDkyNzk0NjgsMTMz
+Nzg5OTAyMF19
 -->
