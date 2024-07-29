@@ -488,12 +488,19 @@ La funcion `display:inline-block` tiene las propiedades para modificar en bloque
 `display:none` no ocupa espacio en la pagina y no se ve
 
 ### Posición relativa
+
+Los objetos tienen `position:static` como predefinida
+````css
+.box { 
+	position:relative;
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1Nz
-YyNjI3NTUsMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4
-MTgsLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMT
-I0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1
-MzA4LC0xMjk5MjE5MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4MD
-ksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNTY3
-MDE5MTMzXX0=
+eyJoaXN0b3J5IjpbNzY0NzA2MjI1LC0xNDU3NDk0ODc0LDIwMz
+g2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMTEwNjIy
+NywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAxNSwxND
+A0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMTgyMjQ4
+NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OC
+wyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEw
+OTAzMTZdfQ==
 -->
