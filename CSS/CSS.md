@@ -504,15 +504,15 @@ Nueva propiedad: `z-index` pones en valores de a 10, la box en 10 y el elemento 
 
 ````css
 .box--blue{ 
-	position:relative;// haces que el bloque sea el punto de referencia, para mover los elementos internos
+	position:absolute;// lo primero que hace es no acupar lugar en la pagina
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg4NTkyMTM0LDEyNDIwNTMwMjAsLTE0NT
-c0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4
-OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMj
-M1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2
-OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5MjM2LC
-0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC02OTUy
-OTM4MjFdfQ==
+eyJoaXN0b3J5IjpbLTM2MDMwNDIwNCwxMjQyMDUzMDIwLC0xND
+U3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUx
+ODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LD
+IzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3
+Njk2MSwtMTgyMjQ4NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNi
+wtMTYzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1
+MjkzODIxXX0=
 -->
