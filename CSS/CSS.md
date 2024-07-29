@@ -433,8 +433,12 @@ li::marker// cambia los puntitos de la li
 li::before // podes poner un contenido extra entre el punto y el contenido de la lista
 li::after// lo mismo que el anterior pero para despues
 ````
+
+### Metodología BEM
+
+Block Element Modifie
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDA5MTgzODUsMTI0NjIyODUxNCwtNz
+eyJoaXN0b3J5IjpbLTE0ODg4MzkzMTAsMTI0NjIyODUxNCwtNz
 QzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5
 MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC
 02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NTQ4
