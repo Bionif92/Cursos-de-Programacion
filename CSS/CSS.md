@@ -499,12 +499,16 @@ Permite las cuatro propiedades: top, bottom, left, right para los otros elemento
 Prioridad a left contra right
 Prioridad a top contra bottom
 Nueva propiedad: `z-index` pones en valores de a 10, la box en 10 y el elemento que queres mandar adelante, valor de 20
+
+### Posición Absoluta
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMD
-M4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYy
-MjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMT
-QwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0
-ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLTE2MzQ2NzA1ND
-gsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMx
-MDkwMzE2XX0=
+eyJoaXN0b3J5IjpbLTI3ODc5ODQ4LDEyNDIwNTMwMjAsLTE0NT
+c0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4
+OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMj
+M1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2
+OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5MjM2LC
+0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC02OTUy
+OTM4MjFdfQ==
 -->
