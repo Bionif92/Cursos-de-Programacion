@@ -492,7 +492,7 @@ La funcion `display:inline-block` tiene las propiedades para modificar en bloque
 Los objetos tienen `position:static` como predefinida
 ````css
 .box { 
-	position:relative;// haces que el bloque sea el punto de referencia, para mover los elementos internos
+	position:relative;// permite mover el elemento desde su posicion original, a una relativa a ese punto
 }
 ````
 Permite las cuatro propiedades: top, bottom, left, right para los otros elementos
@@ -515,11 +515,11 @@ Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `pos
 
 **Si pones las cuatro posiciones en 0 y el margin en auto, el elemento se centra en el bloque**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NT
-c0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4
-OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMj
-M1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2
-OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5MjM2LC
-0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC02OTUy
-OTM4MjFdfQ==
+eyJoaXN0b3J5IjpbMTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0Mj
+A1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1
+NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0MzgxOCwtMT
+c2ODE5MjA5OSwyMzU1MDgwMTUsMTQwNDU2NDAwNSwxMjQ2MjI4
+NTE0LC03NDM2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLT
+EyOTkyMTkyMzYsLTE2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1
+OTU2MDldfQ==
 -->
