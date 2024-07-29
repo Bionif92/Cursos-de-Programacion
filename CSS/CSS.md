@@ -454,12 +454,20 @@ Elemento: `class='lista__item item--importante'`
 .item--importante {// el item especifico
 }
 ````
+
+Si hay mas listas y queremos modificar una puntual:
+`class=lista lista--vieja` y en css:
+
+````css
+.lista--vieja {// cambia toda esa lista elegida
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MD
-Q1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1
-OTUsODc5OTE1MzA4LC0xMjk5MjE5MjM2LC0xNjM0NjcwNTQ4LD
-IwODUzMDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5
-MDMxNiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4MS
-wxMjIzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYwODc1LC0xOTg1
-ODgyNjgwXX0=
+eyJoaXN0b3J5IjpbMTU1ODk3NDE2NSwtMTc2ODE5MjA5OSwyMz
+U1MDgwMTUsMTQwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5
+NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLT
+E2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5
+MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNy
+wxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2
+NjA4NzVdfQ==
 -->
