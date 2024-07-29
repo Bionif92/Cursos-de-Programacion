@@ -495,13 +495,15 @@ Los objetos tienen `position:static` como predefinida
 	position:relative;// haces que el elemento sea el punto de vista, para mover otros elementos
 }
 ````
-Permite las cuatro propiedades:top,bottom,left,right para los otros elementos
+Permite las cuatro propiedades: top, bottom, left, right para los otros elementos
+Prioridad a left contra right
+Prioridad a top contra bottom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMDAyNjM4MiwtMTQ1NzQ5NDg3NCwyMD
-M4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYy
-MjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMT
-QwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0
-ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLTE2MzQ2NzA1ND
-gsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMx
-MDkwMzE2XX0=
+eyJoaXN0b3J5IjpbMzA4OTQ4ODI5LC0xNDU3NDk0ODc0LDIwMz
+g2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMTEwNjIy
+NywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAxNSwxND
+A0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMTgyMjQ4
+NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OC
+wyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEw
+OTAzMTZdfQ==
 -->
