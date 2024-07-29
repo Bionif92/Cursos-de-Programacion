@@ -405,8 +405,12 @@ input:valid { // si es valido el input
 }
 input:invalid// si es invalido
 ````
+
+#### Is, Where y Has
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1NzM0OTEzLC0xODIyNDg1OTUsODc5OT
+eyJoaXN0b3J5IjpbMTAxMzE1OTMzLC0xODIyNDg1OTUsODc5OT
 E1MzA4LC0xMjk5MjE5MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4
 MDksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNT
 Y3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4MSwxMjIzMDEy
