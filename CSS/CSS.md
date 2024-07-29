@@ -473,8 +473,15 @@ a {
 }
 ````
 Convetimos elemento de linea`a` en uno de bloque
+
+````css
+p { //dos p uno al lado del otro
+	display:inline// los pone en la misma linea
+}
+````
+padding y margin solo funcionan horizontalmente en elementos en línea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDE4Mzc4NywxNTUxMjQzODE4LC0xNz
+eyJoaXN0b3J5IjpbLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNz
 Y4MTkyMDk5LDIzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1
 MTQsLTc0MzY3Njk2MSwtMTgyMjQ4NTk1LDg3OTkxNTMwOCwtMT
 I5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5
