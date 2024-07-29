@@ -505,11 +505,13 @@ Nueva propiedad: `z-index` pones en valores de a 10, la box en 10 y el elemento 
 ````css
 .box--blue{ 
 	position:absolute;// lo primero que hace es no acupar lugar en la pagina
-
+damos los valores desde el punto arriba a la izquierda de la ventana para posicionar
 }
 ````
+
+Para que los ceros
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NTA1ODkzOCwxMjQyMDUzMDIwLC0xND
+eyJoaXN0b3J5IjpbLTczNjkzMjI0OCwxMjQyMDUzMDIwLC0xND
 U3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUx
 ODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LD
 IzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3
