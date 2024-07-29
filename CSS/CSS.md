@@ -509,17 +509,17 @@ damos los valores desde el punto arriba a la izquierda de la ventana para posici
 }
 ````
 
-Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `position:relative`
+Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `position:relative`, pero solo sirve si es un hijo
 
 **Si pones bottom:0, arranca desde el bottom de la caja, importante ya que no es igual al movimiento de la posicion relativa del punto anterior**
 
 **Si pones las cuatro posiciones en 0 y el margin en auto, el elemento se centra en el bloque**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0Mj
-A1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1
-NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0MzgxOCwtMT
-c2ODE5MjA5OSwyMzU1MDgwMTUsMTQwNDU2NDAwNSwxMjQ2MjI4
-NTE0LC03NDM2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLT
-EyOTkyMTkyMzYsLTE2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1
-OTU2MDldfQ==
+eyJoaXN0b3J5IjpbMjA0ODM5Nzc5NiwxMDgwMTYwMDc3LC05MT
+M2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0ODc0LDIwMzg2MjI1
+ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMTEwNjIyNywxNT
+UxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAxNSwxNDA0NTY0
+MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMTgyMjQ4NTk1LD
+g3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1
+MzA3ODA5XX0=
 -->
