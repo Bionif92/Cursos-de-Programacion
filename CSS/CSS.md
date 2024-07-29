@@ -512,8 +512,10 @@ damos los valores desde el punto arriba a la izquierda de la ventana para posici
 Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `position:relative`
 
 **Si pones bottom:0, arranca desde el bottom de la caja, importante ya que no es igual al movimiento de la posicion relativa del punto anterior**
+
+**Si pones las cuatro posiciones en 0 y el margin en auto, el elemento se centra en el bloque**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxOTUxMDc4LDEyNDIwNTMwMjAsLTE0NT
+eyJoaXN0b3J5IjpbLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NT
 c0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4
 OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMj
 M1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2
