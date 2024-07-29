@@ -498,8 +498,9 @@ Los objetos tienen `position:static` como predefinida
 Permite las cuatro propiedades: top, bottom, left, right para los otros elementos
 Prioridad a left contra right
 Prioridad a top contra bottom
+Nueva propiedad: `z`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTUzNTM1MiwtMTQ1NzQ5NDg3NCwyMD
+eyJoaXN0b3J5IjpbMTM2NTI2Mzg0NywtMTQ1NzQ5NDg3NCwyMD
 M4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYy
 MjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMT
 QwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0
