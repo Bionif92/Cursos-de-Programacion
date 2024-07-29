@@ -412,14 +412,15 @@ input:invalid// si es invalido
 section:is(.elemento1, .elemento2, .elemento3) { // agrupa los elementos dentro de uno que lo contiene
 	color: ;
 }
+where da la misma especificidad que el elemento, is da una arriba
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDQ3NTIzMSwtMTgyMjQ4NTk1LDg3OT
-kxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1MzA3
-ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAzMTYsLT
-U2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMTIyMzAx
-MjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4MjY4MC
-wxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgyNjQyNjEsLTEw
-MTgxNTMwOTldfQ==
+eyJoaXN0b3J5IjpbLTE1OTU4MTYwMTMsLTE4MjI0ODU5NSw4Nz
+k5MTUzMDgsLTEyOTkyMTkyMzYsLTE2MzQ2NzA1NDgsMjA4NTMw
+NzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMxMDkwMzE2LC
+01NjcwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLDEyMjMw
+MTI0MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4ODI2OD
+AsMTc0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0MjYxLC0x
+MDE4MTUzMDk5XX0=
 -->
