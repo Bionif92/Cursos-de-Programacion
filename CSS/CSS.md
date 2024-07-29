@@ -510,8 +510,10 @@ damos los valores desde el punto arriba a la izquierda de la ventana para posici
 ````
 
 Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `position:relative`
+
+Si pones bottom:0, arranca desde el bottom de la caja, importante ya que no es igual al movimiento de la posicion relativa del punto 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NTA3ODA3MCwxMjQyMDUzMDIwLC0xND
+eyJoaXN0b3J5IjpbMTY1MjYxNjA5NCwxMjQyMDUzMDIwLC0xND
 U3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUx
 ODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LD
 IzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3
