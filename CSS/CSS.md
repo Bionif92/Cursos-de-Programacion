@@ -484,12 +484,14 @@ padding y margin solo funcionan horizontalmente en elementos en línea
 En una tabla, tiene un `display:table-cell` por defecto
 
 La funcion `display:inline-block` tiene las propiedades para modificar en bloque, viendose todos en una  misma linea
+
+`display:none` no ocupa espacio en la pagina y no se ve
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMT
-EwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAx
-NSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMT
-gyMjQ4NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3
-MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLD
-EwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIx
-NTI4ODFdfQ==
+eyJoaXN0b3J5IjpbMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4Mj
+gxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIw
+OTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNz
+QzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5
+MjM2LC0xNjM0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC
+02OTUyOTM4MjEsMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NTQ4
+MjIzMDddfQ==
 -->
