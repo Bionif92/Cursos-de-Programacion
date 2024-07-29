@@ -381,16 +381,22 @@ div:empty { // solo a los elementos vacios
 ````
 
 ````css
-:roo { // solo a los elementos vacios
-	background-color: ;
+:root { // selecciona a los elementos raiz
+	color: ;
+}
+````
+
+````css
+input[type='checkbox'] { // selecciona a los elementos raiz
+	color: ;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjEzMzM1MywtMTI5OTIxOTIzNiwtMT
-YzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1Mjkz
-ODIxLDEwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LD
-ExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2
-MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMj
-AsLTEzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYs
-MTc1MTExNjE0OV19
+eyJoaXN0b3J5IjpbOTQ2MzU3MzMwLC0xMjk5MjE5MjM2LC0xNj
+M0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4
+MjEsMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMT
+E0MjE1Mjg4MSwxMjIzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYw
+ODc1LC0xOTg1ODgyNjgwLDE3NDkyNzk0NjgsMTMzNzg5OTAyMC
+wtMTMxODI2NDI2MSwtMTAxODE1MzA5OSwtMTU0MzMwMzMzNiwx
+NzUxMTE2MTQ5XX0=
 -->
