@@ -415,14 +415,15 @@ section:is(.elemento1, .elemento2, .elemento3) { // agrupa los elementos dentro 
 where da la misma especificidad que el elemento, is da una arriba
 section:has (.elemento1)// modifica el elemento si lo tiene
 ul:has(+div) // seleccionamos el ul que tiene un div a continuacion
+label:has(input:valid)// le da estilo al label que tiene la condicion
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzY3Njk2MSwtMTgyMjQ4NTk1LDg3OT
-kxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1MzA3
-ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAzMTYsLT
-U2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMTIyMzAx
-MjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4MjY4MC
-wxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgyNjQyNjEsLTEw
-MTgxNTMwOTldfQ==
+eyJoaXN0b3J5IjpbLTE4NjM2NjQ1NTYsLTc0MzY3Njk2MSwtMT
+gyMjQ4NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3
+MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLD
+EwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIx
+NTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NS
+wtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEz
+MTgyNjQyNjFdfQ==
 -->
