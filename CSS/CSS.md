@@ -525,12 +525,16 @@ Pones un background color black, width:100vw.height:100vh para que tenga contras
 Para el boton de cerrado del modal, poner la caja con position relative, y moverlo donde queremos
 
 **Podes usar etiqueta dialog para abrir y cerrar el modal sin necesidad de programar en js -- ver en internet**
+
+**Ver dialog:backdrop tambien**
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwODYzNDU2LC0xNTk1Nzg4NDYsMTA4MD
-E2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3
-NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MT
-ExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgw
-MTUsMTQwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLT
-E4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLTE2MzQ2
-NzA1NDhdfQ==
+eyJoaXN0b3J5IjpbLTE2OTM4ODEzMiwtMTU5NTc4ODQ2LDEwOD
+AxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NTc0OTQ4
+NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4OCwtOT
+ExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMjM1NTA4
+MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2OTYxLC
+0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5MjM2LC0xNjM0
+NjcwNTQ4XX0=
 -->
