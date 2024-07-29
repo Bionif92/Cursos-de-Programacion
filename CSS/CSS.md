@@ -414,10 +414,11 @@ section:is(.elemento1, .elemento2, .elemento3) { // agrupa los elementos dentro 
 }
 where da la misma especificidad que el elemento, is da una arriba
 section:has (.elemento1)// modifica el elemento si lo tiene
+ul:has(+div) // seleccionamos el ul que tiene un div a continuacion
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDUzNzMyOSwtMTgyMjQ4NTk1LDg3OT
+eyJoaXN0b3J5IjpbLTc0MzY3Njk2MSwtMTgyMjQ4NTk1LDg3OT
 kxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1MzA3
 ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAzMTYsLT
 U2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMTIyMzAx
