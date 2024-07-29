@@ -444,13 +444,14 @@ Bloque: componente de pagina que podemos reutilizar (barra de navegacion, formul
 
 Elemento: parte de un bloque (iconos)
 
-Ej: Bloque: cl
+Ej: Bloque: `class='lista'`
+Elemento: `class='lista__item item--importante'`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjgzMDEzMywyMzU1MDgwMTUsMTQwND
-U2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0ODU5
-NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLTE2MzQ2NzA1NDgsMj
-A4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMxMDkw
-MzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLD
-EyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4
-ODI2ODBdfQ==
+eyJoaXN0b3J5IjpbLTE3MDE3NDE4LDIzNTUwODAxNSwxNDA0NT
+Y0MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMTgyMjQ4NTk1
+LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMD
+g1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAz
+MTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMT
+IyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4
+MjY4MF19
 -->
