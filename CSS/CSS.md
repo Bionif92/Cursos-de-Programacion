@@ -387,12 +387,12 @@ div:empty { // solo a los elementos vacios
 ````
 
 ````css
-input[type='checkbox'] { // selecciona a los elementos raiz
+input[type='checkbox']:checked { // si esta chequeado da este estilo
 	color: ;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2MzU3MzMwLC0xMjk5MjE5MjM2LC0xNj
+eyJoaXN0b3J5IjpbODc5OTE1MzA4LC0xMjk5MjE5MjM2LC0xNj
 M0NjcwNTQ4LDIwODUzMDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4
 MjEsMTAzMTA5MDMxNiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMT
 E0MjE1Mjg4MSwxMjIzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYw
