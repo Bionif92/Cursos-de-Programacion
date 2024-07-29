@@ -514,8 +514,10 @@ Para que los ceros no sean en la ventana y si en la caja, ponemos a la caja `pos
 **Si pones bottom:0, arranca desde el bottom de la caja, importante ya que no es igual al movimiento de la posicion relativa del punto anterior**
 
 **Si pones las cuatro posiciones en 0 y el margin en auto, el elemento se centra en el bloque**
+
+### Ventanas Modal
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0ODM5Nzc5NiwxMDgwMTYwMDc3LC05MT
+eyJoaXN0b3J5IjpbLTE1OTU3ODg0NiwxMDgwMTYwMDc3LC05MT
 M2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0ODc0LDIwMzg2MjI1
 ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMTEwNjIyNywxNT
 UxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAxNSwxNDA0NTY0
