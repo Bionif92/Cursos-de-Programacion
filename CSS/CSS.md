@@ -528,9 +528,9 @@ Para el boton de cerrado del modal, poner la caja con position relative, y mover
 
 **Ver dialog:backdrop tambien**
 
-### 
+### Posición Fixed y Sticky
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM4ODEzMiwtMTU5NTc4ODQ2LDEwOD
+eyJoaXN0b3J5IjpbMTgzMzEwNDk0NiwtMTU5NTc4ODQ2LDEwOD
 AxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NTc0OTQ4
 NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4OCwtOT
 ExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMjM1NTA4
