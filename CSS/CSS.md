@@ -369,11 +369,12 @@ li:first-child { // busca el primer li
 }
 ````
 `last-child`ultimo
+`nth-child(numero)` selecciona el elemento que queramos
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjY1MjA4MiwtMTYzNDY3MDU0OCwyMD
+eyJoaXN0b3J5IjpbLTM5MzUyMjA2NiwtMTYzNDY3MDU0OCwyMD
 g1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAz
 MTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMT
 IyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4
