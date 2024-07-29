@@ -482,12 +482,14 @@ p { //dos p uno al lado del otro
 padding y margin solo funcionan horizontalmente en elementos en línea
 
 En una tabla, tiene un `display:table-cell` por defecto
+
+La funcion `display:inline-block` tiene las propiedades para modificar en bloque, viendose todos en una  misma linea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NT
-EyNDM4MTgsLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQw
-MDUsMTI0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1OTUsOD
-c5OTE1MzA4LC0xMjk5MjE5MjM2LC0xNjM0NjcwNTQ4LDIwODUz
-MDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMxNi
-wtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4MSwxMjIz
-MDEyNDEwXX0=
+eyJoaXN0b3J5IjpbNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMT
+EwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUwODAx
+NSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3Njk2MSwtMT
+gyMjQ4NTk1LDg3OTkxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3
+MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLD
+EwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIx
+NTI4ODFdfQ==
 -->
