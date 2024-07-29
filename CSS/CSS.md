@@ -369,16 +369,16 @@ li:first-child { // busca el primer li
 }
 ````
 `last-child`ultimo
-`nth-child(numero)` selecciona el elemento que queramos
-
+`nth-child(n)` selecciona el elemento que queramos
+`nth-child(2n)` saltea de a uno, podes cambiar el primer valor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzUyMjA2NiwtMTYzNDY3MDU0OCwyMD
-g1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAz
-MTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMT
-IyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4
-MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgyNjQyNj
-EsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1MTExNjE0OSw4
-MDQxMDg2NDNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTkyMTkyMzYsLTE2MzQ2NzA1NDgsMj
+A4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMxMDkw
+MzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLD
+EyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4
+ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0Mj
+YxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMzM2LDE3NTExMTYxNDks
+ODA0MTA4NjQzXX0=
 -->
