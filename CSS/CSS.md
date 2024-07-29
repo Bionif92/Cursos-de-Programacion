@@ -364,19 +364,20 @@ h1:hover { // el elemento cambia cundo el mouse esta encima
 `active` cuando se hace clic sobre el elemento
 
 ````css
-h1:hover { // el elemento cambia cundo el mouse esta encima
+li:first-child { // busca el primer li
 	color: ;
 }
 ````
+`last-child`ultimo
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4MTM0ODMzLC0xNjM0NjcwNTQ4LDIwOD
-UzMDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMx
-NiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4MSwxMj
-IzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYwODc1LC0xOTg1ODgy
-NjgwLDE3NDkyNzk0NjgsMTMzNzg5OTAyMCwtMTMxODI2NDI2MS
-wtMTAxODE1MzA5OSwtMTU0MzMwMzMzNiwxNzUxMTE2MTQ5LDgw
-NDEwODY0M119
+eyJoaXN0b3J5IjpbMTYwNjY1MjA4MiwtMTYzNDY3MDU0OCwyMD
+g1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAz
+MTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMT
+IyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2MDg3NSwtMTk4NTg4
+MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMjAsLTEzMTgyNjQyNj
+EsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYsMTc1MTExNjE0OSw4
+MDQxMDg2NDNdfQ==
 -->
