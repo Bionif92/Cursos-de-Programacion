@@ -409,14 +409,13 @@ input:invalid// si es invalido
 #### Is, Where y Has
 
 ````css
-section:is(.elemento1, .elemento2, .elemento3) { // si es valido el input
+section:is(.elemento1, .elemento2, .elemento3) { // agrupa los elementos dentro de uno que lo contiene
 	color: ;
 }
-
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNDk5MzQ1MywtMTgyMjQ4NTk1LDg3OT
+eyJoaXN0b3J5IjpbMjA3NDQ3NTIzMSwtMTgyMjQ4NTk1LDg3OT
 kxNTMwOCwtMTI5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1MzA3
 ODA5LDQ0NDU5NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAzMTYsLT
 U2NzAxOTEzMywtNjU0ODIyMzA3LDExNDIxNTI4ODEsMTIyMzAx
