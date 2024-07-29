@@ -464,12 +464,20 @@ Si hay mas listas y queremos modificar una puntual, colocamos clase modificadora
 ````
 
 ### Display
+
+Tenemos dos `<a>`uno al lado del otro:
+
+````css
+a {
+	display:block;//
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMz
-U1MDgwMTUsMTQwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5
-NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTkyMTkyMzYsLT
-E2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5
-MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNy
-wxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2
-NjA4NzVdfQ==
+eyJoaXN0b3J5IjpbLTk3OTE0MzkzNCwxNTUxMjQzODE4LC0xNz
+Y4MTkyMDk5LDIzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1
+MTQsLTc0MzY3Njk2MSwtMTgyMjQ4NTk1LDg3OTkxNTMwOCwtMT
+I5OTIxOTIzNiwtMTYzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5
+NTYwOSwtNjk1MjkzODIxLDEwMzEwOTAzMTYsLTU2NzAxOTEzMy
+wtNjU0ODIyMzA3LDExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcx
+OTU2OTIzXX0=
 -->
