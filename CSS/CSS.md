@@ -498,9 +498,9 @@ Los objetos tienen `position:static` como predefinida
 Permite las cuatro propiedades: top, bottom, left, right para los otros elementos
 Prioridad a left contra right
 Prioridad a top contra bottom
-Nueva propiedad: `z`
+Nueva propiedad: `z-index` pones en valores de a 10, la box en 10 y el elemento que queres mandar adelante, valor de 20
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTI2Mzg0NywtMTQ1NzQ5NDg3NCwyMD
+eyJoaXN0b3J5IjpbMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMD
 M4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYy
 MjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMT
 QwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0
