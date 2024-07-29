@@ -363,15 +363,20 @@ h1:hover { // el elemento cambia cundo el mouse esta encima
 ````
 `active` cuando se hace clic sobre el elemento
 
+````css
+h1:hover { // el elemento cambia cundo el mouse esta encima
+	color: ;
+}
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MTkzODcsLTE2MzQ2NzA1NDgsMjA4NT
-MwNzgwOSw0NDQ1OTU2MDksLTY5NTI5MzgyMSwxMDMxMDkwMzE2
-LC01NjcwMTkxMzMsLTY1NDgyMjMwNywxMTQyMTUyODgxLDEyMj
-MwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2NjA4NzUsLTE5ODU4ODI2
-ODAsMTc0OTI3OTQ2OCwxMzM3ODk5MDIwLC0xMzE4MjY0MjYxLC
-0xMDE4MTUzMDk5LC0xNTQzMzAzMzM2LDE3NTExMTYxNDksODA0
-MTA4NjQzXX0=
+eyJoaXN0b3J5IjpbMzI4MTM0ODMzLC0xNjM0NjcwNTQ4LDIwOD
+UzMDc4MDksNDQ0NTk1NjA5LC02OTUyOTM4MjEsMTAzMTA5MDMx
+NiwtNTY3MDE5MTMzLC02NTQ4MjIzMDcsMTE0MjE1Mjg4MSwxMj
+IzMDEyNDEwLDE0NzE5NTY5MjMsNTI4NjYwODc1LC0xOTg1ODgy
+NjgwLDE3NDkyNzk0NjgsMTMzNzg5OTAyMCwtMTMxODI2NDI2MS
+wtMTAxODE1MzA5OSwtMTU0MzMwMzMzNiwxNzUxMTE2MTQ5LDgw
+NDEwODY0M119
 -->
