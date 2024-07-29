@@ -372,13 +372,13 @@ li:first-child { // busca el primer li
 `nth-child(n)` selecciona el elemento que queramos
 `nth-child(2n)` saltea de a uno, podes cambiar el primer valor
 `nth-of-type(n)`no tiene en cuenta otros hijos que no sean li en este caso, para la busqueda del elemento
-
+`not(.excluir)` selecciona todos menos el que tiene la clase exc
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgwMzYwNDIsLTEyOTkyMTkyMzYsLT
-E2MzQ2NzA1NDgsMjA4NTMwNzgwOSw0NDQ1OTU2MDksLTY5NTI5
-MzgyMSwxMDMxMDkwMzE2LC01NjcwMTkxMzMsLTY1NDgyMjMwNy
-wxMTQyMTUyODgxLDEyMjMwMTI0MTAsMTQ3MTk1NjkyMyw1Mjg2
-NjA4NzUsLTE5ODU4ODI2ODAsMTc0OTI3OTQ2OCwxMzM3ODk5MD
-IwLC0xMzE4MjY0MjYxLC0xMDE4MTUzMDk5LC0xNTQzMzAzMzM2
-LDE3NTExMTYxNDldfQ==
+eyJoaXN0b3J5IjpbMjA2NTY3OTkxNSwtMTI5OTIxOTIzNiwtMT
+YzNDY3MDU0OCwyMDg1MzA3ODA5LDQ0NDU5NTYwOSwtNjk1Mjkz
+ODIxLDEwMzEwOTAzMTYsLTU2NzAxOTEzMywtNjU0ODIyMzA3LD
+ExNDIxNTI4ODEsMTIyMzAxMjQxMCwxNDcxOTU2OTIzLDUyODY2
+MDg3NSwtMTk4NTg4MjY4MCwxNzQ5Mjc5NDY4LDEzMzc4OTkwMj
+AsLTEzMTgyNjQyNjEsLTEwMTgxNTMwOTksLTE1NDMzMDMzMzYs
+MTc1MTExNjE0OV19
 -->
