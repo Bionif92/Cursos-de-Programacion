@@ -492,11 +492,12 @@ La funcion `display:inline-block` tiene las propiedades para modificar en bloque
 Los objetos tienen `position:static` como predefinida
 ````css
 .box { 
-	position:relative;// haces 
+	position:relative;// haces que el elemento sea el punto de vista, para mover otros elementos
 }
 ````
+Permite las cuatro propiedades:top,bottom,left,right para los otros elementos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTg3Mzc0NSwtMTQ1NzQ5NDg3NCwyMD
+eyJoaXN0b3J5IjpbMTAwMDAyNjM4MiwtMTQ1NzQ5NDg3NCwyMD
 M4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYy
 MjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMT
 QwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0
