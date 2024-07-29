@@ -502,9 +502,13 @@ Nueva propiedad: `z-index` pones en valores de a 10, la box en 10 y el elemento 
 
 ### Posición Absoluta
 
-
+````css
+.box--blue{ 
+	position:relative;// haces que el bloque sea el punto de referencia, para mover los elementos internos
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODc5ODQ4LDEyNDIwNTMwMjAsLTE0NT
+eyJoaXN0b3J5IjpbOTg4NTkyMTM0LDEyNDIwNTMwMjAsLTE0NT
 c0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4
 OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMj
 M1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2
