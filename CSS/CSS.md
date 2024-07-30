@@ -627,8 +627,11 @@ Entre el margin y los bordes estan los contornos, no ocupa espacio
 }
 ````
 Si queremos dar un borde por encima del borde cuando pasamos por arriba con el mouse, usamos esta propiedad con `hover`
+
+En los input aparece por defecto cuando pasamor por arriba del mouse. Para sacarlo:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NzEyNzcxMCwxNTMyNzc3MjY1LDE1Nz
+eyJoaXN0b3J5IjpbMjAxODg0ODY4MSwxNTMyNzc3MjY1LDE1Nz
 k0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcw
 NjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOS
 wxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3
