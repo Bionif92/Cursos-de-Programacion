@@ -539,9 +539,11 @@ Para el boton de cerrado del modal, poner la caja con position relative, y mover
 
 ### Transiciones 
 
+Gradual la transición de un estado a otro en un elemento
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTU5MzAzNSwyNjM4MDIxMSwxODMzMT
+eyJoaXN0b3J5IjpbMTkxMjU4Njg3MCwyNjM4MDIxMSwxODMzMT
 A0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3NzUs
 MTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3Nj
 I2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0Mzgx
