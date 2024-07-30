@@ -772,11 +772,11 @@ Flex item son los **hijos directos** del contenedor
 }
 
 .flex-items {
-	flex-grow: 1;//defecto en 0, le dice que del espacio disponible ocupar todo el espacio. Si a otro elemento l
+	flex-grow: 1;//defecto en 0, le dice que del espacio disponible ocupar todo el espacio. Si a otro elemento le coloco 2, le da el doble de espacio que a los otros elementos
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MTkyMTA3NSwxMjM5NDY5ODM2LC0xNz
+eyJoaXN0b3J5IjpbMTg0OTMyNDQyMiwxMjM5NDY5ODM2LC0xNz
 g2MzM1MTUxLDg0NzQ5NTkwOCwyMDMxNTkwODQwLDgyODI2Njgs
 LTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5MSwxNj
 I0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIz
