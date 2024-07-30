@@ -729,12 +729,24 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 ````
 
 ### Alineación en los ejes
+
+````css
+.flexbox {
+	display:flex;
+	flex-flow: row, wrap; 
+	justify-content: ;// alinear item en eje principal
+}
+
+.flex-items {
+
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMD
-M3ODAwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2
-LC02NzgxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMT
-QzNDMzNjQyNiw4NDI2NDczMzQsODIyODg2MDA5LC04NzcxNDE3
-MTcsLTIwNjcxNDgwMjQsLTE1NjU0NTU5NzcsNzQ2ODk0ODA3LD
-E1MzI3NzcyNjUsMTU3OTQwNzI2MCwtMTE1NjU5ODU1NiwtOTI1
-NzY3ODQyXX0=
+eyJoaXN0b3J5IjpbMjA5OTc4OTQyNywyMDMxNTkwODQwLDgyOD
+I2NjgsLTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5
+MSwxNjI0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMT
+I5NDIzNDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYw
+MDksLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Ny
+w3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3MjYwLC0xMTU2
+NTk4NTU2XX0=
 -->
