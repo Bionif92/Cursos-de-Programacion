@@ -760,12 +760,12 @@ El orden que se representan los elementos en pantalla, solo su orden visual no c
 }
 
 .flex-items {
-	order:0;// por defecto
+	order:0;// por defecto, tenemos que darle el orden a cada elemento para su representacion visual (1,2,3)
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTkyNDk5MiwtMTc4NjMzNTE1MSw4ND
+eyJoaXN0b3J5IjpbMTEzMzY5NTc3MywtMTc4NjMzNTE1MSw4ND
 c0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAw
 LC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02Nz
 gxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMz
