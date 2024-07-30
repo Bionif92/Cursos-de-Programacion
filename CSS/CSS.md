@@ -603,20 +603,18 @@ Una caja que tiene texto
 
 ### Object Fit y Object Position
 
-#### Object Fit
-
 Como se comporta contenido cuando se le da ancho y alto 
 
 ````css
 .img{ 
 	width: 400px;
 	lenght:200px;
-	object-fit: ;// fill:defecto, se adapta, contain: imagen entre una vez en la resolucion que le dimos, una de las dos dimensiones esta al 100%, cover: se adapta, none: medida original del objeto
+	object-fit: ;// fill:defecto, se adapta, contain: imagen entre una vez en la resolucion que le dimos, una de las dos dimensiones esta al 100%, cover: se adapta, none: medida original del objeto, scale-down: elige entre contain y none y se queda con la mas chica
 	object-position: ;//muestra la posicion de la imagen con las 4 direccionales(top,bottom)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NTQ2MzgzMywxNTc5NDA3MjYwLC0xMT
+eyJoaXN0b3J5IjpbMTExMDU4MDE5OCwxNTc5NDA3MjYwLC0xMT
 U2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5
 NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Ny
 wyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2
