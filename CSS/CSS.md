@@ -630,12 +630,17 @@ Si queremos dar un borde por encima del borde cuando pasamos por arriba con el m
 
 En los input aparece por defecto cuando pasamor por arriba del mouse. Para sacarlo:
 
+````css
+.input:focus.visible{ 
+	outline: none;
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODg0ODY4MSwxNTMyNzc3MjY1LDE1Nz
-k0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcw
-NjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOS
-wxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3
-ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC
-0xNDU3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4
-MTUxODhdfQ==
+eyJoaXN0b3J5IjpbNzQ2ODk0ODA3LDE1MzI3NzcyNjUsMTU3OT
+QwNzI2MCwtMTE1NjU5ODU1NiwtOTI1NzY3ODQyLC0xNTkxNzA2
+NDE1LDQzODgyOTU2MCwtMTIyMTE2MTMzMCwxNDk1NjE0ODM5LD
+E3NzQzNzY2NjcsMjYzODAyMTEsMTgzMzEwNDk0NiwtMTU5NTc4
+ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLT
+E0NTc0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4Mjgx
+NTE4OF19
 -->
