@@ -616,18 +616,21 @@ Como se comporta contenido cuando se le da ancho y alto
 
 ### Contorno (outline)
 
-Entre el margin
+Entre el margin y los bordes estan los contornos
 ````css
 .box{ 
-	
+	outline-offset
+	outline-color
+	outline-style
+	outline-widt
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNjY2ODIxLDE1Nzk0MDcyNjAsLTExNT
-Y1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mzg4Mjk1
-NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2NjY3LD
-I2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMDgwMTYw
-MDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0ODc0LD
-IwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLTkxMTEw
-NjIyN119
+eyJoaXN0b3J5IjpbLTgxMDQwMTc0MiwxNTc5NDA3MjYwLC0xMT
+U2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5
+NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Ny
+wyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2
+MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NC
+wyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTEx
+MDYyMjddfQ==
 -->
