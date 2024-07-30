@@ -686,8 +686,12 @@ Ejes:
 
 ### Flex Direction
 
+Creamos una caja con clase flexbox y tres item con clase flex-items para el ejemplo
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4ODEyOTk1NywxNjI0NTcwODYsLTY3OD
+eyJoaXN0b3J5IjpbMTczNDE0OTQxMSwxNjI0NTcwODYsLTY3OD
 EzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIzNDI2LC0xNDM0MzM2
 NDI2LDg0MjY0NzMzNCw4MjI4ODYwMDksLTg3NzE0MTcxNywtMj
 A2NzE0ODAyNCwtMTU2NTQ1NTk3Nyw3NDY4OTQ4MDcsMTUzMjc3
