@@ -589,12 +589,20 @@ Manejar contenido que sobresale de su contenedor
 ````
 
 ### Control flujo de texto
+
+Una caja que tiene texto
+
+````css
+.box{ 
+	white-space: ;//normal:defecto,nowrap: no hay saltos de linea,
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mz
-g4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2
-NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMD
-gwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0
-ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLT
-kxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUw
-ODAxNV19
+eyJoaXN0b3J5IjpbODU3NzAzMDAzLC05MjU3Njc4NDIsLTE1OT
+E3MDY0MTUsNDM4ODI5NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4
+MzksMTc3NDM3NjY2NywyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNT
+k1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAy
+MCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxND
+gyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5
+MjA5OV19
 -->
