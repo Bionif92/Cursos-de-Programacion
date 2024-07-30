@@ -646,10 +646,10 @@ h1 enter -- crea el tag h1
 ul>li -- crea ul con li adentro
 ul>li*4>a -- crea un ul con 4 li que tienen a adentro
 ul>li*4>a.link -- Clase link al a
-ul>li*4>alink -- Clase link al a
+ul>li*4>a#link -- Id link al a
 ```` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQzMzUwMSwtODc3MTQxNzE3LC0yMD
+eyJoaXN0b3J5IjpbMTQ5NjY0NzY1OSwtODc3MTQxNzE3LC0yMD
 Y3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3
 MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0Mi
 wtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5
