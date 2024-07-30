@@ -692,7 +692,7 @@ Creamos una caja con clase flexbox y tres item con clase flex-items para el ejem
 .flexbox {
 	display:flex; // lo primero que hacen los elementos es alinearse y adaptarse, lo que no pueden es crecer su tamaño definido
 	flex-direction: row-reverse; // cambian de direccion, tienen por defecto ocupar todo el cross axis
-	direction: 
+	direction: ;//ltr:left to right y rtl - esto verlo aparte no para flexbox
 }
 
 .flex-items {
@@ -701,7 +701,7 @@ Creamos una caja con clase flexbox y tres item con clase flex-items para el ejem
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzA4NzYzMiwtMTc4NjI5MDQ5MSwxNj
+eyJoaXN0b3J5IjpbMTYyMTk1NTU3NiwtMTc4NjI5MDQ5MSwxNj
 I0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIz
 NDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYwMDksLT
 g3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Nyw3NDY4
