@@ -641,15 +641,17 @@ En los input aparece por defecto cuando pasamor por arriba del mouse. Para sacar
 Plug in para facilitar la creación de cosas en htlm y css
 
 ```` html
-html -- crea el tag html
+html enter -- crea el tag html
+h1 enter -- crea el tag h1
+
 
 ```` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2MzIzMzIwLC0xNTY1NDU1OTc3LDc0Nj
-g5NDgwNywxNTMyNzc3MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1
-NTYsLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLT
-EyMjExNjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2NjY3LDI2Mzgw
-MjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMDgwMTYwMDc3LC
-05MTM2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0ODc0LDIwMzg2
-MjI1ODldfQ==
+eyJoaXN0b3J5IjpbLTIwNjcxNDgwMjQsLTE1NjU0NTU5NzcsNz
+Q2ODk0ODA3LDE1MzI3NzcyNjUsMTU3OTQwNzI2MCwtMTE1NjU5
+ODU1NiwtOTI1NzY3ODQyLC0xNTkxNzA2NDE1LDQzODgyOTU2MC
+wtMTIyMTE2MTMzMCwxNDk1NjE0ODM5LDE3NzQzNzY2NjcsMjYz
+ODAyMTEsMTgzMzEwNDk0NiwtMTU5NTc4ODQ2LDEwODAxNjAwNz
+csLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NTc0OTQ4NzQsMjAz
+ODYyMjU4OV19
 -->
