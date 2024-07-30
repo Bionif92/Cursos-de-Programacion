@@ -714,12 +714,25 @@ Flex Wrap nos permite controlar el comportamiento de los flex items cuando el es
 
 }
 ````
+
+Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
+
+````css
+.flexbox {
+	display:flex;
+	flex-flow: row, wrap; // da direccion y wrap
+}
+
+.flex-items {
+
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMT
-c4NjI5MDQ5MSwxNjI0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3
-MzE2LC0xMTI5NDIzNDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNC
-w4MjI4ODYwMDksLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2
-NTQ1NTk3Nyw3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3Mj
-YwLC0xMTU2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUs
-NDM4ODI5NTYwXX0=
+eyJoaXN0b3J5IjpbODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwOD
+Y5NjM4LC0xNzg2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5
+LDEwMDU4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsOD
+QyNjQ3MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4
+MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3MjY1LD
+E1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5
+MTcwNjQxNV19
 -->
