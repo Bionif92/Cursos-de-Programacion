@@ -601,9 +601,15 @@ Una caja que tiene texto
 }
 ````
 
-### Ob
+### Object Fit y Object Position
+
+#### Object Fit
+
+Como se comporta contenido cuando se le da ancho y alto al contenedor
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTY4MjUyMSwxNTc5NDA3MjYwLC0xMT
+eyJoaXN0b3J5IjpbMjAyOTkxNzgyNywxNTc5NDA3MjYwLC0xMT
 U2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5
 NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Ny
 wyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2
