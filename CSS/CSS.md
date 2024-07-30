@@ -616,13 +616,14 @@ Como se comporta contenido cuando se le da ancho y alto
 
 ### Contorno (outline)
 
+Entre el margin
 ````css
 .box{ 
 	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNTE2MTYwLDE1Nzk0MDcyNjAsLTExNT
+eyJoaXN0b3J5IjpbMTIwNjY2ODIxLDE1Nzk0MDcyNjAsLTExNT
 Y1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mzg4Mjk1
 NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2NjY3LD
 I2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMDgwMTYw
