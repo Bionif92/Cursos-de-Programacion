@@ -798,13 +798,17 @@ Alineación del hijo al lugar donde queremos
 
 No se coloca height normalmente en los elementos porque rompe la estructura cuando se achica o en las versiones de otros dispositivos, se usa min-height realmente
 
-## Responsive D
+## Responsive Design
+
+### Bloques y Multimedia flexible
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNzEyMjc3OCwxNjE0OTU5NzA2LC0xMj
-ExMTYxNDkxLC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMy
-NDQyMiwxMjM5NDY5ODM2LC0xNzg2MzM1MTUxLDg0NzQ5NTkwOC
-wyMDMxNTkwODQwLDgyODI2NjgsLTE0OTEwMzc4MDAsLTQzMDg2
-OTYzOCwtMTc4NjI5MDQ5MSwxNjI0NTcwODYsLTY3ODEzNzQ0OS
-wxMDA1ODI3MzE2LC0xMTI5NDIzNDI2LC0xNDM0MzM2NDI2LDg0
-MjY0NzMzNF19
+eyJoaXN0b3J5IjpbLTEwODA2NjUzODcsMTYxNDk1OTcwNiwtMT
+IxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkz
+MjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MD
+gsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4
+Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0ND
+ksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4
+NDI2NDczMzRdfQ==
 -->
