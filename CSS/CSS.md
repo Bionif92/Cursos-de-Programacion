@@ -797,12 +797,14 @@ Alineación del hijo al lugar donde queremos
 ### Layout con Flexbox
 
 No se coloca height normalmente en los elementos porque rompe la estructura cuando se achica o en las versiones de otros dispositivos, se usa min-height realmente
+
+## Responsive D
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNDk1OTcwNiwtMTIxMTE2MTQ5MSwtMT
-IxMzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIsMTIzOTQ2
-OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MDgsMjAzMTU5MDg0MC
-w4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2MzgsLTE3ODYy
-OTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNTgyNzMxNi
-wtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4NDI2NDczMzQsODIy
-ODg2MDA5XX0=
+eyJoaXN0b3J5IjpbLTYxNzEyMjc3OCwxNjE0OTU5NzA2LC0xMj
+ExMTYxNDkxLC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMy
+NDQyMiwxMjM5NDY5ODM2LC0xNzg2MzM1MTUxLDg0NzQ5NTkwOC
+wyMDMxNTkwODQwLDgyODI2NjgsLTE0OTEwMzc4MDAsLTQzMDg2
+OTYzOCwtMTc4NjI5MDQ5MSwxNjI0NTcwODYsLTY3ODEzNzQ0OS
+wxMDA1ODI3MzE2LC0xMTI5NDIzNDI2LC0xNDM0MzM2NDI2LDg0
+MjY0NzMzNF19
 -->
