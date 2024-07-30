@@ -611,11 +611,11 @@ Como se comporta contenido cuando se le da ancho y alto
 .img{ 
 	width: 400px;
 	lenght:200px;
-	
+	object-fit: ;// fill:defecto, se adapta, contain: imagen entre una vez en la resolucion que le dimos, una de la
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzkyMTYyMTksMTU3OTQwNzI2MCwtMT
+eyJoaXN0b3J5IjpbLTIwOTYyNTMyNzYsMTU3OTQwNzI2MCwtMT
 E1NjU5ODU1NiwtOTI1NzY3ODQyLC0xNTkxNzA2NDE1LDQzODgy
 OTU2MCwtMTIyMTE2MTMzMCwxNDk1NjE0ODM5LDE3NzQzNzY2Nj
 csMjYzODAyMTEsMTgzMzEwNDk0NiwtMTU5NTc4ODQ2LDEwODAx
