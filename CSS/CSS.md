@@ -663,14 +663,18 @@ header {
 
 ### Introducción a Flexbox
 
-Otro modelo de caja: que la caja se adapte al contenido
+Otro modelo de caja: que el contenido de la caja sea flexible y se adapte a la visualización
+
+Hay dos elementos:
+
+ - Caja c
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMT
-QzNDMzNjQyNiw4NDI2NDczMzQsODIyODg2MDA5LC04NzcxNDE3
-MTcsLTIwNjcxNDgwMjQsLTE1NjU0NTU5NzcsNzQ2ODk0ODA3LD
-E1MzI3NzcyNjUsMTU3OTQwNzI2MCwtMTE1NjU5ODU1NiwtOTI1
-NzY3ODQyLC0xNTkxNzA2NDE1LDQzODgyOTU2MCwtMTIyMTE2MT
-MzMCwxNDk1NjE0ODM5LDE3NzQzNzY2NjcsMjYzODAyMTEsMTgz
-MzEwNDk0Nl19
+eyJoaXN0b3J5IjpbLTMwNTAyNDA3NCwxMDA1ODI3MzE2LC0xMT
+I5NDIzNDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYw
+MDksLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Ny
+w3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3MjYwLC0xMTU2
+NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5NT
+YwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Nywy
+NjM4MDIxMV19
 -->
