@@ -533,14 +533,15 @@ Para el boton de cerrado del modal, poner la caja con position relative, y mover
 ````css
 .box{ 
 	position:fixed;// como el absolute, pero no puedo poner una caja contenedora y usarla como relative a esa, ademas la caja se queda fija aunque hagamos scroll
+	position:sticky;// scrolleas y se vuelve fija en la pantalla a partir del punto que le 
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYzODAyMTEsMTgzMzEwNDk0NiwtMTU5NT
-c4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAs
-LTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4Mj
-gxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIw
-OTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNz
-QzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5MjE5
-MjM2XX0=
+eyJoaXN0b3J5IjpbLTIxMzg3NDQ5MzcsMjYzODAyMTEsMTgzMz
+EwNDk0NiwtMTU5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1
+LDEyNDIwNTMwMjAsLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1Nz
+YyNjI3NTUsMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4
+MTgsLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMT
+I0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1
+MzA4XX0=
 -->
