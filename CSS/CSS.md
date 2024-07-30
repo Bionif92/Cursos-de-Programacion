@@ -595,11 +595,11 @@ Una caja que tiene texto
 ````css
 .box{ 
 	white-space: ;//normal:defecto,nowrap: no hay saltos de linea,pre: salto de linea puestos en el html, pre-wrap: lo mismo que el anterior pero si ve que desborda hace salto
-	text-overflow: ;//
+	text-overflow: ;//ellipsis:tres puntitos si se desborda contenido y lo ponemos en hidden
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTc1NzI0MTAsLTkyNTc2Nzg0MiwtMT
+eyJoaXN0b3J5IjpbLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMT
 U5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYx
 NDgzOSwxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLT
 E1OTU3ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUz
