@@ -644,10 +644,10 @@ Plug in para facilitar la creación de cosas en htlm y css
 html enter -- crea el tag html
 h1 enter -- crea el tag h1
 ul>li -- crea ul con li adentro
-ul>li*4>a
+ul>li*4>a -- crea un ul con 4 li que tienen a adentro
 ```` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NzA5Mjg2NywtMjA2NzE0ODAyNCwtMT
+eyJoaXN0b3J5IjpbLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMT
 U2NTQ1NTk3Nyw3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3
 MjYwLC0xMTU2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MT
 UsNDM4ODI5NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3
