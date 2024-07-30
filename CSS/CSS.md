@@ -564,7 +564,7 @@ Movimiento de la caja suave o brusco
 .box{ 
 	transition-property:left;
 	transition-duration:1s;
-	transition-timing-function: ;// ease:defecto, ease-in:l
+	transition-timing-function: ;// ease:defecto, ease-in:lento a brusco,ease-in-out:lento/brusco/lento, ease-out:lineal
 	left:0;
 }
 
@@ -572,12 +572,13 @@ Movimiento de la caja suave o brusco
 	left:400px
 }
 ````
+La curva de bezier son funciones para describir la vel
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY5ODgwMjIsMTQ5NTYxNDgzOSwxNz
-c0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0
-NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC0xND
-U3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUx
-ODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LD
-IzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3
-Njk2MV19
+eyJoaXN0b3J5IjpbODYwNDkyMjkzLDE0OTU2MTQ4MzksMTc3ND
+M3NjY2NywyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYs
+MTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1Nz
+Q5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4
+LC05MTExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMz
+U1MDgwMTUsMTQwNDU2NDAwNSwxMjQ2MjI4NTE0LC03NDM2NzY5
+NjFdfQ==
 -->
