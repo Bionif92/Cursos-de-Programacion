@@ -626,12 +626,13 @@ Entre el margin y los bordes estan los contornos, no ocupa espacio
 	outline-width: ;
 }
 ````
+Si queremos dar un borde por encima del borde cuando pasamos por arriba con el mouse, usamos esta propiedad con `hover`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMjc3NzI2NSwxNTc5NDA3MjYwLC0xMT
-U2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5
-NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Ny
-wyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2
-MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NC
-wyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTEx
-MDYyMjddfQ==
+eyJoaXN0b3J5IjpbLTg0NzEyNzcxMCwxNTMyNzc3MjY1LDE1Nz
+k0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcw
+NjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOS
+wxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3
+ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC
+0xNDU3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4
+MTUxODhdfQ==
 -->
