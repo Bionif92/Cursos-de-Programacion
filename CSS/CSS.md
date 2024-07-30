@@ -595,15 +595,16 @@ Una caja que tiene texto
 ````css
 .box{ 
 	white-space: ;//normal:defecto,nowrap: no hay saltos de linea,pre: salto de linea puestos en el html, pre-wrap: lo mismo que el anterior pero si ve que desborda hace salto
-	text-overflow: ;//ellipsis:tres puntitos si se desborda contenido y lo ponemos en hidden
+	text-overflow: ;//ellipsis:tres puntitos si se desborda contenido y lo ponemos en hidden, clip:palabra se recorta
+	word-break
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMT
-U5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYx
-NDgzOSwxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLT
-E1OTU3ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUz
-MDIwLC0xNDU3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LD
-E0ODI4MTUxODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4
-MTkyMDk5XX0=
+eyJoaXN0b3J5IjpbMzQ3MzMxNDgxLC0xMTU2NTk4NTU2LC05Mj
+U3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5NTYwLC0xMjIxMTYx
+MzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2NywyNjM4MDIxMSwxOD
+MzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3
+NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LD
+U3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0
+MzgxOF19
 -->
