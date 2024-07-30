@@ -790,11 +790,11 @@ Alineación del hijo al lugar donde queremos
 }
 
 .item-5 {
-	align-self: ;// funciona cuando flexbox tiene 
+	align-self: ;// funciona cuando flexbox tiene align-items, valores:start,end,center,baseline,strech (ocupar todo)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MTc1MDIxLC0xMjEzOTk2ODQwLDE0Mz
+eyJoaXN0b3J5IjpbNDQ2NjMwODk2LC0xMjEzOTk2ODQwLDE0Mz
 M5OTg2OTEsMTg0OTMyNDQyMiwxMjM5NDY5ODM2LC0xNzg2MzM1
 MTUxLDg0NzQ5NTkwOCwyMDMxNTkwODQwLDgyODI2NjgsLTE0OT
 EwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5MSwxNjI0NTcw
