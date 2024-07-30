@@ -611,15 +611,16 @@ Como se comporta contenido cuando se le da ancho y alto
 .img{ 
 	width: 400px;
 	lenght:200px;
-	object-fit: ;// fill:defecto, se adapta, contain: imagen entre una vez en la resolucion que le dimos, una de la
+	object-fit: ;// fill:defecto, se adapta, contain: imagen entre una vez en la resolucion que le dimos, una de las dos dimensiones esta al 100%, cover: se adapta
+	object-position: ;//muestra la posicion de la imagen con las 4 direccionales(top,bottom), none
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTYyNTMyNzYsMTU3OTQwNzI2MCwtMT
-E1NjU5ODU1NiwtOTI1NzY3ODQyLC0xNTkxNzA2NDE1LDQzODgy
-OTU2MCwtMTIyMTE2MTMzMCwxNDk1NjE0ODM5LDE3NzQzNzY2Nj
-csMjYzODAyMTEsMTgzMzEwNDk0NiwtMTU5NTc4ODQ2LDEwODAx
-NjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NTc0OTQ4Nz
-QsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4OCwtOTEx
-MTA2MjI3XX0=
+eyJoaXN0b3J5IjpbLTkwODMyNzU5MCwxNTc5NDA3MjYwLC0xMT
+U2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5
+NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Ny
+wyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2
+MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NC
+wyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTEx
+MDYyMjddfQ==
 -->
