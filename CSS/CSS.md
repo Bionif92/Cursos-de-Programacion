@@ -597,11 +597,11 @@ Una caja que tiene texto
 	white-space: ;//normal:defecto,nowrap: no hay saltos de linea,pre: salto de linea puestos en el html, pre-wrap: lo mismo que el anterior pero si ve que desborda hace salto
 	text-overflow: ;//ellipsis:tres puntitos si se desborda contenido y lo ponemos en hidden, clip:palabra se recorta
 	word-break: breal-all;//rompe la palabra si se desborda y la manda abajo, anywhere: si la palabra es largas la rompe
-	text-wrap: balance// balancea el texto para que quede parejo, pretty: que no queden palabras sueltas al final y al inicio, usada mayormente en pa
+	text-wrap: balance// balancea el texto para que quede parejo, pretty: que no queden palabras sueltas al final y al inicio, usada mayormente en parrafos
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ5NzA4ODM2LDE1Nzk0MDcyNjAsLTExNT
+eyJoaXN0b3J5IjpbNTcyMjY4MDc3LDE1Nzk0MDcyNjAsLTExNT
 Y1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mzg4Mjk1
 NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2NjY3LD
 I2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMDgwMTYw
