@@ -647,13 +647,15 @@ ul>li -- crea ul con li adentro
 ul>li*4>a -- crea un ul con 4 li que tienen a adentro
 ul>li*4>a.link -- Clase link al a
 ul>li*4>a#link -- Id link al a
+{} -- le colocas el contenido adentro 
+{link $} -- coloca el contenido como link 1, link 2
 ```` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NjY0NzY1OSwtODc3MTQxNzE3LC0yMD
-Y3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3
-MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0Mi
-wtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5
-NTYxNDgzOSwxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5ND
-YsLTE1OTU3ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQy
-MDUzMDIwXX0=
+eyJoaXN0b3J5IjpbODIyODg2MDA5LC04NzcxNDE3MTcsLTIwNj
+cxNDgwMjQsLTE1NjU0NTU5NzcsNzQ2ODk0ODA3LDE1MzI3Nzcy
+NjUsMTU3OTQwNzI2MCwtMTE1NjU5ODU1NiwtOTI1NzY3ODQyLC
+0xNTkxNzA2NDE1LDQzODgyOTU2MCwtMTIyMTE2MTMzMCwxNDk1
+NjE0ODM5LDE3NzQzNzY2NjcsMjYzODAyMTEsMTgzMzEwNDk0Ni
+wtMTU5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1LDEyNDIw
+NTMwMjBdfQ==
 -->
