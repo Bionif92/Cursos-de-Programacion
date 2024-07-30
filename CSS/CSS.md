@@ -734,7 +734,7 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 .flexbox {
 	display:flex;
 	flex-flow: row, wrap; 
-	justify-content: ;// alinear item en eje principal, start:defecto al inicio, end:al final, center: centro, space-between: espaciados a la misma distacia, space-around:espaciado con margen en los bordes
+	justify-content: ;// alinear item en eje principal, start:defecto al inicio, end:al final, center: centro, space-between: espaciados a la misma distacia, space-around:espaciado con margen en los bordes, space-evenly: espaciados con misma distancia entre ellos y los bordes
 }
 
 .flex-items {
@@ -742,11 +742,11 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MzQyMTc1NCwyMDMxNTkwODQwLDgyOD
-I2NjgsLTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5
-MSwxNjI0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMT
-I5NDIzNDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYw
-MDksLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Ny
-w3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3MjYwLC0xMTU2
-NTk4NTU2XX0=
+eyJoaXN0b3J5IjpbODQ3NDk1OTA4LDIwMzE1OTA4NDAsODI4Mj
+Y2OCwtMTQ5MTAzNzgwMCwtNDMwODY5NjM4LC0xNzg2MjkwNDkx
+LDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMDU4MjczMTYsLTExMj
+k0MjM0MjYsLTE0MzQzMzY0MjYsODQyNjQ3MzM0LDgyMjg4NjAw
+OSwtODc3MTQxNzE3LC0yMDY3MTQ4MDI0LC0xNTY1NDU1OTc3LD
+c0Njg5NDgwNywxNTMyNzc3MjY1LDE1Nzk0MDcyNjAsLTExNTY1
+OTg1NTZdfQ==
 -->
