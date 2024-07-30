@@ -748,12 +748,16 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 `Align-content` se usa cuando hay mas de una linea en eje cruzado
 
 **Para un solo item que queremos centrar, ponemos center en justify-content y align-items o colocar margin:auto en el item**
+
+### Order
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTU5ODU0Niw4NDc0OTU5MDgsMjAzMT
-U5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2Mzgs
-LTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNT
-gyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4NDI2NDcz
-MzQsODIyODg2MDA5LC04NzcxNDE3MTcsLTIwNjcxNDgwMjQsLT
-E1NjU0NTU5NzcsNzQ2ODk0ODA3LDE1MzI3NzcyNjUsMTU3OTQw
-NzI2MF19
+eyJoaXN0b3J5IjpbLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIwMz
+E1OTA4NDAsODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwODY5NjM4
+LC0xNzg2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMD
+U4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsODQyNjQ3
+MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4MDI0LC
+0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3MjY1LDE1Nzk0
+MDcyNjBdfQ==
 -->
