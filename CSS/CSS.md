@@ -728,9 +728,9 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 }
 ````
 
-### Alineación en los j
+### Alineación en los ejes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjEwMDk2MSw4MjgyNjY4LC0xNDkxMD
+eyJoaXN0b3J5IjpbMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMD
 M3ODAwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2
 LC02NzgxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMT
 QzNDMzNjQyNiw4NDI2NDczMzQsODIyODg2MDA5LC04NzcxNDE3
