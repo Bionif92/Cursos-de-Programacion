@@ -707,7 +707,7 @@ Flex Wrap nos permite controlar el comportamiento de los flex items cuando el es
 ````css
 .flexbox {
 	display:flex;
-	flex-wrap: //cambiar o no nueva linea, nowrap: no cambia y es por defecto
+	flex-wrap: //cambiar o no nueva linea, nowrap: no cambia y es por defecto, wrap: si cambia
 }
 
 .flex-items {
@@ -715,11 +715,11 @@ Flex Wrap nos permite controlar el comportamiento de los flex items cuando el es
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNTg5OTIyOSwtNDMwODY5NjM4LC0xNz
-g2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMDU4Mjcz
-MTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsODQyNjQ3MzM0LD
-gyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4MDI0LC0xNTY1
-NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3MjY1LDE1Nzk0MDcyNj
-AsLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0
-Mzg4Mjk1NjBdfQ==
+eyJoaXN0b3J5IjpbLTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMT
+c4NjI5MDQ5MSwxNjI0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3
+MzE2LC0xMTI5NDIzNDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNC
+w4MjI4ODYwMDksLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2
+NTQ1NTk3Nyw3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3Mj
+YwLC0xMTU2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUs
+NDM4ODI5NTYwXX0=
 -->
