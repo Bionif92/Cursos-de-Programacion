@@ -773,14 +773,15 @@ Flex item son los **hijos directos** del contenedor
 
 .flex-items {
 	flex-grow: 1;//defecto en 0, le dice que del espacio disponible ocupar todo el espacio. Si a otro elemento le coloco 2, le da el doble de espacio que a los otros elementos
+	flex-shrink: ;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTMyNDQyMiwxMjM5NDY5ODM2LC0xNz
-g2MzM1MTUxLDg0NzQ5NTkwOCwyMDMxNTkwODQwLDgyODI2Njgs
-LTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5MSwxNj
-I0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIz
-NDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYwMDksLT
-g3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Nyw3NDY4
-OTQ4MDddfQ==
+eyJoaXN0b3J5IjpbMjU5NDM0MzEyLDE4NDkzMjQ0MjIsMTIzOT
+Q2OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MDgsMjAzMTU5MDg0
+MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2MzgsLTE3OD
+YyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNTgyNzMx
+NiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4NDI2NDczMzQsOD
+IyODg2MDA5LC04NzcxNDE3MTcsLTIwNjcxNDgwMjQsLTE1NjU0
+NTU5NzddfQ==
 -->
