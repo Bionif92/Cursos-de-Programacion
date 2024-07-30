@@ -682,7 +682,7 @@ Modos:
 Ejes:
 
  - Main Axis - Eje principal, donde se mueven los elementos
- - Cross Axis - Eje perpendicular al principal
+ - Cross Axis - Eje cruzado al principal
 
 ### Flex Direction
 
@@ -743,10 +743,11 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 
 }
 ````
-`Align-items` se usa cuando hay una sola linea
+`Justify-content` una o mas lineas en eje principal
+`Align-items` se usa cuando hay una sola linea en eje cruzado
 `Align-content` se usa cuando hay una sola linea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzU4MzczOCw4NDc0OTU5MDgsMjAzMT
+eyJoaXN0b3J5IjpbMTM3Njg5MjU5OCw4NDc0OTU5MDgsMjAzMT
 U5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2Mzgs
 LTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNT
 gyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4NDI2NDcz
