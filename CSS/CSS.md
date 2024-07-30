@@ -691,6 +691,7 @@ Creamos una caja con clase flexbox y tres item con clase flex-items para el ejem
 ````css
 .flexbox {
 	display:flex; // lo primero que hacen los elementos es alinearse y adaptarse, lo que no pueden es crecer su tamaño definido
+	flex-direction: row-reverse; // cambian de direccion
 }
 
 .flex-items {
@@ -699,11 +700,11 @@ Creamos una caja con clase flexbox y tres item con clase flex-items para el ejem
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyODIxNDI0LDE2MjQ1NzA4NiwtNjc4MT
-M3NDQ5LDEwMDU4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0
-MjYsODQyNjQ3MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC0yMD
-Y3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3
-MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0Mi
-wtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5
-NTYxNDgzOV19
+eyJoaXN0b3J5IjpbLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02Nz
+gxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMz
+NjQyNiw4NDI2NDczMzQsODIyODg2MDA5LC04NzcxNDE3MTcsLT
+IwNjcxNDgwMjQsLTE1NjU0NTU5NzcsNzQ2ODk0ODA3LDE1MzI3
+NzcyNjUsMTU3OTQwNzI2MCwtMTE1NjU5ODU1NiwtOTI1NzY3OD
+QyLC0xNTkxNzA2NDE1LDQzODgyOTU2MCwtMTIyMTE2MTMzMCwx
+NDk1NjE0ODM5XX0=
 -->
