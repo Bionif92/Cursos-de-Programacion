@@ -690,7 +690,7 @@ Creamos una caja con clase flexbox y tres item con clase flex-items para el ejem
 
 ````css
 .flexbox {
-	display:flex; // lo primero que hacen los elementos es alinearse
+	display:flex; // lo primero que hacen los elementos es alinearse y adaptarse, lo que no pueden es crecer su tamaño definido
 }
 
 .flex-items {
@@ -699,11 +699,11 @@ Creamos una caja con clase flexbox y tres item con clase flex-items para el ejem
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTIxNDI1MSwxNjI0NTcwODYsLTY3OD
-EzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIzNDI2LC0xNDM0MzM2
-NDI2LDg0MjY0NzMzNCw4MjI4ODYwMDksLTg3NzE0MTcxNywtMj
-A2NzE0ODAyNCwtMTU2NTQ1NTk3Nyw3NDY4OTQ4MDcsMTUzMjc3
-NzI2NSwxNTc5NDA3MjYwLC0xMTU2NTk4NTU2LC05MjU3Njc4ND
-IsLTE1OTE3MDY0MTUsNDM4ODI5NTYwLC0xMjIxMTYxMzMwLDE0
-OTU2MTQ4MzldfQ==
+eyJoaXN0b3J5IjpbOTUyODIxNDI0LDE2MjQ1NzA4NiwtNjc4MT
+M3NDQ5LDEwMDU4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0
+MjYsODQyNjQ3MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC0yMD
+Y3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3
+MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0Mi
+wtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5
+NTYxNDgzOV19
 -->
