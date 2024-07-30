@@ -672,8 +672,15 @@ Hay dos elementos:
 
 Los elementos son unidireccionales, van en la dirección que elegimos
 
+Modos:
+
+ - Row
+ - Row-Reverse
+ - Column
+ - Column-Reverse
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTUxMDQ2NywxMDA1ODI3MzE2LC0xMT
+eyJoaXN0b3J5IjpbLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMT
 I5NDIzNDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYw
 MDksLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Ny
 w3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3MjYwLC0xMTU2
