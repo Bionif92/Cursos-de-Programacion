@@ -640,6 +640,7 @@ En los input aparece por defecto cuando pasamor por arriba del mouse. Para sacar
 
 Plug in para facilitar la creación de cosas en htlm y css
 
+HTML
 ```` html
 html enter -- crea el tag html
 h1 enter -- crea el tag h1
@@ -650,12 +651,16 @@ ul>li*4>a#link -- Id link al a
 {} -- le colocas el contenido adentro 
 {link $} -- coloca el contenido como link 1, link 2
 ```` 
+CSS
+```` css
+
+```` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyODg2MDA5LC04NzcxNDE3MTcsLTIwNj
-cxNDgwMjQsLTE1NjU0NTU5NzcsNzQ2ODk0ODA3LDE1MzI3Nzcy
-NjUsMTU3OTQwNzI2MCwtMTE1NjU5ODU1NiwtOTI1NzY3ODQyLC
-0xNTkxNzA2NDE1LDQzODgyOTU2MCwtMTIyMTE2MTMzMCwxNDk1
-NjE0ODM5LDE3NzQzNzY2NjcsMjYzODAyMTEsMTgzMzEwNDk0Ni
-wtMTU5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1LDEyNDIw
-NTMwMjBdfQ==
+eyJoaXN0b3J5IjpbODQyNjQ3MzM0LDgyMjg4NjAwOSwtODc3MT
+QxNzE3LC0yMDY3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgw
+NywxNTMyNzc3MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLT
+kyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjEx
+NjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2NjY3LDI2MzgwMjExLD
+E4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMDgwMTYwMDc3LC05MTM2
+Njc3NV19
 -->
