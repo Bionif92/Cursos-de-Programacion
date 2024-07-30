@@ -769,6 +769,7 @@ Flex item son los **hijos directos** del contenedor
 
 ````css
 .flexbox {
+	gap:20px; // separacion entre elementos
 }
 
 .flex-items {
@@ -778,12 +779,14 @@ Flex item son los **hijos directos** del contenedor
 	flex: ;// resume a las tres anteriores grow,shrink,basis
 }
 ````
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzk5ODY5MSwxODQ5MzI0NDIyLDEyMz
-k0Njk4MzYsLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIwMzE1OTA4
-NDAsODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwODY5NjM4LC0xNz
-g2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMDU4Mjcz
-MTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsODQyNjQ3MzM0LD
-gyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4MDI0LC0xNTY1
-NDU1OTc3XX0=
+eyJoaXN0b3J5IjpbLTUyNTI1NjYxNCwxNDMzOTk4NjkxLDE4ND
+kzMjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5
+MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00Mz
+A4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0
+NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNi
+w4NDI2NDczMzQsODIyODg2MDA5LC04NzcxNDE3MTcsLTIwNjcx
+NDgwMjRdfQ==
 -->
