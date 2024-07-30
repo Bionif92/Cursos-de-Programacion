@@ -613,8 +613,10 @@ Como se comporta contenido cuando se le da ancho y alto
 	object-position: ;//muestra la posicion de la imagen con las 4 direccionales(top,bottom)
 }
 ````
+
+### Contorno ()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMDU4MDE5OCwxNTc5NDA3MjYwLC0xMT
+eyJoaXN0b3J5IjpbLTcwNjIzNTMyNCwxNTc5NDA3MjYwLC0xMT
 U2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MTUsNDM4ODI5
 NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2Ny
 wyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2
