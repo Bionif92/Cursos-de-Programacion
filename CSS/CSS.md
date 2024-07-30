@@ -532,15 +532,15 @@ Para el boton de cerrado del modal, poner la caja con position relative, y mover
 
 ````css
 .box{ 
-	position:fixed;// se v 
+	position:fixed;// como el absolute, pero no puedo poner una caja contenedora y usarla como relative a esa
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjMyNTIwMDgsMTgzMzEwNDk0NiwtMT
-U5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMw
-MjAsLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMT
-Q4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3Njgx
-OTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNC
-wtNzQzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1MzA4LC0xMjk5
-MjE5MjM2XX0=
+eyJoaXN0b3J5IjpbMTk0OTczNjAxNiwxODMzMTA0OTQ2LC0xNT
+k1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAy
+MCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxND
+gyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5
+MjA5OSwyMzU1MDgwMTUsMTQwNDU2NDAwNSwxMjQ2MjI4NTE0LC
+03NDM2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUzMDgsLTEyOTky
+MTkyMzZdfQ==
 -->
