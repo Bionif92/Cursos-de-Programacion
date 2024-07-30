@@ -581,8 +581,14 @@ y colocarla `transition-timing-function: cubic-bezier() ;`
 ### Desbordamiento (overflow)
 
 Manejar contenido que sobresale de su contenedor
+
+````css
+.box{ 
+	overflow: ;//visible:defecto, hidden:se oculta, scroll
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzIyMzQ4NDYsNDM4ODI5NTYwLC0xMj
+eyJoaXN0b3J5IjpbLTE5ODE3MDM0NzIsNDM4ODI5NTYwLC0xMj
 IxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2NywyNjM4MDIx
 MSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2MDA3NywtOT
 EzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIy
