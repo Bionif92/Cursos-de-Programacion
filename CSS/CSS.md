@@ -645,13 +645,15 @@ html enter -- crea el tag html
 h1 enter -- crea el tag h1
 ul>li -- crea ul con li adentro
 ul>li*4>a -- crea un ul con 4 li que tienen a adentro
+ul>li*4>a.link -- Clase link al a
+ul>li*4>alink -- Clase link al a
 ```` 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NzE0MTcxNywtMjA2NzE0ODAyNCwtMT
-U2NTQ1NTk3Nyw3NDY4OTQ4MDcsMTUzMjc3NzI2NSwxNTc5NDA3
-MjYwLC0xMTU2NTk4NTU2LC05MjU3Njc4NDIsLTE1OTE3MDY0MT
-UsNDM4ODI5NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4MzksMTc3
-NDM3NjY2NywyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4ND
-YsMTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1
-NzQ5NDg3NF19
+eyJoaXN0b3J5IjpbLTE0NTQzMzUwMSwtODc3MTQxNzE3LC0yMD
+Y3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3
+MjY1LDE1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0Mi
+wtMTU5MTcwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5
+NTYxNDgzOSwxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5ND
+YsLTE1OTU3ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQy
+MDUzMDIwXX0=
 -->
