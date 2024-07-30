@@ -587,12 +587,14 @@ Manejar contenido que sobresale de su contenedor
 	overflow: ;//visible:defecto, hidden:se oculta, scroll: si queremos solo un scroll overflow-y:scroll, auto: el mejor de los cuatro
 }
 ````
+
+### Control flujo de texto
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTE3MDY0MTUsNDM4ODI5NTYwLC0xMj
-IxMTYxMzMwLDE0OTU2MTQ4MzksMTc3NDM3NjY2NywyNjM4MDIx
-MSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2MDA3NywtOT
-EzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIy
-NTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMT
-U1MTI0MzgxOCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMTQwNDU2
-NDAwNV19
+eyJoaXN0b3J5IjpbLTkyNTc2Nzg0MiwtMTU5MTcwNjQxNSw0Mz
+g4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgzOSwxNzc0Mzc2
+NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0NiwxMD
+gwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC0xNDU3NDk0
+ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUxODgsLT
+kxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LDIzNTUw
+ODAxNV19
 -->
