@@ -707,7 +707,7 @@ Flex Wrap nos permite controlar el comportamiento de los flex items cuando el es
 ````css
 .flexbox {
 	display:flex;
-	flex-wrap: //cambiar o no nueva linea, nowrap: no cambia y es por defecto, wrap: si cambia
+	flex-wrap: //cambiar o no nueva linea, nowrap: no cambia y es por defecto, wrap: si cambia, wrap-reverse: se comporta a la inversa
 }
 
 .flex-items {
@@ -728,11 +728,11 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwOD
-Y5NjM4LC0xNzg2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5
-LDEwMDU4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsOD
-QyNjQ3MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4
-MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3MjY1LD
-E1Nzk0MDcyNjAsLTExNTY1OTg1NTYsLTkyNTc2Nzg0MiwtMTU5
-MTcwNjQxNV19
+eyJoaXN0b3J5IjpbLTgwOTAwOTI4LDgyODI2NjgsLTE0OTEwMz
+c4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5MSwxNjI0NTcwODYs
+LTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIzNDI2LC0xND
+M0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYwMDksLTg3NzE0MTcx
+NywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Nyw3NDY4OTQ4MDcsMT
+UzMjc3NzI2NSwxNTc5NDA3MjYwLC0xMTU2NTk4NTU2LC05MjU3
+Njc4NDJdfQ==
 -->
