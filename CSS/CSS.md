@@ -745,9 +745,9 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 ````
 `Justify-content` una o mas lineas en eje principal
 `Align-items` se usa cuando hay una sola linea en eje cruzado
-`Align-content` se usa cuando hay una sola linea
+`Align-content` se usa cuando hay mas de una linea en eje cruzado
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Njg5MjU5OCw4NDc0OTU5MDgsMjAzMT
+eyJoaXN0b3J5IjpbMTM2MDc0MjA0Niw4NDc0OTU5MDgsMjAzMT
 U5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2Mzgs
 LTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNT
 gyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4NDI2NDcz
