@@ -751,13 +751,25 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 
 ### Order
 
+El orden que se representan los elementos en pantalla, solo su orden visual no cambia el DOM
+
+````css
+.flexbox {
+	display:flex;
+	flex-flow: row, wrap; 
+}
+
+.flex-items {
+
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIwMz
-E1OTA4NDAsODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwODY5NjM4
-LC0xNzg2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMD
-U4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsODQyNjQ3
-MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4MDI0LC
-0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMyNzc3MjY1LDE1Nzk0
-MDcyNjBdfQ==
+eyJoaXN0b3J5IjpbLTE1Njk1OTMzNzYsLTE3ODYzMzUxNTEsOD
+Q3NDk1OTA4LDIwMzE1OTA4NDAsODI4MjY2OCwtMTQ5MTAzNzgw
+MCwtNDMwODY5NjM4LC0xNzg2MjkwNDkxLDE2MjQ1NzA4NiwtNj
+c4MTM3NDQ5LDEwMDU4MjczMTYsLTExMjk0MjM0MjYsLTE0MzQz
+MzY0MjYsODQyNjQ3MzM0LDgyMjg4NjAwOSwtODc3MTQxNzE3LC
+0yMDY3MTQ4MDI0LC0xNTY1NDU1OTc3LDc0Njg5NDgwNywxNTMy
+Nzc3MjY1XX0=
 -->
