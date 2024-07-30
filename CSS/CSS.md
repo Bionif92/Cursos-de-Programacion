@@ -545,12 +545,18 @@ La transición tiene que estar en el elemento inicial
 
 ````css
 .box{ 
+	color: red;
 	transition property: ;// ej: color
-	transition duration:
+	transition duration: 1s;
+	transition delay: 3s;// despues de 3 s enpieza tran
+}
+
+.box:hover{
+	color:white;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjY3MDQ0MDYsMjYzODAyMTEsMTgzMz
+eyJoaXN0b3J5IjpbLTE2Njg1NDM2NDYsMjYzODAyMTEsMTgzMz
 EwNDk0NiwtMTU5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1
 LDEyNDIwNTMwMjAsLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1Nz
 YyNjI3NTUsMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4
