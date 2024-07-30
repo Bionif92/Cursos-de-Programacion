@@ -558,9 +558,13 @@ La transición tiene que estar en el elemento inicial
 
 #### Curvas de Bezier
 
+Movimiento de la caja suave o brusco
+
 ````css
 .box{ 
 	transition-property:left;
+	transition-duration:1s;
+	transition-timing-function: ;// ease:defecto, ease-in:l
 	left:0;
 }
 
@@ -569,11 +573,11 @@ La transición tiene que estar en el elemento inicial
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNDQxMjE1OCwxNDk1NjE0ODM5LDE3Nz
-QzNzY2NjcsMjYzODAyMTEsMTgzMzEwNDk0NiwtMTU5NTc4ODQ2
-LDEwODAxNjAwNzcsLTkxMzY2Nzc1LDEyNDIwNTMwMjAsLTE0NT
-c0OTQ4NzQsMjAzODYyMjU4OSw1NzYyNjI3NTUsMTQ4MjgxNTE4
-OCwtOTExMTA2MjI3LDE1NTEyNDM4MTgsLTE3NjgxOTIwOTksMj
-M1NTA4MDE1LDE0MDQ1NjQwMDUsMTI0NjIyODUxNCwtNzQzNjc2
-OTYxXX0=
+eyJoaXN0b3J5IjpbLTExNjY5ODgwMjIsMTQ5NTYxNDgzOSwxNz
+c0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OTU3ODg0
+NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIwLC0xND
+U3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0ODI4MTUx
+ODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTkyMDk5LD
+IzNTUwODAxNSwxNDA0NTY0MDA1LDEyNDYyMjg1MTQsLTc0MzY3
+Njk2MV19
 -->
