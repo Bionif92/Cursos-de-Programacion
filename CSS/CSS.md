@@ -574,9 +574,9 @@ Movimiento de la caja suave o brusco
 ````
 La curva de bezier son funciones para describir la velocidad
 
-Buscarlas en internet
+Buscarlas en internet https://cubic-bezier.com/
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk3NjE1NzQ3LDE0OTU2MTQ4MzksMTc3ND
+eyJoaXN0b3J5IjpbMTc3MzA2Mjk2LDE0OTU2MTQ4MzksMTc3ND
 M3NjY2NywyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYs
 MTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1Nz
 Q5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4
