@@ -572,9 +572,11 @@ Movimiento de la caja suave o brusco
 	left:400px
 }
 ````
-La curva de bezier son funciones para describir la vel
+La curva de bezier son funciones para describir la velocidad
+
+Buscarlas en internet
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNDkyMjkzLDE0OTU2MTQ4MzksMTc3ND
+eyJoaXN0b3J5IjpbMzk3NjE1NzQ3LDE0OTU2MTQ4MzksMTc3ND
 M3NjY2NywyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNTk1Nzg4NDYs
 MTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAyMCwtMTQ1Nz
 Q5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxNDgyODE1MTg4
