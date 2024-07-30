@@ -735,7 +735,7 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 	display:flex;
 	flex-flow: row, wrap; 
 	justify-content: ;// alinear item en eje principal, start:defecto al inicio, end:al final, center: centro, space-between: espaciados a la misma distacia, space-around:espaciado con margen en los bordes, space-evenly: espaciados con misma distancia entre ellos y los bordes
-	align-items: ; // alinear los items en el eje cruzado, strec
+	align-items: ; // alinear los items en el eje cruzado, stretch: defecto,se estiran, start: ocupan el contenido que tienen adentro, si no tienen tamaño definido los items
 }
 
 .flex-items {
@@ -743,7 +743,7 @@ Flex Flow habla del flujo flexible: nos permite decidir la direccion y el wrap
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE1NTY1NCw4NDc0OTU5MDgsMjAzMT
+eyJoaXN0b3J5IjpbLTIxOTc5ODI3NCw4NDc0OTU5MDgsMjAzMT
 U5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2Mzgs
 LTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNT
 gyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4NDI2NDcz
