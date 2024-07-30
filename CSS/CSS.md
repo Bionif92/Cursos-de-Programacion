@@ -594,15 +594,15 @@ Una caja que tiene texto
 
 ````css
 .box{ 
-	white-space: ;//normal:defecto,nowrap: no hay saltos de linea,pre: salto de linea puestos en el html
+	white-space: ;//normal:defecto,nowrap: no hay saltos de linea,pre: salto de linea puestos en el html, pre-wrap: lo mismo que el anterior pero si ve que desborda hace salto
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDkyMDIwNTMsLTkyNTc2Nzg0MiwtMTU5MT
-cwNjQxNSw0Mzg4Mjk1NjAsLTEyMjExNjEzMzAsMTQ5NTYxNDgz
-OSwxNzc0Mzc2NjY3LDI2MzgwMjExLDE4MzMxMDQ5NDYsLTE1OT
-U3ODg0NiwxMDgwMTYwMDc3LC05MTM2Njc3NSwxMjQyMDUzMDIw
-LC0xNDU3NDk0ODc0LDIwMzg2MjI1ODksNTc2MjYyNzU1LDE0OD
-I4MTUxODgsLTkxMTEwNjIyNywxNTUxMjQzODE4LC0xNzY4MTky
-MDk5XX0=
+eyJoaXN0b3J5IjpbMjEzNTUxMTc3LC05MjU3Njc4NDIsLTE1OT
+E3MDY0MTUsNDM4ODI5NTYwLC0xMjIxMTYxMzMwLDE0OTU2MTQ4
+MzksMTc3NDM3NjY2NywyNjM4MDIxMSwxODMzMTA0OTQ2LC0xNT
+k1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3NzUsMTI0MjA1MzAy
+MCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3NjI2Mjc1NSwxND
+gyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0MzgxOCwtMTc2ODE5
+MjA5OV19
 -->
