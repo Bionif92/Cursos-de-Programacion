@@ -541,13 +541,20 @@ Para el boton de cerrado del modal, poner la caja con position relative, y mover
 
 Gradual la transición de un estado a otro en un elemento
 
+La transición tiene que estar en el elemento inicial
 
+````css
+.box{ 
+	transition property: ;// ej: color
+	transition duration:
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMjU4Njg3MCwyNjM4MDIxMSwxODMzMT
-A0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3NzUs
-MTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3Nj
-I2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0Mzgx
-OCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMTQwNDU2NDAwNSwxMj
-Q2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUz
-MDhdfQ==
+eyJoaXN0b3J5IjpbLTEwMjY3MDQ0MDYsMjYzODAyMTEsMTgzMz
+EwNDk0NiwtMTU5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1
+LDEyNDIwNTMwMjAsLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1Nz
+YyNjI3NTUsMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4
+MTgsLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMT
+I0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1
+MzA4XX0=
 -->
