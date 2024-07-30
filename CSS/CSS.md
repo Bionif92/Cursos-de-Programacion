@@ -773,11 +773,12 @@ Flex item son los **hijos directos** del contenedor
 
 .flex-items {
 	flex-grow: 1;//defecto en 0, le dice que del espacio disponible ocupar todo el espacio. Si a otro elemento le coloco 2, le da el doble de espacio que a los otros elementos
-	flex-shrink: ;//hasta cuando se puede encoger cuando se achica la ventana, 0: los elementos no se van a encoger luego de alcanzar su tamaño base, lo mismo que con grow, se le pone valor y el mas al
+	flex-shrink: ;//hasta cuando se puede encoger cuando se achica la ventana, 0: los elementos no se van a encoger luego de alcanzar su tamaño base, lo mismo que con grow, se le pone valor y el mas alto se encoge mas
+	flex-basis: ;//
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODYwMDc0NCwxODQ5MzI0NDIyLDEyMz
+eyJoaXN0b3J5IjpbMTYzMTM1NDU2OCwxODQ5MzI0NDIyLDEyMz
 k0Njk4MzYsLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIwMzE1OTA4
 NDAsODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwODY5NjM4LC0xNz
 g2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMDU4Mjcz
