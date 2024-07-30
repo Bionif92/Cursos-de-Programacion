@@ -706,9 +706,8 @@ Flex Wrap nos permite controlar el comportamiento de los flex items cuando el es
 
 ````css
 .flexbox {
-	display:flex; // lo primero que hacen los elementos es alinearse y adaptarse, lo que no pueden es crecer su tamaño definido
-	flex-direction: row-reverse; // cambian de direccion, tienen por defecto ocupar todo el cross axis
-	direction: ;//ltr:left to right y rtl - esto verlo aparte no para flexbox
+	display:flex;
+	flex-wrap: //cambiar o no nueva linea, nowrap: no cambia y es por defecto
 }
 
 .flex-items {
@@ -716,7 +715,7 @@ Flex Wrap nos permite controlar el comportamiento de los flex items cuando el es
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTYxNzQ4NSwtNDMwODY5NjM4LC0xNz
+eyJoaXN0b3J5IjpbLTgzNTg5OTIyOSwtNDMwODY5NjM4LC0xNz
 g2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMDU4Mjcz
 MTYsLTExMjk0MjM0MjYsLTE0MzQzMzY0MjYsODQyNjQ3MzM0LD
 gyMjg4NjAwOSwtODc3MTQxNzE3LC0yMDY3MTQ4MDI0LC0xNTY1
