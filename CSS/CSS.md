@@ -763,18 +763,20 @@ El orden que se representan los elementos en pantalla, solo su orden visual no c
 ````
 Con todos order:1, tienen la misma jerarquia
 
-### Flex Básis, Shrink y Grow
+### Flex Basis, Shrink y Grow
+
+Flex item son los **hijos directos** del contenedor
 
 ````css
 .flexbox {
 }
 
 .flex-items {
-	order:0;// por defecto, tenemos que darle el orden a cada elemento para su representacion visual (-1,0,1,2,3)
+	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDUwNTI3MCwxMjM5NDY5ODM2LC0xNz
+eyJoaXN0b3J5IjpbLTk0MDUyNDUyMSwxMjM5NDY5ODM2LC0xNz
 g2MzM1MTUxLDg0NzQ5NTkwOCwyMDMxNTkwODQwLDgyODI2Njgs
 LTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5MSwxNj
 I0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIz
