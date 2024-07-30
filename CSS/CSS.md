@@ -546,9 +546,9 @@ La transición tiene que estar en el elemento inicial
 ````css
 .box{ 
 	color: red;
-	transition property: ;// ej: color
+	transition property: ;// ej: color, podes poner all para que todas transicionen, pero hace el navegador mas lento
 	transition duration: 1s;
-	transition delay: 3s;// despues de 3 s enpieza tran
+	transition delay: 3s;// despues de 3 s empieza transición
 }
 
 .box:hover{
@@ -556,11 +556,11 @@ La transición tiene que estar en el elemento inicial
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1NDM2NDYsMjYzODAyMTEsMTgzMz
-EwNDk0NiwtMTU5NTc4ODQ2LDEwODAxNjAwNzcsLTkxMzY2Nzc1
-LDEyNDIwNTMwMjAsLTE0NTc0OTQ4NzQsMjAzODYyMjU4OSw1Nz
-YyNjI3NTUsMTQ4MjgxNTE4OCwtOTExMTA2MjI3LDE1NTEyNDM4
-MTgsLTE3NjgxOTIwOTksMjM1NTA4MDE1LDE0MDQ1NjQwMDUsMT
-I0NjIyODUxNCwtNzQzNjc2OTYxLC0xODIyNDg1OTUsODc5OTE1
-MzA4XX0=
+eyJoaXN0b3J5IjpbMTc3NDM3NjY2NywyNjM4MDIxMSwxODMzMT
+A0OTQ2LC0xNTk1Nzg4NDYsMTA4MDE2MDA3NywtOTEzNjY3NzUs
+MTI0MjA1MzAyMCwtMTQ1NzQ5NDg3NCwyMDM4NjIyNTg5LDU3Nj
+I2Mjc1NSwxNDgyODE1MTg4LC05MTExMDYyMjcsMTU1MTI0Mzgx
+OCwtMTc2ODE5MjA5OSwyMzU1MDgwMTUsMTQwNDU2NDAwNSwxMj
+Q2MjI4NTE0LC03NDM2NzY5NjEsLTE4MjI0ODU5NSw4Nzk5MTUz
+MDhdfQ==
 -->
