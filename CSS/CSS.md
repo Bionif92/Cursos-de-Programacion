@@ -755,8 +755,6 @@ El orden que se representan los elementos en pantalla, solo su orden visual no c
 
 ````css
 .flexbox {
-	display:flex;
-	flex-flow: row, wrap; 
 }
 
 .flex-items {
@@ -765,12 +763,22 @@ El orden que se representan los elementos en pantalla, solo su orden visual no c
 ````
 Con todos order:1, tienen la misma jerarquia
 
+### Flex Básis, Shrink y Grow
+
+````css
+.flexbox {
+}
+
+.flex-items {
+	order:0;// por defecto, tenemos que darle el orden a cada elemento para su representacion visual (-1,0,1,2,3)
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4ND
-c0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAw
-LC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02Nz
-gxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMz
-NjQyNiw4NDI2NDczMzQsODIyODg2MDA5LC04NzcxNDE3MTcsLT
-IwNjcxNDgwMjQsLTE1NjU0NTU5NzcsNzQ2ODk0ODA3LDE1MzI3
-NzcyNjVdfQ==
+eyJoaXN0b3J5IjpbMTU1NDUwNTI3MCwxMjM5NDY5ODM2LC0xNz
+g2MzM1MTUxLDg0NzQ5NTkwOCwyMDMxNTkwODQwLDgyODI2Njgs
+LTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwtMTc4NjI5MDQ5MSwxNj
+I0NTcwODYsLTY3ODEzNzQ0OSwxMDA1ODI3MzE2LC0xMTI5NDIz
+NDI2LC0xNDM0MzM2NDI2LDg0MjY0NzMzNCw4MjI4ODYwMDksLT
+g3NzE0MTcxNywtMjA2NzE0ODAyNCwtMTU2NTQ1NTk3Nyw3NDY4
+OTQ4MDddfQ==
 -->
