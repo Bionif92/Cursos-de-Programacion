@@ -802,6 +802,8 @@ No se coloca height normalmente en los elementos porque rompe la estructura cuan
 
 ### Bloques y Multimedia flexible
 
+#### Bloques
+
 Contenedores o elementos que se adaptan fluidamente a las resoluciones de pantalla
 
 ````css
@@ -817,12 +819,13 @@ Si hay dos elementos y ponemos `diplay:inline-block`, si movemos la resolucion n
 
 Para eso ponemos los bloques dentro de un contenedor y le ponemos flexbox
 
+#### Multimedia
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwtMj
-AwNDg1OTk4MCwtMTA4MDY2NTM4NywxNjE0OTU5NzA2LC0xMjEx
-MTYxNDkxLC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMyND
-QyMiwxMjM5NDY5ODM2LC0xNzg2MzM1MTUxLDg0NzQ5NTkwOCwy
-MDMxNTkwODQwLDgyODI2NjgsLTE0OTEwMzc4MDAsLTQzMDg2OT
-YzOCwtMTc4NjI5MDQ5MSwxNjI0NTcwODYsLTY3ODEzNzQ0OSwx
-MDA1ODI3MzE2XX0=
+eyJoaXN0b3J5IjpbNDEzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMT
+UzMjAyMTgsLTIwMDQ4NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1
+OTcwNiwtMTIxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMzOTk4Nj
+kxLDE4NDkzMjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4
+NDc0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3OD
+AwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02
+NzgxMzc0NDldfQ==
 -->
