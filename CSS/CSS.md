@@ -802,15 +802,24 @@ No se coloca height normalmente en los elementos porque rompe la estructura cuan
 
 ### Bloques y Multimedia flexible
 
-Contenedores que se adaptan fluidamente a las resoluciones de pantalla
+Contenedores o elementos que se adaptan fluidamente a las resoluciones de pantalla
 
+````css
+.flexbox {
+	
+}
+
+.item-5 {
+	align-self: ;// funciona cuando flexbox tiene align-items, valores:start,end,center,baseline,strech (ocupar todo)
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDQ4NTk5ODAsLTEwODA2NjUzODcsMT
-YxNDk1OTcwNiwtMTIxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMz
-OTk4NjkxLDE4NDkzMjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNT
-E1MSw4NDc0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkx
-MDM3ODAwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MD
-g2LC02NzgxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwt
-MTQzNDMzNjQyNl19
+eyJoaXN0b3J5IjpbODczMzkzODM3LC0yMDA0ODU5OTgwLC0xMD
+gwNjY1Mzg3LDE2MTQ5NTk3MDYsLTEyMTExNjE0OTEsLTEyMTM5
+OTY4NDAsMTQzMzk5ODY5MSwxODQ5MzI0NDIyLDEyMzk0Njk4Mz
+YsLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIwMzE1OTA4NDAsODI4
+MjY2OCwtMTQ5MTAzNzgwMCwtNDMwODY5NjM4LC0xNzg2MjkwND
+kxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEwMDU4MjczMTYsLTEx
+Mjk0MjM0MjZdfQ==
 -->
