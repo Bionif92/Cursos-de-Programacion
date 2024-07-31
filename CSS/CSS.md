@@ -813,8 +813,12 @@ bloque {
 ````
 Contenido flexible sin necesidad de usar flexbox
 
+Si hay dos elementos y ponemos `diplay:inline-block`, si movemos la resolucion no se adapta, para eso usar flexbox
+
+Para eso ponemos los bloques dentro de un co
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTM2MDYyNywtMTMxNTMyMDIxOCwtMj
+eyJoaXN0b3J5IjpbMTgyMTk4MzAyNCwtMTMxNTMyMDIxOCwtMj
 AwNDg1OTk4MCwtMTA4MDY2NTM4NywxNjE0OTU5NzA2LC0xMjEx
 MTYxNDkxLC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMyND
 QyMiwxMjM5NDY5ODM2LC0xNzg2MzM1MTUxLDg0NzQ5NTkwOCwy
