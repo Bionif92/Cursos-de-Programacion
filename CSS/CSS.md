@@ -821,7 +821,7 @@ Para eso ponemos los bloques dentro de un contenedor y le ponemos flexbox
 
 #### Multimedia
 
-Imágenes flexibles
+**Imágenes flexibles**
 
 ````css
 img {
@@ -830,7 +830,7 @@ img {
 }
 ````
 
-Video flexible
+**Video flexible**
 
 Lo ponemos en un container:
 
@@ -850,10 +850,12 @@ video {
 }
 ````
 
+Nueva forma de hacerlo
+
 ````css
 container {
 	max-width: 100%;
-	aspect-ratio: 16:9;
+	aspect-ratio: 16/9;
 }
 
 video {
@@ -862,7 +864,7 @@ video {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE4NTQ5MTgsLTE2MTgyMDA5NTEsND
+eyJoaXN0b3J5IjpbLTE3OTk4ODY4NTgsLTE2MTgyMDA5NTEsND
 EzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4
 NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MT
 Q5MSwtMTIxMzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIs
