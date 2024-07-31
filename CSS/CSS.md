@@ -808,15 +808,16 @@ Contenedores o elementos que se adaptan fluidamente a las resoluciones de pantal
 bloque {
 	min-width:
 	max-width: // para ajustar la resolucion de la pantalla si cambia
+	height: // 
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAsLT
-EwODA2NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MTQ5MSwtMTIx
-Mzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIsMTIzOTQ2OT
-gzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MDgsMjAzMTU5MDg0MCw4
-MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2MzgsLTE3ODYyOT
-A0OTEsMTYyNDU3MDg2LC02NzgxMzc0NDksMTAwNTgyNzMxNiwt
-MTEyOTQyMzQyNl19
+eyJoaXN0b3J5IjpbMjA4MTMxMjI1LC0xMzE1MzIwMjE4LC0yMD
+A0ODU5OTgwLC0xMDgwNjY1Mzg3LDE2MTQ5NTk3MDYsLTEyMTEx
+NjE0OTEsLTEyMTM5OTY4NDAsMTQzMzk5ODY5MSwxODQ5MzI0ND
+IyLDEyMzk0Njk4MzYsLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIw
+MzE1OTA4NDAsODI4MjY2OCwtMTQ5MTAzNzgwMCwtNDMwODY5Nj
+M4LC0xNzg2MjkwNDkxLDE2MjQ1NzA4NiwtNjc4MTM3NDQ5LDEw
+MDU4MjczMTZdfQ==
 -->
