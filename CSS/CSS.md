@@ -898,12 +898,20 @@ Soporta webp- ver video Dalto si es necesario
 ### Media Queries
 
 Adaptar nuestra pagina web a distintas resoluciones
+
+````css
+@media print {// solo para el medio de impresión
+	body {
+		font-size:23pt;
+	}
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODgwNTc2MCwtMTc0MTM1NjcyNywtMj
-gzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2NDcxNjkxLDUwMzcz
-MTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMywxMzA4MDg3MDc4LC
-04MDE2NDcyNjQsLTExMzc2ODg1ODgsLTE1MDUzNzE0ODEsLTE2
-MTgyMDA5NTEsNDEzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMj
-AyMTgsLTIwMDQ4NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1OTcw
-NiwtMTIxMTE2MTQ5MV19
+eyJoaXN0b3J5IjpbLTEyODk3ODk3MzQsMTA4ODgwNTc2MCwtMT
+c0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2
+NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMy
+wxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgsLTE1
+MDUzNzE0ODEsLTE2MTgyMDA5NTEsNDEzNjEwNDE4LDE2ODQwMz
+IyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAsLTEwODA2NjUz
+ODcsMTYxNDk1OTcwNl19
 -->
