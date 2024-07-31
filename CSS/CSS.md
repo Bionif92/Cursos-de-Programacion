@@ -886,12 +886,13 @@ Atributo media
 	<source media='(max-width: 400 px)'srcset='dalto-small.png'>
 	<source media='(max-width: 600 px)'srcset='dalto-medium.png'>
 	<img src='dalto.png'>
+// de menor a mayor las imagenes
 </picture>
 ````
 
-
+Lo mismo que el tema anterior
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMDM0MjY2MiwtMTY2NTQyODUwOCwtMj
+eyJoaXN0b3J5IjpbLTI4MzE3OTM4OSwtMTY2NTQyODUwOCwtMj
 A3NjQ3MTY5MSw1MDM3MzE1MDIsODE3MTQ4NzQ3LDE0MTI3MjQx
 MjMsMTMwODA4NzA3OCwtODAxNjQ3MjY0LC0xMTM3Njg4NTg4LC
 0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYxMDQxOCwxNjg0
