@@ -872,14 +872,14 @@ Son atributos para elegir la mejor imagen ante un responsive design
 ````html
 <img src:'dalto-small.png' srcset='dalto-small.png 400 w,dalto-medium.png 600w, dalto.png 1000 w' sizes='(max-width: 400px)300px, (max-width: 600px)500px, 900px'>
 ````
-Cuando carga la mas grande, no vuelve a las mas pequeñas, solo sirve si la resolucion es chica y luego se agranda
+Cuando carga la mas grande, no vuelve a las mas pequeñas, solo sirve si la resolución es chica y luego se agranda
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ5MTY1ODUsMTMwODA4NzA3OCwtOD
-AxNjQ3MjY0LC0xMTM3Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4
-MjAwOTUxLDQxMzYxMDQxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMj
-E4LC0yMDA0ODU5OTgwLC0xMDgwNjY1Mzg3LDE2MTQ5NTk3MDYs
-LTEyMTExNjE0OTEsLTEyMTM5OTY4NDAsMTQzMzk5ODY5MSwxOD
-Q5MzI0NDIyLDEyMzk0Njk4MzYsLTE3ODYzMzUxNTEsODQ3NDk1
-OTA4LDIwMzE1OTA4NDBdfQ==
+eyJoaXN0b3J5IjpbMTQxMjcyNDEyMywxMzA4MDg3MDc4LC04MD
+E2NDcyNjQsLTExMzc2ODg1ODgsLTE1MDUzNzE0ODEsLTE2MTgy
+MDA5NTEsNDEzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMT
+gsLTIwMDQ4NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1OTcwNiwt
+MTIxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMzOTk4NjkxLDE4ND
+kzMjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5
+MDgsMjAzMTU5MDg0MF19
 -->
