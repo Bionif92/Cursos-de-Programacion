@@ -902,24 +902,24 @@ Adaptar nuestra pagina web a distintas resoluciones
 ````css
 @media print {// solo para el medio de impresión
 	body {
-		font-size:23pt;
+		font-size:24pt;
 	}
 }
 ````
 
 ````css
-@media screen and {// solo aplica para la pantalla
+@media screen and (max-width:500px){// solo aplica para la pantalla y con la condicion de max width
 	body {
-		font-size:23pt;
+		font-size:24pt;
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwMDE3NjQ0LDEwODg4MDU3NjAsLTE3ND
-EzNTY3MjcsLTI4MzE3OTM4OSwtMTY2NTQyODUwOCwtMjA3NjQ3
-MTY5MSw1MDM3MzE1MDIsODE3MTQ4NzQ3LDE0MTI3MjQxMjMsMT
-MwODA4NzA3OCwtODAxNjQ3MjY0LC0xMTM3Njg4NTg4LC0xNTA1
-MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYxMDQxOCwxNjg0MDMyMj
-I4LC0xMzE1MzIwMjE4LC0yMDA0ODU5OTgwLC0xMDgwNjY1Mzg3
-LDE2MTQ5NTk3MDZdfQ==
+eyJoaXN0b3J5IjpbLTEzNjQ0MzMxMjIsMTA4ODgwNTc2MCwtMT
+c0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2
+NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMy
+wxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgsLTE1
+MDUzNzE0ODEsLTE2MTgyMDA5NTEsNDEzNjEwNDE4LDE2ODQwMz
+IyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAsLTEwODA2NjUz
+ODcsMTYxNDk1OTcwNl19
 -->
