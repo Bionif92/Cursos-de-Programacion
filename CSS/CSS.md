@@ -881,6 +881,8 @@ Cuando carga la mas grande, no vuelve a las mas pequeñas, solo sirve si la reso
 Etiqueta picture y source
 Atributo media
 
+Para cuando queremos cargue una imagen según la resolución
+
 ````html
 <picture>
 	<source media='(max-width: 400 px)'srcset='dalto-small.png'>
@@ -893,11 +895,11 @@ Atributo media
 Lo mismo que el tema anterior
 Soporta webp- ver video Dalto si es necesario
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTIxMTY4MywtMjgzMTc5Mzg5LC0xNj
-Y1NDI4NTA4LC0yMDc2NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3
-NDcsMTQxMjcyNDEyMywxMzA4MDg3MDc4LC04MDE2NDcyNjQsLT
-ExMzc2ODg1ODgsLTE1MDUzNzE0ODEsLTE2MTgyMDA5NTEsNDEz
-NjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NT
-k5ODAsLTEwODA2NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MTQ5
-MSwtMTIxMzk5Njg0MF19
+eyJoaXN0b3J5IjpbLTE3NDEzNTY3MjcsLTI4MzE3OTM4OSwtMT
+Y2NTQyODUwOCwtMjA3NjQ3MTY5MSw1MDM3MzE1MDIsODE3MTQ4
+NzQ3LDE0MTI3MjQxMjMsMTMwODA4NzA3OCwtODAxNjQ3MjY0LC
+0xMTM3Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQx
+MzYxMDQxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMjE4LC0yMDA0OD
+U5OTgwLC0xMDgwNjY1Mzg3LDE2MTQ5NTk3MDYsLTEyMTExNjE0
+OTEsLTEyMTM5OTY4NDBdfQ==
 -->
