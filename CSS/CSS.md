@@ -847,33 +847,26 @@ video {
 	top:0;
 	left:0;
 	max-width: 100%;
-	
 }
 ````
 
 ````css
 container {
-	position:relative;
 	max-width: 100%;
-	padding-top: 56,25%;//forma vieja de hacerlo
-	height:0;
+	aspect-ratio: 16:9;
 }
 
 video {
-	position:absolute;
-	top:0;
-	left:0;
 	max-width: 100%;
-	
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTE4Mjg3OCwtMTYxODIwMDk1MSw0MT
-M2MTA0MTgsMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwtMjAwNDg1
-OTk4MCwtMTA4MDY2NTM4NywxNjE0OTU5NzA2LC0xMjExMTYxND
-kxLC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMyNDQyMiwx
-MjM5NDY5ODM2LC0xNzg2MzM1MTUxLDg0NzQ5NTkwOCwyMDMxNT
-kwODQwLDgyODI2NjgsLTE0OTEwMzc4MDAsLTQzMDg2OTYzOCwt
-MTc4NjI5MDQ5MV19
+eyJoaXN0b3J5IjpbLTE1ODE4NTQ5MTgsLTE2MTgyMDA5NTEsND
+EzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4
+NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MT
+Q5MSwtMTIxMzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIs
+MTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MDgsMjAzMT
+U5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4Njk2Mzgs
+LTE3ODYyOTA0OTFdfQ==
 -->
