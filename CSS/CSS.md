@@ -802,13 +802,15 @@ No se coloca height normalmente en los elementos porque rompe la estructura cuan
 
 ### Bloques y Multimedia flexible
 
+Contenedores que se adaptan fluidamente a las resoluciones de pantalla
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODA2NjUzODcsMTYxNDk1OTcwNiwtMT
-IxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkz
-MjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MD
-gsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3ODAwLC00MzA4
-Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02NzgxMzc0ND
-ksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwtMTQzNDMzNjQyNiw4
-NDI2NDczMzRdfQ==
+eyJoaXN0b3J5IjpbLTIwMDQ4NTk5ODAsLTEwODA2NjUzODcsMT
+YxNDk1OTcwNiwtMTIxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMz
+OTk4NjkxLDE4NDkzMjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNT
+E1MSw4NDc0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkx
+MDM3ODAwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MD
+g2LC02NzgxMzc0NDksMTAwNTgyNzMxNiwtMTEyOTQyMzQyNiwt
+MTQzNDMzNjQyNl19
 -->
