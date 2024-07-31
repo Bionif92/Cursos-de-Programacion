@@ -393,17 +393,49 @@ Podes usar etiquetas de roles- buscar en internet
 
 Usando la función lighthouse de la consola, podemos ver que tan accesible es la pagina
 
+## Responsive Disign
 
+### Atributos SRCSET y SIZES
+
+**Tema de HTML**
+
+Son atributos para elegir la mejor imagen ante un responsive design
+
+````html
+<img src:'dalto-small.png' srcset='dalto-small.png 400 w,dalto-medium.png 600w, dalto.png 1000 w' sizes='(max-width: 400px)300px, (max-width: 600px)500px, 900px'>
+// en srcset definimos las imagenes y sus tamaños, y en sizes cual usar
+````
+Cuando carga la mas grande, no vuelve a las mas pequeñas, solo sirve si la resolución es chica y luego se agranda
+
+### Picture, Source y Media
+
+**Tema de HTML**
+Etiqueta picture y source
+Atributo media
+
+Para cuando queremos cargue una imagen según la resolución
+
+````html
+<picture>
+	<source media='(max-width: 400 px)'srcset='dalto-small.png'>
+	<source media='(max-width: 600 px)'srcset='dalto-medium.png'>
+	<img src='dalto.png'>
+// de menor a mayor las imagenes
+</picture>
+````
+
+Lo mismo que el tema anterior
+Soporta webp- ver video Dalto si es necesario
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk1NjYzMTAyLDY1MjYxOTM0LC0xNjE2OT
-c2OTk5LDEyODAwNjQxNTksMTA4ODQ4MTY4LDE4NzQ3ODMxMywt
-MjEzNDQ3NzU1MCwxMTk1ODM0NjY3LC05Mjc4MDcwNDIsLTE0ND
-c3Nzk4NjMsLTEzMTI3NjI4MjcsLTEzNTkwNzk2NTEsLTExNzEw
-MzIxNDIsLTExMzk4MTU1MzMsLTY1NzI4MjkzMywxNTI0Mjc2MT
-Q0LDIwMzIxMzgyOTQsLTM5NjQ3MDUyLC0xMjkxNTg5NjQwLDEy
-NjQxOTk4OTNdfQ==
+eyJoaXN0b3J5IjpbNjQzODczNyw2NTI2MTkzNCwtMTYxNjk3Nj
+k5OSwxMjgwMDY0MTU5LDEwODg0ODE2OCwxODc0NzgzMTMsLTIx
+MzQ0Nzc1NTAsMTE5NTgzNDY2NywtOTI3ODA3MDQyLC0xNDQ3Nz
+c5ODYzLC0xMzEyNzYyODI3LC0xMzU5MDc5NjUxLC0xMTcxMDMy
+MTQyLC0xMTM5ODE1NTMzLC02NTcyODI5MzMsMTUyNDI3NjE0NC
+wyMDMyMTM4Mjk0LC0zOTY0NzA1MiwtMTI5MTU4OTY0MCwxMjY0
+MTk5ODkzXX0=
 -->
