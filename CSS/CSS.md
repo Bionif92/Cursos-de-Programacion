@@ -914,13 +914,21 @@ Adaptar nuestra pagina web a distintas resoluciones
 	}
 }
 ````
-Podes usarla para una flexbox que 
+Podes usarla para una flexbox que esta en row, modificarla a columna cuando llega a un width
+
+````css
+@media screen and (max-width:600px){// 
+	flexbox {
+		flex-direction: column;
+	}
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjIwMjY4NTgsMTA4ODgwNTc2MCwtMT
-c0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2
-NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMy
-wxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgsLTE1
-MDUzNzE0ODEsLTE2MTgyMDA5NTEsNDEzNjEwNDE4LDE2ODQwMz
-IyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAsLTEwODA2NjUz
-ODcsMTYxNDk1OTcwNl19
+eyJoaXN0b3J5IjpbLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC0xNz
+QxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIwNzY0
+NzE2OTEsNTAzNzMxNTAyLDgxNzE0ODc0NywxNDEyNzI0MTIzLD
+EzMDgwODcwNzgsLTgwMTY0NzI2NCwtMTEzNzY4ODU4OCwtMTUw
+NTM3MTQ4MSwtMTYxODIwMDk1MSw0MTM2MTA0MTgsMTY4NDAzMj
+IyOCwtMTMxNTMyMDIxOCwtMjAwNDg1OTk4MCwtMTA4MDY2NTM4
+NywxNjE0OTU5NzA2XX0=
 -->
