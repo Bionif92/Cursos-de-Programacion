@@ -838,17 +838,38 @@ Lo ponemos en un container:
 container {
 	position:relative;
 	max-width: 100%;
-	padding-top: 56,25%;//
+	padding-top: 56,25%;//forma vieja de hacerlo
+	height:0;
 }
 
 video {
 	position:absolute;
+	top:0;
+	left:0;
 	max-width: 100%;
+	
+}
+````
+
+````css
+container {
+	position:relative;
+	max-width: 100%;
+	padding-top: 56,25%;//forma vieja de hacerlo
+	height:0;
+}
+
+video {
+	position:absolute;
+	top:0;
+	left:0;
+	max-width: 100%;
+	
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNTMwNDU5OSwtMTYxODIwMDk1MSw0MT
+eyJoaXN0b3J5IjpbMTA0NTE4Mjg3OCwtMTYxODIwMDk1MSw0MT
 M2MTA0MTgsMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwtMjAwNDg1
 OTk4MCwtMTA4MDY2NTM4NywxNjE0OTU5NzA2LC0xMjExMTYxND
 kxLC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMyNDQyMiwx
