@@ -867,10 +867,14 @@ video {
 
 Tema de HTML
 
-Son atributos para elegir la mejor imagen ante un responsive desi
+Son atributos para elegir la mejor imagen ante un responsive design
+
+````html
+
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxOTcwMzY4NiwtMTEzNzY4ODU4OCwtMT
+eyJoaXN0b3J5IjpbLTgwMTY0NzI2NCwtMTEzNzY4ODU4OCwtMT
 UwNTM3MTQ4MSwtMTYxODIwMDk1MSw0MTM2MTA0MTgsMTY4NDAz
 MjIyOCwtMTMxNTMyMDIxOCwtMjAwNDg1OTk4MCwtMTA4MDY2NT
 M4NywxNjE0OTU5NzA2LC0xMjExMTYxNDkxLC0xMjEzOTk2ODQw
