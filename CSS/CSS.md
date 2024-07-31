@@ -805,11 +805,14 @@ No se coloca height normalmente en los elementos porque rompe la estructura cuan
 Contenedores o elementos que se adaptan fluidamente a las resoluciones de pantalla
 
 ````css
-
+bloque {
+	min-width:
+	max-width: // para ajustar la resolucion de la pantalla si cambia
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM3Mjg4NzQsLTIwMDQ4NTk5ODAsLT
+eyJoaXN0b3J5IjpbLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAsLT
 EwODA2NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MTQ5MSwtMTIx
 Mzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIsMTIzOTQ2OT
 gzNiwtMTc4NjMzNTE1MSw4NDc0OTU5MDgsMjAzMTU5MDg0MCw4
