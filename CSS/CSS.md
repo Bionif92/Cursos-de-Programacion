@@ -870,15 +870,15 @@ Tema de HTML
 Son atributos para elegir la mejor imagen ante un responsive design
 
 ````html
-<img src:'dalto-small.png' srcset='dalto-small.png 400 w,dalto-medium.png 600w, dalto.png 1000 w' sizes='(max-width: 400px)360px,  900px'>
+<img src:'dalto-small.png' srcset='dalto-small.png 400 w,dalto-medium.png 600w, dalto.png 1000 w' sizes='(max-width: 400px)300px, (max-width: 600px)500px, 900px'>
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTkzMDk5ODMsLTgwMTY0NzI2NCwtMT
-EzNzY4ODU4OCwtMTUwNTM3MTQ4MSwtMTYxODIwMDk1MSw0MTM2
-MTA0MTgsMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwtMjAwNDg1OT
-k4MCwtMTA4MDY2NTM4NywxNjE0OTU5NzA2LC0xMjExMTYxNDkx
-LC0xMjEzOTk2ODQwLDE0MzM5OTg2OTEsMTg0OTMyNDQyMiwxMj
-M5NDY5ODM2LC0xNzg2MzM1MTUxLDg0NzQ5NTkwOCwyMDMxNTkw
-ODQwLDgyODI2NjhdfQ==
+eyJoaXN0b3J5IjpbMTMwODA4NzA3OCwtODAxNjQ3MjY0LC0xMT
+M3Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYx
+MDQxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMjE4LC0yMDA0ODU5OT
+gwLC0xMDgwNjY1Mzg3LDE2MTQ5NTk3MDYsLTEyMTExNjE0OTEs
+LTEyMTM5OTY4NDAsMTQzMzk5ODY5MSwxODQ5MzI0NDIyLDEyMz
+k0Njk4MzYsLTE3ODYzMzUxNTEsODQ3NDk1OTA4LDIwMzE1OTA4
+NDAsODI4MjY2OF19
 -->
