@@ -830,9 +830,22 @@ img {
 }
 ````
 
-Video flexi
+Video flexible
+
+Lo ponemos en un container:
+
+````css
+container {
+	p
+}
+
+video {
+	
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzgyNzA4ODQsLTE2MTgyMDA5NTEsND
+eyJoaXN0b3J5IjpbLTE0NTQ0OTUwNTksLTE2MTgyMDA5NTEsND
 EzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4
 NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MT
 Q5MSwtMTIxMzk5Njg0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIs
