@@ -883,11 +883,15 @@ Atributo media
 
 ````html
 <picture>
-	<source media='(max-width: 600 px)'srcset='dalto-medium.png'
+	<source media='(max-width: 400 px)'srcset='dalto-small.png'>
+	<source media='(max-width: 600 px)'srcset='dalto-medium.png'>
+	<img src='dalto.png'>
 </picture>
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyODU3NDA2MywtMTY2NTQyODUwOCwtMj
+eyJoaXN0b3J5IjpbMTAyMDM0MjY2MiwtMTY2NTQyODUwOCwtMj
 A3NjQ3MTY5MSw1MDM3MzE1MDIsODE3MTQ4NzQ3LDE0MTI3MjQx
 MjMsMTMwODA4NzA3OCwtODAxNjQ3MjY0LC0xMTM3Njg4NTg4LC
 0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYxMDQxOCwxNjg0
