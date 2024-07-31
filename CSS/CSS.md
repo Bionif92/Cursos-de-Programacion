@@ -870,11 +870,11 @@ Tema de HTML
 Son atributos para elegir la mejor imagen ante un responsive design
 
 ````html
-<img src:'dalto-small.png' srcset=''
+<img src:'dalto-small.png' srcset='dalto-small.png 400 w,dalto-medium.png 600w, dalto.png 1000 w'>// elige la imagen segun la resolución
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjY1ODA0NywtODAxNjQ3MjY0LC0xMT
+eyJoaXN0b3J5IjpbLTUwMjk2NjMyMCwtODAxNjQ3MjY0LC0xMT
 M3Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYx
 MDQxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMjE4LC0yMDA0ODU5OT
 gwLC0xMDgwNjY1Mzg3LDE2MTQ5NTk3MDYsLTEyMTExNjE0OTEs
