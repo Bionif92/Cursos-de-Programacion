@@ -820,12 +820,20 @@ Si hay dos elementos y ponemos `diplay:inline-block`, si movemos la resolucion n
 Para eso ponemos los bloques dentro de un contenedor y le ponemos flexbox
 
 #### Multimedia
+
+Imágenes flexibles
+
+````css
+img {
+	
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMT
-UzMjAyMTgsLTIwMDQ4NTk5ODAsLTEwODA2NjUzODcsMTYxNDk1
-OTcwNiwtMTIxMTE2MTQ5MSwtMTIxMzk5Njg0MCwxNDMzOTk4Nj
-kxLDE4NDkzMjQ0MjIsMTIzOTQ2OTgzNiwtMTc4NjMzNTE1MSw4
-NDc0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNjY4LC0xNDkxMDM3OD
-AwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEsMTYyNDU3MDg2LC02
-NzgxMzc0NDldfQ==
+eyJoaXN0b3J5IjpbLTE2MTgyMDA5NTEsNDEzNjEwNDE4LDE2OD
+QwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAsLTEwODA2
+NjUzODcsMTYxNDk1OTcwNiwtMTIxMTE2MTQ5MSwtMTIxMzk5Nj
+g0MCwxNDMzOTk4NjkxLDE4NDkzMjQ0MjIsMTIzOTQ2OTgzNiwt
+MTc4NjMzNTE1MSw4NDc0OTU5MDgsMjAzMTU5MDg0MCw4MjgyNj
+Y4LC0xNDkxMDM3ODAwLC00MzA4Njk2MzgsLTE3ODYyOTA0OTEs
+MTYyNDU3MDg2XX0=
 -->
