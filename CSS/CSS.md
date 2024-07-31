@@ -914,8 +914,9 @@ Adaptar nuestra pagina web a distintas resoluciones
 	}
 }
 ````
+Podes usarla para una flexbox que 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ0MzMxMjIsMTA4ODgwNTc2MCwtMT
+eyJoaXN0b3J5IjpbLTIwNjIwMjY4NTgsMTA4ODgwNTc2MCwtMT
 c0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2
 NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMy
 wxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgsLTE1
