@@ -865,7 +865,7 @@ video {
 
 ### Atributos SRCSET y SIZES
 
-Tema de HTML
+**Tema de HTML**
 
 Son atributos para elegir la mejor imagen ante un responsive design
 
@@ -876,12 +876,16 @@ Son atributos para elegir la mejor imagen ante un responsive design
 Cuando carga la mas grande, no vuelve a las mas pequeñas, solo sirve si la resolución es chica y luego se agranda
 
 ### Picture, Source y Media
+
+**Tema de HTML**
+Etiqueta picture y source
+Atributo media
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzNzMxNTAyLDgxNzE0ODc0NywxNDEyNz
-I0MTIzLDEzMDgwODcwNzgsLTgwMTY0NzI2NCwtMTEzNzY4ODU4
-OCwtMTUwNTM3MTQ4MSwtMTYxODIwMDk1MSw0MTM2MTA0MTgsMT
-Y4NDAzMjIyOCwtMTMxNTMyMDIxOCwtMjAwNDg1OTk4MCwtMTA4
-MDY2NTM4NywxNjE0OTU5NzA2LC0xMjExMTYxNDkxLC0xMjEzOT
-k2ODQwLDE0MzM5OTg2OTEsMTg0OTMyNDQyMiwxMjM5NDY5ODM2
-LC0xNzg2MzM1MTUxXX0=
+eyJoaXN0b3J5IjpbMTIxMjg0ODg3Nyw1MDM3MzE1MDIsODE3MT
+Q4NzQ3LDE0MTI3MjQxMjMsMTMwODA4NzA3OCwtODAxNjQ3MjY0
+LC0xMTM3Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLD
+QxMzYxMDQxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMjE4LC0yMDA0
+ODU5OTgwLC0xMDgwNjY1Mzg3LDE2MTQ5NTk3MDYsLTEyMTExNj
+E0OTEsLTEyMTM5OTY4NDAsMTQzMzk5ODY5MSwxODQ5MzI0NDIy
+LDEyMzk0Njk4MzZdfQ==
 -->
