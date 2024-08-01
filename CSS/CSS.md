@@ -987,9 +987,11 @@ Queries si soporta el navegador la feature, sino lo romperia
 
 ### Container Queries
 
-Segun propiedades del contenedor 
+Según propiedades del contenedor dar estilo a elementos internos
 ````css
-
+.container {
+	container-type:inlin
+}
 ````
 
 
@@ -997,11 +999,11 @@ Segun propiedades del contenedor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk1NjYxNiwxNzgyMjY3MzQ0LC0xMj
-E0OTI4OTgxLC0yMDQ0NDkxMDk0LC05Mzc5OTcwNDAsMTc1NzQ1
-MDY1OSw0MzA3NjA2MTcsLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC
-0xNzQxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIw
-NzY0NzE2OTEsNTAzNzMxNTAyLDgxNzE0ODc0NywxNDEyNzI0MT
-IzLDEzMDgwODcwNzgsLTgwMTY0NzI2NCwtMTEzNzY4ODU4OCwt
-MTUwNTM3MTQ4MV19
+eyJoaXN0b3J5IjpbLTEzMTY1NjU3OTgsMTc4MjI2NzM0NCwtMT
+IxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOTM3OTk3MDQwLDE3NTc0
+NTA2NTksNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4ODgwNTc2MC
+wtMTc0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0y
+MDc2NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyND
+EyMywxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgs
+LTE1MDUzNzE0ODFdfQ==
 -->
