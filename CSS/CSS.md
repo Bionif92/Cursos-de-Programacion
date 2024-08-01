@@ -945,17 +945,18 @@ footer {
 ````
 El segundo aside lo hizo desaparecer cuando baja el tamaño de la ventana
 ````css
-
-aside:last-child {
+@media screen and (max-width:600px){
+	aside:last-child {
 	display:none;
+	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTk2OTg5MzAsNDMwNzYwNjE3LC04Nz
-M1OTEzNzAsMTA4ODgwNTc2MCwtMTc0MTM1NjcyNywtMjgzMTc5
-Mzg5LC0xNjY1NDI4NTA4LC0yMDc2NDcxNjkxLDUwMzczMTUwMi
-w4MTcxNDg3NDcsMTQxMjcyNDEyMywxMzA4MDg3MDc4LC04MDE2
-NDcyNjQsLTExMzc2ODg1ODgsLTE1MDUzNzE0ODEsLTE2MTgyMD
-A5NTEsNDEzNjEwNDE4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgs
-LTIwMDQ4NTk5ODBdfQ==
+eyJoaXN0b3J5IjpbMTc1NzQ1MDY1OSw0MzA3NjA2MTcsLTg3Mz
+U5MTM3MCwxMDg4ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkz
+ODksLTE2NjU0Mjg1MDgsLTIwNzY0NzE2OTEsNTAzNzMxNTAyLD
+gxNzE0ODc0NywxNDEyNzI0MTIzLDEzMDgwODcwNzgsLTgwMTY0
+NzI2NCwtMTEzNzY4ODU4OCwtMTUwNTM3MTQ4MSwtMTYxODIwMD
+k1MSw0MTM2MTA0MTgsMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwt
+MjAwNDg1OTk4MF19
 -->
