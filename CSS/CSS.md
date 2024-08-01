@@ -966,12 +966,12 @@ Centra todo el contenido y le da max width para que no se extienda el contenido
 
 Primero pensar en el celular
 
-El proceso lo haces como si fuera en celu y despues con @media le damos min:800 px para verlo cuando la agrandemos
+El proceso lo haces como si fuera en celu y después con @media le damos min:800 px para verlo cuando la agrandemos
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTM0NTM0MSwxNzgyMjY3MzQ0LC0xMj
+eyJoaXN0b3J5IjpbLTE1MTY3Mzc5OSwxNzgyMjY3MzQ0LC0xMj
 E0OTI4OTgxLC0yMDQ0NDkxMDk0LC05Mzc5OTcwNDAsMTc1NzQ1
 MDY1OSw0MzA3NjA2MTcsLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC
 0xNzQxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIw
