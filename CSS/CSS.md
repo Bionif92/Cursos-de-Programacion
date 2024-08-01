@@ -928,13 +928,13 @@ Podes usarla para una flexbox que esta en row, modificarla a columna cuando lleg
 
 Tiene 5 secciones: header, main, dos columnas laterales y un footer
 En el header puso un nav
-En 
+En el div puso el main y las dos columnas aside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTg0ODgxNywtODczNTkxMzcwLDEwOD
-g4MDU3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4OSwtMTY2NTQy
-ODUwOCwtMjA3NjQ3MTY5MSw1MDM3MzE1MDIsODE3MTQ4NzQ3LD
-E0MTI3MjQxMjMsMTMwODA4NzA3OCwtODAxNjQ3MjY0LC0xMTM3
-Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYxMD
-QxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMjE4LC0yMDA0ODU5OTgw
-LC0xMDgwNjY1Mzg3XX0=
+eyJoaXN0b3J5IjpbNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4OD
+gwNTc2MCwtMTc0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4
+NTA4LC0yMDc2NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMT
+QxMjcyNDEyMywxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2
+ODg1ODgsLTE1MDUzNzE0ODEsLTE2MTgyMDA5NTEsNDEzNjEwND
+E4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAs
+LTEwODA2NjUzODddfQ==
 -->
