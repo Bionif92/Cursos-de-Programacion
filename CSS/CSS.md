@@ -923,12 +923,18 @@ Podes usarla para una flexbox que esta en row, modificarla a columna cuando lleg
 	}
 }
 ````
+
+### Holy Grail
+
+Tiene 5 secciones: header, main, dos columnas laterales y un footer
+En el header puso un nav
+En 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC0xNz
-QxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIwNzY0
-NzE2OTEsNTAzNzMxNTAyLDgxNzE0ODc0NywxNDEyNzI0MTIzLD
-EzMDgwODcwNzgsLTgwMTY0NzI2NCwtMTEzNzY4ODU4OCwtMTUw
-NTM3MTQ4MSwtMTYxODIwMDk1MSw0MTM2MTA0MTgsMTY4NDAzMj
-IyOCwtMTMxNTMyMDIxOCwtMjAwNDg1OTk4MCwtMTA4MDY2NTM4
-NywxNjE0OTU5NzA2XX0=
+eyJoaXN0b3J5IjpbLTkyOTg0ODgxNywtODczNTkxMzcwLDEwOD
+g4MDU3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4OSwtMTY2NTQy
+ODUwOCwtMjA3NjQ3MTY5MSw1MDM3MzE1MDIsODE3MTQ4NzQ3LD
+E0MTI3MjQxMjMsMTMwODA4NzA3OCwtODAxNjQ3MjY0LC0xMTM3
+Njg4NTg4LC0xNTA1MzcxNDgxLC0xNjE4MjAwOTUxLDQxMzYxMD
+QxOCwxNjg0MDMyMjI4LC0xMzE1MzIwMjE4LC0yMDA0ODU5OTgw
+LC0xMDgwNjY1Mzg3XX0=
 -->
