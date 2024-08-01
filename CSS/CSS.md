@@ -970,7 +970,7 @@ El proceso lo haces como si fuera en celu y después con @media le damos min:800
 
 ### Feature Queries
 
-Queries si soporta el navegador la feature, 
+Queries si soporta el navegador la feature, sino lo romperia
 ````css
 @supports (display:grid){
 	body {
@@ -985,12 +985,19 @@ Queries si soporta el navegador la feature,
 }
 ````
 
+### Container Queries
+
+Segun propiedades del contenedor 
+````css
+
+````
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxOTgwODA2MiwxNzgyMjY3MzQ0LC0xMj
+eyJoaXN0b3J5IjpbLTIwMzk1NjYxNiwxNzgyMjY3MzQ0LC0xMj
 E0OTI4OTgxLC0yMDQ0NDkxMDk0LC05Mzc5OTcwNDAsMTc1NzQ1
 MDY1OSw0MzA3NjA2MTcsLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC
 0xNzQxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIw
