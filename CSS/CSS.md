@@ -951,12 +951,21 @@ El segundo aside lo hizo desaparecer cuando baja el tamaño de la ventana
 	}
 }
 ````
+Y cuando baja mas la resolución
+
+````css
+@media screen and (max-width:400px){
+	main-wrapper {
+	flex-direction:column;
+	}
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzQ1MDY1OSw0MzA3NjA2MTcsLTg3Mz
-U5MTM3MCwxMDg4ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkz
-ODksLTE2NjU0Mjg1MDgsLTIwNzY0NzE2OTEsNTAzNzMxNTAyLD
-gxNzE0ODc0NywxNDEyNzI0MTIzLDEzMDgwODcwNzgsLTgwMTY0
-NzI2NCwtMTEzNzY4ODU4OCwtMTUwNTM3MTQ4MSwtMTYxODIwMD
-k1MSw0MTM2MTA0MTgsMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwt
-MjAwNDg1OTk4MF19
+eyJoaXN0b3J5IjpbLTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMD
+c2MDYxNywtODczNTkxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3
+MjcsLTI4MzE3OTM4OSwtMTY2NTQyODUwOCwtMjA3NjQ3MTY5MS
+w1MDM3MzE1MDIsODE3MTQ4NzQ3LDE0MTI3MjQxMjMsMTMwODA4
+NzA3OCwtODAxNjQ3MjY0LC0xMTM3Njg4NTg4LC0xNTA1MzcxND
+gxLC0xNjE4MjAwOTUxLDQxMzYxMDQxOCwxNjg0MDMyMjI4LC0x
+MzE1MzIwMjE4XX0=
 -->
