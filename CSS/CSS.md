@@ -940,11 +940,11 @@ body {
 }
 
 footer {
-	margi
+	margin-top:auto
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODM3OTM0Myw0MzA3NjA2MTcsLTg3Mz
+eyJoaXN0b3J5IjpbLTkyMzkwNjAxMiw0MzA3NjA2MTcsLTg3Mz
 U5MTM3MCwxMDg4ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkz
 ODksLTE2NjU0Mjg1MDgsLTIwNzY0NzE2OTEsNTAzNzMxNTAyLD
 gxNzE0ODc0NywxNDEyNzI0MTIzLDEzMDgwODcwNzgsLTgwMTY0
