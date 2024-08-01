@@ -991,26 +991,27 @@ Según propiedades del contenedor dar estilo a elementos internos
 ````css
 .container {
 	container-type:inline-size;
+	container-name:main; // esto para que solo lo haga en este y no en todos
 }
 
-@container (max-width:500) {
+@container main(max-width:500) { //elegimos un solo contenedor
 	p {
 		font-size:20px;
 	}
 }
 ````
-Con esto funciona para todos lo
+Con esto funciona para todos los container
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYwNDk3MDcyLDE3ODIyNjczNDQsLTEyMT
-Q5Mjg5ODEsLTIwNDQ0OTEwOTQsLTkzNzk5NzA0MCwxNzU3NDUw
-NjU5LDQzMDc2MDYxNywtODczNTkxMzcwLDEwODg4MDU3NjAsLT
-E3NDEzNTY3MjcsLTI4MzE3OTM4OSwtMTY2NTQyODUwOCwtMjA3
-NjQ3MTY5MSw1MDM3MzE1MDIsODE3MTQ4NzQ3LDE0MTI3MjQxMj
-MsMTMwODA4NzA3OCwtODAxNjQ3MjY0LC0xMTM3Njg4NTg4LC0x
-NTA1MzcxNDgxXX0=
+eyJoaXN0b3J5IjpbLTE3MzIwODgwNDUsMTc4MjI2NzM0NCwtMT
+IxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOTM3OTk3MDQwLDE3NTc0
+NTA2NTksNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4ODgwNTc2MC
+wtMTc0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0y
+MDc2NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyND
+EyMywxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgs
+LTE1MDUzNzE0ODFdfQ==
 -->
