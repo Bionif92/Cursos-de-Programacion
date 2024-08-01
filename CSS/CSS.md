@@ -966,13 +966,16 @@ Centra todo el contenido y le da max width para que no se extienda el contenido
 
 Primero pensar en el celular
 
+El proceso lo haces como si fuera en celu y despues con @media le damos min:800 px para verlo cuando la agrandemos
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjI2NzM0NCwtMTIxNDkyODk4MSwtMj
-A0NDQ5MTA5NCwtOTM3OTk3MDQwLDE3NTc0NTA2NTksNDMwNzYw
-NjE3LC04NzM1OTEzNzAsMTA4ODgwNTc2MCwtMTc0MTM1NjcyNy
-wtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2NDcxNjkxLDUw
-MzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMywxMzA4MDg3MD
-c4LC04MDE2NDcyNjQsLTExMzc2ODg1ODgsLTE1MDUzNzE0ODEs
-LTE2MTgyMDA5NTFdfQ==
+eyJoaXN0b3J5IjpbMTcyOTM0NTM0MSwxNzgyMjY3MzQ0LC0xMj
+E0OTI4OTgxLC0yMDQ0NDkxMDk0LC05Mzc5OTcwNDAsMTc1NzQ1
+MDY1OSw0MzA3NjA2MTcsLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC
+0xNzQxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIw
+NzY0NzE2OTEsNTAzNzMxNTAyLDgxNzE0ODc0NywxNDEyNzI0MT
+IzLDEzMDgwODcwNzgsLTgwMTY0NzI2NCwtMTEzNzY4ODU4OCwt
+MTUwNTM3MTQ4MV19
 -->
