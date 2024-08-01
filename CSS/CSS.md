@@ -929,12 +929,26 @@ Podes usarla para una flexbox que esta en row, modificarla a columna cuando lleg
 Tiene 5 secciones: header, main, dos columnas laterales y un footer
 En el header puso un nav
 En el div puso el main y las dos columnas aside
+
+Coloco en body
+````css
+body {
+	display:flex;
+	flex-direction:column;
+	align-items:start;
+	min-height:100vh
+}
+
+footer {
+	margi
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4OD
-gwNTc2MCwtMTc0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4
-NTA4LC0yMDc2NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMT
-QxMjcyNDEyMywxMzA4MDg3MDc4LC04MDE2NDcyNjQsLTExMzc2
-ODg1ODgsLTE1MDUzNzE0ODEsLTE2MTgyMDA5NTEsNDEzNjEwND
-E4LDE2ODQwMzIyMjgsLTEzMTUzMjAyMTgsLTIwMDQ4NTk5ODAs
-LTEwODA2NjUzODddfQ==
+eyJoaXN0b3J5IjpbLTIyODM3OTM0Myw0MzA3NjA2MTcsLTg3Mz
+U5MTM3MCwxMDg4ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkz
+ODksLTE2NjU0Mjg1MDgsLTIwNzY0NzE2OTEsNTAzNzMxNTAyLD
+gxNzE0ODc0NywxNDEyNzI0MTIzLDEzMDgwODcwNzgsLTgwMTY0
+NzI2NCwtMTEzNzY4ODU4OCwtMTUwNTM3MTQ4MSwtMTYxODIwMD
+k1MSw0MTM2MTA0MTgsMTY4NDAzMjIyOCwtMTMxNTMyMDIxOCwt
+MjAwNDg1OTk4MF19
 -->
