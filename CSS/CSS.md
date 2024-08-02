@@ -1074,8 +1074,16 @@ Hay dos tipos de grid:
  - Explicito (creamos con las template)
  - Implícito (no creadas y se adaptan a la grilla)
 
+````css
+.grid {
+	grid-auto-rows: 80px;
+}
+
+.grid-item {
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODQxNzQ0MDQsLTE5MzI4MzI4ODksLT
+eyJoaXN0b3J5IjpbLTE4ODgwNjc4MzgsLTE5MzI4MzI4ODksLT
 EwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNTg0OCwtMTQ1
 OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1OT
 IxOTUsLTExMDA5NDIwNDEsLTExMzY3NjczNDQsLTE4MDQ5Mzgz
