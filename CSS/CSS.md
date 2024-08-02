@@ -1039,7 +1039,7 @@ Partes:
 .grid {
 	display:grid; 
 	grid-template-columns: auto 200px;// ocupa tamaño de la ventana pero al elemento podemos ponerle el ancho deseado, quedando el elemento y el espacio en blanco dentro de la columna
-	grid-template-rows: ; 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
 }
 
 .grid-item {
@@ -1054,13 +1054,22 @@ Se usa mas `fr`
 
 ### Repeat() y MinMax()
 
+````css
+.grid {
+	display:grid; 
+	grid-template-columns: repeat(4,1fr); // repite 4 columnas de 1 fr, podes agrega
+	grid-template-rows: ;
+}
 
+.grid-item {
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwODQyNTg0OCwtMTQ1OTExMDIxMywtMT
-M1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1OTIxOTUsLTExMDA5
-NDIwNDEsLTExMzY3NjczNDQsLTE4MDQ5MzgzOTIsNDMyNTE3ND
-Y4LC0yODIyNTIzOTEsLTE3MzIwODgwNDUsMTc4MjI2NzM0NCwt
-MTIxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOTM3OTk3MDQwLDE3NT
-c0NTA2NTksNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4ODgwNTc2
-MCwtMTc0MTM1NjcyN119
+eyJoaXN0b3J5IjpbMzMzNTc4NTY5LDE4MDg0MjU4NDgsLTE0NT
+kxMTAyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTky
+MTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0OTM4Mz
+kyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MDQ1LDE3
+ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQsLTkzNz
+k5NzA0MCwxNzU3NDUwNjU5LDQzMDc2MDYxNywtODczNTkxMzcw
+LDEwODg4MDU3NjBdfQ==
 -->
