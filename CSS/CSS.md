@@ -1119,14 +1119,15 @@ La diferencia entre `auto-fit` y `auto-fill`:
 
 ### Grid Row y Grid Column
 
-Las cantidad de gri
+Las cantidad de grid row y grid column es la cantidad de row y de column +1 en cada caso.
+Empieza grid row, despues elemento, despues grid row y asi...
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5OTU2NDUwLC0xOTI1ODg0MzkzLC00MD
-Y1ODMzMjcsMjE5OTM1ODU0LC0xNTgxMDI4MDYxLC0xOTMyODMy
-ODg5LC0xMDUzMjIyMzc1LC0xODE4MjM2MTA0LDE4MDg0MjU4ND
-gsLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3Mywx
-MjIwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xOD
-A0OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4
-MDQ1LDE3ODIyNjczNDRdfQ==
+eyJoaXN0b3J5IjpbLTE5NjgxMjYxMTMsLTE5MjU4ODQzOTMsLT
+QwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4
+MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNT
+g0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDcz
+LDEyMjA1OTIxOTUsLTExMDA5NDIwNDEsLTExMzY3NjczNDQsLT
+E4MDQ5MzgzOTIsNDMyNTE3NDY4LC0yODIyNTIzOTEsLTE3MzIw
+ODgwNDUsMTc4MjI2NzM0NF19
 -->
