@@ -1155,18 +1155,20 @@ Asignar un elemento a un área especifica que nosotros dimos en grid
 
 ````css
 .grid {
+// otra forma de crear el área
+	grid-template-areas: ;
 }
 
 .grid-item:first child {
-	grid-area: span 2/span 3; // row/column
+	grid-area: span 2/span 3; // row/column crecer dos filas y crecer tres columnas
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Nzk2NzU2LC0xMzkzNTEwODY4LDEwNT
-g5ODk4MjUsLTE5MjU4ODQzOTMsLTQwNjU4MzMyNywyMTk5MzU4
-NTQsLTE1ODEwMjgwNjEsLTE5MzI4MzI4ODksLTEwNTMyMjIzNz
-UsLTE4MTgyMzYxMDQsMTgwODQyNTg0OCwtMTQ1OTExMDIxMywt
-MTM1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1OTIxOTUsLTExMD
-A5NDIwNDEsLTExMzY3NjczNDQsLTE4MDQ5MzgzOTIsNDMyNTE3
-NDY4LC0yODIyNTIzOTFdfQ==
+eyJoaXN0b3J5IjpbLTE4NTE5ODYzOTIsLTEzOTM1MTA4NjgsMT
+A1ODk4OTgyNSwtMTkyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkz
+NTg1NCwtMTU4MTAyODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMj
+M3NSwtMTgxODIzNjEwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEz
+LC0xMzUyMTY3NzE1LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMT
+EwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1
+MTc0NjgsLTI4MjI1MjM5MV19
 -->
