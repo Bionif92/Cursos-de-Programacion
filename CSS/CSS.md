@@ -1130,16 +1130,16 @@ Empieza grid row, despues elemento, despues grid row y asi...
 	grid-row-start:1;
 	grid-column-start:1;
 	grid-row-end:3;
-	grid-column-end:3;// agranda el bloque para un item
+	grid-column-end:3;// agranda el bloque para un item, podes poner span 2 que agranda en columna dos espacios
 }
 ````
 **Si queremos poner una imagen, en ves de ponerla como item, ponerla como background en css**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzkzNzU5OTIsMTA1ODk4OTgyNSwtMT
-kyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAy
-ODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNj
-EwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1
-LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMTEwMDk0MjA0MSwtMT
-EzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1MTc0NjgsLTI4MjI1
-MjM5MSwtMTczMjA4ODA0NV19
+eyJoaXN0b3J5IjpbMTY1NjUyNTc2MywxMDU4OTg5ODI1LC0xOT
+I1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1ODU0LC0xNTgxMDI4
+MDYxLC0xOTMyODMyODg5LC0xMDUzMjIyMzc1LC0xODE4MjM2MT
+A0LDE4MDg0MjU4NDgsLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUs
+MTcyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMT
+M2NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUy
+MzkxLC0xNzMyMDg4MDQ1XX0=
 -->
