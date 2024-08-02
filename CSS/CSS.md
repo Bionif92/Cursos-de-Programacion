@@ -1148,8 +1148,20 @@ Cuando hay muchos elementos para la grilla, y agrandamos algun item que cuando m
 .grid-item:first child {
 }
 ````
+
+### Grid Area
+
+Asignar un elemento a un área especifica 
+
+````css
+.grid {
+}
+
+.grid-item:first child {
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA4NDA3NTIsMTA1ODk4OTgyNSwtMT
+eyJoaXN0b3J5IjpbLTIwODM0Njg1MjUsMTA1ODk4OTgyNSwtMT
 kyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAy
 ODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNj
 EwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1
