@@ -1047,8 +1047,10 @@ Partes:
 ````
 
 Con `auto`, agarra el espacio que sobra y lo reparte entre los elementos que tengan la función auto sacando el contenido de cada uno
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5NjMwMTgxLDE3MjQ0NjQ0NzMsMTIyMD
+eyJoaXN0b3J5IjpbNjk4ODEwMTc3LDE3MjQ0NjQ0NzMsMTIyMD
 U5MjE5NSwtMTEwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkz
 ODM5Miw0MzI1MTc0NjgsLTI4MjI1MjM5MSwtMTczMjA4ODA0NS
 wxNzgyMjY3MzQ0LC0xMjE0OTI4OTgxLC0yMDQ0NDkxMDk0LC05
