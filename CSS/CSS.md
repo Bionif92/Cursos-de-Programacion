@@ -1131,12 +1131,12 @@ Empieza grid row, despues elemento, despues grid row y asi...
 	grid-column-start:1;
 	grid-row-end:3;
 	grid-column-end:3 o span 2;// agranda el bloque para un item, podes poner span 2 que agranda en columna dos espacios
-	grid-column:1/span2; a
+	grid-column:1/span2; //abrevia lo anterior visto
 }
 ````
 **Si queremos poner una imagen, en ves de ponerla como item, ponerla como background en css**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4MjU1MTAxLDEwNTg5ODk4MjUsLTE5Mj
+eyJoaXN0b3J5IjpbLTQ1NjM3MjI4LDEwNTg5ODk4MjUsLTE5Mj
 U4ODQzOTMsLTQwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgw
 NjEsLTE5MzI4MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMD
 QsMTgwODQyNTg0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwx
