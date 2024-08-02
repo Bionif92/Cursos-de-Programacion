@@ -1101,8 +1101,19 @@ La separación entre elementos
 
 ### Grid Dinámico y Responsive
 
+````css
+.grid {
+	display:grid; 
+	grid-template-columns: repeat(auto-fit, 1fr);
+	grid-template-rows: ;
+	grid-auto-flow: rows;
+}
+
+.grid-item {
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NDQ0MzAyOCwyMTk5MzU4NTQsLTE1OD
+eyJoaXN0b3J5IjpbMjA2ODE3OTc1NSwyMTk5MzU4NTQsLTE1OD
 EwMjgwNjEsLTE5MzI4MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgy
 MzYxMDQsMTgwODQyNTg0OCwtMTQ1OTExMDIxMywtMTM1MjE2Nz
 cxNSwxNzI0NDY0NDczLDEyMjA1OTIxOTUsLTExMDA5NDIwNDEs
