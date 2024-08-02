@@ -1142,18 +1142,18 @@ Cuando hay muchos elementos para la grilla, y agrandamos algun item que cuando m
 
 ````css
 .grid {
-	grid-auto-flow:dense;// se rellena
+	grid-auto-flow:dense;// se rellena pero no respeta la posicion impuesta
 }
 
 .grid-item:first child {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NzQ2OTU4MCwxMDU4OTg5ODI1LC0xOT
-I1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1ODU0LC0xNTgxMDI4
-MDYxLC0xOTMyODMyODg5LC0xMDUzMjIyMzc1LC0xODE4MjM2MT
-A0LDE4MDg0MjU4NDgsLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUs
-MTcyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMT
-M2NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUy
-MzkxLC0xNzMyMDg4MDQ1XX0=
+eyJoaXN0b3J5IjpbLTIwOTA4NDA3NTIsMTA1ODk4OTgyNSwtMT
+kyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAy
+ODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNj
+EwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1
+LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMTEwMDk0MjA0MSwtMT
+EzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1MTc0NjgsLTI4MjI1
+MjM5MSwtMTczMjA4ODA0NV19
 -->
