@@ -1024,7 +1024,7 @@ Partes:
 ````css
 .grid {
 	display:grid; // cada elemento se pone en una fila
-	grid-template-columns: 200px 200 px;//medida de las columnas, y dependiendo de cuantas coloques, son la cantidad de columnas
+	grid-template-columns: 200px 200px;//medida de las columnas, y dependiendo de cuantas coloques, son la cantidad de columnas
 	direction:rtl// igual que con flex, puede cambiarse
 	grid-template-rows: ;// cantidad de filas y medida
 }
@@ -1035,12 +1035,22 @@ Partes:
 
 ### Unidades Auto y FR
 
+````css
+.grid {
+	display:grid; 
+	grid-template-columns: auto 200px;// ocupa tamaño de la ventana pero al elemento podemos ponerle el ancho deseado, quedando el ele
+	grid-template-rows: ;
+}
+
+.grid-item {
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMT
-AwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUx
-NzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MDQ1LDE3ODIyNjczND
-QsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQsLTkzNzk5NzA0MCwx
-NzU3NDUwNjU5LDQzMDc2MDYxNywtODczNTkxMzcwLDEwODg4MD
-U3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4OSwtMTY2NTQyODUw
-OCwtMjA3NjQ3MTY5MV19
+eyJoaXN0b3J5IjpbLTEyNzYyMjA3MjksMTcyNDQ2NDQ3MywxMj
+IwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0
+OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MD
+Q1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQs
+LTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMDc2MDYxNywtODczNT
+kxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4
+OSwtMTY2NTQyODUwOF19
 -->
