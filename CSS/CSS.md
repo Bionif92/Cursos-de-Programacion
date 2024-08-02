@@ -1046,13 +1046,13 @@ Partes:
 }
 ````
 
-Con auto, agarra el espacio que sobra y lo repa
+Con `auto`, agarra el espacio que sobra y lo reparte entre los elementos que tengan la función auto sacando el contenido de cada uno
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzAyNzM1OTEsMTcyNDQ2NDQ3MywxMj
-IwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0
-OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MD
-Q1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQs
-LTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMDc2MDYxNywtODczNT
-kxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4
-OSwtMTY2NTQyODUwOF19
+eyJoaXN0b3J5IjpbNTQ5NjMwMTgxLDE3MjQ0NjQ0NzMsMTIyMD
+U5MjE5NSwtMTEwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkz
+ODM5Miw0MzI1MTc0NjgsLTI4MjI1MjM5MSwtMTczMjA4ODA0NS
+wxNzgyMjY3MzQ0LC0xMjE0OTI4OTgxLC0yMDQ0NDkxMDk0LC05
+Mzc5OTcwNDAsMTc1NzQ1MDY1OSw0MzA3NjA2MTcsLTg3MzU5MT
+M3MCwxMDg4ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkzODks
+LTE2NjU0Mjg1MDhdfQ==
 -->
