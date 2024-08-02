@@ -1039,7 +1039,7 @@ Partes:
 .grid {
 	display:grid; 
 	grid-template-columns: auto 200px;// ocupa tamaño de la ventana pero al elemento podemos ponerle el ancho deseado, quedando el elemento y el espacio en blanco dentro de la columna
-	grid-template-rows: ;
+	grid-template-rows: ; 1fr 1fr;
 }
 
 .grid-item {
@@ -1048,13 +1048,13 @@ Partes:
 
 Con `auto`, agarra el espacio que sobra y lo reparte entre los elementos que tengan la función auto sacando el contenido de cada uno
 
-
+Si cambiamos `auto` por `fr`ajusta el espacio disponible y el contenido de forma igual, a menos que el contenido sobrepase la medida en tal caso trata de ajustarse
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4ODEwMTc3LDE3MjQ0NjQ0NzMsMTIyMD
-U5MjE5NSwtMTEwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkz
-ODM5Miw0MzI1MTc0NjgsLTI4MjI1MjM5MSwtMTczMjA4ODA0NS
-wxNzgyMjY3MzQ0LC0xMjE0OTI4OTgxLC0yMDQ0NDkxMDk0LC05
-Mzc5OTcwNDAsMTc1NzQ1MDY1OSw0MzA3NjA2MTcsLTg3MzU5MT
-M3MCwxMDg4ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkzODks
-LTE2NjU0Mjg1MDhdfQ==
+eyJoaXN0b3J5IjpbLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMj
+IwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0
+OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MD
+Q1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQs
+LTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMDc2MDYxNywtODczNT
+kxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4
+OSwtMTY2NTQyODUwOF19
 -->
