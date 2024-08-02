@@ -1183,12 +1183,28 @@ body
 	;
 }
 
-.grid-item:first child {
-	grid-area: span 2/span 3; // row/column crecer dos filas y crecer tres columnas
+header {
+	grid-area: header;
+}
+
+nav {
+	grid-area: nav;
+}
+
+main {
+	grid-area: main;
+}
+
+aside {
+	grid-area: aside;
+}
+
+footer {
+	grid-area: footer;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MDcxMDM0NiwtMTM5MzUxMDg2OCwxMD
+eyJoaXN0b3J5IjpbLTk3OTM5OTg0NywtMTM5MzUxMDg2OCwxMD
 U4OTg5ODI1LC0xOTI1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1
 ODU0LC0xNTgxMDI4MDYxLC0xOTMyODMyODg5LC0xMDUzMjIyMz
 c1LC0xODE4MjM2MTA0LDE4MDg0MjU4NDgsLTE0NTkxMTAyMTMs
