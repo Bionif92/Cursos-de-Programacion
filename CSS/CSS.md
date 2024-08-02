@@ -1051,12 +1051,16 @@ Con `auto`, agarra el espacio que sobra y lo reparte entre los elementos que ten
 Si cambiamos `auto` por `fr`ajusta el espacio disponible y el contenido de forma igual, a menos que el contenido sobrepase la medida en tal caso trata de ajustarse
 
 Se usa mas `fr`
+
+### Repeat() y MinMax()
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUsMT
-cyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2
-NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMz
-kxLC0xNzMyMDg4MDQ1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEs
-LTIwNDQ0OTEwOTQsLTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMD
-c2MDYxNywtODczNTkxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3
-MjcsLTI4MzE3OTM4OV19
+eyJoaXN0b3J5IjpbMTgwODQyNTg0OCwtMTQ1OTExMDIxMywtMT
+M1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1OTIxOTUsLTExMDA5
+NDIwNDEsLTExMzY3NjczNDQsLTE4MDQ5MzgzOTIsNDMyNTE3ND
+Y4LC0yODIyNTIzOTEsLTE3MzIwODgwNDUsMTc4MjI2NzM0NCwt
+MTIxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOTM3OTk3MDQwLDE3NT
+c0NTA2NTksNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4ODgwNTc2
+MCwtMTc0MTM1NjcyN119
 -->
