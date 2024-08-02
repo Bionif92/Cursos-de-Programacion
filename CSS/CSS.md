@@ -1153,6 +1153,17 @@ Cuando hay muchos elementos para la grilla, y agrandamos algun item que cuando m
 
 Asignar un elemento a un área especifica que nosotros dimos en grid
 
+````css
+.grid {
+}
+
+.grid-item:first child {
+	grid-area: span 2/span 3; // row/column crecer dos filas y crecer tres columnas
+}
+````
+
+Otra forma de hacerlo
+
 ````html
 body
 	header
@@ -1177,11 +1188,11 @@ body
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg1NDE2NjksLTEzOTM1MTA4NjgsMT
-A1ODk4OTgyNSwtMTkyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkz
-NTg1NCwtMTU4MTAyODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMj
-M3NSwtMTgxODIzNjEwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEz
-LC0xMzUyMTY3NzE1LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMT
-EwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1
-MTc0NjgsLTI4MjI1MjM5MV19
+eyJoaXN0b3J5IjpbLTQ0MDcxMDM0NiwtMTM5MzUxMDg2OCwxMD
+U4OTg5ODI1LC0xOTI1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1
+ODU0LC0xNTgxMDI4MDYxLC0xOTMyODMyODg5LC0xMDUzMjIyMz
+c1LC0xODE4MjM2MTA0LDE4MDg0MjU4NDgsLTE0NTkxMTAyMTMs
+LTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMT
+AwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUx
+NzQ2OCwtMjgyMjUyMzkxXX0=
 -->
