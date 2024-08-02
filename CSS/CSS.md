@@ -1128,11 +1128,13 @@ Empieza grid row, despues elemento, despues grid row y asi...
 
 .grid-item:first child {
 	grid-row-start:1;
-	grid-column-star
+	grid-column-start:1;
+	grid-row-end:3;
+	grid-column-end:3;// agranda el bloque para un item
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMjMwNTMwNiwtMTkyNTg4NDM5MywtND
+eyJoaXN0b3J5IjpbMTA1ODk4OTgyNSwtMTkyNTg4NDM5MywtND
 A2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAyODA2MSwtMTkzMjgz
 Mjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNjEwNCwxODA4NDI1OD
 Q4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1LDE3MjQ0NjQ0NzMs
