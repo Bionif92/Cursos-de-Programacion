@@ -1058,6 +1058,7 @@ Se usa mas `fr`
 .grid {
 	display:grid; 
 	grid-template-columns: repeat(4,1fr); // repite 4 columnas de 1 fr, podes agregar otras columnas al lado del repeat()
+	grid-template-columns: repeat(3,1fr 2 fr); // repite el patron 
 	grid-template-rows: ;
 }
 
@@ -1065,11 +1066,11 @@ Se usa mas `fr`
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYxNzg2ODM4LDE4MDg0MjU4NDgsLTE0NT
-kxMTAyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTky
-MTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0OTM4Mz
-kyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MDQ1LDE3
-ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQsLTkzNz
-k5NzA0MCwxNzU3NDUwNjU5LDQzMDc2MDYxNywtODczNTkxMzcw
-LDEwODg4MDU3NjBdfQ==
+eyJoaXN0b3J5IjpbLTE4MTgyMzYxMDQsMTgwODQyNTg0OCwtMT
+Q1OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1
+OTIxOTUsLTExMDA5NDIwNDEsLTExMzY3NjczNDQsLTE4MDQ5Mz
+gzOTIsNDMyNTE3NDY4LC0yODIyNTIzOTEsLTE3MzIwODgwNDUs
+MTc4MjI2NzM0NCwtMTIxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOT
+M3OTk3MDQwLDE3NTc0NTA2NTksNDMwNzYwNjE3LC04NzM1OTEz
+NzAsMTA4ODgwNTc2MF19
 -->
