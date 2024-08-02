@@ -1142,13 +1142,14 @@ Cuando hay muchos elementos para la grilla, y agrandamos algun item que cuando m
 
 ````css
 .grid {
+	grid-auto-flow:dense;// se rellena
 }
 
 .grid-item:first child {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NjQwNjg0NCwxMDU4OTg5ODI1LC0xOT
+eyJoaXN0b3J5IjpbMTY5NzQ2OTU4MCwxMDU4OTg5ODI1LC0xOT
 I1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1ODU0LC0xNTgxMDI4
 MDYxLC0xOTMyODMyODg5LC0xMDUzMjIyMzc1LC0xODE4MjM2MT
 A0LDE4MDg0MjU4NDgsLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUs
