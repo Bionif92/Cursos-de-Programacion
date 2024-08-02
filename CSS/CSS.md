@@ -1138,26 +1138,21 @@ Empieza grid row, despues elemento, despues grid row y asi...
 
 ### Grid Flow: Dense
 
-Cuando hay muchos elementos para la grilla
+Cuando hay muchos elementos para la grilla, y agrandamos algun item que cuando modificamos la pantalla no entra correctamente en la imagen
 
 ````css
 .grid {
 }
 
 .grid-item:first child {
-	grid-row-start:1;
-	grid-column-start:1;
-	grid-row-end:3;
-	grid-column-end:3 o span 2;// agranda el bloque para un item, podes poner span 2 que agranda en columna dos espacios
-	grid-column:1/span2; //abrevia lo anterior visto
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNjA4OTg3LDEwNTg5ODk4MjUsLTE5Mj
-U4ODQzOTMsLTQwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgw
-NjEsLTE5MzI4MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMD
-QsMTgwODQyNTg0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwx
-NzI0NDY0NDczLDEyMjA1OTIxOTUsLTExMDA5NDIwNDEsLTExMz
-Y3NjczNDQsLTE4MDQ5MzgzOTIsNDMyNTE3NDY4LC0yODIyNTIz
-OTEsLTE3MzIwODgwNDVdfQ==
+eyJoaXN0b3J5IjpbMTI2NjQwNjg0NCwxMDU4OTg5ODI1LC0xOT
+I1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1ODU0LC0xNTgxMDI4
+MDYxLC0xOTMyODMyODg5LC0xMDUzMjIyMzc1LC0xODE4MjM2MT
+A0LDE4MDg0MjU4NDgsLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUs
+MTcyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMT
+M2NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUy
+MzkxLC0xNzMyMDg4MDQ1XX0=
 -->
