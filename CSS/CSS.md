@@ -1076,18 +1076,19 @@ Hay dos tipos de grid:
 
 ````css
 .grid {
-	grid-auto-rows: 80px;
+	grid-auto-rows: 80px; // por ahora solo se crean filas abajo, pero podemos cambiar la direccion y vamos a tener que colocar las auto columns
+	grid-auto-flow:column; // cambia el esquema 
 }
 
 .grid-item {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODgwNjc4MzgsLTE5MzI4MzI4ODksLT
-EwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNTg0OCwtMTQ1
-OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1OT
-IxOTUsLTExMDA5NDIwNDEsLTExMzY3NjczNDQsLTE4MDQ5Mzgz
-OTIsNDMyNTE3NDY4LC0yODIyNTIzOTEsLTE3MzIwODgwNDUsMT
-c4MjI2NzM0NCwtMTIxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOTM3
-OTk3MDQwLDE3NTc0NTA2NTldfQ==
+eyJoaXN0b3J5IjpbLTM1MjQ4MTM4LC0xOTMyODMyODg5LC0xMD
+UzMjIyMzc1LC0xODE4MjM2MTA0LDE4MDg0MjU4NDgsLTE0NTkx
+MTAyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTkyMT
+k1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0OTM4Mzky
+LDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MDQ1LDE3OD
+IyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQsLTkzNzk5
+NzA0MCwxNzU3NDUwNjU5XX0=
 -->
