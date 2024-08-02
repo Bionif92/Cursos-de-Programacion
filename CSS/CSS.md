@@ -1122,12 +1122,21 @@ La diferencia entre `auto-fit` y `auto-fill`:
 Las cantidad de grid row y grid column es la cantidad de row y de column +1 en cada caso.
 Empieza grid row, despues elemento, despues grid row y asi...
 
+````css
+.grid {
+}
+
+.grid-item:first child {
+	grid-row-start:1;
+	grid-column-star
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjgxMjYxMTMsLTE5MjU4ODQzOTMsLT
-QwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4
-MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNT
-g0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDcz
-LDEyMjA1OTIxOTUsLTExMDA5NDIwNDEsLTExMzY3NjczNDQsLT
-E4MDQ5MzgzOTIsNDMyNTE3NDY4LC0yODIyNTIzOTEsLTE3MzIw
-ODgwNDUsMTc4MjI2NzM0NF19
+eyJoaXN0b3J5IjpbMTYxMjMwNTMwNiwtMTkyNTg4NDM5MywtND
+A2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAyODA2MSwtMTkzMjgz
+Mjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNjEwNCwxODA4NDI1OD
+Q4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1LDE3MjQ0NjQ0NzMs
+MTIyMDU5MjE5NSwtMTEwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMT
+gwNDkzODM5Miw0MzI1MTc0NjgsLTI4MjI1MjM5MSwtMTczMjA4
+ODA0NSwxNzgyMjY3MzQ0XX0=
 -->
