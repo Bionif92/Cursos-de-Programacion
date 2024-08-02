@@ -1133,12 +1133,13 @@ Empieza grid row, despues elemento, despues grid row y asi...
 	grid-column-end:3;// agranda el bloque para un item
 }
 ````
+**Si queremos poner una imagen, en ves de ponerla como item, ponerla como background en css**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1ODk4OTgyNSwtMTkyNTg4NDM5MywtND
-A2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAyODA2MSwtMTkzMjgz
-Mjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNjEwNCwxODA4NDI1OD
-Q4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1LDE3MjQ0NjQ0NzMs
-MTIyMDU5MjE5NSwtMTEwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMT
-gwNDkzODM5Miw0MzI1MTc0NjgsLTI4MjI1MjM5MSwtMTczMjA4
-ODA0NSwxNzgyMjY3MzQ0XX0=
+eyJoaXN0b3J5IjpbLTEwNzkzNzU5OTIsMTA1ODk4OTgyNSwtMT
+kyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAy
+ODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMjM3NSwtMTgxODIzNj
+EwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEzLC0xMzUyMTY3NzE1
+LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMTEwMDk0MjA0MSwtMT
+EzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1MTc0NjgsLTI4MjI1
+MjM5MSwtMTczMjA4ODA0NV19
 -->
