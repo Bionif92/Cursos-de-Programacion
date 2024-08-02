@@ -1153,6 +1153,15 @@ Cuando hay muchos elementos para la grilla, y agrandamos algun item que cuando m
 
 Asignar un elemento a un área especifica que nosotros dimos en grid
 
+````html
+body
+	header
+	nav
+	main
+	aside 
+	footer
+````
+
 ````css
 .grid {
 // otra forma de crear el área
@@ -1164,11 +1173,11 @@ Asignar un elemento a un área especifica que nosotros dimos en grid
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTE5ODYzOTIsLTEzOTM1MTA4NjgsMT
-A1ODk4OTgyNSwtMTkyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkz
-NTg1NCwtMTU4MTAyODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMj
-M3NSwtMTgxODIzNjEwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEz
-LC0xMzUyMTY3NzE1LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMT
-EwMDk0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1
-MTc0NjgsLTI4MjI1MjM5MV19
+eyJoaXN0b3J5IjpbOTg3NjE1OTcsLTEzOTM1MTA4NjgsMTA1OD
+k4OTgyNSwtMTkyNTg4NDM5MywtNDA2NTgzMzI3LDIxOTkzNTg1
+NCwtMTU4MTAyODA2MSwtMTkzMjgzMjg4OSwtMTA1MzIyMjM3NS
+wtMTgxODIzNjEwNCwxODA4NDI1ODQ4LC0xNDU5MTEwMjEzLC0x
+MzUyMTY3NzE1LDE3MjQ0NjQ0NzMsMTIyMDU5MjE5NSwtMTEwMD
+k0MjA0MSwtMTEzNjc2NzM0NCwtMTgwNDkzODM5Miw0MzI1MTc0
+NjgsLTI4MjI1MjM5MV19
 -->
