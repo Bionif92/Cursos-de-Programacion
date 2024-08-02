@@ -1017,14 +1017,18 @@ Partes:
  - Bordes de la cuadricula (separan items)
  - Grid Tracks (una fila o una columna)
  - Grid Cell (unidad del item) 
- - Grid Area
+ - Grid Area (mas de una celda unida)
+
+### Creando un grid
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDk1ODUwNywtMTgwNDkzODM5Miw0Mz
-I1MTc0NjgsLTI4MjI1MjM5MSwtMTczMjA4ODA0NSwxNzgyMjY3
-MzQ0LC0xMjE0OTI4OTgxLC0yMDQ0NDkxMDk0LC05Mzc5OTcwND
-AsMTc1NzQ1MDY1OSw0MzA3NjA2MTcsLTg3MzU5MTM3MCwxMDg4
-ODA1NzYwLC0xNzQxMzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mj
-g1MDgsLTIwNzY0NzE2OTEsNTAzNzMxNTAyLDgxNzE0ODc0Nywx
-NDEyNzI0MTIzXX0=
+eyJoaXN0b3J5IjpbLTExMzY3NjczNDQsLTE4MDQ5MzgzOTIsND
+MyNTE3NDY4LC0yODIyNTIzOTEsLTE3MzIwODgwNDUsMTc4MjI2
+NzM0NCwtMTIxNDkyODk4MSwtMjA0NDQ5MTA5NCwtOTM3OTk3MD
+QwLDE3NTc0NTA2NTksNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4
+ODgwNTc2MCwtMTc0MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1ND
+I4NTA4LC0yMDc2NDcxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcs
+MTQxMjcyNDEyM119
 -->
