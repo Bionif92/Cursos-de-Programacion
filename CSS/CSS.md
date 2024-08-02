@@ -1057,7 +1057,7 @@ Se usa mas `fr`
 ````css
 .grid {
 	display:grid; 
-	grid-template-columns: repeat(4,1fr); // repite 4 columnas de 1 fr, podes agrega
+	grid-template-columns: repeat(4,1fr); // repite 4 columnas de 1 fr, podes agregar otras columnas al lado del repeat()
 	grid-template-rows: ;
 }
 
@@ -1065,7 +1065,7 @@ Se usa mas `fr`
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMzNTc4NTY5LDE4MDg0MjU4NDgsLTE0NT
+eyJoaXN0b3J5IjpbMzYxNzg2ODM4LDE4MDg0MjU4NDgsLTE0NT
 kxMTAyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTky
 MTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0OTM4Mz
 kyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MDQ1LDE3
