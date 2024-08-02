@@ -1090,14 +1090,15 @@ La separación entre elementos
 
 ````css
 .grid {
-	
+	column-gap: 10px;
+	row-gap: 10px;
 }
 
 .grid-item {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDU0MTQxOTgsLTE1ODEwMjgwNjEsLT
+eyJoaXN0b3J5IjpbLTE0NTM2MDkwNjQsLTE1ODEwMjgwNjEsLT
 E5MzI4MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgw
 ODQyNTg0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0ND
 Y0NDczLDEyMjA1OTIxOTUsLTExMDA5NDIwNDEsLTExMzY3Njcz
