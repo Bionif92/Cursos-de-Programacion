@@ -1010,13 +1010,18 @@ Sistema de diseño bidimensional - crear interfases o layouts complejos
 
 La grilla trabaja en columnas y filas a la vez
 
+Partes:
+
+ - Grid Container
+ - Grid Items
+ - Bordes de la cuadricula (separan items)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTA0NDc0Niw0MzI1MTc0NjgsLTI4Mj
-I1MjM5MSwtMTczMjA4ODA0NSwxNzgyMjY3MzQ0LC0xMjE0OTI4
-OTgxLC0yMDQ0NDkxMDk0LC05Mzc5OTcwNDAsMTc1NzQ1MDY1OS
-w0MzA3NjA2MTcsLTg3MzU5MTM3MCwxMDg4ODA1NzYwLC0xNzQx
-MzU2NzI3LC0yODMxNzkzODksLTE2NjU0Mjg1MDgsLTIwNzY0Nz
-E2OTEsNTAzNzMxNTAyLDgxNzE0ODc0NywxNDEyNzI0MTIzLDEz
-MDgwODcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE4MDQ5MzgzOTIsNDMyNTE3NDY4LC0yOD
+IyNTIzOTEsLTE3MzIwODgwNDUsMTc4MjI2NzM0NCwtMTIxNDky
+ODk4MSwtMjA0NDQ5MTA5NCwtOTM3OTk3MDQwLDE3NTc0NTA2NT
+ksNDMwNzYwNjE3LC04NzM1OTEzNzAsMTA4ODgwNTc2MCwtMTc0
+MTM1NjcyNywtMjgzMTc5Mzg5LC0xNjY1NDI4NTA4LC0yMDc2ND
+cxNjkxLDUwMzczMTUwMiw4MTcxNDg3NDcsMTQxMjcyNDEyMywx
+MzA4MDg3MDc4XX0=
 -->
