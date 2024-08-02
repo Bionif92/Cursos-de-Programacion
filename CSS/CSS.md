@@ -1038,15 +1038,17 @@ Partes:
 ````css
 .grid {
 	display:grid; 
-	grid-template-columns: auto 200px;// ocupa tamaño de la ventana pero al elemento podemos ponerle el ancho deseado, quedando el ele
+	grid-template-columns: auto 200px;// ocupa tamaño de la ventana pero al elemento podemos ponerle el ancho deseado, quedando el elemento y el espacio en blanco dentro de la columna
 	grid-template-rows: ;
 }
 
 .grid-item {
 }
 ````
+
+Con auto, agarra el espacio que sobra y lo repa
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYyMjA3MjksMTcyNDQ2NDQ3MywxMj
+eyJoaXN0b3J5IjpbLTIxMzAyNzM1OTEsMTcyNDQ2NDQ3MywxMj
 IwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0
 OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MD
 Q1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQs
