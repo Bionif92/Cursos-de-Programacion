@@ -1049,12 +1049,14 @@ Partes:
 Con `auto`, agarra el espacio que sobra y lo reparte entre los elementos que tengan la función auto sacando el contenido de cada uno
 
 Si cambiamos `auto` por `fr`ajusta el espacio disponible y el contenido de forma igual, a menos que el contenido sobrepase la medida en tal caso trata de ajustarse
+
+Se usa mas `fr`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMj
-IwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2NzY3MzQ0LC0xODA0
-OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMzkxLC0xNzMyMDg4MD
-Q1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEsLTIwNDQ0OTEwOTQs
-LTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMDc2MDYxNywtODczNT
-kxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3MjcsLTI4MzE3OTM4
-OSwtMTY2NTQyODUwOF19
+eyJoaXN0b3J5IjpbLTE0NTkxMTAyMTMsLTEzNTIxNjc3MTUsMT
+cyNDQ2NDQ3MywxMjIwNTkyMTk1LC0xMTAwOTQyMDQxLC0xMTM2
+NzY3MzQ0LC0xODA0OTM4MzkyLDQzMjUxNzQ2OCwtMjgyMjUyMz
+kxLC0xNzMyMDg4MDQ1LDE3ODIyNjczNDQsLTEyMTQ5Mjg5ODEs
+LTIwNDQ0OTEwOTQsLTkzNzk5NzA0MCwxNzU3NDUwNjU5LDQzMD
+c2MDYxNywtODczNTkxMzcwLDEwODg4MDU3NjAsLTE3NDEzNTY3
+MjcsLTI4MzE3OTM4OV19
 -->
