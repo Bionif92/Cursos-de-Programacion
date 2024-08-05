@@ -1214,6 +1214,8 @@ y hace un grid para los de adentro
 .grid {
 	justify-items: ;// mueve elemento en su cuadricula,strech por defecto, start center y end mas comunes pero hay mas, self-start self-end tiene la direccion del hijo en cuenta, left y right tambien son opciones
 	justify-content: ;// mover la grilla completa, center, space-around, space-evenly, space-between
+	align-items: ;//mismo que justify pero en el eje vertical
+	align-content: ;//mismo que justify pero en el eje vertical
 }
 
 .grid-item:first child {
@@ -1221,11 +1223,11 @@ y hace un grid para los de adentro
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOT
-I2NzY2NSw3ODk0NTIzNzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3
-LC0xMzkzNTEwODY4LDEwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLT
-QwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4
-MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNT
-g0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDcz
-LDEyMjA1OTIxOTVdfQ==
+eyJoaXN0b3J5IjpbLTE3MjkwNjE1MjIsMTcwNDUxMjk5OSwtMj
+YzNjEzMTA0LDgzOTI2NzY2NSw3ODk0NTIzNzUsLTgxNDg5ODQ1
+MCwtOTc5Mzk5ODQ3LC0xMzkzNTEwODY4LDEwNTg5ODk4MjUsLT
+E5MjU4ODQzOTMsLTQwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEw
+MjgwNjEsLTE5MzI4MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMz
+YxMDQsMTgwODQyNTg0OCwtMTQ1OTExMDIxMywtMTM1MjE2Nzcx
+NSwxNzI0NDY0NDczXX0=
 -->
