@@ -1227,6 +1227,8 @@ y hace un grid para los de adentro
 
 Hijos de un Grid Item también formen parte de la grilla principal
 
+Creas un sub-grid item adentro del item:
+
 ````css
 .grid {
 	
@@ -1235,13 +1237,17 @@ Hijos de un Grid Item también formen parte de la grilla principal
 .grid-item {
 	
 }
+
+.sub-grid item {
+	
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODg1NjAzNSwtMTUzNDEwMzcwOSwtMT
-cyOTA2MTUyMiwxNzA0NTEyOTk5LC0yNjM2MTMxMDQsODM5MjY3
-NjY1LDc4OTQ1MjM3NSwtODE0ODk4NDUwLC05NzkzOTk4NDcsLT
-EzOTM1MTA4NjgsMTA1ODk4OTgyNSwtMTkyNTg4NDM5MywtNDA2
-NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAyODA2MSwtMTkzMjgzMj
-g4OSwtMTA1MzIyMjM3NSwtMTgxODIzNjEwNCwxODA4NDI1ODQ4
-LC0xNDU5MTEwMjEzXX0=
+eyJoaXN0b3J5IjpbMTg5NTEzMDUsLTE1MzQxMDM3MDksLTE3Mj
+kwNjE1MjIsMTcwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOTI2NzY2
+NSw3ODk0NTIzNzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3LC0xMz
+kzNTEwODY4LDEwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLTQwNjU4
+MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4MzI4OD
+ksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNTg0OCwt
+MTQ1OTExMDIxM119
 -->
