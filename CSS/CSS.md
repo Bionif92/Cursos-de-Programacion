@@ -1158,7 +1158,7 @@ Asignar un elemento a un área especifica que nosotros dimos en grid
 }
 
 .grid-item:first child {
-	grid-area: span 2/span 3; // row/column crecer dos filas y crecer tres columnas
+	grid-area: span 2/span 3; // row/column crecer dos filas y crecer tres columnas, se pone la posicion antes de cuanto crece
 }
 ````
 
@@ -1227,9 +1227,17 @@ y hace un grid para los de adentro
 
 Hijos de un Grid Item también formen parte de la grilla principal
 
+````css
+.grid {
+	
+}
 
+.grid-item {
+	
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzczOTUzNSwtMTUzNDEwMzcwOSwtMT
+eyJoaXN0b3J5IjpbMjAwODg1NjAzNSwtMTUzNDEwMzcwOSwtMT
 cyOTA2MTUyMiwxNzA0NTEyOTk5LC0yNjM2MTMxMDQsODM5MjY3
 NjY1LDc4OTQ1MjM3NSwtODE0ODk4NDUwLC05NzkzOTk4NDcsLT
 EzOTM1MTA4NjgsMTA1ODk4OTgyNSwtMTkyNTg4NDM5MywtNDA2
