@@ -1212,18 +1212,18 @@ y hace un grid para los de adentro
 
 ````css
 .grid {
-	justify-items: ;// strech por defecto, start center y end mas comunes pero hay mas, self-start self-end tiene la direccion del hijo en cuenta
+	justify-items: ;// strech por defecto, start center y end mas comunes pero hay mas, self-start self-end tiene la direccion del hijo en cuenta, left y right tambien son opciones
 }
 
 .grid-item {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUzOTAwOTQ4LDgzOTI2NzY2NSw3ODk0NT
-IzNzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3LC0xMzkzNTEwODY4
-LDEwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLTQwNjU4MzMyNywyMT
-k5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4MzI4ODksLTEwNTMy
-MjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNTg0OCwtMTQ1OTExMD
-IxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDczLDEyMjA1OTIxOTUs
-LTExMDA5NDIwNDFdfQ==
+eyJoaXN0b3J5IjpbLTI2MzYxMzEwNCw4MzkyNjc2NjUsNzg5ND
+UyMzc1LC04MTQ4OTg0NTAsLTk3OTM5OTg0NywtMTM5MzUxMDg2
+OCwxMDU4OTg5ODI1LC0xOTI1ODg0MzkzLC00MDY1ODMzMjcsMj
+E5OTM1ODU0LC0xNTgxMDI4MDYxLC0xOTMyODMyODg5LC0xMDUz
+MjIyMzc1LC0xODE4MjM2MTA0LDE4MDg0MjU4NDgsLTE0NTkxMT
+AyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTkyMTk1
+LC0xMTAwOTQyMDQxXX0=
 -->
