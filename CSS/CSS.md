@@ -1215,15 +1215,16 @@ y hace un grid para los de adentro
 	justify-items: ;// strech por defecto, start center y end mas comunes pero hay mas, self-start self-end tiene la direccion del hijo en cuenta, left y right tambien son opciones
 }
 
-.grid-item {
+.grid-item:first child {
+	justify-self: ;// mueve el item independiente de la grilla
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MzYxMzEwNCw4MzkyNjc2NjUsNzg5ND
-UyMzc1LC04MTQ4OTg0NTAsLTk3OTM5OTg0NywtMTM5MzUxMDg2
-OCwxMDU4OTg5ODI1LC0xOTI1ODg0MzkzLC00MDY1ODMzMjcsMj
-E5OTM1ODU0LC0xNTgxMDI4MDYxLC0xOTMyODMyODg5LC0xMDUz
-MjIyMzc1LC0xODE4MjM2MTA0LDE4MDg0MjU4NDgsLTE0NTkxMT
-AyMTMsLTEzNTIxNjc3MTUsMTcyNDQ2NDQ3MywxMjIwNTkyMTk1
-LC0xMTAwOTQyMDQxXX0=
+eyJoaXN0b3J5IjpbLTkxNzQzMjA1OSwtMjYzNjEzMTA0LDgzOT
+I2NzY2NSw3ODk0NTIzNzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3
+LC0xMzkzNTEwODY4LDEwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLT
+QwNjU4MzMyNywyMTk5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4
+MzI4ODksLTEwNTMyMjIzNzUsLTE4MTgyMzYxMDQsMTgwODQyNT
+g0OCwtMTQ1OTExMDIxMywtMTM1MjE2NzcxNSwxNzI0NDY0NDcz
+LDEyMjA1OTIxOTVdfQ==
 -->
