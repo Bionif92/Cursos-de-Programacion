@@ -1259,9 +1259,9 @@ Con el # en el link no se resetea la pagina
 
 El * en css selecciona todos los elementos del documento
 
-Siempre
+Siempre se pone una caja, en este caso el div profile wrapper para limitar la caja y darle estilo con css al contenido
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MzgwNjkwMywtNjc5Njc4Nzc0LDc4ND
+eyJoaXN0b3J5IjpbMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4ND
 E3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUzODYsMTAwODAzNDI5
 LC0xNTM0MTAzNzA5LC0xNzI5MDYxNTIyLDE3MDQ1MTI5OTksLT
 I2MzYxMzEwNCw4MzkyNjc2NjUsNzg5NDUyMzc1LC04MTQ4OTg0
