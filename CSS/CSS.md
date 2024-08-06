@@ -360,6 +360,10 @@ Seleccionar un estado especifico de un elemento que seleccionamos
 h1:hover { // el elemento cambia cundo el mouse esta encima
 	color: ;
 }
+
+.header__nav-item  a:not(:hover) {//para cuando no esta encima
+	text-decoration: none;
+}
 ````
 `active` cuando se hace clic sobre el elemento
 
@@ -1255,11 +1259,11 @@ Con el # en el link no se resetea la pagina
 
 El * en css selecciona todos los elementos del documento
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0MTcwNTE5LC0yNDY4MDkyNTcsLTg3OD
-E1NTM4NiwxMDA4MDM0MjksLTE1MzQxMDM3MDksLTE3MjkwNjE1
-MjIsMTcwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOTI2NzY2NSw3OD
-k0NTIzNzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3LC0xMzkzNTEw
-ODY4LDEwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLTQwNjU4MzMyNy
-wyMTk5MzU4NTQsLTE1ODEwMjgwNjEsLTE5MzI4MzI4ODksLTEw
-NTMyMjIzNzVdfQ==
+eyJoaXN0b3J5IjpbLTY3OTY3ODc3NCw3ODQxNzA1MTksLTI0Nj
+gwOTI1NywtODc4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEwMzcw
+OSwtMTcyOTA2MTUyMiwxNzA0NTEyOTk5LC0yNjM2MTMxMDQsOD
+M5MjY3NjY1LDc4OTQ1MjM3NSwtODE0ODk4NDUwLC05NzkzOTk4
+NDcsLTEzOTM1MTA4NjgsMTA1ODk4OTgyNSwtMTkyNTg4NDM5My
+wtNDA2NTgzMzI3LDIxOTkzNTg1NCwtMTU4MTAyODA2MSwtMTkz
+MjgzMjg4OV19
 -->
