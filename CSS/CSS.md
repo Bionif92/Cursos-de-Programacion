@@ -1260,12 +1260,14 @@ Con el # en el link no se resetea la pagina
 El * en css selecciona todos los elementos del documento
 
 Siempre se pone una caja, en este caso el div profile wrapper para limitar la caja y darle estilo con css al contenido
+
+Para centrar data adentro de grid, poner place-content:center
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4ND
-E3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUzODYsMTAwODAzNDI5
-LC0xNTM0MTAzNzA5LC0xNzI5MDYxNTIyLDE3MDQ1MTI5OTksLT
-I2MzYxMzEwNCw4MzkyNjc2NjUsNzg5NDUyMzc1LC04MTQ4OTg0
-NTAsLTk3OTM5OTg0NywtMTM5MzUxMDg2OCwxMDU4OTg5ODI1LC
-0xOTI1ODg0MzkzLC00MDY1ODMzMjcsMjE5OTM1ODU0LC0xNTgx
-MDI4MDYxXX0=
+eyJoaXN0b3J5IjpbLTQ5NjYzNTIwNywxODM4NDMyNDAyLC02Nz
+k2Nzg3NzQsNzg0MTcwNTE5LC0yNDY4MDkyNTcsLTg3ODE1NTM4
+NiwxMDA4MDM0MjksLTE1MzQxMDM3MDksLTE3MjkwNjE1MjIsMT
+cwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOTI2NzY2NSw3ODk0NTIz
+NzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3LC0xMzkzNTEwODY4LD
+EwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLTQwNjU4MzMyNywyMTk5
+MzU4NTRdfQ==
 -->
