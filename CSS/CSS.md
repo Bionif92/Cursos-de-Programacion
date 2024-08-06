@@ -1262,12 +1262,17 @@ El * en css selecciona todos los elementos del documento
 Siempre se pone una caja, en este caso el div profile wrapper para limitar la caja y darle estilo con css al contenido
 
 Para centrar data adentro de grid, poner place-content:center
+
+Lo siguiente para poner una capa oscura en la imagen
+````css
+background-image: linear-gradient(#0007,#0007), url('dalto.png');
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjYzNTIwNywxODM4NDMyNDAyLC02Nz
-k2Nzg3NzQsNzg0MTcwNTE5LC0yNDY4MDkyNTcsLTg3ODE1NTM4
-NiwxMDA4MDM0MjksLTE1MzQxMDM3MDksLTE3MjkwNjE1MjIsMT
-cwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOTI2NzY2NSw3ODk0NTIz
-NzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3LC0xMzkzNTEwODY4LD
-EwNTg5ODk4MjUsLTE5MjU4ODQzOTMsLTQwNjU4MzMyNywyMTk5
-MzU4NTRdfQ==
+eyJoaXN0b3J5IjpbMjA5OTM3NjQ0NCwtNDk2NjM1MjA3LDE4Mz
+g0MzI0MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLTI0NjgwOTI1
+NywtODc4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEwMzcwOSwtMT
+cyOTA2MTUyMiwxNzA0NTEyOTk5LC0yNjM2MTMxMDQsODM5MjY3
+NjY1LDc4OTQ1MjM3NSwtODE0ODk4NDUwLC05NzkzOTk4NDcsLT
+EzOTM1MTA4NjgsMTA1ODk4OTgyNSwtMTkyNTg4NDM5MywtNDA2
+NTgzMzI3XX0=
 -->
