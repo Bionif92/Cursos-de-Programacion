@@ -1277,7 +1277,8 @@ barra {
 	width: 10%;
 	transition: width 1s linear;// tarda un segundo en completar la transicion
 	transition: width 1s steps(10)// se carga en un segundo en 10 partes
-	transition: background-color .6s step
+	background-color:blue;
+	transition: background-color .6s steps(6)// va cambiando del azul al rojo en 6 pasos
 }
 
 barra:active {
@@ -1287,7 +1288,7 @@ barra:active {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTI5ODQ1NDYsMTM3MjU4NjE1OCwtMT
+eyJoaXN0b3J5IjpbLTEyNzA2OTg0NTksMTM3MjU4NjE1OCwtMT
 A4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYz
 NTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC
 0yNDY4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQx
