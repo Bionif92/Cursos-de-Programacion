@@ -1331,10 +1331,16 @@ Armo un:
 
 Ver video o buscar en internet, para armarlo, son muchos pasos
 
-Uso afet
+Uso after, before y animaciones
+
+#### Efecto TypeWriter 
+
+Parrafo con el texto
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjgzNjU4OCwtMTExMzY5MTUyNSwxMT
+eyJoaXN0b3J5IjpbMTYzNzE4MTM5NiwtMTExMzY5MTUyNSwxMT
 U4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUs
 MjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwOD
 AxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUy
