@@ -1309,6 +1309,7 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 	animation-timing-function: linear;// la curva
 	animation-iteration-count: ;//repeticion, infinite/3/
 	animation-direction: ;// reverse/alternate/alternate-reverse
+	animation-play-state: ;//puede usarse con hover o active para aprovechar esta propaused
 }
 
 @keyframes llenar-barra //nombre que le ponemos a anim {
@@ -1321,7 +1322,7 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MTY4MTM3Myw3MTYzMjAxMyw2MjAyNz
+eyJoaXN0b3J5IjpbLTE2MjQ5NTE0OSw3MTYzMjAxMyw2MjAyNz
 c0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwt
 MTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5Nj
 YzNTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5
