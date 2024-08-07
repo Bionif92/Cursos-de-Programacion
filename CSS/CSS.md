@@ -1301,11 +1301,15 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 ````css
 .barra {
 	background-color:blue;
+	width:10%;
+}
+
+@keyframes llenar-barra //nombre que le ponemos a anim {
 	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4NzI2MzIwLC02MTkxNjMzODksMTM3Mj
+eyJoaXN0b3J5IjpbLTgyMzYyMDMxLC02MTkxNjMzODksMTM3Mj
 U4NjE1OCwtMTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0
 NDQsLTQ5NjYzNTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNz
 g0MTcwNTE5LC0yNDY4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0
