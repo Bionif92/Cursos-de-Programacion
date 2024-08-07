@@ -1463,15 +1463,15 @@ body {
 	animation: llenar-barra;
 	animation-timeline: view();//empieza cuando se ve en la pantalla y termina cuando sale de la pantalla
 }
-
 ````
+**Para este podemos hacer que se empiece a ver cuando otro elemento se vea con `view-timeline` como en el de scroll**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5Mz
-QyNjQ2LC0xMjMyMTU4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0
-MTQsLTExMTM2OTE1MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LD
-cxNjMyMDEzLDYyMDI3NzQ1LDIwOTEyNjEzOTgsLTYxOTE2MzM4
-OSwxMzcyNTg2MTU4LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMj
-A5OTM3NjQ0NCwtNDk2NjM1MjA3LDE4Mzg0MzI0MDIsLTY3OTY3
-ODc3NF19
+eyJoaXN0b3J5IjpbMjgwNTM5NDkwLC0xMzg4MjIzNjM2LC04OT
+gzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MSwtNTYxMjQxNzQ1
+LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LDExNTg4OTQ2OTQsLT
+Y5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwyMDkxMjYxMzk4
+LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MDE0MTc3OSwtND
+E4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIwNywxODM4NDMy
+NDAyXX0=
 -->
