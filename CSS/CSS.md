@@ -1296,9 +1296,9 @@ barra:active {
 
 ### Animaciones
 
-Transicion entre un estado a otro, pero a diferencia de las anteriores podemos ej
+Transición entre un estado a otro, pero a diferencia de las anteriores podemos ejecutarlas cuando queramos y no con un evento disparador
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NjgwNDA1MywtNjE5MTYzMzg5LDEzNz
+eyJoaXN0b3J5IjpbLTEzMTIwOTk0MywtNjE5MTYzMzg5LDEzNz
 I1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2
 NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LD
 c4NDE3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUzODYsMTAwODAz
