@@ -1349,14 +1349,17 @@ body {
 .text {
 	animation: grow 3s both steps(7);
 	overflow:hidden;
+	position:relative;
 }
 
-.text::before {
+.text::before { //simula la barra de escritura
 	content:'';
-	width:2px;
-	height:80%;
+	width:1px;
+	height:100%;
 	background-color: blanco;
-	
+	position:absolute;
+	right:0;
+	animation: titilar 1s infinite
 }
 
 @keyframes grow {
@@ -1370,11 +1373,11 @@ body {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyNzk2OTk4LC0xMTEzNjkxNTI1LDExNT
-g4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwy
-MDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MD
-E0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIw
-NywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yND
-Y4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQxMDM3
-MDldfQ==
+eyJoaXN0b3J5IjpbLTQzNDg5NzE4OCwtMTExMzY5MTUyNSwxMT
+U4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUs
+MjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwOD
+AxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUy
+MDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3MDUxOSwtMj
+Q2ODA5MjU3LC04NzgxNTUzODYsMTAwODAzNDI5LC0xNTM0MTAz
+NzA5XX0=
 -->
