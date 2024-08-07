@@ -1404,6 +1404,7 @@ body {
 	animation-name: llenar-barra;
 	animation-fill-mode: both;
 	animation-timing-function: linear;
+	animation-timeline: scroll ();//ahora depende la animación del scroll
 }
 
 @keyframes llenar-barra {
@@ -1415,7 +1416,7 @@ body {
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzI0MTg3LC0xMjMyMTU4NzgxLC01Nj
+eyJoaXN0b3J5IjpbOTg5MzQyNjQ2LC0xMjMyMTU4NzgxLC01Nj
 EyNDE3NDUsLTE2MzI0ODk0MTQsLTExMTM2OTE1MjUsMTE1ODg5
 NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1LDIwOT
 EyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4LC0xMDgwMTQx
