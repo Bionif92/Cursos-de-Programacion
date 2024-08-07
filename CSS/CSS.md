@@ -1395,11 +1395,11 @@ Dos tipos de formas de definir un timeline basado en scroll:
 	border-radius: 30px;
 	width: 10%;
 	animation-fill-mode:
-	animation-
+	animation-timing-function:
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgxNzU1MTYsLTU2MTI0MTc0NSwtMT
+eyJoaXN0b3J5IjpbLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMT
 YzMjQ4OTQxNCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1
 NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNj
 E5MTYzMzg5LDEzNzI1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0
