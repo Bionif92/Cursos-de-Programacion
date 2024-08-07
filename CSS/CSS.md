@@ -1389,6 +1389,13 @@ Dos tipos de formas de definir un timeline basado en scroll:
  - Por visión del elemento en la pantalla
 
 ````css
+body {
+	height: 200vh;//para que aparezca el scroll
+}
+.box {
+	position:fixed;
+}
+
 .barra {
 	padding: 40px;
 	background-color: blue;
@@ -1408,11 +1415,11 @@ Dos tipos de formas de definir un timeline basado en scroll:
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NTQzMzU1NCwtMTIzMjE1ODc4MSwtNT
-YxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LDExNTg4
-OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwyMD
-kxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MDE0
-MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIwNy
-wxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yNDY4
-MDkyNTddfQ==
+eyJoaXN0b3J5IjpbLTMyMzI0MTg3LC0xMjMyMTU4NzgxLC01Nj
+EyNDE3NDUsLTE2MzI0ODk0MTQsLTExMTM2OTE1MjUsMTE1ODg5
+NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1LDIwOT
+EyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4LC0xMDgwMTQx
+Nzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0NCwtNDk2NjM1MjA3LD
+E4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLTI0Njgw
+OTI1N119
 -->
