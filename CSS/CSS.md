@@ -1456,13 +1456,18 @@ body {
 }
 
 .crecedor {
-	height: 100vh; //puso dos secciones entre la ca
+	height: 100vh; //puso dos secciones entre la caja para que se vea animación solamente
+}
+
+.box {
+	animation: llenar-barra;
+	anim
 }
 
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDYxMjY1MSwtODk4MzM2Nyw5ODkzND
+eyJoaXN0b3J5IjpbMTA1MTMyNTMyMiwtODk4MzM2Nyw5ODkzND
 I2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQx
 NCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNz
 E2MzIwMTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5
