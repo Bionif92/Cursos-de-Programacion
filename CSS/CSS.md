@@ -1424,6 +1424,7 @@ body {
 }
 .container {
 	scroll-timeline: --containerScroll;
+	overflow-y: scroll;
 }
 
 .box {
@@ -1437,7 +1438,7 @@ body {
 	animation-name: llenar-barra;
 	animation-fill-mode: both;
 	animation-timing-function: linear;
-	animation-timeline: --containerScroll
+	animation-timeline: --containerScroll;
 }
 
 @keyframes llenar-barra {
@@ -1449,11 +1450,11 @@ body {
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NzY1MzIxLDk4OTM0MjY0NiwtMTIzMj
-E1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkx
-NTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2Mj
-AyNzc0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1
-OCwtMTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLT
-Q5NjYzNTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcw
-NTE5XX0=
+eyJoaXN0b3J5IjpbMjAxNDAxMjE4OCw5ODkzNDI2NDYsLTEyMz
+IxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5
+MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNj
+IwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYx
+NTgsLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC
+00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3
+MDUxOV19
 -->
