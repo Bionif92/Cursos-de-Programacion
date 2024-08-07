@@ -1394,16 +1394,25 @@ Dos tipos de formas de definir un timeline basado en scroll:
 	background-color: blue;
 	border-radius: 30px;
 	width: 10%;
-	animation-fill-mode:
-	animation-timing-function:
+	animation-name: llenar-barra;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
 }
+
+@keyframes llenar-barra {
+	from {
+		width:0%;
+	}
+	to{
+		width:100%;
+	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMT
-YzMjQ4OTQxNCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1
-NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNj
-E5MTYzMzg5LDEzNzI1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0
-ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMi
-wtNjc5Njc4Nzc0LDc4NDE3MDUxOSwtMjQ2ODA5MjU3LC04Nzgx
-NTUzODZdfQ==
+eyJoaXN0b3J5IjpbLTM5NTQzMzU1NCwtMTIzMjE1ODc4MSwtNT
+YxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LDExNTg4
+OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwyMD
+kxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MDE0
+MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIwNy
+wxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yNDY4
+MDkyNTddfQ==
 -->
