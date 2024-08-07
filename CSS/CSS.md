@@ -1297,12 +1297,19 @@ barra:active {
 ### Animaciones
 
 Transición entre un estado a otro, pero a diferencia de las anteriores podemos ejecutarlas cuando queramos y no con un evento disparador, y se puede repetir las veces que queramos
+
+````css
+.barra {
+	background-color:blue;
+	
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2NTQ2NzQsLTYxOTE2MzM4OSwxMzcyNT
-g2MTU4LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0
-NCwtNDk2NjM1MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3OD
-QxNzA1MTksLTI0NjgwOTI1NywtODc4MTU1Mzg2LDEwMDgwMzQy
-OSwtMTUzNDEwMzcwOSwtMTcyOTA2MTUyMiwxNzA0NTEyOTk5LC
-0yNjM2MTMxMDQsODM5MjY3NjY1LDc4OTQ1MjM3NSwtODE0ODk4
-NDUwXX0=
+eyJoaXN0b3J5IjpbNDg4NzI2MzIwLC02MTkxNjMzODksMTM3Mj
+U4NjE1OCwtMTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0
+NDQsLTQ5NjYzNTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNz
+g0MTcwNTE5LC0yNDY4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0
+MjksLTE1MzQxMDM3MDksLTE3MjkwNjE1MjIsMTcwNDUxMjk5OS
+wtMjYzNjEzMTA0LDgzOTI2NzY2NSw3ODk0NTIzNzUsLTgxNDg5
+ODQ1MF19
 -->
