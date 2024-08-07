@@ -1296,13 +1296,13 @@ barra:active {
 
 ### Animaciones
 
-Transición entre un estado a otro, pero a diferencia de las anteriores podemos ejecutarlas cuando queramos y no con un evento disparador
+Transición entre un estado a otro, pero a diferencia de las anteriores podemos ejecutarlas cuando queramos y no con un evento disparador, y se puede repetir las veces que queramos
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTIwOTk0MywtNjE5MTYzMzg5LDEzNz
-I1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2
-NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LD
-c4NDE3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUzODYsMTAwODAz
-NDI5LC0xNTM0MTAzNzA5LC0xNzI5MDYxNTIyLDE3MDQ1MTI5OT
-ksLTI2MzYxMzEwNCw4MzkyNjc2NjUsNzg5NDUyMzc1LC04MTQ4
-OTg0NTBdfQ==
+eyJoaXN0b3J5IjpbLTI2NTQ2NzQsLTYxOTE2MzM4OSwxMzcyNT
+g2MTU4LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0
+NCwtNDk2NjM1MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3OD
+QxNzA1MTksLTI0NjgwOTI1NywtODc4MTU1Mzg2LDEwMDgwMzQy
+OSwtMTUzNDEwMzcwOSwtMTcyOTA2MTUyMiwxNzA0NTEyOTk5LC
+0yNjM2MTMxMDQsODM5MjY3NjY1LDc4OTQ1MjM3NSwtODE0ODk4
+NDUwXX0=
 -->
