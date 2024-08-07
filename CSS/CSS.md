@@ -1277,15 +1277,17 @@ barra {
 	width: 10%;
 	transition: width 1s linear;// tarda un segundo en completar la transicion
 	transition: width 1s steps(10)// se carga en un segundo en 10 partes
+	transition: background-color .6s step
 }
 
 barra:active {
 	width: 100%
 	transition-duration: 4s;// tarda 4 segundos en volver
+	background-color:red;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODk0NzM0NzAsMTM3MjU4NjE1OCwtMT
+eyJoaXN0b3J5IjpbLTEzNTI5ODQ1NDYsMTM3MjU4NjE1OCwtMT
 A4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYz
 NTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC
 0yNDY4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQx
