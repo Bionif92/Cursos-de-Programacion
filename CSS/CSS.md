@@ -1388,12 +1388,22 @@ Dos tipos de formas de definir un timeline basado en scroll:
  - Por la barra de desplazamiento
  - Por visión del elemento en la pantalla
 
+````css
+.barra {
+	padding: 40px;
+	background-color: blue;
+	border-radius: 30px;
+	width: 10%;
+	animation-fill-mode:
+	animation-
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMT
-ExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIw
-MTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNz
-I1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2
-NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LD
-c4NDE3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUzODYsMTAwODAz
-NDI5XX0=
+eyJoaXN0b3J5IjpbLTExMjgxNzU1MTYsLTU2MTI0MTc0NSwtMT
+YzMjQ4OTQxNCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1
+NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNj
+E5MTYzMzg5LDEzNzI1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0
+ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMi
+wtNjc5Njc4Nzc0LDc4NDE3MDUxOSwtMjQ2ODA5MjU3LC04Nzgx
+NTUzODZdfQ==
 -->
