@@ -1347,8 +1347,16 @@ body {
 }
 
 .text {
-	animation: grow 3s both steps;
+	animation: grow 3s both steps(7);
 	overflow:hidden;
+}
+
+.text::before {
+	content:'';
+	width:2px;
+	height:80%;
+	background-color: blanco;
+	
 }
 
 @keyframes grow {
@@ -1362,7 +1370,7 @@ body {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1NTYzNTkyLC0xMTEzNjkxNTI1LDExNT
+eyJoaXN0b3J5IjpbOTYyNzk2OTk4LC0xMTEzNjkxNTI1LDExNT
 g4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwy
 MDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MD
 E0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIw
