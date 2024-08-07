@@ -1434,7 +1434,7 @@ body {
 	animation-name: llenar-barra;
 	animation-fill-mode: both;
 	animation-timing-function: linear;
-	animation-timeline: scroll ();//ahora depende la animación del scroll
+	animation-timeline: --containerScroll
 }
 
 @keyframes llenar-barra {
@@ -1446,11 +1446,11 @@ body {
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Mjc4MTA4OSw5ODkzNDI2NDYsLTEyMz
-IxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5
-MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNj
-IwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYx
-NTgsLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC
-00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3
-MDUxOV19
+eyJoaXN0b3J5IjpbLTIwNjA0NzIyNDgsOTg5MzQyNjQ2LC0xMj
+MyMTU4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMTM2
+OTE1MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLD
+YyMDI3NzQ1LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2
+MTU4LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0NC
+wtNDk2NjM1MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3ODQx
+NzA1MTldfQ==
 -->
