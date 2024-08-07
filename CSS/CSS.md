@@ -1324,17 +1324,19 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 
 ### Botones Animados
 
-````css
-.btn::before {
-	content:'';//tiene que estar si o si
-}
-````
+Armo un:
+
+ - Wave Button
+ - Neon Button
+
+Ver video o buscar en internet, para armarlo, son muchos pasos
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNj
-MyMDEzLDYyMDI3NzQ1LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwx
-MzcyNTg2MTU4LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMjA5OT
-M3NjQ0NCwtNDk2NjM1MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3
-NCw3ODQxNzA1MTksLTI0NjgwOTI1NywtODc4MTU1Mzg2LDEwMD
-gwMzQyOSwtMTUzNDEwMzcwOSwtMTcyOTA2MTUyMiwxNzA0NTEy
-OTk5XX0=
+eyJoaXN0b3J5IjpbLTExMTM2OTE1MjUsMTE1ODg5NDY5NCwtNj
+k1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1LDIwOTEyNjEzOTgs
+LTYxOTE2MzM4OSwxMzcyNTg2MTU4LC0xMDgwMTQxNzc5LC00MT
+gyNDgxNjEsMjA5OTM3NjQ0NCwtNDk2NjM1MjA3LDE4Mzg0MzI0
+MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLTI0NjgwOTI1NywtOD
+c4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEwMzcwOSwtMTcyOTA2
+MTUyMl19
 -->
