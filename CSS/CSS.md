@@ -1321,8 +1321,12 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 	}
 }
 ````
+
+### Botones Animados
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MzM3NzI2Myw3MTYzMjAxMyw2MjAyNz
+eyJoaXN0b3J5IjpbLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNz
 c0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwt
 MTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5Nj
 YzNTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5
