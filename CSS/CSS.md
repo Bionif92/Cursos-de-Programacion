@@ -1273,16 +1273,21 @@ background-image: linear-gradient(#0007,#0007), url('dalto.png');
 ### Transiciones (Repaso)
 
 ````css
-box {
-	
+barra {
+	width: 10%;
+	transition: width 1s linear;// tarda un segundo en completar la transicion
+}
+
+barra:active {
+	tr
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMD
-k5Mzc2NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4
-Nzc0LDc4NDE3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUzODYsMT
-AwODAzNDI5LC0xNTM0MTAzNzA5LC0xNzI5MDYxNTIyLDE3MDQ1
-MTI5OTksLTI2MzYxMzEwNCw4MzkyNjc2NjUsNzg5NDUyMzc1LC
-04MTQ4OTg0NTAsLTk3OTM5OTg0NywtMTM5MzUxMDg2OCwxMDU4
-OTg5ODI1XX0=
+eyJoaXN0b3J5IjpbMzkyMTUxMTg5LC0xMDgwMTQxNzc5LC00MT
+gyNDgxNjEsMjA5OTM3NjQ0NCwtNDk2NjM1MjA3LDE4Mzg0MzI0
+MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLTI0NjgwOTI1NywtOD
+c4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEwMzcwOSwtMTcyOTA2
+MTUyMiwxNzA0NTEyOTk5LC0yNjM2MTMxMDQsODM5MjY3NjY1LD
+c4OTQ1MjM3NSwtODE0ODk4NDUwLC05NzkzOTk4NDcsLTEzOTM1
+MTA4NjhdfQ==
 -->
