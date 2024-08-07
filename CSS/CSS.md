@@ -1276,6 +1276,7 @@ background-image: linear-gradient(#0007,#0007), url('dalto.png');
 barra {
 	width: 10%;
 	transition: width 1s linear;// tarda un segundo en completar la transicion
+	transition: width 1s steps(10)// se carga en un segundo en 10 partes
 }
 
 barra:active {
@@ -1284,11 +1285,11 @@ barra:active {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjU4NjE1OCwtMTA4MDE0MTc3OSwtND
-E4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIwNywxODM4NDMy
-NDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yNDY4MDkyNTcsLT
-g3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQxMDM3MDksLTE3Mjkw
-NjE1MjIsMTcwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOTI2NzY2NS
-w3ODk0NTIzNzUsLTgxNDg5ODQ1MCwtOTc5Mzk5ODQ3LC0xMzkz
-NTEwODY4XX0=
+eyJoaXN0b3J5IjpbLTE2ODk0NzM0NzAsMTM3MjU4NjE1OCwtMT
+A4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYz
+NTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC
+0yNDY4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQx
+MDM3MDksLTE3MjkwNjE1MjIsMTcwNDUxMjk5OSwtMjYzNjEzMT
+A0LDgzOTI2NzY2NSw3ODk0NTIzNzUsLTgxNDg5ODQ1MCwtOTc5
+Mzk5ODQ3XX0=
 -->
