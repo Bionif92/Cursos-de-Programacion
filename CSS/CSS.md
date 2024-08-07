@@ -1307,7 +1307,7 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 	animation-delay: 3s;//puede ser negativo para que la animacion alla arrancado desde antes
 	animation-fill-mode: ;// como vas a quedar cuando finalices, backwards: modo antes de animación,forwards: arranca como esta incialmente, cambia a la animacion y queda con la animacion del final, both: arranca con las propiedades de la animacion inicial y queda como la animacion al final
 	animation-timing-function: linear;// la curva
-	animation-iteration-count: ;//repeticion
+	animation-iteration-count: ;//repeticion, infinite/3/
 }
 
 @keyframes llenar-barra //nombre que le ponemos a anim {
@@ -1320,11 +1320,11 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MzExMTI4Niw3MTYzMjAxMyw2MjAyNz
-c0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwt
-MTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5Nj
-YzNTIwNywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5
-LC0yNDY4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1Mz
-QxMDM3MDksLTE3MjkwNjE1MjIsMTcwNDUxMjk5OSwtMjYzNjEz
-MTA0XX0=
+eyJoaXN0b3J5IjpbMzg0NTQwMjMsNzE2MzIwMTMsNjIwMjc3ND
+UsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEw
+ODAxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2Mz
+UyMDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3MDUxOSwt
+MjQ2ODA5MjU3LC04NzgxNTUzODYsMTAwODAzNDI5LC0xNTM0MT
+AzNzA5LC0xNzI5MDYxNTIyLDE3MDQ1MTI5OTksLTI2MzYxMzEw
+NF19
 -->
