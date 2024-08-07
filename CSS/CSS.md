@@ -1388,7 +1388,7 @@ Dos tipos de formas de definir un timeline basado en scroll:
  - Por la barra de desplazamiento
  - Por visión del elemento en la pantalla
 
-Por barra de desplazamiento
+Por barra de desplazamiento del body
 ````css
 body {
 	height: 200vh;//para que aparezca el scroll
@@ -1417,13 +1417,13 @@ body {
 	}
 ````
 
-Por visión del elemento en la pantalla
+Por barra desplazamiento del container
 ````css
 body {
 	height: 200vh;//para que aparezca el scroll
 }
 .container {
-	scroll-timeline: --containerScroll;
+	scroll-timeline: --containerScroll block;
 	overflow-y: scroll;
 }
 
@@ -1449,8 +1449,42 @@ body {
 		width:100%;
 	}
 ````
+
+Por vis
+````css
+body {
+	height: 200vh;//para que aparezca el scroll
+}
+.container {
+	scroll-timeline: --containerScroll block;
+	overflow-y: scroll;
+}
+
+.box {
+	position:fixed;
+}
+.barra {
+	padding: 40px;
+	background-color: blue;
+	border-radius: 30px;
+	width: 10%;
+	animation-name: llenar-barra;
+	animation-fill-mode: both;
+	animation-timing-function: linear;
+	animation-timeline: --containerScroll;
+}
+
+@keyframes llenar-barra {
+	from {
+		width:0%;
+	}
+	to{
+		width:100%;
+	}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNDAxMjE4OCw5ODkzNDI2NDYsLTEyMz
+eyJoaXN0b3J5IjpbLTMwNTgzMzkzOSw5ODkzNDI2NDYsLTEyMz
 IxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5
 MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNj
 IwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYx
