@@ -1359,7 +1359,7 @@ body {
 	background-color: blanco;
 	position:absolute;
 	right:0;
-	animation: titilar 1s infinite
+	animation: titilar .36s infinite alternate
 }
 
 @keyframes grow {
@@ -1370,14 +1370,23 @@ body {
 		width:100%;
 	}
 }
+
+@keyframes titilar {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:1;
+	}
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNDg5NzE4OCwtMTExMzY5MTUyNSwxMT
-U4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUs
-MjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwOD
-AxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUy
-MDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3MDUxOSwtMj
-Q2ODA5MjU3LC04NzgxNTUzODYsMTAwODAzNDI5LC0xNTM0MTAz
-NzA5XX0=
+eyJoaXN0b3J5IjpbLTE2Mzg3NTI5NDIsLTExMTM2OTE1MjUsMT
+E1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1
+LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4LC0xMD
+gwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0NCwtNDk2NjM1
+MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLT
+I0NjgwOTI1NywtODc4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEw
+MzcwOV19
 -->
