@@ -1338,8 +1338,16 @@ Uso after, before y animaciones
 Parrafo con el texto
 
 ````css
+body {
+	display:flex;
+}
+
+.container {
+	margin:auto;
+}
+
 .text {
-	animation: grow 3s both;
+	animation: grow 3s both steps;
 	overflow:hidden;
 }
 
@@ -1354,11 +1362,11 @@ Parrafo con el texto
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MTc3MDYwMCwtMTExMzY5MTUyNSwxMT
-U4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUs
-MjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwOD
-AxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUy
-MDcsMTgzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3MDUxOSwtMj
-Q2ODA5MjU3LC04NzgxNTUzODYsMTAwODAzNDI5LC0xNTM0MTAz
-NzA5XX0=
+eyJoaXN0b3J5IjpbNTE1NTYzNTkyLC0xMTEzNjkxNTI1LDExNT
+g4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwy
+MDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MD
+E0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIw
+NywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yND
+Y4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQxMDM3
+MDldfQ==
 -->
