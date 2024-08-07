@@ -1453,42 +1453,20 @@ body {
 #### Por visión del elemento en pantalla
 ````css
 body {
-	height: 200vh;//para que aparezca el scroll
-}
-.container {
-	scroll-timeline: --containerScroll block;
-	overflow-y: scroll;
 }
 
-.box {
-	position:fixed;
-}
-.barra {
-	padding: 40px;
-	background-color: blue;
-	border-radius: 30px;
-	width: 10%;
-	animation-name: llenar-barra;
-	animation-fill-mode: both;
-	animation-timing-function: linear;
-	animation-timeline: --containerScroll;
+.crecedor {
+	height: 100vh; //puso dos secciones entre la ca
 }
 
-@keyframes llenar-barra {
-	from {
-		width:0%;
-	}
-	to{
-		width:100%;
-	}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMT
-U4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMTM2OTE1
-MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMD
-I3NzQ1LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4
-LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0NCwtND
-k2NjM1MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3ODQxNzA1
-MTldfQ==
+eyJoaXN0b3J5IjpbLTQxMDYxMjY1MSwtODk4MzM2Nyw5ODkzND
+I2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQx
+NCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNz
+E2MzIwMTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5
+LDEzNzI1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0ODE2MSwyMD
+k5Mzc2NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMiwtNjc5Njc4
+Nzc0XX0=
 -->
