@@ -1304,6 +1304,7 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 	width:10%;
 	animation-name: llenar-barra;
 	animation-duration: 2s;// se ejecuta una sola vez
+	animation-delay: 3s;
 }
 
 @keyframes llenar-barra //nombre que le ponemos a anim {
@@ -1316,11 +1317,11 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MT
-YzMzg5LDEzNzI1ODYxNTgsLTEwODAxNDE3NzksLTQxODI0ODE2
-MSwyMDk5Mzc2NDQ0LC00OTY2MzUyMDcsMTgzODQzMjQwMiwtNj
-c5Njc4Nzc0LDc4NDE3MDUxOSwtMjQ2ODA5MjU3LC04NzgxNTUz
-ODYsMTAwODAzNDI5LC0xNTM0MTAzNzA5LC0xNzI5MDYxNTIyLD
-E3MDQ1MTI5OTksLTI2MzYxMzEwNCw4MzkyNjc2NjUsNzg5NDUy
-Mzc1XX0=
+eyJoaXN0b3J5IjpbLTI4Mjg0MDY5OCw2MjAyNzc0NSwyMDkxMj
+YxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MDE0MTc3
+OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIwNywxOD
+M4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yNDY4MDky
+NTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQxMDM3MDksLT
+E3MjkwNjE1MjIsMTcwNDUxMjk5OSwtMjYzNjEzMTA0LDgzOTI2
+NzY2NV19
 -->
