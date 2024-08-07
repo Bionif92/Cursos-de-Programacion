@@ -1331,11 +1331,11 @@ Armo un:
 
 Ver video o buscar en internet, para armarlo, son muchos pasos
 
-Uso after, before y animaciones
+Uso after, before y animaciones, y el filter drop shadow
 
 #### Efecto TypeWriter 
 
-Parrafo con el texto
+Parrafo con el texto, usa el filter drop shadow en el container para iluminarlo
 
 ````css
 body {
@@ -1382,11 +1382,11 @@ body {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg3NTI5NDIsLTExMTM2OTE1MjUsMT
-E1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1
-LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4LC0xMD
-gwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0NCwtNDk2NjM1
-MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLT
-I0NjgwOTI1NywtODc4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEw
-MzcwOV19
+eyJoaXN0b3J5IjpbNjM2MzY1NTExLC0xMTEzNjkxNTI1LDExNT
+g4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwy
+MDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMTA4MD
+E0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYzNTIw
+NywxODM4NDMyNDAyLC02Nzk2Nzg3NzQsNzg0MTcwNTE5LC0yND
+Y4MDkyNTcsLTg3ODE1NTM4NiwxMDA4MDM0MjksLTE1MzQxMDM3
+MDldfQ==
 -->
