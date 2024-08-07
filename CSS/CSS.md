@@ -1288,11 +1288,13 @@ barra:active {
 }
 
 @media (prefers-reduced-motion: reduce) {// para desactivar las animaciones para un epileptico
-
+	.barra {
+		transition: width 5s, background-color 5s;
+	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxODcyNzAzNSwxMzcyNTg2MTU4LC0xMD
+eyJoaXN0b3J5IjpbMjE0MTk0MjE3NywxMzcyNTg2MTU4LC0xMD
 gwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0NCwtNDk2NjM1
 MjA3LDE4Mzg0MzI0MDIsLTY3OTY3ODc3NCw3ODQxNzA1MTksLT
 I0NjgwOTI1NywtODc4MTU1Mzg2LDEwMDgwMzQyOSwtMTUzNDEw
