@@ -1305,7 +1305,7 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 	animation-name: llenar-barra;
 	animation-duration: 2s;// se ejecuta una sola vez
 	animation-delay: 3s;
-	animation-fill-mode: ;// como vas a quedar cuando finalices, backwards: modo inicial,
+	animation-fill-mode: ;// como vas a quedar cuando finalices, backwards: modo antes de animación,forwards: 
 }
 
 @keyframes llenar-barra //nombre que le ponemos a anim {
@@ -1318,7 +1318,7 @@ Transición entre un estado a otro, pero a diferencia de las anteriores podemos 
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI0Mzc5NzIsNjIwMjc3NDUsMjA5MT
+eyJoaXN0b3J5IjpbLTE0Mzc3Mjg3NjAsNjIwMjc3NDUsMjA5MT
 I2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwODAxNDE3
 NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUyMDcsMT
 gzODQzMjQwMiwtNjc5Njc4Nzc0LDc4NDE3MDUxOSwtMjQ2ODA5
