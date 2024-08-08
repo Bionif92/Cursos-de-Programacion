@@ -1499,13 +1499,14 @@ Tipos hosting:
  - Hosting compartido (un servidor, muchas paginas web adentro, versión mas económica, para trafico bajo)
  - VPS (un servidor dividido en maquinas virtuales con recursos asignados, para trafico mediano)
  - Hosting dedicado (dedicar servidor completo para un solo cliente, necesidad de alto rendimiento, trafico alto)
+ - Cloud hosting (distribuir todo tu trafico a travez de una red de servidores que hace que todo sea mas escalable )
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1OTk1Mjg1OCwxMzcyOTI4ODEwLDIyOD
-Y2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwt
-MTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNT
-g3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUy
-NSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMj
-c3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNThd
-fQ==
+eyJoaXN0b3J5IjpbODg3NTkwMTkwLDEzNzI5Mjg4MTAsMjI4Nj
+YwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0x
+Mzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1OD
+c4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1
+LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNz
+c0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OF19
+
 -->
