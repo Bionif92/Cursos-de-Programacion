@@ -1551,7 +1551,7 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 	filter: saturate(); 
 	filter: hue-rotate(); //cambia matriz del color
 	filter: opacity();
-	filter: opacity();
+	filter: invert(); // invierte los colores, como los negativos de las fotos
 }
 ````
 **El backdrop-filter se aplica sobre el background no sobre el contenido de la caja, y se pueden aplicar las mismas funciones que filter**
@@ -1559,7 +1559,7 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5ODI2NTM3MSwtNjA4Mzc5OTQ3LDE4Mz
+eyJoaXN0b3J5IjpbLTczODk0NjUzNSwtNjA4Mzc5OTQ3LDE4Mz
 Q5MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3
 MzcsMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxND
 EyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAz
