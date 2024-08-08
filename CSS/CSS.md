@@ -1520,15 +1520,15 @@ El dominio llama al servidor y nos muestra lo que la pagina tiene
 
 https://www.hostg.xyz/SH6cZ
 
-Que plan elegir: Business
+Que plan elegir: Business, plan de 24 meses
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMTEyMDk1OCwyMTQxMjcxMTgyLC0xOT
-k5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMxLDc4MTYyMzQz
-NCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMzg4MjIzNjM2LC04OT
-gzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MSwtNTYxMjQxNzQ1
-LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LDExNTg4OTQ2OTQsLT
-Y5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NSwyMDkxMjYxMzk4
-XX0=
+eyJoaXN0b3J5IjpbMzM3ODMyODIzLDIxNDEyNzExODIsLTE5OT
+kzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAzMzEsNzgxNjIzNDM0
+LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzODgyMjM2MzYsLTg5OD
+MzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4NzgxLC01NjEyNDE3NDUs
+LTE2MzI0ODk0MTQsLTExMTM2OTE1MjUsMTE1ODg5NDY5NCwtNj
+k1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1LDIwOTEyNjEzOThd
+fQ==
 -->
