@@ -1535,9 +1535,11 @@ Luego en Hostinger, Tablero principal, Archivos, Cuentas FTP
 
 Hay que cambiar contraseña FTP, luego copiar IP del FTP, nombre de usuario, la contraseña  en filezila pegamos esta IP, el puerto 21, le damos en conexion rapida, no guardar contraseñas
 
+Podemos agregar sitio si vamos
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTA2NjQxMjUsMzg5NjgzMDc5LDMzNz
+eyJoaXN0b3J5IjpbLTE5MTk4NzYzOTMsMzg5NjgzMDc5LDMzNz
 gzMjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4
 MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2Mj
 cxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0Niwt
