@@ -1545,13 +1545,14 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 .box {
 	filter: drop shadow(0px 0px 15px #000);//sombra
 	filter: blur(); //desenfocar, le da las propiedades a los hijos tambien
+	filter: brightness (); //brillo
 }
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODQ4OTYxOCw4NTI4ODI4MjQsLTE2NT
+eyJoaXN0b3J5IjpbMTgzNDkxNzE4Myw4NTI4ODI4MjQsLTE2NT
 QzMDk2MjEsLTQwOTc3MjczNywyMTEyMjIxMDE3LDM4OTY4MzA3
 OSwzMzc4MzI4MjMsMjE0MTI3MTE4MiwtMTk5OTMxNzY3NSwxMz
 cyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMs
