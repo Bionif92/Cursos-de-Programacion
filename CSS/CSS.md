@@ -1503,14 +1503,20 @@ Tipos hosting:
 
 Hay que buscar proovedor de hosting
 
-Requisitos del proovedor ne
+Requisitos del proovedor necesarios:
+
+ - Soporte 24/7
+ - Equipo que solucione todos nuestros problemas
+ - Alto rendimiento
+ - Confiabilidad
+ - Almacenamiento en estado solido
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0NTA0MjM5LDEzNzI5Mjg4MTAsMjI4Nj
-YwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0x
-Mzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1OD
-c4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1
-LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNz
-c0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OF19
-
+eyJoaXN0b3J5IjpbLTE0ODQ5Mzk0OSwxMzcyOTI4ODEwLDIyOD
+Y2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwt
+MTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNT
+g3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUy
+NSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMj
+c3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNThd
+fQ==
 -->
