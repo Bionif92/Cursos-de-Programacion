@@ -1483,12 +1483,16 @@ body {
 	animation-range-ende: cover 80%;
 }
 ````
+
+Usar este para ver la animacion como quedaria:
+
+https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=cover&range-end-percentage=100&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5NjAyMTMsMjE0NjI3MTc4MCwtMTM4OD
-IyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNTg3ODEs
-LTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUyNSwxMT
-U4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUs
-MjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwOD
-AxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUy
-MDddfQ==
+eyJoaXN0b3J5IjpbMTc5NjYyNTc4Miw5NDk2MDIxMywyMTQ2Mj
+cxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0Niwt
+MTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMT
+EzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAx
+Myw2MjAyNzc0NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3Mj
+U4NjE1OCwtMTA4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0
+NDRdfQ==
 -->
