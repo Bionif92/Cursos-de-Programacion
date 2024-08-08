@@ -1516,14 +1516,14 @@ Requisitos del proovedor necesarios:
 
 Recomendado: **Hostinger**
 
-El dominio llama al servidor y nos muestra lo que la pagina ti
+El dominio llama al servidor y nos muestra lo que la pagina tiene
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNjgzMzkxLC0xOTk5MzE3Njc1LDEzNz
-I5Mjg4MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywy
-MTQ2MjcxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0Mj
-Y0NiwtMTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0
-LC0xMTEzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MT
-YzMjAxMyw2MjAyNzc0NSwyMDkxMjYxMzk4LC02MTkxNjMzODld
-fQ==
+eyJoaXN0b3J5IjpbLTI2MDYyNzQwNSwtMTk5OTMxNzY3NSwxMz
+cyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMs
+MjE0NjI3MTc4MCwtMTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzND
+I2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQx
+NCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNz
+E2MzIwMTMsNjIwMjc3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5
+XX0=
 -->
