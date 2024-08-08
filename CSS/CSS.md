@@ -1545,18 +1545,19 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 .box {
 	filter: drop shadow(0px 0px 15px #000);//sombra
 	filter: blur(); //desenfocar, le da las propiedades a los hijos tambien
-	filter: brightness (); //brillo
+	filter: brightness(); //brillo
+	filter: contrast(); // contraste
 }
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDkxNzE4Myw4NTI4ODI4MjQsLTE2NT
-QzMDk2MjEsLTQwOTc3MjczNywyMTEyMjIxMDE3LDM4OTY4MzA3
-OSwzMzc4MzI4MjMsMjE0MTI3MTE4MiwtMTk5OTMxNzY3NSwxMz
-cyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMs
-MjE0NjI3MTc4MCwtMTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzND
-I2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQx
-NF19
+eyJoaXN0b3J5IjpbLTIwNjUyMzc5NTgsMTgzNDkxNzE4Myw4NT
+I4ODI4MjQsLTE2NTQzMDk2MjEsLTQwOTc3MjczNywyMTEyMjIx
+MDE3LDM4OTY4MzA3OSwzMzc4MzI4MjMsMjE0MTI3MTE4MiwtMT
+k5OTMxNzY3NSwxMzcyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0
+MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwtMTM4ODIyMzYzNiwtOD
+k4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0
+NV19
 -->
