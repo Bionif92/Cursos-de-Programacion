@@ -1522,13 +1522,17 @@ https://www.hostg.xyz/SH6cZ
 
 Que plan elegir: Business, plan de 24 meses
 
+### Subir tu WEB a INTERNET
+
+Tablero principal de la pagina de hosting, administración de archivos
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM3ODMyODIzLDIxNDEyNzExODIsLTE5OT
-kzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAzMzEsNzgxNjIzNDM0
-LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzODgyMjM2MzYsLTg5OD
-MzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4NzgxLC01NjEyNDE3NDUs
-LTE2MzI0ODk0MTQsLTExMTM2OTE1MjUsMTE1ODg5NDY5NCwtNj
-k1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1LDIwOTEyNjEzOThd
-fQ==
+eyJoaXN0b3J5IjpbMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMj
+cxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMx
+LDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMzg4Mj
+IzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MSwt
+NTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LDExNT
+g4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NV19
+
 -->
