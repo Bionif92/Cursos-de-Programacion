@@ -1526,13 +1526,15 @@ Que plan elegir: Business, plan de 24 meses
 
 Tablero principal de la pagina de hosting, administración de archivos
 
+Arrastras todos tus archivos a la carpeta public.html
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMj
-cxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMx
-LDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMzg4Mj
-IzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MSwt
-NTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LDExNT
-g4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0NV19
-
+eyJoaXN0b3J5IjpbMTg0NDUzMjI3NiwzODk2ODMwNzksMzM3OD
+MyODIzLDIxNDEyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgx
+MCwyMjg2NjAzMzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNz
+E3ODAsLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0x
+MjMyMTU4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMT
+M2OTE1MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEz
+XX0=
 -->
