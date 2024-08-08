@@ -1498,10 +1498,10 @@ Tipos hosting:
 
  - Hosting compartido (un servidor, muchas paginas web adentro, versión mas económica, para trafico bajo)
  - VPS (un servidor dividido en maquinas virtuales con recursos asignados, para trafico mediano)
- - Hosting dedicado (s)
+ - Hosting dedicado (dedicar servidor completo para un solo cliente, necesidad de alto rendimiento, trafico alto)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTc3NDk0MywxMzcyOTI4ODEwLDIyOD
+eyJoaXN0b3J5IjpbMTM1OTk1Mjg1OCwxMzcyOTI4ODEwLDIyOD
 Y2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwt
 MTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNT
 g3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUy
