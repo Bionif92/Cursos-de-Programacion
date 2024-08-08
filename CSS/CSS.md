@@ -1558,16 +1558,33 @@ se pueden acoplar varios filtros uno atras del otro
 ````
 **El backdrop-filter se aplica sobre el background no sobre el contenido de la caja, y se pueden aplicar las mismas funciones que filter**
 
+### Funciones de transformación
+
+````css
+.box {
+	filter: drop shadow(0px 0px 15px #000);//sombra
+	filter: blur(); //desenfocar, le da las propiedades a los hijos tambien
+	filter: brightness(); //brillo
+	filter: contrast(); // contraste
+	filter: grayscale(); // gris 
+	filter: saturate(); 
+	filter: hue-rotate(); //cambia matriz del color
+	filter: opacity();
+	filter: invert(); // invierte los colores, como los negativos de las fotos
+	filter: sepia();
+se pueden acoplar varios filtros uno atras del otro
+}
+````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjUwNjQ3LC02MDgzNzk5NDcsMTgzND
-kxNzE4Myw4NTI4ODI4MjQsLTE2NTQzMDk2MjEsLTQwOTc3Mjcz
-NywyMTEyMjIxMDE3LDM4OTY4MzA3OSwzMzc4MzI4MjMsMjE0MT
-I3MTE4MiwtMTk5OTMxNzY3NSwxMzcyOTI4ODEwLDIyODY2MDMz
-MSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwtMTM4OD
-IyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNTg3ODFd
-fQ==
+eyJoaXN0b3J5IjpbLTI4NTIxODE2OSwtNjA4Mzc5OTQ3LDE4Mz
+Q5MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3
+MzcsMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxND
+EyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAz
+MzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzOD
+gyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4Nzgx
+XX0=
 -->
