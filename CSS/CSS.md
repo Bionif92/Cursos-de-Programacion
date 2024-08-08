@@ -1563,7 +1563,8 @@ se pueden acoplar varios filtros uno atras del otro
 ````css
 img {
 	transform: scale(); // cambia escala elemento
-	transform: scale();
+	transform: scaleY();// tambien X
+	transform: scaleY();
 }
 ````
 
@@ -1571,11 +1572,11 @@ img {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA4ODczNTcwLC02MDgzNzk5NDcsMTgzND
-kxNzE4Myw4NTI4ODI4MjQsLTE2NTQzMDk2MjEsLTQwOTc3Mjcz
-NywyMTEyMjIxMDE3LDM4OTY4MzA3OSwzMzc4MzI4MjMsMjE0MT
-I3MTE4MiwtMTk5OTMxNzY3NSwxMzcyOTI4ODEwLDIyODY2MDMz
-MSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwtMTM4OD
-IyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNTg3ODFd
-fQ==
+eyJoaXN0b3J5IjpbNzc1ODcwMjIsLTYwODM3OTk0NywxODM0OT
+E3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3
+LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMj
+cxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMx
+LDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMzg4Mj
+IzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MV19
+
 -->
