@@ -1552,15 +1552,16 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 	filter: hue-rotate(); //cambia matriz del color
 }
 ````
+**El backdrop-filter se aplica sobre el background no sobre el contenido de la caja, y se pueden aplicar las mismas funciones que filter**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODM3OTk0NywxODM0OTE3MTgzLDg1Mj
-g4MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIxMTIyMjEw
-MTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMjcxMTgyLC0xOT
-k5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMxLDc4MTYyMzQz
-NCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMzg4MjIzNjM2LC04OT
-gzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MSwtNTYxMjQxNzQ1
+eyJoaXN0b3J5IjpbMTg4MTg5Njk0MSwtNjA4Mzc5OTQ3LDE4Mz
+Q5MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3
+MzcsMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxND
+EyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAz
+MzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzOD
+gyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4Nzgx
 XX0=
 -->
