@@ -1552,6 +1552,8 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 	filter: hue-rotate(); //cambia matriz del color
 	filter: opacity();
 	filter: invert(); // invierte los colores, como los negativos de las fotos
+	filter: sepia();
+se pueden acoplar varios filtros uno atras del otro
 }
 ````
 **El backdrop-filter se aplica sobre el background no sobre el contenido de la caja, y se pueden aplicar las mismas funciones que filter**
@@ -1559,11 +1561,11 @@ Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el F
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODk0NjUzNSwtNjA4Mzc5OTQ3LDE4Mz
-Q5MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3
-MzcsMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxND
-EyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAz
-MzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzOD
-gyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4Nzgx
-XX0=
+eyJoaXN0b3J5IjpbMzMzNjYyNjcsLTYwODM3OTk0NywxODM0OT
+E3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3
+LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMj
+cxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMx
+LDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMzg4Mj
+IzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4MV19
+
 -->
