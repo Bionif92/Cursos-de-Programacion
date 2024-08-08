@@ -1487,12 +1487,16 @@ body {
 Usar esta pagina para ver la animación como quedaría:
 
 https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=cover&range-end-percentage=100&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes
+
+## Web Hosting
+
+### Introducción al web hosting
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNz
-E3ODAsLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0x
-MjMyMTU4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMT
-M2OTE1MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEz
-LDYyMDI3NzQ1LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNT
-g2MTU4LC0xMDgwMTQxNzc5LC00MTgyNDgxNjEsMjA5OTM3NjQ0
-NF19
+eyJoaXN0b3J5IjpbMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MD
+IxMywyMTQ2MjcxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4
+OTM0MjY0NiwtMTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyND
+g5NDE0LC0xMTEzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkz
+OCw3MTYzMjAxMyw2MjAyNzc0NSwyMDkxMjYxMzk4LC02MTkxNj
+MzODksMTM3MjU4NjE1OCwtMTA4MDE0MTc3OSwtNDE4MjQ4MTYx
+XX0=
 -->
