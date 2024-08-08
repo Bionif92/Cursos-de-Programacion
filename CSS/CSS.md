@@ -1530,15 +1530,16 @@ Arrastras todos tus archivos a la carpeta public.html
 
 Otro sistema para subir pagina web es usando FTP, forma estandar de transferir archivos desde tu computadora al servidor que aloja tu web
 
-Hay que 
+Hay que descargar cliente filezilla, descargar primera opcion
+Luego en Hostinger, Tablero principal, Archivos
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM4NTgyOTYsMzg5NjgzMDc5LDMzNz
-gzMjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4
-MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2Mj
-cxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0Niwt
-MTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMT
-EzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAx
-M119
+eyJoaXN0b3J5IjpbMTg0MTMyNDk5NCwzODk2ODMwNzksMzM3OD
+MyODIzLDIxNDEyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgx
+MCwyMjg2NjAzMzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNz
+E3ODAsLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0x
+MjMyMTU4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMT
+M2OTE1MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEz
+XX0=
 -->
