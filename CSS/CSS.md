@@ -1479,16 +1479,16 @@ body {
 .box {
 	animation: llenar-barra;
 	animation-timeline: view();
-	animation-range-start: ;// defecto normal,
-	animation-range-ende: ;//
+	animation-range-start: cover 50% ;// defecto normal,en este caso arranca luego de la mitad del view port
+	animation-range-ende: cover 80%;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODU1NTA3NCwyMTQ2MjcxNzgwLC0xMz
-g4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4
-MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LD
-ExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0
-NSwyMDkxMjYxMzk4LC02MTkxNjMzODksMTM3MjU4NjE1OCwtMT
-A4MDE0MTc3OSwtNDE4MjQ4MTYxLDIwOTkzNzY0NDQsLTQ5NjYz
-NTIwN119
+eyJoaXN0b3J5IjpbOTQ5NjAyMTMsMjE0NjI3MTc4MCwtMTM4OD
+IyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNTg3ODEs
+LTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUyNSwxMT
+U4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMjc3NDUs
+MjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNTgsLTEwOD
+AxNDE3NzksLTQxODI0ODE2MSwyMDk5Mzc2NDQ0LC00OTY2MzUy
+MDddfQ==
 -->
