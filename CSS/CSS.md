@@ -1501,8 +1501,12 @@ Tipos hosting:
  - Hosting dedicado (dedicar servidor completo para un solo cliente, necesidad de alto rendimiento, trafico alto)
  - Cloud hosting (distribuir todo tu trafico a través de una red de servidores que hace que todo sea mas escalable y flexible, trafico adaptable)
 
+Hay que buscar proovedor de hosting
+
+Requisitos del proovedor ne
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTczNzg1Mzc5LDEzNzI5Mjg4MTAsMjI4Nj
+eyJoaXN0b3J5IjpbNjA0NTA0MjM5LDEzNzI5Mjg4MTAsMjI4Nj
 YwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0x
 Mzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1OD
 c4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1
