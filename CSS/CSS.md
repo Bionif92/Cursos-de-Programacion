@@ -1479,11 +1479,12 @@ body {
 .box {
 	animation: llenar-barra;
 	animation-timeline: view();
-	animation-range:
+	animation-range-start: ;// defecto normal,
+	animation-range-ende: ;//
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDI0MjIzMSwyMTQ2MjcxNzgwLC0xMz
+eyJoaXN0b3J5IjpbMTM3ODU1NTA3NCwyMTQ2MjcxNzgwLC0xMz
 g4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4
 MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMTEzNjkxNTI1LD
 ExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAxMyw2MjAyNzc0
