@@ -1561,18 +1561,8 @@ se pueden acoplar varios filtros uno atras del otro
 ### Funciones de transformación
 
 ````css
-.box {
-	filter: drop shadow(0px 0px 15px #000);//sombra
-	filter: blur(); //desenfocar, le da las propiedades a los hijos tambien
-	filter: brightness(); //brillo
-	filter: contrast(); // contraste
-	filter: grayscale(); // gris 
-	filter: saturate(); 
-	filter: hue-rotate(); //cambia matriz del color
-	filter: opacity();
-	filter: invert(); // invierte los colores, como los negativos de las fotos
-	filter: sepia();
-se pueden acoplar varios filtros uno atras del otro
+img {
+	scale
 }
 ````
 
@@ -1580,11 +1570,11 @@ se pueden acoplar varios filtros uno atras del otro
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NTIxODE2OSwtNjA4Mzc5OTQ3LDE4Mz
-Q5MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3
-MzcsMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxND
-EyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgxMCwyMjg2NjAz
-MzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzOD
-gyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4Nzgx
-XX0=
+eyJoaXN0b3J5IjpbLTE2MTY2MzM1NTcsLTYwODM3OTk0NywxOD
+M0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5Nzcy
+NzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMT
+QxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYw
+MzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMz
+g4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4
+MV19
 -->
