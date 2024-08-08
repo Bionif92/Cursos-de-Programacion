@@ -1514,12 +1514,16 @@ Requisitos del proovedor necesarios:
  - Backups
  - Facil de usar
 
+Recomendado: **Hostinger**
+
+El dominio llama al servidor y nos muestra lo que la pagina ti
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTkzMTc2NzUsMTM3MjkyODgxMCwyMj
-g2NjAzMzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNzE3ODAs
-LTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMT
-U4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMTM2OTE1
-MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMD
-I3NzQ1LDIwOTEyNjEzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4
-XX0=
+eyJoaXN0b3J5IjpbLTQzNjgzMzkxLC0xOTk5MzE3Njc1LDEzNz
+I5Mjg4MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywy
+MTQ2MjcxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0Mj
+Y0NiwtMTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0
+LC0xMTEzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MT
+YzMjAxMyw2MjAyNzc0NSwyMDkxMjYxMzk4LC02MTkxNjMzODld
+fQ==
 -->
