@@ -1496,10 +1496,12 @@ Subir pagina a internet
 
 Tipos hosting:
 
- - Hosting compartido (un servidor, muchas paginas web adentro)
+ - Hosting compartido (un servidor, muchas paginas web adentro, versión mas económica, para trafico bajo)
+ - VPS (un servidor dividido en maquinas virtuales con recursos asignados, para trafico mediano)
+ - Hosting dedicado (s)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjkzOTgyOSwxMzcyOTI4ODEwLDIyOD
+eyJoaXN0b3J5IjpbMTk5MTc3NDk0MywxMzcyOTI4ODEwLDIyOD
 Y2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwt
 MTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNT
 g3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUy
