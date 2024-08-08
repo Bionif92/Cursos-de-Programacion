@@ -1493,12 +1493,17 @@ https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-n
 ### Introducción al web hosting
 
 Subir pagina a internet
+
+Tipos hosting:
+
+ - Hosting compartido (un servidor, muchas paginas web adentro)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjkyODgxMCwyMjg2NjAzMzEsNzgxNj
-IzNDM0LDk0OTYwMjEzLDIxNDYyNzE3ODAsLTEzODgyMjM2MzYs
-LTg5ODMzNjcsOTg5MzQyNjQ2LC0xMjMyMTU4NzgxLC01NjEyND
-E3NDUsLTE2MzI0ODk0MTQsLTExMTM2OTE1MjUsMTE1ODg5NDY5
-NCwtNjk1NTc0OTM4LDcxNjMyMDEzLDYyMDI3NzQ1LDIwOTEyNj
-EzOTgsLTYxOTE2MzM4OSwxMzcyNTg2MTU4LC0xMDgwMTQxNzc5
-XX0=
+eyJoaXN0b3J5IjpbLTIyMjkzOTgyOSwxMzcyOTI4ODEwLDIyOD
+Y2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4MCwt
+MTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEyMzIxNT
+g3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMzY5MTUy
+NSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTMsNjIwMj
+c3NDUsMjA5MTI2MTM5OCwtNjE5MTYzMzg5LDEzNzI1ODYxNThd
+fQ==
 -->
