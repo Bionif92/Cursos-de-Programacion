@@ -1564,7 +1564,7 @@ se pueden acoplar varios filtros uno atras del otro
 img {
 	transform: scale(); // cambia escala elemento
 	transform: scaleY();// tambien X
-	transform: skew(); // le da inclinacion a la imagen
+	transform: skew(); // le da inclinacion a la imagen, skewX e skewY tambien
 	transform: rotate();// rota la imagen
 }
 ````
@@ -1573,11 +1573,11 @@ img {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTM2OTM1MjIsLTYwODM3OTk0NywxOD
-M0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5Nzcy
-NzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMT
-QxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYw
-MzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2MjcxNzgwLC0xMz
-g4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0NiwtMTIzMjE1ODc4
-MV19
+eyJoaXN0b3J5IjpbLTUzMzA2MTYzMiwtMTMxMzY5MzUyMiwtNj
+A4Mzc5OTQ3LDE4MzQ5MTcxODMsODUyODgyODI0LC0xNjU0MzA5
+NjIxLC00MDk3NzI3MzcsMjExMjIyMTAxNywzODk2ODMwNzksMz
+M3ODMyODIzLDIxNDEyNzExODIsLTE5OTkzMTc2NzUsMTM3Mjky
+ODgxMCwyMjg2NjAzMzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxND
+YyNzE3ODAsLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2
+XX0=
 -->
