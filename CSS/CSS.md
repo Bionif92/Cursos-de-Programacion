@@ -1520,8 +1520,11 @@ El dominio llama al servidor y nos muestra lo que la pagina tiene
 
 https://www.hostg.xyz/SH6cZ
 
+Que plan elegir:
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzA3Nzk0MCwtMTk5OTMxNzY3NSwxMz
+eyJoaXN0b3J5IjpbMjE0MTI3MTE4MiwtMTk5OTMxNzY3NSwxMz
 cyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMs
 MjE0NjI3MTc4MCwtMTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzND
 I2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQx
