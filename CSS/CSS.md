@@ -1533,15 +1533,15 @@ Otro sistema para subir pagina web es usando FTP, forma estandar de transferir a
 Hay que descargar cliente filezilla, descargar primera opcion
 Luego en Hostinger, Tablero principal, Archivos, Cuentas FTP
 
-Hay que cambiar contraseña FTP, luego copiar IP del FTP, en filezila pegamos esta IP
+Hay que cambiar contraseña FTP, luego copiar IP del FTP, nombre de usuario, la contraseña  en filezila pegamos esta IP, el puerto 21, le damos en conexion rapida, no guardar contraseñas
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDI0NzIzLDM4OTY4MzA3OSwzMzc4Mz
-I4MjMsMjE0MTI3MTE4MiwtMTk5OTMxNzY3NSwxMzcyOTI4ODEw
-LDIyODY2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MT
-c4MCwtMTM4ODIyMzYzNiwtODk4MzM2Nyw5ODkzNDI2NDYsLTEy
-MzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMjQ4OTQxNCwtMTExMz
-Y5MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5MzgsNzE2MzIwMTNd
-fQ==
+eyJoaXN0b3J5IjpbLTEzNTA2NjQxMjUsMzg5NjgzMDc5LDMzNz
+gzMjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4
+MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2Mj
+cxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0Niwt
+MTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMT
+EzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAx
+M119
 -->
