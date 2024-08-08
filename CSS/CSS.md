@@ -1484,11 +1484,11 @@ body {
 }
 ````
 
-Usar este para ver la animacion como quedaria:
+Usar esta para ver la animacion como quedaria:
 
 https://scroll-driven-animations.style/tools/view-timeline/ranges/#range-start-name=cover&range-start-percentage=0&range-end-name=cover&range-end-percentage=100&view-timeline-axis=block&view-timeline-inset=0&subject-size=smaller&subject-animation=reveal&interactivity=clicktodrag&show-areas=yes&show-fromto=yes&show-labels=yes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjYyNTc4Miw5NDk2MDIxMywyMTQ2Mj
+eyJoaXN0b3J5IjpbMTU2OTM3MjAxOCw5NDk2MDIxMywyMTQ2Mj
 cxNzgwLC0xMzg4MjIzNjM2LC04OTgzMzY3LDk4OTM0MjY0Niwt
 MTIzMjE1ODc4MSwtNTYxMjQxNzQ1LC0xNjMyNDg5NDE0LC0xMT
 EzNjkxNTI1LDExNTg4OTQ2OTQsLTY5NTU3NDkzOCw3MTYzMjAx
