@@ -1566,6 +1566,7 @@ img {
 	transform: scaleY();// tambien X
 	transform: skew(); // le da inclinacion a la imagen, skewX e skewY tambien
 	transform: rotate();// rota la imagen
+	transform: translate();// mueve el elemento, translateX e Y
 }
 ````
 
@@ -1573,11 +1574,11 @@ img {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzA2MTYzMiwtMTMxMzY5MzUyMiwtNj
-A4Mzc5OTQ3LDE4MzQ5MTcxODMsODUyODgyODI0LC0xNjU0MzA5
-NjIxLC00MDk3NzI3MzcsMjExMjIyMTAxNywzODk2ODMwNzksMz
-M3ODMyODIzLDIxNDEyNzExODIsLTE5OTkzMTc2NzUsMTM3Mjky
-ODgxMCwyMjg2NjAzMzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxND
-YyNzE3ODAsLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2
-XX0=
+eyJoaXN0b3J5IjpbLTM4NTk5NzQ1NCwtNTMzMDYxNjMyLC0xMz
+EzNjkzNTIyLC02MDgzNzk5NDcsMTgzNDkxNzE4Myw4NTI4ODI4
+MjQsLTE2NTQzMDk2MjEsLTQwOTc3MjczNywyMTEyMjIxMDE3LD
+M4OTY4MzA3OSwzMzc4MzI4MjMsMjE0MTI3MTE4MiwtMTk5OTMx
+NzY3NSwxMzcyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0MzQsOT
+Q5NjAyMTMsMjE0NjI3MTc4MCwtMTM4ODIyMzYzNiwtODk4MzM2
+N119
 -->
