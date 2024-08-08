@@ -1537,13 +1537,17 @@ Hay que cambiar contraseña FTP, luego copiar IP del FTP, nombre de usuario, la 
 
 Podemos agregar sitio si vamos al menu archivo de filezila, y seleccionamos el FTP seguro para cargar la pagina
 
+## Sección Avanzada
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjIyMTAxNywzODk2ODMwNzksMzM3OD
-MyODIzLDIxNDEyNzExODIsLTE5OTkzMTc2NzUsMTM3MjkyODgx
-MCwyMjg2NjAzMzEsNzgxNjIzNDM0LDk0OTYwMjEzLDIxNDYyNz
-E3ODAsLTEzODgyMjM2MzYsLTg5ODMzNjcsOTg5MzQyNjQ2LC0x
-MjMyMTU4NzgxLC01NjEyNDE3NDUsLTE2MzI0ODk0MTQsLTExMT
-M2OTE1MjUsMTE1ODg5NDY5NCwtNjk1NTc0OTM4LDcxNjMyMDEz
-XX0=
+eyJoaXN0b3J5IjpbLTQwOTc3MjczNywyMTEyMjIxMDE3LDM4OT
+Y4MzA3OSwzMzc4MzI4MjMsMjE0MTI3MTE4MiwtMTk5OTMxNzY3
+NSwxMzcyOTI4ODEwLDIyODY2MDMzMSw3ODE2MjM0MzQsOTQ5Nj
+AyMTMsMjE0NjI3MTc4MCwtMTM4ODIyMzYzNiwtODk4MzM2Nyw5
+ODkzNDI2NDYsLTEyMzIxNTg3ODEsLTU2MTI0MTc0NSwtMTYzMj
+Q4OTQxNCwtMTExMzY5MTUyNSwxMTU4ODk0Njk0LC02OTU1NzQ5
+MzhdfQ==
 -->
