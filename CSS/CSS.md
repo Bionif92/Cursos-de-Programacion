@@ -1708,11 +1708,15 @@ selectPlanButtons[i].addEventListener('click',function() {
 ```
 
 Ahora para manipular las clases
-```js
 
+Crear otra clase con los cambios de estilo que necesitamos
+```js
+.open {
+	display:block;
+}
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzUxMzY2MywtMjAyMjE1NDg1NywzMz
+eyJoaXN0b3J5IjpbMTYzNjYzNTIwNSwtMjAyMjE1NDg1NywzMz
 Y0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3
 ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3Mj
 IsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1
