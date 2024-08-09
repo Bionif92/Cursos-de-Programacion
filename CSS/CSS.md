@@ -1580,7 +1580,7 @@ Funciones de comparación
 sirve para cuando se adapta la pantalla, cambia al otro valor
 	width: max(100%,600px);// puede comparar mas valores
 ya no se usan estos dos, se reemplazaron por clamp
-	
+	width: clamp(800px,100%,1600px); // el minimo el ideal y el maximo, se adapta a cada uno priorizando el ideal
 }
 ````
 
@@ -1588,7 +1588,7 @@ ya no se usan estos dos, se reemplazaron por clamp
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzU4MTc4NzksMTg1MjQ5OTM0NCwtMz
+eyJoaXN0b3J5IjpbLTE2ODc5NjY3ODYsMTg1MjQ5OTM0NCwtMz
 g1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3
 OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMS
 wtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgz
