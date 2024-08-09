@@ -1626,11 +1626,12 @@ Podes meter funciones adentro de funciones, por ej. usar clamp metido en el calc
 .box {
 	overflow: scroll;
 	scroll-behaviour: ;// auto o smooth
-	scroll-bar-color: ;//color a la barra, necesita dos valores, uno para la barra y otro para la seccion que no es la barra
+	scrollbar-color: ;//color a la barra, necesita dos valores, uno para la barra y otro para la seccion que no es la barra
+	scrollbar-width: ;//auto,thin y none
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTg3MzkzMzgsMjU5NDgwMzA5LC05Mj
+eyJoaXN0b3J5IjpbLTEwNzg5NzY4MjIsMjU5NDgwMzA5LC05Mj
 U0NTE0NTYsMjE0MTEyMDQzMCwxNjM2ODUxNSwtMTEzNzQwMDI2
 OCw4MjA4NjA4OTUsLTIwMTEyODM5ODAsLTEyODgwMjEzNjksMT
 g1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2
