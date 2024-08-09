@@ -1592,7 +1592,7 @@ Nos evitamos cambiar los valores con media query**
 ````css
 .box {
 	--color-principal: #f44;
-	background-color: 
+	background-color: var(--color-principal);// usamos la variable en otra propiedad
 }
 ````
 
@@ -1600,11 +1600,11 @@ Nos evitamos cambiar los valores con media query**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM0MTUyNTIsLTIwMTEyODM5ODAsLT
-EyODgwMjEzNjksMTg1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMw
-NjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MT
-gzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIx
-MTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMjcxMT
-gyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMxLDc4
-MTYyMzQzNF19
+eyJoaXN0b3J5IjpbODIwODYwODk1LC0yMDExMjgzOTgwLC0xMj
+g4MDIxMzY5LDE4NTI0OTkzNDQsLTM4NTk5NzQ1NCwtNTMzMDYx
+NjMyLC0xMzEzNjkzNTIyLC02MDgzNzk5NDcsMTgzNDkxNzE4My
+w4NTI4ODI4MjQsLTE2NTQzMDk2MjEsLTQwOTc3MjczNywyMTEy
+MjIxMDE3LDM4OTY4MzA3OSwzMzc4MzI4MjMsMjE0MTI3MTE4Mi
+wtMTk5OTMxNzY3NSwxMzcyOTI4ODEwLDIyODY2MDMzMSw3ODE2
+MjM0MzRdfQ==
 -->
