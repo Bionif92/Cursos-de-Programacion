@@ -1612,17 +1612,19 @@ Para crear una variable para todo el root:
 
 ````css
 .box {
-	width: calc(50%+500px);
+	width: calc(50% + 500px);
+sirve para ajustar una medida al responsive
+	width: calc(100vh - 200px);// nunca va a haber scroll de esta forma
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MTEyMDQzMCwxNjM2ODUxNSwtMTEzNz
-QwMDI2OCw4MjA4NjA4OTUsLTIwMTEyODM5ODAsLTEyODgwMjEz
-NjksMTg1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMwNjE2MzIsLT
-EzMTM2OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MTgzLDg1Mjg4
-MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIxMTIyMjEwMT
-csMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMjcxMTgyLC0xOTk5
-MzE3Njc1XX0=
+eyJoaXN0b3J5IjpbLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2Mz
+Y4NTE1LC0xMTM3NDAwMjY4LDgyMDg2MDg5NSwtMjAxMTI4Mzk4
+MCwtMTI4ODAyMTM2OSwxODUyNDk5MzQ0LC0zODU5OTc0NTQsLT
+UzMzA2MTYzMiwtMTMxMzY5MzUyMiwtNjA4Mzc5OTQ3LDE4MzQ5
+MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3Mz
+csMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxNDEy
+NzExODJdfQ==
 -->
