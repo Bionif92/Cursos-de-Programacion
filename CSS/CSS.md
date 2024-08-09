@@ -1682,8 +1682,9 @@ Aprender CSS Houdini
 Leer documentación
 Aprender CSS Sprites
 Aprender Minificar CSS y HTML
+Aprender CSS tailwind - es un framework
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjA2NDI0ODcsLTExNzg1Mjc3OTUsLT
+eyJoaXN0b3J5IjpbLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLT
 E2NDM2Mjc3MjIsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUz
 MjgsLTQ5NDg1Mzk5MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0MS
 wtMTA3ODk3NjgyMiwyNTk0ODAzMDksLTkyNTQ1MTQ1NiwyMTQx
