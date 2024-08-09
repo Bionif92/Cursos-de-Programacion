@@ -1691,7 +1691,7 @@ Aprender CSS tailwind - es un framework
 Maninipular estilos con JS
 Agregar y remover Clases con JS
 
-En el ejemplo hizo un modal
+En el ejemplo hizo un modal, para manipular el estilo
 
 ```js
 var backdrop = document.querySelector('.backdrop');
@@ -1706,12 +1706,17 @@ selectPlanButtons[i].addEventListener('click',function() {
 	})
 }
 ```
+
+Ahora para manipular las clases
+```js
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNz
-k4NjUwMzQsLTgxNzQ5MDYwNSwxNTM2MTA5Nzg3LC0xODIxMjgz
-OTQ1LC0xMTc4NTI3Nzk1LC0xNjQzNjI3NzIyLDU5MDExMTg5MS
-wtMTg5NTI1MDksNDA5MDE1MzI4LC00OTQ4NTM5OTEsLTEwMzY0
-MjY0MzcsLTEzMTg4NjU1NDEsLTEwNzg5NzY4MjIsMjU5NDgwMz
-A5LC05MjU0NTE0NTYsMjE0MTEyMDQzMCwxNjM2ODUxNSwtMTEz
-NzQwMDI2OF19
+eyJoaXN0b3J5IjpbMTc0MzUxMzY2MywtMjAyMjE1NDg1NywzMz
+Y0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3
+ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3Mj
+IsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1
+Mzk5MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0MSwtMTA3ODk3Nj
+gyMiwyNTk0ODAzMDksLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2
+MzY4NTE1XX0=
 -->
