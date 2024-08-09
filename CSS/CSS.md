@@ -1577,7 +1577,10 @@ Funciones de comparación
 ````css
 .box {
 	width: min(100%,600px);//devuelve el mas chico
-sirve para cuando se adapta la pantall
+sirve para cuando se adapta la pantalla, cambia al otro valor
+	width: max(100%,600px);// puede comparar mas valores
+ya no se usan estos dos, se reemplazaron por clamp
+	
 }
 ````
 
@@ -1585,11 +1588,11 @@ sirve para cuando se adapta la pantall
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4MTE0NTI3LDE4NTI0OTkzNDQsLTM4NT
-k5NzQ1NCwtNTMzMDYxNjMyLC0xMzEzNjkzNTIyLC02MDgzNzk5
-NDcsMTgzNDkxNzE4Myw4NTI4ODI4MjQsLTE2NTQzMDk2MjEsLT
-QwOTc3MjczNywyMTEyMjIxMDE3LDM4OTY4MzA3OSwzMzc4MzI4
-MjMsMjE0MTI3MTE4MiwtMTk5OTMxNzY3NSwxMzcyOTI4ODEwLD
-IyODY2MDMzMSw3ODE2MjM0MzQsOTQ5NjAyMTMsMjE0NjI3MTc4
-MF19
+eyJoaXN0b3J5IjpbLTE3NzU4MTc4NzksMTg1MjQ5OTM0NCwtMz
+g1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3
+OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMS
+wtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgz
+MjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MT
+AsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2Mjcx
+NzgwXX0=
 -->
