@@ -1717,15 +1717,19 @@ Crear otra clase con los cambios de estilo que necesitamos
 
 for (var i=0;i<selectPlanButtons.length,i++) {
 selectPlanButtons[i].addEventListener('click',function() {
-		modal.className= open;
+		modal.className= open;// con esto sobrescribimos todas las clases
+		modal.classList.contains = // agregar la clase a las existentes
+		modal.classList.remove = // remo
+		modal.classList.contains = // agregar la clase a las existentes
+		modal.classList.contains = // agregar la clase a las existentes
 	})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3NDM2MTA4LC0yMDIyMTU0ODU3LDMzNj
-Q2NDI0MCwtMjc5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4
-NywtMTgyMTI4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0MzYyNzcyMi
-w1OTAxMTE4OTEsLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0ODUz
-OTkxLC0xMDM2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2OD
-IyLDI1OTQ4MDMwOSwtOTI1NDUxNDU2LDIxNDExMjA0MzAsMTYz
-Njg1MTVdfQ==
+eyJoaXN0b3J5IjpbLTE4NzIxNzU4MTIsLTIwMjIxNTQ4NTcsMz
+M2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNTM2MTA5
+Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nzk1LC0xNjQzNjI3Nz
+IyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5MDE1MzI4LC00OTQ4
+NTM5OTEsLTEwMzY0MjY0MzcsLTEzMTg4NjU1NDEsLTEwNzg5Nz
+Y4MjIsMjU5NDgwMzA5LC05MjU0NTE0NTYsMjE0MTEyMDQzMCwx
+NjM2ODUxNV19
 -->
