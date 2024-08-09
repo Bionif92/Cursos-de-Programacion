@@ -1584,17 +1584,20 @@ ya no se usan estos dos, se reemplazaron por clamp
 }
 ````
 
-Se usa mucho el clamp en font-size 
+**Se usa mucho el clamp en font-size
+Nos evitamos cambiar los valores con media query**
+
+### Variables
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODgwMjEzNjksMTg1MjQ5OTM0NCwtMz
-g1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3
-OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMS
-wtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgz
-MjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MT
-AsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2MDIxMywyMTQ2Mjcx
-NzgwXX0=
+eyJoaXN0b3J5IjpbLTIwMTEyODM5ODAsLTEyODgwMjEzNjksMT
+g1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2
+OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNC
+wtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5
+NjgzMDc5LDMzNzgzMjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Nj
+c1LDEzNzI5Mjg4MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2
+MDIxM119
 -->
