@@ -1675,12 +1675,18 @@ tambien ellipse
 
 https://www.cssportal.com/css-clip-path-generator/
 Para generar el recorte que queramos
+
+### Recomendaciones Dalto
+
+Aprender CSS Houdini
+Leer documentación
+Aprender CSS Sprites
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDM2Mjc3MjIsNTkwMTExODkxLC0xOD
-k1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1Mzk5MSwtMTAzNjQyNjQz
-NywtMTMxODg2NTU0MSwtMTA3ODk3NjgyMiwyNTk0ODAzMDksLT
-kyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2MzY4NTE1LC0xMTM3NDAw
-MjY4LDgyMDg2MDg5NSwtMjAxMTI4Mzk4MCwtMTI4ODAyMTM2OS
-wxODUyNDk5MzQ0LC0zODU5OTc0NTQsLTUzMzA2MTYzMiwtMTMx
-MzY5MzUyMl19
+eyJoaXN0b3J5IjpbLTExNzg1Mjc3OTUsLTE2NDM2Mjc3MjIsNT
+kwMTExODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1Mzk5
+MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0MSwtMTA3ODk3NjgyMi
+wyNTk0ODAzMDksLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2MzY4
+NTE1LC0xMTM3NDAwMjY4LDgyMDg2MDg5NSwtMjAxMTI4Mzk4MC
+wtMTI4ODAyMTM2OSwxODUyNDk5MzQ0LC0zODU5OTc0NTQsLTUz
+MzA2MTYzMl19
 -->
