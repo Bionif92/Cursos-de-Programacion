@@ -1598,15 +1598,24 @@ Nos evitamos cambiar los valores con media query**
 
 **La variable solo funciona en el scope de los hijos**
 
+Para crear una variable para todo el root:
+
+````css
+@property --color-principal {
+	syntax: "<color>";
+	inherits: false;
+	initial-value: #48e;
+}
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzc0MDAyNjgsODIwODYwODk1LC0yMD
-ExMjgzOTgwLC0xMjg4MDIxMzY5LDE4NTI0OTkzNDQsLTM4NTk5
-NzQ1NCwtNTMzMDYxNjMyLC0xMzEzNjkzNTIyLC02MDgzNzk5ND
-csMTgzNDkxNzE4Myw4NTI4ODI4MjQsLTE2NTQzMDk2MjEsLTQw
-OTc3MjczNywyMTEyMjIxMDE3LDM4OTY4MzA3OSwzMzc4MzI4Mj
-MsMjE0MTI3MTE4MiwtMTk5OTMxNzY3NSwxMzcyOTI4ODEwLDIy
-ODY2MDMzMV19
+eyJoaXN0b3J5IjpbMzA0ODI5ODY0LC0xMTM3NDAwMjY4LDgyMD
+g2MDg5NSwtMjAxMTI4Mzk4MCwtMTI4ODAyMTM2OSwxODUyNDk5
+MzQ0LC0zODU5OTc0NTQsLTUzMzA2MTYzMiwtMTMxMzY5MzUyMi
+wtNjA4Mzc5OTQ3LDE4MzQ5MTcxODMsODUyODgyODI0LC0xNjU0
+MzA5NjIxLC00MDk3NzI3MzcsMjExMjIyMTAxNywzODk2ODMwNz
+ksMzM3ODMyODIzLDIxNDEyNzExODIsLTE5OTkzMTc2NzUsMTM3
+MjkyODgxMF19
 -->
