@@ -1616,13 +1616,15 @@ Para crear una variable para todo el root:
 sirve para ajustar una medida al responsive
 	width: calc(100vh - 200px);// nunca va a haber scroll de esta forma
 Se puede dividir y multiplicar tambien
-Podes meter funciones adentro de funciones, por ej. usar clamp 
+Podes meter funciones adentro de funciones, por ej. usar clamp metido en el calc
 }
 ````
 
+### Propiedades de scroll
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MzAxNDM1LC05MjU0NTE0NTYsMjE0MT
+eyJoaXN0b3J5IjpbMjU5NDgwMzA5LC05MjU0NTE0NTYsMjE0MT
 EyMDQzMCwxNjM2ODUxNSwtMTEzNzQwMDI2OCw4MjA4NjA4OTUs
 LTIwMTEyODM5ODAsLTEyODgwMjEzNjksMTg1MjQ5OTM0NCwtMz
 g1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3
