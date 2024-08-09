@@ -1589,15 +1589,22 @@ Nos evitamos cambiar los valores con media query**
 
 ### Variables
 
+````css
+.box {
+	--color-principal: #f44;
+	background-color: 
+}
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTEyODM5ODAsLTEyODgwMjEzNjksMT
-g1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2
-OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNC
-wtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5
-NjgzMDc5LDMzNzgzMjgyMywyMTQxMjcxMTgyLC0xOTk5MzE3Nj
-c1LDEzNzI5Mjg4MTAsMjI4NjYwMzMxLDc4MTYyMzQzNCw5NDk2
-MDIxM119
+eyJoaXN0b3J5IjpbLTE2OTM0MTUyNTIsLTIwMTEyODM5ODAsLT
+EyODgwMjEzNjksMTg1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMw
+NjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MT
+gzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIx
+MTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgzMjgyMywyMTQxMjcxMT
+gyLC0xOTk5MzE3Njc1LDEzNzI5Mjg4MTAsMjI4NjYwMzMxLDc4
+MTYyMzQzNF19
 -->
