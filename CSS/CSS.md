@@ -1584,11 +1584,13 @@ ya no se usan estos dos, se reemplazaron por clamp
 }
 ````
 
+Se usa mucho el clamp en font-size 
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODc5NjY3ODYsMTg1MjQ5OTM0NCwtMz
+eyJoaXN0b3J5IjpbLTEyODgwMjEzNjksMTg1MjQ5OTM0NCwtMz
 g1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3
 OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMS
 wtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgz
