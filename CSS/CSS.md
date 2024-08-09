@@ -1652,20 +1652,29 @@ util para la forma mobile
 
 ### Min-content, Max-content y Fit-content
 
+Buscar, no lo dio en el temario
+
 ### Función Color Mix
 
 ````css
 box {
 	background-color: color-mix(in srgb, color portentaje, color porcentaje);
 }
+````
 
+### Clip Path
+
+````css
+img {
+	clip-path: circle(50%);
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA5MDE1MzI4LC00OTQ4NTM5OTEsLTEwMz
-Y0MjY0MzcsLTEzMTg4NjU1NDEsLTEwNzg5NzY4MjIsMjU5NDgw
-MzA5LC05MjU0NTE0NTYsMjE0MTEyMDQzMCwxNjM2ODUxNSwtMT
-EzNzQwMDI2OCw4MjA4NjA4OTUsLTIwMTEyODM5ODAsLTEyODgw
-MjEzNjksMTg1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMwNjE2Mz
-IsLTEzMTM2OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MTgzLDg1
-Mjg4MjgyNF19
+eyJoaXN0b3J5IjpbNjkzOTIwMzg1LDQwOTAxNTMyOCwtNDk0OD
+UzOTkxLC0xMDM2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2
+ODIyLDI1OTQ4MDMwOSwtOTI1NDUxNDU2LDIxNDExMjA0MzAsMT
+YzNjg1MTUsLTExMzc0MDAyNjgsODIwODYwODk1LC0yMDExMjgz
+OTgwLC0xMjg4MDIxMzY5LDE4NTI0OTkzNDQsLTM4NTk5NzQ1NC
+wtNTMzMDYxNjMyLC0xMzEzNjkzNTIyLC02MDgzNzk5NDcsMTgz
+NDkxNzE4M119
 -->
