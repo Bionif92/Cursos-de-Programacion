@@ -1636,16 +1636,16 @@ Podes meter funciones adentro de funciones, por ej. usar clamp metido en el calc
 Caja con parrafo adentro
 
 ````css
-p {
-	initial-letter:
+p::first-letter {
+	initial-letter: 3 2; //3 lineas vas a ocupar, bajando 2 lineas en el parrafo
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NjkxMTM2OCwtMTA3ODk3NjgyMiwyNT
-k0ODAzMDksLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2MzY4NTE1
-LC0xMTM3NDAwMjY4LDgyMDg2MDg5NSwtMjAxMTI4Mzk4MCwtMT
-I4ODAyMTM2OSwxODUyNDk5MzQ0LC0zODU5OTc0NTQsLTUzMzA2
-MTYzMiwtMTMxMzY5MzUyMiwtNjA4Mzc5OTQ3LDE4MzQ5MTcxOD
-MsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3MzcsMjEx
-MjIyMTAxN119
+eyJoaXN0b3J5IjpbLTEzMTg4NjU1NDEsLTEwNzg5NzY4MjIsMj
+U5NDgwMzA5LC05MjU0NTE0NTYsMjE0MTEyMDQzMCwxNjM2ODUx
+NSwtMTEzNzQwMDI2OCw4MjA4NjA4OTUsLTIwMTEyODM5ODAsLT
+EyODgwMjEzNjksMTg1MjQ5OTM0NCwtMzg1OTk3NDU0LC01MzMw
+NjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3OTk0NywxODM0OTE3MT
+gzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwtNDA5NzcyNzM3LDIx
+MTIyMjEwMTddfQ==
 -->
