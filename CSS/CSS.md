@@ -1656,12 +1656,12 @@ util para la forma mobile
 
 ````css
 box {
-	background-color: color-mix();
+	background-color: color-mix(in srgb, color portentaje, color porcentaje);
 }
 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MzU4MjQ0LC00OTQ4NTM5OTEsLTEwMz
+eyJoaXN0b3J5IjpbNDA5MDE1MzI4LC00OTQ4NTM5OTEsLTEwMz
 Y0MjY0MzcsLTEzMTg4NjU1NDEsLTEwNzg5NzY4MjIsMjU5NDgw
 MzA5LC05MjU0NTE0NTYsMjE0MTEyMDQzMCwxNjM2ODUxNSwtMT
 EzNzQwMDI2OCw4MjA4NjA4OTUsLTIwMTEyODM5ODAsLTEyODgw
