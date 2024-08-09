@@ -1696,10 +1696,14 @@ En el ejemplo hizo un modal
 ```js
 var backdrop = document.querySelector('.backdrop');
 var selectPlanButton = document.querySelectorAll('.plan button');
+
+//son tres botones hay que hacer for of loop
+for (var i=0,)
+selectPlanButton.addEventListener('click',)
 backdrop.style.display = 'block';
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3ODExMTc5OSwzMzY0NjQyNDAsLTI3OT
+eyJoaXN0b3J5IjpbMTgwMzQ5MzE4MywzMzY0NjQyNDAsLTI3OT
 g2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3ODcsLTE4MjEyODM5
 NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3MjIsNTkwMTExODkxLC
 0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1Mzk5MSwtMTAzNjQy
