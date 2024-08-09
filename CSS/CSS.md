@@ -1632,8 +1632,16 @@ Podes meter funciones adentro de funciones, por ej. usar clamp metido en el calc
 ````
 
 ### Initial Letter
+
+Caja con parrafo adentro
+
+````css
+p {
+	initial-letter:
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NjYwMjY4MSwtMTA3ODk3NjgyMiwyNT
+eyJoaXN0b3J5IjpbLTg2NjkxMTM2OCwtMTA3ODk3NjgyMiwyNT
 k0ODAzMDksLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2MzY4NTE1
 LC0xMTM3NDAwMjY4LDgyMDg2MDg5NSwtMjAxMTI4Mzk4MCwtMT
 I4ODAyMTM2OSwxODUyNDk5MzQ0LC0zODU5OTc0NTQsLTUzMzA2
