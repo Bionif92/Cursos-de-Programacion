@@ -1669,14 +1669,15 @@ Para recortar objetos
 ````css
 img {
 	clip-path: circle(50% at 10px 10px);// hace un circulo de la imagen, partiendo de la coordenada, el 0px 0px es el borde superior izquierdo
+tambien ellipse
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0OD
-UzOTkxLC0xMDM2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2
-ODIyLDI1OTQ4MDMwOSwtOTI1NDUxNDU2LDIxNDExMjA0MzAsMT
-YzNjg1MTUsLTExMzc0MDAyNjgsODIwODYwODk1LC0yMDExMjgz
-OTgwLC0xMjg4MDIxMzY5LDE4NTI0OTkzNDQsLTM4NTk5NzQ1NC
-wtNTMzMDYxNjMyLC0xMzEzNjkzNTIyLC02MDgzNzk5NDcsMTgz
-NDkxNzE4M119
+eyJoaXN0b3J5IjpbNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMT
+UzMjgsLTQ5NDg1Mzk5MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0
+MSwtMTA3ODk3NjgyMiwyNTk0ODAzMDksLTkyNTQ1MTQ1NiwyMT
+QxMTIwNDMwLDE2MzY4NTE1LC0xMTM3NDAwMjY4LDgyMDg2MDg5
+NSwtMjAxMTI4Mzk4MCwtMTI4ODAyMTM2OSwxODUyNDk5MzQ0LC
+0zODU5OTc0NTQsLTUzMzA2MTYzMiwtMTMxMzY5MzUyMiwtNjA4
+Mzc5OTQ3XX0=
 -->
