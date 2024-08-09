@@ -1643,13 +1643,18 @@ p::first-letter {
 
 ### Unidades del Viewport (Large, Small y Dynámic)
 
-
+````css
+box {
+	height: 100 dvh;// si se extiende las interfases se adapta lo mismo para lo opuesto
+}
+util para la forma mobile
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzY0MjY0MzcsLTEzMTg4NjU1NDEsLT
-EwNzg5NzY4MjIsMjU5NDgwMzA5LC05MjU0NTE0NTYsMjE0MTEy
-MDQzMCwxNjM2ODUxNSwtMTEzNzQwMDI2OCw4MjA4NjA4OTUsLT
-IwMTEyODM5ODAsLTEyODgwMjEzNjksMTg1MjQ5OTM0NCwtMzg1
-OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3OT
-k0NywxODM0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMSwt
-NDA5NzcyNzM3XX0=
+eyJoaXN0b3J5IjpbLTQ5NDg1Mzk5MSwtMTAzNjQyNjQzNywtMT
+MxODg2NTU0MSwtMTA3ODk3NjgyMiwyNTk0ODAzMDksLTkyNTQ1
+MTQ1NiwyMTQxMTIwNDMwLDE2MzY4NTE1LC0xMTM3NDAwMjY4LD
+gyMDg2MDg5NSwtMjAxMTI4Mzk4MCwtMTI4ODAyMTM2OSwxODUy
+NDk5MzQ0LC0zODU5OTc0NTQsLTUzMzA2MTYzMiwtMTMxMzY5Mz
+UyMiwtNjA4Mzc5OTQ3LDE4MzQ5MTcxODMsODUyODgyODI0LC0x
+NjU0MzA5NjIxXX0=
 -->
