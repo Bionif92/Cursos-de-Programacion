@@ -1615,16 +1615,18 @@ Para crear una variable para todo el root:
 	width: calc(50% + 500px);
 sirve para ajustar una medida al responsive
 	width: calc(100vh - 200px);// nunca va a haber scroll de esta forma
+Se puede dividir y multiplicar tambien
+Podes meter funciones adentro de funciones, por ej. usar clamp 
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2Mz
-Y4NTE1LC0xMTM3NDAwMjY4LDgyMDg2MDg5NSwtMjAxMTI4Mzk4
-MCwtMTI4ODAyMTM2OSwxODUyNDk5MzQ0LC0zODU5OTc0NTQsLT
-UzMzA2MTYzMiwtMTMxMzY5MzUyMiwtNjA4Mzc5OTQ3LDE4MzQ5
-MTcxODMsODUyODgyODI0LC0xNjU0MzA5NjIxLC00MDk3NzI3Mz
-csMjExMjIyMTAxNywzODk2ODMwNzksMzM3ODMyODIzLDIxNDEy
-NzExODJdfQ==
+eyJoaXN0b3J5IjpbMTc0MzAxNDM1LC05MjU0NTE0NTYsMjE0MT
+EyMDQzMCwxNjM2ODUxNSwtMTEzNzQwMDI2OCw4MjA4NjA4OTUs
+LTIwMTEyODM5ODAsLTEyODgwMjEzNjksMTg1MjQ5OTM0NCwtMz
+g1OTk3NDU0LC01MzMwNjE2MzIsLTEzMTM2OTM1MjIsLTYwODM3
+OTk0NywxODM0OTE3MTgzLDg1Mjg4MjgyNCwtMTY1NDMwOTYyMS
+wtNDA5NzcyNzM3LDIxMTIyMjEwMTcsMzg5NjgzMDc5LDMzNzgz
+MjgyM119
 -->
