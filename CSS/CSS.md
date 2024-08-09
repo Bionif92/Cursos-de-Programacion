@@ -1714,13 +1714,18 @@ Crear otra clase con los cambios de estilo que necesitamos
 .open {
 	display:block;
 }
+
+for (var i=0;i<selectPlanButtons.length,i++) {
+selectPlanButtons[i].addEventListener('click',function() {
+		modal.className= open;
+	})
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzNjYzNTIwNSwtMjAyMjE1NDg1NywzMz
-Y0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3
-ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3Mj
-IsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1
-Mzk5MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0MSwtMTA3ODk3Nj
-gyMiwyNTk0ODAzMDksLTkyNTQ1MTQ1NiwyMTQxMTIwNDMwLDE2
-MzY4NTE1XX0=
+eyJoaXN0b3J5IjpbNTI3NDM2MTA4LC0yMDIyMTU0ODU3LDMzNj
+Q2NDI0MCwtMjc5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4
+NywtMTgyMTI4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0MzYyNzcyMi
+w1OTAxMTE4OTEsLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0ODUz
+OTkxLC0xMDM2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2OD
+IyLDI1OTQ4MDMwOSwtOTI1NDUxNDU2LDIxNDExMjA0MzAsMTYz
+Njg1MTVdfQ==
 -->
