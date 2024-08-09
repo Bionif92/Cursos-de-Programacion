@@ -1576,7 +1576,8 @@ Funciones de comparación
 
 ````css
 .box {
-	width: min(800px,600px);//devuelve el mas chico
+	width: min(100%,600px);//devuelve el mas chico
+sirve para cuando se adapta la pantall
 }
 ````
 
@@ -1584,7 +1585,7 @@ Funciones de comparación
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI4MTM2MzgyLDE4NTI0OTkzNDQsLTM4NT
+eyJoaXN0b3J5IjpbODM4MTE0NTI3LDE4NTI0OTkzNDQsLTM4NT
 k5NzQ1NCwtNTMzMDYxNjMyLC0xMzEzNjkzNTIyLC02MDgzNzk5
 NDcsMTgzNDkxNzE4Myw4NTI4ODI4MjQsLTE2NTQzMDk2MjEsLT
 QwOTc3MjczNywyMTEyMjIxMDE3LDM4OTY4MzA3OSwzMzc4MzI4
