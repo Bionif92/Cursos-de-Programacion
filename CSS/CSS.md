@@ -1976,7 +1976,10 @@ For pseudo classes use the `&`operator
 	.documentation-link {
 	}
 
-	&:hover
+	&:hover, // use it before the pseudo class
+	&:active {
+		color:white;
+	}
 }
 ````
 
@@ -1984,11 +1987,11 @@ For pseudo classes use the `&`operator
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczOTk4NzQsLTkwMTk1OTAwMywxNTg3OT
-Y4OTI4LDE5NjI2MDM1NjAsNjg5Nzk1ODkyLDQ4MDI0MzYxMywt
-MTUwNzUzNDQ2NywtMTcyNjUzNTQ5NCwxMjE2Mjg3Mjc1LDE5Mj
-g5ODMzMjEsNTY0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0ODkxNzcy
-NywxOTk2MjQ1ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIsLTE0NT
-I2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1
-OTk4XX0=
+eyJoaXN0b3J5IjpbLTgyNjIyODcxNSwtOTAxOTU5MDAzLDE1OD
+c5Njg5MjgsMTk2MjYwMzU2MCw2ODk3OTU4OTIsNDgwMjQzNjEz
+LC0xNTA3NTM0NDY3LC0xNzI2NTM1NDk0LDEyMTYyODcyNzUsMT
+kyODk4MzMyMSw1NjQ5OTY1MTgsMTYwOTA3NTIwNSwxNDQ4OTE3
+NzI3LDE5OTYyNDU4NDIsODM0NTM1ODYwLDQyNzIwNTQ5MiwtMT
+Q1MjYwNjUwNywtODI3NTIzNTAxLC0xMjcyODg1NDQ4LC0yNTQ1
+NDU5OThdfQ==
 -->
