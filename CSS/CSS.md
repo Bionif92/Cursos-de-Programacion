@@ -1842,11 +1842,15 @@ sass main.scss main.css // generate the new style
 sass --watch main.scss:main.css // overwrite with changes
 ````
 
-Nesting properties
+**Nesting properties**
+
 ````css
 .container {
 	display:flex;
-	f
+	flex: {
+		direction: column;
+		wrap: no wrap;
+	}
 }
 ````
 
@@ -1859,7 +1863,7 @@ Nesting properties
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NDMyNzc5OSw1NjQ5OTY1MTgsMTYwOT
+eyJoaXN0b3J5IjpbLTEyMTgxMTU3Niw1NjQ5OTY1MTgsMTYwOT
 A3NTIwNSwxNDQ4OTE3NzI3LDE5OTYyNDU4NDIsODM0NTM1ODYw
 LDQyNzIwNTQ5MiwtMTQ1MjYwNjUwNywtODI3NTIzNTAxLC0xMj
 cyODg1NDQ4LC0yNTQ1NDU5OTgsMTY3MDQ0MjI2MCw3MTEyMjc2
