@@ -1785,12 +1785,14 @@ Tips:
 #### Vanilla CSS vs Frameworks
 
  - Bootstrap y Foundation : component frameworks
- - Tailwind CSS: fra
+ - Tailwind CSS: framework de utilidad
+
+En el ejemplo el descarga Bootstrap
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzcxMjE2MzMsLTE0NTI2MDY1MDcsLT
+eyJoaXN0b3J5IjpbLTE4NjUwNjE5MDYsLTE0NTI2MDY1MDcsLT
 gyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0
 NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1Ny
 wzMzY0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYx
