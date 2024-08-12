@@ -1904,7 +1904,14 @@ Add all the variables to this file an import it with `@import "_variables.scss"`
 #### Improving Media Queries
 
 ````css
+html {
+	font-size: ;
 
+	@media (min-width:40rem) {
+		font-size: ;
+	}
+}
+````
 
 
 
@@ -1915,7 +1922,7 @@ Add all the variables to this file an import it with `@import "_variables.scss"`
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjE1MzkxNSwxOTYyNjAzNTYwLDY4OT
+eyJoaXN0b3J5IjpbMTU4Nzk2ODkyOCwxOTYyNjAzNTYwLDY4OT
 c5NTg5Miw0ODAyNDM2MTMsLTE1MDc1MzQ0NjcsLTE3MjY1MzU0
 OTQsMTIxNjI4NzI3NSwxOTI4OTgzMzIxLDU2NDk5NjUxOCwxNj
 A5MDc1MjA1LDE0NDg5MTc3MjcsMTk5NjI0NTg0Miw4MzQ1MzU4
