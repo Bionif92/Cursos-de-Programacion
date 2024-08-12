@@ -1727,13 +1727,15 @@ selectPlanButtons[i].addEventListener('click',function() {
 
 **Cuidado con las propiedades, no se escriben igual para CSS y cuando las seleccionas en JS, buscar antes**
 
+### Escribir código CSS preparado para el futuro
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzExMjI3NjYwLDQyMzgwNzAyNCwtMjAyMj
-E1NDg1NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1
-LDE1MzYxMDk3ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLT
-E2NDM2Mjc3MjIsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUz
-MjgsLTQ5NDg1Mzk5MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0MS
-wtMTA3ODk3NjgyMiwyNTk0ODAzMDksLTkyNTQ1MTQ1NiwyMTQx
-MTIwNDMwXX0=
+eyJoaXN0b3J5IjpbMTY3MDQ0MjI2MCw3MTEyMjc2NjAsNDIzOD
+A3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0MCwtMjc5ODY1MDM0
+LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMTgyMTI4Mzk0NSwtMT
+E3ODUyNzc5NSwtMTY0MzYyNzcyMiw1OTAxMTE4OTEsLTE4OTUy
+NTA5LDQwOTAxNTMyOCwtNDk0ODUzOTkxLC0xMDM2NDI2NDM3LC
+0xMzE4ODY1NTQxLC0xMDc4OTc2ODIyLDI1OTQ4MDMwOSwtOTI1
+NDUxNDU2XX0=
 -->
