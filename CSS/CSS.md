@@ -1923,7 +1923,7 @@ If you share features beetwenn selectors, you can create a class
 }
 
 .sass-introduction {
-	
+	@extend .sass-section
 }
 ````
 
@@ -1937,11 +1937,11 @@ If you share features beetwenn selectors, you can create a class
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg0ODk5MjUsMTU4Nzk2ODkyOCwxOT
-YyNjAzNTYwLDY4OTc5NTg5Miw0ODAyNDM2MTMsLTE1MDc1MzQ0
-NjcsLTE3MjY1MzU0OTQsMTIxNjI4NzI3NSwxOTI4OTgzMzIxLD
-U2NDk5NjUxOCwxNjA5MDc1MjA1LDE0NDg5MTc3MjcsMTk5NjI0
-NTg0Miw4MzQ1MzU4NjAsNDI3MjA1NDkyLC0xNDUyNjA2NTA3LC
-04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0NTk5OCwxNjcw
-NDQyMjYwXX0=
+eyJoaXN0b3J5IjpbLTkwMTk1OTAwMywxNTg3OTY4OTI4LDE5Nj
+I2MDM1NjAsNjg5Nzk1ODkyLDQ4MDI0MzYxMywtMTUwNzUzNDQ2
+NywtMTcyNjUzNTQ5NCwxMjE2Mjg3Mjc1LDE5Mjg5ODMzMjEsNT
+Y0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0ODkxNzcyNywxOTk2MjQ1
+ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIsLTE0NTI2MDY1MDcsLT
+gyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0
+NDIyNjBdfQ==
 -->
