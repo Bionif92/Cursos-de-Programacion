@@ -1963,17 +1963,32 @@ html {
 
 #### Ampersand Operator
 
+For pseudo classes use the `&`operator
 
+````css
+.documentation {
+	display:flex;
+	
+	li {
+		background-color:white;
+	}
+
+	.documentation-link {
+	}
+
+	&:hover
+}
+````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Nzg1NzUwMTAsLTkwMTk1OTAwMywxNT
-g3OTY4OTI4LDE5NjI2MDM1NjAsNjg5Nzk1ODkyLDQ4MDI0MzYx
-MywtMTUwNzUzNDQ2NywtMTcyNjUzNTQ5NCwxMjE2Mjg3Mjc1LD
-E5Mjg5ODMzMjEsNTY0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0ODkx
-NzcyNywxOTk2MjQ1ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIsLT
-E0NTI2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0
-NTQ1OTk4XX0=
+eyJoaXN0b3J5IjpbMzczOTk4NzQsLTkwMTk1OTAwMywxNTg3OT
+Y4OTI4LDE5NjI2MDM1NjAsNjg5Nzk1ODkyLDQ4MDI0MzYxMywt
+MTUwNzUzNDQ2NywtMTcyNjUzNTQ5NCwxMjE2Mjg3Mjc1LDE5Mj
+g5ODMzMjEsNTY0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0ODkxNzcy
+NywxOTk2MjQ1ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIsLTE0NT
+I2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1
+OTk4XX0=
 -->
