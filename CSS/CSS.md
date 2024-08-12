@@ -1873,7 +1873,9 @@ $border: 0.05rem solid $main-color; //could be font family too
 
 Map
 ````css
-$color: (main:);
+$color: (main:#color1, secondary:#color2);
+
+map-get($color,main)// put that into the color
 ````
 
 
@@ -1884,11 +1886,11 @@ $color: (main:);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTEzMTkyLDE5Mjg5ODMzMjEsNTY0OT
-k2NTE4LDE2MDkwNzUyMDUsMTQ0ODkxNzcyNywxOTk2MjQ1ODQy
-LDgzNDUzNTg2MCw0MjcyMDU0OTIsLTE0NTI2MDY1MDcsLTgyNz
-UyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0NDIy
-NjAsNzExMjI3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1NywzMz
-Y0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3
-ODddfQ==
+eyJoaXN0b3J5IjpbMTIxNjI4NzI3NSwxOTI4OTgzMzIxLDU2ND
+k5NjUxOCwxNjA5MDc1MjA1LDE0NDg5MTc3MjcsMTk5NjI0NTg0
+Miw4MzQ1MzU4NjAsNDI3MjA1NDkyLC0xNDUyNjA2NTA3LC04Mj
+c1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0NTk5OCwxNjcwNDQy
+MjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLTIwMjIxNTQ4NTcsMz
+M2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNTM2MTA5
+Nzg3XX0=
 -->
