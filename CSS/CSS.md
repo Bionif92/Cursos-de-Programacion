@@ -1802,12 +1802,12 @@ Tips:
 ### SASS (Syntactically Awesome Style Sheets)
 
 Super Set 
-Does not run in the browser
+Does not run in the browser, extend CSS during development
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzEwNDU0Nyw0MjcyMDU0OTIsLTE0NT
+eyJoaXN0b3J5IjpbLTI4ODE1ODI3OCw0MjcyMDU0OTIsLTE0NT
 I2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1
 OTk4LDE2NzA0NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAyNCwtMj
 AyMjE1NDg1NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkw
