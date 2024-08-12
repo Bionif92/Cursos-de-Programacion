@@ -1771,12 +1771,14 @@ Buscarlos en el caso que se necesiten
 #### Eliminar inconsistencias entre distintos browsers
 
 Variables por defecto diferentes en distintos browsers, como eliminarlo: usando Reset-Library (como Normalize.css)
+
+O usar el selector universal (*) para modificar cosas a nivel del browser
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4OTU2Mzc1OSwtMjU0NTQ1OTk4LDE2Nz
-A0NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1
-NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1Mz
-YxMDk3ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2
-Mjc3MjIsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLT
-Q5NDg1Mzk5MSwtMTAzNjQyNjQzNywtMTMxODg2NTU0MSwtMTA3
-ODk3NjgyMl19
+eyJoaXN0b3J5IjpbLTEyNzI4ODU0NDgsLTI1NDU0NTk5OCwxNj
+cwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLTIwMjIxNTQ4
+NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNT
+M2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nzk1LC0xNjQz
+NjI3NzIyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5MDE1MzI4LC
+00OTQ4NTM5OTEsLTEwMzY0MjY0MzcsLTEzMTg4NjU1NDEsLTEw
+Nzg5NzY4MjJdfQ==
 -->
