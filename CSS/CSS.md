@@ -1729,13 +1729,25 @@ selectPlanButtons[i].addEventListener('click',function() {
 
 ### Escribir código CSS preparado para el futuro
 
+#### Prefijos de proovedor
+
+Cuando no soporta la nueva función de css usamos prefijos:
+
+````css
+container {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -w
+}
+```` 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MDQ0MjI2MCw3MTEyMjc2NjAsNDIzOD
-A3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0MCwtMjc5ODY1MDM0
-LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMTgyMTI4Mzk0NSwtMT
-E3ODUyNzc5NSwtMTY0MzYyNzcyMiw1OTAxMTE4OTEsLTE4OTUy
-NTA5LDQwOTAxNTMyOCwtNDk0ODUzOTkxLC0xMDM2NDI2NDM3LC
-0xMzE4ODY1NTQxLC0xMDc4OTc2ODIyLDI1OTQ4MDMwOSwtOTI1
-NDUxNDU2XX0=
+eyJoaXN0b3J5IjpbLTMwNTkwMDUsMTY3MDQ0MjI2MCw3MTEyMj
+c2NjAsNDIzODA3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0MCwt
+Mjc5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMTgyMT
+I4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0MzYyNzcyMiw1OTAxMTE4
+OTEsLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0ODUzOTkxLC0xMD
+M2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2ODIyLDI1OTQ4
+MDMwOV19
 -->
