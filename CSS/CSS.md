@@ -1857,7 +1857,11 @@ sass --watch main.scss:main.css // overwrite with changes
 At top of the file
 
 ````css
-$maincolo
+$maincolor: #fff;
+
+.container {
+	background: $maincolor;
+}
 ````
 
 
@@ -1869,7 +1873,7 @@ $maincolo
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjM5NDIyNzIsNTY0OTk2NTE4LDE2MD
+eyJoaXN0b3J5IjpbLTE1MjAzMzAxNTAsNTY0OTk2NTE4LDE2MD
 kwNzUyMDUsMTQ0ODkxNzcyNywxOTk2MjQ1ODQyLDgzNDUzNTg2
 MCw0MjcyMDU0OTIsLTE0NTI2MDY1MDcsLTgyNzUyMzUwMSwtMT
 I3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0NDIyNjAsNzExMjI3
