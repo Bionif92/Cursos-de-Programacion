@@ -1818,6 +1818,8 @@ sass -v // para chequear que se instalo
 
 He made a file named main.scss to keep {} and ; in the file
 
+#### Nesting
+
 Fisrt feature: Nesting
 
 ````css
@@ -1840,6 +1842,16 @@ sass main.scss main.css // generate the new style
 sass --watch main.scss:main.css // overwrite with changes
 ````
 
+Nesting properties
+````css
+.container {
+	display:flex;
+	f
+}
+````
+
+
+
 
 
 
@@ -1847,11 +1859,11 @@ sass --watch main.scss:main.css // overwrite with changes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0OD
-kxNzcyNywxOTk2MjQ1ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIs
-LTE0NTI2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMj
-U0NTQ1OTk4LDE2NzA0NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAy
-NCwtMjAyMjE1NDg1NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtOD
-E3NDkwNjA1LDE1MzYxMDk3ODcsLTE4MjEyODM5NDUsLTExNzg1
-Mjc3OTVdfQ==
+eyJoaXN0b3J5IjpbMTk0NDMyNzc5OSw1NjQ5OTY1MTgsMTYwOT
+A3NTIwNSwxNDQ4OTE3NzI3LDE5OTYyNDU4NDIsODM0NTM1ODYw
+LDQyNzIwNTQ5MiwtMTQ1MjYwNjUwNywtODI3NTIzNTAxLC0xMj
+cyODg1NDQ4LC0yNTQ1NDU5OTgsMTY3MDQ0MjI2MCw3MTEyMjc2
+NjAsNDIzODA3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0MCwtMj
+c5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMTgyMTI4
+Mzk0NV19
 -->
