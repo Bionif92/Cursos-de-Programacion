@@ -1927,6 +1927,10 @@ If you share features beetwenn selectors, you can create a class
 }
 ````
 
+#### Adding Mixins
+
+Reusable custom functions
+
 
 
 
@@ -1937,11 +1941,11 @@ If you share features beetwenn selectors, you can create a class
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTk1OTAwMywxNTg3OTY4OTI4LDE5Nj
-I2MDM1NjAsNjg5Nzk1ODkyLDQ4MDI0MzYxMywtMTUwNzUzNDQ2
-NywtMTcyNjUzNTQ5NCwxMjE2Mjg3Mjc1LDE5Mjg5ODMzMjEsNT
-Y0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0ODkxNzcyNywxOTk2MjQ1
-ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIsLTE0NTI2MDY1MDcsLT
-gyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0
-NDIyNjBdfQ==
+eyJoaXN0b3J5IjpbLTExNTUxNTQ0OTcsLTkwMTk1OTAwMywxNT
+g3OTY4OTI4LDE5NjI2MDM1NjAsNjg5Nzk1ODkyLDQ4MDI0MzYx
+MywtMTUwNzUzNDQ2NywtMTcyNjUzNTQ5NCwxMjE2Mjg3Mjc1LD
+E5Mjg5ODMzMjEsNTY0OTk2NTE4LDE2MDkwNzUyMDUsMTQ0ODkx
+NzcyNywxOTk2MjQ1ODQyLDgzNDUzNTg2MCw0MjcyMDU0OTIsLT
+E0NTI2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0
+NTQ1OTk4XX0=
 -->
