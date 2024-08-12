@@ -1807,16 +1807,18 @@ Need to compiled to CSS before production
 
 https://sass-lang.com/
 
-Necesitamos instalar ruby primero
+Install Ruby first
 
-Instalar sass en la computadora, no en el archivo:
+Install Sass in the computer not the file
 ````bash
 gem install sass
 
 sass -v // para chequear que se instalo
 ````
 
-Escribio un archivo como main.sass
+He made a file named main.scss to keep {} and ; iin 
+
+
 
 
 
@@ -1824,11 +1826,11 @@ Escribio un archivo como main.sass
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwOTA3NTIwNSwxNDQ4OTE3NzI3LDE5OT
-YyNDU4NDIsODM0NTM1ODYwLDQyNzIwNTQ5MiwtMTQ1MjYwNjUw
-NywtODI3NTIzNTAxLC0xMjcyODg1NDQ4LC0yNTQ1NDU5OTgsMT
-Y3MDQ0MjI2MCw3MTEyMjc2NjAsNDIzODA3MDI0LC0yMDIyMTU0
-ODU3LDMzNjQ2NDI0MCwtMjc5ODY1MDM0LC04MTc0OTA2MDUsMT
-UzNjEwOTc4NywtMTgyMTI4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0
-MzYyNzcyMl19
+eyJoaXN0b3J5IjpbLTcwOTY5Njk1MCwxNjA5MDc1MjA1LDE0ND
+g5MTc3MjcsMTk5NjI0NTg0Miw4MzQ1MzU4NjAsNDI3MjA1NDky
+LC0xNDUyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLT
+I1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcw
+MjQsLTIwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLT
+gxNzQ5MDYwNSwxNTM2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4
+NTI3Nzk1XX0=
 -->
