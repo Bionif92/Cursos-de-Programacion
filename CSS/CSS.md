@@ -1735,19 +1735,20 @@ Cuando no soporta la nueva función de css usamos prefijos:
 
 ````css
 container {
-	display: -webkit-box;
+	display: -webkit-box;// estas son versiones viejas que funcionan en caso de que flex no este implementada
 	display: -ms-flexbox;
-	display: -w
+	display: -webkit-flex;
+	display: flex;
 }
 ```` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNTkwMDUsMTY3MDQ0MjI2MCw3MTEyMj
-c2NjAsNDIzODA3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0MCwt
-Mjc5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMTgyMT
-I4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0MzYyNzcyMiw1OTAxMTE4
-OTEsLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0ODUzOTkxLC0xMD
-M2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2ODIyLDI1OTQ4
-MDMwOV19
+eyJoaXN0b3J5IjpbLTE4MzcyNTA2NjIsMTY3MDQ0MjI2MCw3MT
+EyMjc2NjAsNDIzODA3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0
+MCwtMjc5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMT
+gyMTI4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0MzYyNzcyMiw1OTAx
+MTE4OTEsLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0ODUzOTkxLC
+0xMDM2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2ODIyLDI1
+OTQ4MDMwOV19
 -->
