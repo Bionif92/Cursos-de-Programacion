@@ -1880,6 +1880,12 @@ map-get($color,main)// put that into the color
 
 #### Built-In Functions
 
+Can see all function here:
+
+https://gist.github.com/AllThingsSmitty/3bcc79da563df756be46
+
+
+
 
 
 
@@ -1890,11 +1896,11 @@ map-get($color,main)// put that into the color
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY1MzU0OTQsMTIxNjI4NzI3NSwxOT
-I4OTgzMzIxLDU2NDk5NjUxOCwxNjA5MDc1MjA1LDE0NDg5MTc3
-MjcsMTk5NjI0NTg0Miw4MzQ1MzU4NjAsNDI3MjA1NDkyLC0xND
-UyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0
-NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLT
-IwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5
-MDYwNV19
+eyJoaXN0b3J5IjpbLTE1MDc1MzQ0NjcsLTE3MjY1MzU0OTQsMT
+IxNjI4NzI3NSwxOTI4OTgzMzIxLDU2NDk5NjUxOCwxNjA5MDc1
+MjA1LDE0NDg5MTc3MjcsMTk5NjI0NTg0Miw4MzQ1MzU4NjAsND
+I3MjA1NDkyLC0xNDUyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4
+ODU0NDgsLTI1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MC
+w0MjM4MDcwMjQsLTIwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4
+NjUwMzRdfQ==
 -->
