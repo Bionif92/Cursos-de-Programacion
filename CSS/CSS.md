@@ -1820,8 +1820,6 @@ He made a file named main.scss to keep {} and ; in the file
 
 #### Nesting
 
-Fisrt feature: Nesting
-
 ````css
 .documentation {
 	display:flex;
@@ -1854,6 +1852,14 @@ sass --watch main.scss:main.css // overwrite with changes
 }
 ````
 
+#### Variables
+
+At top of the file
+
+````css
+$maincolo
+````
+
 
 
 
@@ -1863,11 +1869,11 @@ sass --watch main.scss:main.css // overwrite with changes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTgxMTU3Niw1NjQ5OTY1MTgsMTYwOT
-A3NTIwNSwxNDQ4OTE3NzI3LDE5OTYyNDU4NDIsODM0NTM1ODYw
-LDQyNzIwNTQ5MiwtMTQ1MjYwNjUwNywtODI3NTIzNTAxLC0xMj
-cyODg1NDQ4LC0yNTQ1NDU5OTgsMTY3MDQ0MjI2MCw3MTEyMjc2
-NjAsNDIzODA3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0MCwtMj
-c5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMTgyMTI4
-Mzk0NV19
+eyJoaXN0b3J5IjpbLTE1MjM5NDIyNzIsNTY0OTk2NTE4LDE2MD
+kwNzUyMDUsMTQ0ODkxNzcyNywxOTk2MjQ1ODQyLDgzNDUzNTg2
+MCw0MjcyMDU0OTIsLTE0NTI2MDY1MDcsLTgyNzUyMzUwMSwtMT
+I3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0NDIyNjAsNzExMjI3
+NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1NywzMzY0NjQyNDAsLT
+I3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3ODcsLTE4MjEy
+ODM5NDVdfQ==
 -->
