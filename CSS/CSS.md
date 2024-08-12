@@ -1784,20 +1784,19 @@ Tips:
 
 #### Vanilla CSS vs Frameworks
 
- - Bootstrap y Foundation : component frameworks
+ - Bootstrap y Foundation : framework con muchos componentes
  - Tailwind CSS: framework de utilidad
 
-En el ejemplo el descarga Bootstrap- da muchos componentes
-Tambien Tailwind
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI3MjA1NDkyLC0xNDUyNjA2NTA3LC04Mj
-c1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0NTk5OCwxNjcwNDQy
-MjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLTIwMjIxNTQ4NTcsMz
-M2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNTM2MTA5
-Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nzk1LC0xNjQzNjI3Nz
-IyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5MDE1MzI4LC00OTQ4
-NTM5OTFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDA4MTc1NTMsNDI3MjA1NDkyLC0xND
+UyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0
+NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLT
+IwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5
+MDYwNSwxNTM2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nz
+k1LC0xNjQzNjI3NzIyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5
+MDE1MzI4XX0=
 -->
