@@ -1755,16 +1755,22 @@ Te dice cuales necesitan usar prefijos y el codigo para hacerlo
 Chequea si la función se puede utilizar
 
 ````css
-container {
-	display: grid;
+@support (display:grid) {
+	container {
+		display: grid;
+	}
 }
 ````
+
+#### Pollyfills
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5ODY2OTQyLDE2NzA0NDIyNjAsNzExMj
-I3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1NywzMzY0NjQyNDAs
-LTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3ODcsLTE4Mj
-EyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3MjIsNTkwMTEx
-ODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1Mzk5MSwtMT
-AzNjQyNjQzNywtMTMxODg2NTU0MSwtMTA3ODk3NjgyMiwyNTk0
-ODAzMDldfQ==
+eyJoaXN0b3J5IjpbLTI1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMT
+IyNzY2MCw0MjM4MDcwMjQsLTIwMjIxNTQ4NTcsMzM2NDY0MjQw
+LC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNTM2MTA5Nzg3LC0xOD
+IxMjgzOTQ1LC0xMTc4NTI3Nzk1LC0xNjQzNjI3NzIyLDU5MDEx
+MTg5MSwtMTg5NTI1MDksNDA5MDE1MzI4LC00OTQ4NTM5OTEsLT
+EwMzY0MjY0MzcsLTEzMTg4NjU1NDEsLTEwNzg5NzY4MjIsMjU5
+NDgwMzA5XX0=
 -->
