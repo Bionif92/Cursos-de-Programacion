@@ -1809,20 +1809,26 @@ https://sass-lang.com/
 
 Necesitamos instalar ruby primero
 
+Instalar sass en la computadora, no en el archivo:
 ````bash
 gem install sass
 
 sass -v // para chequear que se instalo
 ````
 
+Escribio un archivo como main.sass
+
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0ODkxNzcyNywxOTk2MjQ1ODQyLDgzND
-UzNTg2MCw0MjcyMDU0OTIsLTE0NTI2MDY1MDcsLTgyNzUyMzUw
-MSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0NDIyNjAsNz
-ExMjI3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1NywzMzY0NjQy
-NDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3ODcsLT
-E4MjEyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3MjIsNTkw
-MTExODkxXX0=
+eyJoaXN0b3J5IjpbMTYwOTA3NTIwNSwxNDQ4OTE3NzI3LDE5OT
+YyNDU4NDIsODM0NTM1ODYwLDQyNzIwNTQ5MiwtMTQ1MjYwNjUw
+NywtODI3NTIzNTAxLC0xMjcyODg1NDQ4LC0yNTQ1NDU5OTgsMT
+Y3MDQ0MjI2MCw3MTEyMjc2NjAsNDIzODA3MDI0LC0yMDIyMTU0
+ODU3LDMzNjQ2NDI0MCwtMjc5ODY1MDM0LC04MTc0OTA2MDUsMT
+UzNjEwOTc4NywtMTgyMTI4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0
+MzYyNzcyMl19
 -->
