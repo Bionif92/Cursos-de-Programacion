@@ -1816,7 +1816,9 @@ gem install sass
 sass -v // para chequear que se instalo
 ````
 
-He made a file named main.scss to keep {} and ; iin 
+He made a file named main.scss to keep {} and ; in the file
+
+Fisrt feature: Nesting
 
 
 
@@ -1826,7 +1828,7 @@ He made a file named main.scss to keep {} and ; iin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwOTY5Njk1MCwxNjA5MDc1MjA1LDE0ND
+eyJoaXN0b3J5IjpbLTg1NTg4MTI2MiwxNjA5MDc1MjA1LDE0ND
 g5MTc3MjcsMTk5NjI0NTg0Miw4MzQ1MzU4NjAsNDI3MjA1NDky
 LC0xNDUyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLT
 I1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcw
