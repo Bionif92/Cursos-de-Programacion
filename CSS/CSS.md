@@ -1947,15 +1947,15 @@ Reusable custom functions
 Can use it with variables
 
 ````css
-@mixin display-flex() {
-	display: -webkit-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
+@mixin media-min-width($width) {
+	@media (min-width: $width) {
+		font-size: 125%;
+	}
 }
 
-.container {
-	@include display-flex();
+html {
+	
+	@
 }
 ````
 
@@ -1965,7 +1965,7 @@ Can use it with variables
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDA3NjAxNiwtOTAxOTU5MDAzLDE1OD
+eyJoaXN0b3J5IjpbMTcyNDM2MzA2NCwtOTAxOTU5MDAzLDE1OD
 c5Njg5MjgsMTk2MjYwMzU2MCw2ODk3OTU4OTIsNDgwMjQzNjEz
 LC0xNTA3NTM0NDY3LC0xNzI2NTM1NDk0LDEyMTYyODcyNzUsMT
 kyODk4MzMyMSw1NjQ5OTY1MTgsMTYwOTA3NTIwNSwxNDQ4OTE3
