@@ -1835,7 +1835,9 @@ Fisrt feature: Nesting
 To change it to css code, open terminal 
 
 ````bash
-sass main.scss
+sass main.scss main.css // generate the new style 
+
+sass --watch
 ````
 
 
@@ -1845,7 +1847,7 @@ sass main.scss
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODk1MTYwNywxNjA5MDc1MjA1LDE0ND
+eyJoaXN0b3J5IjpbMTAyODQ5NDg2MSwxNjA5MDc1MjA1LDE0ND
 g5MTc3MjcsMTk5NjI0NTg0Miw4MzQ1MzU4NjAsNDI3MjA1NDky
 LC0xNDUyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLT
 I1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcw
