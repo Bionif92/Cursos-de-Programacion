@@ -1897,7 +1897,7 @@ container {
 #### Adding Better Import and Partials
 
 Create a new file to put the variables, call it `_variables.scss`
-Add all the variables to this file an import it with @import "-"
+Add all the variables to this file an import it with `@import "_variables.scss"`
 
 
 
@@ -1909,11 +1909,11 @@ Add all the variables to this file an import it with @import "-"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MjY5MzY0Miw2ODk3OTU4OTIsNDgwMj
-QzNjEzLC0xNTA3NTM0NDY3LC0xNzI2NTM1NDk0LDEyMTYyODcy
-NzUsMTkyODk4MzMyMSw1NjQ5OTY1MTgsMTYwOTA3NTIwNSwxND
-Q4OTE3NzI3LDE5OTYyNDU4NDIsODM0NTM1ODYwLDQyNzIwNTQ5
-MiwtMTQ1MjYwNjUwNywtODI3NTIzNTAxLC0xMjcyODg1NDQ4LC
-0yNTQ1NDU5OTgsMTY3MDQ0MjI2MCw3MTEyMjc2NjAsNDIzODA3
-MDI0XX0=
+eyJoaXN0b3J5IjpbLTEzMDQwNTQ4MjksNjg5Nzk1ODkyLDQ4MD
+I0MzYxMywtMTUwNzUzNDQ2NywtMTcyNjUzNTQ5NCwxMjE2Mjg3
+Mjc1LDE5Mjg5ODMzMjEsNTY0OTk2NTE4LDE2MDkwNzUyMDUsMT
+Q0ODkxNzcyNywxOTk2MjQ1ODQyLDgzNDUzNTg2MCw0MjcyMDU0
+OTIsLTE0NTI2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OC
+wtMjU0NTQ1OTk4LDE2NzA0NDIyNjAsNzExMjI3NjYwLDQyMzgw
+NzAyNF19
 -->
