@@ -1919,6 +1919,10 @@ If you share features beetwenn selectors, you can create a class
 
 ````css
 .sass-selection {
+	common features
+}
+
+.sass-introduction {
 	
 }
 ````
@@ -1931,8 +1935,9 @@ If you share features beetwenn selectors, you can create a class
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI0MDEyNDgsMTU4Nzk2ODkyOCwxOT
+eyJoaXN0b3J5IjpbLTE2MTg0ODk5MjUsMTU4Nzk2ODkyOCwxOT
 YyNjAzNTYwLDY4OTc5NTg5Miw0ODAyNDM2MTMsLTE1MDc1MzQ0
 NjcsLTE3MjY1MzU0OTQsMTIxNjI4NzI3NSwxOTI4OTgzMzIxLD
 U2NDk5NjUxOCwxNjA5MDc1MjA1LDE0NDg5MTc3MjcsMTk5NjI0
