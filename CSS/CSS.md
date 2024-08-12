@@ -1750,13 +1750,21 @@ En github buscar: **postcss/autoprefixer**
 
 Te dice cuales necesitan usar prefijos y el codigo para hacerlo
 
+#### Queries de apoyo
 
+Chequea si la función se puede utilizar
+
+````css
+container {
+	display: grid;
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzY3NzI5MzgsMTY3MDQ0MjI2MCw3MT
-EyMjc2NjAsNDIzODA3MDI0LC0yMDIyMTU0ODU3LDMzNjQ2NDI0
-MCwtMjc5ODY1MDM0LC04MTc0OTA2MDUsMTUzNjEwOTc4NywtMT
-gyMTI4Mzk0NSwtMTE3ODUyNzc5NSwtMTY0MzYyNzcyMiw1OTAx
-MTE4OTEsLTE4OTUyNTA5LDQwOTAxNTMyOCwtNDk0ODUzOTkxLC
-0xMDM2NDI2NDM3LC0xMzE4ODY1NTQxLC0xMDc4OTc2ODIyLDI1
-OTQ4MDMwOV19
+eyJoaXN0b3J5IjpbNTA5ODY2OTQyLDE2NzA0NDIyNjAsNzExMj
+I3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1NywzMzY0NjQyNDAs
+LTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYxMDk3ODcsLTE4Mj
+EyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mjc3MjIsNTkwMTEx
+ODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5NDg1Mzk5MSwtMT
+AzNjQyNjQzNywtMTMxODg2NTU0MSwtMTA3ODk3NjgyMiwyNTk0
+ODAzMDldfQ==
 -->
