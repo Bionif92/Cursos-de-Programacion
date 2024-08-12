@@ -1787,16 +1787,17 @@ Tips:
  - Bootstrap y Foundation : component frameworks
  - Tailwind CSS: framework de utilidad
 
-En el ejemplo el descarga Bootstrap
+En el ejemplo el descarga Bootstrap- da muchos componentes
+Tambien Tailwind
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjUwNjE5MDYsLTE0NTI2MDY1MDcsLT
-gyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1OTk4LDE2NzA0
-NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAyNCwtMjAyMjE1NDg1Ny
-wzMzY0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkwNjA1LDE1MzYx
-MDk3ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OTUsLTE2NDM2Mj
-c3MjIsNTkwMTExODkxLC0xODk1MjUwOSw0MDkwMTUzMjgsLTQ5
-NDg1Mzk5MV19
+eyJoaXN0b3J5IjpbNDI3MjA1NDkyLC0xNDUyNjA2NTA3LC04Mj
+c1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0NTk5OCwxNjcwNDQy
+MjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLTIwMjIxNTQ4NTcsMz
+M2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNTM2MTA5
+Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nzk1LC0xNjQzNjI3Nz
+IyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5MDE1MzI4LC00OTQ4
+NTM5OTFdfQ==
 -->
