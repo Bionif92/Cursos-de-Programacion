@@ -1780,9 +1780,10 @@ Tips:
 
  - class-total usando los dashes
  - Escribir la caracteristica de la clase (.page-title)
+ - .BLOCK__ELEMENT--MODIFIER
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1MDgzMzU0MiwtMTI3Mjg4NTQ0OCwtMj
+eyJoaXN0b3J5IjpbLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMj
 U0NTQ1OTk4LDE2NzA0NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAy
 NCwtMjAyMjE1NDg1NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtOD
 E3NDkwNjA1LDE1MzYxMDk3ODcsLTE4MjEyODM5NDUsLTExNzg1
