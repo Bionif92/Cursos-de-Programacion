@@ -1775,12 +1775,17 @@ Variables por defecto diferentes en distintos browsers, como eliminarlo: usando 
 O usar el selector universal (*) para modificar cosas a nivel del browser
 
 #### Elegir nombre correcto a clases
+
+Tips:
+
+ - class-
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTYwOTU3MTgsLTEyNzI4ODU0NDgsLT
-I1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcw
-MjQsLTIwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLT
-gxNzQ5MDYwNSwxNTM2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4
-NTI3Nzk1LC0xNjQzNjI3NzIyLDU5MDExMTg5MSwtMTg5NTI1MD
-ksNDA5MDE1MzI4LC00OTQ4NTM5OTEsLTEwMzY0MjY0MzcsLTEz
-MTg4NjU1NDFdfQ==
+eyJoaXN0b3J5IjpbLTk0NDIxNTgwNiwtMTI3Mjg4NTQ0OCwtMj
+U0NTQ1OTk4LDE2NzA0NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAy
+NCwtMjAyMjE1NDg1NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtOD
+E3NDkwNjA1LDE1MzYxMDk3ODcsLTE4MjEyODM5NDUsLTExNzg1
+Mjc3OTUsLTE2NDM2Mjc3MjIsNTkwMTExODkxLC0xODk1MjUwOS
+w0MDkwMTUzMjgsLTQ5NDg1Mzk5MSwtMTAzNjQyNjQzNywtMTMx
+ODg2NTU0MV19
 -->
