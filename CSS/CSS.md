@@ -1788,15 +1788,27 @@ Tips:
  - Tailwind CSS: framework de utilidad
 
 
+#### Useful Resources & Links
+
+-   CSS Modules & Working Groups: [https://www.w3.org/TR/tr-groups-all#tr_Cascading_Style_Sheets__CSS__Working_Group](https://www.w3.org/TR/tr-groups-all#tr_Cascading_Style_Sheets__CSS__Working_Group)
+-   CSS Variables: [https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables)
+-   Vendor Prefixes: [https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix)
+-   Which Vendor Prefixes should you use? => [http://shouldiprefix.com/](http://shouldiprefix.com/)
+-   @supports: [https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports](https://developer.mozilla.org/en-US/docs/Web/CSS/%40supports)
+-   BEM in Detail: [http://getbem.com/introduction/](http://getbem.com/introduction/)
+-   An introduction to Bootstrap 4: [https://academind.com/learn/css/bootstrap-4-tutorial/](https://academind.com/learn/css/bootstrap-4-tutorial/)
+-   CSS Polyfills: [https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills](https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills)
+
+### SASS (Syntactically Awesome Style Sheets)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDA4MTc1NTMsNDI3MjA1NDkyLC0xND
-UyNjA2NTA3LC04Mjc1MjM1MDEsLTEyNzI4ODU0NDgsLTI1NDU0
-NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLT
-IwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5
-MDYwNSwxNTM2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nz
-k1LC0xNjQzNjI3NzIyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5
-MDE1MzI4XX0=
+eyJoaXN0b3J5IjpbLTY5MDE2NjA4OSw0MjcyMDU0OTIsLTE0NT
+I2MDY1MDcsLTgyNzUyMzUwMSwtMTI3Mjg4NTQ0OCwtMjU0NTQ1
+OTk4LDE2NzA0NDIyNjAsNzExMjI3NjYwLDQyMzgwNzAyNCwtMj
+AyMjE1NDg1NywzMzY0NjQyNDAsLTI3OTg2NTAzNCwtODE3NDkw
+NjA1LDE1MzYxMDk3ODcsLTE4MjEyODM5NDUsLTExNzg1Mjc3OT
+UsLTE2NDM2Mjc3MjIsNTkwMTExODkxLC0xODk1MjUwOSw0MDkw
+MTUzMjhdfQ==
 -->
