@@ -1773,12 +1773,14 @@ Buscarlos en el caso que se necesiten
 Variables por defecto diferentes en distintos browsers, como eliminarlo: usando Reset-Library (como Normalize.css)
 
 O usar el selector universal (*) para modificar cosas a nivel del browser
+
+#### Elegir nombre correcto a clases
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI4ODU0NDgsLTI1NDU0NTk5OCwxNj
-cwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcwMjQsLTIwMjIxNTQ4
-NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLTgxNzQ5MDYwNSwxNT
-M2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4NTI3Nzk1LC0xNjQz
-NjI3NzIyLDU5MDExMTg5MSwtMTg5NTI1MDksNDA5MDE1MzI4LC
-00OTQ4NTM5OTEsLTEwMzY0MjY0MzcsLTEzMTg4NjU1NDEsLTEw
-Nzg5NzY4MjJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTYwOTU3MTgsLTEyNzI4ODU0NDgsLT
+I1NDU0NTk5OCwxNjcwNDQyMjYwLDcxMTIyNzY2MCw0MjM4MDcw
+MjQsLTIwMjIxNTQ4NTcsMzM2NDY0MjQwLC0yNzk4NjUwMzQsLT
+gxNzQ5MDYwNSwxNTM2MTA5Nzg3LC0xODIxMjgzOTQ1LC0xMTc4
+NTI3Nzk1LC0xNjQzNjI3NzIyLDU5MDExMTg5MSwtMTg5NTI1MD
+ksNDA5MDE1MzI4LC00OTQ4NTM5OTEsLTEwMzY0MjY0MzcsLTEz
+MTg4NjU1NDFdfQ==
 -->
