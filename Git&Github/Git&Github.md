@@ -1,6 +1,11 @@
 # Git & Github Course
 
-## 
+## Getting Started
+
+Git: version managment tool
+
+Github: brings git capabi
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjAzOTIwNjcwMCwxOTU3MDk5Mzk1LC0yMD
+g4NzQ2NjEyXX0=
 -->
