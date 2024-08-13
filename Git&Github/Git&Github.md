@@ -60,9 +60,11 @@ del text.txt // delete the file
 rmdir command-prompt // delete the foulder
 ````
 
+### Copying and mov
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NTMzMzc3NSwxMDcwMTg5NjM3LC0xOT
-A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
-MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTE3NDM3MTczMzYsMTA3MDE4OTYzNywtMT
+kwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIz
+NjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX
+0=
 -->
