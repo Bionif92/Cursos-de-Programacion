@@ -53,11 +53,15 @@ mkdir command-prompt // you create a foulder where you are
 
 echo our first file > test.txt // content name-of-file file-type
 
-type.t
+type text.txt // show you our first file
+
+del text.txt // delete it
+
+
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4Mzg5MjUsMTA3MDE4OTYzNywtMTkwND
+eyJoaXN0b3J5IjpbMjIyNjc5NTQsMTA3MDE4OTYzNywtMTkwND
 QyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIzNjMs
 MTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX0=
 -->
