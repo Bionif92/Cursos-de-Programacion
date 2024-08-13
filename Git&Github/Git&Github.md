@@ -31,11 +31,13 @@ Command Prompt (cmd)
 cd .. // move a folder backwards
 
 dir // see content
+
+D: // change to disc D
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk4MjIzMDMsMTA3MDE4OTYzNywtMT
-kwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIz
-NjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbLTIyNjQ2MDcxMSwxMDcwMTg5NjM3LC0xOT
+A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
+MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
+==
 -->
