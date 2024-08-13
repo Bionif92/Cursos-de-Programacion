@@ -60,10 +60,13 @@ del text.txt // delete the file
 rmdir command-prompt // delete the foulder
 ````
 
-### Copying and mov
+### Copying and moving files
 
+````cmd
+copy test2.txt other // copy the file into the other foulder
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDM3MTczMzYsMTA3MDE4OTYzNywtMT
+eyJoaXN0b3J5IjpbLTE5NjEyNTM2MTAsMTA3MDE4OTYzNywtMT
 kwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIz
 NjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX
 0=
