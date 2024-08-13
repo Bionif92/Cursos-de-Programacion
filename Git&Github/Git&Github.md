@@ -41,11 +41,14 @@ cd Desktop\git-basics // move to that folder
 cd C:\Users\Franco // move from absolute path
 
 cd / // go to the root directory
+
+cls // clear command prompt
 ````
-You use absolut
+You use absolute path for development
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NDUxMDg4LDEwNzAxODk2MzcsLTE5MD
-Q0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYz
-LDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTU4MjIxNzY4MiwxMDcwMTg5NjM3LC0xOT
+A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
+MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
+==
 -->
