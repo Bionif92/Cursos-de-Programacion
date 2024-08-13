@@ -27,8 +27,15 @@ You only have one file, but you can bring back previous states of the same work
 
 Command Prompt (cmd)
 
+````cmd
+cd .. // move a folder backwards
+
+dir // see content
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDE4OTYzNywtMTkwNDQyNDQ1NSw5OD
-c4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIzNjMsMTEzNDkyNTcx
-MSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTEyNTk4MjIzMDMsMTA3MDE4OTYzNywtMT
+kwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIz
+NjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX
+0=
 -->
