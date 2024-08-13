@@ -33,10 +33,12 @@ cd .. // move a folder backwards
 dir // see content
 
 D: // change to disc D
+
+cd Users // move to Users folder fr
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjQ2MDcxMSwxMDcwMTg5NjM3LC0xOT
+eyJoaXN0b3J5IjpbLTUwMDE3Nzc0NCwxMDcwMTg5NjM3LC0xOT
 A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
 MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
 ==
