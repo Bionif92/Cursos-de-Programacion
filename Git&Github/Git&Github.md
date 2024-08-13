@@ -70,10 +70,16 @@ move test2.txt other // move the file into the other foulder
 move other main // move main foulder into main foulder
 ````
 
+### Useful links
 
+Windows Command Prompt overview =>  [https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/windows-commands)
+
+The "new" Windows Powershell (not used in the course) =>  [https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7)
+
+## Version Managment with Git
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxMjI2NjAsLTc3NTQ5NzA4MCwxMDcwMT
-g5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUs
-LTMyMjczMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwOD
-g3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
+cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
+OTUsLTMyMjczMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLT
+IwODg3NDY2MTJdfQ==
 -->
