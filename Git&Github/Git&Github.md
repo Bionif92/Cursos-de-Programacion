@@ -55,13 +55,14 @@ echo our first file > test.txt // content name-of-file file-type
 
 type text.txt // show you our first file
 
-del text.txt // delete it
+del text.txt // delete the file
 
-
+rmdir command-prompt // delete the foulder
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNjc5NTQsMTA3MDE4OTYzNywtMTkwND
-QyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIzNjMs
-MTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTM0NTMzMzc3NSwxMDcwMTg5NjM3LC0xOT
+A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
+MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
+==
 -->
