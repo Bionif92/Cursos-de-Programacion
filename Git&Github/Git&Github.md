@@ -34,12 +34,14 @@ dir // see content
 
 D: // change to disc D
 
-cd Users // move to Users folder fr
+cd Users // move to Users folder from relative path
+
+cd Desktop\git-basics // move to 
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMDE3Nzc0NCwxMDcwMTg5NjM3LC0xOT
-A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
-MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbLTE4MjA2NTQ4NzgsMTA3MDE4OTYzNywtMT
+kwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIz
+NjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX
+0=
 -->
