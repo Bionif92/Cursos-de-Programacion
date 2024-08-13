@@ -69,9 +69,11 @@ move test2.txt other // move the file into the other foulder
 
 move other main // move main foulder into main foulder
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOT
-A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
-MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbNTcxMjI2NjAsLTc3NTQ5NzA4MCwxMDcwMT
+g5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUs
+LTMyMjczMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwOD
+g3NDY2MTJdfQ==
 -->
