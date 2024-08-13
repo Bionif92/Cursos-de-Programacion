@@ -49,11 +49,13 @@ You use absolute path for development
 ### Creating-Deleting Files & Foulders
 
 ````cmd
-mkdir command-prompt // you create 
+mkdir command-prompt // you create a foulder where you are
+
+echo our first file > test.txt
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4ODQ3MzQ5MCwxMDcwMTg5NjM3LC0xOT
+eyJoaXN0b3J5IjpbMTQyNTgxODAwMywxMDcwMTg5NjM3LC0xOT
 A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
 MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
 ==
