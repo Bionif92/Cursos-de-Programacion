@@ -21,10 +21,10 @@ You only have one file, but you can bring back previous states of the same work
 
  - Largest Development Platform
  - Cloud Hosting & Collaboration Provider
- - Git repository Hostin
+ - Git Repository Hosting
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NzU2NzMwMCw0MTgzMzY0OTUsLTMyMj
-czMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2
-MTJdfQ==
+eyJoaXN0b3J5IjpbOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNz
+MyMzYzLDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYx
+Ml19
 -->
