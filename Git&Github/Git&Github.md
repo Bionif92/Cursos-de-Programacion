@@ -39,11 +39,13 @@ cd Users // move to Users folder from relative path
 cd Desktop\git-basics // move to that folder
 
 cd C:\Users\Franco // move from absolute path
+
+cd / // go to the root directory
 ````
+You use absolut
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1NjQ3MDcsMTA3MDE4OTYzNywtMT
-kwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIz
-NjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX
-0=
+eyJoaXN0b3J5IjpbNTU0NDUxMDg4LDEwNzAxODk2MzcsLTE5MD
+Q0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYz
+LDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
 -->
