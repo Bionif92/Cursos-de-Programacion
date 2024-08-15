@@ -190,13 +190,15 @@ If you make a change in a file and you want to undo it:
 git checkout the-file.txt // undo the file to the commit
 
 git checkout . // undo all the files to the commit
+
+git restore // the same thing instead of checkout
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM4MDA4MDU3LDE5MDkyNjkwNTMsLTE1Mj
-c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
-MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
-QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
-LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNz
-AxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5
-NV19
+eyJoaXN0b3J5IjpbLTE4MDkzMTA4MDksMTkwOTI2OTA1MywtMT
+UyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5
+MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLD
+c1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4
+NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMT
+A3MDE4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2
+NDk1XX0=
 -->
