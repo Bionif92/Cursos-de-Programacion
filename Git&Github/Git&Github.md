@@ -122,12 +122,16 @@ git config --global user.name "name"// need this to configure first to let you r
 
 ````bash
 git log // see the commits, most important the id 
+
+git checkout id // you will be back to that step
+
+git checkout id
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
-U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
-NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
-cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
-OTUsLTMyMjczMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLT
-IwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE4NjAxNDQwMDEsLTE3NTU2Mjg0NjAsLT
+E4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3
+NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLT
+c3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0NDU1LDk4Nzgx
+MTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2MywxMTM0OTI1NzExLD
+E5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
 -->
