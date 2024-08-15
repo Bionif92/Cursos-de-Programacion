@@ -174,16 +174,19 @@ git switch -c four-branch // create and switch to a new branch
 
 ### Deleting-Working Directory Files
 
-If you delete the file normally, you wi
+If you delete the file normally, you will have the existing one in your commit
+
 ````bash
 git ls-files // see the files in the commit
+
+git rm working-with-bra
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODM4MTgxMDIsMTkwOTI2OTA1MywtMT
-UyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5
-MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLD
-c1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4
-NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMT
-A3MDE4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2
-NDk1XX0=
+eyJoaXN0b3J5IjpbMTA1MTgwOTU5MiwxOTA5MjY5MDUzLC0xNT
+I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
+LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
+U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
+NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
+cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
+OTVdfQ==
 -->
