@@ -195,10 +195,16 @@ git restore // the same thing instead of checkout
 
 git clean -dn // see which untracked files will be deleted
 
-git clean -df
+git clean -df // delete the untracked files
+````
+
+### Undoing Staged Changes
+
+````bash
+
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzY1OTEzMzcsMTkwOTI2OTA1MywtMT
+eyJoaXN0b3J5IjpbLTE3Mjk5NzQwMDUsMTkwOTI2OTA1MywtMT
 UyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5
 MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLD
 c1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4
