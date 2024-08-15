@@ -102,12 +102,16 @@ Use command prompt on terminar VSC
 git status // see status of repositories
 
 git init // to initialize git in the foulder, create git foulder for repositories
+
+git add initial-commit.txt // can add more files next to the one listed
+
+git add . // track all the files
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4Mj
-M3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYs
-LTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0NDU1LDk4Nz
-gxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2MywxMTM0OTI1NzEx
-LDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNTI3NDQ1ODksNzU0MDgzNjcyLDU2MjQ5MD
+U4NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4
+OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0ND
+I0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2Mywx
+MTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
 -->
