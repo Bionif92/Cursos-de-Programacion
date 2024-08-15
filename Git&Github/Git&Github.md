@@ -83,9 +83,12 @@ Commit -> Snapshot
 Master Branch -> All commits
 
 Git = Tracking changes, not storing files again and again
+
+You can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg5NzA1ODc0LDQwODY4MjExOCwtMTg5NT
-gxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2MzcsLTE5MDQ0MjQ0
-NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYzLDExMz
-Q5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExMzUwMzMwMjcsNTg5NzA1ODc0LDQwOD
+Y4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2
+MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMz
+IyNzMyMzYzLDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0
+NjYxMl19
 -->
