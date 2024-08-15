@@ -256,11 +256,15 @@ Some of the files you dont want to work with git:
 Make a .gitignore file:
 ```js
 the-file.txt //file you want to ignore
+
+Other way
+*.log // all log files are ignored
+!test.log // this one 
 ```
 
 Need to add .gitignore 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTI5NjUzMiwyNjkzNjQ0MSwxOTA5Mj
+eyJoaXN0b3J5IjpbMTA5OTQ4Mzg4OCwyNjkzNjQ0MSwxOTA5Mj
 Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwt
 MjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4Nj
 IwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5
