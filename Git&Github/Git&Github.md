@@ -115,10 +115,10 @@ git commit -m "added first .txt file" // commit the change, with that message
 
 git config --global user.email "email"
 
-git config --global user.name "n"
+git config --global user.name "name"// need this to configure first to let you run commit
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTY5MDE5ODUsNzU0MDgzNjcyLDU2Mj
+eyJoaXN0b3J5IjpbLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2Mj
 Q5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgs
 LTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOT
 A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
