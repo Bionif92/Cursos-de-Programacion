@@ -81,9 +81,11 @@ The "new" Windows Powershell (not used in the course) =>  [https://docs.microsof
 Commit -> Snapshot
 
 Master Branch -> All commits
+
+Git = Tracking changes, not storing files again and again
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4NjgyMTE4LC0xODk1ODExNzA2LC03Nz
-U0OTcwODAsMTA3MDE4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1
-MjUsNDE4MzM2NDk1LC0zMjI3MzIzNjMsMTEzNDkyNTcxMSwxOT
-U3MDk5Mzk1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNTg5NzA1ODc0LDQwODY4MjExOCwtMTg5NT
+gxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2MzcsLTE5MDQ0MjQ0
+NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYzLDExMz
+Q5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
 -->
