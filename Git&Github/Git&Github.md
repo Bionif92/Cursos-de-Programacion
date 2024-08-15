@@ -202,10 +202,10 @@ git clean -df // delete the untracked files
 
 After you use git add to the staged part, if you dont wont to commit, you can do this:
 ````bash
-
+git reset initial-commit.txt //
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIwMTEzNzQ0LDE5MDkyNjkwNTMsLTE1Mj
+eyJoaXN0b3J5IjpbODAwMjI5Njk3LDE5MDkyNjkwNTMsLTE1Mj
 c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
 MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
 QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
