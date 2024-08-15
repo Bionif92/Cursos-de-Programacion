@@ -125,10 +125,11 @@ git log // see the commits, most important the id
 
 git checkout id // you will be back to that step
 
-git checkout id
+git checkout master // you get back all things
 ````
+This is explained in the next lecture
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjAxNDQwMDEsLTE3NTU2Mjg0NjAsLT
+eyJoaXN0b3J5IjpbLTIxMTUzMTI5MjUsLTE3NTU2Mjg0NjAsLT
 E4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3
 NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLT
 c3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0NDU1LDk4Nzgx
