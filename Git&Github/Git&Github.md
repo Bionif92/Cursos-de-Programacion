@@ -220,8 +220,10 @@ git reset HEAD~1// Remove one commit, the stage but not the file
 
 git reset --hard HEAD~1 // Remove everything
 ````
+
+### Deleting Branches
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzY0ODk1MjUsMTkwOTI2OTA1MywtMT
+eyJoaXN0b3J5IjpbLTE1OTI5NTcxMTgsMTkwOTI2OTA1MywtMT
 UyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5
 MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLD
 c1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4
