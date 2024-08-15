@@ -121,13 +121,13 @@ git config --global user.name "name"// need this to configure first to let you r
 ### Diving in Commits with log
 
 ````bash
-git log
+git log // see the commits, most important the id 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4MzIwNDYxLC0xODYyMDEzNjkyLDc1ND
-A4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQs
-NDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMTA3MD
-E4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1
-LC0zMjI3MzIzNjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMD
-g4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
+U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
+NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
+cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
+OTUsLTMyMjczMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLT
+IwODg3NDY2MTJdfQ==
 -->
