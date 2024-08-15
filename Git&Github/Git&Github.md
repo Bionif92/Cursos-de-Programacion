@@ -128,11 +128,13 @@ git checkout id // you will be back to that step
 git checkout master // you get back all things
 ````
 This is explained in the next lecture
+
+### Understanding and creating Branches
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTUzMTI5MjUsLTE3NTU2Mjg0NjAsLT
-E4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3
-NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLT
-c3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0NDU1LDk4Nzgx
-MTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2MywxMTM0OTI1NzExLD
-E5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMT
+g2MjAxMzY5Miw3NTQwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1
+NDksNTg5NzA1ODc0LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNz
+c1NDk3MDgwLDEwNzAxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODEx
+NTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYzLDExMzQ5MjU3MTEsMT
+k1NzA5OTM5NSwtMjA4ODc0NjYxMl19
 -->
