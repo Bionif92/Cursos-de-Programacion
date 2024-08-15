@@ -94,10 +94,12 @@ You can make a duplicate of the running work, make the changes you want with com
 git --version
 ````
 
+### Initializing first Repository & Creating first Commit
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5Nz
-A1ODc0LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgw
-LDEwNzAxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxOD
-MzNjQ5NSwtMzIyNzMyMzYzLDExMzQ5MjU3MTEsMTk1NzA5OTM5
-NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTExMTgyODUxOTUsNTYyNDkwNTg3LC00Mj
+gyMzc1NDksNTg5NzA1ODc0LDQwODY4MjExOCwtMTg5NTgxMTcw
+NiwtNzc1NDk3MDgwLDEwNzAxODk2MzcsLTE5MDQ0MjQ0NTUsOT
+g3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYzLDExMzQ5MjU3
+MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
 -->
