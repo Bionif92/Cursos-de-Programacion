@@ -117,11 +117,17 @@ git config --global user.email "email"
 
 git config --global user.name "name"// need this to configure first to let you run commit
 ````
+
+### Diving in Commits with log
+
+````bash
+git log
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2Mj
-Q5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgs
-LTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOT
-A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
-MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
-==
+eyJoaXN0b3J5IjpbNDA4MzIwNDYxLC0xODYyMDEzNjkyLDc1ND
+A4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQs
+NDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMTA3MD
+E4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1
+LC0zMjI3MzIzNjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMD
+g4NzQ2NjEyXX0=
 -->
