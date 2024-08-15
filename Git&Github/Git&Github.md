@@ -78,10 +78,9 @@ The "new" Windows Powershell (not used in the course) =>  [https://docs.microsof
 
 ## Version Managment with Git
 
-
-
+Commit -> Snapshot
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODI0ODgxNiwtMTg5NTgxMTcwNiwtNz
+eyJoaXN0b3J5IjpbMjAxMDI1NTczNiwtMTg5NTgxMTcwNiwtNz
 c1NDk3MDgwLDEwNzAxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODEx
 NTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYzLDExMzQ5MjU3MTEsMT
 k1NzA5OTM5NSwtMjA4ODc0NjYxMl19
