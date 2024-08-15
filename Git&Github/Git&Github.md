@@ -112,11 +112,16 @@ With this you put the files in the staging area
 
 ````bash
 git commit -m "added first .txt file" // commit the change, with that message
+
+git config --global user.email "email"
+
+git config --global user.name "n"
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTgyNjgwNCw3NTQwODM2NzIsNTYyND
-kwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0LDQwODY4MjExOCwt
-MTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2MzcsLTE5MD
-Q0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYz
-LDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE1NTY5MDE5ODUsNzU0MDgzNjcyLDU2Mj
+Q5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgs
+LTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOT
+A0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2
+MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ
+==
 -->
