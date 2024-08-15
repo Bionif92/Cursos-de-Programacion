@@ -181,8 +181,12 @@ git ls-files // see the files in the commit
 
 git rm working-with-branches.txt // delete the file from the commit
 ````
+
+### Undoing Unstaged Changes
+
+If you make a change in a file and you wan
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjU2OTI0OSwxOTA5MjY5MDUzLC0xNT
+eyJoaXN0b3J5IjpbMTgyODYyMjI4MSwxOTA5MjY5MDUzLC0xNT
 I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
 LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
 U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
