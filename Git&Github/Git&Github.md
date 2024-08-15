@@ -132,17 +132,15 @@ This is explained in the next lecture
 ### Understanding and creating Branches
 
 ````bash
-git log // see the commits, most important the id 
+git branch // see all the branches, master is the default
 
-git checkout id // you will be back to that step
-
-git checkout master // you get back all things
+git branch name-new-branch
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA2OTIxNjMsMTM1OTE2MDE2MCwtMT
-c1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NTQwODM2NzIsNTYyNDkw
-NTg3LC00MjgyMzc1NDksNTg5NzA1ODc0LDQwODY4MjExOCwtMT
-g5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2MzcsLTE5MDQ0
-MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYzLD
-ExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTcyMDU3NTMyLDEzNTkxNjAxNjAsLTE3NT
+U2Mjg0NjAsLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4
+NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OT
+U4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0
+NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2MywxMT
+M0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
 -->
