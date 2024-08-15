@@ -167,10 +167,12 @@ git branch // you see the branches and the detached head
 ### Branches & Git Switch
 
 ````bash
-git switch //
+git switch third-branch // other way to switch branches
+
+git switch -c four-branch // create and switch to a new branch
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDE3NTE5NSwxOTA5MjY5MDUzLC0xNT
+eyJoaXN0b3J5IjpbLTQ0NDU4MjMxMywxOTA5MjY5MDUzLC0xNT
 I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
 LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
 U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
