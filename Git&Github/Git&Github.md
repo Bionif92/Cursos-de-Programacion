@@ -140,8 +140,9 @@ git checkout name-new-branch // switch branches
 
 git chechout -b name-new-branch // shortcut for the previous two steps
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk2NDczMDcyLDEzNTkxNjAxNjAsLTE3NT
+eyJoaXN0b3J5IjpbMjU1NzgxNDA2LDEzNTkxNjAxNjAsLTE3NT
 U2Mjg0NjAsLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4
 NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OT
 U4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0
