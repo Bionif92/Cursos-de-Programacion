@@ -136,10 +136,10 @@ git branch // see all the branches, master is the default
 
 git branch name-new-branch // create new branch
 
-git checkout ne
+git checkout name-new-branch // switch branches
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTQ3ODQzNSwxMzU5MTYwMTYwLC0xNz
+eyJoaXN0b3J5IjpbMTY3NzMxODYwNywxMzU5MTYwMTYwLC0xNz
 U1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1NjI0OTA1
 ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4LC0xOD
 k1ODExNzA2LC03NzU0OTcwODAsMTA3MDE4OTYzNywtMTkwNDQy
