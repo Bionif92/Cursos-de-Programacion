@@ -84,11 +84,11 @@ Master Branch -> All commits
 
 Git = Tracking changes, not storing files again and again
 
-You can 
+You can make a duplicate of the running work, make the changes you want with commits, and when it is finish, modify the exisiting one
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUwMzMwMjcsNTg5NzA1ODc0LDQwOD
-Y4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2
-MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMz
-IyNzMyMzYzLDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0
-NjYxMl19
+eyJoaXN0b3J5IjpbMTgxNTg1NDQ3MCw1ODk3MDU4NzQsNDA4Nj
+gyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMTA3MDE4OTYz
+NywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMj
+I3MzIzNjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2
+NjEyXX0=
 -->
