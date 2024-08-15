@@ -101,13 +101,13 @@ Use command prompt on terminar VSC
 ````bash
 git status // see status of repositories
 
-git init // to initia
+git init // to initialize git in the foulder, create git foulder for repositories
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjQwOTA5Nyw1NjI0OTA1ODcsLTQyOD
-IzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2
-LC03NzU0OTcwODAsMTA3MDE4OTYzNywtMTkwNDQyNDQ1NSw5OD
-c4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIzNjMsMTEzNDkyNTcx
-MSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4Mj
+M3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYs
+LTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0NDU1LDk4Nz
+gxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2MywxMTM0OTI1NzEx
+LDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
 -->
