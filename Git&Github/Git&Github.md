@@ -248,8 +248,12 @@ git switch master
 git merge detached-branch
 ````
 Can also create a new branch with the changes of the detached and then merge to master
+
+### Understanding .gitignore
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzYxNzAwMiwyNjkzNjQ0MSwxOTA5Mj
+eyJoaXN0b3J5IjpbLTM0MjI2NTIyOSwyNjkzNjQ0MSwxOTA5Mj
 Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwt
 MjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4Nj
 IwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5
