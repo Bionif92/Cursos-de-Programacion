@@ -259,12 +259,12 @@ the-file.txt //file you want to ignore
 
 Other way
 *.log // all log files are ignored
-!test.log // this one 
+!test.log // this one has not to be ignored
 ```
 
-Need to add .gitignore 
+Need to add .gitignore to the track files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5OTQ4Mzg4OCwyNjkzNjQ0MSwxOTA5Mj
+eyJoaXN0b3J5IjpbLTc4NTM4NTAwNSwyNjkzNjQ0MSwxOTA5Mj
 Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwt
 MjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4Nj
 IwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5
