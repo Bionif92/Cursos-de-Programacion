@@ -187,14 +187,16 @@ git rm working-with-branches.txt // delete the file from the commit
 If you make a change in a file and you want to undo it:
 
 ````bash
-git checkout the-file.txt // undo the file to the c
+git checkout the-file.txt // undo the file to the commit
+
+git checkout . // undo all the files to the commit
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzY3NzU2OSwxOTA5MjY5MDUzLC0xNT
-I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
-LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
-U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
-NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
-cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
-OTVdfQ==
+eyJoaXN0b3J5IjpbMzM4MDA4MDU3LDE5MDkyNjkwNTMsLTE1Mj
+c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
+MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
+QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
+LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNz
+AxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5
+NV19
 -->
