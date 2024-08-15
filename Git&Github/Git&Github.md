@@ -163,12 +163,20 @@ git checkout id // you are in the detached head
 
 git branch // you see the branches and the detached head
 ````
+
+### Branches & Git Switch
+
+````bash
+git checkout id // you are in the detached head
+
+git branch // you see the branches and the detached head
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5OTAyODkyOCwxOTA5MjY5MDUzLC0xNT
-I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
-LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
-U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
-NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
-cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
-OTVdfQ==
+eyJoaXN0b3J5IjpbNjk3NzcxNjA0LDE5MDkyNjkwNTMsLTE1Mj
+c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
+MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
+QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
+LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNz
+AxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5
+NV19
 -->
