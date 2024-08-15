@@ -260,15 +260,18 @@ the-file.txt //file you want to ignore
 Other way
 *.log // all log files are ignored
 !test.log // this one has not to be ignored
+
+Other way
+web-app/* // the foulder with all the things inside are ignored
 ```
 
 Need to add .gitignore to the track files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTM4NTAwNSwyNjkzNjQ0MSwxOTA5Mj
-Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwt
-MjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4Nj
-IwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5
-LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NT
-Q5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUy
-NV19
+eyJoaXN0b3J5IjpbLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOT
+I2OTA1MywtMTUyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTks
+LTIxMzU0OTA5MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xOD
+YyMDEzNjkyLDc1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0
+OSw1ODk3MDU4NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2LC03Nz
+U0OTcwODAsMTA3MDE4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1
+MjVdfQ==
 -->
