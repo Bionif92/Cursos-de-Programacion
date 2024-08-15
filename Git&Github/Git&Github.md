@@ -134,13 +134,15 @@ This is explained in the next lecture
 ````bash
 git branch // see all the branches, master is the default
 
-git branch name-new-branch
+git branch name-new-branch // create new branch
+
+git checkout ne
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDU3NTMyLDEzNTkxNjAxNjAsLTE3NT
-U2Mjg0NjAsLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4
-NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OT
-U4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5NjM3LC0xOTA0NDI0
-NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLTMyMjczMjM2MywxMT
-M0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTk2MTQ3ODQzNSwxMzU5MTYwMTYwLC0xNz
+U1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1NjI0OTA1
+ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4LC0xOD
+k1ODExNzA2LC03NzU0OTcwODAsMTA3MDE4OTYzNywtMTkwNDQy
+NDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMjI3MzIzNjMsMT
+EzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2NjEyXX0=
 -->
