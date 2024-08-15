@@ -88,10 +88,10 @@ You can make a duplicate of the running work, make the changes you want with com
 
 ### Installing Git
 
- 1. Download Git from the 
+ 1. Download Git from the page and install
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MDczNTM0OCw1ODk3MDU4NzQsNDA4Nj
+eyJoaXN0b3J5IjpbLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4Nj
 gyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMTA3MDE4OTYz
 NywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1LC0zMj
 I3MzIzNjMsMTEzNDkyNTcxMSwxOTU3MDk5Mzk1LC0yMDg4NzQ2
