@@ -205,14 +205,15 @@ After you use git add to the staged part, if you dont wont to commit, you can do
 git reset initial-commit.txt 
 git chechout initial-commit.txt // after this to step it will restore the file
 
-git restore initial-commit.txt // same as the two step named before
+git restore -- staged initial-commit.txt 
+git chechout initial-commit.txt // same as the two step named before
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYzNjA3NzIsMTkwOTI2OTA1MywtMT
-UyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5
-MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLD
-c1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4
-NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMT
-A3MDE4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2
-NDk1XX0=
+eyJoaXN0b3J5IjpbODE1MjM5Mjc5LDE5MDkyNjkwNTMsLTE1Mj
+c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
+MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
+QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
+LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNz
+AxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5
+NV19
 -->
