@@ -235,16 +235,20 @@ Commit to the master branch
 git chechout commit-id// detached head
 
 git add .
-git commit -m "message"
+git commit -m "message"// make changes 
 
 git switch master // need to generate a new branch with the id they gave you
+
+git branch "name-branch" id-given
+
+If you want 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2NTU4NDg3LDE5MDkyNjkwNTMsLTE1Mj
-c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
-MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
-QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
-LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNz
-AxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5
-NV19
+eyJoaXN0b3J5IjpbNDE1MjA2NzcsMTkwOTI2OTA1MywtMTUyNz
+U3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5Mywx
+MzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1ND
+A4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQs
+NDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMTA3MD
+E4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2NDk1
+XX0=
 -->
