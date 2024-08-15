@@ -111,16 +111,10 @@ git add . // track all the files
 With this you put the files in the staging area
 
 ````bash
-git status // see status of repositories
-
-git init // to initialize git in the foulder, create git foulder for repositories
-
-git add initial-commit.txt // can add more files next to the one listed
-
-git add . // track all the files
+git commit -m "added first .txt file" // commit the change, with that message
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjM2NzM1NCw3NTQwODM2NzIsNTYyND
+eyJoaXN0b3J5IjpbLTg2OTgyNjgwNCw3NTQwODM2NzIsNTYyND
 kwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0LDQwODY4MjExOCwt
 MTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2MzcsLTE5MD
 Q0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMzIyNzMyMzYz
