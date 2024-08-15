@@ -214,14 +214,16 @@ git chechout initial-commit.txt // same as the two step named before
 Git Reset helps you reset the head of our branch, basically undo commits
 
 ````bash
-git reset --soft HEAD~1// Remove one commit, but the stage is on, because we select soft reset
+git reset --soft HEAD~1// Remove one commit, but the stage is on, and the file too because we select soft reset
+
+git reset HEAD~1// Remove one commit, the stage but not the file
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjM3ODI0NiwxOTA5MjY5MDUzLC0xNT
-I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
-LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
-U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
-NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
-cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
-OTVdfQ==
+eyJoaXN0b3J5IjpbODc4MzI1MTczLDE5MDkyNjkwNTMsLTE1Mj
+c1NzgyNjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMs
+MTM1OTE2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NT
+QwODM2NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0
+LDQwODY4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNz
+AxODk2MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5
+NV19
 -->
