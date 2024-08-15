@@ -212,12 +212,16 @@ git chechout initial-commit.txt // same as the two step named before
 ### Deleting Stages with Git Reset
 
 Git Reset helps you reset the head of our branch, basically undo commits
+
+````bash
+git reset --soft HEAD~1// Remove one commit
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mzc5NDEyMSwxOTA5MjY5MDUzLC0xNT
-I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
-LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
-U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
-NCw0MDg2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMD
-cwMTg5NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0
-OTVdfQ==
+eyJoaXN0b3J5IjpbLTEzNDAzNjAyNDQsMTkwOTI2OTA1MywtMT
+UyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5
+MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLD
+c1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4
+NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2LC03NzU0OTcwODAsMT
+A3MDE4OTYzNywtMTkwNDQyNDQ1NSw5ODc4MTE1MjUsNDE4MzM2
+NDk1XX0=
 -->
