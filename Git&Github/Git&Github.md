@@ -147,14 +147,14 @@ If we create a branch based on another branch then all commits will be taken int
 Need to be in the branch you want the changes
 
 ````bash
-git merge third-branc
+git merge third-branch // add the new things from third-branch to master
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzAyOTkyMSwtMjEzNTQ5MDkzLDEzNT
-kxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNzU0MDgz
-NjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MD
-g2ODIxMTgsLTE4OTU4MTE3MDYsLTc3NTQ5NzA4MCwxMDcwMTg5
-NjM3LC0xOTA0NDI0NDU1LDk4NzgxMTUyNSw0MTgzMzY0OTUsLT
-MyMjczMjM2MywxMTM0OTI1NzExLDE5NTcwOTkzOTUsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbNjYwNDM1NTk5LC0yMTM1NDkwOTMsMTM1OT
+E2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NTQwODM2
+NzIsNTYyNDkwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0LDQwOD
+Y4MjExOCwtMTg5NTgxMTcwNiwtNzc1NDk3MDgwLDEwNzAxODk2
+MzcsLTE5MDQ0MjQ0NTUsOTg3ODExNTI1LDQxODMzNjQ5NSwtMz
+IyNzMyMzYzLDExMzQ5MjU3MTEsMTk1NzA5OTM5NSwtMjA4ODc0
+NjYxMl19
 -->
