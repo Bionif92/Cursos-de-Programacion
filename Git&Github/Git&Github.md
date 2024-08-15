@@ -251,9 +251,9 @@ Can also create a new branch with the changes of the detached and then merge to 
 
 ### Understanding .gitignore
 
-
+Some of the files you dont want 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjI2NTIyOSwyNjkzNjQ0MSwxOTA5Mj
+eyJoaXN0b3J5IjpbLTQwMjIwNjkxNiwyNjkzNjQ0MSwxOTA5Mj
 Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwt
 MjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4Nj
 IwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5
