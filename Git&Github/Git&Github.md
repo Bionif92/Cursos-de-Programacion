@@ -281,10 +281,10 @@ git stash apply // bring back your changes, the latest ones
 
 git stash list // see all the stash apllied as a list
 
-git stash apply 1 // go to the latest, if 0 go to the previous
+git stash apply 0 // go to the latest, if 1 go to the previous and so on
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MDk1NTE5MCw1MTMxOTYyMjQsNTc1OT
+eyJoaXN0b3J5IjpbMjAwNTU5NTEyMCw1MTMxOTYyMjQsNTc1OT
 g3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0NCwtMTAyODMwNDkx
 OCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNTI3NTc4MjYyLDQ1OD
 MzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkzLDEzNTkxNjAxNjAs
