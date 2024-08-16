@@ -392,10 +392,12 @@ Tag - to put a tag into the commit to find it quickly
 Git supports two types of tags: lightweight and annotated. A lightweight tag is very much like a branch that doesn't change — **it's just a pointer to a specific commit**. Annotated tags, however, are stored as full objects in the Git database.
 
 ```cmp
+git tag // list of tags in the proyect
 
+git tag 1.0
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODQ5Mzk0MSwtOTM0ODI3OTg1LDEyNT
+eyJoaXN0b3J5IjpbMTI2Mjc1NjAxMCwtOTM0ODI3OTg1LDEyNT
 Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
 OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMT
 g0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcy
