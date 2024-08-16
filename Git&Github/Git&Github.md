@@ -356,12 +356,15 @@ When consider using:
  - If features relies on additional changes on master
  - Feature is finish - implementation into master without merge commit
 
+### Handling Merge Conflicts
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk3NDI1MjEsLTExOTY0MDExNjQsMT
-YxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLTg0MjE3
-MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5NDcsLT
-Y1ODkwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5OCw1MTMxOTYy
-MjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0NCwtMT
-AyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNTI3NTc4
-MjYyXX0=
+eyJoaXN0b3J5IjpbMTk5MjY2Mzk1OCwtMTE5NjQwMTE2NCwxNj
+E2Njk2ODc5LDE3NzIyNDk3NDYsMTg0MDE2NzIwMywtODQyMTcz
+MjgxLDk5Mzc5MzU2MCwxODk2NDcyMjAsMTkzMDU2OTk0NywtNj
+U4OTAxMzAsMTE5OTM5MDIwLC0xNTI3MjgxNjk4LDUxMzE5NjIy
+NCw1NzU5ODczMTgsLTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMD
+I4MzA0OTE4LDI2OTM2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1Nzgy
+NjJdfQ==
 -->
