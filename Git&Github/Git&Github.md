@@ -394,10 +394,14 @@ Git supports two types of tags: lightweight and annotated. A lightweight tag is 
 ```cmp
 git tag // list of tags in the proyect
 
-git tag 1.0
+git tag 1.0 id-commit // lightweight tag
+
+git show 1.0 // show you the commit
+
+git checkout 1.0 // we refer to 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2Mjc1NjAxMCwtOTM0ODI3OTg1LDEyNT
+eyJoaXN0b3J5IjpbMTU2NjA3ODY3MywtOTM0ODI3OTg1LDEyNT
 Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
 OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMT
 g0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcy
