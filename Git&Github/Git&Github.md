@@ -389,15 +389,17 @@ git cherry-pick id-commit // change mistake in master with a new id
 
 Tag - to put a tag into the commit to find it quickly
 
+Git supports two types of tags: lightweight and annotated. A lightweight tag is very much like a branch that doesn't change — **it's just a pointer to a specific commit**. Annotated tags, however, are stored as full objects in the Git database.
+
 ```cmp
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDAxODQwLC05MzQ4Mjc5ODUsMTI1ND
-UwMzUzMywxNjg2MDY1MDQ5LDc1NjY2OTI1MiwxOTkyNjYzOTU4
-LC0xMTk2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxOD
-QwMTY3MjAzLC04NDIxNzMyODEsOTkzNzkzNTYwLDE4OTY0NzIy
-MCwxOTMwNTY5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1Mj
-cyODE2OTgsNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5
-XX0=
+eyJoaXN0b3J5IjpbMTYxODQ5Mzk0MSwtOTM0ODI3OTg1LDEyNT
+Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
+OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMT
+g0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcy
+MjAsMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIwLC0xNT
+I3MjgxNjk4LDUxMzE5NjIyNCw1NzU5ODczMTgsLTQ1Mzg3OTQ0
+OV19
 -->
