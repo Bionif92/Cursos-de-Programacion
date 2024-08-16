@@ -404,12 +404,18 @@ git tag -d 1.0 // delete the tag
 
 git tag -a 2.0  -m "This is the latest version"//annotated
 ```
+
+### Useful Resources & Links
+
+More on merge conflicts =>  [https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging](https://git-scm.com/book/en/v2/Git-Tools-Advanced-Merging#_advanced_merging)
+
+Additional merge strategies =>  [https://git-scm.com/docs/merge-strategies](https://git-scm.com/docs/merge-strategies)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzY1MDQyNSwtOTM0ODI3OTg1LDEyNT
-Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
-OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMT
-g0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcy
-MjAsMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIwLC0xNT
-I3MjgxNjk4LDUxMzE5NjIyNCw1NzU5ODczMTgsLTQ1Mzg3OTQ0
-OV19
+eyJoaXN0b3J5IjpbNzIxOTMyNDM5LC05MzQ4Mjc5ODUsMTI1ND
+UwMzUzMywxNjg2MDY1MDQ5LDc1NjY2OTI1MiwxOTkyNjYzOTU4
+LC0xMTk2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxOD
+QwMTY3MjAzLC04NDIxNzMyODEsOTkzNzkzNTYwLDE4OTY0NzIy
+MCwxOTMwNTY5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1Mj
+cyODE2OTgsNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5
+XX0=
 -->
