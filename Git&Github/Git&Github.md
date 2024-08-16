@@ -272,12 +272,15 @@ Need to add .gitignore to the track files
 
 You make progress, you want to go back to the previous commit, but you dont want to make a new commit of the changes
 
-Stash - internal memory, you can save uncommited unstage
-```js
+Stash - internal memory, you can save uncommited unstaged changes
 
+```js
+git stash // go back to the previous commit
+
+git stach apply // bring back your changes
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2NzY2NjU0LDUxMzE5NjIyNCw1NzU5OD
+eyJoaXN0b3J5IjpbNjM1ODk0MzI5LDUxMzE5NjIyNCw1NzU5OD
 czMTgsLTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMDI4MzA0OTE4
 LDI2OTM2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1NzgyNjIsNDU4Mz
 M2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMsMTM1OTE2MDE2MCwt
