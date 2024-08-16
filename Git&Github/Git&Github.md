@@ -328,16 +328,19 @@ git merge --squash feature // head is not updated, all the new features are adde
 
 ### The Recursive Merge
 
+Additional commits in both master and feature branch after feature branch was created
 ```js
 git merge --no-ff feature // both branches are merged and create the commit by themselves
+
+
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkzNzkzNTYwLDE4OTY0NzIyMCwxOTMwNT
-Y5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgs
-NTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNT
-YzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1Mywt
-MTUyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OT
-A5MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjky
-XX0=
+eyJoaXN0b3J5IjpbLTQwMTA1NDQ3NSw5OTM3OTM1NjAsMTg5Nj
+Q3MjIwLDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwt
+MTUyNzI4MTY5OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nz
+k0NDksMjEzNDI1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwx
+OTA5MjY5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNT
+U5OSwtMjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjBd
+fQ==
 -->
