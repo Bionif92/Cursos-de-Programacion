@@ -318,15 +318,15 @@ Condition: no additional commit in master (after feature branch was created)
 Merge moves HEAD forward but does not create a new commit
 
 ```js
-
+Create the branch feature, and the crate the foulder feature with the changes
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OT
-M5MDIwLC0xNTI3MjgxNjk4LDUxMzE5NjIyNCw1NzU5ODczMTgs
-LTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMDI4MzA0OTE4LDI2OT
-M2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1NzgyNjIsNDU4MzM2MTQs
-NjYwNDM1NTk5LC0yMTM1NDkwOTMsMTM1OTE2MDE2MCwtMTc1NT
-YyODQ2MCwtMTg2MjAxMzY5Miw3NTQwODM2NzIsNTYyNDkwNTg3
-XX0=
+eyJoaXN0b3J5IjpbLTEzODM2MTM2ODEsMTkzMDU2OTk0NywtNj
+U4OTAxMzAsMTE5OTM5MDIwLC0xNTI3MjgxNjk4LDUxMzE5NjIy
+NCw1NzU5ODczMTgsLTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMD
+I4MzA0OTE4LDI2OTM2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1Nzgy
+NjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMsMTM1OT
+E2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NTQwODM2
+NzJdfQ==
 -->
