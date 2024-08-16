@@ -382,14 +382,18 @@ In the example, something in master is wrong, we made a new branch, make new fea
 
 ```cmp
 // from feature switch to master
-git cherry-pick id-commit
+git cherry-pick id-commit // change mistake in master with a new id
 ```
+
+### Working with Tags
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDgyNzk4NSwxMjU0NTAzNTMzLDE2OD
-YwNjUwNDksNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDEx
-NjQsMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLT
-g0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5
-NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5OCw1MT
-MxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0
-NF19
+eyJoaXN0b3J5IjpbLTQwNzEyNjU5MywtOTM0ODI3OTg1LDEyNT
+Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
+OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMT
+g0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcy
+MjAsMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIwLC0xNT
+I3MjgxNjk4LDUxMzE5NjIyNCw1NzU5ODczMTgsLTQ1Mzg3OTQ0
+OV19
 -->
