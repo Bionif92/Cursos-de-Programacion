@@ -354,13 +354,14 @@ When consider using:
 
  - New commits in master branch while working on feature branch
  - If features relies on additional changes on master
+ - Feature is finish - implementation into master without merge commit
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2NjU2NDA1LC0xMTk2NDAxMTY0LDE2MT
-Y2OTY4NzksMTc3MjI0OTc0NiwxODQwMTY3MjAzLC04NDIxNzMy
-ODEsOTkzNzkzNTYwLDE4OTY0NzIyMCwxOTMwNTY5OTQ3LC02NT
-g5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0
-LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMj
-gzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2
-Ml19
+eyJoaXN0b3J5IjpbLTEwMjk3NDI1MjEsLTExOTY0MDExNjQsMT
+YxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLTg0MjE3
+MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5NDcsLT
+Y1ODkwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5OCw1MTMxOTYy
+MjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0NCwtMT
+AyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNTI3NTc4
+MjYyXX0=
 -->
