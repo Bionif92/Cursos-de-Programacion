@@ -340,10 +340,10 @@ git reset --hard HEAD~1
 
 Rebasing -- create a commit in master (m.3) and change it too to the feature branch, then merge rebased feature into master
 
-The rebase does not move commits, it creates new commits. It is a 
+The rebase does not move commits, it creates new commits. **It is a problem if you work with a proyect with more people**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTYwMjc5MSwxNzcyMjQ5NzQ2LDE4ND
+eyJoaXN0b3J5IjpbLTE1NDI5MDAyOCwxNzcyMjQ5NzQ2LDE4ND
 AxNjcyMDMsLTg0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIw
 LDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNz
 I4MTY5OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDks
