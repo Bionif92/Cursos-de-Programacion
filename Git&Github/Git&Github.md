@@ -343,14 +343,15 @@ Rebasing -- create a commit in master (m.3) and change it too to the feature bra
 The rebase does not move commits, it creates new commits. **It is a problem if you work with a proyect with more people**
 
 ```js
-
+//first in feature branch
+git rebase 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4ND
-AxNjcyMDMsLTg0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIw
-LDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNz
-I4MTY5OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDks
-MjEzNDI1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5Mj
-Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OV19
-
+eyJoaXN0b3J5IjpbLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNz
+cyMjQ5NzQ2LDE4NDAxNjcyMDMsLTg0MjE3MzI4MSw5OTM3OTM1
+NjAsMTg5NjQ3MjIwLDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOT
+kzOTAyMCwtMTUyNzI4MTY5OCw1MTMxOTYyMjQsNTc1OTg3MzE4
+LC00NTM4Nzk0NDksMjEzNDI1NjM0NCwtMTAyODMwNDkxOCwyNj
+kzNjQ0MSwxOTA5MjY5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0
+XX0=
 -->
