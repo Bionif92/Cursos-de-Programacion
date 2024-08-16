@@ -323,15 +323,19 @@ Create the branch feature, and the crate the foulder feature with the changes
 git switch master
 git merge feature // head moved to master to the last commit on feature
 
-git merge --squash feature // head is not updated, all the new features are added to the last commit of master
+git merge --squash feature // head is not updated, all the new features are added to the stage, then you have to commit this changes
 ```
 
+### The Recursive Merge
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjY1NDY1NywxOTMwNTY5OTQ3LC02NT
-g5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0
-LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMj
-gzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2
-Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5MywxMzU5MT
-YwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3
-Ml19
+eyJoaXN0b3J5IjpbMTg5NjQ3MjIwLDE5MzA1Njk5NDcsLTY1OD
+kwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5OCw1MTMxOTYyMjQs
+NTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0NCwtMTAyOD
+MwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNTI3NTc4MjYy
+LDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkzLDEzNTkxNj
+AxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNzU0MDgzNjcy
+XX0=
 -->
