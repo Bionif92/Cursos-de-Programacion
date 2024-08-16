@@ -329,11 +329,11 @@ git merge --squash feature // head is not updated, all the new features are adde
 ### The Recursive Merge
 
 ```js
-git merge --no-ff feature
+git merge --no-ff feature // both branches are merged and create the commit by themselves
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMzI5ODg3LDE4OTY0NzIyMCwxOTMwNT
+eyJoaXN0b3J5IjpbOTkzNzkzNTYwLDE4OTY0NzIyMCwxOTMwNT
 Y5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgs
 NTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNT
 YzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1Mywt
