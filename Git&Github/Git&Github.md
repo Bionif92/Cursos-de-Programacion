@@ -368,10 +368,12 @@ In the file, you will see:
  - Compare changes (highlight the differences)
 
 ```cmp
-git status // you can see 
+git status // you can see the problem and the solutions
+// you can fix problem and commit or:
+git merge --abort
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzExMDMxMCwxOTkyNjYzOTU4LC0xMT
+eyJoaXN0b3J5IjpbLTE0MzIyNTQzMCwxOTkyNjYzOTU4LC0xMT
 k2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxODQwMTY3
 MjAzLC04NDIxNzMyODEsOTkzNzkzNTYwLDE4OTY0NzIyMCwxOT
 MwNTY5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2
