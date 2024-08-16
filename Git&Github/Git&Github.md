@@ -332,11 +332,12 @@ Additional commits in both master and feature branch after feature branch was cr
 ```js
 git merge --no-ff feature // both branches are merged and create the commit by themselves
 
-
+To bring back to the latest commit of mater, only have to reset the merge
+git reset --hard HEAD~1
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTA1NDQ3NSw5OTM3OTM1NjAsMTg5Nj
+eyJoaXN0b3J5IjpbLTg0MjE3MzI4MSw5OTM3OTM1NjAsMTg5Nj
 Q3MjIwLDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwt
 MTUyNzI4MTY5OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nz
 k0NDksMjEzNDI1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwx
