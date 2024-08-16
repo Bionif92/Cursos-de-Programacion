@@ -315,13 +315,16 @@ git switch -c feature // new feature branch
 ### Fast Forward Mege
 
 Condition: no additional commit in master (after feature branch was created)
+Merge moves HEAD forward but does not create a new commit
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODUxMTEyNiwxMTk5MzkwMjAsLTE1Mj
-cyODE2OTgsNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5
-LDIxMzQyNTYzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOT
-I2OTA1MywtMTUyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTks
-LTIxMzU0OTA5MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYwLC0xOD
-YyMDEzNjkyLDc1NDA4MzY3Miw1NjI0OTA1ODcsLTQyODIzNzU0
-OV19
+eyJoaXN0b3J5IjpbLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNz
+I4MTY5OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDks
+MjEzNDI1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5Mj
+Y5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwt
+MjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4Nj
+IwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5
+XX0=
 -->
