@@ -322,14 +322,16 @@ Create the branch feature, and the crate the foulder feature with the changes
 
 git switch master
 git merge feature // head moved to master to the last commit on feature
+
+git merge --squash
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjY1MzYwMywxOTMwNTY5OTQ3LC02NT
-g5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0
-LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMj
-gzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2
-Miw0NTgzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5MywxMzU5MT
-YwMTYwLC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3
-Ml19
+eyJoaXN0b3J5IjpbLTE2NDY0NjEyMjAsMTkzMDU2OTk0NywtNj
+U4OTAxMzAsMTE5OTM5MDIwLC0xNTI3MjgxNjk4LDUxMzE5NjIy
+NCw1NzU5ODczMTgsLTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMD
+I4MzA0OTE4LDI2OTM2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1Nzgy
+NjIsNDU4MzM2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMsMTM1OT
+E2MDE2MCwtMTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NTQwODM2
+NzJdfQ==
 -->
