@@ -269,12 +269,23 @@ Need to add .gitignore to the track files
 ## Diving Deeper into Git
 
 ### Understanding the Stash
+
+```js
+the-file.txt //file you want to ignore
+
+Other way
+*.log // all log files are ignored
+!test.log // this one has not to be ignored
+
+Other way
+web-app/* // the foulder with all the things inside are ignored
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkyMzQ5NTUsNTc1OTg3MzE4LC00NT
-M4Nzk0NDksMjEzNDI1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0
-MSwxOTA5MjY5MDUzLC0xNTI3NTc4MjYyLDQ1ODMzNjE0LDY2MD
-QzNTU5OSwtMjEzNTQ5MDkzLDEzNTkxNjAxNjAsLTE3NTU2Mjg0
-NjAsLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2MjQ5MDU4NywtND
-I4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMTgsLTE4OTU4MTE3
-MDZdfQ==
+eyJoaXN0b3J5IjpbNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzOD
+c5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEs
+MTkwOTI2OTA1MywtMTUyNzU3ODI2Miw0NTgzMzYxNCw2NjA0Mz
+U1OTksLTIxMzU0OTA5MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYw
+LC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1NjI0OTA1ODcsLTQyOD
+IzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2
+XX0=
 -->
