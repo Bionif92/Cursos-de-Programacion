@@ -376,13 +376,15 @@ git diff // you can see also the problems you have
 
 ### Cherry Pick
 
-Cherry Picking - Add a specific commit to a branch (HEAD), copies commit with new id
+Cherry Picking - Add a specific commit to a branch (HEAD), copies commit with new id+
+
+In the example, something in master is wrong, we made a new branch, make new features and correct the mistake, and we only want to modify this change in master
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NDUwMzUzMywxNjg2MDY1MDQ5LDc1Nj
-Y2OTI1MiwxOTkyNjYzOTU4LC0xMTk2NDAxMTY0LDE2MTY2OTY4
-NzksMTc3MjI0OTc0NiwxODQwMTY3MjAzLC04NDIxNzMyODEsOT
-kzNzkzNTYwLDE4OTY0NzIyMCwxOTMwNTY5OTQ3LC02NTg5MDEz
-MCwxMTk5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0LDU3NT
-k4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5
-MThdfQ==
+eyJoaXN0b3J5IjpbMjAyNzc4MTIwNiwxMjU0NTAzNTMzLDE2OD
+YwNjUwNDksNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDEx
+NjQsMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLT
+g0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5
+NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5OCw1MT
+MxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0
+NF19
 -->
