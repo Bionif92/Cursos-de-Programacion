@@ -284,13 +284,15 @@ git stash list // see all the stash apllied as a list
 git stash apply 0 // go to the latest, if 1 go to the previous and so on
 
 git stash push - m "message" // push a stach with a message
+
+git stash pop 0 // add the stash to the commit
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjcyODE2OTgsNTEzMTk2MjI0LDU3NT
-k4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5
-MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2Miw0NT
-gzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5MywxMzU5MTYwMTYw
-LC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1Nj
-I0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4
-XX0=
+eyJoaXN0b3J5IjpbLTc2MzQyOTc4MCwtMTUyNzI4MTY5OCw1MT
+MxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0
+NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNT
+I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
+LDEzNTkxNjAxNjAsLTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNz
+U0MDgzNjcyLDU2MjQ5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3
+NF19
 -->
