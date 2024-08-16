@@ -294,11 +294,12 @@ git stash clear // clear all stash
 
 ### Bringing Lost Data Back
 
+If you make a hard reset, how to bring back the lost data:
 ```js
-
+git reflog // storage of 30 days
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMTE4MTUwNCwtMTUyNzI4MTY5OCw1MT
+eyJoaXN0b3J5IjpbMTM0OTIyNTE2NywtMTUyNzI4MTY5OCw1MT
 MxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0
 NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNT
 I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
