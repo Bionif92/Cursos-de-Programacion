@@ -270,23 +270,18 @@ Need to add .gitignore to the track files
 
 ### Understanding the Stash
 
-You make progress, you want to go ba
+You make progress, you want to go back to the previous commit, but you dont want to make a new commit of the changes
+
+Stash - internal memory, you can save uncommited unstage
 ```js
-the-file.txt //file you want to ignore
 
-Other way
-*.log // all log files are ignored
-!test.log // this one has not to be ignored
-
-Other way
-web-app/* // the foulder with all the things inside are ignored
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDUxNjI0NjUsNTEzMTk2MjI0LDU3NT
-k4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5
-MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2Miw0NT
-gzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5MywxMzU5MTYwMTYw
-LC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1Nj
-I0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4
-XX0=
+eyJoaXN0b3J5IjpbNjY2NzY2NjU0LDUxMzE5NjIyNCw1NzU5OD
+czMTgsLTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMDI4MzA0OTE4
+LDI2OTM2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1NzgyNjIsNDU4Mz
+M2MTQsNjYwNDM1NTk5LC0yMTM1NDkwOTMsMTM1OTE2MDE2MCwt
+MTc1NTYyODQ2MCwtMTg2MjAxMzY5Miw3NTQwODM2NzIsNTYyND
+kwNTg3LC00MjgyMzc1NDksNTg5NzA1ODc0LDQwODY4MjExOF19
+
 -->
