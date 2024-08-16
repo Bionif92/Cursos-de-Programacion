@@ -277,16 +277,18 @@ Stash - internal memory, you can save uncommited unstaged changes
 ```js
 git stash // go back to the previous commit
 
-git stach apply // bring back your changes, the latest ones
+git stash apply // bring back your changes, the latest ones
 
-git stash
+git stash list // see all the stash apllied as a list
+
+git stash apply 1 // go to the latest, if 0 go to the previous
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjMyMzA2NjMsNTEzMTk2MjI0LDU3NT
-k4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5
-MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2Miw0NT
-gzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5MywxMzU5MTYwMTYw
-LC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1Nj
-I0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4
-XX0=
+eyJoaXN0b3J5IjpbMjA5MDk1NTE5MCw1MTMxOTYyMjQsNTc1OT
+g3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0NCwtMTAyODMwNDkx
+OCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNTI3NTc4MjYyLDQ1OD
+MzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkzLDEzNTkxNjAxNjAs
+LTE3NTU2Mjg0NjAsLTE4NjIwMTM2OTIsNzU0MDgzNjcyLDU2Mj
+Q5MDU4NywtNDI4MjM3NTQ5LDU4OTcwNTg3NCw0MDg2ODIxMThd
+fQ==
 -->
