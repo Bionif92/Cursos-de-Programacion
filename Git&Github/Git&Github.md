@@ -379,8 +379,13 @@ git diff // you can see also the problems you have
 Cherry Picking - Add a specific commit to a branch (HEAD), copies commit with new id+
 
 In the example, something in master is wrong, we made a new branch, make new features and correct the mistake, and we only want to modify this change in master
+
+```cmp
+// from feature switch to master
+git cherry-pick id-commit
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNzc4MTIwNiwxMjU0NTAzNTMzLDE2OD
+eyJoaXN0b3J5IjpbLTkzNDgyNzk4NSwxMjU0NTAzNTMzLDE2OD
 YwNjUwNDksNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDEx
 NjQsMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLT
 g0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5
