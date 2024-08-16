@@ -299,9 +299,14 @@ If you make a hard reset, how to bring back the lost data:
 git reflog // storage of 30 days, search de commit you lost and have the id
 
 git reset --hard id // head change to the commit we deleted before
+
+Also for branches
+
+git reflog 
+git 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNDg4OTMxNywtMTUyNzI4MTY5OCw1MT
+eyJoaXN0b3J5IjpbLTU5OTkzMTg0NCwtMTUyNzI4MTY5OCw1MT
 MxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0
 NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNT
 I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
