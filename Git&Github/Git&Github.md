@@ -349,12 +349,18 @@ git rebase master // rebase feature with new ids
 git switch master
 git merge feature
 ```
+
+When consider using:
+
+ - New commits in master branch while working on feature branch
+ - If features relies on additional changes on master
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMDM5NDA1NiwtMTE5NjQwMTE2NCwxNj
-E2Njk2ODc5LDE3NzIyNDk3NDYsMTg0MDE2NzIwMywtODQyMTcz
-MjgxLDk5Mzc5MzU2MCwxODk2NDcyMjAsMTkzMDU2OTk0NywtNj
-U4OTAxMzAsMTE5OTM5MDIwLC0xNTI3MjgxNjk4LDUxMzE5NjIy
-NCw1NzU5ODczMTgsLTQ1Mzg3OTQ0OSwyMTM0MjU2MzQ0LC0xMD
-I4MzA0OTE4LDI2OTM2NDQxLDE5MDkyNjkwNTMsLTE1Mjc1Nzgy
-NjJdfQ==
+eyJoaXN0b3J5IjpbOTg2NjU2NDA1LC0xMTk2NDAxMTY0LDE2MT
+Y2OTY4NzksMTc3MjI0OTc0NiwxODQwMTY3MjAzLC04NDIxNzMy
+ODEsOTkzNzkzNTYwLDE4OTY0NzIyMCwxOTMwNTY5OTQ3LC02NT
+g5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0
+LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMj
+gzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2
+Ml19
 -->
