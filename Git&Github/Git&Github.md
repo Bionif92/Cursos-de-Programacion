@@ -373,12 +373,16 @@ git status // you can see the problem and the solutions, same with git log --mer
 git merge --abort
 git diff // you can see also the problems you have
 ```
+
+### Merge vs Rebase vs Cherry Pick
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOT
-Y0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcy
-MDMsLTg0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5Mz
-A1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5
-OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzND
-I1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUz
+eyJoaXN0b3J5IjpbMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5Mj
+Y2Mzk1OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3
+NDYsMTg0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxOD
+k2NDcyMjAsMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIw
+LC0xNTI3MjgxNjk4LDUxMzE5NjIyNCw1NzU5ODczMTgsLTQ1Mz
+g3OTQ0OSwyMTM0MjU2MzQ0LC0xMDI4MzA0OTE4LDI2OTM2NDQx
 XX0=
 -->
