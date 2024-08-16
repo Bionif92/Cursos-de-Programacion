@@ -312,8 +312,12 @@ git switch -c feature // new feature branch
  - Fast Forward
  - Non Fast Forward (Recursive, Octopus, Ours, Subtree)
 
+### Fast Forward Mege
+
+Condition: no additional commit in master (after feature branch was created)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NjI4Nzc5MSwxMTk5MzkwMjAsLTE1Mj
+eyJoaXN0b3J5IjpbMTc3ODUxMTEyNiwxMTk5MzkwMjAsLTE1Mj
 cyODE2OTgsNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5
 LDIxMzQyNTYzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOT
 I2OTA1MywtMTUyNzU3ODI2Miw0NTgzMzYxNCw2NjA0MzU1OTks
