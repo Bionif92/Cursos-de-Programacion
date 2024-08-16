@@ -285,10 +285,10 @@ git stash apply 0 // go to the latest, if 1 go to the previous and so on
 
 git stash push - m "message" // push a stach with a message
 
-git stash pop 0 // add the stash to the commit
+git stash pop 0 // add the stash to the commit, then you need to add and commit into a new commit
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MzQyOTc4MCwtMTUyNzI4MTY5OCw1MT
+eyJoaXN0b3J5IjpbLTQ3NjA0ODMwOCwtMTUyNzI4MTY5OCw1MT
 MxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzNDI1NjM0
 NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUzLC0xNT
 I3NTc4MjYyLDQ1ODMzNjE0LDY2MDQzNTU5OSwtMjEzNTQ5MDkz
