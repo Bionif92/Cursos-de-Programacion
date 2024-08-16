@@ -270,6 +270,7 @@ Need to add .gitignore to the track files
 
 ### Understanding the Stash
 
+You make progress, you want to go ba
 ```js
 the-file.txt //file you want to ignore
 
@@ -281,11 +282,11 @@ Other way
 web-app/* // the foulder with all the things inside are ignored
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzOD
-c5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEs
-MTkwOTI2OTA1MywtMTUyNzU3ODI2Miw0NTgzMzYxNCw2NjA0Mz
-U1OTksLTIxMzU0OTA5MywxMzU5MTYwMTYwLC0xNzU1NjI4NDYw
-LC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1NjI0OTA1ODcsLTQyOD
-IzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4LC0xODk1ODExNzA2
+eyJoaXN0b3J5IjpbLTExNDUxNjI0NjUsNTEzMTk2MjI0LDU3NT
+k4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMjgzMDQ5
+MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2Miw0NT
+gzMzYxNCw2NjA0MzU1OTksLTIxMzU0OTA5MywxMzU5MTYwMTYw
+LC0xNzU1NjI4NDYwLC0xODYyMDEzNjkyLDc1NDA4MzY3Miw1Nj
+I0OTA1ODcsLTQyODIzNzU0OSw1ODk3MDU4NzQsNDA4NjgyMTE4
 XX0=
 -->
