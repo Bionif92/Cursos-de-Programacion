@@ -365,16 +365,17 @@ In the file, you will see:
  - Accept current change
  - Accept incoming change
  - Accept both changes
+ - Compare changes (highlight the differences)
 
 ```cmp
-
+git status // you can see 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzIyNzE4MjksMTk5MjY2Mzk1OCwtMT
-E5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMTg0MDE2
-NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcyMjAsMT
-kzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIwLC0xNTI3Mjgx
-Njk4LDUxMzE5NjIyNCw1NzU5ODczMTgsLTQ1Mzg3OTQ0OSwyMT
-M0MjU2MzQ0LC0xMDI4MzA0OTE4LDI2OTM2NDQxLDE5MDkyNjkw
-NTNdfQ==
+eyJoaXN0b3J5IjpbMTcyMzExMDMxMCwxOTkyNjYzOTU4LC0xMT
+k2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxODQwMTY3
+MjAzLC04NDIxNzMyODEsOTkzNzkzNTYwLDE4OTY0NzIyMCwxOT
+MwNTY5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2
+OTgsNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMz
+QyNTYzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1
+M119
 -->
