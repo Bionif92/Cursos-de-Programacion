@@ -368,16 +368,17 @@ In the file, you will see:
  - Compare changes (highlight the differences)
 
 ```cmp
-git status // you can see the problem and the solutions
+git status // you can see the problem and the solutions, same with git log --merge
 // you can fix problem and commit or:
 git merge --abort
+git diff // you can see also the problems you have
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIyNTQzMCwxOTkyNjYzOTU4LC0xMT
-k2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxODQwMTY3
-MjAzLC04NDIxNzMyODEsOTkzNzkzNTYwLDE4OTY0NzIyMCwxOT
-MwNTY5OTQ3LC02NTg5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2
-OTgsNTEzMTk2MjI0LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMz
-QyNTYzNDQsLTEwMjgzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1
-M119
+eyJoaXN0b3J5IjpbNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOT
+Y0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcy
+MDMsLTg0MjE3MzI4MSw5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5Mz
+A1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAyMCwtMTUyNzI4MTY5
+OCw1MTMxOTYyMjQsNTc1OTg3MzE4LC00NTM4Nzk0NDksMjEzND
+I1NjM0NCwtMTAyODMwNDkxOCwyNjkzNjQ0MSwxOTA5MjY5MDUz
+XX0=
 -->
