@@ -321,11 +321,11 @@ Merge moves HEAD forward but does not create a new commit
 Create the branch feature, and the crate the foulder feature with the changes
 
 git switch master
-git merge feature
+git merge feature // head moved to master to the last commit on feature
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzQzNDIwNywxOTMwNTY5OTQ3LC02NT
+eyJoaXN0b3J5IjpbMTkwNjY1MzYwMywxOTMwNTY5OTQ3LC02NT
 g5MDEzMCwxMTk5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0
 LDU3NTk4NzMxOCwtNDUzODc5NDQ5LDIxMzQyNTYzNDQsLTEwMj
 gzMDQ5MTgsMjY5MzY0NDEsMTkwOTI2OTA1MywtMTUyNzU3ODI2
