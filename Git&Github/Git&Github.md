@@ -374,11 +374,11 @@ git merge --abort
 git diff // you can see also the problems you have
 ```
 
-### Merge vs Rebase vs Cherry Pick
+### Cherry Pick
 
-Cherry Picking - Add a specific commit to a branch (HEAD)
+Cherry Picking - Add a specific commit to a branch (HEAD), copies commit with new id
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NTg5OTI4MiwxNjg2MDY1MDQ5LDc1Nj
+eyJoaXN0b3J5IjpbMTI1NDUwMzUzMywxNjg2MDY1MDQ5LDc1Nj
 Y2OTI1MiwxOTkyNjYzOTU4LC0xMTk2NDAxMTY0LDE2MTY2OTY4
 NzksMTc3MjI0OTc0NiwxODQwMTY3MjAzLC04NDIxNzMyODEsOT
 kzNzkzNTYwLDE4OTY0NzIyMCwxOTMwNTY5OTQ3LC02NTg5MDEz
