@@ -530,13 +530,18 @@ git checkout -b feature-local
 git push origin feature-local // create a remote branch called feature-local
 ````
 
+To have a local tracking branch, you made a copy of remote branch, then delete it, and then generet a local tracking branch from the branch you just uploaded
 
+````
+// VSC terminal
+git --branch feature
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxOTkyNDM5NywxNDYzMjEwMTI2LC04NT
-IyOTc3MjYsMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMjAwNDk1
-NjA0NCw5MDMxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcxNTI3LD
-EwNjQ1NjU1NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLTYwMDM5
-MjQ1MCwxOTA0NDM0MzM4LC05MzQ4Mjc5ODUsMTI1NDUwMzUzMy
-wxNjg2MDY1MDQ5LDc1NjY2OTI1MiwxOTkyNjYzOTU4LC0xMTk2
-NDAxMTY0XX0=
+eyJoaXN0b3J5IjpbNzk4MTkyNDcyLDE4MTk5MjQzOTcsMTQ2Mz
+IxMDEyNiwtODUyMjk3NzI2LDE5NTMxNzU3NTYsLTE3NDU2Mjc4
+NDgsLTIwMDQ5NTYwNDQsOTAzMTM4OTgyLC02NDk2MDU5OTQsMT
+A1OTA3MTUyNywxMDY0NTY1NTYxLDE1Nzc0MDMxNSwxNzIyMTI5
+MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMzOCwtOTM0ODI3OTg1LD
+EyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2
+Mzk1OF19
 -->
