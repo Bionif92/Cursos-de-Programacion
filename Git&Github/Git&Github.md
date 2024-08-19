@@ -483,12 +483,13 @@ Can create branch in Github, and files, to bring them to VSC:
 // VSC terminal
 git ls -remote // can see al branches on remote
 
-git 
+git fetch origin // bring things from remote
+git pull origin // combination of fetch and merge, need to specify the branch 
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NTM2MjM0MywtMjAwNDk1NjA0NCw5MD
+eyJoaXN0b3J5IjpbMTM0Njg4MzcyNywtMjAwNDk1NjA0NCw5MD
 MxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcxNTI3LDEwNjQ1NjU1
 NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLTYwMDM5MjQ1MCwxOT
 A0NDM0MzM4LC05MzQ4Mjc5ODUsMTI1NDUwMzUzMywxNjg2MDY1
