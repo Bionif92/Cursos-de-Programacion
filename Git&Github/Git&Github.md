@@ -485,16 +485,16 @@ git ls -remote // can see al branches on remote
 
 git fetch origin // bring things from remote
 git pull origin// combination of fetch and merge, need to be al branches existing on local
-git checkout remotes/origin/feature-
+git checkout remotes/origin/feature-remote // make a detached head with all changes of remote, and generate new branch with switch
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NTY4MTE2LC0xNzQ1NjI3ODQ4LC0yMD
-A0OTU2MDQ0LDkwMzEzODk4MiwtNjQ5NjA1OTk0LDEwNTkwNzE1
-MjcsMTA2NDU2NTU2MSwxNTc3NDAzMTUsMTcyMjEyOTM0MSwtNj
-AwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgyNzk4NSwxMjU0NTAz
-NTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLDE5OTI2NjM5NTgsLT
-ExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAx
-NjcyMDNdfQ==
+eyJoaXN0b3J5IjpbMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMj
+AwNDk1NjA0NCw5MDMxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcx
+NTI3LDEwNjQ1NjU1NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLT
+YwMDM5MjQ1MCwxOTA0NDM0MzM4LC05MzQ4Mjc5ODUsMTI1NDUw
+MzUzMywxNjg2MDY1MDQ5LDc1NjY2OTI1MiwxOTkyNjYzOTU4LC
+0xMTk2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxODQw
+MTY3MjAzXX0=
 -->
