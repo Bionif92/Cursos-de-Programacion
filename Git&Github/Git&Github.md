@@ -585,10 +585,13 @@ Three types:
  - Organization Account (shared account to collaborate)
  - Enterprise Account (central managment of multiple accounts)
 
-### Chan
+### Changing repository from public to private
+
+To change Personal Account into Organzation:
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODA0MDI1NDIsMTYzMzU0NTA2NywtMT
+eyJoaXN0b3J5IjpbLTIxMDI5NTczMzgsMTYzMzU0NTA2NywtMT
 QwNDU4OTIzMyw1MTM1Nzc3MzIsMTgxOTkyNDM5NywxNDYzMjEw
 MTI2LC04NTIyOTc3MjYsMTk1MzE3NTc1NiwtMTc0NTYyNzg0OC
 wtMjAwNDk1NjA0NCw5MDMxMzg5ODIsLTY0OTYwNTk5NCwxMDU5
