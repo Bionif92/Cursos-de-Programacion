@@ -527,11 +527,12 @@ If you want to add a branch to the cloned:
 ````
 // VSC terminal
 git checkout -b feature-local
+git push origin feature-local // create a remote branch called feature-local
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMjY3NjQ1MywxNDYzMjEwMTI2LC04NT
+eyJoaXN0b3J5IjpbMTgxOTkyNDM5NywxNDYzMjEwMTI2LC04NT
 IyOTc3MjYsMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMjAwNDk1
 NjA0NCw5MDMxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcxNTI3LD
 EwNjQ1NjU1NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLTYwMDM5
