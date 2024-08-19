@@ -422,9 +422,15 @@ Github -  Remote repository
 
 Create a Repository on GitHub
 
+### Connect Local with Remote Repository
+
+We will use the second option: push an existing repository from the command line
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTEwNTI3ODcyLDE1Nzc0MDMxNSwxNzIyMT
+eyJoaXN0b3J5IjpbNzExNzAzODc3LDE1Nzc0MDMxNSwxNzIyMT
 I5MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMzOCwtOTM0ODI3OTg1
 LDEyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5Mj
 Y2Mzk1OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3
