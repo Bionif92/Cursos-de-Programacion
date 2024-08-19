@@ -412,12 +412,16 @@ More on merge conflicts =>  [https://git-scm.com/book/en/v2/Git-Tools-Advanced-M
 Additional merge strategies =>  [https://git-scm.com/docs/merge-strategies](https://git-scm.com/docs/merge-strategies)
 
 ## Understanding GitHub
+
+Github -  Remote repository
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDQzNDMzOCwtOTM0ODI3OTg1LDEyNT
-Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
-OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMT
-g0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxODk2NDcy
-MjAsMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIwLC0xNT
-I3MjgxNjk4LDUxMzE5NjIyNCw1NzU5ODczMTgsLTQ1Mzg3OTQ0
-OV19
+eyJoaXN0b3J5IjpbLTYwMDM5MjQ1MCwxOTA0NDM0MzM4LC05Mz
+Q4Mjc5ODUsMTI1NDUwMzUzMywxNjg2MDY1MDQ5LDc1NjY2OTI1
+MiwxOTkyNjYzOTU4LC0xMTk2NDAxMTY0LDE2MTY2OTY4NzksMT
+c3MjI0OTc0NiwxODQwMTY3MjAzLC04NDIxNzMyODEsOTkzNzkz
+NTYwLDE4OTY0NzIyMCwxOTMwNTY5OTQ3LC02NTg5MDEzMCwxMT
+k5MzkwMjAsLTE1MjcyODE2OTgsNTEzMTk2MjI0LDU3NTk4NzMx
+OF19
 -->
