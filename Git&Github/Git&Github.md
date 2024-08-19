@@ -431,14 +431,14 @@ We will use the second option: **push an existing repository from the command li
 git init
 git add .
 git commit 
-git remote add origin (url)
+git remote add origin (url) //url given in the repository
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzUwMzEzMiwxNTc3NDAzMTUsMTcyMj
+eyJoaXN0b3J5IjpbMTEwMTY3ODU4OCwxNTc3NDAzMTUsMTcyMj
 EyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgyNzk4
 NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLDE5OT
 I2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5
