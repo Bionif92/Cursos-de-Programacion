@@ -428,18 +428,21 @@ We will use the second option: **push an existing repository from the command li
 
 ````
 // VSC terminal
-
+git init
+git add .
+git commit 
+git remote add origin (url)
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQyMTE4Mzk1LDE1Nzc0MDMxNSwxNzIyMT
-I5MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMzOCwtOTM0ODI3OTg1
-LDEyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5Mj
-Y2Mzk1OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIyNDk3
-NDYsMTg0MDE2NzIwMywtODQyMTczMjgxLDk5Mzc5MzU2MCwxOD
-k2NDcyMjAsMTkzMDU2OTk0NywtNjU4OTAxMzAsMTE5OTM5MDIw
-XX0=
+eyJoaXN0b3J5IjpbMTE4NzUwMzEzMiwxNTc3NDAzMTUsMTcyMj
+EyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgyNzk4
+NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLDE5OT
+I2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5
+NzQ2LDE4NDAxNjcyMDMsLTg0MjE3MzI4MSw5OTM3OTM1NjAsMT
+g5NjQ3MjIwLDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAy
+MF19
 -->
