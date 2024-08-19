@@ -477,10 +477,12 @@ git branch -r // can see only remote
 git push origin feature 
 ````
 
+Can create branch in Github, and files, to bring th
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MTY2NjQwMiwtMjAwNDk1NjA0NCw5MD
+eyJoaXN0b3J5IjpbMTc1MzkwMjYyNSwtMjAwNDk1NjA0NCw5MD
 MxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcxNTI3LDEwNjQ1NjU1
 NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLTYwMDM5MjQ1MCwxOT
 A0NDM0MzM4LC05MzQ4Mjc5ODUsMTI1NDUwMzUzMywxNjg2MDY1
