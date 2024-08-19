@@ -501,16 +501,18 @@ git push
 git pull //need to be on the branch you want to overwrite
 
 git branch -vv // can see the conection to remote tracking branches
+
+git remote // can see the servers, in this case origin
 ````
 **Keep the same names for local and remote tracking branches**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MjI5NzcyNiwxOTUzMTc1NzU2LC0xNz
-Q1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNjQ5NjA1
-OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MSwxNTc3NDAzMTUsMT
-cyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgy
-Nzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLD
-E5OTI2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcy
-MjQ5NzQ2XX0=
+eyJoaXN0b3J5IjpbLTE0NDY3OTU4ODUsLTg1MjI5NzcyNiwxOT
+UzMTc1NzU2LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEz
+ODk4MiwtNjQ5NjA1OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MS
+wxNTc3NDAzMTUsMTcyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0
+MzQzMzgsLTkzNDgyNzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwND
+ksNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDExNjQsMTYx
+NjY5Njg3OV19
 -->
