@@ -498,13 +498,15 @@ git branch --track feature-remote origin/feature-remote // create local tracking
 //if you made a change in local, the remote tracking branch is not changed
 git push
 
-git pull //need to be on the branch
+git pull //need to be on the branch you want to overwrite
+
+git branch -vv // can see the conection to remote tracking branches
 ````
 **Keep the same names for local and remote tracking branches**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NjMzMDUxNiwxOTUzMTc1NzU2LC0xNz
+eyJoaXN0b3J5IjpbLTg1MjI5NzcyNiwxOTUzMTc1NzU2LC0xNz
 Q1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNjQ5NjA1
 OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MSwxNTc3NDAzMTUsMT
 cyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgy
