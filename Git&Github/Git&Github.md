@@ -433,18 +433,19 @@ git add .
 git commit 
 git remote add origin (url) //url given in the repository
 git branch -M main // rename master to main, if you want you can keep master
-git push -u origin main // or master
+git push origin main // or master
 ````
+Appear a Pop Up to sign to GitHub
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NDU2NTU2MSwxNTc3NDAzMTUsMTcyMj
-EyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgyNzk4
-NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLDE5OT
-I2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5
-NzQ2LDE4NDAxNjcyMDMsLTg0MjE3MzI4MSw5OTM3OTM1NjAsMT
-g5NjQ3MjIwLDE5MzA1Njk5NDcsLTY1ODkwMTMwLDExOTkzOTAy
-MF19
+eyJoaXN0b3J5IjpbLTE3MzI1NjY5NDMsMTA2NDU2NTU2MSwxNT
+c3NDAzMTUsMTcyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQz
+MzgsLTkzNDgyNzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNz
+U2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5
+Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLTg0MjE3MzI4MS
+w5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5NDcsLTY1ODkw
+MTMwXX0=
 -->
