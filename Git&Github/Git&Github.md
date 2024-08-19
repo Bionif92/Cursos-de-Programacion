@@ -439,17 +439,20 @@ Appear a Pop Up to sign to GitHub, need token
 
 ### Create Token
 
-Github/Menu/Settings/Developers Settings/
+Github/Menu/Settings/Developers Settings/Personal Access Tokens/Generate New Token
+
+Need to give access to the sepecif things we need:
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTMwMDUwODUsMTA2NDU2NTU2MSwxNT
-c3NDAzMTUsMTcyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQz
-MzgsLTkzNDgyNzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNz
-U2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5
-Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLTg0MjE3MzI4MS
-w5OTM3OTM1NjAsMTg5NjQ3MjIwLDE5MzA1Njk5NDcsLTY1ODkw
-MTMwXX0=
+eyJoaXN0b3J5IjpbLTg1MDMxOTYzOCwxMDY0NTY1NTYxLDE1Nz
+c0MDMxNSwxNzIyMTI5MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMz
+OCwtOTM0ODI3OTg1LDEyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NT
+Y2NjkyNTIsMTk5MjY2Mzk1OCwtMTE5NjQwMTE2NCwxNjE2Njk2
+ODc5LDE3NzIyNDk3NDYsMTg0MDE2NzIwMywtODQyMTczMjgxLD
+k5Mzc5MzU2MCwxODk2NDcyMjAsMTkzMDU2OTk0NywtNjU4OTAx
+MzBdfQ==
 -->
