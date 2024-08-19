@@ -468,14 +468,22 @@ In Github, in history you can see the commits
 
 Copy of remote branch in local, to push and pull first modify this
 
+Example: create another branch
+
+````
+// VSC terminal
+git branch -a // can see local and remote tracking branch
+git branch -r // can see only remote
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAxNzk3MzczLC0yMDA0OTU2MDQ0LDkwMz
-EzODk4MiwtNjQ5NjA1OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2
-MSwxNTc3NDAzMTUsMTcyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MD
-Q0MzQzMzgsLTkzNDgyNzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUw
-NDksNzU2NjY5MjUyLDE5OTI2NjM5NTgsLTExOTY0MDExNjQsMT
-YxNjY5Njg3OSwxNzcyMjQ5NzQ2LDE4NDAxNjcyMDMsLTg0MjE3
-MzI4MV19
+eyJoaXN0b3J5IjpbLTEwMDAzOTIwMzYsLTIwMDQ5NTYwNDQsOT
+AzMTM4OTgyLC02NDk2MDU5OTQsMTA1OTA3MTUyNywxMDY0NTY1
+NTYxLDE1Nzc0MDMxNSwxNzIyMTI5MzQxLC02MDAzOTI0NTAsMT
+kwNDQzNDMzOCwtOTM0ODI3OTg1LDEyNTQ1MDM1MzMsMTY4NjA2
+NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1OCwtMTE5NjQwMTE2NC
+wxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMTg0MDE2NzIwMywtODQy
+MTczMjgxXX0=
 -->
