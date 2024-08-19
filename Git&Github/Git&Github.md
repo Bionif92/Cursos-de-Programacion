@@ -518,14 +518,15 @@ Dont use git init
 git clone copied-url
 
 cd github-basic // change to the file you cloned
-
+//Need to create a local tracking branck to work localy
+git branch --track
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MTg4NjI4OSwxNDYzMjEwMTI2LC04NT
+eyJoaXN0b3J5IjpbLTM5NzA5MTEwNywxNDYzMjEwMTI2LC04NT
 IyOTc3MjYsMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMjAwNDk1
 NjA0NCw5MDMxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcxNTI3LD
 EwNjQ1NjU1NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLTYwMDM5
