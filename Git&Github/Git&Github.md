@@ -606,8 +606,10 @@ To give the infomation to work on our proyects, need the collaboration access
 
 Repository/Settings/Manager Acess
 
+Invite Collaborators
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzA2OTg0MiwyMzA2NDIyNTQsMzMzMT
+eyJoaXN0b3J5IjpbLTc3NDM2NTQ4MCwyMzA2NDIyNTQsMzMzMT
 g5MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1ODky
 MzMsNTEzNTc3NzMyLDE4MTk5MjQzOTcsMTQ2MzIxMDEyNiwtOD
 UyMjk3NzI2LDE5NTMxNzU3NTYsLTE3NDU2Mjc4NDgsLTIwMDQ5
