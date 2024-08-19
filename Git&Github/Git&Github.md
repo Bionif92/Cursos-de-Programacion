@@ -622,10 +622,12 @@ In a private repository, repository owners can only write access to collaborator
 
 Profile/Settings/Moderation Settings/Interaction Limits
 
-Can limit int
+Can limit interaction for public repositories
+
+You have the moderation setting for each public repositories too
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzQzNzY3OTQsMTAyOTA1OTY5NiwyMD
+eyJoaXN0b3J5IjpbLTE4ODAyNjIyOTYsMTAyOTA1OTY5NiwyMD
 A3NDQ5MTM3LC0yMDc5NjIxODc3LC0xOTcxNDI5MDUwLDIzMDY0
 MjI1NCwzMzMxODkzNDksLTExMjUwNDEzODAsMTYzMzU0NTA2Ny
 wtMTQwNDU4OTIzMyw1MTM1Nzc3MzIsMTgxOTkyNDM5NywxNDYz
