@@ -552,10 +552,11 @@ Need to fetch to refresh the data from remote
 
 ````
 // VSC terminal
-git 
+git branch -D feature // delete local branch
+git branch --delete --remotes remote/origin/feature //
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM1NDY2MjExLDUxMzU3NzczMiwxODE5OT
+eyJoaXN0b3J5IjpbODI2NTQwMzk4LDUxMzU3NzczMiwxODE5OT
 I0Mzk3LDE0NjMyMTAxMjYsLTg1MjI5NzcyNiwxOTUzMTc1NzU2
 LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNj
 Q5NjA1OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MSwxNTc3NDAz
