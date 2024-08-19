@@ -488,13 +488,21 @@ git pull origin// combination of fetch and merge, need to be al branches existin
 git checkout remotes/origin/feature-remote // make a detached head with all changes of remote, and generate new branch with switch
 ````
 
+### Creating local tracking branches
+
+Create local tracking branch to feature-remote
+````
+// VSC terminal
+git branch --track
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMj
-AwNDk1NjA0NCw5MDMxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcx
-NTI3LDEwNjQ1NjU1NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLT
-YwMDM5MjQ1MCwxOTA0NDM0MzM4LC05MzQ4Mjc5ODUsMTI1NDUw
-MzUzMywxNjg2MDY1MDQ5LDc1NjY2OTI1MiwxOTkyNjYzOTU4LC
-0xMTk2NDAxMTY0LDE2MTY2OTY4NzksMTc3MjI0OTc0NiwxODQw
-MTY3MjAzXX0=
+eyJoaXN0b3J5IjpbLTUxNjkwMzU3OSwxOTUzMTc1NzU2LC0xNz
+Q1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNjQ5NjA1
+OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MSwxNTc3NDAzMTUsMT
+cyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgy
+Nzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLD
+E5OTI2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcy
+MjQ5NzQ2XX0=
 -->
