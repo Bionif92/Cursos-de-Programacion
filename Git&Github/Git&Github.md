@@ -560,8 +560,13 @@ git push origin --delete feature // delete remote branch
 **If you delete remote branch, the remote tracking branch will be deleted too**
 
 **If you want to delete a commit, delete it normally and then push, this will bring problems if you work with others**
+
+````
+// VSC terminal
+git push 
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NDA2ODY4Niw1MTM1Nzc3MzIsMTgxOT
+eyJoaXN0b3J5IjpbLTIyNjU5MTc1MCw1MTM1Nzc3MzIsMTgxOT
 kyNDM5NywxNDYzMjEwMTI2LC04NTIyOTc3MjYsMTk1MzE3NTc1
 NiwtMTc0NTYyNzg0OCwtMjAwNDk1NjA0NCw5MDMxMzg5ODIsLT
 Y0OTYwNTk5NCwxMDU5MDcxNTI3LDEwNjQ1NjU1NjEsMTU3NzQw
