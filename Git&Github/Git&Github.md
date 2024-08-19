@@ -464,10 +464,14 @@ git branch -a // can see local and remote tracking branch
 
 In Github, in history you can see the commits
 
+### Remote Tracking Branch
+
+Copy of remote branch in local 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODcwNTAxMTYsOTAzMTM4OTgyLC02ND
+eyJoaXN0b3J5IjpbLTIwMDQ5NTYwNDQsOTAzMTM4OTgyLC02ND
 k2MDU5OTQsMTA1OTA3MTUyNywxMDY0NTY1NTYxLDE1Nzc0MDMx
 NSwxNzIyMTI5MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMzOCwtOT
 M0ODI3OTg1LDEyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NTY2Njky
