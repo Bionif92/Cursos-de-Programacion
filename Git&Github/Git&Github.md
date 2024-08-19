@@ -443,12 +443,19 @@ Github/Menu/Settings/Developers Settings/Personal Access Tokens/Generate New Tok
 
 Need to give access to the sepecif things we need:
 
-
+ - Repo
+ - workflow
+ - write packages
+ - delete packages
+ - gits
+ - users
+ - delete repo
+ - write discussions
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDMxOTYzOCwxMDY0NTY1NTYxLDE1Nz
+eyJoaXN0b3J5IjpbMTA1OTA3MTUyNywxMDY0NTY1NTYxLDE1Nz
 c0MDMxNSwxNzIyMTI5MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMz
 OCwtOTM0ODI3OTg1LDEyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NT
 Y2NjkyNTIsMTk5MjY2Mzk1OCwtMTE5NjQwMTE2NCwxNjE2Njk2
