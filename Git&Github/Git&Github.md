@@ -544,9 +544,13 @@ git --branch feature-local origin/feature-local
 git push -u origin feature-upstream
 ````
 
-More easy, create the local tracking branch when 
+**More easy, create the local tracking branch when you push the local branch into remote**
+
+### Deleting Remote Branches & Public Commits
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDg3NjUwMiw1MTM1Nzc3MzIsMTgxOT
+eyJoaXN0b3J5IjpbMTE0MzQwMjAzOSw1MTM1Nzc3MzIsMTgxOT
 kyNDM5NywxNDYzMjEwMTI2LC04NTIyOTc3MjYsMTk1MzE3NTc1
 NiwtMTc0NTYyNzg0OCwtMjAwNDk1NjA0NCw5MDMxMzg5ODIsLT
 Y0OTYwNTk5NCwxMDU5MDcxNTI3LDEwNjQ1NjU1NjEsMTU3NzQw
