@@ -503,12 +503,14 @@ git pull //need to be on the branch you want to overwrite
 git branch -vv // can see the conection to remote tracking branches
 
 git remote // can see the servers, in this case origin
+
+git show remote origin // information
 ````
 **Keep the same names for local and remote tracking branches**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDY3OTU4ODUsLTg1MjI5NzcyNiwxOT
+eyJoaXN0b3J5IjpbLTE4MTQ2MTMwOTIsLTg1MjI5NzcyNiwxOT
 UzMTc1NzU2LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEz
 ODk4MiwtNjQ5NjA1OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MS
 wxNTc3NDAzMTUsMTcyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0
