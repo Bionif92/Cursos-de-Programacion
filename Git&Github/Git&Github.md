@@ -484,16 +484,16 @@ Can create branch in Github, and files, to bring them to VSC:
 git ls -remote // can see al branches on remote
 
 git fetch origin // bring things from remote
-git pull origin // combination of fetch and merge, need to specify the branch 
+git pull origin master// combination of fetch and merge, need to specify the branch or origin
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0Njg4MzcyNywtMjAwNDk1NjA0NCw5MD
-MxMzg5ODIsLTY0OTYwNTk5NCwxMDU5MDcxNTI3LDEwNjQ1NjU1
-NjEsMTU3NzQwMzE1LDE3MjIxMjkzNDEsLTYwMDM5MjQ1MCwxOT
-A0NDM0MzM4LC05MzQ4Mjc5ODUsMTI1NDUwMzUzMywxNjg2MDY1
-MDQ5LDc1NjY2OTI1MiwxOTkyNjYzOTU4LC0xMTk2NDAxMTY0LD
-E2MTY2OTY4NzksMTc3MjI0OTc0NiwxODQwMTY3MjAzLC04NDIx
-NzMyODFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDU2Mjc4NDgsLTIwMDQ5NTYwNDQsOT
+AzMTM4OTgyLC02NDk2MDU5OTQsMTA1OTA3MTUyNywxMDY0NTY1
+NTYxLDE1Nzc0MDMxNSwxNzIyMTI5MzQxLC02MDAzOTI0NTAsMT
+kwNDQzNDMzOCwtOTM0ODI3OTg1LDEyNTQ1MDM1MzMsMTY4NjA2
+NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1OCwtMTE5NjQwMTE2NC
+wxNjE2Njk2ODc5LDE3NzIyNDk3NDYsMTg0MDE2NzIwMywtODQy
+MTczMjgxXX0=
 -->
