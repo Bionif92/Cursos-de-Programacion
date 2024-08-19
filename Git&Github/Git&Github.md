@@ -461,8 +461,10 @@ git commit
 git push origin master
 ````
 
+In Github, in history you can see the commits
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNzEwOTAwLC02NDk2MDU5OTQsMTA1OT
+eyJoaXN0b3J5IjpbOTAzMTM4OTgyLC02NDk2MDU5OTQsMTA1OT
 A3MTUyNywxMDY0NTY1NTYxLDE1Nzc0MDMxNSwxNzIyMTI5MzQx
 LC02MDAzOTI0NTAsMTkwNDQzNDMzOCwtOTM0ODI3OTg1LDEyNT
 Q1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMTk5MjY2Mzk1
