@@ -510,13 +510,19 @@ git show remote origin // information
 
 ### Cloning a Remote Repository
 
-On GitHub, Code button, Clone option
+On GitHub, Code button, Clone option, copy url
+
+````
+// VSC terminal
+Dont use git init
+git clone copied-url
+````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwOTQ0MjM5LDE0NjMyMTAxMjYsLTg1Mj
+eyJoaXN0b3J5IjpbNTUxNDExMTE0LDE0NjMyMTAxMjYsLTg1Mj
 I5NzcyNiwxOTUzMTc1NzU2LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2
 MDQ0LDkwMzEzODk4MiwtNjQ5NjA1OTk0LDEwNTkwNzE1MjcsMT
 A2NDU2NTU2MSwxNTc3NDAzMTUsMTcyMjEyOTM0MSwtNjAwMzky
