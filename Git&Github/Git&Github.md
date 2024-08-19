@@ -582,11 +582,11 @@ git push --force origin master
 Three types:
 
  - Personal User Account
- - Organization Account
+ - Organization Account (shared account to coo)
  - Enterprise Account
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTkyODcwNiwxNjMzNTQ1MDY3LC0xND
+eyJoaXN0b3J5IjpbLTczMzA0NjQ5MywxNjMzNTQ1MDY3LC0xND
 A0NTg5MjMzLDUxMzU3NzczMiwxODE5OTI0Mzk3LDE0NjMyMTAx
 MjYsLTg1MjI5NzcyNiwxOTUzMTc1NzU2LC0xNzQ1NjI3ODQ4LC
 0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNjQ5NjA1OTk0LDEwNTkw
