@@ -493,16 +493,17 @@ git checkout remotes/origin/feature-remote // make a detached head with all chan
 Create local tracking branch to feature-remote
 ````
 // VSC terminal
-git branch --track feature-remote-local origin/feature-remote
+git branch --track feature-remote-local origin/feature-remote // create local tracking branch
+
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTcxMDQzMCwxOTUzMTc1NzU2LC0xNz
-Q1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNjQ5NjA1
-OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MSwxNTc3NDAzMTUsMT
-cyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgy
-Nzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLD
-E5OTI2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcy
-MjQ5NzQ2XX0=
+eyJoaXN0b3J5IjpbOTEwMzg0MDMwLDE5NTMxNzU3NTYsLTE3ND
+U2Mjc4NDgsLTIwMDQ5NTYwNDQsOTAzMTM4OTgyLC02NDk2MDU5
+OTQsMTA1OTA3MTUyNywxMDY0NTY1NTYxLDE1Nzc0MDMxNSwxNz
+IyMTI5MzQxLC02MDAzOTI0NTAsMTkwNDQzNDMzOCwtOTM0ODI3
+OTg1LDEyNTQ1MDM1MzMsMTY4NjA2NTA0OSw3NTY2NjkyNTIsMT
+k5MjY2Mzk1OCwtMTE5NjQwMTE2NCwxNjE2Njk2ODc5LDE3NzIy
+NDk3NDZdfQ==
 -->
