@@ -558,12 +558,14 @@ git push origin --delete feature // delete remote branch
 ````
 
 **If you delete remote branch, the remote tracking branch will be deleted too**
+
+**If you want to delete a commit, delete it normally and then push, this will bring problems if you work with others**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQzNzY2MDcyLDUxMzU3NzczMiwxODE5OT
-I0Mzk3LDE0NjMyMTAxMjYsLTg1MjI5NzcyNiwxOTUzMTc1NzU2
-LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkwMzEzODk4MiwtNj
-Q5NjA1OTk0LDEwNTkwNzE1MjcsMTA2NDU2NTU2MSwxNTc3NDAz
-MTUsMTcyMjEyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLT
-kzNDgyNzk4NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5
-MjUyXX0=
+eyJoaXN0b3J5IjpbLTU0NDA2ODY4Niw1MTM1Nzc3MzIsMTgxOT
+kyNDM5NywxNDYzMjEwMTI2LC04NTIyOTc3MjYsMTk1MzE3NTc1
+NiwtMTc0NTYyNzg0OCwtMjAwNDk1NjA0NCw5MDMxMzg5ODIsLT
+Y0OTYwNTk5NCwxMDU5MDcxNTI3LDEwNjQ1NjU1NjEsMTU3NzQw
+MzE1LDE3MjIxMjkzNDEsLTYwMDM5MjQ1MCwxOTA0NDM0MzM4LC
+05MzQ4Mjc5ODUsMTI1NDUwMzUzMywxNjg2MDY1MDQ5LDc1NjY2
+OTI1Ml19
 -->
