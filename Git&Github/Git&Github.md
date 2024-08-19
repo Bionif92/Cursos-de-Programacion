@@ -432,13 +432,15 @@ git init
 git add .
 git commit 
 git remote add origin (url) //url given in the repository
+git branch -M main // rename master to main, if you want you can keep master
+git push -u origin main // or master
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTY3ODU4OCwxNTc3NDAzMTUsMTcyMj
+eyJoaXN0b3J5IjpbMTA2NDU2NTU2MSwxNTc3NDAzMTUsMTcyMj
 EyOTM0MSwtNjAwMzkyNDUwLDE5MDQ0MzQzMzgsLTkzNDgyNzk4
 NSwxMjU0NTAzNTMzLDE2ODYwNjUwNDksNzU2NjY5MjUyLDE5OT
 I2NjM5NTgsLTExOTY0MDExNjQsMTYxNjY5Njg3OSwxNzcyMjQ5
