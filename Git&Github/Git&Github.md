@@ -632,12 +632,14 @@ Add other account into the organization, member role access
 
 For Big Proyects
 
+Profile/Settings/Organizations
 
+Only one O
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMTA4MDA2NywxNTA4NzY5OTcsMTAyOT
+eyJoaXN0b3J5IjpbLTg1MjUxMzcyNCwxNTA4NzY5OTcsMTAyOT
 A1OTY5NiwyMDA3NDQ5MTM3LC0yMDc5NjIxODc3LC0xOTcxNDI5
 MDUwLDIzMDY0MjI1NCwzMzMxODkzNDksLTExMjUwNDEzODAsMT
 YzMzU0NTA2NywtMTQwNDU4OTIzMyw1MTM1Nzc3MzIsMTgxOTky
