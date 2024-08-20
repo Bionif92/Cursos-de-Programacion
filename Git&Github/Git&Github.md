@@ -661,7 +661,7 @@ The contributor ask original user if want to see the modified repo - pull reques
 
 ### Forking a Repository
 
-Repo/Fork (right top corner)
+Repo/Fork (right top corner)/select the destination of the copy
 
 
 
@@ -671,7 +671,7 @@ Repo/Fork (right top corner)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjM4MjcyNjcsMTU3ODY0MjU1NSwyMT
+eyJoaXN0b3J5IjpbLTE5NDIyMjQxOTIsMTU3ODY0MjU1NSwyMT
 E1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAx
 MDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLD
 E1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2
