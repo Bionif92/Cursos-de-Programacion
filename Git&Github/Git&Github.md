@@ -656,7 +656,8 @@ Allows you to give certain access to each repository intead of entering every me
 
 Contribution - give value but not know the other person
 
-Generate Remote Copy Repository from the original user
+Generate Remote Copy Repository from the original user and use this to clone it
+The contributor 
 
 
 
@@ -666,7 +667,7 @@ Generate Remote Copy Repository from the original user
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzQ2ODE3MiwyMTE1MDMyNjI5LC0xNj
+eyJoaXN0b3J5IjpbMTY3NjAxMjc1MSwyMTE1MDMyNjI5LC0xNj
 kzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAxMDU5MCwzNDYxMDI2
 ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1MDg3Njk5NywxMD
 I5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4NzcsLTE5NzE0
