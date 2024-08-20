@@ -640,15 +640,17 @@ In the Repository/Settings/Manage Access -- you can add members on base roll and
 
 You can add outside collaborators - Repo/Setting/Manage Access - Invite teams or people
 
+If you can only read the repository you cant overwrite
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1MD
-g3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4
-NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OSwtMT
-EyNTA0MTM4MCwxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUxMzU3
-NzczMiwxODE5OTI0Mzk3LDE0NjMyMTAxMjYsLTg1MjI5NzcyNi
-wxOTUzMTc1NzU2LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkw
-MzEzODk4Ml19
+eyJoaXN0b3J5IjpbLTUzNjQzNTMyMiwtMzU3NjAyOTg1LC03OD
+U1MjAyNzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEz
+NywtMjA3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMz
+MzMTg5MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1
+ODkyMzMsNTEzNTc3NzMyLDE4MTk5MjQzOTcsMTQ2MzIxMDEyNi
+wtODUyMjk3NzI2LDE5NTMxNzU3NTYsLTE3NDU2Mjc4NDgsLTIw
+MDQ5NTYwNDRdfQ==
 -->
