@@ -697,6 +697,9 @@ VueJS GitHub Page => [https://github.com/vuejs/vue](https://github.com/vuejs/vue
 
 ## Real Proyect
 
+Can delete node modules and intall them again with npm install
+You can put it in .gitignore
+
 
 
 
@@ -707,11 +710,11 @@ VueJS GitHub Page => [https://github.com/vuejs/vue](https://github.com/vuejs/vue
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjI0NzYzMDQsMjYyNTc2MDkyLC0xMD
-A3NzY0NzEsLTE3NDY2NTQyMzAsMzQ3NTgyMjgsMjA2NzQ4NTQ4
-MSwtMTMxMzIxMTEwNywxNTc4NjQyNTU1LDIxMTUwMzI2MjksLT
-E2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNjI4MDEwNTkwLDM0NjEw
-MjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNzIsMTUwODc2OTk3LD
-EwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3OTYyMTg3NywtMTk3
-MTQyOTA1MF19
+eyJoaXN0b3J5IjpbLTEyMjY3OTQzNjksLTE2NjI0NzYzMDQsMj
+YyNTc2MDkyLC0xMDA3NzY0NzEsLTE3NDY2NTQyMzAsMzQ3NTgy
+MjgsMjA2NzQ4NTQ4MSwtMTMxMzIxMTEwNywxNTc4NjQyNTU1LD
+IxMTUwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNjI4
+MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNz
+IsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3
+OTYyMTg3N119
 -->
