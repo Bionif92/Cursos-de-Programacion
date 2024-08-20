@@ -716,6 +716,8 @@ Need to fix the code because of the conflicts
 
 **Fork is created by the collaborator profile**, then clone the file and work locally, then push it again to github, then create the pull request, clic on compare across forks, and select the proyect
 
+When you merge the pull you are making a commit, on description put the detaill of merge
+
 
 
 
@@ -726,11 +728,11 @@ Need to fix the code because of the conflicts
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxODIwODgxOSwxOTQzMjA1MjIxLC0xNT
-YyMzQ1NjY4LC0xMDY5NDQwNjksLTEyMjY3OTQzNjksLTE2NjI0
-NzYzMDQsMjYyNTc2MDkyLC0xMDA3NzY0NzEsLTE3NDY2NTQyMz
-AsMzQ3NTgyMjgsMjA2NzQ4NTQ4MSwtMTMxMzIxMTEwNywxNTc4
-NjQyNTU1LDIxMTUwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQyMj
-EyLC0xNjI4MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03
-ODU1MjAyNzJdfQ==
+eyJoaXN0b3J5IjpbLTU4OTQ3NjUzMywxMzE4MjA4ODE5LDE5ND
+MyMDUyMjEsLTE1NjIzNDU2NjgsLTEwNjk0NDA2OSwtMTIyNjc5
+NDM2OSwtMTY2MjQ3NjMwNCwyNjI1NzYwOTIsLTEwMDc3NjQ3MS
+wtMTc0NjY1NDIzMCwzNDc1ODIyOCwyMDY3NDg1NDgxLC0xMzEz
+MjExMTA3LDE1Nzg2NDI1NTUsMjExNTAzMjYyOSwtMTY5MzIyMz
+Q2Niw5NTMwNDIyMTIsLTE2MjgwMTA1OTAsMzQ2MTAyNjg2LC0z
+NTc2MDI5ODVdfQ==
 -->
