@@ -636,17 +636,17 @@ Profile/Settings/Organizations - Need a Team Plan
 
 Only one Organization
 
-In the Repository/Settings/Manage Access -- you can add members on base roll
+In the Repository/Settings/Manage Access -- you can add members on base roll and change member privileges
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Njc0MTM0OCwtNzg1NTIwMjcyLDE1MD
-g3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4
-NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OSwtMT
-EyNTA0MTM4MCwxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUxMzU3
-NzczMiwxODE5OTI0Mzk3LDE0NjMyMTAxMjYsLTg1MjI5NzcyNi
-wxOTUzMTc1NzU2LC0xNzQ1NjI3ODQ4LC0yMDA0OTU2MDQ0LDkw
-MzEzODk4Ml19
+eyJoaXN0b3J5IjpbLTE3MDczMjQwODksLTc4NTUyMDI3MiwxNT
+A4NzY5OTcsMTAyOTA1OTY5NiwyMDA3NDQ5MTM3LC0yMDc5NjIx
+ODc3LC0xOTcxNDI5MDUwLDIzMDY0MjI1NCwzMzMxODkzNDksLT
+ExMjUwNDEzODAsMTYzMzU0NTA2NywtMTQwNDU4OTIzMyw1MTM1
+Nzc3MzIsMTgxOTkyNDM5NywxNDYzMjEwMTI2LC04NTIyOTc3Mj
+YsMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMjAwNDk1NjA0NCw5
+MDMxMzg5ODJdfQ==
 -->
