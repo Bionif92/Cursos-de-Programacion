@@ -638,15 +638,19 @@ Only one Organization
 
 In the Repository/Settings/Manage Access -- you can add members on base roll and change member privileges
 
-You can add outside collaborators - Repo/Setting/Manage Access - Invite teams or people
+**You can add outside collaborators - Repo/Setting/Manage Access - Invite teams or people**
 
 If you can only read the repository you cant overwrite
+
+Adding member to an organization - 
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjQzNTMyMiwtMzU3NjAyOTg1LC03OD
+eyJoaXN0b3J5IjpbLTE5Nzg2MjU0MSwtMzU3NjAyOTg1LC03OD
 U1MjAyNzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEz
 NywtMjA3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMz
 MzMTg5MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1
