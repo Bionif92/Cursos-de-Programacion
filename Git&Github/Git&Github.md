@@ -661,7 +661,7 @@ The contributor ask original user if want to see the modified repo - pull reques
 
 ### Forking a Repository
 
-
+Repo/Settings/Manage Access
 
 
 
@@ -671,11 +671,11 @@ The contributor ask original user if want to see the modified repo - pull reques
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODY0MjU1NSwyMTE1MDMyNjI5LC0xNj
-kzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAxMDU5MCwzNDYxMDI2
-ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1MDg3Njk5NywxMD
-I5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4NzcsLTE5NzE0
-MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OSwtMTEyNTA0MTM4MC
-wxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUxMzU3NzczMiwxODE5
-OTI0Mzk3XX0=
+eyJoaXN0b3J5IjpbMTE4NzQ2OTQ0OSwxNTc4NjQyNTU1LDIxMT
+UwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNjI4MDEw
+NTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNzIsMT
+UwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3OTYy
+MTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMzMzMTg5MzQ5LC
+0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1ODkyMzMsNTEz
+NTc3NzMyXX0=
 -->
