@@ -650,7 +650,7 @@ Organization/Teams
 
 Flexible Repository Access
 
-Allow
+Allows you to give certain access to each repository intead of entering every member to change the managment of the repository
 
 
 
@@ -658,7 +658,7 @@ Allow
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU3NTgwMDg1LC0xNjI4MDEwNTkwLDM0Nj
+eyJoaXN0b3J5IjpbOTUzMDQyMjEyLC0xNjI4MDEwNTkwLDM0Nj
 EwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNzIsMTUwODc2OTk3
 LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3OTYyMTg3NywtMT
 k3MTQyOTA1MCwyMzA2NDIyNTQsMzMzMTg5MzQ5LC0xMTI1MDQx
