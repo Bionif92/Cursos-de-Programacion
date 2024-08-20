@@ -659,6 +659,10 @@ Contribution - give value but not know the other person
 Generate Remote Copy Repository from the original user and use this to clone it - fork
 The contributor ask original user if want to see the modified repo - pull request 
 
+### Forking a Repository
+
+
+
 
 
 
@@ -667,11 +671,11 @@ The contributor ask original user if want to see the modified repo - pull reques
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MzEzNTEzLDIxMTUwMzI2MjksLTE2OT
-MyMjM0NjYsOTUzMDQyMjEyLC0xNjI4MDEwNTkwLDM0NjEwMjY4
-NiwtMzU3NjAyOTg1LC03ODU1MjAyNzIsMTUwODc2OTk3LDEwMj
-kwNTk2OTYsMjAwNzQ0OTEzNywtMjA3OTYyMTg3NywtMTk3MTQy
-OTA1MCwyMzA2NDIyNTQsMzMzMTg5MzQ5LC0xMTI1MDQxMzgwLD
-E2MzM1NDUwNjcsLTE0MDQ1ODkyMzMsNTEzNTc3NzMyLDE4MTk5
-MjQzOTddfQ==
+eyJoaXN0b3J5IjpbMTU3ODY0MjU1NSwyMTE1MDMyNjI5LC0xNj
+kzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAxMDU5MCwzNDYxMDI2
+ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1MDg3Njk5NywxMD
+I5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4NzcsLTE5NzE0
+MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OSwtMTEyNTA0MTM4MC
+wxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUxMzU3NzczMiwxODE5
+OTI0Mzk3XX0=
 -->
