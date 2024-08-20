@@ -670,6 +670,9 @@ How to merge the copy?
 The collaborator has to inform the user to see the overwritten copy
 Repo/pull request/new pull request
 
+When it deliver to the user:
+
+
 
 
 
@@ -678,11 +681,11 @@ Repo/pull request/new pull request
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTMyMTExMDcsMTU3ODY0MjU1NSwyMT
-E1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAx
-MDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLD
-E1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2
-MjE4NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OS
-wtMTEyNTA0MTM4MCwxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUx
-MzU3NzczMl19
+eyJoaXN0b3J5IjpbMTAzMjgyMjA1MCwtMTMxMzIxMTEwNywxNT
+c4NjQyNTU1LDIxMTUwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQy
+MjEyLC0xNjI4MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC
+03ODU1MjAyNzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0
+OTEzNywtMjA3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNT
+QsMzMzMTg5MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0
+MDQ1ODkyMzNdfQ==
 -->
