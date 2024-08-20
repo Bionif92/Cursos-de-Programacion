@@ -652,17 +652,21 @@ Flexible Repository Access
 
 Allows you to give certain access to each repository intead of entering every member to change the managment of the repository
 
+### Fork & Pull Request
+
+Contribution 
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNj
-I4MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAy
-NzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMj
-A3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMzMzMTg5
-MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1ODkyMz
-MsNTEzNTc3NzMyLDE4MTk5MjQzOTcsMTQ2MzIxMDEyNiwtODUy
-Mjk3NzI2XX0=
+eyJoaXN0b3J5IjpbMjExNTAzMjYyOSwtMTY5MzIyMzQ2Niw5NT
+MwNDIyMTIsLTE2MjgwMTA1OTAsMzQ2MTAyNjg2LC0zNTc2MDI5
+ODUsLTc4NTUyMDI3MiwxNTA4NzY5OTcsMTAyOTA1OTY5NiwyMD
+A3NDQ5MTM3LC0yMDc5NjIxODc3LC0xOTcxNDI5MDUwLDIzMDY0
+MjI1NCwzMzMxODkzNDksLTExMjUwNDEzODAsMTYzMzU0NTA2Ny
+wtMTQwNDU4OTIzMyw1MTM1Nzc3MzIsMTgxOTkyNDM5NywxNDYz
+MjEwMTI2XX0=
 -->
