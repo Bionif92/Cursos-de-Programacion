@@ -663,7 +663,9 @@ The contributor ask original user if want to see the modified repo - pull reques
 
 Repo/Fork (right top corner)/select the destination of the copy
 
+### Pull Request 
 
+How to merge the 
 
 
 
@@ -673,11 +675,11 @@ Repo/Fork (right top corner)/select the destination of the copy
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDY2NjE5ODgsMTU3ODY0MjU1NSwyMT
-E1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAx
-MDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLD
-E1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2
-MjE4NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OS
-wtMTEyNTA0MTM4MCwxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUx
-MzU3NzczMl19
+eyJoaXN0b3J5IjpbMTkzMjQ3MzkyMywxNTc4NjQyNTU1LDIxMT
+UwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNjI4MDEw
+NTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNzIsMT
+UwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3OTYy
+MTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMzMzMTg5MzQ5LC
+0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1ODkyMzMsNTEz
+NTc3NzMyXX0=
 -->
