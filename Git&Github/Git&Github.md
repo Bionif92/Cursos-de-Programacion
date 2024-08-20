@@ -683,6 +683,8 @@ Repo/Proyects - Template: Kanban
 
 Is to follow your proyect with cards
 
+You can add issues to the proyect, inside the issue when is created
+
 
 
 
@@ -691,11 +693,11 @@ Is to follow your proyect with cards
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTI5OTcyMiwtMTc0NjY1NDIzMCwzND
-c1ODIyOCwyMDY3NDg1NDgxLC0xMzEzMjExMTA3LDE1Nzg2NDI1
-NTUsMjExNTAzMjYyOSwtMTY5MzIyMzQ2Niw5NTMwNDIyMTIsLT
-E2MjgwMTA1OTAsMzQ2MTAyNjg2LC0zNTc2MDI5ODUsLTc4NTUy
-MDI3MiwxNTA4NzY5OTcsMTAyOTA1OTY5NiwyMDA3NDQ5MTM3LC
-0yMDc5NjIxODc3LC0xOTcxNDI5MDUwLDIzMDY0MjI1NCwzMzMx
-ODkzNDldfQ==
+eyJoaXN0b3J5IjpbLTY0NTkzODg0LC0xNzQ2NjU0MjMwLDM0Nz
+U4MjI4LDIwNjc0ODU0ODEsLTEzMTMyMTExMDcsMTU3ODY0MjU1
+NSwyMTE1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMT
+YyODAxMDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIw
+MjcyLDE1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLT
+IwNzk2MjE4NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4
+OTM0OV19
 -->
