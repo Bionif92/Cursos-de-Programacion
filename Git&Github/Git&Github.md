@@ -707,7 +707,10 @@ Need to give access to push the new branch - add him as collaborator - Repositor
 How to merge two branches - git pull/git merge feat/cart-logic (his own branch on merged on main)
 Also want to merge Manuel branch:
 ````bash
-git checkout origin/feat/cart  
+git checkout feat/cart // create auto a local tracking branch
+
+git checkout main
+git merge feat/cart 
 ````
 
 
@@ -718,7 +721,7 @@ git checkout origin/feat/cart
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE0NTI5MiwtMTA2OTQ0MDY5LC0xMj
+eyJoaXN0b3J5IjpbMTgzODA2MzcyMSwtMTA2OTQ0MDY5LC0xMj
 I2Nzk0MzY5LC0xNjYyNDc2MzA0LDI2MjU3NjA5MiwtMTAwNzc2
 NDcxLC0xNzQ2NjU0MjMwLDM0NzU4MjI4LDIwNjc0ODU0ODEsLT
 EzMTMyMTExMDcsMTU3ODY0MjU1NSwyMTE1MDMyNjI5LC0xNjkz
