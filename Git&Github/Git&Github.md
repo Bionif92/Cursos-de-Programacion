@@ -671,7 +671,7 @@ The collaborator has to inform the user to see the overwritten copy
 Repo/pull request/new pull request
 
 When it deliver to the user:
-Open
+Open / Close pull request or merge the pull request
 
 
 
@@ -681,7 +681,7 @@ Open
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njc1MDM4ODAsLTEzMTMyMTExMDcsMT
+eyJoaXN0b3J5IjpbLTE0MzYzODg0MDksLTEzMTMyMTExMDcsMT
 U3ODY0MjU1NSwyMTE1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0
 MjIxMiwtMTYyODAxMDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NS
 wtNzg1NTIwMjcyLDE1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0
