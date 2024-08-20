@@ -515,7 +515,7 @@ On GitHub, Code button, Clone option, copy url
 ````
 // VSC terminal
 Dont use git init
-git clone copied-url
+git clone copied-url .
 
 cd github-basic // change to the file you cloned
 //Need to create a local tracking branck to work localy
@@ -658,11 +658,11 @@ Allows you to give certain access to each repository intead of entering every me
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzMDQyMjEyLC0xNjI4MDEwNTkwLDM0Nj
-EwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNzIsMTUwODc2OTk3
-LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3OTYyMTg3NywtMT
-k3MTQyOTA1MCwyMzA2NDIyNTQsMzMzMTg5MzQ5LC0xMTI1MDQx
-MzgwLDE2MzM1NDUwNjcsLTE0MDQ1ODkyMzMsNTEzNTc3NzMyLD
-E4MTk5MjQzOTcsMTQ2MzIxMDEyNiwtODUyMjk3NzI2LDE5NTMx
-NzU3NTZdfQ==
+eyJoaXN0b3J5IjpbLTE2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNj
+I4MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAy
+NzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMj
+A3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMzMzMTg5
+MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1ODkyMz
+MsNTEzNTc3NzMyLDE4MTk5MjQzOTcsMTQ2MzIxMDEyNiwtODUy
+Mjk3NzI2XX0=
 -->
