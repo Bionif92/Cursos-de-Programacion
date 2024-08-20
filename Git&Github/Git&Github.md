@@ -671,7 +671,7 @@ The collaborator has to inform the user to see the overwritten copy
 Repo/pull request/new pull request
 
 When it deliver to the user:
-
+Open
 
 
 
@@ -681,11 +681,11 @@ When it deliver to the user:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjgyMjA1MCwtMTMxMzIxMTEwNywxNT
-c4NjQyNTU1LDIxMTUwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQy
-MjEyLC0xNjI4MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC
-03ODU1MjAyNzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0
-OTEzNywtMjA3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNT
-QsMzMzMTg5MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0
-MDQ1ODkyMzNdfQ==
+eyJoaXN0b3J5IjpbLTE2Njc1MDM4ODAsLTEzMTMyMTExMDcsMT
+U3ODY0MjU1NSwyMTE1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0
+MjIxMiwtMTYyODAxMDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NS
+wtNzg1NTIwMjcyLDE1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0
+NDkxMzcsLTIwNzk2MjE4NzcsLTE5NzE0MjkwNTAsMjMwNjQyMj
+U0LDMzMzE4OTM0OSwtMTEyNTA0MTM4MCwxNjMzNTQ1MDY3LC0x
+NDA0NTg5MjMzXX0=
 -->
