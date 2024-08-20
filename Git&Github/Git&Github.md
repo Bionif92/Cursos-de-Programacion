@@ -642,7 +642,7 @@ In the Repository/Settings/Manage Access -- you can add members on base roll and
 
 If you can only read the repository you cant overwrite
 
-Adding member to an organization - 
+Adding member to an organization - Organization/People
 
 
 
@@ -650,11 +650,11 @@ Adding member to an organization -
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzg2MjU0MSwtMzU3NjAyOTg1LC03OD
-U1MjAyNzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEz
-NywtMjA3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2NDIyNTQsMz
-MzMTg5MzQ5LC0xMTI1MDQxMzgwLDE2MzM1NDUwNjcsLTE0MDQ1
-ODkyMzMsNTEzNTc3NzMyLDE4MTk5MjQzOTcsMTQ2MzIxMDEyNi
-wtODUyMjk3NzI2LDE5NTMxNzU3NTYsLTE3NDU2Mjc4NDgsLTIw
-MDQ5NTYwNDRdfQ==
+eyJoaXN0b3J5IjpbMzQ2MTAyNjg2LC0zNTc2MDI5ODUsLTc4NT
+UyMDI3MiwxNTA4NzY5OTcsMTAyOTA1OTY5NiwyMDA3NDQ5MTM3
+LC0yMDc5NjIxODc3LC0xOTcxNDI5MDUwLDIzMDY0MjI1NCwzMz
+MxODkzNDksLTExMjUwNDEzODAsMTYzMzU0NTA2NywtMTQwNDU4
+OTIzMyw1MTM1Nzc3MzIsMTgxOTkyNDM5NywxNDYzMjEwMTI2LC
+04NTIyOTc3MjYsMTk1MzE3NTc1NiwtMTc0NTYyNzg0OCwtMjAw
+NDk1NjA0NF19
 -->
