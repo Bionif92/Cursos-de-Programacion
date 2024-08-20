@@ -654,7 +654,11 @@ Allows you to give certain access to each repository intead of entering every me
 
 ### Fork & Pull Request
 
-Contribution 
+Contribution - give value but not know the other person
+
+Generate Remote Copy Repository from the original user
+
+
 
 
 
@@ -662,11 +666,11 @@ Contribution
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTAzMjYyOSwtMTY5MzIyMzQ2Niw5NT
-MwNDIyMTIsLTE2MjgwMTA1OTAsMzQ2MTAyNjg2LC0zNTc2MDI5
-ODUsLTc4NTUyMDI3MiwxNTA4NzY5OTcsMTAyOTA1OTY5NiwyMD
-A3NDQ5MTM3LC0yMDc5NjIxODc3LC0xOTcxNDI5MDUwLDIzMDY0
-MjI1NCwzMzMxODkzNDksLTExMjUwNDEzODAsMTYzMzU0NTA2Ny
-wtMTQwNDU4OTIzMyw1MTM1Nzc3MzIsMTgxOTkyNDM5NywxNDYz
-MjEwMTI2XX0=
+eyJoaXN0b3J5IjpbMTEwMzQ2ODE3MiwyMTE1MDMyNjI5LC0xNj
+kzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAxMDU5MCwzNDYxMDI2
+ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1MDg3Njk5NywxMD
+I5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4NzcsLTE5NzE0
+MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OSwtMTEyNTA0MTM4MC
+wxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUxMzU3NzczMiwxODE5
+OTI0Mzk3XX0=
 -->
