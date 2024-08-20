@@ -668,6 +668,7 @@ Repo/Fork (right top corner)/select the destination of the copy
 How to merge the copy?
 
 The collaborator has to inform the user to see the overwritten copy
+Repo/pull request/new pull request
 
 
 
@@ -677,11 +678,11 @@ The collaborator has to inform the user to see the overwritten copy
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNDQyNTUsMTU3ODY0MjU1NSwyMTE1MD
-MyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAxMDU5
-MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1MD
-g3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2MjE4
-NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OSwtMT
-EyNTA0MTM4MCwxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUxMzU3
-NzczMl19
+eyJoaXN0b3J5IjpbLTEzMTMyMTExMDcsMTU3ODY0MjU1NSwyMT
+E1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAx
+MDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLD
+E1MDg3Njk5NywxMDI5MDU5Njk2LDIwMDc0NDkxMzcsLTIwNzk2
+MjE4NzcsLTE5NzE0MjkwNTAsMjMwNjQyMjU0LDMzMzE4OTM0OS
+wtMTEyNTA0MTM4MCwxNjMzNTQ1MDY3LC0xNDA0NTg5MjMzLDUx
+MzU3NzczMl19
 -->
