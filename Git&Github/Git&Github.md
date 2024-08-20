@@ -689,6 +689,12 @@ You can add issues to the proyect, inside the issue when is created
 
 Repo/ Add Readme File
 
+### Useful Resources & Links
+
+More about Permission Levels for User Account Repositories => [https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/managing-user-account-settings/permission-levels-for-a-user-account-repository)
+
+VueJS GitHub Page => [https://github.com/vuejs/vue](https://github.com/vuejs/vue)
+
 
 
 
@@ -697,11 +703,11 @@ Repo/ Add Readme File
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc3NjQ3MSwtMTc0NjY1NDIzMCwzND
-c1ODIyOCwyMDY3NDg1NDgxLC0xMzEzMjExMTA3LDE1Nzg2NDI1
-NTUsMjExNTAzMjYyOSwtMTY5MzIyMzQ2Niw5NTMwNDIyMTIsLT
-E2MjgwMTA1OTAsMzQ2MTAyNjg2LC0zNTc2MDI5ODUsLTc4NTUy
-MDI3MiwxNTA4NzY5OTcsMTAyOTA1OTY5NiwyMDA3NDQ5MTM3LC
-0yMDc5NjIxODc3LC0xOTcxNDI5MDUwLDIzMDY0MjI1NCwzMzMx
-ODkzNDldfQ==
+eyJoaXN0b3J5IjpbMjYyNTc2MDkyLC0xMDA3NzY0NzEsLTE3ND
+Y2NTQyMzAsMzQ3NTgyMjgsMjA2NzQ4NTQ4MSwtMTMxMzIxMTEw
+NywxNTc4NjQyNTU1LDIxMTUwMzI2MjksLTE2OTMyMjM0NjYsOT
+UzMDQyMjEyLC0xNjI4MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAy
+OTg1LC03ODU1MjAyNzIsMTUwODc2OTk3LDEwMjkwNTk2OTYsMj
+AwNzQ0OTEzNywtMjA3OTYyMTg3NywtMTk3MTQyOTA1MCwyMzA2
+NDIyNTRdfQ==
 -->
