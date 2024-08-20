@@ -714,7 +714,9 @@ git merge feat/cart
 ````
 Need to fix the code because of the conflicts
 
-**Fork is created by the collaborator profile**
+**Fork is created by the collaborator profile**, then clone the file and work locally, then push it again to github, then create the pull request
+
+
 
 
 
@@ -724,11 +726,11 @@ Need to fix the code because of the conflicts
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzIwNTIyMSwtMTU2MjM0NTY2OCwtMT
-A2OTQ0MDY5LC0xMjI2Nzk0MzY5LC0xNjYyNDc2MzA0LDI2MjU3
-NjA5MiwtMTAwNzc2NDcxLC0xNzQ2NjU0MjMwLDM0NzU4MjI4LD
-IwNjc0ODU0ODEsLTEzMTMyMTExMDcsMTU3ODY0MjU1NSwyMTE1
-MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0MjIxMiwtMTYyODAxMD
-U5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwtNzg1NTIwMjcyLDE1
-MDg3Njk5N119
+eyJoaXN0b3J5IjpbLTE2MDYwNTQ2MTQsMTk0MzIwNTIyMSwtMT
+U2MjM0NTY2OCwtMTA2OTQ0MDY5LC0xMjI2Nzk0MzY5LC0xNjYy
+NDc2MzA0LDI2MjU3NjA5MiwtMTAwNzc2NDcxLC0xNzQ2NjU0Mj
+MwLDM0NzU4MjI4LDIwNjc0ODU0ODEsLTEzMTMyMTExMDcsMTU3
+ODY0MjU1NSwyMTE1MDMyNjI5LC0xNjkzMjIzNDY2LDk1MzA0Mj
+IxMiwtMTYyODAxMDU5MCwzNDYxMDI2ODYsLTM1NzYwMjk4NSwt
+Nzg1NTIwMjcyXX0=
 -->
