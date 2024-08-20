@@ -700,7 +700,7 @@ VueJS GitHub Page => [https://github.com/vuejs/vue](https://github.com/vuejs/vue
 Can delete node modules and intall them again with npm install
 You can put it in .gitignore
 
-
+Control + C to exit the server
 
 
 
@@ -710,11 +710,11 @@ You can put it in .gitignore
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjY3OTQzNjksLTE2NjI0NzYzMDQsMj
-YyNTc2MDkyLC0xMDA3NzY0NzEsLTE3NDY2NTQyMzAsMzQ3NTgy
-MjgsMjA2NzQ4NTQ4MSwtMTMxMzIxMTEwNywxNTc4NjQyNTU1LD
-IxMTUwMzI2MjksLTE2OTMyMjM0NjYsOTUzMDQyMjEyLC0xNjI4
-MDEwNTkwLDM0NjEwMjY4NiwtMzU3NjAyOTg1LC03ODU1MjAyNz
-IsMTUwODc2OTk3LDEwMjkwNTk2OTYsMjAwNzQ0OTEzNywtMjA3
-OTYyMTg3N119
+eyJoaXN0b3J5IjpbLTEwNjk0NDA2OSwtMTIyNjc5NDM2OSwtMT
+Y2MjQ3NjMwNCwyNjI1NzYwOTIsLTEwMDc3NjQ3MSwtMTc0NjY1
+NDIzMCwzNDc1ODIyOCwyMDY3NDg1NDgxLC0xMzEzMjExMTA3LD
+E1Nzg2NDI1NTUsMjExNTAzMjYyOSwtMTY5MzIyMzQ2Niw5NTMw
+NDIyMTIsLTE2MjgwMTA1OTAsMzQ2MTAyNjg2LC0zNTc2MDI5OD
+UsLTc4NTUyMDI3MiwxNTA4NzY5OTcsMTAyOTA1OTY5NiwyMDA3
+NDQ5MTM3XX0=
 -->
