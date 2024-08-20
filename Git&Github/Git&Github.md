@@ -712,7 +712,7 @@ git checkout feat/cart // create auto a local tracking branch
 git checkout main
 git merge feat/cart 
 ````
-Need to fix the code because of the conflict
+Need to fix the code because of the conflicts
 
 
 
@@ -722,7 +722,7 @@ Need to fix the code because of the conflict
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzAzNDU0NjcsLTEwNjk0NDA2OSwtMT
+eyJoaXN0b3J5IjpbLTE1NjIzNDU2NjgsLTEwNjk0NDA2OSwtMT
 IyNjc5NDM2OSwtMTY2MjQ3NjMwNCwyNjI1NzYwOTIsLTEwMDc3
 NjQ3MSwtMTc0NjY1NDIzMCwzNDc1ODIyOCwyMDY3NDg1NDgxLC
 0xMzEzMjExMTA3LDE1Nzg2NDI1NTUsMjExNTAzMjYyOSwtMTY5
