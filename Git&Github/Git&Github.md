@@ -702,7 +702,7 @@ You can put it in .gitignore
 
 Control + C to exit the server
 
-Need to give access to push the new branch - add him as collaborator - Repository/Settings/Manage Access/Invite Collaborator
+Need to give access to push the new branch - add him as collaborator - Repository/Settings/Manage Access/Invite Collaborator -  Now he can create a token
 
 
 
@@ -712,7 +712,7 @@ Need to give access to push the new branch - add him as collaborator - Repositor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTQ0MTE0OCwtMTA2OTQ0MDY5LC0xMj
+eyJoaXN0b3J5IjpbMTEzMTgwNTAzMCwtMTA2OTQ0MDY5LC0xMj
 I2Nzk0MzY5LC0xNjYyNDc2MzA0LDI2MjU3NjA5MiwtMTAwNzc2
 NDcxLC0xNzQ2NjU0MjMwLDM0NzU4MjI4LDIwNjc0ODU0ODEsLT
 EzMTMyMTExMDcsMTU3ODY0MjU1NSwyMTE1MDMyNjI5LC0xNjkz
