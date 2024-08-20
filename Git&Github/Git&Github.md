@@ -702,7 +702,7 @@ You can put it in .gitignore
 
 Control + C to exit the server
 
-Need to give access to push the new branch - add him as collaborator
+Need to give access to push the new branch - add him as collaborator - Repository/Settings/
 
 
 
@@ -712,11 +712,11 @@ Need to give access to push the new branch - add him as collaborator
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQxMTk4NDQ3LC0xMDY5NDQwNjksLTEyMj
-Y3OTQzNjksLTE2NjI0NzYzMDQsMjYyNTc2MDkyLC0xMDA3NzY0
-NzEsLTE3NDY2NTQyMzAsMzQ3NTgyMjgsMjA2NzQ4NTQ4MSwtMT
-MxMzIxMTEwNywxNTc4NjQyNTU1LDIxMTUwMzI2MjksLTE2OTMy
-MjM0NjYsOTUzMDQyMjEyLC0xNjI4MDEwNTkwLDM0NjEwMjY4Ni
-wtMzU3NjAyOTg1LC03ODU1MjAyNzIsMTUwODc2OTk3LDEwMjkw
-NTk2OTZdfQ==
+eyJoaXN0b3J5IjpbLTEyOTgxNjIyOTMsLTEwNjk0NDA2OSwtMT
+IyNjc5NDM2OSwtMTY2MjQ3NjMwNCwyNjI1NzYwOTIsLTEwMDc3
+NjQ3MSwtMTc0NjY1NDIzMCwzNDc1ODIyOCwyMDY3NDg1NDgxLC
+0xMzEzMjExMTA3LDE1Nzg2NDI1NTUsMjExNTAzMjYyOSwtMTY5
+MzIyMzQ2Niw5NTMwNDIyMTIsLTE2MjgwMTA1OTAsMzQ2MTAyNj
+g2LC0zNTc2MDI5ODUsLTc4NTUyMDI3MiwxNTA4NzY5OTcsMTAy
+OTA1OTY5Nl19
 -->
