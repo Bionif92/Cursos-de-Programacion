@@ -40,9 +40,9 @@ To compile to JS:
 //terminal
 tsc file.ts
 ````
-You can
+You can manage the error and compile again
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MTU0NTgwNywxODEyNDMxMTYwLC0xOD
-cxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYz
-NTYzMDAsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTk2MDM2NzAxLDE4MTI0MzExNjAsLTE4Nz
+E2Nzg2MjUsMTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1
+NjMwMCwyMDQwMjk3NjIyXX0=
 -->
