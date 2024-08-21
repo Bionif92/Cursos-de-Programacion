@@ -19,12 +19,12 @@ Error of JS in calculator, that brings the .value as string always
 
 Install:
 ````bash
-
+npm install -g typescript
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTk4OTI5OCwtMTg3MTY3ODYyNSwxNj
-YzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwNDAy
-OTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzg0MTk1MTUsLTE4NzE2Nzg2MjUsMT
+Y2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMDQw
+Mjk3NjIyXX0=
 -->
