@@ -22,9 +22,11 @@ Install:
 npm install -g typescript
 ````
 
+Then create file with 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzg0MTk1MTUsLTE4NzE2Nzg2MjUsMT
+eyJoaXN0b3J5IjpbLTE4NDkzOTgwNzAsLTE4NzE2Nzg2MjUsMT
 Y2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMDQw
 Mjk3NjIyXX0=
 -->
