@@ -17,8 +17,14 @@ Write Typescript, then compiled to Javascript
 
 Error of JS in calculator, that brings the .value as string always
 
+Install:
+````bash
+
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzE2Nzg2MjUsMTY2MzM3MDAzNCwtMT
-U0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMjA1OTk4OTI5OCwtMTg3MTY3ODYyNSwxNj
+YzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwNDAy
+OTc2MjJdfQ==
 -->
