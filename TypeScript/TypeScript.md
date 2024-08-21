@@ -22,11 +22,11 @@ Install:
 npm install -g typescript
 ````
 
-Then create file with `.ts` extension, copy and paste the code of JS file here
+Then create file with `.ts` extension, copy and paste the code of JS file here, need to delete then the JS file
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzQxODQ4MywtMTg3MTY3ODYyNSwxNj
+eyJoaXN0b3J5IjpbMTgxMjQzMTE2MCwtMTg3MTY3ODYyNSwxNj
 YzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwNDAy
 OTc2MjJdfQ==
 -->
