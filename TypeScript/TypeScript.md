@@ -48,9 +48,13 @@ You can manage the error and compile again
 
 ### Using Types
 
+ - Number 
+ - String
+ - Boolean 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MjEzNDk1NCwtMTQzMTYyNjIyNCwxNT
-UzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3
-ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2Mz
-AwLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTIwMzU0MjkzMzcsLTE0MzE2MjYyMjQsMT
+U1MzEwNDc2NSwxNTI3NzU0NTI5LDE4MTI0MzExNjAsLTE4NzE2
+Nzg2MjUsMTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1Nj
+MwMCwyMDQwMjk3NjIyXX0=
 -->
