@@ -52,9 +52,15 @@ You can manage the error and compile again
  - String
  - Boolean 
 
-How 
+How to write the type:
+````TS
+function add(num1:number, num2:number) {// add the type
+	return num1 + num2;
+}
+````
+Typescript helps you during development, not changing your code if you have an error
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjk3MjYzNSwtMjAzNTQyOTMzNywtMT
+eyJoaXN0b3J5IjpbLTQyOTYwOTU2OCwtMjAzNTQyOTMzNywtMT
 QzMTYyNjIyNCwxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQz
 MTE2MCwtMTg3MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMT
 c1LC0xNTk2MzU2MzAwLDIwNDAyOTc2MjJdfQ==
