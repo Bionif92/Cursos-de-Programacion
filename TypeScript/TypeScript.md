@@ -3,10 +3,14 @@
 
 ## Getting Started
 
-Super Set of Javascript
+### What is TypeScript?
+
+A Javascript SuperSet
+
+Adds new Features + Advantages to Javascript
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ5MzMxNzUsLTE1OTYzNTYzMDAsMj
-A0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbNDY4MjE1NjY4LC0xNTQ0OTMzMTc1LC0xNT
+k2MzU2MzAwLDIwNDAyOTc2MjJdfQ==
 -->
