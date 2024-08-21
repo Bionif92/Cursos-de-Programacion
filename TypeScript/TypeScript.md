@@ -43,8 +43,10 @@ tsc file.ts
 You can manage the error and compile again
 
 **Always import the JS file**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0xOD
-cxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYz
-NTYzMDAsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTU1MzEwNDc2NSwxNTI3NzU0NTI5LDE4MT
+I0MzExNjAsLTE4NzE2Nzg2MjUsMTY2MzM3MDAzNCwtMTU0NDkz
+MzE3NSwtMTU5NjM1NjMwMCwyMDQwMjk3NjIyXX0=
 -->
