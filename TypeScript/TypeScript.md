@@ -9,8 +9,10 @@ A Javascript SuperSet
 
 Adds new Features + Advantages to Javascript
 
+Browser can´t execute it
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MjE1NjY4LC0xNTQ0OTMzMTc1LC0xNT
-k2MzU2MzAwLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMTY4NzA2NjE2MiwtMTU0NDkzMzE3NSwtMT
+U5NjM1NjMwMCwyMDQwMjk3NjIyXX0=
 -->
