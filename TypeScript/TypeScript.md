@@ -58,9 +58,11 @@ function add(num1:number, num2:number) {// add the type
 	return num1 + num2;
 }
 ````
-Typescript helps you during development, not changing your code if you have an error
+**Typescript helps you during development, not changing your code if you have an error**
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTYwOTU2OCwtMjAzNTQyOTMzNywtMT
+eyJoaXN0b3J5IjpbLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMT
 QzMTYyNjIyNCwxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQz
 MTE2MCwtMTg3MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMT
 c1LC0xNTk2MzU2MzAwLDIwNDAyOTc2MjJdfQ==
