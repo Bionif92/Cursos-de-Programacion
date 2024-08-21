@@ -60,10 +60,11 @@ function add(num1:number, num2:number) {// add the type
 ````
 **Typescript helps you during development, not changing your code if you have an error**
 
-###
+### JS Types vs TS Types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMT
-QzMTYyNjIyNCwxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQz
-MTE2MCwtMTg3MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMT
-c1LC0xNTk2MzU2MzAwLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTEwMDEyNzU2MTQsLTIyMzAwMTU0NywtMj
+AzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0NzY1LDE1Mjc3
+NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3ODYyNSwxNjYzMzcwMD
+M0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwNDAyOTc2MjJd
+fQ==
 -->
