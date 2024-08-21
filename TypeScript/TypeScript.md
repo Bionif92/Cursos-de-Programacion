@@ -45,9 +45,12 @@ You can manage the error and compile again
 **Always import the JS file**
 
 ## TypeScript Basics & Basic Types
+
+### Using Types
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNT
-I3NzU0NTI5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUsMTY2MzM3
-MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMDQwMjk3Nj
-IyXX0=
+eyJoaXN0b3J5IjpbLTI5MjEzNDk1NCwtMTQzMTYyNjIyNCwxNT
+UzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3
+ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2Mz
+AwLDIwNDAyOTc2MjJdfQ==
 -->
