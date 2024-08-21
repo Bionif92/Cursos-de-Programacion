@@ -29,13 +29,18 @@ const input1 = document.getElementById('num1')! as HTMLInputElement; // this las
 ````
 Can add types too:
 ````TS
-function add(num1:number, num2:number) {
-	return num1 +num2;
+function add(num1:number, num2:number) {// add the type
+	return num1 + num2;
 }
 ````
 
+To compile to JS:
+
+````bash
+t
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzUwMzg5OSwxODEyNDMxMTYwLC0xOD
-cxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYz
-NTYzMDAsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbNTI2ODQ3ODk5LDE4MTI0MzExNjAsLTE4Nz
+E2Nzg2MjUsMTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1
+NjMwMCwyMDQwMjk3NjIyXX0=
 -->
