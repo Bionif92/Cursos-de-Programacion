@@ -109,17 +109,25 @@ const person {
 	name: 'Franco',
 	age: 32,
 }
-// type of this object
+// type of this object automatically
 const person {
 	name: string;
 	age: number;
 }
+// now change it to thw right way writting it
+const person: {
+	name: string;
+	age: number;
+} = {
+	name: 'Franco',
+	age: 32,
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMDgxMzM5LDIwOTQxODE1NDUsLTE4Nj
-Y4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3NTYxNCwtMjIzMDAx
-NTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1NTMxMDQ3Nj
-UsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0xODcxNjc4NjI1LDE2
-NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYzNTYzMDAsMjA0MD
-I5NzYyMl19
+eyJoaXN0b3J5IjpbNDA3MjQyMzcyLDM5MzA4MTMzOSwyMDk0MT
+gxNTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2
+MTQsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNC
+wxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3
+MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2Mz
+U2MzAwLDIwNDAyOTc2MjJdfQ==
 -->
