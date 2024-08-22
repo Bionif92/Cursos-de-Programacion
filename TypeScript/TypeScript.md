@@ -231,14 +231,17 @@ let combineValues: (a:number,b:number) => number; // a variable with a function 
 ### Function Types & Callbacks
 
 ````
-function addHand
+function addHandler (n1:number,n2:number,cb: (num:number)=>void) {
+	const result= n1+n2;
+	cb(result);
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzU2MzQwOSwtMTU0OTUwOTg1NywxMD
-g0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2
-ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2OTEyMD
-MwLC02Mjk4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYzNjMzMSwt
-MTUxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xNDY4NzA2NDM4LDM5Mz
-A4MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2
-NTIsLTEwMDEyNzU2MTRdfQ==
+eyJoaXN0b3J5IjpbLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMT
+A4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAwODgwMTUxLDE4OTI0
+NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5ODU2ODgsLTc3NjkxMj
+AzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OTY5LC03Mzc2MzYzMzEs
+LTE1MTIyODU0NDYsMTMzNzcxNDM0OSwtMTQ2ODcwNjQzOCwzOT
+MwODEzMzksMjA5NDE4MTU0NSwtMTg2Njg3NjE0NywtNDI1MzI4
+NjUyLC0xMDAxMjc1NjE0XX0=
 -->
