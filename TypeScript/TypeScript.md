@@ -127,27 +127,14 @@ const person: {
 ### Array Types
 
 ````js
-//object
 const person {
 	name: 'Franco',
-	age: 32
-}
-// type of this object automatically
-const person {
-	name: string;
-	age: number;
-}
-// now change it to thw right way writting it
-const person: {
-	name: string;
-	age: number;
-} = {
-	name: 'Franco',
-	age: 32
+	age: 32,
+	hobbies: ['Sports','Cooking'] // type string[]
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3MzQwMjU0NywtMTQ2ODcwNjQzOCwzOT
+eyJoaXN0b3J5IjpbMTMzNzcxNDM0OSwtMTQ2ODcwNjQzOCwzOT
 MwODEzMzksMjA5NDE4MTU0NSwtMTg2Njg3NjE0NywtNDI1MzI4
 NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1NDcsLTIwMzU0MjkzMz
 csLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNTI3NzU0NTI5LDE4
