@@ -216,18 +216,18 @@ function add(n1:number,n2:number):number { // can add the type manually but is n
 	return n1+n2
 }
 
-function printResult(num:number) {
-	console.log ('Result' +n)
+function printResult(num:number) { //have void type this function
+	console.log ('Result' +num)
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjEzNzM5OCwtMTIzNzI1NjAzNCwtMT
-AxMjk4NTY4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcx
-Mzk5NjksLTczNzYzNjMzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0Mz
-Q5LC0xNDY4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0x
-ODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMz
-AwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0
-NzY1LDE1Mjc3NTQ1MjldfQ==
+eyJoaXN0b3J5IjpbOTU3NjY3NzgwLC0xMjM3MjU2MDM0LC0xMD
+EyOTg1Njg4LC03NzY5MTIwMzAsLTYyOTgzNzAyMCwtMjAyNzEz
+OTk2OSwtNzM3NjM2MzMxLC0xNTEyMjg1NDQ2LDEzMzc3MTQzND
+ksLTE0Njg3MDY0MzgsMzkzMDgxMzM5LDIwOTQxODE1NDUsLTE4
+NjY4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3NTYxNCwtMjIzMD
+AxNTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1NTMxMDQ3
+NjUsMTUyNzc1NDUyOV19
 -->
