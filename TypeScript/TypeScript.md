@@ -152,6 +152,7 @@ const person: {
 	name: string;
 	age: number;
 	hobbies: string[];
+	role: [number,string];// only two elements
 } = {
 	name: 'Franco',
 	age: 32,
@@ -159,12 +160,14 @@ const person: {
 	role: [2,'author'] // only two elements, (string | number)[]
 	}
 ````
+
+### Working with Enums
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDc3NzQwODMsLTE1MTIyODU0NDYsMT
-MzNzcxNDM0OSwtMTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4
-MTU0NSwtMTg2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1Nj
-E0LC0yMjMwMDE1NDcsLTIwMzU0MjkzMzcsLTE0MzE2MjYyMjQs
-MTU1MzEwNDc2NSwxNTI3NzU0NTI5LDE4MTI0MzExNjAsLTE4Nz
-E2Nzg2MjUsMTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1
-NjMwMCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTUyNTI0NDY1LC0xNTEyMjg1NDQ2LDEzMz
+c3MTQzNDksLTE0Njg3MDY0MzgsMzkzMDgxMzM5LDIwOTQxODE1
+NDUsLTE4NjY4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3NTYxNC
+wtMjIzMDAxNTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1
+NTMxMDQ3NjUsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0xODcxNj
+c4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYzNTYz
+MDAsMjA0MDI5NzYyMl19
 -->
