@@ -103,19 +103,23 @@ Type inference,  refers to **the automatic detection of the type of an expressio
 
 If the object dont have the property, throws an error
 
-````
+````js
 //object
 const person {
 	name: 'Franco',
 	age: 32,
 }
-// type o
+// type of this object
+const person {
+	name: string;
+	age: number;
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNTQwMTkxOSwyMDk0MTgxNTQ1LC0xOD
-Y2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMzAw
-MTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0Nz
-Y1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3ODYyNSwx
-NjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwND
-AyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbMzkzMDgxMzM5LDIwOTQxODE1NDUsLTE4Nj
+Y4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3NTYxNCwtMjIzMDAx
+NTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1NTMxMDQ3Nj
+UsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0xODcxNjc4NjI1LDE2
+NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYzNTYzMDAsMjA0MD
+I5NzYyMl19
 -->
