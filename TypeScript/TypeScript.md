@@ -257,17 +257,18 @@ Better than `any`, because you need to check
 
 Another type for functions
 ````
-function generateError (message:string,code:number) {
+function generateError (message:string,code:number):never {
 	throw {message:message,errorCode:code}
 }
 ````
+Crash the script into the error
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY5NTc0MjcsLTE5MTY2NDkwNDAsLT
-E1NDk1MDk4NTcsMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAw
-ODgwMTUxLDE4OTI0NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5OD
-U2ODgsLTc3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OTY5
-LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcxNDM0OSwtMT
-Q2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4MTU0NSwtMTg2Njg3
-NjE0NywtNDI1MzI4NjUyXX0=
+eyJoaXN0b3J5IjpbLTc1NzQwMTY2NywtMTkxNjY0OTA0MCwtMT
+U0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4
+ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NT
+Y4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5Njks
+LTczNzYzNjMzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xND
+Y4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2
+MTQ3LC00MjUzMjg2NTJdfQ==
 -->
