@@ -190,8 +190,13 @@ Not used because you lose the advantages of typescript
 ````
 imput1: number | string; //accept this two types
 ````
+Can use if to sum things if are numbers and if the are strings
+
+### The Literal Type
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzEzOTI4NiwtNjI5ODM3MDIwLC0yMD
+eyJoaXN0b3J5IjpbLTc3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMD
 I3MTM5OTY5LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcx
 NDM0OSwtMTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4MTU0NS
 wtMTg2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0y
