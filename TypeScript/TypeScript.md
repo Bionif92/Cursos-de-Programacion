@@ -125,11 +125,32 @@ const person: {
 ````
 
 ### Array Types
+
+````js
+//object
+const person {
+	name: 'Franco',
+	age: 32
+}
+// type of this object automatically
+const person {
+	name: string;
+	age: number;
+}
+// now change it to thw right way writting it
+const person: {
+	name: string;
+	age: number;
+} = {
+	name: 'Franco',
+	age: 32
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njg3MDY0MzgsMzkzMDgxMzM5LDIwOT
-QxODE1NDUsLTE4NjY4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3
-NTYxNCwtMjIzMDAxNTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2Mj
-I0LDE1NTMxMDQ3NjUsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0x
-ODcxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OT
-YzNTYzMDAsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTg3MzQwMjU0NywtMTQ2ODcwNjQzOCwzOT
+MwODEzMzksMjA5NDE4MTU0NSwtMTg2Njg3NjE0NywtNDI1MzI4
+NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1NDcsLTIwMzU0MjkzMz
+csLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNTI3NzU0NTI5LDE4
+MTI0MzExNjAsLTE4NzE2Nzg2MjUsMTY2MzM3MDAzNCwtMTU0ND
+kzMzE3NSwtMTU5NjM1NjMwMCwyMDQwMjk3NjIyXX0=
 -->
