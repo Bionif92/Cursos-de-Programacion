@@ -210,15 +210,18 @@ Use `Combinable` instead of writing the type
 
 ### Function Return Types & void
 
-
+Functions have a return type, you see it when you hover the mouse
+````
+type Combinable = number | string;
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzcyNTYwMzQsLTEwMTI5ODU2ODgsLT
-c3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OTY5LC03Mzc2
-MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcxNDM0OSwtMTQ2ODcwNj
-QzOCwzOTMwODEzMzksMjA5NDE4MTU0NSwtMTg2Njg3NjE0Nywt
-NDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1NDcsLTIwMz
-U0MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNTI3NzU0
-NTI5LDE4MTI0MzExNjBdfQ==
+eyJoaXN0b3J5IjpbMjA5OTU0NjI0NiwtMTIzNzI1NjAzNCwtMT
+AxMjk4NTY4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcx
+Mzk5NjksLTczNzYzNjMzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0Mz
+Q5LC0xNDY4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0x
+ODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMz
+AwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0
+NzY1LDE1Mjc3NTQ1MjldfQ==
 -->
