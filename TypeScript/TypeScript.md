@@ -168,7 +168,7 @@ const person: {
 Automatically enumerated global constant identifiers
 
 ````js
-enum Role {ADMIN, READ_ONLY, AUTHOR};
+enum Role {ADMIN, READ_ONLY, AUTHOR}; // can assign values or text tho each constant, for default:0,1,2...
 
 const person = {
 	name: 'Franco',
@@ -178,11 +178,11 @@ const person = {
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzA1ODk0MDQsLTczNzYzNjMzMSwtMT
-UxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xNDY4NzA2NDM4LDM5MzA4
-MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NT
-IsLTEwMDEyNzU2MTQsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywt
-MTQzMTYyNjIyNCwxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMj
-QzMTE2MCwtMTg3MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMz
-MTc1LC0xNTk2MzU2MzAwXX0=
+eyJoaXN0b3J5IjpbMTU1MjY0Njc1MiwtNzM3NjM2MzMxLC0xNT
+EyMjg1NDQ2LDEzMzc3MTQzNDksLTE0Njg3MDY0MzgsMzkzMDgx
+MzM5LDIwOTQxODE1NDUsLTE4NjY4NzYxNDcsLTQyNTMyODY1Mi
+wtMTAwMTI3NTYxNCwtMjIzMDAxNTQ3LC0yMDM1NDI5MzM3LC0x
+NDMxNjI2MjI0LDE1NTMxMDQ3NjUsMTUyNzc1NDUyOSwxODEyND
+MxMTYwLC0xODcxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMx
+NzUsLTE1OTYzNTYzMDBdfQ==
 -->
