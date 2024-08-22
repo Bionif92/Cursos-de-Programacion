@@ -68,8 +68,12 @@ console.log(typeof n1); // number
 ````
 
 With TS you see the problems early in development, not when it throw the error in JS
+
+### Numbers, Strings and Booleans
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMjg2NTQ4NSwtMTAwMTI3NTYxNCwtMj
+eyJoaXN0b3J5IjpbLTQyNTMyODY1MiwtMTAwMTI3NTYxNCwtMj
 IzMDAxNTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1NTMx
 MDQ3NjUsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0xODcxNjc4Nj
 I1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYzNTYzMDAs
