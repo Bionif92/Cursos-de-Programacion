@@ -156,11 +156,11 @@ const person: {
 	name: 'Franco',
 	age: 32,
 	hobbies: ['Sports','Cooking'],
-	role: 
+	role: [2,'author'] // only two elements, array (string | number)[]
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzMDY0NDg3MCwtMTUxMjI4NTQ0NiwxMz
+eyJoaXN0b3J5IjpbMTk1NzUzODY3OCwtMTUxMjI4NTQ0NiwxMz
 M3NzE0MzQ5LC0xNDY4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgx
 NTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MT
 QsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwx
