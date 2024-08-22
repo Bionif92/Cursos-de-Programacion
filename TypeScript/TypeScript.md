@@ -194,10 +194,18 @@ Can use if to sum things if are numbers and if the are strings
 
 ### Literal Types
 
-resu
+Specify the type
+
+````
+resultConversion: 'as-number' | 'as-text'
+````
+He use it in the function to make the condition
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NzQ3OTI2NSwtMTAxMjk4NTY4OCwtNz
+eyJoaXN0b3J5IjpbMTgxMjc1OTMxMywtMTAxMjk4NTY4OCwtNz
 c2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYz
 NjMzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xNDY4NzA2ND
 M4LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2MTQ3LC00
