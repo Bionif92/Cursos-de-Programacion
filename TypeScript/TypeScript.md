@@ -95,12 +95,12 @@ If you dont initialize is a good practice to assign the type
 ````
 let number1:number;
 ````
-The inference is that TS understand which type need inn
+The inference is that TS understand which type need in a constant, and if it is wrong, it will tell you
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1ODc0MzU2LDIwOTQxODE1NDUsLTE4Nj
-Y4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3NTYxNCwtMjIzMDAx
-NTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1NTMxMDQ3Nj
-UsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0xODcxNjc4NjI1LDE2
-NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OTYzNTYzMDAsMjA0MD
-I5NzYyMl19
+eyJoaXN0b3J5IjpbLTE3MTMyNzIxMDAsMjA5NDE4MTU0NSwtMT
+g2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMw
+MDE1NDcsLTIwMzU0MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwND
+c2NSwxNTI3NzU0NTI5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUs
+MTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMD
+QwMjk3NjIyXX0=
 -->
