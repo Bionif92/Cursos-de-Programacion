@@ -99,7 +99,7 @@ The inference is that TS understand which type need in a constant, and if it is 
 
 Type inference,  refers to **the automatic detection of the type of an expression in a formal language**
 
-### Objects Types
+### Object Types
 
 If the object dont have the property, throws an error
 
@@ -123,11 +123,13 @@ const person: {
 	age: 32
 }
 ````
+
+### Array Types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzNjcwNTg2LDM5MzA4MTMzOSwyMDk0MT
-gxNTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2
-MTQsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNC
-wxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3
-MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2Mz
-U2MzAwLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE0Njg3MDY0MzgsMzkzMDgxMzM5LDIwOT
+QxODE1NDUsLTE4NjY4NzYxNDcsLTQyNTMyODY1MiwtMTAwMTI3
+NTYxNCwtMjIzMDAxNTQ3LC0yMDM1NDI5MzM3LC0xNDMxNjI2Mj
+I0LDE1NTMxMDQ3NjUsMTUyNzc1NDUyOSwxODEyNDMxMTYwLC0x
+ODcxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUsLTE1OT
+YzNTYzMDAsMjA0MDI5NzYyMl19
 -->
