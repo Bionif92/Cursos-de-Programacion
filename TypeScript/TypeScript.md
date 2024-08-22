@@ -96,11 +96,17 @@ If you dont initialize is a good practice to assign the type
 let number1:number;
 ````
 The inference is that TS understand which type need in a constant, and if it is wrong, it will tell you
+
+Type inference,  refers to **the automatic detection of the type of an expression in a formal language**
+
+### Objects Types
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMyNzIxMDAsMjA5NDE4MTU0NSwtMT
-g2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMw
-MDE1NDcsLTIwMzU0MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwND
-c2NSwxNTI3NzU0NTI5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUs
-MTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMD
-QwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbMTc2MDU4NjkwNywyMDk0MTgxNTQ1LC0xOD
+Y2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMzAw
+MTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0Nz
+Y1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3ODYyNSwx
+NjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwND
+AyOTc2MjJdfQ==
 -->
