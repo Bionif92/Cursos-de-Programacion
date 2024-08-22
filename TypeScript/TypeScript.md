@@ -107,7 +107,7 @@ If the object dont have the property, throws an error
 //object
 const person {
 	name: 'Franco',
-	age: 32,
+	age: 32
 }
 // type of this object automatically
 const person {
@@ -120,11 +120,11 @@ const person: {
 	age: number;
 } = {
 	name: 'Franco',
-	age: 32,
+	age: 32
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MjQyMzcyLDM5MzA4MTMzOSwyMDk0MT
+eyJoaXN0b3J5IjpbMzAzNjcwNTg2LDM5MzA4MTMzOSwyMDk0MT
 gxNTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2
 MTQsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNC
 wxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3
