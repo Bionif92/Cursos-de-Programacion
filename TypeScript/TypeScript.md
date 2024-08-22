@@ -245,11 +245,16 @@ let userName:string;
 
 userName = userInput // error, cannot assign unknown to string 
 
-userInput 
+userInput = 'Max';
+if (userUnput === 'string') {
+	userName = userInput // now it doesnt throw an error, firt need to check the variable
+}
 ````
 
+Better 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMjA4OTI1OCwtMTkxNjY0OTA0MCwtMT
+eyJoaXN0b3J5IjpbLTQ3NzM4NDQ1MywtMTkxNjY0OTA0MCwtMT
 U0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4
 ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NT
 Y4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5Njks
