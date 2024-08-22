@@ -90,9 +90,13 @@ function add(num1:number, num2:number,showResult:boolean, phrase:string) {
 num1: number
 ````
 
-If you dont ini
+If you dont initialize is a good practice to assign the type
+
+````
+let number1:number;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4Nzc3MDgxNSwyMDk0MTgxNTQ1LC0xOD
+eyJoaXN0b3J5IjpbLTY2Nzc0ODE4MiwyMDk0MTgxNTQ1LC0xOD
 Y2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMzAw
 MTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0Nz
 Y1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3ODYyNSwx
