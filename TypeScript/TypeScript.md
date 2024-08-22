@@ -156,15 +156,15 @@ const person: {
 	name: 'Franco',
 	age: 32,
 	hobbies: ['Sports','Cooking'],
-	role: [2,'author'] // only two elements, array (string | number)[]
+	role: [2,'author'] // only two elements, (string | number)[]
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzUzODY3OCwtMTUxMjI4NTQ0NiwxMz
-M3NzE0MzQ5LC0xNDY4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgx
-NTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MT
-QsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwx
-NTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MT
-Y3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2
-MzAwLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTE4NDc3NzQwODMsLTE1MTIyODU0NDYsMT
+MzNzcxNDM0OSwtMTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4
+MTU0NSwtMTg2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1Nj
+E0LC0yMjMwMDE1NDcsLTIwMzU0MjkzMzcsLTE0MzE2MjYyMjQs
+MTU1MzEwNDc2NSwxNTI3NzU0NTI5LDE4MTI0MzExNjAsLTE4Nz
+E2Nzg2MjUsMTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1
+NjMwMCwyMDQwMjk3NjIyXX0=
 -->
