@@ -84,10 +84,16 @@ function add(num1:number, num2:number,showResult:boolean, phrase:string) {
 ````
 
 ### Type Assigment & Type Inference
+
+````
+//Type Assigment
+num1: number
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NDE4MTU0NSwtMTg2Njg3NjE0NywtND
-I1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1NDcsLTIwMzU0
-MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNTI3NzU0NT
-I5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUsMTY2MzM3MDAzNCwt
-MTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMDQwMjk3NjIyXX0=
+eyJoaXN0b3J5IjpbLTE4NjI3NjAzNTQsMjA5NDE4MTU0NSwtMT
+g2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMw
+MDE1NDcsLTIwMzU0MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwND
+c2NSwxNTI3NzU0NTI5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUs
+MTY2MzM3MDAzNCwtMTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMD
+QwMjk3NjIyXX0=
 -->
