@@ -263,8 +263,16 @@ function generateError (message:string,code:number):never {
 ````
 Crash the script into the error
 
+### Useful Resources & Links
+
+These links might also be interesting:
+
+-   Official TypeScript Docs:  [https://www.typescriptlang.org/docs/handbook/basic-types.html](https://www.typescriptlang.org/docs/handbook/basic-types.html)
+
+## The TypeScript 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1NzQwMTY2NywtMTkxNjY0OTA0MCwtMT
+eyJoaXN0b3J5IjpbMTEyOTY0ODYwMiwtMTkxNjY0OTA0MCwtMT
 U0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4
 ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NT
 Y4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5Njks
