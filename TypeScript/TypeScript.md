@@ -227,12 +227,14 @@ Void because it has no return statement
 ````
 let combineValues: (a:number,b:number) => number; // a variable with a function with two parameters and the result is a number
 ````
+
+### Function Types & Callbacks
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMz
-AwODgwMTUxLDE4OTI0NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5
-ODU2ODgsLTc3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OT
-Y5LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcxNDM0OSwt
-MTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4MTU0NSwtMTg2Nj
-g3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1
-NDcsLTIwMzU0MjkzMzddfQ==
+eyJoaXN0b3J5IjpbLTE1NDk1MDk4NTcsMTA4NDE1NDkzLC0xNT
+Y3NzMyMjM1LC0xMzAwODgwMTUxLDE4OTI0NjgyNzMsLTEyMzcy
+NTYwMzQsLTEwMTI5ODU2ODgsLTc3NjkxMjAzMCwtNjI5ODM3MD
+IwLC0yMDI3MTM5OTY5LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYs
+MTMzNzcxNDM0OSwtMTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5ND
+E4MTU0NSwtMTg2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1
+NjE0LC0yMjMwMDE1NDddfQ==
 -->
