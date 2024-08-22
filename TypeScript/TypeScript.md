@@ -127,7 +127,11 @@ const person: {
 ### Array Types
 
 ````js
-const person {
+const person: {
+	name: string;
+	age: number;
+	hobbies: string[];
+} = {
 	name: 'Franco',
 	age: 32,
 	hobbies: ['Sports','Cooking'] // type string[]
@@ -138,12 +142,13 @@ Types:
  - String[]
  - Any[]
 
+Can use `.toUpperCase() because it knows that is a string[]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NjQ0Mjc3NywxMzM3NzE0MzQ5LC0xND
-Y4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2
-MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMzAwMTU0Ny
-wtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwxNTUzMTA0NzY1LDE1
-Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MTY3ODYyNSwxNjYzMz
-cwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2MzAwLDIwNDAyOTc2
-MjJdfQ==
+eyJoaXN0b3J5IjpbMjAxODY2MDAxLDEzMzc3MTQzNDksLTE0Nj
+g3MDY0MzgsMzkzMDgxMzM5LDIwOTQxODE1NDUsLTE4NjY4NzYx
+NDcsLTQyNTMyODY1MiwtMTAwMTI3NTYxNCwtMjIzMDAxNTQ3LC
+0yMDM1NDI5MzM3LC0xNDMxNjI2MjI0LDE1NTMxMDQ3NjUsMTUy
+Nzc1NDUyOSwxODEyNDMxMTYwLC0xODcxNjc4NjI1LDE2NjMzNz
+AwMzQsLTE1NDQ5MzMxNzUsLTE1OTYzNTYzMDAsMjA0MDI5NzYy
+Ml19
 -->
