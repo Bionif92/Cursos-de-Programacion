@@ -225,16 +225,14 @@ Void because it has no return statement
 ### Function as Types
 
 ````
-let combineValues: (a:number,b:number) => number; // a func
-
-
+let combineValues: (a:number,b:number) => number; // a variable with a function with two parameters and the result is a number
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMT
-g5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2
-OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYzNj
-MzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xNDY4NzA2NDM4
-LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2MTQ3LC00Mj
-UzMjg2NTIsLTEwMDEyNzU2MTQsLTIyMzAwMTU0NywtMjAzNTQy
-OTMzNywtMTQzMTYyNjIyNF19
+eyJoaXN0b3J5IjpbMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMz
+AwODgwMTUxLDE4OTI0NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5
+ODU2ODgsLTc3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OT
+Y5LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcxNDM0OSwt
+MTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4MTU0NSwtMTg2Nj
+g3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1
+NDcsLTIwMzU0MjkzMzddfQ==
 -->
