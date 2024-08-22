@@ -253,12 +253,21 @@ if (userUnput === 'string') {
 
 Better than `any`, because you need to check
 
+### The Never Type
+
+Another type for functions
+````
+function generateError (message:string,code:number) {
+	th
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA3NTk0NzYsLTE5MTY2NDkwNDAsLT
-E1NDk1MDk4NTcsMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAw
-ODgwMTUxLDE4OTI0NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5OD
-U2ODgsLTc3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OTY5
-LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcxNDM0OSwtMT
-Q2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4MTU0NSwtMTg2Njg3
-NjE0NywtNDI1MzI4NjUyXX0=
+eyJoaXN0b3J5IjpbMTk3NDYxNzA3MSwtMTkxNjY0OTA0MCwtMT
+U0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4
+ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NT
+Y4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5Njks
+LTczNzYzNjMzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xND
+Y4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2
+MTQ3LC00MjUzMjg2NTJdfQ==
 -->
