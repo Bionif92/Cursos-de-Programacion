@@ -73,12 +73,18 @@ With TS you see the problems early in development, not when it throw the error i
 
 ````
 //JS
-showResult:boolean
+function add(num1:number, num2:number,showResult:boolean) {
+	if (showResult) {
+		console.log (num1+num2);
+	}else {
+		return num1 + num2;
+		}
+	
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY4NzYxNDcsLTQyNTMyODY1MiwtMT
-AwMTI3NTYxNCwtMjIzMDAxNTQ3LC0yMDM1NDI5MzM3LC0xNDMx
-NjI2MjI0LDE1NTMxMDQ3NjUsMTUyNzc1NDUyOSwxODEyNDMxMT
-YwLC0xODcxNjc4NjI1LDE2NjMzNzAwMzQsLTE1NDQ5MzMxNzUs
-LTE1OTYzNTYzMDAsMjA0MDI5NzYyMl19
+eyJoaXN0b3J5IjpbMTI0MzE5Njg5NCwtMTg2Njg3NjE0NywtND
+I1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1NDcsLTIwMzU0
+MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNTI3NzU0NT
+I5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUsMTY2MzM3MDAzNCwt
+MTU0NDkzMzE3NSwtMTU5NjM1NjMwMCwyMDQwMjk3NjIyXX0=
 -->
