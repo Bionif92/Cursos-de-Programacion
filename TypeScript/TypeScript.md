@@ -239,9 +239,11 @@ function addHandler (n1:number,n2:number,cb: (num:number)=>void) {
 
 ### The Unknown Type
 
-
+````
+let userInput: unknown; // store any value without erros
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNTUzNjU1NiwtMTkxNjY0OTA0MCwtMT
+eyJoaXN0b3J5IjpbMTA0MDIyMjAyNiwtMTkxNjY0OTA0MCwtMT
 U0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4
 ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NT
 Y4OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5Njks
