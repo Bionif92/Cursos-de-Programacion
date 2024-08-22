@@ -72,17 +72,17 @@ With TS you see the problems early in development, not when it throw the error i
 ### Numbers, Strings and Booleans
 
 ````
-//JS
-function add(num1:number, num2:number,showResult:boolean) {
+//JS boolean example
+function add(num1:number, num2:number,showResult:boolean, phrase:string) {
 	if (showResult) {
-		console.log (num1+num2);
+		console.log (phrase+num1+num2);
 	}else {
 		return num1 + num2;
 		}
-	
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzE5Njg5NCwtMTg2Njg3NjE0NywtND
+eyJoaXN0b3J5IjpbLTc1NjE4NDYwNSwtMTg2Njg3NjE0NywtND
 I1MzI4NjUyLC0xMDAxMjc1NjE0LC0yMjMwMDE1NDcsLTIwMzU0
 MjkzMzcsLTE0MzE2MjYyMjQsMTU1MzEwNDc2NSwxNTI3NzU0NT
 I5LDE4MTI0MzExNjAsLTE4NzE2Nzg2MjUsMTY2MzM3MDAzNCwt
