@@ -164,12 +164,28 @@ const person: {
 **`.push()` is an exeption**
 
 ### Working with Enums
+
+Automatically 
+
+````js
+const person: {
+	name: string;
+	age: number;
+	hobbies: string[];
+	role: [number,string];// only two elements
+} = {
+	name: 'Franco',
+	age: 32,
+	hobbies: ['Sports','Cooking'],
+	role: [2,'author'] // only two elements, (string | number)[]
+	}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNzYzNjMzMSwtMTUxMjI4NTQ0NiwxMz
-M3NzE0MzQ5LC0xNDY4NzA2NDM4LDM5MzA4MTMzOSwyMDk0MTgx
-NTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NTIsLTEwMDEyNzU2MT
-QsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywtMTQzMTYyNjIyNCwx
-NTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMjQzMTE2MCwtMTg3MT
-Y3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMzMTc1LC0xNTk2MzU2
-MzAwLDIwNDAyOTc2MjJdfQ==
+eyJoaXN0b3J5IjpbLTEyODg5NjA4MDIsLTczNzYzNjMzMSwtMT
+UxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xNDY4NzA2NDM4LDM5MzA4
+MTMzOSwyMDk0MTgxNTQ1LC0xODY2ODc2MTQ3LC00MjUzMjg2NT
+IsLTEwMDEyNzU2MTQsLTIyMzAwMTU0NywtMjAzNTQyOTMzNywt
+MTQzMTYyNjIyNCwxNTUzMTA0NzY1LDE1Mjc3NTQ1MjksMTgxMj
+QzMTE2MCwtMTg3MTY3ODYyNSwxNjYzMzcwMDM0LC0xNTQ0OTMz
+MTc1LC0xNTk2MzU2MzAwXX0=
 -->
