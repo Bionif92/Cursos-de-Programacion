@@ -188,10 +188,10 @@ Not used because you lose the advantages of typescript
 ### The Union Type
 
 ````
-imput1: number | string; // 
+imput1: number | string; //accept this two types
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDk5MTQ1MSwtNjI5ODM3MDIwLC0yMD
+eyJoaXN0b3J5IjpbLTUwMzEzOTI4NiwtNjI5ODM3MDIwLC0yMD
 I3MTM5OTY5LC03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcx
 NDM0OSwtMTQ2ODcwNjQzOCwzOTMwODEzMzksMjA5NDE4MTU0NS
 wtMTg2Njg3NjE0NywtNDI1MzI4NjUyLC0xMDAxMjc1NjE0LC0y
