@@ -285,10 +285,12 @@ Auto recompile to JS
 // Terminal
 tsc --init // everything in the foulder is managed by TS
 
-tsc // need to run after to run
+tsc // to add files
+
+tsc -w // to add changes
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDgwNTYxNSwtMTI2NjUyNzQ0MywtMT
+eyJoaXN0b3J5IjpbLTgwNDI4ODMwNywtMTI2NjUyNzQ0MywtMT
 g5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0
 OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4OD
 AxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4
