@@ -390,15 +390,16 @@ Helps with debbuging and development
 		"strict": true // enable all strict type from bellow
 		"noImplicitAny" // ensure we dont have "any" type
 		"strictNullChecks" // strict will null elements
-		"strictFunctionTypes" //
+		"strictFunctionTypes" // see later
+		"strictBindCallApply"
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjU0Nzc0MjgsNzc1NDc0MDUwLDI3Mz
-gyODYwMiwtMTI5NTY5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1
-MSwxMjg1ODkwOTgwLC0xMjY2NTI3NDQzLC0xODkzNTI3ODE2LC
-0yMTIyNjU1Njg1LC0xOTE2NjQ5MDQwLC0xNTQ5NTA5ODU3LDEw
-ODQxNTQ5MywtMTU2NzczMjIzNSwtMTMwMDg4MDE1MSwxODkyND
-Y4MjczLC0xMjM3MjU2MDM0LC0xMDEyOTg1Njg4LC03NzY5MTIw
-MzAsLTYyOTgzNzAyMF19
+eyJoaXN0b3J5IjpbNDIzNjUxNjU1LDc3NTQ3NDA1MCwyNzM4Mj
+g2MDIsLTEyOTU2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEs
+MTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMj
+EyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0
+MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2OD
+I3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2OTEyMDMw
+LC02Mjk4MzcwMjBdfQ==
 -->
