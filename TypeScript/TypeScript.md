@@ -325,12 +325,21 @@ In `tsconfig.json` created with `tsc --init`
 {
 	"compilerOptions": {
 		"lib": [
-			"dom"
+			"dom",
+			"es6",
+			"dom.iterable",
+			"scripthost" // core JS features 
 		]
 	}
 ````
+
+Further Links:
+
+tsconfig Docs:  [https://www.typescriptlang.org/docs/handbook/tsconfig-json.html](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+
+Compiler Options (Official Docs: )[https://www.typescriptlang.org/docs/handbook/compiler-options.html](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDU4NjM4NywtOTQ2MzY4NTEsMTI4NT
+eyJoaXN0b3J5IjpbLTc5NDE0NjM4OCwtOTQ2MzY4NTEsMTI4NT
 g5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1
 NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OT
 MsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3Mywt
