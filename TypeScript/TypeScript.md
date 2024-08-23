@@ -347,6 +347,7 @@ Compiler Options (Official Docs: )[https://www.typescriptlang.org/docs/handbook/
 		"allowJS" // add JS files to the compilation
 		"checkJS" // see errors	
 	}
+}
 ````
 
 Use `allowJs` and `checkJS` if you have vanilla JS you want to check
@@ -359,6 +360,7 @@ Helps with debbuging and development
 	"compilerOptions": {
 		"sourceMap": true // for debbuging th TS files	
 	}
+}
 ````
 
 ### rootDir and outDir
@@ -371,6 +373,7 @@ Helps with debbuging and development
 		"removeComments": true // delete comments in JS files
 		"noEmmit": true // dont create JS files of the TS
 	}
+}
 ````
 
 ### Stop Emitting Files on Compilation Errors
@@ -380,6 +383,7 @@ Helps with debbuging and development
 	"compilerOptions": {
 		"noEmitOnError": true/false, // option not listen, false default, true: not generate the JS file if has an error
 	}
+}
 ````
 
 ### Strict Compilation
@@ -393,6 +397,7 @@ Helps with debbuging and development
 		"strictFunctionTypes" // see later
 		"strictBindCallApply" // when you use .bind and you configure to null, and dont put argument
 	}
+}
 ````
 
 See other options later in the course
@@ -407,13 +412,15 @@ See other options later in the course
 		"noImplicitReturns"
 		"noFallthroghCasesInSwitch"
 	}
+}
 ````
+Need to enable them for quality code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIxMTkwNjE2LC0xNjk4NTEyMzI3LC03MD
-Q3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0
-OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgwLC0xMj
-Y2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1Njg1LC0xOTE2
-NjQ5MDQwLC0xNTQ5NTA5ODU3LDEwODQxNTQ5MywtMTU2NzczMj
-IzNSwtMTMwMDg4MDE1MSwxODkyNDY4MjczLC0xMjM3MjU2MDM0
-LC0xMDEyOTg1Njg4XX0=
+eyJoaXN0b3J5IjpbMTY0Nzk4NjQ0MSwtMTY5ODUxMjMyNywtNz
+A0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4
+NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4MCwtMT
+I2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkx
+NjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3Mz
+IyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAz
+NCwtMTAxMjk4NTY4OF19
 -->
