@@ -391,15 +391,15 @@ Helps with debbuging and development
 		"noImplicitAny" // ensure we dont have "any" type
 		"strictNullChecks" // strict will null elements
 		"strictFunctionTypes" // see later
-		"strictBindCallApply"
+		"strictBindCallApply" // when you use .bind and you configure to null
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIzNjUxNjU1LDc3NTQ3NDA1MCwyNzM4Mj
-g2MDIsLTEyOTU2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEs
-MTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMj
-EyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0
-MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2OD
-I3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2OTEyMDMw
-LC02Mjk4MzcwMjBdfQ==
+eyJoaXN0b3J5IjpbLTczMzI1MzI1NCw3NzU0NzQwNTAsMjczOD
+I4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUx
+LDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLT
+IxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4
+NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAwODgwMTUxLDE4OTI0Nj
+gyNzMsLTEyMzcyNTYwMzQsLTEwMTI5ODU2ODgsLTc3NjkxMjAz
+MCwtNjI5ODM3MDIwXX0=
 -->
