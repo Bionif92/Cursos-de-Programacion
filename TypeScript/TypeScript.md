@@ -348,8 +348,10 @@ Compiler Options (Official Docs: )[https://www.typescriptlang.org/docs/handbook/
 		"checkJS" // see errors	
 	}
 ````
+
+Use `allowJs` and `checkJS` if you have vanilla JS you want to check
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzU1NTEyNywtOTQ2MzY4NTEsMTI4NT
+eyJoaXN0b3J5IjpbLTExNjg4ODQ4NiwtOTQ2MzY4NTEsMTI4NT
 g5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1
 NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OT
 MsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3Mywt
