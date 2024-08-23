@@ -357,15 +357,25 @@ Helps with debbuging and development
 ````
 {
 	"compilerOptions": {
-		"sourceMap": true //	
+		"sourceMap": true // for debbuging th TS files	
+	}
+````
+
+### rootDir and outDir
+
+````
+{
+	"compilerOptions": {
+		"outDir"
+		"rootDir"
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNDAxNzk4LC05NDYzNjg1MSwxMjg1OD
-kwOTgwLC0xMjY2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1
-Njg1LC0xOTE2NjQ5MDQwLC0xNTQ5NTA5ODU3LDEwODQxNTQ5My
-wtMTU2NzczMjIzNSwtMTMwMDg4MDE1MSwxODkyNDY4MjczLC0x
-MjM3MjU2MDM0LC0xMDEyOTg1Njg4LC03NzY5MTIwMzAsLTYyOT
-gzNzAyMCwtMjAyNzEzOTk2OSwtNzM3NjM2MzMxLC0xNTEyMjg1
-NDQ2LDEzMzc3MTQzNDldfQ==
+eyJoaXN0b3J5IjpbLTg3ODY2MDE1NiwtOTQ2MzY4NTEsMTI4NT
+g5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1
+NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OT
+MsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3Mywt
+MTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2OTEyMDMwLC02Mj
+k4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYzNjMzMSwtMTUxMjI4
+NTQ0NiwxMzM3NzE0MzQ5XX0=
 -->
