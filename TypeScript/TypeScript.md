@@ -438,12 +438,16 @@ These links might also be interesting:
 -   tsconfig Docs: [https://www.typescriptlang.org/docs/handbook/tsconfig-json.html](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 -   Compiler Config Docs:  [https://www.typescriptlang.org/docs/handbook/compiler-options.html](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
 -   VS Code TS Debugging: [https://code.visualstudio.com/docs/typescript/typescript-debugging](https://code.visualstudio.com/docs/typescript/typescript-debugging)
+
+## Next-Generation: JS & TS
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTg4MjIyNiwtMTY5ODUxMjMyNywtNz
-A0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4
-NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4MCwtMT
-I2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkx
-NjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3Mz
-IyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAz
-NCwtMTAxMjk4NTY4OF19
+eyJoaXN0b3J5IjpbNjc3MTg1MDA2LC0xNjk4NTEyMzI3LC03MD
+Q3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0
+OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgwLC0xMj
+Y2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1Njg1LC0xOTE2
+NjQ5MDQwLC0xNTQ5NTA5ODU3LDEwODQxNTQ5MywtMTU2NzczMj
+IzNSwtMTMwMDg4MDE1MSwxODkyNDY4MjczLC0xMjM3MjU2MDM0
+LC0xMDEyOTg1Njg4XX0=
 -->
