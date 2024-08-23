@@ -315,11 +315,11 @@ In `tsconfig.json` created with `tsc --init`
 ````
 {
 	"compilerOptions": {
-	
+		target: "es"
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODQwNDU4OSwtMTI2NjUyNzQ0MywtMT
+eyJoaXN0b3J5IjpbMTkxMzc3MTY3NiwtMTI2NjUyNzQ0MywtMT
 g5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0
 OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4OD
 AxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4
