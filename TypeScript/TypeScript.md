@@ -421,8 +421,12 @@ Need to enable them for quality code
 Can put breakpoints in VSC in a TS file
 
 need to enable "sourceMap": true
+
+Debbug/Start Debbug/Chrome
+
+C
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDQ1NTg1NiwtMTY5ODUxMjMyNywtNz
+eyJoaXN0b3J5IjpbMTE3MjQ3MjY0NSwtMTY5ODUxMjMyNywtNz
 A0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4
 NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4MCwtMT
 I2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkx
