@@ -389,15 +389,15 @@ Helps with debbuging and development
 	"compilerOptions": {
 		"strict": true // enable all strict type from bellow
 		"noImplicitAny" // ensure we dont have "any" type
-		"strictN"
+		"strictNullChecks" // strict will null elements
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAwMjUzMjMsMjczODI4NjAyLC0xMj
-k1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUxLDEyODU4OTA5
-ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLTIxMjI2NTU2OD
-UsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4NDE1NDkzLC0x
-NTY3NzMyMjM1LC0xMzAwODgwMTUxLDE4OTI0NjgyNzMsLTEyMz
-cyNTYwMzQsLTEwMTI5ODU2ODgsLTc3NjkxMjAzMCwtNjI5ODM3
-MDIwLC0yMDI3MTM5OTY5XX0=
+eyJoaXN0b3J5IjpbNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NT
+Y5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgw
+LC0xMjY2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1Njg1LC
+0xOTE2NjQ5MDQwLC0xNTQ5NTA5ODU3LDEwODQxNTQ5MywtMTU2
+NzczMjIzNSwtMTMwMDg4MDE1MSwxODkyNDY4MjczLC0xMjM3Mj
+U2MDM0LC0xMDEyOTg1Njg4LC03NzY5MTIwMzAsLTYyOTgzNzAy
+MCwtMjAyNzEzOTk2OV19
 -->
