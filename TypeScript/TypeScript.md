@@ -381,8 +381,12 @@ Helps with debbuging and development
 		"noEmitOnError": true/false, // option not listen, false default, true: not generate the JS file if has an error
 	}
 ````
+
+### Strict Compilation
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTI1NTc3NTEsMTcyMzc4OTU2MCwtOT
+eyJoaXN0b3J5IjpbLTEyOTU2OTk4NDgsMTcyMzc4OTU2MCwtOT
 Q2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUy
 NzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOT
 g1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEs
