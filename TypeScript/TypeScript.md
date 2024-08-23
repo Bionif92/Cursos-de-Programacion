@@ -429,13 +429,21 @@ Change: url: "http://localhost:3000"
 
 On terminal tsc
 
-### Useful 
+### Useful Resources & Links
+
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
+
+These links might also be interesting:
+
+-   tsconfig Docs: [https://www.typescriptlang.org/docs/handbook/tsconfig-json.html](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+-   Compiler Config Docs:  [https://www.typescriptlang.org/docs/handbook/compiler-options.html](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+-   VS Code TS Debugging: [https://code.visualstudio.com/docs/typescript/typescript-debugging](https://code.visualstudio.com/docs/typescript/typescript-debugging)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTY5NDA0ODksLTE2OTg1MTIzMjcsLT
-cwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAyLC0xMjk1Njk5
-ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUxLDEyODU4OTA5ODAsLT
-EyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLTIxMjI2NTU2ODUsLTE5
-MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4NDE1NDkzLC0xNTY3Nz
-MyMjM1LC0xMzAwODgwMTUxLDE4OTI0NjgyNzMsLTEyMzcyNTYw
-MzQsLTEwMTI5ODU2ODhdfQ==
+eyJoaXN0b3J5IjpbLTIwOTg4MjIyNiwtMTY5ODUxMjMyNywtNz
+A0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4
+NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4MCwtMT
+I2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkx
+NjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3Mz
+IyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAz
+NCwtMTAxMjk4NTY4OF19
 -->
