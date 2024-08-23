@@ -367,11 +367,11 @@ Helps with debbuging and development
 {
 	"compilerOptions": {
 		"outDir": "./dist" // JS files created in dist foulder
-		"rootDir"
+		"rootDir": "./scr" // TS files in scr foulder
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTQxMDAzMSwtOTQ2MzY4NTEsMTI4NT
+eyJoaXN0b3J5IjpbMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NT
 g5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1
 NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OT
 MsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3Mywt
