@@ -299,16 +299,17 @@ In `tsconfig.json` created with `tsc --init`,at the end
 	"exclude": [
 		"analytics.ts",
 		"*.dev.ts"// ends with that
-		"**/*.dev.ts" //
+		"**/*.dev.ts" // any file with that pattern in any foulder
 	]
+	"node_modules" // it is the default to excl
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MDYwMjUzNiwtMTI2NjUyNzQ0MywtMT
-g5MzUyNzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0
-OTUwOTg1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4OD
-AxNTEsMTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4
-OCwtNzc2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5NjksLT
-czNzYzNjMzMSwtMTUxMjI4NTQ0NiwxMzM3NzE0MzQ5LC0xNDY4
-NzA2NDM4LDM5MzA4MTMzOV19
+eyJoaXN0b3J5IjpbLTE2MTU3NDI2OTksLTEyNjY1Mjc0NDMsLT
+E4OTM1Mjc4MTYsLTIxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1
+NDk1MDk4NTcsMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAwOD
+gwMTUxLDE4OTI0NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5ODU2
+ODgsLTc3NjkxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OTY5LC
+03Mzc2MzYzMzEsLTE1MTIyODU0NDYsMTMzNzcxNDM0OSwtMTQ2
+ODcwNjQzOCwzOTMwODEzMzldfQ==
 -->
