@@ -391,11 +391,15 @@ Helps with debbuging and development
 		"noImplicitAny" // ensure we dont have "any" type
 		"strictNullChecks" // strict will null elements
 		"strictFunctionTypes" // see later
-		"strictBindCallApply" // when you use .bind and you configure to null
+		"strictBindCallApply" // when you use .bind and you configure to null, and dont put argument
 	}
 ````
+
+See other options later in the course
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMzI1MzI1NCw3NzU0NzQwNTAsMjczOD
+eyJoaXN0b3J5IjpbLTcwNDczMjc4Miw3NzU0NzQwNTAsMjczOD
 I4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUx
 LDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLT
 IxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4
