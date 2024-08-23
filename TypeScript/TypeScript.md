@@ -328,7 +328,7 @@ In `tsconfig.json` created with `tsc --init`
 			"dom",
 			"es6",
 			"dom.iterable",
-			"scripthost" // core JS features 
+			"scripthost" // core JS features, is the default
 		]
 	}
 ````
@@ -338,12 +338,21 @@ Further Links:
 tsconfig Docs:  [https://www.typescriptlang.org/docs/handbook/tsconfig-json.html](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
 
 Compiler Options (Official Docs: )[https://www.typescriptlang.org/docs/handbook/compiler-options.html](https://www.typescriptlang.org/docs/handbook/compiler-options.html)
+
+### More Configuration & Compilation Option
+
+````
+{
+	"compilerOptions": {
+		"allowJS"	
+	}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NDE0NjM4OCwtOTQ2MzY4NTEsMTI4NT
-g5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1
-NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OT
-MsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3Mywt
-MTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2OTEyMDMwLC02Mj
-k4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYzNjMzMSwtMTUxMjI4
-NTQ0NiwxMzM3NzE0MzQ5XX0=
+eyJoaXN0b3J5IjpbLTE2MjMxNzEyNjQsLTk0NjM2ODUxLDEyOD
+U4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLTIxMjI2
+NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4NDE1ND
+kzLC0xNTY3NzMyMjM1LC0xMzAwODgwMTUxLDE4OTI0NjgyNzMs
+LTEyMzcyNTYwMzQsLTEwMTI5ODU2ODgsLTc3NjkxMjAzMCwtNj
+I5ODM3MDIwLC0yMDI3MTM5OTY5LC03Mzc2MzYzMzEsLTE1MTIy
+ODU0NDYsMTMzNzcxNDM0OV19
 -->
