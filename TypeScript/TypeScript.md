@@ -416,9 +416,11 @@ See other options later in the course
 ````
 Need to enable them for quality code
 
-### Debbugin
+### Debbuggin with VSC
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjExNzkyOTc5LC0xNjk4NTEyMzI3LC03MD
+eyJoaXN0b3J5IjpbNzA5MjIwMTE2LC0xNjk4NTEyMzI3LC03MD
 Q3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0
 OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgwLC0xMj
 Y2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1Njg1LC0xOTE2
