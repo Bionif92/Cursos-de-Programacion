@@ -368,14 +368,16 @@ Helps with debbuging and development
 	"compilerOptions": {
 		"outDir": "./dist" // JS files created in dist foulder
 		"rootDir": "./scr" // TS files in scr foulder
+		"removeComments": true // delete comments in JS files
+		"noEmmit": true // dont create JS files of the TS
 	}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NT
-g5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1
-NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOTg1NywxMDg0MTU0OT
-MsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEsMTg5MjQ2ODI3Mywt
-MTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNzc2OTEyMDMwLC02Mj
-k4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYzNjMzMSwtMTUxMjI4
-NTQ0NiwxMzM3NzE0MzQ5XX0=
+eyJoaXN0b3J5IjpbLTEyODk5MTYxMzMsMTcyMzc4OTU2MCwtOT
+Q2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUy
+NzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOT
+g1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEs
+MTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNz
+c2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYz
+NjMzMSwtMTUxMjI4NTQ0Nl19
 -->
