@@ -372,12 +372,24 @@ Helps with debbuging and development
 		"noEmmit": true // dont create JS files of the TS
 	}
 ````
+
+### Stop Emitting Files on Compilation Errors
+
+````
+{
+	"compilerOptions": {
+		"outDir": "./dist" // JS files created in dist foulder
+		"rootDir": "./scr" // TS files in scr foulder
+		"removeComments": true // delete comments in JS files
+		"noEmmit": true // dont create JS files of the TS
+	}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk5MTYxMzMsMTcyMzc4OTU2MCwtOT
-Q2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5MzUy
-NzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUwOT
-g1NywxMDg0MTU0OTMsLTE1Njc3MzIyMzUsLTEzMDA4ODAxNTEs
-MTg5MjQ2ODI3MywtMTIzNzI1NjAzNCwtMTAxMjk4NTY4OCwtNz
-c2OTEyMDMwLC02Mjk4MzcwMjAsLTIwMjcxMzk5NjksLTczNzYz
-NjMzMSwtMTUxMjI4NTQ0Nl19
+eyJoaXN0b3J5IjpbOTMyMzIxMTg2LDE3MjM3ODk1NjAsLTk0Nj
+M2ODUxLDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4
+MTYsLTIxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NT
+csMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAwODgwMTUxLDE4
+OTI0NjgyNzMsLTEyMzcyNTYwMzQsLTEwMTI5ODU2ODgsLTc3Nj
+kxMjAzMCwtNjI5ODM3MDIwLC0yMDI3MTM5OTY5LC03Mzc2MzYz
+MzEsLTE1MTIyODU0NDZdfQ==
 -->
