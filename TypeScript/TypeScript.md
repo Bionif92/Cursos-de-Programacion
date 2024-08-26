@@ -473,15 +473,18 @@ class Department {
 
 const accountingCopy = {describe: accounting.describe};
 accountingCopy.describe(); // error, not refer to Department Class
+
+const accountingCopy = {name: 's', describe: accounting.describe};
+accountingCopy.describe(); // now it works
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg2NTYyNTYsNTE2MjAzNzUwLDU5NT
-Q0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYs
-LTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0NzQwNTAsMjczOD
-I4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUx
-LDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLT
-IxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4
-NDE1NDkzXX0=
+eyJoaXN0b3J5IjpbODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0ND
+MwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0x
+Njk4NTEyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyOD
+YwMiwtMTI5NTY5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwx
+Mjg1ODkwOTgwLC0xMjY2NTI3NDQzLC0xODkzNTI3ODE2LC0yMT
+IyNjU1Njg1LC0xOTE2NjQ5MDQwLC0xNTQ5NTA5ODU3LDEwODQx
+NTQ5M119
 -->
