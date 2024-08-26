@@ -456,11 +456,23 @@ New tools:
 
 ## Classes & Interfaces
 
+### this.Classes
 
+````
+class Department {
+	name:string; //field
+	
+	constructor(n:string) {
+		this.name:n;
+	}
+
+		
+}
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDgxNjg3Niw1MTYyMDM3NTAsNTk1ND
+eyJoaXN0b3J5IjpbLTI3OTE1Njg4NCw1MTYyMDM3NTAsNTk1ND
 QzMDUzLDUzNDI1MDYxNCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwt
 MTY5ODUxMjMyNywtNzA0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mj
 g2MDIsLTEyOTU2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEs
