@@ -443,13 +443,17 @@ These links might also be interesting:
 
 JavaScript Compatibility Table: [https://kangax.github.io/compat-table/es6/](https://kangax.github.io/compat-table/es6/)
 
+New tools:
+
+ - Use let and const
+ - Use arrow functions
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTk4NTU1MCw2NzcxODUwMDYsLTE2OT
-g1MTIzMjcsLTcwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAy
-LC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUxLDEyOD
-U4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLTIxMjI2
-NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MDk4NTcsMTA4NDE1ND
-kzLC0xNTY3NzMyMjM1LC0xMzAwODgwMTUxLDE4OTI0NjgyNzMs
-LTEyMzcyNTYwMzRdfQ==
+eyJoaXN0b3J5IjpbLTE5MDkwNDI1MjIsMTE5NTk4NTU1MCw2Nz
+cxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0NzQw
+NTAsMjczODI4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAsLT
+k0NjM2ODUxLDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1
+Mjc4MTYsLTIxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1MD
+k4NTcsMTA4NDE1NDkzLC0xNTY3NzMyMjM1LC0xMzAwODgwMTUx
+LDE4OTI0NjgyNzNdfQ==
 -->
