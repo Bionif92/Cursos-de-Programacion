@@ -506,11 +506,11 @@ Public is the default
 
 ````
 class Department {
-	constructor(n:string) {
+	constructor(private id: string, public name:string) { //initialize the properties
 		this.name:n;
 	}
 
-	describe(this:Department) { // only can refer to a Department class
+	describe(this:Department) { 
 		console.log('Department: '+ this.name)
 	}
 	addEmployee(employee:string) {
@@ -519,7 +519,7 @@ class Department {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzNzA2MDU0NSw4ODQyOTI0NzAsNTE2Mj
+eyJoaXN0b3J5IjpbLTU2NDY0MzgyNCw4ODQyOTI0NzAsNTE2Mj
 AzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2
 NzcxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0Nz
 QwNTAsMjczODI4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAs
