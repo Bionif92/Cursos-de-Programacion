@@ -496,11 +496,13 @@ class Department {
 		this.employees.push(employee); 
 	}
 }
-accounting.add
+accounting.addEmployee('Max'); // it is ok
+accounting.employees[2] = 'Max'; // not ok
 
 ````
+Public is the defaout
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzNjI0OTI0NCw4ODQyOTI0NzAsNTE2Mj
+eyJoaXN0b3J5IjpbLTcxMzAyOTM4Miw4ODQyOTI0NzAsNTE2Mj
 AzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2
 NzcxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0Nz
 QwNTAsMjczODI4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAs
