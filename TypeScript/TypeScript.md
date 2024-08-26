@@ -450,10 +450,10 @@ New tools:
  - Default function parameters (default on the right)
  - Spread Operator - On arrays and objects
  - Rest Parameters
- - 
+ - Array & Objects Destructuring
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5MjYyMjczLDUzNDI1MDYxNCwxMTk1OT
+eyJoaXN0b3J5IjpbNTk1NDQzMDUzLDUzNDI1MDYxNCwxMTk1OT
 g1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMyNywtNzA0NzMyNzgy
 LDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4NDgsMTcyMz
 c4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0
