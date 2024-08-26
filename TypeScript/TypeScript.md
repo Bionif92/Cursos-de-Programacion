@@ -501,12 +501,29 @@ accounting.employees[2] = 'Max'; // not ok
 
 ````
 Public is the default
+
+### Shorthand Initialization
+
+````
+class Department {
+	constructor(n:string) {
+		this.name:n;
+	}
+
+	describe(this:Department) { // only can refer to a Department class
+		console.log('Department: '+ this.name)
+	}
+	addEmployee(employee:string) {
+		this.employees.push(employee); 
+	}
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY2OTUxNjU5LDg4NDI5MjQ3MCw1MTYyMD
-M3NTAsNTk1NDQzMDUzLDUzNDI1MDYxNCwxMTk1OTg1NTUwLDY3
-NzE4NTAwNiwtMTY5ODUxMjMyNywtNzA0NzMyNzgyLDc3NTQ3ND
-A1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4NDgsMTcyMzc4OTU2MCwt
-OTQ2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5Mz
-UyNzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUw
-OTg1N119
+eyJoaXN0b3J5IjpbMTAzNzA2MDU0NSw4ODQyOTI0NzAsNTE2Mj
+AzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2
+NzcxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0Nz
+QwNTAsMjczODI4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAs
+LTk0NjM2ODUxLDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OT
+M1Mjc4MTYsLTIxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1
+MDk4NTddfQ==
 -->
