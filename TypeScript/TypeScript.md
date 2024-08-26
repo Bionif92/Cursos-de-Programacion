@@ -480,12 +480,28 @@ accountingCopy.describe(); // now it works
 
 ### Private & Public Modifiers
 
+````
+class Department {
+	name:string; //field
+	private employees: string[]=
+	
+	constructor(n:string) {
+		this.name:n;
+	}
+
+	describe(this:Department) { // only can refer to a Department class
+		console.log('Department: '+ this.name)
+	}
+}
+
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk1NjI4Mzk1LDg4NDI5MjQ3MCw1MTYyMD
-M3NTAsNTk1NDQzMDUzLDUzNDI1MDYxNCwxMTk1OTg1NTUwLDY3
-NzE4NTAwNiwtMTY5ODUxMjMyNywtNzA0NzMyNzgyLDc3NTQ3ND
-A1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4NDgsMTcyMzc4OTU2MCwt
-OTQ2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0MywtMTg5Mz
-UyNzgxNiwtMjEyMjY1NTY4NSwtMTkxNjY0OTA0MCwtMTU0OTUw
-OTg1N119
+eyJoaXN0b3J5IjpbLTE5MjQ0ODY1NDQsODg0MjkyNDcwLDUxNj
+IwMzc1MCw1OTU0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAs
+Njc3MTg1MDA2LC0xNjk4NTEyMzI3LC03MDQ3MzI3ODIsNzc1ND
+c0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0OCwxNzIzNzg5NTYw
+LC05NDYzNjg1MSwxMjg1ODkwOTgwLC0xMjY2NTI3NDQzLC0xOD
+kzNTI3ODE2LC0yMTIyNjU1Njg1LC0xOTE2NjQ5MDQwLC0xNTQ5
+NTA5ODU3XX0=
 -->
