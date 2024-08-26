@@ -519,12 +519,27 @@ class Department {
 ````
 
 ### Readonly Properties
+
+````
+class Department {
+	constructor(private readonly id: string, public name:string) { //readonly property
+	}
+
+	describe(this:Department) { 
+		console.log('Department: '+ this.name)
+	}
+	addEmployee(employee:string) {
+		this.employees.push(employee); 
+	}
+}
+````
+Can not change the property with the readonly text
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjk2MTUxMDIsODg0MjkyNDcwLDUxNj
-IwMzc1MCw1OTU0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAs
-Njc3MTg1MDA2LC0xNjk4NTEyMzI3LC03MDQ3MzI3ODIsNzc1ND
-c0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0OCwxNzIzNzg5NTYw
-LC05NDYzNjg1MSwxMjg1ODkwOTgwLC0xMjY2NTI3NDQzLC0xOD
-kzNTI3ODE2LC0yMTIyNjU1Njg1LC0xOTE2NjQ5MDQwLC0xNTQ5
-NTA5ODU3XX0=
+eyJoaXN0b3J5IjpbLTQxMjgyNDUzOSw4ODQyOTI0NzAsNTE2Mj
+AzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2
+NzcxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0Nz
+QwNTAsMjczODI4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAs
+LTk0NjM2ODUxLDEyODU4OTA5ODAsLTEyNjY1Mjc0NDMsLTE4OT
+M1Mjc4MTYsLTIxMjI2NTU2ODUsLTE5MTY2NDkwNDAsLTE1NDk1
+MDk4NTddfQ==
 -->
