@@ -456,7 +456,7 @@ New tools:
 
 ## Classes & Interfaces
 
-### this.Classes
+### this.Classes TS
 
 ````
 class Department {
@@ -471,12 +471,13 @@ class Department {
 	}
 }
 
-const account
+const accountingCopy = {describe: accounting.describe};
+accountingCopy.describe(); // error, not refer to Department Class
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzM0MTM3OTgsNTE2MjAzNzUwLDU5NT
+eyJoaXN0b3J5IjpbLTE4MDg2NTYyNTYsNTE2MjAzNzUwLDU5NT
 Q0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYs
 LTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0NzQwNTAsMjczOD
 I4NjAyLC0xMjk1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUx
