@@ -538,12 +538,16 @@ Can not change the property with the readonly text
 More on inheritance and the JavaScript prototype chain: [https://www.udemy.com/course/understanding-typescript/learn/lecture/16888254#overview](https://www.udemy.com/course/understanding-typescript/learn/lecture/16888254#overview)
 
 ### Inheritance
+
+````
+class ITDepartment {}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTUzNzYzLC00MTI4MjQ1MzksODg0Mj
-kyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0MjUwNjE0LDEx
-OTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3LC03MDQ3Mz
-I3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0OCwx
-NzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgwLC0xMjY2NT
-I3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1Njg1LC0xOTE2NjQ5
-MDQwXX0=
+eyJoaXN0b3J5IjpbMzQzMjAxOTE4LC02ODU1Mzc2MywtNDEyOD
+I0NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUz
+NDI1MDYxNCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMj
+MyNywtNzA0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEy
+OTU2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MD
+k4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1NTY4
+NV19
 -->
