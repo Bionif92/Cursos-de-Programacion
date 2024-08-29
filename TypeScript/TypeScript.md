@@ -817,7 +817,7 @@ type UnknownEmployee = Employee | Admin;
 
 function printEmployeeInformation (emp:UnknownEmployee) {
 	console.log('Name: ' + emp.name)
-	if (emp.privilegues) {
+	if ('privileges' in emp) { // guard
 		console.log('Privileges: ' + emp.privileges)
 	}
 }
@@ -825,11 +825,11 @@ function printEmployeeInformation (emp:UnknownEmployee) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODEyNjIsLTE3NzM4MjMxNDQsNjUzOT
-M1MzMsNTM2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTks
-LTEyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OT
-Y5NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2
-MzQ2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLT
-QxMjgyNDUzOSw4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1
-M119
+eyJoaXN0b3J5IjpbMTE5NDIwMDc5NywtMTc3MzgyMzE0NCw2NT
+M5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIx
+OSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNz
+g5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2
+OTYzNDYsMzA3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2My
+wtNDEyODI0NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQz
+MDUzXX0=
 -->
