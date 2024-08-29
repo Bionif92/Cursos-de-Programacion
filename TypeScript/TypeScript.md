@@ -539,15 +539,18 @@ More on inheritance and the JavaScript prototype chain: [https://www.udemy.com/c
 
 ### Inheritance
 
+Unless you put a new contructor, it inherit the father one
 ````
-class ITDepartment {}
+class ITDepartment extends Department {
+	
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQzMjAxOTE4LC02ODU1Mzc2MywtNDEyOD
-I0NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUz
-NDI1MDYxNCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMj
-MyNywtNzA0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEy
-OTU2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MD
-k4MCwtMTI2NjUyNzQ0MywtMTg5MzUyNzgxNiwtMjEyMjY1NTY4
-NV19
+eyJoaXN0b3J5IjpbLTE3MzQxMjA4NjIsLTY4NTUzNzYzLC00MT
+I4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMs
+NTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NT
+EyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwt
+MTI5NTY5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1OD
+kwOTgwLC0xMjY2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1
+Njg1XX0=
 -->
