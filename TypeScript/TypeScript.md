@@ -709,12 +709,23 @@ interface Greetable {
 
 Also used on types
 
+### Extending Interfaces
+
+````
+interface Named {
+	readonly name:string;
+}
+interface Greetable { 
+	greet(phrase:string):void;
+}
+````
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzY0MTg0NCwxOTMzMDQ0NjU1LC0yMD
+eyJoaXN0b3J5IjpbLTQzMDczNDgxNywxOTMzMDQ0NjU1LC0yMD
 Q0OTAwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5
 NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNi
 wtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLTY4
