@@ -654,10 +654,15 @@ Interfase: describe the structure of an object
 Only on TS
 
 ````
-interface Person {
+interface Person { // only can define the structure
 	name:string;
 	age:number;
+
+	greet(phrase:string):void;
 }
+
+let user1: Person;
+user1 =
 ````
 
 
@@ -665,7 +670,7 @@ interface Person {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUyMDE3NTY5LC04ODk1ODIzNjYsNTAyND
+eyJoaXN0b3J5IjpbNjAxOTEwOTQxLC04ODk1ODIzNjYsNTAyND
 g5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUw
 NiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLT
 Y4NTUzNzYzLC00MTI4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1
