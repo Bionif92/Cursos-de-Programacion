@@ -567,7 +567,12 @@ class AccountingDepartment extends Department {
 		return new Error ('No report found');
 	}
 	
-	set 
+	set mostRecentReport(value:string) {
+		if (!value) {
+			
+		}
+		this.addReport(value);
+	}
 
 	constructor(id:string,private reports:string[]) {
 		super(id,'Accounting');
@@ -585,7 +590,7 @@ Getter: property where you execute a function or method when you retrieve a valu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNTY4NTM0MSwtMTQyMTY5NjM0NiwzMD
+eyJoaXN0b3J5IjpbMTYwODQyMDk1NiwtMTQyMTY5NjM0NiwzMD
 cxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1
 MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0Mj
 UwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3
