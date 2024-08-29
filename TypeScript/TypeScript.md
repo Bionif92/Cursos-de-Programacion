@@ -840,10 +840,15 @@ class Truck {
 
 type Vehicle = Car | Truck;
 
-co
+const v1 = new Car();
+const v2 = new Truck();
+
+function useVehicle (vehicle: Vehicle){
+	vehicle.drive();
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODgxNTMyNSwtMTc3MzgyMzE0NCw2NT
+eyJoaXN0b3J5IjpbMTc0MTMzNjM3OSwtMTc3MzgyMzE0NCw2NT
 M5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIx
 OSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNz
 g5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2
