@@ -937,13 +937,21 @@ const result = add(1,5); // Type Combinable, dont know if it is string or number
 // can use type casting
 const result = add(1,5) as number;
 
+// use function overload better
+function add (a:number,b:number):number
+function add (a:Combinable,b:Combinable) {
+	if (typeof a =='string' || typeof b == string) { // guard
+		return a.toString()+ b.toString();
+	}
+	return a+b;
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MjA4NzYsLTE1MTQ4MTg3MTIsLTExMj
-c3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0
-LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2Nz
-AzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0
-NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMT
-M3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0
-MDY1Ml19
+eyJoaXN0b3J5IjpbMjEyMDU4Mjg1NCwtMTUxNDgxODcxMiwtMT
+EyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5
+MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1Mz
+Y3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMw
+NTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC
+0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3
+MTQwNjUyXX0=
 -->
