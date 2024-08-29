@@ -698,16 +698,27 @@ class Person implements Greetable, anotherInterface {
 
 Enforce structure to other classes
 
+### Readonly Interface Properties
+
+````
+interface Greetable { 
+	readonly name:string;
+	greet(phrase:string):void;
+}
+````
+
+Also used on types
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc5NzEyMTExLDE5MzMwNDQ2NTUsLTIwND
-Q5MDAyMTksLTEyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0
-OTMsLTc4OTY5NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC
-0xNDIxNjk2MzQ2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NCwtNjg1
-NTM3NjMsLTQxMjgyNDUzOSw4ODQyOTI0NzAsNTE2MjAzNzUwLD
-U5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2NzcxODUw
-MDZdfQ==
+eyJoaXN0b3J5IjpbMjAzMzY0MTg0NCwxOTMzMDQ0NjU1LC0yMD
+Q0OTAwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5
+NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNi
+wtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLTY4
+NTUzNzYzLC00MTI4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1MC
+w1OTU0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MTg1
+MDA2XX0=
 -->
