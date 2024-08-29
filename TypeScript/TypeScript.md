@@ -780,13 +780,17 @@ const e1: ElevatedEmployee = {
 	startDate: new Date()
 }
 
-type Combinable: string
+type Combinable: string | number;
+type Numeric: number | boolean;
+type Universal: Combinable & Numeric; // give the intersection: number
 ````
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NTg2ODIxNSwtMTc3MzgyMzE0NCw2NT
+eyJoaXN0b3J5IjpbLTc0MDQxMTQyNywtMTc3MzgyMzE0NCw2NT
 M5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIx
 OSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNz
 g5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2
