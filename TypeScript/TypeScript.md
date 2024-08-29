@@ -886,14 +886,16 @@ function moveAnimal (animal:Animal) {
 Tell TS that some value is of an specific type when TS can not detect it by itself
 
 ````
-const paragraph = document.querySelector('p'); (
+const paragraph = document.querySelector('p'); // knows it is a paragraph from the dom
+
+const paragraph = document.getElementById('msg-out'); // dont know the specific type
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzExNTU3LDcyMDIyNjkwNCwtODAwNz
-M4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywx
-OTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04OD
-k1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4
-NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLT
-EzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksODg0Mjky
-NDcwXX0=
+eyJoaXN0b3J5IjpbLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MD
+A3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3
+LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLT
+g4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3NDky
+Mzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1Mi
+wtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQy
+OTI0NzBdfQ==
 -->
