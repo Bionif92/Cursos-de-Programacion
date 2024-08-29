@@ -763,15 +763,22 @@ Combine other types
 
 ````
 type Admin = {
-	name:string;
-	privileges:s
+	name: string;
+	privileges: string[];
 }
+
+type Employee = {
+	name: string;
+	startDate: Date;
+}
+
+type ElevatedEmployee = A
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MjUwNzgxLC0xNzczODIzMTQ0LDY1Mz
+eyJoaXN0b3J5IjpbMTk4MTA2NTk3LC0xNzczODIzMTQ0LDY1Mz
 kzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5
 LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03OD
 k2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5
