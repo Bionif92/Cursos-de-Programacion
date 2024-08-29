@@ -911,12 +911,13 @@ const paragraph = document.getElementById('msg-out')!;
 Create Object that are more flexible with properties
 
 ````
-interface ErrorContainer {
+// dont know how many pro
+interface ErrorContainer { 
 	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDk0NDI4MiwtOTI3NzQwMSwtMTAwNz
+eyJoaXN0b3J5IjpbMTk3NjI2NTk4MCwtOTI3NzQwMSwtMTAwNz
 UyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0
 NCw2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0ND
 kwMDIxOSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5
