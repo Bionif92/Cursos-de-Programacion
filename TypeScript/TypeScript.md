@@ -857,7 +857,7 @@ Pattern when you work with union types that makes implementing guards more easy
 
 ````
 interface Bird {
-	type: 'bird';
+	type: 'bird'; // common property to describe the type
 	flyingSpeed: number;
 }
 
@@ -880,8 +880,12 @@ function moveAnimal (animal:Animal) {
 	console.log ('Moving with speed: ' + speed)
 }
 ````
+
+### Type Casting
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5Nzk0OTc4LDcyMDIyNjkwNCwtODAwNz
+eyJoaXN0b3J5IjpbOTU4ODQ4MjM5LDcyMDIyNjkwNCwtODAwNz
 M4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywx
 OTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04OD
 k1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4
