@@ -813,18 +813,21 @@ type Employee = {
 	startDate: Date;
 }
 
-type Unknown = Employee | Admin;
+type UnknownEmployee = Employee | Admin;
 
-function printEmployeeInformation (emp:) {}
+function printEmployeeInformation (emp:UnknownEmployee) {
+	console.log('Name: ' + emp.name)
+	console.log('Privileges: ' + emp.privileges)
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAyODczMjkzLC0xNzczODIzMTQ0LDY1Mz
-kzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5
-LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03OD
-k2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5
-NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC
-00MTI4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMw
-NTNdfQ==
+eyJoaXN0b3J5IjpbMjE0MTEyNjA2OSwtMTc3MzgyMzE0NCw2NT
+M5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIx
+OSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNz
+g5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2
+OTYzNDYsMzA3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2My
+wtNDEyODI0NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQz
+MDUzXX0=
 -->
