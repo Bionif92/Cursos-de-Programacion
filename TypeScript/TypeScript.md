@@ -649,16 +649,27 @@ const variable2 = class1.getInstance(); // will recive the same class
 
 ### A First Interface
 
+Interfase: describe the structure of an object
+
+Only on TS
+
+````
+interface Person {
+	name:string;
+	age:number;
+}
+````
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OT
-Y5NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2
-MzQ2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLT
-QxMjgyNDUzOSw4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1
-Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYsLTE2OT
-g1MTIzMjcsLTcwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAy
+eyJoaXN0b3J5IjpbNDUyMDE3NTY5LC04ODk1ODIzNjYsNTAyND
+g5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUw
+NiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLT
+Y4NTUzNzYzLC00MTI4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1
+MCw1OTU0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MT
+g1MDA2LC0xNjk4NTEyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUw
 XX0=
 -->
