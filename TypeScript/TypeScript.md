@@ -932,14 +932,18 @@ function add (a:Combinable,b:Combinable) {
 	return a+b;
 }
 
-const result = add(1,5); // Type Combinable
+const result = add(1,5); // Type Combinable, dont know if it is string or number
+
+// can use type casting
+const result = add(1,5) as number;
+
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMTgyNDIyLC0xNTE0ODE4NzEyLC0xMT
-I3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkw
-NCwtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNj
-cwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1
-NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLT
-EzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcx
-NDA2NTJdfQ==
+eyJoaXN0b3J5IjpbMTY0MjA4NzYsLTE1MTQ4MTg3MTIsLTExMj
+c3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0
+LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2Nz
+AzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0
+NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMT
+M3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0
+MDY1Ml19
 -->
