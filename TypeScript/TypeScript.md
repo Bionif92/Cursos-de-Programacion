@@ -935,10 +935,13 @@ function add (a:Combinable,b:Combinable) {
 const result = add(1,5); // Type Combinable, dont know if it is string or number
 
 // can use type casting
+
 const result = add(1,5) as number;
 
 // use function overload better
+
 function add (a:number,b:number):number
+function add (a:string,b:string):string
 function add (a:Combinable,b:Combinable) {
 	if (typeof a =='string' || typeof b == string) { // guard
 		return a.toString()+ b.toString();
@@ -947,7 +950,7 @@ function add (a:Combinable,b:Combinable) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMDU4Mjg1NCwtMTUxNDgxODcxMiwtMT
+eyJoaXN0b3J5IjpbLTg4NjE0OTEyMiwtMTUxNDgxODcxMiwtMT
 EyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5
 MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1Mz
 Y3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMw
