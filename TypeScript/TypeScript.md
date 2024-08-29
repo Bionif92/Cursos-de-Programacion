@@ -955,17 +955,22 @@ const result = add(1,5); // number you can use method to this number now
 ### Optional Chaining
 
 ````
-
+const fetchedUserData = {
+	id: 'u1',
+	name:'Max',
+	job: {title: 'CEO', description: 'My own company'}
+};
+````
 
 ### Nulling Coalescing
 
 ### Useful Resources & Links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzYxNzA4NTksLTE1MTQ4MTg3MTIsLT
-ExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2
-OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNT
-M2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEz
-MDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MC
-wtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMw
-NzE0MDY1Ml19
+eyJoaXN0b3J5IjpbMTQ1Mzg2NTUzMywtMTUxNDgxODcxMiwtMT
+EyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5
+MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1Mz
+Y3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMw
+NTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC
+0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3
+MTQwNjUyXX0=
 -->
