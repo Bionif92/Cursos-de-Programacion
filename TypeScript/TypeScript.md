@@ -857,15 +857,25 @@ Pattern when you work with union types that makes implementing guards more easy
 
 ````
 interface Bird {
-	fl
+	flyingSpeed: number;
+}
+
+interface Horse {
+	runningSpeed: number;
+}
+
+type Animal = Bird | Horse;
+
+function moveAnimal (animal:Animal) {
+	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDg5MDk0MjQsNzIwMjI2OTA0LC04MD
-A3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3
-LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLT
-g4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3NDky
-Mzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1Mi
-wtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQy
-OTI0NzBdfQ==
+eyJoaXN0b3J5IjpbNjMyNjcyNzk0LDcyMDIyNjkwNCwtODAwNz
+M4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywx
+OTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04OD
+k1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4
+NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLT
+EzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksODg0Mjky
+NDcwXX0=
 -->
