@@ -759,12 +759,19 @@ These links might also be interesting:
 
 ### Intersection Types
 
+Combine other types
 
+````
+type Admin = {
+	name:string;
+	privileges:s
+}
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ5MjcxOTUzLC0xNzczODIzMTQ0LDY1Mz
+eyJoaXN0b3J5IjpbMTg0MjUwNzgxLC0xNzczODIzMTQ0LDY1Mz
 kzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5
 LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03OD
 k2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5
