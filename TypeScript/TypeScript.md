@@ -833,13 +833,17 @@ class Truck {
 	drive() {
 		console.log('Driving a Truck...');
 	}
-	loadCargo
+	loadCargo(amount:number) {
+		console.log('Loading Cargo...' + amount);
+	}
 }
 
+type Vehicle = Car | Truck;
 
+co
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDQwNDE1NCwtMTc3MzgyMzE0NCw2NT
+eyJoaXN0b3J5IjpbLTcwODgxNTMyNSwtMTc3MzgyMzE0NCw2NT
 M5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIx
 OSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNz
 g5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2
