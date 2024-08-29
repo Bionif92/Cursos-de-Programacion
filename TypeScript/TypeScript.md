@@ -960,13 +960,15 @@ const fetchedUserData = {
 	name:'Max',
 	job: {title: 'CEO', description: 'My own company'}
 };
+
+
 ````
 
 ### Nulling Coalescing
 
 ### Useful Resources & Links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mzg2NTUzMywtMTUxNDgxODcxMiwtMT
+eyJoaXN0b3J5IjpbMjA4NzE2ODI4MSwtMTUxNDgxODcxMiwtMT
 EyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5
 MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1Mz
 Y3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMw
