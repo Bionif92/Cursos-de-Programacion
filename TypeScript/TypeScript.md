@@ -629,10 +629,10 @@ If you dont want the exact implementation in the root class of property or metho
 Singletons pattern: ensure that ther is only one instance of a certain class
 ````
 class1 ... {
+	private static instance: class1;
 	private contructor() {
 	}
-	
-	static 
+	static getInstance() 
 }
 ````
 
@@ -641,7 +641,7 @@ class1 ... {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDQ1NzYxNCwtNzg5Njk1OTkwLC0xMz
+eyJoaXN0b3J5IjpbMTYzMzU0NTkwMCwtNzg5Njk1OTkwLC0xMz
 c0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQw
 NjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LD
 g4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYx
