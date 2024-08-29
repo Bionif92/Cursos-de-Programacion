@@ -683,7 +683,14 @@ interface Greetable {
 	greet(phrase:string):void;
 }
 
-class Person implements Greetable{}
+class Person implements Greetable, anotherInterface {
+	name:string;
+	constructor(n:string) {
+		this.name = n;
+	}
+	greet() {
+	}
+}
 ````
 
 
@@ -691,11 +698,11 @@ class Person implements Greetable{}
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjY3MTY1NSwtMTIwMTMwNTQ0OSwtOD
-g5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC0xMzc0OTIz
-ODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQwNjUyLC
-0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LDg4NDI5
-MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYxNCwxMT
-k1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMyNywtNzA0NzMy
-NzgyXX0=
+eyJoaXN0b3J5IjpbLTIxNDI1MzgwNTcsLTEyMDEzMDU0NDksLT
+g4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3NDky
+Mzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1Mi
+wtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQy
+OTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMT
+E5NTk4NTU1MCw2NzcxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDcz
+Mjc4Ml19
 -->
