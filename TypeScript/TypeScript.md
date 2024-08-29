@@ -911,17 +911,17 @@ const paragraph = document.getElementById('msg-out')!;
 Create Object that are more flexible with properties
 
 ````
-// dont know how many pro
+// dont know how many properties and the names i will need
 interface ErrorContainer { 
-	
+	[prop:string]:
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjI2NTk4MCwtOTI3NzQwMSwtMTAwNz
-UyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0
-NCw2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0ND
-kwMDIxOSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5
-MywtNzg5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLT
-E0MjE2OTYzNDYsMzA3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1
-Mzc2M119
+eyJoaXN0b3J5IjpbODg1OTI4NzczLC05Mjc3NDAxLC0xMDA3NT
+I4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzczODIzMTQ0
+LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OT
+AwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkz
+LC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMT
+QyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUz
+NzYzXX0=
 -->
