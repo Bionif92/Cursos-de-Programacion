@@ -884,12 +884,16 @@ function moveAnimal (animal:Animal) {
 ### Type Casting
 
 Tell TS that some value is of an specific type when TS can not detect it by itself
+
+````
+const paragraph = document.querySelector('p'); (
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODM2NDM0OSw3MjAyMjY5MDQsLTgwMD
-czODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1Mzcs
-MTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtOD
-g5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC0xMzc0OTIz
-ODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQwNjUyLC
-0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LDg4NDI5
-MjQ3MF19
+eyJoaXN0b3J5IjpbMTExMzExNTU3LDcyMDIyNjkwNCwtODAwNz
+M4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywx
+OTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04OD
+k1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4
+NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLT
+EzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksODg0Mjky
+NDcwXX0=
 -->
