@@ -542,11 +542,13 @@ More on inheritance and the JavaScript prototype chain: [https://www.udemy.com/c
 Unless you put a new contructor, it inherit the father one
 ````
 class ITDepartment extends Department {
-	
+	contructor(id:string) {
+		super()
+	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzQxMjA4NjIsLTY4NTUzNzYzLC00MT
+eyJoaXN0b3J5IjpbLTE0MTU4OTI3MDAsLTY4NTUzNzYzLC00MT
 I4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMs
 NTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NT
 EyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwt
