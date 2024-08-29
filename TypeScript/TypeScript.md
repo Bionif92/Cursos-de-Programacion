@@ -662,25 +662,30 @@ interface Person { // only can define the structure
 }
 
 let user1: Person;
+
 user1 = {	
 	name: 'Max',
 	age: 30,
 	greet(phrase:string) {
-		console.log(phrase + ' ' + t)
+		console.log(phrase + ' ' + this.name);
 	}
 };
 ````
+
+### Using Interfaces with Classes
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MTM2ODgyMiwtODg5NTgyMzY2LDUwMj
-Q4OTQ5MywtNzg5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1
-MDYsLTE0MjE2OTYzNDYsMzA3MTQwNjUyLC0xMzk5Mzc5Njk0LC
-02ODU1Mzc2MywtNDEyODI0NTM5LDg4NDI5MjQ3MCw1MTYyMDM3
-NTAsNTk1NDQzMDUzLDUzNDI1MDYxNCwxMTk1OTg1NTUwLDY3Nz
-E4NTAwNiwtMTY5ODUxMjMyNywtNzA0NzMyNzgyLDc3NTQ3NDA1
-MF19
+eyJoaXN0b3J5IjpbLTEyMDEzMDU0NDksLTg4OTU4MjM2Niw1MD
+I0ODk0OTMsLTc4OTY5NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEy
+NTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NC
+wtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQyOTI0NzAsNTE2MjAz
+NzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1MCw2Nz
+cxODUwMDYsLTE2OTg1MTIzMjcsLTcwNDczMjc4Miw3NzU0NzQw
+NTBdfQ==
 -->
