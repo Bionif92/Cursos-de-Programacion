@@ -561,8 +561,10 @@ class AccountingDepartment extends Department {
 	private lastReport:string;
 
 	get mostRecentReport() {
-		return this.lastReport; // it is public access now
-		
+		if (this.lastReport) {
+			return this.lastReport;
+		}
+		return new Error ('No report found');
 	}
 	
 	constructor(id:string,private reports:string[]) {
@@ -581,11 +583,11 @@ Getter: property where you execute a function or method when you retrieve a valu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTE1NTU5NiwtMTQyMTY5NjM0NiwzMD
-cxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1
-MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0Mj
-UwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3
-LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NT
-Y5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgw
-XX0=
+eyJoaXN0b3J5IjpbMTQ2NTgwNDM5LC0xNDIxNjk2MzQ2LDMwNz
+E0MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUz
+OSw4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNT
+A2MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYsLTE2OTg1MTIzMjcs
+LTcwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAyLC0xMjk1Nj
+k5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUxLDEyODU4OTA5ODBd
+fQ==
 -->
