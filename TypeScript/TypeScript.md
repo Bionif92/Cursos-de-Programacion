@@ -610,7 +610,7 @@ Same for properties
 
 ````
 abstract class1 ... {
-	abstract method1():void;
+	abstract method1(this.class):void;
 }
 
 class2 ... extend class1 {
@@ -622,16 +622,18 @@ class2 ... extend class1 {
 
 If you dont want the exact implementation in the root class of property or method, and you give the specific implementation in the inheritance classes
 
+Abstract classes cant be instanc
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU5MTkwMjMsLTc4OTY5NTk5MCwtMT
-M3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0
-MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOS
-w4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2
-MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYsLTE2OTg1MTIzMjcsLT
-cwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAyLC0xMjk1Njk5
-ODQ4XX0=
+eyJoaXN0b3J5IjpbMTU5NzM4Nzc0MiwtNzg5Njk1OTkwLC0xMz
+c0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQw
+NjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LD
+g4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYx
+NCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMyNywtNz
+A0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4
+NDhdfQ==
 -->
