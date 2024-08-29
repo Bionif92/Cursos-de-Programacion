@@ -889,13 +889,15 @@ Tell TS that some value is of an specific type when TS can not detect it by itse
 const paragraph = document.querySelector('p'); // knows it is a paragraph from the dom
 
 const paragraph = document.getElementById('msg-out'); // dont know the specific type
+
+const paragraph = <>document.getElementById('msg-out');
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MD
-A3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3
-LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLT
-g4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3NDky
-Mzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1Mi
-wtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQy
-OTI0NzBdfQ==
+eyJoaXN0b3J5IjpbLTEyNDU0MDU2ODcsLTEwMDc1Mjg2NDIsNz
+IwMjI2OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1
+MzMsNTM2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLT
+EyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5
+NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2Mz
+Q2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQx
+MjgyNDUzOV19
 -->
