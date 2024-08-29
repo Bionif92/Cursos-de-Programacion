@@ -569,7 +569,7 @@ class AccountingDepartment extends Department {
 	
 	set mostRecentReport(value:string) {
 		if (!value) {
-			
+			throw new Error('Please enter valid value')
 		}
 		this.addReport(value);
 	}
@@ -587,14 +587,15 @@ class AccountingDepartment extends Department {
 ````
 
 Getter: property where you execute a function or method when you retrieve a value
+Setter: to set a value
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODQyMDk1NiwtMTQyMTY5NjM0NiwzMD
-cxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1
-MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0Mj
-UwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3
-LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NT
-Y5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgw
-XX0=
+eyJoaXN0b3J5IjpbLTE2MjIxNzYxMDYsLTE0MjE2OTYzNDYsMz
+A3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0
+NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzND
+I1MDYxNCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMy
+NywtNzA0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOT
+U2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4
+MF19
 -->
