@@ -560,6 +560,11 @@ Overwrite methods or properties of a class: use word protected instead of privat
 class AccountingDepartment extends Department {
 	private lastReport:string;
 
+	get mostRecentReport() {
+		return this.lastReport; // it is public access now
+		
+	}
+	
 	constructor(id:string,private reports:string[]) {
 		super(id,'Accounting');
 		this.lastReport = reports[0];
@@ -576,7 +581,7 @@ Getter: property where you execute a function or method when you retrieve a valu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NDg1NTIzNCwtMTQyMTY5NjM0NiwzMD
+eyJoaXN0b3J5IjpbMTY1OTE1NTU5NiwtMTQyMTY5NjM0NiwzMD
 cxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1
 MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0Mj
 UwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3
