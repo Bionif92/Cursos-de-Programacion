@@ -791,13 +791,19 @@ Object type - the combination is the new type
 ### More on Type Guards
 
 ````
-function add (a:c)
+type Combinable: string | number;
+
+function add (a:Combinable,b:Combinable) {
+	if (typeof a =='string' || typeof b == string) {
+		return a.toString()+b
+	}
+}
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjYzMTIwMDQsLTE3NzM4MjMxNDQsNj
+eyJoaXN0b3J5IjpbLTE0NjgxODA1MTIsLTE3NzM4MjMxNDQsNj
 UzOTM1MzMsNTM2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAy
 MTksLTEyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLT
 c4OTY5NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIx
