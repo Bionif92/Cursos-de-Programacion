@@ -755,12 +755,16 @@ These links might also be interesting:
 -   More on (JS) Classes: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 -   More on TS Interfaces: [https://www.typescriptlang.org/docs/handbook/interfaces.html](https://www.typescriptlang.org/docs/handbook/interfaces.html)
 
+## Advanced Types
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNTc3ODIwNSw2NTM5MzUzMyw1MzY3MD
-M1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0
-OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC0xMz
-c0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQw
-NjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LD
-g4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYx
-NF19
+eyJoaXN0b3J5IjpbLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2Nz
+AzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0
+NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMT
+M3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0
+MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOS
+w4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2
+MTRdfQ==
 -->
