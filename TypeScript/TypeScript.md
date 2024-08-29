@@ -972,16 +972,18 @@ console.log(fetchedUserData?.job?.title); // see if it defined fetchedUserData, 
 Deal with null data
 
 ````
+const userInput = null;
 
+const storedData = userInput 
 ````
 
 ### Useful Resources & Links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk3NTQ1MDA2LC0xNTE0ODE4NzEyLC0xMT
-I3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkw
-NCwtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNj
-cwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1
-NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLT
-EzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcx
-NDA2NTJdfQ==
+eyJoaXN0b3J5IjpbLTg4MjcyOTg0NSwtMTUxNDgxODcxMiwtMT
+EyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5
+MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1Mz
+Y3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMw
+NTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC
+0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3
+MTQwNjUyXX0=
 -->
