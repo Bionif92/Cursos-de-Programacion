@@ -593,15 +593,26 @@ Setter: to set a value
 
 You can access directly from the class no need to create a new class
 
+````
+class ... {
+	static createEmployee(name:string) {
+		return {name:name};
+	}
+}
+
+
+````
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMT
-QyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUz
-NzYzLC00MTI4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OT
-U0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2
-LC0xNjk4NTEyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3Mz
-gyODYwMiwtMTI5NTY5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1
-MV19
+eyJoaXN0b3J5IjpbLTE1NjU1NDk5MjUsLTEzNzQ5MjM4NzEsLT
+g0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkz
+Nzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksODg0MjkyNDcwLD
+UxNjIwMzc1MCw1OTU0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1
+NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3LC03MDQ3MzI3ODIsNz
+c1NDc0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0OCwxNzIzNzg5
+NTYwXX0=
 -->
