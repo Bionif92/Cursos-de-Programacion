@@ -890,14 +890,18 @@ const paragraph = document.querySelector('p'); // knows it is a paragraph from t
 
 const paragraph = document.getElementById('msg-out'); // dont know the specific type
 
-const paragraph = <>document.getElementById('msg-out');
+const paragraph = <HTMLInputElement>document.getElementById('msg-out');
+
+// other way
+
+const paragraph = document.getElementById('msg-out') as ;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU0MDU2ODcsLTEwMDc1Mjg2NDIsNz
-IwMjI2OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1
-MzMsNTM2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLT
-EyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5
-NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2Mz
-Q2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQx
-MjgyNDUzOV19
+eyJoaXN0b3J5IjpbMTU5MDQzMjI2NiwtMTAwNzUyODY0Miw3Mj
+AyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUz
+Myw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMT
+IwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1
+OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzND
+YsMzA3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEy
+ODI0NTM5XX0=
 -->
