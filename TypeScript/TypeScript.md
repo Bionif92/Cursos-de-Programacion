@@ -790,12 +790,13 @@ Object type - the combination is the new type
 
 ### More on Type Guards
 
-
+````
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyMTEwNDMyLC0xNzczODIzMTQ0LDY1Mz
+eyJoaXN0b3J5IjpbOTU5MDA2NzM0LC0xNzczODIzMTQ0LDY1Mz
 kzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5
 LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03OD
 k2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5
