@@ -626,6 +626,7 @@ If you dont want the exact implementation in the root class of property or metho
 
 ### Singletons & Private Constructors
 
+Singletons pattern: ensure that ther is only one instance of a certain class
 ````
 
 ````
@@ -635,11 +636,11 @@ If you dont want the exact implementation in the root class of property or metho
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM2MDYwMDA1LC03ODk2OTU5OTAsLTEzNz
-Q5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2
-NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksOD
-g0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0MjUwNjE0
-LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3LC03MD
-Q3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NTY5OTg0
-OF19
+eyJoaXN0b3J5IjpbLTUyMzM1MjQyNCwtNzg5Njk1OTkwLC0xMz
+c0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQw
+NjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LD
+g4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYx
+NCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMyNywtNz
+A0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4
+NDhdfQ==
 -->
