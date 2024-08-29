@@ -565,17 +565,20 @@ class AccountingDepartment extends Department {
 		this.lastReport = reports[0];
 	}
 
-		
+	addReport(text:string) {
+		this.reports.push(text);
+		this.lastReport = text;
+	}
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNjA2NjkyLC0xNDIxNjk2MzQ2LDMwNz
-E0MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUz
-OSw4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNT
-A2MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYsLTE2OTg1MTIzMjcs
-LTcwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAyLC0xMjk1Nj
-k5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUxLDEyODU4OTA5ODBd
-fQ==
+eyJoaXN0b3J5IjpbMTc4NTc2OTk1NywtMTQyMTY5NjM0NiwzMD
+cxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1
+MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0Mj
+UwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NTEyMzI3
+LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwtMTI5NT
+Y5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1ODkwOTgw
+XX0=
 -->
