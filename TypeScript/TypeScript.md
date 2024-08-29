@@ -543,16 +543,16 @@ Unless you put a new contructor, it inherit the father one
 ````
 class ITDepartment extends Department {
 	contructor(id:string) {
-		super()
+		super(id, ); // need to add if you make your own contructor and you are inheriting from another class
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTU4OTI3MDAsLTY4NTUzNzYzLC00MT
-I4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMs
-NTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MTg1MDA2LC0xNjk4NT
-EyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUwLDI3MzgyODYwMiwt
-MTI5NTY5OTg0OCwxNzIzNzg5NTYwLC05NDYzNjg1MSwxMjg1OD
-kwOTgwLC0xMjY2NTI3NDQzLC0xODkzNTI3ODE2LC0yMTIyNjU1
-Njg1XX0=
+eyJoaXN0b3J5IjpbMTk0NTQ3NDE3NCwtNjg1NTM3NjMsLTQxMj
+gyNDUzOSw4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1
+MzQyNTA2MTQsMTE5NTk4NTU1MCw2NzcxODUwMDYsLTE2OTg1MT
+IzMjcsLTcwNDczMjc4Miw3NzU0NzQwNTAsMjczODI4NjAyLC0x
+Mjk1Njk5ODQ4LDE3MjM3ODk1NjAsLTk0NjM2ODUxLDEyODU4OT
+A5ODAsLTEyNjY1Mjc0NDMsLTE4OTM1Mjc4MTYsLTIxMjI2NTU2
+ODVdfQ==
 -->
