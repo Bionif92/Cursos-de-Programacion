@@ -952,9 +952,16 @@ function add (a:Combinable,b:Combinable) {
 const result = add(1,5); // number you can use method to this number now
 ````
 
-### 
+### Optional Chaining
+
+````
+
+
+### Nulling Coalescing
+
+### Useful Resources & Links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzM4NjAzODEsLTE1MTQ4MTg3MTIsLT
+eyJoaXN0b3J5IjpbLTE1MzYxNzA4NTksLTE1MTQ4MTg3MTIsLT
 ExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2
 OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNT
 M2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEz
