@@ -867,11 +867,11 @@ interface Horse {
 type Animal = Bird | Horse;
 
 function moveAnimal (animal:Animal) {
-	
+	console.log ('Moving with speed: ' + animal)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMyNjcyNzk0LDcyMDIyNjkwNCwtODAwNz
+eyJoaXN0b3J5IjpbMjA3NDA2MDg2LDcyMDIyNjkwNCwtODAwNz
 M4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywx
 OTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04OD
 k1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4
