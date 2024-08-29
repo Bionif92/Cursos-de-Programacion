@@ -556,11 +556,17 @@ Overwrite methods or properties of a class: use word protected instead of privat
 
 ### Getters & Setters
 
+````
+class AccountingDepartment extends Department {
+	private lastReport:string;
 
+	
+}
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA0NjM0NTUsLTE0MjE2OTYzNDYsMz
+eyJoaXN0b3J5IjpbLTE0MDk0NzI0NjAsLTE0MjE2OTYzNDYsMz
 A3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0
 NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzND
 I1MDYxNCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMy
