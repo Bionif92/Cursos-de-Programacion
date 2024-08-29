@@ -890,14 +890,21 @@ const paragraph = document.querySelector('p'); // knows it is a paragraph from t
 
 const paragraph = document.getElementById('msg-out'); // dont know the specific type
 
+// Type Casting
+
 const paragraph = <HTMLInputElement>document.getElementById('msg-out');
 
 // other way
 
-const paragraph = document.getElementById('msg-out') as ;
+const paragraph = document.getElementById('msg-out') as HTMLInputElement;
+````
+
+To never yield null:
+
+````
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDQzMjI2NiwtMTAwNzUyODY0Miw3Mj
+eyJoaXN0b3J5IjpbMTMyNDcxOTg0MSwtMTAwNzUyODY0Miw3Mj
 AyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUz
 Myw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMT
 IwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1
