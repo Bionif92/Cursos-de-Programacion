@@ -975,15 +975,29 @@ Deal with null data
 const userInput = null;
 
 const storedData = userInput || 'DEFAULT'; // not useful because it work with undefined or '' too
+
+// Nulling Coalescing
+
+const storedData = userInput ?? 'DEFAULT';// only default if it is null
 ````
 
 ### Useful Resources & Links
+
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
+
+These links might also be interesting:
+
+-   More on Advanced Types: [https://www.typescriptlang.org/docs/handbook/advanced-types.html](https://www.typescriptlang.org/docs/handbook/advanced-types.html)
+
+## Generics
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc3MDAxMTUzLC0xNTE0ODE4NzEyLC0xMT
-I3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkw
-NCwtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNj
-cwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1
-NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLT
-EzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcx
-NDA2NTJdfQ==
+eyJoaXN0b3J5IjpbMTMyMTE4MjM2NiwtMTUxNDgxODcxMiwtMT
+EyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5
+MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1Mz
+Y3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMw
+NTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC
+0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3
+MTQwNjUyXX0=
 -->
