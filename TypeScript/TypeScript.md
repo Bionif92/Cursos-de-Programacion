@@ -548,9 +548,9 @@ class ITDepartment extends Department {
 	}
 }
 ````
-It will have all the new and old properties
+**It will have all the new and old properties**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzIzMTIxNzQsLTEzOTkzNzk2OTQsLT
+eyJoaXN0b3J5IjpbLTE1NjY5NzM2NzgsLTEzOTkzNzk2OTQsLT
 Y4NTUzNzYzLC00MTI4MjQ1MzksODg0MjkyNDcwLDUxNjIwMzc1
 MCw1OTU0NDMwNTMsNTM0MjUwNjE0LDExOTU5ODU1NTAsNjc3MT
 g1MDA2LC0xNjk4NTEyMzI3LC03MDQ3MzI3ODIsNzc1NDc0MDUw
