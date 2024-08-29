@@ -685,12 +685,13 @@ interface Greetable {
 
 class Person implements Greetable, anotherInterface {
 	name:string;
+	age:30;
 	constructor(n:string) {
 		this.name = n;
 	}
 	greet() {
 	}
-}
+} // need to have name and greet but you also can add other things
 ````
 
 
@@ -698,7 +699,7 @@ class Person implements Greetable, anotherInterface {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDI1MzgwNTcsLTEyMDEzMDU0NDksLT
+eyJoaXN0b3J5IjpbLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLT
 g4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3NDky
 Mzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1Mi
 wtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQy
