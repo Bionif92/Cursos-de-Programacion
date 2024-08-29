@@ -624,12 +624,14 @@ If you dont want the exact implementation in the root class of property or metho
 
 **Abstract classes cant be instanciated, they are there only to inherit the method or properties**
 
+### Singletons & Private Constructors
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzY5MzEwMjgsLTc4OTY5NTk5MCwtMT
+eyJoaXN0b3J5IjpbLTE5Mzk3MTAwMzUsLTc4OTY5NTk5MCwtMT
 M3NDkyMzg3MSwtODQ0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0
 MDY1MiwtMTM5OTM3OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOS
 w4ODQyOTI0NzAsNTE2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2
