@@ -913,15 +913,16 @@ Create Object that are more flexible with properties
 ````
 // dont know how many properties and the names i will need
 interface ErrorContainer { 
-	[prop:string]:
+	id:string; // can add defined properties
+	[prop:string]:string;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1OTI4NzczLC05Mjc3NDAxLC0xMDA3NT
-I4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzczODIzMTQ0
-LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OT
-AwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAyNDg5NDkz
-LC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0NDYxMjUwNiwtMT
-QyMTY5NjM0NiwzMDcxNDA2NTIsLTEzOTkzNzk2OTQsLTY4NTUz
-NzYzXX0=
+eyJoaXN0b3J5IjpbLTExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMD
+c1Mjg2NDIsNzIwMjI2OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMx
+NDQsNjUzOTM1MzMsNTM2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwND
+Q5MDAyMTksLTEyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0
+OTMsLTc4OTY5NTk5MCwtMTM3NDkyMzg3MSwtODQ0NjEyNTA2LC
+0xNDIxNjk2MzQ2LDMwNzE0MDY1MiwtMTM5OTM3OTY5NCwtNjg1
+NTM3NjNdfQ==
 -->
