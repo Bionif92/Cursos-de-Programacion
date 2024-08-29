@@ -603,12 +603,17 @@ class ... {
 const employee1 = Department.createEmployee('Max'); // without needing an instance of creating the class
 ````
 
+Same for properties
+**Cannot use static properties or methods inside the class, need to use **
+
+###
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzIxMTQzOSwtMTM3NDkyMzg3MSwtOD
+eyJoaXN0b3J5IjpbLTU1MTM1NTg5MywtMTM3NDkyMzg3MSwtOD
 Q0NjEyNTA2LC0xNDIxNjk2MzQ2LDMwNzE0MDY1MiwtMTM5OTM3
 OTY5NCwtNjg1NTM3NjMsLTQxMjgyNDUzOSw4ODQyOTI0NzAsNT
 E2MjAzNzUwLDU5NTQ0MzA1Myw1MzQyNTA2MTQsMTE5NTk4NTU1
