@@ -638,6 +638,7 @@ class1 ... {
 		if(class1.instance) {
 			return this.intance;
 		}
+		this.instance = new class1(parameters);
 	}
 }
 ````
@@ -647,7 +648,7 @@ class1 ... {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MTIyNjE3MywtNzg5Njk1OTkwLC0xMz
+eyJoaXN0b3J5IjpbMTEyNzMwNzk2NiwtNzg5Njk1OTkwLC0xMz
 c0OTIzODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQw
 NjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LD
 g4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYx
