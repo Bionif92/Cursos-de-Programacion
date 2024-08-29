@@ -963,14 +963,14 @@ const fetchedUserData = {
 
 // if you dont know if the job property is a thing on the backend
 
-console.log()
+console.log(fetchedUserData?.job?.title); // see if it defined job and title
 ````
 
 ### Nulling Coalescing
 
 ### Useful Resources & Links
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NTcyNzMwLC0xNTE0ODE4NzEyLC0xMT
+eyJoaXN0b3J5IjpbMzAzNzI3NTI4LC0xNTE0ODE4NzEyLC0xMT
 I3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkw
 NCwtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNj
 cwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1
