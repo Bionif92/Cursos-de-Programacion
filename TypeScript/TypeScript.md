@@ -610,9 +610,10 @@ Same for properties
 
 ````
 abstract class ... {
-	abstract method() {
-	}
+	abstract method():void;
 }
+
+
 ````
 
 
@@ -620,7 +621,7 @@ abstract class ... {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDExNjY0LC03ODk2OTU5OTAsLTEzNz
+eyJoaXN0b3J5IjpbMjExMTMwMDA3LC03ODk2OTU5OTAsLTEzNz
 Q5MjM4NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2
 NTIsLTEzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksOD
 g0MjkyNDcwLDUxNjIwMzc1MCw1OTU0NDMwNTMsNTM0MjUwNjE0
