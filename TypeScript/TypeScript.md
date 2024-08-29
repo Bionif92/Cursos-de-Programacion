@@ -845,7 +845,7 @@ const v2 = new Truck();
 
 function useVehicle (vehicle: Vehicle){
 	vehicle.drive();
-	if (vehicle instanceof Truck) { // guard
+	if (vehicle instanceof Truck) { // guard for classes
 		vehicle.loadCargo();
 	}
 }
@@ -857,25 +857,28 @@ Pattern when you work with union types that makes implementing guards more easy
 
 ````
 interface Bird {
+	type: 'bird';
 	flyingSpeed: number;
 }
 
 interface Horse {
+	type: 'horse';
 	runningSpeed: number;
 }
 
 type Animal = Bird | Horse;
 
 function moveAnimal (animal:Animal) {
+
 	console.log ('Moving with speed: ' + animal)
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDA2MDg2LDcyMDIyNjkwNCwtODAwNz
-M4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywx
-OTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04OD
-k1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4
-NzEsLTg0NDYxMjUwNiwtMTQyMTY5NjM0NiwzMDcxNDA2NTIsLT
-EzOTkzNzk2OTQsLTY4NTUzNzYzLC00MTI4MjQ1MzksODg0Mjky
-NDcwXX0=
+eyJoaXN0b3J5IjpbMTc0MTY1ODcxOSw3MjAyMjY5MDQsLTgwMD
+czODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1Mzcs
+MTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtOD
+g5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC0xMzc0OTIz
+ODcxLC04NDQ2MTI1MDYsLTE0MjE2OTYzNDYsMzA3MTQwNjUyLC
+0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LDg4NDI5
+MjQ3MF19
 -->
