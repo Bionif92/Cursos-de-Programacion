@@ -554,13 +554,17 @@ class ITDepartment extends Department {
 
 Overwrite methods or properties of a class: use word protected instead of private for a property, then you can change it if you are on an extended class
 
+### Getters & Setters
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjE2OTYzNDYsMzA3MTQwNjUyLC0xMz
-k5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0NTM5LDg4NDI5MjQ3
-MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzNDI1MDYxNCwxMTk1OT
-g1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMyNywtNzA0NzMyNzgy
-LDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOTU2OTk4NDgsMTcyMz
-c4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4MCwtMTI2NjUyNzQ0
-M119
+eyJoaXN0b3J5IjpbLTE4OTA0NjM0NTUsLTE0MjE2OTYzNDYsMz
+A3MTQwNjUyLC0xMzk5Mzc5Njk0LC02ODU1Mzc2MywtNDEyODI0
+NTM5LDg4NDI5MjQ3MCw1MTYyMDM3NTAsNTk1NDQzMDUzLDUzND
+I1MDYxNCwxMTk1OTg1NTUwLDY3NzE4NTAwNiwtMTY5ODUxMjMy
+NywtNzA0NzMyNzgyLDc3NTQ3NDA1MCwyNzM4Mjg2MDIsLTEyOT
+U2OTk4NDgsMTcyMzc4OTU2MCwtOTQ2MzY4NTEsMTI4NTg5MDk4
+MF19
 -->
