@@ -720,12 +720,20 @@ interface Greetable extends Named{
 }
 ````
 
+### Interface as Function Types
+
+Also to give structure to a function
+
+````
+
+````
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjkzNjc0OTEsMTkzMzA0NDY1NSwtMj
+eyJoaXN0b3J5IjpbLTEzNTUxMjY4MjgsMTkzMzA0NDY1NSwtMj
 A0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4
 OTQ5MywtNzg5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MD
 YsLTE0MjE2OTYzNDYsMzA3MTQwNjUyLC0xMzk5Mzc5Njk0LC02
