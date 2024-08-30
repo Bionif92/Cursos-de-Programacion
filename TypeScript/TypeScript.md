@@ -1097,8 +1097,10 @@ textStorage.addItem(10);// dont work, need to be a string
 textStorage.addItem('Max'); // ok
 ````
 Could generate the same class with different types inside
+
+Problem with this example are objects, to remove and object, you can 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQzMzYyMDA0LC05NTYzMjEwOTYsLTIzMj
+eyJoaXN0b3J5IjpbNzQ1ODUzNjM1LC05NTYzMjEwOTYsLTIzMj
 A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
 MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
 wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
