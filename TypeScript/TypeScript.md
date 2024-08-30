@@ -1094,13 +1094,15 @@ class DataStorage<T> {
 
 const textStorage = new DataStorage<string>();
 textStorage.addItem(10);// dont work, need to be a string
+textStorage.addItem('Max'); // ok
 ````
+Could generate the same class with different types inside
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTEwMjM3NywtOTU2MzIxMDk2LC0yMz
-IwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0
-NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNj
-csLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3
-Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3LD
-E5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLTg4
-OTU4MjM2Nl19
+eyJoaXN0b3J5IjpbNTQzMzYyMDA0LC05NTYzMjEwOTYsLTIzMj
+A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
+MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
+wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
+ODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMT
+kzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtODg5
+NTgyMzY2XX0=
 -->
