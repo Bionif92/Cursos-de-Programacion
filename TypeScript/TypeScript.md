@@ -1035,13 +1035,19 @@ const mergedObj = merge <string,number> ({name:'Max'},{age:30});
 
 ### Working with Contrains
 
+Restrict the type
 
+````
+function merge <T extends object,U extends object>(objA:T,objB:U) {
+	return Object.assign(objA,objB);
+} // restricted to objects
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5NTk5MTMsLTU4NjcyMjA2NCwtMTg1Mz
-IzMTc5LDE3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3
-MTIsLTExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNz
-IwMjI2OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1
-MzMsNTM2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLT
-EyMDEzMDU0NDksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5
-NTk5MF19
+eyJoaXN0b3J5IjpbMTY4MDUyOTAyNywtNTg2NzIyMDY0LC0xOD
+UzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgx
+ODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Mi
+w3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5
+MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOS
+wtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5
+Njk1OTkwXX0=
 -->
