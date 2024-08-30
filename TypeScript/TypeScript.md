@@ -1128,8 +1128,10 @@ Attached you find all the code snapshots for this module - you also find them at
 These links might also be interesting:
 
 -   More on Generics: [https://www.typescriptlang.org/docs/handbook/generics.html](https://www.typescriptlang.org/docs/handbook/generics.html)
+
+## Decorators
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ5ODYxMTU5LC01NzY1MTQ4MywtOTU2Mz
+eyJoaXN0b3J5IjpbNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2Mz
 IxMDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5
 LDE3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLT
 ExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2
