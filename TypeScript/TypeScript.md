@@ -1121,13 +1121,19 @@ Example:
 Union Types - can have mix types inside
 Generic Types - can only be one type from that list, and stick to it 
 
+### Useful Resources & Links
 
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
+
+These links might also be interesting:
+
+-   More on Generics: [https://www.typescriptlang.org/docs/handbook/generics.html](https://www.typescriptlang.org/docs/handbook/generics.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTk4OTM2NDIsLTU3NjUxNDgzLC05NT
-YzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMx
-NzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMi
-wtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAy
-MjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMy
-w1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIw
-MTMwNTQ0OV19
+eyJoaXN0b3J5IjpbNjQ5ODYxMTU5LC01NzY1MTQ4MywtOTU2Mz
+IxMDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5
+LDE3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLT
+ExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2
+OTA0LC04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNT
+M2NzAzNTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEz
+MDU0NDldfQ==
 -->
