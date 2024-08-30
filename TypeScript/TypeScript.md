@@ -1024,10 +1024,10 @@ mergedObj.name; // cannot access
 
 function merge <T,U>(objA:T,objB:U) {
 	return Object.assign(objA,objB);
-} // now knows what is inside
+} // now knows what is inside, because it see the intersection of the types
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzczMzQ4NywtMTg1MzIzMTc5LDE3Mz
+eyJoaXN0b3J5IjpbLTg1NTgyNDQ1NCwtMTg1MzIzMTc5LDE3Mz
 M5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3
 NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC
 04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAz
