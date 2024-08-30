@@ -1084,12 +1084,16 @@ class Storage {
 	}
 
 	removeItem(item) {
-		this.data.push(item);
+		this.data.splice(this.data.indexof(item),1);
+	}
+
+	getItems() {
+		return [...this.data]
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAxODYyMywtOTU2MzIxMDk2LC0yMz
+eyJoaXN0b3J5IjpbMTM0NDUwMDc4MywtOTU2MzIxMDk2LC0yMz
 IwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0
 NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNj
 csLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3
