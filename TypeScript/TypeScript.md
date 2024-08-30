@@ -1028,16 +1028,16 @@ function merge <T,U>(objA:T,objB:U) {
 ````
 **The types are set dinamically when you put real values**
 
-Can specify also the types when you pass the values to the function
+Can specify also the types when you pass the values to the function, but is redundant
 ````
 const mergedObj = merge <string,number> ({name:'Max'},{age:30});
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwODY5OTc4LC0xODUzMjMxNzksMTczMz
-k3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1
-MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLT
-gwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1
-MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OS
-wtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5Njk1OTkwLC0xMzc0
-OTIzODcxXX0=
+eyJoaXN0b3J5IjpbLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3Mz
+M5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3
+NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC
+04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAz
+NTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0ND
+ksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3
+NDkyMzg3MV19
 -->
