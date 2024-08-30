@@ -1052,11 +1052,15 @@ interface Lenghty {
 
 function countAndDescribe <T extends Lenghty> (element:T) {
 	let descriptionText = 'Got no value.'
-	if.
+	if (element.lenght == 1) {
+		descriptionText = 'Got 1 element.'
+	} else if (lement.lenght > 1) {
+		descriptionText = 'Got' + element.lenght + 
+	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwOTQyMjA3OCwtMjMyMDU2NjcyLC01OD
+eyJoaXN0b3J5IjpbMTU1NDgxODIzNCwtMjMyMDU2NjcyLC01OD
 Y3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3
 Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC
 0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzcz
