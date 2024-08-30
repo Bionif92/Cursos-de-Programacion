@@ -1108,8 +1108,10 @@ class DataStorage<T extends string | number | boolean> {...}
 ````
 
 ### Generic Utility Types
+
+Built-in utility types: [https://www.typescriptlang.org/docs/handbook/utility-types.html](https://www.typescriptlang.org/docs/handbook/utility-types.html)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI4MjI3NjE3LC05NTYzMjEwOTYsLTIzMj
+eyJoaXN0b3J5IjpbLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMj
 A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
 MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
 wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
