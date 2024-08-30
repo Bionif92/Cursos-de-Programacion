@@ -1062,8 +1062,12 @@ function countAndDescribe <T extends Lenghty> : [T, string](element:T) {
 
 console.log(countAndDescribe('Hi there!')); // convert to an object with the property lenght to work inside the function
 ````
+
+### The keyof Constrain
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0OTM3MjcwOSwtMjMyMDU2NjcyLC01OD
+eyJoaXN0b3J5IjpbLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01OD
 Y3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3
 Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC
 0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzcz
