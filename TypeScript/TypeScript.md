@@ -995,7 +995,7 @@ These links might also be interesting:
 
 A type linked with another type
 
-Give us flexibi
+**Give us flexibility and safety with the types**
 
 ````
 const names: Array<string> = [];// string[]
@@ -1107,9 +1107,9 @@ Better if you select the right types you will use:
 class DataStorage<T extends string | number | boolean> {...}
 ````
 
-### A First Summary
+### Generic Utility Types
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0OTYxMDg1LC05NTYzMjEwOTYsLTIzMj
+eyJoaXN0b3J5IjpbNTI4MjI3NjE3LC05NTYzMjEwOTYsLTIzMj
 A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
 MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
 wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
