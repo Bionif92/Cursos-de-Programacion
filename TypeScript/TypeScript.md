@@ -1066,18 +1066,18 @@ console.log(countAndDescribe('Hi there!')); // convert to an object with the pro
 ### The keyof Constrain
 
 ````
-function extractAndConvert <t extends object,U extends keyof T> (obj:T, key:U) {
-	return 'Value' + obj[key];
+function extractAndConvert <T extends object,U extends keyof T> (obj:T, key:U) { // U is a property of the object
+	return 'Value' + obj[key]; // access a property of an object
 }
 
-extractAndConvert({},'');
+extractAndConvert({name:'Max'},'name');
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5NzMxNzg4OSwtOTU2MzIxMDk2LC0yMz
-IwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0
-NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNj
-csLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3
-Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3LD
-E5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLTg4
-OTU4MjM2Nl19
+eyJoaXN0b3J5IjpbLTE3ODM2ODU2MDgsLTk1NjMyMTA5NiwtMj
+MyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTcz
+NDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMz
+Y3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAw
+NzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNy
+wxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04
+ODk1ODIzNjZdfQ==
 -->
