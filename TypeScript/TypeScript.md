@@ -1098,13 +1098,13 @@ textStorage.addItem('Max'); // ok
 ````
 Could generate the same class with different types inside
 
-Problem with this example are objects, to remove and object, you can 
+Problem with this example are objects, to remove and object, you can not use this class because 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1ODUzNjM1LC05NTYzMjEwOTYsLTIzMj
-A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
-MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
-wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
-ODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMT
-kzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtODg5
-NTgyMzY2XX0=
+eyJoaXN0b3J5IjpbLTE0Njk1MTQ3MzMsLTk1NjMyMTA5NiwtMj
+MyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTcz
+NDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMz
+Y3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAw
+NzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNy
+wxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04
+ODk1ODIzNjZdfQ==
 -->
