@@ -1027,8 +1027,12 @@ function merge <T,U>(objA:T,objB:U) {
 } // now knows what is inside, because it see the intersection of the types
 ````
 **The types are set dinamically when you put real values**
+
+````
+const mergedObj = merge ({name:'Max'},{age:30});
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ4NzYxOTU1LC0xODUzMjMxNzksMTczMz
+eyJoaXN0b3J5IjpbNDY5MjE5ODEzLC0xODUzMjMxNzksMTczMz
 k3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1
 MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLT
 gwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1
