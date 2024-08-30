@@ -1045,13 +1045,22 @@ function merge <T extends object,U extends object>(objA:T,objB:U) {
 
 ### Another Generic function
 
+````
+interface Lenghty {
+	lenght:number;
+}
 
+function countAndDescribe <T extends Lenghty> (element:T) {
+	let descriptionText = 'Got no value.'
+	if.
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xOD
-UzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgx
-ODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Mi
-w3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5
-MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOS
-wtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5MywtNzg5
-Njk1OTkwXX0=
+eyJoaXN0b3J5IjpbMTQwOTQyMjA3OCwtMjMyMDU2NjcyLC01OD
+Y3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3
+Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC
+0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzcz
+ODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC
+0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAy
+NDg5NDkzXX0=
 -->
