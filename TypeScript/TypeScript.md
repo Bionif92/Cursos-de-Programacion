@@ -1092,10 +1092,11 @@ class DataStorage<T> {
 	}
 }
 
-const 
+const textStorage = new DataStorage<string>();
+textStorage.addItem(10);// dont work, need to be a string
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTMzMDI1OSwtOTU2MzIxMDk2LC0yMz
+eyJoaXN0b3J5IjpbMTIxNTEwMjM3NywtOTU2MzIxMDk2LC0yMz
 IwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0
 NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNj
 csLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3
