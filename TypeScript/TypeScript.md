@@ -998,8 +998,16 @@ A type linked with another type
 ````
 const names: Array<string> = [];// string[]
 ````
+
+Promise type
+
+````
+const promise = new Promise((resolve,reject)=>{
+	setTimeout()
+});
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTk1ODY1MCwtMTc3MjI1NzI5OSwtMT
+eyJoaXN0b3J5IjpbLTcwNjU0NTU2NiwtMTc3MjI1NzI5OSwtMT
 UxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUy
 ODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NC
 w2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkw
