@@ -1009,12 +1009,16 @@ const promise: Promise<string> = new Promise((resolve,reject)=>{
 }); // Promise<unknown> if you dont specify
 ````
 If you know the outcome, you can use then with specific methods
+
+### Creating a Generic function
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMT
-UxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUy
-ODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NC
-w2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkw
-MDIxOSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUwMjQ4OTQ5My
-wtNzg5Njk1OTkwLC0xMzc0OTIzODcxLC04NDQ2MTI1MDYsLTE0
-MjE2OTYzNDZdfQ==
+eyJoaXN0b3J5IjpbLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNz
+cyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3
+NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC
+0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0
+NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNj
+YsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEzNzQ5MjM4NzEsLTg0
+NDYxMjUwNl19
 -->
