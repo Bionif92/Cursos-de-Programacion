@@ -1002,12 +1002,14 @@ const names: Array<string> = [];// string[]
 Promise type
 
 ````
-const promise = new Promise((resolve,reject)=>{
-	setTimeout()
-});
+const promise: Promise = new Promise((resolve,reject)=>{
+	setTimeout(()=>{
+		resolve('This is done');
+	},2000);
+}); // Promise<unknown>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjU0NTU2NiwtMTc3MjI1NzI5OSwtMT
+eyJoaXN0b3J5IjpbLTUwNDE5NzE0MSwtMTc3MjI1NzI5OSwtMT
 UxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUy
 ODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NC
 w2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkw
