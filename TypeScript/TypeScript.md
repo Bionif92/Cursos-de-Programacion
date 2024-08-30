@@ -1067,9 +1067,13 @@ console.log(countAndDescribe('Hi there!')); // convert to an object with the pro
 
 ````
 function extractAndConvert <t extends object,U extends keyof T> (obj:T, key:U) {
+	return 'Value' + obj[key];
+}
+
+extractAndConvert({},'');
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjQ2NDI1MiwtOTU2MzIxMDk2LC0yMz
+eyJoaXN0b3J5IjpbLTc5NzMxNzg4OSwtOTU2MzIxMDk2LC0yMz
 IwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0
 NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNj
 csLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3
