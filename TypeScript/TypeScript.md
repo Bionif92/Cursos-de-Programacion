@@ -1016,13 +1016,16 @@ If you know the outcome, you can use then with specific methods
 function merge (objA:object,objB:object) {
 	return Object.assign(objA,objB);
 }
+
+const mergedObj = merge ({name:'Max'},{age:30});
+mergedObj.name; // cannot access
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDk3MDQ1OTQsLTE4NTMyMzE3OSwxNz
-MzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3
-NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNC
-wtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcw
-MzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAxMzA1ND
-Q5LC04ODk1ODIzNjYsNTAyNDg5NDkzLC03ODk2OTU5OTAsLTEz
-NzQ5MjM4NzFdfQ==
+eyJoaXN0b3J5IjpbLTM1MjQ3MjkxNCwtMTg1MzIzMTc5LDE3Mz
+M5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3
+NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC
+04MDA3Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAz
+NTM3LDE5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0ND
+ksLTg4OTU4MjM2Niw1MDI0ODk0OTMsLTc4OTY5NTk5MCwtMTM3
+NDkyMzg3MV19
 -->
