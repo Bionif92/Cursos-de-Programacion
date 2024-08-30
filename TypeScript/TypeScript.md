@@ -1119,15 +1119,15 @@ Example:
 ### Generic vs Union Types
 
 Union Types - can have mix types inside
-Generic Types - can only be one type from that list
+Generic Types - can only be one type from that list, and stick to it 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDM2MjM4MSwtNTc2NTE0ODMsLTk1Nj
-MyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3
-OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC
-0xMTI3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIy
-NjkwNCwtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLD
-UzNjcwMzUzNywxOTMzMDQ0NjU1LC0yMDQ0OTAwMjE5LC0xMjAx
-MzA1NDQ5XX0=
+eyJoaXN0b3J5IjpbLTEwNTk4OTM2NDIsLTU3NjUxNDgzLC05NT
+YzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMx
+NzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMi
+wtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAy
+MjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMy
+w1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIw
+MTMwNTQ0OV19
 -->
