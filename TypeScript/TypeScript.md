@@ -1099,12 +1099,19 @@ textStorage.addItem('Max'); // ok
 Could generate the same class with different types inside
 
 **Problem with this example are objects, to remove and object, you can not use this class because they are reference values, need to create a variable with the object to remove it this way**
+
+Better if you select the right types you will use:
+````
+class DataStorage<T extends string | number | boolean> {...}
+````
+
+### A First Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTg5NTI4NSwtOTU2MzIxMDk2LC0yMz
-IwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0
-NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNj
-csLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3
-Mzg0MDUsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3LD
-E5MzMwNDQ2NTUsLTIwNDQ5MDAyMTksLTEyMDEzMDU0NDksLTg4
-OTU4MjM2Nl19
+eyJoaXN0b3J5IjpbLTYzNTc0OTU5LC05NTYzMjEwOTYsLTIzMj
+A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
+MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
+wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
+ODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMT
+kzMzA0NDY1NSwtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtODg5
+NTgyMzY2XX0=
 -->
