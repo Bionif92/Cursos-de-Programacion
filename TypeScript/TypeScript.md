@@ -1116,10 +1116,11 @@ Example:
  - Partial Type- Temporarily make it as certain type and then change it
  - Readonly Type - Not allow to do changes to the type
 
+### Generic vs Union Types
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTEyOTM2MSwtNTc2NTE0ODMsLTk1Nj
+eyJoaXN0b3J5IjpbMTk5MDExNzkzOCwtNTc2NTE0ODMsLTk1Nj
 MyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3
 OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC
 0xMTI3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIy
