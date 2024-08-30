@@ -1002,14 +1002,15 @@ const names: Array<string> = [];// string[]
 Promise type
 
 ````
-const promise: Promise = new Promise((resolve,reject)=>{
+const promise: Promise<string> = new Promise((resolve,reject)=>{
 	setTimeout(()=>{
 		resolve('This is done');
 	},2000);
-}); // Promise<unknown>
+}); // Promise<unknown> if you dont specify
 ````
+If you know the outcome, you can use then with specific methods
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNDE5NzE0MSwtMTc3MjI1NzI5OSwtMT
+eyJoaXN0b3J5IjpbMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMT
 UxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUy
 ODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NC
 w2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NSwtMjA0NDkw
