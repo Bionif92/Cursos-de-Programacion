@@ -995,6 +995,8 @@ These links might also be interesting:
 
 A type linked with another type
 
+Give us flexibi
+
 ````
 const names: Array<string> = [];// string[]
 ````
@@ -1079,11 +1081,11 @@ extractAndConvert({name:'Max'},'name');
 class DataStorage<T> {
 	private data: T[] = [];
 
-	addItem(item) {
+	addItem(item:T) {
 		this.data.push(item);
 	}
 
-	removeItem(item) {
+	removeItem(item:T) {
 		this.data.splice(this.data.indexof(item),1);
 	}
 
@@ -1107,7 +1109,7 @@ class DataStorage<T extends string | number | boolean> {...}
 
 ### A First Summary
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNTc0OTU5LC05NTYzMjEwOTYsLTIzMj
+eyJoaXN0b3J5IjpbMTQ0OTYxMDg1LC05NTYzMjEwOTYsLTIzMj
 A1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2
 MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Ny
 wtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDcz
