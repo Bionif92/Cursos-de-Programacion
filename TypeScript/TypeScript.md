@@ -1042,8 +1042,12 @@ function merge <T extends object,U extends object>(objA:T,objB:U) {
 	return Object.assign(objA,objB);
 } // restricted to objects
 ````
+
+### Another Generic function
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDUyOTAyNywtNTg2NzIyMDY0LC0xOD
+eyJoaXN0b3J5IjpbLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xOD
 UzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgx
 ODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Mi
 w3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5
