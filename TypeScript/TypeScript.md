@@ -1055,16 +1055,19 @@ function countAndDescribe <T extends Lenghty> (element:T) {
 	if (element.lenght == 1) {
 		descriptionText = 'Got 1 element.'
 	} else if (lement.lenght > 1) {
-		descriptionText = 'Got' + element.lenght + 
+		descriptionText = 'Got' + element.lenght + 'elements.'
 	}
+	return [element,descriptionText]
 }
+
+console.log(countAndDescribe('Hi there!')); // convert to an object with
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDgxODIzNCwtMjMyMDU2NjcyLC01OD
-Y3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3
-Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC
-0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzcz
-ODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0NjU1LC
-0yMDQ0OTAwMjE5LC0xMjAxMzA1NDQ5LC04ODk1ODIzNjYsNTAy
-NDg5NDkzXX0=
+eyJoaXN0b3J5IjpbLTE5MTMwNTQ4ODUsLTIzMjA1NjY3MiwtNT
+g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
+NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMS
+wtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3
+MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0NDY1NS
+wtMjA0NDkwMDIxOSwtMTIwMTMwNTQ0OSwtODg5NTgyMzY2LDUw
+MjQ4OTQ5M119
 -->
