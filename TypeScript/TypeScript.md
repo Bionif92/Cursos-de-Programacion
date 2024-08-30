@@ -1072,8 +1072,12 @@ function extractAndConvert <T extends object,U extends keyof T> (obj:T, key:U) {
 
 extractAndConvert({name:'Max'},'name');
 ````
+
+### Generic Classes
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM2ODU2MDgsLTk1NjMyMTA5NiwtMj
+eyJoaXN0b3J5IjpbLTIwOTM1Njg3NzIsLTk1NjMyMTA5NiwtMj
 MyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTcz
 NDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMz
 Y3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAw
