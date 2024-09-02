@@ -1272,15 +1272,36 @@ class Product {
 
 ````
 function Log2(target: any, name:string, descriptor: PropertyDescriptor) {
-	console.log(target)
+	console.log(target);
+	console.log(name);
+	console.log(descriptor);
+}
+
+class Product {
+	@Log
+	title:string;
+	_price:number;
+	@Log2
+	set price(val:number) {
+		if (val>0) {
+			this._price = val;
+		}
+	}
+	constructor(t:string) {
+		this.title = t;
+		this._price = number;
+	}
+	getPriceWithTax(tax:number) {
+		return this._price*(1+tax);
+	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNDEyMzAzOSwxMzA1MDA1Nzc5LC00OD
-MwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkx
-NDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLT
-IzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3
-MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1Mj
-M2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgw
-MDczODQwNV19
+eyJoaXN0b3J5IjpbLTE5OTUwNTY5MzAsMTMwNTAwNTc3OSwtND
+gzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5
+MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC
+0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5
+NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NT
+IzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04
+MDA3Mzg0MDVdfQ==
 -->
