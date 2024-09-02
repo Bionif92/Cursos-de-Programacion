@@ -1320,9 +1320,11 @@ Method(@Log4 Parameter) {}
 
 **Decorators all execute when the class is created**
 
-Order of running
+### Returning (and Changing) a Class in a Class Decorator
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NDM3ODkwNiwxMzA1MDA1Nzc5LC00OD
+eyJoaXN0b3J5IjpbMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00OD
 MwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkx
 NDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLT
 IzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3
