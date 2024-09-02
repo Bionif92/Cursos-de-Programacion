@@ -1344,9 +1344,13 @@ With this you enhance the decorator to the class, and the name apper when you cr
 
 ### Other Decorator Return Types
 
-Cla
+Classes, Accessors and Methods are the three types you can have in return something else
+
+Decorators on properties and parameters, TS will ignore the outcome
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MzI0MjU5MCwxMzAyODM1NDI4LDEzMD
+eyJoaXN0b3J5IjpbMTA3Mjg3ODAyNywxMzAyODM1NDI4LDEzMD
 UwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1
 MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLT
 k1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMy
