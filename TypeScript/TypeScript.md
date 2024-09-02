@@ -1145,9 +1145,17 @@ In tsconfig.json :
 In TS:
 ````
 // decorator to a class
+class Person {
+	name: 'Max';
+	constructor() {
+		console.log('Creating Person Object...')
+	}
+}
+
+const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDM5NzcyMCwtMTMzMTkxNDA5MSw0Nj
+eyJoaXN0b3J5IjpbMTA4NDcwOTk5OCwtMTMzMTkxNDA5MSw0Nj
 Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
 MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
 c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
