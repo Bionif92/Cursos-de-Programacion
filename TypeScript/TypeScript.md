@@ -1366,10 +1366,10 @@ class Printer {
 const p = new Printer();
 
 const button = document.querySelector('button')!;
-button.addEventListener('click',)
+button.addEventListener('click',p.showMessage); // if we click it shows undefined
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzAxMjA2NiwxMDcyODc4MDI3LDEzMD
+eyJoaXN0b3J5IjpbMTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMD
 I4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2
 Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC
 01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLTU4Njcy
