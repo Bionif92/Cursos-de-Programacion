@@ -1239,14 +1239,14 @@ const pers = new Person();
 
 Can add more than one decorator
 
-**What run first: if you have something outside the return the priority is from top to bottom, inside the return is the oposite**
+**What run first: if you have something outside the return the priority is from top to bottom, inside the return (decorator function) is the oposite**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
-c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
-ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLT
-E4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0
-ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4Nj
-QyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1
-MzkzNTMzXX0=
+eyJoaXN0b3J5IjpbLTIwNDQ5NjUzNzksLTQ4MzAzODgyNSwtMT
+YwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2Njgx
+ODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC
+01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcy
+MjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3ND
+AxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0x
+NzczODIzMTQ0XX0=
 -->
