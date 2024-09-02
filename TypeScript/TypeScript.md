@@ -1350,18 +1350,24 @@ Decorators on properties and parameters, TS will ignore the outcome
 
 ### Example Creating an Aoutbind Decorator
 
-
+First he create a button
 ````
 function Log3(target: any, name:string|Symbol, descriptor: PropertyDescriptor): PropertyDescriptor {
 	return {}
 }
+
+class Printer {
+	message = 'this works';
+
+	show 
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3Mzk4NDY5MywxMDcyODc4MDI3LDEzMD
-I4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2
-Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC
-01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLTU4Njcy
-MjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIyNTcyOT
-ksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTkyNzc0MDEsLTEw
-MDc1Mjg2NDJdfQ==
+eyJoaXN0b3J5IjpbNzkxMzI2ODUxLDEwNzI4NzgwMjcsMTMwMj
+gzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2
+OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLT
+U3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIy
+MDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OS
+wtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAw
+NzUyODY0Ml19
 -->
