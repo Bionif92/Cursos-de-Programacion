@@ -1326,9 +1326,9 @@ We can have a return value inside the decorator function:
 
 ````
 function WithTemplate(template:string,hookID:string) {
-	return function<T extends {new(...args:any[]:{})}>(originalConstructor: T){ 
+	return function<T extends {new(...args:any[]:{name:string})}>(originalConstructor: T){ 
 		return class extends originalConstructor {
-			constructor(...args:any[]) {
+			constructor(..._:any[]) {
 				super();
 				const hookEl= document.getElementByID('hookedID')
 				if (hookEl) {
@@ -1340,12 +1340,13 @@ function WithTemplate(template:string,hookID:string) {
 	}
 }
 ````
+With this you enha
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjMxNzY4NiwxMzAyODM1NDI4LDEzMD
-UwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1
-MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLT
-k1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMy
-MzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4Nz
-EyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcy
-MDIyNjkwNF19
+eyJoaXN0b3J5IjpbLTYzMDM0OTE5LDEzMDI4MzU0MjgsMTMwNT
+AwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUx
+NTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOT
+U2MzIxMDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIz
+MTc5LDE3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MT
+IsLTExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIw
+MjI2OTA0XX0=
 -->
