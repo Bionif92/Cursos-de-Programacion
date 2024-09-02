@@ -1348,13 +1348,13 @@ Classes, Accessors and Methods are the three types you can have in return someth
 
 Decorators on properties and parameters, TS will ignore the outcome
 
-
+Accessors and Methods:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3Mjg3ODAyNywxMzAyODM1NDI4LDEzMD
-UwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1
-MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLT
-k1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMy
-MzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4Nz
-EyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcy
-MDIyNjkwNF19
+eyJoaXN0b3J5IjpbODc5ODc0MTUwLDEwNzI4NzgwMjcsMTMwMj
+gzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2
+OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLT
+U3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIy
+MDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OS
+wtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAw
+NzUyODY0Ml19
 -->
