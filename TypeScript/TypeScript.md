@@ -1268,9 +1268,13 @@ class Product {
 }
 ````
 
+### Accessor & Parameter Decorators
 
+````
+function Log2(target: any, n)
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY2ODA0MjIyLDEzMDUwMDU3NzksLTQ4Mz
+eyJoaXN0b3J5IjpbODAyMjg0NTY1LDEzMDUwMDU3NzksLTQ4Mz
 AzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0
 MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMj
 MyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTcz
