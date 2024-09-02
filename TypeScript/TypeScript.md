@@ -1371,15 +1371,16 @@ button.addEventListener('click',p.showMessage.bind(this)); // common JS usage
 
 // now use decorator
 
-function Autobind () {
+function Autobind (target: any, methodName: string|Symbol, descriptor: PropertyDescriptor) {
+	
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE4NTcxNTAsMTE3MDc5NDc2OSwxMD
-cyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4
-ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOT
-EsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIw
-NTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0Nj
-EsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcs
-LTkyNzc0MDFdfQ==
+eyJoaXN0b3J5IjpbMTcyNTk0NzQ3OSwxMTcwNzk0NzY5LDEwNz
+I4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4
+MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MS
+w0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1
+NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MS
+wtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2Nywt
+OTI3NzQwMV19
 -->
