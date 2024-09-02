@@ -1146,10 +1146,10 @@ In TS:
 ````
 // decorator to a class
 function Logger(constructor: Function) {// common tu see in uppercase
-	console.log('Logging...')
+	console.log('Logging...');
 }
 
-@Logger
+@Logger()
 class Person {
 	name: 'Max';
 	constructor() {
@@ -1167,13 +1167,14 @@ No need to stanciate the class to work the decorator
 Factories - Return a decoration function
 
 ````
-function Logger() {
+function Logger(logString: string) {
 	return function(constructor: Function) {
-		
+		console.log('Logging...');
+		console.log(constructor);
 	}
 }
 
-@Logger
+@Logger()
 class Person {
 	name: 'Max';
 	constructor() {
@@ -1184,7 +1185,7 @@ class Person {
 const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDM5Nzc1MiwtMTMzMTkxNDA5MSw0Nj
+eyJoaXN0b3J5IjpbMjE0MDY5NTMxMCwtMTMzMTkxNDA5MSw0Nj
 Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
 MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
 c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
