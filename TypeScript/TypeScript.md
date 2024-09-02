@@ -1131,6 +1131,8 @@ These links might also be interesting:
 
 ## Decorators
 
+Decorators are **a TypeScript feature that enables the application of higher-order functions to class constructors and their members**.
+
 ### First Class Decorator
 
 In tsconfig.json :
@@ -1185,13 +1187,13 @@ class Person {
 const pers = new Person();
 ````
 
-
+### Building more Useful Decorators
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU3Mzk4NjMsLTEzMzE5MTQwOTEsND
-Y2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2
-NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLT
-E3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTky
-Nzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3Mzg0MD
-UsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3LDE5MzMw
-NDQ2NTVdfQ==
+eyJoaXN0b3J5IjpbMTMxODIxMjQ3LC0xMzMxOTE0MDkxLDQ2Nj
+gxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2Njcy
+LC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNz
+cyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3
+NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC
+0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0
+NjU1XX0=
 -->
