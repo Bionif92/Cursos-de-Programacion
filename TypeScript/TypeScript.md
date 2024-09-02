@@ -1378,12 +1378,14 @@ function Autobind (target: any, methodName: string|Symbol, descriptor: PropertyD
 		enumerable: false,
 		get() {
 			const boundFn = originalMethod.bind(this); // point at the object that belongs
+			return boundFn;
 		}
 	}
+	return adjDescriptor;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjM1OTQ1OCwxMTcwNzk0NzY5LDEwNz
+eyJoaXN0b3J5IjpbLTYwMzQ2Mjg2MiwxMTcwNzk0NzY5LDEwNz
 I4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4
 MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MS
 w0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1
