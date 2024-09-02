@@ -1392,10 +1392,11 @@ class Printer {
 		console.log(this.message);
 	}
 }
-
+const p = new Printer();
+button.addEventListener('click',p.showMessage);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE5Mjg2MTMsMTE3MDc5NDc2OSwxMD
+eyJoaXN0b3J5IjpbLTE2NjUzODQwMzQsMTE3MDc5NDc2OSwxMD
 cyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4
 ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOT
 EsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIw
