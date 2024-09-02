@@ -1244,7 +1244,12 @@ Can add more than one decorator
 ### Diving into Property Decorators
 
 ````
+function Log(target:any,propertyName:string) {
+
+}
+
 class Product {
+	@Log
 	title:string;
 	_price:number;
 	set price(val:number) {
@@ -1264,7 +1269,7 @@ class Product {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1NzI1ODkyLC00ODMwMzg4MjUsLTE2MD
+eyJoaXN0b3J5IjpbNjEzMjM2OTk3LC00ODMwMzg4MjUsLTE2MD
 UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
 MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNT
 g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
