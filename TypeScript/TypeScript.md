@@ -1367,13 +1367,19 @@ const p = new Printer();
 
 const button = document.querySelector('button')!;
 button.addEventListener('click',p.showMessage); // if we click it shows undefined
+button.addEventListener('click',p.showMessage.bind(this)); // common JS usage
+
+// now use decorator
+
+function Autobind () {
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMD
-I4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2
-Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC
-01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLTU4Njcy
-MjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIyNTcyOT
-ksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTkyNzc0MDEsLTEw
-MDc1Mjg2NDJdfQ==
+eyJoaXN0b3J5IjpbLTIwMjE4NTcxNTAsMTE3MDc5NDc2OSwxMD
+cyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4
+ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOT
+EsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIw
+NTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0Nj
+EsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcs
+LTkyNzc0MDFdfQ==
 -->
