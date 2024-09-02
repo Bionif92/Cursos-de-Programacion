@@ -1199,11 +1199,14 @@ function Logger(logString: string) {
 
 function WithTemplate(template:string,hookID:string) {
 	return function(constructor: Function){
-		const hookElement= document.getElementByID('hookedID')
+		const hookEl= document.getElementByID('hookedID')
+		if (hookEl) {
+			hookEl.innerHTML = template;
+		}
 	}
 }
 
-@With
+@WithTemplate('','app')
 class Person {
 	name: 'Max';
 	constructor() {
@@ -1214,7 +1217,7 @@ class Person {
 const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTQzODEwLC0xMzMxOTE0MDkxLDQ2Nj
+eyJoaXN0b3J5IjpbNTUxNjAwMzM2LC0xMzMxOTE0MDkxLDQ2Nj
 gxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2Njcy
 LC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNz
 cyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3
