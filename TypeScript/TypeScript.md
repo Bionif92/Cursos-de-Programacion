@@ -1164,9 +1164,27 @@ No need to stanciate the class to work the decorator
 
 ### Working with Decorator Factories
 
-Return a decoration function
+Factories - Return a decoration function
+
+````
+function Logger() {
+	return function(constructor: Function) {
+		
+	}
+}
+
+@Logger
+class Person {
+	name: 'Max';
+	constructor() {
+		console.log('Creating Person Object...')
+	}
+}
+
+const pers = new Person();
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMzU0NjkwNSwtMTMzMTkxNDA5MSw0Nj
+eyJoaXN0b3J5IjpbLTY1NDM5Nzc1MiwtMTMzMTkxNDA5MSw0Nj
 Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
 MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
 c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
