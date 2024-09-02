@@ -1238,11 +1238,11 @@ const pers = new Person();
 ### Adding Multiple Decorators
 
 Can add more than one decorator
-````
-````
+
+**What run first: if you have something outside the return the priority is from top to bottom, inside the return is the oposite**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Mzg1MTM2NywtMTYwNTAzNjY5NCwtND
+eyJoaXN0b3J5IjpbLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
 c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
 ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLT
 E4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0
