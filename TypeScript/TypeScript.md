@@ -1309,18 +1309,18 @@ Method
 
 Decorator to Parameters:
 ````
-function Log3(target:any, name:string|Symbol, descriptor: PropertyDescriptor) {
+function Log3(target:any, name:string|Symbol, position: number) { // name: method, position: count the parameters and give a number
 }
 
 @Log3
 Method(@Log4 Parameter) {}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzOTg0OTYyLDEzMDUwMDU3NzksLTQ4Mz
-AzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0
-MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMj
-MyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTcz
-NDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMz
-Y3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAw
-NzM4NDA1XX0=
+eyJoaXN0b3J5IjpbLTE2NTc2MzA5NTYsMTMwNTAwNTc3OSwtND
+gzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5
+MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC
+0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5
+NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NT
+IzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04
+MDA3Mzg0MDVdfQ==
 -->
