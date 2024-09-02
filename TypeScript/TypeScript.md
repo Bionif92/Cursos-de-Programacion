@@ -1246,7 +1246,7 @@ Can add more than one decorator
 ````
 function Log(target:any,propertyName:string|Symbol) {
 	console.log('Property Decorator');
-	console.log(target,propertyName);
+	console.log(target,propertyName); // target: title, 
 }
 
 class Product {
@@ -1270,11 +1270,11 @@ class Product {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMjU1NTYyLC00ODMwMzg4MjUsLTE2MD
-UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
-MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNT
-g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
-NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMS
-wtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3
-MzgyMzE0NF19
+eyJoaXN0b3J5IjpbMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNj
+A1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4
+NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLT
+U4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIy
+NTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTkyNzc0MD
+EsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3Mzg0MDUsLTE3
+NzM4MjMxNDRdfQ==
 -->
