@@ -1162,9 +1162,11 @@ const pers = new Person();
 
 No need to stanciate the class to work the decorator
 
-### Working 
+### Working with Decorator Factories
+
+Return a decoration function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTc0NTk1MSwtMTMzMTkxNDA5MSw0Nj
+eyJoaXN0b3J5IjpbMTMxMzU0NjkwNSwtMTMzMTkxNDA5MSw0Nj
 Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
 MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
 c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
