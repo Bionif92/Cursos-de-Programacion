@@ -1248,7 +1248,9 @@ class Product {
 	title:string;
 	_price:number;
 	set price(val:number) {
-		this._price = val;
+		if (val>0) {
+			this._price = val;
+		}
 	}
 	constructor(t:string) {
 		this.title = t;
@@ -1262,7 +1264,7 @@ class Product {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA4NjIwNTkzLC00ODMwMzg4MjUsLTE2MD
+eyJoaXN0b3J5IjpbMjQ1NzI1ODkyLC00ODMwMzg4MjUsLTE2MD
 UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
 MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNT
 g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
