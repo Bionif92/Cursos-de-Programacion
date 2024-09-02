@@ -1373,11 +1373,17 @@ button.addEventListener('click',p.showMessage.bind(this)); // common JS usage
 
 function Autobind (target: any, methodName: string|Symbol, descriptor: PropertyDescriptor) {
 	const originalMethod = descriptor.value // point at the method
-	const adjDescriptor: PropertyDescriptor = {}
+	const adjDescriptor: PropertyDescriptor = {
+		configurable: true,
+		enumerable: false,
+		get() {
+			const boundF
+		}
+	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDI3NDU5NzQsMTE3MDc5NDc2OSwxMD
+eyJoaXN0b3J5IjpbLTEyMDczNzE1MjIsMTE3MDc5NDc2OSwxMD
 cyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4
 ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOT
 EsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIw
