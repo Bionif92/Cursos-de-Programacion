@@ -1218,7 +1218,7 @@ function WithTemplate(template:string,hookID:string) {
 		const hookEl= document.getElementByID('hookedID')
 		if (hookEl) {
 			hookEl.innerHTML = template;
-			hookEl.querySelector('h1')!
+			hookEl.querySelector('h1')!.textContent= p.name;
 		}
 	}
 }
@@ -1234,11 +1234,11 @@ class Person {
 const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODAxNjIxOSwtNDc1ODg1MTUyLC0xMz
-MxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5
-NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNz
-MzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3
-NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNC
-wtODAwNzM4NDA1LC0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcw
-MzUzN119
+eyJoaXN0b3J5IjpbLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMT
+MzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEw
+OTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMT
+czMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEy
+Nzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MD
+QsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3
+MDM1MzddfQ==
 -->
