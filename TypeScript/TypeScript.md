@@ -1189,6 +1189,7 @@ const pers = new Person();
 
 ### Building more Useful Decorators
 
+Output an h1 when the class is deffined:
 ````
 function WithTemplate(template:string,hookID:string) {
 	return function(_: Function){ // dont use the constructor, put _
@@ -1233,12 +1234,13 @@ class Person {
 
 const pers = new Person();
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMT
-MzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEw
-OTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMT
-czMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEy
-Nzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MD
-QsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3
-MDM1MzddfQ==
+eyJoaXN0b3J5IjpbLTE0OTA1ODQ2MDUsLTE2MDUwMzY2OTQsLT
+Q3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUx
+NDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC
+0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUx
+NDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyOD
+Y0Miw3MjAyMjY5MDQsLTgwMDczODQwNSwtMTc3MzgyMzE0NCw2
+NTM5MzUzM119
 -->
