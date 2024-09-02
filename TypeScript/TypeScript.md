@@ -1169,12 +1169,12 @@ Factories - Return a decoration function
 ````
 function Logger(logString: string) {
 	return function(constructor: Function) {
-		console.log('Logging...');
+		console.log(logString);
 		console.log(constructor);
 	}
 }
 
-@Logger()
+@Logger('LOGGING - PERSON')
 class Person {
 	name: 'Max';
 	constructor() {
@@ -1184,12 +1184,14 @@ class Person {
 
 const pers = new Person();
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0MDY5NTMxMCwtMTMzMTkxNDA5MSw0Nj
-Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
-MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
-c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
-NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNS
-wtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0
-NDY1NV19
+eyJoaXN0b3J5IjpbLTE4NzU3Mzk4NjMsLTEzMzE5MTQwOTEsND
+Y2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2
+NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLT
+E3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTky
+Nzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3Mzg0MD
+UsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3LDE5MzMw
+NDQ2NTVdfQ==
 -->
