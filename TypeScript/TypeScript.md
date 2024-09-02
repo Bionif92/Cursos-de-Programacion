@@ -1326,20 +1326,19 @@ We can have a return value inside the decorator function:
 
 ````
 function WithTemplate(template:string,hookID:string) {
-	return function(constructor: Function){ 
-		const p = new constructor();
-		const hookEl= document.getElementByID('hookedID')
-		if (hookEl) {
-			hookEl.innerHTML = template;
-			hookEl.querySelector('h1')!.textContent= p.name;
+	return function(originalConstructor: Function){ 
+		
 		}
-		return class extends constructor {
+		return class extends originalConstructor {
+			constructor() {
+				super();
+			}
 		}
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1OTg3MzU4MiwxMzAyODM1NDI4LDEzMD
+eyJoaXN0b3J5IjpbMTk3NDQwNjQ1MiwxMzAyODM1NDI4LDEzMD
 UwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1
 MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLT
 k1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMy
