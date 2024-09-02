@@ -1145,9 +1145,10 @@ In tsconfig.json :
 In TS:
 ````
 // decorator to a class
-function Logger() {// common tu see in uppercase
-	console.log()
+function Logger(constructor: Function) {// common tu see in uppercase
+	console.log('Logging...')
 }
+
 @Logger
 class Person {
 	name: 'Max';
@@ -1159,11 +1160,11 @@ class Person {
 const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NDM5NTIwNywtMTMzMTkxNDA5MSw0Nj
-Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
-MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
-c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
-NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNS
-wtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0
-NDY1NV19
+eyJoaXN0b3J5IjpbNjY1MDgwOTYyLC0xMzMxOTE0MDkxLDQ2Nj
+gxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2Njcy
+LC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNz
+cyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3
+NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC
+0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0
+NjU1XX0=
 -->
