@@ -1190,15 +1190,8 @@ const pers = new Person();
 ### Building more Useful Decorators
 
 ````
-function Logger(logString: string) {
-	return function(constructor: Function) {
-		console.log(logString);
-		console.log(constructor);
-	}
-}
-
 function WithTemplate(template:string,hookID:string) {
-	return function(constructor: Function){
+	return function(_: Function){ // dont use the constructor, put _
 		const hookEl= document.getElementByID('hookedID')
 		if (hookEl) {
 			hookEl.innerHTML = template;
@@ -1206,7 +1199,7 @@ function WithTemplate(template:string,hookID:string) {
 	}
 }
 
-@WithTemplate('','app')
+@WithTemplate(<h1>My Person Object<h1/>,'app')
 class Person {
 	name: 'Max';
 	constructor() {
@@ -1217,11 +1210,11 @@ class Person {
 const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNjAwMzM2LC0xMzMxOTE0MDkxLDQ2Nj
-gxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2Njcy
-LC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNz
-cyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3
-NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC
-0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0
-NjU1XX0=
+eyJoaXN0b3J5IjpbLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0Nj
+Y4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3
+MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMT
+c3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3
+NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgwMDczODQwNS
+wtMTc3MzgyMzE0NCw2NTM5MzUzMyw1MzY3MDM1MzcsMTkzMzA0
+NDY1NV19
 -->
