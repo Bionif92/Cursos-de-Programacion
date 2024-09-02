@@ -1333,11 +1333,13 @@ function WithTemplate(template:string,hookID:string) {
 			hookEl.innerHTML = template;
 			hookEl.querySelector('h1')!.textContent= p.name;
 		}
+		return class extends constructor {
+		}
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNDcyNDMwMywxMzAyODM1NDI4LDEzMD
+eyJoaXN0b3J5IjpbMTU1OTg3MzU4MiwxMzAyODM1NDI4LDEzMD
 UwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1
 MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLT
 k1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMy
