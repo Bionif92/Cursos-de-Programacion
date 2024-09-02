@@ -1199,11 +1199,11 @@ function Logger(logString: string) {
 
 function WithTemplate(template:string,hookID:string) {
 	return function(constructor: Function){
-		
+		const hookElement= document.getElementByID('hookedID')
 	}
 }
 
-@Logger('LOGGING - PERSON')
+@With
 class Person {
 	name: 'Max';
 	constructor() {
@@ -1214,11 +1214,11 @@ class Person {
 const pers = new Person();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjIxODg5NjQsLTEzMzE5MTQwOTEsND
-Y2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2
-NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLT
-E3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTky
-Nzc0MDEsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3Mzg0MD
-UsLTE3NzM4MjMxNDQsNjUzOTM1MzMsNTM2NzAzNTM3LDE5MzMw
-NDQ2NTVdfQ==
+eyJoaXN0b3J5IjpbLTQwMTQzODEwLC0xMzMxOTE0MDkxLDQ2Nj
+gxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2Njcy
+LC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNz
+cyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3
+NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC
+0xNzczODIzMTQ0LDY1MzkzNTMzLDUzNjcwMzUzNywxOTMzMDQ0
+NjU1XX0=
 -->
