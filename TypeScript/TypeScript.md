@@ -1244,8 +1244,9 @@ Can add more than one decorator
 ### Diving into Property Decorators
 
 ````
-function Log(target:any,propertyName:string) {
-
+function Log(target:any,propertyName:string|Symbol) {
+	console.log('Property Decorator');
+	console.log(target,propertyName);
 }
 
 class Product {
@@ -1269,7 +1270,7 @@ class Product {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzMjM2OTk3LC00ODMwMzg4MjUsLTE2MD
+eyJoaXN0b3J5IjpbMTcxMjU1NTYyLC00ODMwMzg4MjUsLTE2MD
 UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
 MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNT
 g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
