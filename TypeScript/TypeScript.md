@@ -1348,19 +1348,20 @@ Classes, Accessors and Methods are the three types you can have in return someth
 
 Decorators on properties and parameters, TS will ignore the outcome
 
-Accessors and Methods:
+### Example Creating an Aoutbind Decor
+
 
 ````
-function Log2(target: any, name:string, descriptor: PropertyDescriptor): PropertyDescriptor {
-	return
+function Log3(target: any, name:string|Symbol, descriptor: PropertyDescriptor): PropertyDescriptor {
+	return {}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUyODA5ODYxLDEwNzI4NzgwMjcsMTMwMj
-gzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2
-OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLT
-U3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIy
-MDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OS
-wtMTUxNDgxODcxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAw
-NzUyODY0Ml19
+eyJoaXN0b3J5IjpbLTE0MTQ1MDQ2MjksMTA3Mjg3ODAyNywxMz
+AyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAz
+NjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNy
+wtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3
+MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mj
+k5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC0x
+MDA3NTI4NjQyXX0=
 -->
