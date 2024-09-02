@@ -1246,17 +1246,23 @@ Can add more than one decorator
 ````
 class Product {
 	title:string;
-	
+	price:number;
+	constructor(t:string) {
+		this.title = t;
+		this.price = number;
+	}
+	getPriceWithTax(tax:number) {
+	}
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzE4Mjg4NSwtNDgzMDM4ODI1LC0xNj
-A1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4
-NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLT
-U4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIy
-NTcyOTksLTE1MTQ4MTg3MTIsLTExMjc3NTIzNjcsLTkyNzc0MD
-EsLTEwMDc1Mjg2NDIsNzIwMjI2OTA0LC04MDA3Mzg0MDUsLTE3
-NzM4MjMxNDRdfQ==
+eyJoaXN0b3J5IjpbLTEyNDA0NzkwNzMsLTQ4MzAzODgyNSwtMT
+YwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2Njgx
+ODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC
+01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcy
+MjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05Mjc3ND
+AxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAwNzM4NDA1LC0x
+NzczODIzMTQ0XX0=
 -->
