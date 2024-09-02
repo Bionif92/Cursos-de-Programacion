@@ -1340,13 +1340,15 @@ function WithTemplate(template:string,hookID:string) {
 	}
 }
 ````
-With this you enha
+With this you enhance the decorator to the class, and the name apper when you create an instance
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDM0OTE5LDEzMDI4MzU0MjgsMTMwNT
-AwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUx
-NTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOT
-U2MzIxMDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIz
-MTc5LDE3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MT
-IsLTExMjc3NTIzNjcsLTkyNzc0MDEsLTEwMDc1Mjg2NDIsNzIw
-MjI2OTA0XX0=
+eyJoaXN0b3J5IjpbLTIxMTQ2NjkwNjgsMTMwMjgzNTQyOCwxMz
+A1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4
+NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC
+05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUz
+MjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxOD
+cxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3
+MjAyMjY5MDRdfQ==
 -->
