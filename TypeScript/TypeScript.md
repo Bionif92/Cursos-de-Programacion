@@ -1327,22 +1327,25 @@ We can have a return value inside the decorator function:
 ````
 function WithTemplate(template:string,hookID:string) {
 	return function(originalConstructor: Function){ 
-		
-		}
 		return class extends originalConstructor {
 			constructor() {
 				super();
+				const hookEl= document.getElementByID('hookedID')
+				if (hookEl) {
+					hookEl.innerHTML = template;
+					hookEl.querySelector('h1')!.textContent= this.name;
+		}
 			}
 		}
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NDQwNjQ1MiwxMzAyODM1NDI4LDEzMD
-UwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1
-MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLT
-k1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMy
-MzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4Nz
-EyLC0xMTI3NzUyMzY3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcy
-MDIyNjkwNF19
+eyJoaXN0b3J5IjpbLTE2NjY2NTczMTQsMTMwMjgzNTQyOCwxMz
+A1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4
+NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC
+05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUz
+MjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxOD
+cxMiwtMTEyNzc1MjM2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3
+MjAyMjY5MDRdfQ==
 -->
