@@ -1271,14 +1271,16 @@ class Product {
 ### Accessor & Parameter Decorators
 
 ````
-function Log2(target: any, n)
+function Log2(target: any, name:string, descriptor: PropertyDescriptor) {
+	console.log(target)
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyMjg0NTY1LDEzMDUwMDU3NzksLTQ4Mz
-AzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0
-MDkxLDQ2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMj
-MyMDU2NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTcz
-NDYxLC0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMz
-Y3LC05Mjc3NDAxLC0xMDA3NTI4NjQyLDcyMDIyNjkwNCwtODAw
-NzM4NDA1XX0=
+eyJoaXN0b3J5IjpbLTYyNDEyMzAzOSwxMzA1MDA1Nzc5LC00OD
+MwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkx
+NDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLT
+IzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3
+MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEyNzc1Mj
+M2NywtOTI3NzQwMSwtMTAwNzUyODY0Miw3MjAyMjY5MDQsLTgw
+MDczODQwNV19
 -->
