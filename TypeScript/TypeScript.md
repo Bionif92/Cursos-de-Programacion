@@ -1410,10 +1410,13 @@ class Course {
 }
 
 // we have a form with the data in htlm
-const courseForm
+const courseForm = document.querySelector('form')!;
+courseForm.addEventListener('submit', event => {
+	event.preventDefault();
+});
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NTQzMTk0Miw2MzkxNTUyMTQsMTE3MD
+eyJoaXN0b3J5IjpbMTM3MDY1OTI3OCw2MzkxNTUyMTQsMTE3MD
 c5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3
 OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLT
 EzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIx
