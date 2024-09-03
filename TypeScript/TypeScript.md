@@ -1435,7 +1435,7 @@ const registeredValidators: ValidatorConfig = {};
 
 function Required(target: any, propName:string) {
 	registeredValidators[target.constructor.name//point to Couse Class] = {
-		...registeredValidators[target.constructor.name], // to have the validator of the previos one too
+		...registeredValidators[target.constructor.name], // to have the key pairs of the other enters and not overwrite
 		[propName]:['required']
 	}
 }
@@ -1493,7 +1493,7 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ5MjM4NTc3LDEwNjMzMTYzMzksMTczND
+eyJoaXN0b3J5IjpbNjM1ODc5ODIxLDEwNjMzMTYzMzksMTczND
 Y3Mzc5MCw2NzA3OTA1OTIsMTYyMzYzNDQyNyw2MzkxNTUyMTQs
 MTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0MjgsMTMwNT
 AwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUx
