@@ -1430,7 +1430,9 @@ function Required() {}
 function PositiveNumber() {}
 
 class Course {
+	@Required
 	title:string;
+	@PositiveNumber
 	price:number;
 	constructor(t:string,p:number) {
 		this.title=t;
@@ -1439,11 +1441,11 @@ class Course {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0NjY2NDMyNywxNjIzNjM0NDI3LDYzOT
-E1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQy
-OCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLT
-Q3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUx
-NDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC
-0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUx
-NDgxODcxMl19
+eyJoaXN0b3J5IjpbOTYyMjk1NDY2LDE2MjM2MzQ0MjcsNjM5MT
+U1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4
+LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
+c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
+ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLT
+E4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0
+ODE4NzEyXX0=
 -->
