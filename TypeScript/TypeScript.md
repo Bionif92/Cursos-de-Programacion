@@ -1436,14 +1436,14 @@ const registeredValidators: ValidatorConfig = {};
 function Required(target: any, propName:string) {
 	registeredValidators[target.constructor.name//point to Couse Class] = {
 		...registeredValidators[target.constructor.name], // to have the key pairs of the other enters and not overwrite
-		[propName]:['required']
+		[propName]:[...registeredValidators[target.constructor.name][propName], 'required']
 	}
 }
 
 function PositiveNumber() {
 	registeredValidators[target.constructor.name//point to Couse Class] = {
 		...registeredValidators[target.constructor.name],
-		[propName]:['positive']
+		[propName]:[...registeredValidators[target.constructor.name][propName], 'positive']
 	}
 }
 
@@ -1499,11 +1499,11 @@ https://nestjs.com/
 
 https://docs.angular.lat/docs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NDMzNjc0MywtMzIzMTE5MDU0LDYzNT
-g3OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3OTAsNjcwNzkwNTky
-LDE2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mj
-g3ODAyNywxMzAyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgy
-NSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLD
-Q2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2
-NjcyXX0=
+eyJoaXN0b3J5IjpbMTcwNDQwMjgxNywxMTQ0MzM2NzQzLC0zMj
+MxMTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYzMzksMTczNDY3Mzc5
+MCw2NzA3OTA1OTIsMTYyMzYzNDQyNyw2MzkxNTUyMTQsMTE3MD
+c5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3
+OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLT
+EzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIx
+MDk2XX0=
 -->
