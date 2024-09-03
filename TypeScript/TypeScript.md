@@ -1451,7 +1451,11 @@ function validate(obj: object) {
 		return true;
 	}
 	for (const prop in objValidatorConfig) {
-		for (const val)
+		for (const validator of objValidatorConfig[prop]){
+			switch(validator) {
+				case'required'
+			}
+		}
 	}
 }
 
@@ -1480,11 +1484,11 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc5MjE2MzAzLDY3MDc5MDU5MiwxNjIzNj
-M0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcs
-MTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MD
-UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
-MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNT
-g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
-NzI5OV19
+eyJoaXN0b3J5IjpbMjAyNTA1NDcyNSw2NzA3OTA1OTIsMTYyMz
+YzNDQyNyw2MzkxNTUyMTQsMTE3MDc5NDc2OSwxMDcyODc4MDI3
+LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNj
+A1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4
+NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLT
+U4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIy
+NTcyOTldfQ==
 -->
