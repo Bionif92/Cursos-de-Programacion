@@ -1420,9 +1420,22 @@ courseForm.addEventListener('submit', event => {
 	const createdCourse = new Course(title,price);
 });
 ````
-Can create 
+Can create a curse also without values too
+
+Need to include the validation in the course
+
+````
+class Course {
+	title:string;
+	price:number;
+	constructor(t:string,p:number) {
+		this.title=t;
+		this.price:p;
+	}
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDY4MDUzNSwxNjIzNjM0NDI3LDYzOT
+eyJoaXN0b3J5IjpbMjAxMjg1MjUzMCwxNjIzNjM0NDI3LDYzOT
 E1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQy
 OCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLT
 Q3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUx
