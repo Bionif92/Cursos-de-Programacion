@@ -1416,15 +1416,17 @@ courseForm.addEventListener('submit', event => {
 	const titleEl = document.getElementById('title') as HTMLInputElement;
 	const priceEl = document.getElementById('price') as HTMLInputElement;
 	const title = titleEl.value;
-	const price = titleEl.price;
+	const price = +titleEl.price;// convert to a number
+	const createdCourse = new Course(title,price);
 });
 ````
+Can create 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMzYzNDQyNyw2MzkxNTUyMTQsMTE3MD
-c5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3
-OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLT
-EzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIx
-MDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIzMTc5LD
-E3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1MTQ4MTg3MTIsLTEx
-Mjc3NTIzNjddfQ==
+eyJoaXN0b3J5IjpbLTk1MDY4MDUzNSwxNjIzNjM0NDI3LDYzOT
+E1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQy
+OCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLT
+Q3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUx
+NDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC
+0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUx
+NDgxODcxMl19
 -->
