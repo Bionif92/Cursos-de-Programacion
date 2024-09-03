@@ -1398,17 +1398,19 @@ button.addEventListener('click',p.showMessage);
 
 ### Validation with Decorators
 
+In the example we want to validate the data from a fe
 ````
 class Course {
 	title:string;
 	price:number;
 	constructor(t:string,p:number) {
-		
+		this.title=t;
+		this.price:p;
 	}
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ0ODI3LDYzOTE1NTIxNCwxMTcwNz
+eyJoaXN0b3J5IjpbMjY0NDgzMDUzLDYzOTE1NTIxNCwxMTcwNz
 k0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5
 LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMT
 MzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEw
