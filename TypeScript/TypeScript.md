@@ -1431,9 +1431,9 @@ interface ValidatorConfig {
 	}
 }
 
-r
+const registeredValidators: ValidatorConfig = {};
 
-function Required() {}
+function Required(target: any, propName:string) {}
 
 function PositiveNumber() {}
 
@@ -1464,7 +1464,7 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjg0NDY4MzMsNjcwNzkwNTkyLDE2Mj
+eyJoaXN0b3J5IjpbLTE2NjMzMjI4NzEsNjcwNzkwNTkyLDE2Mj
 M2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAy
 NywxMzAyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMT
 YwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2Njgx
