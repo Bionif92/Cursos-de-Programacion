@@ -1495,13 +1495,15 @@ courseForm.addEventListener('submit', event => {
 
 You can search for TS Class Validator on Google, to have a better experience
 
+https://nestjs.com/
 
+https://docs.angular.lat/docs
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2Mz
-MxNjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3
-LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMj
-gzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2
-OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLT
-U3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNTg2NzIy
-MDY0XX0=
+eyJoaXN0b3J5IjpbMTE0NDMzNjc0MywtMzIzMTE5MDU0LDYzNT
+g3OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3OTAsNjcwNzkwNTky
+LDE2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mj
+g3ODAyNywxMzAyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgy
+NSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLD
+Q2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2
+NjcyXX0=
 -->
