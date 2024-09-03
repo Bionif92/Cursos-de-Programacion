@@ -1429,7 +1429,7 @@ function Required() {}
 
 function PositiveNumber() {}
 
-function Validate() {}
+function validate(obj: object) {}
 
 class Course {
 	@Required
@@ -1441,13 +1441,26 @@ class Course {
 		this.price:p;
 	}
 }
+
+const courseForm = document.querySelector('form')!;
+courseForm.addEventListener('submit', event => {
+	event.preventDefault();
+	const titleEl = document.getElementById('title') as HTMLInputElement;
+	const priceEl = document.getElementById('price') as HTMLInputElement;
+	const title = titleEl.value;
+	const price = +titleEl.price;// convert to a number
+	const createdCourse = new Course(title,price);
+	if (!validate(createdCourse)) {
+		alert('Invalid Input');
+	}
+});
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg0NDYzOTcsMTYyMzYzNDQyNyw2Mz
-kxNTUyMTQsMTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0
-MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC
-00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1
-MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NC
-wtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIyNTcyOTksLTE1
-MTQ4MTg3MTJdfQ==
+eyJoaXN0b3J5IjpbNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MT
+U1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4
+LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
+c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
+ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLT
+E4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0
+ODE4NzEyXX0=
 -->
