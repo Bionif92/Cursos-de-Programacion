@@ -1435,12 +1435,14 @@ const registeredValidators: ValidatorConfig = {};
 
 function Required(target: any, propName:string) {
 	registeredValidators[target.constructor.name//point to Couse Class] = {
+		...registeredValidators[target.constructor.name], // to have the validator of the previos one too
 		[propName]:['required']
 	}
 }
 
 function PositiveNumber() {
 	registeredValidators[target.constructor.name//point to Couse Class] = {
+		...registeredValidators[target.constructor.name],
 		[propName]:['positive']
 	}
 }
@@ -1491,11 +1493,11 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzMxNjMzOSwxNzM0NjczNzkwLDY3MD
-c5MDU5MiwxNjIzNjM0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5
-LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00OD
-MwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkx
-NDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLT
-IzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3
-MzQ2MV19
+eyJoaXN0b3J5IjpbNTQ5MjM4NTc3LDEwNjMzMTYzMzksMTczND
+Y3Mzc5MCw2NzA3OTA1OTIsMTYyMzYzNDQyNyw2MzkxNTUyMTQs
+MTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0MjgsMTMwNT
+AwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUx
+NTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOT
+U2MzIxMDk2LC0yMzIwNTY2NzIsLTU4NjcyMjA2NCwtMTg1MzIz
+MTc5XX0=
 -->
