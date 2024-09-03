@@ -1507,13 +1507,15 @@ These links might also be interesting:
 
 -   More on Decorators:  [https://www.typescriptlang.org/docs/handbook/decorators.html](https://www.typescriptlang.org/docs/handbook/decorators.html)
 
-###
+## Practice - Drag and Drop Proyect
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk3MDM5Mzg3LDE3MDQ0MDI4MTcsMTE0ND
-MzNjc0MywtMzIzMTE5MDU0LDYzNTg3OTgyMSwxMDYzMzE2MzM5
-LDE3MzQ2NzM3OTAsNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MT
-U1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4
-LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
-c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQ0NzExOTYsMTcwNDQwMjgxNywxMT
+Q0MzM2NzQzLC0zMjMxMTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYz
+MzksMTczNDY3Mzc5MCw2NzA3OTA1OTIsMTYyMzYzNDQyNyw2Mz
+kxNTUyMTQsMTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0
+MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC
+00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1
+MTQ4M119
 -->
