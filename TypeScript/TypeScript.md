@@ -1510,12 +1510,14 @@ These links might also be interesting:
 ## Practice - Drag and Drop Project
 
 `_` and `_2` where used in the autobind decorator to replace the two parameters that werent used
+
+Tuple is an array
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMD
-EzOTA1MjM3LDE3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMzIzMTE5
-MDU0LDYzNTg3OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3OTAsNj
-cwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3
-NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4LDEzMDUwMDU3NzksLT
-Q4MzAzODgyNSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMx
-OTE0MDkxXX0=
+eyJoaXN0b3J5IjpbNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NT
+g1NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQzMzY3
+NDMsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMzOSwxNz
+M0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LDYzOTE1NTIx
+NCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMz
+A1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4
+NTE1Ml19
 -->
