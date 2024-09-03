@@ -1498,12 +1498,22 @@ You can search for TS Class Validator on Google, to have a better experience
 https://nestjs.com/
 
 https://docs.angular.lat/docs
+
+### Useful Resources & Links
+
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
+
+These links might also be interesting:
+
+-   More on Decorators:  [https://www.typescriptlang.org/docs/handbook/decorators.html](https://www.typescriptlang.org/docs/handbook/decorators.html)
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDQwMjgxNywxMTQ0MzM2NzQzLC0zMj
-MxMTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYzMzksMTczNDY3Mzc5
-MCw2NzA3OTA1OTIsMTYyMzYzNDQyNyw2MzkxNTUyMTQsMTE3MD
-c5NDc2OSwxMDcyODc4MDI3LDEzMDI4MzU0MjgsMTMwNTAwNTc3
-OSwtNDgzMDM4ODI1LC0xNjA1MDM2Njk0LC00NzU4ODUxNTIsLT
-EzMzE5MTQwOTEsNDY2ODE4NjE3LC01NzY1MTQ4MywtOTU2MzIx
-MDk2XX0=
+eyJoaXN0b3J5IjpbMjk3MDM5Mzg3LDE3MDQ0MDI4MTcsMTE0ND
+MzNjc0MywtMzIzMTE5MDU0LDYzNTg3OTgyMSwxMDYzMzE2MzM5
+LDE3MzQ2NzM3OTAsNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MT
+U1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4
+LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
+c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
+ODNdfQ==
 -->
