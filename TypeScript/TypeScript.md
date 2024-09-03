@@ -1441,7 +1441,7 @@ function Required(target: any, propName:string) {
 }
 
 function PositiveNumber() {
-	registeredValidators[target.constructor.name//point to Couse Class] = {
+	registeredValidators[target.constructor.name//point to Course Class] = {
 		...registeredValidators[target.constructor.name],
 		[propName]:[...registeredValidators[target.constructor.name][propName], 'positive']
 	}
@@ -1511,11 +1511,11 @@ These links might also be interesting:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzkwNTIzNywxNzA0NDAyODE3LDExND
-QzMzY3NDMsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMz
-OSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LDYzOT
-E1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQy
-OCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLT
-Q3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUx
-NDgzXX0=
+eyJoaXN0b3J5IjpbLTE5NTg1NzM5NjMsMTAxMzkwNTIzNywxNz
+A0NDAyODE3LDExNDQzMzY3NDMsLTMyMzExOTA1NCw2MzU4Nzk4
+MjEsMTA2MzMxNjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNj
+IzNjM0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4Nzgw
+MjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLT
+E2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4
+MTg2MTddfQ==
 -->
