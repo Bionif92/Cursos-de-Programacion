@@ -1425,6 +1425,10 @@ Can create a curse also without values too
 Need to include the validation in the course
 
 ````
+function Required() {}
+
+function PositiveNumber() {}
+
 class Course {
 	title:string;
 	price:number;
@@ -1435,7 +1439,7 @@ class Course {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMjg1MjUzMCwxNjIzNjM0NDI3LDYzOT
+eyJoaXN0b3J5IjpbLTI0NjY2NDMyNywxNjIzNjM0NDI3LDYzOT
 E1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQy
 OCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLT
 Q3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUx
