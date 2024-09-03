@@ -1512,12 +1512,14 @@ These links might also be interesting:
 `_` and `_2` where used in the autobind decorator to replace the two parameters that werent used
 
 Tuple is an array
+
+`?` in a property to be optional
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NT
-g1NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQzMzY3
-NDMsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMzOSwxNz
-M0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LDYzOTE1NTIx
-NCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMz
-A1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4
-NTE1Ml19
+eyJoaXN0b3J5IjpbODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMD
+cwMTIwLC0xOTU4NTczOTYzLDEwMTM5MDUyMzcsMTcwNDQwMjgx
+NywxMTQ0MzM2NzQzLC0zMjMxMTkwNTQsNjM1ODc5ODIxLDEwNj
+MzMTYzMzksMTczNDY3Mzc5MCw2NzA3OTA1OTIsMTYyMzYzNDQy
+Nyw2MzkxNTUyMTQsMTE3MDc5NDc2OSwxMDcyODc4MDI3LDEzMD
+I4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNjA1MDM2
+Njk0XX0=
 -->
