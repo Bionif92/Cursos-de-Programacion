@@ -1398,13 +1398,21 @@ button.addEventListener('click',p.showMessage);
 
 ### Validation with Decorators
 
-
+````
+class Course {
+	title:string;
+	price:number;
+	constructor(t:string,p:number) {
+		
+	}
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mj
-g3ODAyNywxMzAyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgy
-NSwtMTYwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLD
-Q2NjgxODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2
-NjcyLC01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC
-0xNzcyMjU3Mjk5LC0xNTE0ODE4NzEyLC0xMTI3NzUyMzY3LC05
-Mjc3NDAxXX0=
+eyJoaXN0b3J5IjpbLTE1NTQ0ODI3LDYzOTE1NTIxNCwxMTcwNz
+k0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5
+LC00ODMwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMT
+MzMTkxNDA5MSw0NjY4MTg2MTcsLTU3NjUxNDgzLC05NTYzMjEw
+OTYsLTIzMjA1NjY3MiwtNTg2NzIyMDY0LC0xODUzMjMxNzksMT
+czMzk3MzQ2MSwtMTc3MjI1NzI5OSwtMTUxNDgxODcxMiwtMTEy
+Nzc1MjM2N119
 -->
