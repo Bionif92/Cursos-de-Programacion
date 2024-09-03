@@ -1455,10 +1455,12 @@ function validate(obj: any) {
 			switch(validator) {
 				case'required':
 					return !!obj[prop];
-				case
+				case 'positive':
+					return obj[prop]>0;
 			}
 		}
 	}
+	return true;
 }
 
 class Course {
@@ -1486,11 +1488,11 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ2MDI2NTMsNjcwNzkwNTkyLDE2Mj
-M2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAy
-NywxMzAyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMT
-YwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2Njgx
-ODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC
-01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcy
-MjU3Mjk5XX0=
+eyJoaXN0b3J5IjpbMTczNDY3Mzc5MCw2NzA3OTA1OTIsMTYyMz
+YzNDQyNyw2MzkxNTUyMTQsMTE3MDc5NDc2OSwxMDcyODc4MDI3
+LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNj
+A1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4
+NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLT
+U4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIy
+NTcyOTldfQ==
 -->
