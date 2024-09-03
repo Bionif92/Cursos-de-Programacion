@@ -1425,6 +1425,8 @@ Can create a curse also without values too
 Need to include the validation in the course
 
 ````
+interface ValidatorConfig {}
+
 function Required() {}
 
 function PositiveNumber() {}
@@ -1456,11 +1458,11 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MT
-U1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4
-LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMTYwNTAzNjY5NCwtND
-c1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2NjgxODYxNywtNTc2NTE0
-ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC01ODY3MjIwNjQsLT
-E4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcyMjU3Mjk5LC0xNTE0
-ODE4NzEyXX0=
+eyJoaXN0b3J5IjpbLTkzMDM5MDI2NSw2NzA3OTA1OTIsMTYyMz
+YzNDQyNyw2MzkxNTUyMTQsMTE3MDc5NDc2OSwxMDcyODc4MDI3
+LDEzMDI4MzU0MjgsMTMwNTAwNTc3OSwtNDgzMDM4ODI1LC0xNj
+A1MDM2Njk0LC00NzU4ODUxNTIsLTEzMzE5MTQwOTEsNDY2ODE4
+NjE3LC01NzY1MTQ4MywtOTU2MzIxMDk2LC0yMzIwNTY2NzIsLT
+U4NjcyMjA2NCwtMTg1MzIzMTc5LDE3MzM5NzM0NjEsLTE3NzIy
+NTcyOTldfQ==
 -->
