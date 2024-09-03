@@ -1433,7 +1433,9 @@ interface ValidatorConfig {
 
 const registeredValidators: ValidatorConfig = {};
 
-function Required(target: any, propName:string) {}
+function Required(target: any, propName:string) {
+	registeredValidators[target.constructor.na]
+}
 
 function PositiveNumber() {}
 
@@ -1464,11 +1466,11 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMzMjI4NzEsNjcwNzkwNTkyLDE2Mj
-M2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mjg3ODAy
-NywxMzAyODM1NDI4LDEzMDUwMDU3NzksLTQ4MzAzODgyNSwtMT
-YwNTAzNjY5NCwtNDc1ODg1MTUyLC0xMzMxOTE0MDkxLDQ2Njgx
-ODYxNywtNTc2NTE0ODMsLTk1NjMyMTA5NiwtMjMyMDU2NjcyLC
-01ODY3MjIwNjQsLTE4NTMyMzE3OSwxNzMzOTczNDYxLC0xNzcy
-MjU3Mjk5XX0=
+eyJoaXN0b3J5IjpbLTE2NTkyODgwLDY3MDc5MDU5MiwxNjIzNj
+M0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcs
+MTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MD
+UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
+MTcsLTU3NjUxNDgzLC05NTYzMjEwOTYsLTIzMjA1NjY3MiwtNT
+g2NzIyMDY0LC0xODUzMjMxNzksMTczMzk3MzQ2MSwtMTc3MjI1
+NzI5OV19
 -->
