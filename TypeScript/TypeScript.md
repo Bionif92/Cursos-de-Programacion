@@ -1434,7 +1434,9 @@ interface ValidatorConfig {
 const registeredValidators: ValidatorConfig = {};
 
 function Required(target: any, propName:string) {
-	registeredValidators[target.constructor.na]
+	registeredValidators[target.constructor.name//point to Couse Class] = {
+		[propName]: 
+	}
 }
 
 function PositiveNumber() {}
@@ -1466,7 +1468,7 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTkyODgwLDY3MDc5MDU5MiwxNjIzNj
+eyJoaXN0b3J5IjpbOTkwNDM2NDU3LDY3MDc5MDU5MiwxNjIzNj
 M0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcs
 MTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MD
 UwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkxNDA5MSw0NjY4MTg2
