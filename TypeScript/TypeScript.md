@@ -1463,7 +1463,7 @@ function validate(obj: any) {
 			}
 		}
 	}
-	return true;
+	return isValid;
 }
 
 class Course {
@@ -1491,7 +1491,7 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTcxMTEyMSwxNzM0NjczNzkwLDY3MD
+eyJoaXN0b3J5IjpbMTA2MzMxNjMzOSwxNzM0NjczNzkwLDY3MD
 c5MDU5MiwxNjIzNjM0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5
 LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00OD
 MwMzg4MjUsLTE2MDUwMzY2OTQsLTQ3NTg4NTE1MiwtMTMzMTkx
