@@ -1493,9 +1493,11 @@ courseForm.addEventListener('submit', event => {
 });
 ````
 
+You can search for TS Class Validator on Google, to have a better experience
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDg3ODk5OSw2MzU4Nzk4MjEsMTA2Mz
+eyJoaXN0b3J5IjpbLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2Mz
 MxNjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3
 LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMj
 gzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4MjUsLTE2MDUwMzY2
