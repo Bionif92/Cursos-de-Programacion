@@ -1520,12 +1520,14 @@ Abstract Method need to be included in the inheritance
 event.dataTransfer for drag and drop
 
 More on Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
+
+## Modules & Namespaces
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQzNjE0MTMsMjA3MDU5MDk2OSw4ND
-Q0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NTg1NzM5
-NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQzMzY3NDMsLT
-MyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMzOSwxNzM0Njcz
-NzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LDYzOTE1NTIxNCwxMT
-cwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1
-Nzc5XX0=
+eyJoaXN0b3J5IjpbLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMj
+A3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAx
+MjAsLTE5NTg1NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LD
+ExNDQzMzY3NDMsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMx
+NjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LD
+YzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgz
+NTQyOF19
 -->
