@@ -1517,13 +1517,15 @@ Tuple is an array
 
 Abstract Method need to be included in the inheritance
 
+event.dataTransfer for drag and drop
+
 More on Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNDY4OTUzNSwyMDcwNTkwOTY5LDg0ND
-QxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2
-MywxMDEzOTA1MjM3LDE3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMz
-IzMTE5MDU0LDYzNTg3OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3
-OTAsNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNz
-A3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4LDEzMDUwMDU3
-NzldfQ==
+eyJoaXN0b3J5IjpbLTEzOTQzNjE0MTMsMjA3MDU5MDk2OSw4ND
+Q0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NTg1NzM5
+NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQzMzY3NDMsLT
+MyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMzOSwxNzM0Njcz
+NzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LDYzOTE1NTIxNCwxMT
+cwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1
+Nzc5XX0=
 -->
