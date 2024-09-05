@@ -1516,12 +1516,14 @@ Tuple is an array
 `?` in a property to be optional
 
 Abstract Method need to be included in the inheritance
+
+More on Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwND
-E5MzA4LDEwNzEwNzAxMjAsLTE5NTg1NzM5NjMsMTAxMzkwNTIz
-NywxNzA0NDAyODE3LDExNDQzMzY3NDMsLTMyMzExOTA1NCw2Mz
-U4Nzk4MjEsMTA2MzMxNjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5
-MiwxNjIzNjM0NDI3LDYzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNz
-I4NzgwMjcsMTMwMjgzNTQyOCwxMzA1MDA1Nzc5LC00ODMwMzg4
-MjVdfQ==
+eyJoaXN0b3J5IjpbLTkxNDY4OTUzNSwyMDcwNTkwOTY5LDg0ND
+QxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2
+MywxMDEzOTA1MjM3LDE3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMz
+IzMTE5MDU0LDYzNTg3OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3
+OTAsNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNz
+A3OTQ3NjksMTA3Mjg3ODAyNywxMzAyODM1NDI4LDEzMDUwMDU3
+NzldfQ==
 -->
