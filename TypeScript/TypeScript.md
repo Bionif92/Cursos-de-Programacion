@@ -1824,12 +1824,17 @@ Class Validator - Search on Github
 npm install class-validator --save
 
 //file.ts
-import {} from 'cla'
+import { IsNotEmpty, IsNumber, IsPositive } from 'class-validator';
+
+class {
+	@IsNotEmpty()
+	title:string;
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc2NzkwMiw1NjQxMjg2ODksNzMyMD
+eyJoaXN0b3J5IjpbLTY4MzU4MzQxMyw1NjQxMjg2ODksNzMyMD
 g2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1
 MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
 A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
