@@ -1803,13 +1803,14 @@ npm install class-transformer -save
 npm install reflect-metadata - save
 
 // file.ts
-import "";
+import "reflect-metadata";
+import { plainToClass } from 'class-transformer';
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwODY3MjE2OCw1NjQxMjg2ODksNzMyMD
+eyJoaXN0b3J5IjpbLTU4OTAyMjA1Niw1NjQxMjg2ODksNzMyMD
 g2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1
 MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
 A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
