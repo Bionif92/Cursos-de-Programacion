@@ -1662,7 +1662,11 @@ Add new file:
 ````
 //webpack.config.js
 module.exports = {
-	entry: 
+	entry: './src/app.ts',
+	output: {
+		filename: 'bundle.js',
+		path:
+	}
 }
 ````
 **We need to erase al the .js extension of the imports**
@@ -1673,11 +1677,11 @@ module.exports = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzgyNDU5MzYsLTEzNDQwOTIzNTAsNj
-g1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1
-ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMT
-UzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1
-NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcwNTkwOT
-Y5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1
-ODU3Mzk2M119
+eyJoaXN0b3J5IjpbNDM0NDIyODcyLC0xMzQ0MDkyMzUwLDY4NT
+IwODAyNiwtMTc2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5
+MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mz
+k0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYw
+ODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5MDk2OS
+w4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NTg1
+NzM5NjNdfQ==
 -->
