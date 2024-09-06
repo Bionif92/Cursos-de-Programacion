@@ -1639,18 +1639,24 @@ These links might also be interesting:
 
 A lot of http request if we dont use webpack
 
-Webpack - Bundling Code together
+Webpack - Bundling Code together, optimize the code
+
+### Install & Important Dependecies
+
+````
+npm 
+````
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQwOTIzNTAsNjg1MjA4MDI2LC0xNz
-Y4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1ODkwMzAsMTczODUz
-MTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMTUzOTQ0ODAwOSwtMj
-E3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1NjA4NywtMTMzMjkx
-MTA4NiwtMTM5NDM2MTQxMywyMDcwNTkwOTY5LDg0NDQxOTc3Ni
-w0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMDEz
-OTA1MjM3XX0=
+eyJoaXN0b3J5IjpbMTgwNTY1MzA4OSwtMTM0NDA5MjM1MCw2OD
+UyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMjA4NTU4
+OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEwLC0xNT
+M5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtODM5ODU2
+MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5Nj
+ksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC0xOTU4
+NTczOTYzXX0=
 -->
