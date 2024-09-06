@@ -1656,6 +1656,7 @@ target: es5 o es6
 module: es2015
 outDir: "./dist" //needed
 rootDir // not needed
+sourceMap: true
 ````
 
 Add new file:
@@ -1669,6 +1670,7 @@ module.exports = {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname,'dist')
 	}
+	devtools: 'inline-source-map'
 	module: {
 		rules: [
 			{ 
@@ -1691,11 +1693,11 @@ module.exports = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkyMTg4MDUzLC0xMzQ0MDkyMzUwLDY4NT
-IwODAyNiwtMTc2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5
-MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mz
-k0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYw
-ODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5MDk2OS
-w4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NTg1
-NzM5NjNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjE0MzY1NDgsLTEzNDQwOTIzNTAsNj
+g1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1
+ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMT
+UzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1
+NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcwNTkwOT
+Y5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1
+ODU3Mzk2M119
 -->
