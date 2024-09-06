@@ -1670,7 +1670,7 @@ module.exports = {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname,'dist')
 	}
-	devtool: 'inline-source-map'
+	devtool: 'inline-source-map' // to debbug the original files
 	module: {
 		rules: [
 			{ 
@@ -1710,11 +1710,11 @@ npm start // run code
 "start": change lite-server to webpack-dev-server
 
 //webpack.config.js
-mode: 'development',
+mode: 'development', // this is added
 output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname,'dist'),
-		publicPath: 'dist'
+		publicPath: 'dist' // this is added
 	}
 	
 //terminal 
@@ -1733,10 +1733,9 @@ module.exports = {
 	entry: './src/app.ts',
 	output: {
 		filename: 'bundle.js',
-		path: path.resolve(__dirname,'dist'),
-		publicPath: 'dist'
+		path: path.resolve(__dirname,'dist')
 	}
-	devtool: 'inline-source-map'
+	devtool: 'none'
 	module: {
 		rules: [
 			{ 
@@ -1749,6 +1748,9 @@ module.exports = {
 	resolve: {
 		extensions: ['.ts','.js']
 	}
+	plugins: {
+		
+	}
 }
 ````
 
@@ -1758,11 +1760,11 @@ module.exports = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODIzNjIwNDcsLTQ3MDA4NDc0NSwtMT
-M0NDA5MjM1MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1
-MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMT
-cyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5
-ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxND
-EzLDIwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcx
-MDcwMTIwXX0=
+eyJoaXN0b3J5IjpbNjY0NjIxMTYyLC00NzAwODQ3NDUsLTEzND
+QwOTIzNTAsNjg1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0
+MzQsLTIwODU1ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3Mj
+Q4MDkxMCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgy
+NzEsLTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMy
+wyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3
+MDEyMF19
 -->
