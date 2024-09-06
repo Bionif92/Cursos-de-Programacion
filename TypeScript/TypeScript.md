@@ -1593,7 +1593,7 @@ import { interface } from './interfase.js' //same foulder
 "outFile":"./dist/bundle.js"// dont need, make it a comment
 
 //HTML
-<>
+<script type="module" src="dist/app.js"></script>
 ````
 
 Important, it has to be a JS file not a TS
@@ -1602,7 +1602,7 @@ Important, it has to be a JS file not a TS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTE3NjY1NCwtMjA4NTU4OTAzMCwxNz
+eyJoaXN0b3J5IjpbMTEyMjU1MjQzNCwtMjA4NTU4OTAzMCwxNz
 M4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEwLC0xNTM5NDQ4MDA5
 LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtODM5ODU2MDg3LC0xMz
 MyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5NjksODQ0NDE5
