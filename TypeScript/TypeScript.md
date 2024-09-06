@@ -1528,10 +1528,10 @@ More on Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag
 Two options:
 
  - Namespaces & File Bundling - Use namespace code syntax to group code and bundle the compilation
- - ES6 Import/Export -  Use ES6 Import/Export syntax and pre-file compilation but single script import
+ - ES6 Import/Export -  Use ES6 Import/Export syntax and pre-file compilation but single script import. Building with third party tools is possible
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjY4MDEzOCwtODM5ODU2MDg3LC0xMz
+eyJoaXN0b3J5IjpbLTM2MDgyNDQwNSwtODM5ODU2MDg3LC0xMz
 MyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5NjksODQ0NDE5
 Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC0xOTU4NTczOTYzLD
 EwMTM5MDUyMzcsMTcwNDQwMjgxNywxMTQ0MzM2NzQzLC0zMjMx
