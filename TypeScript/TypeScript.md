@@ -1626,12 +1626,19 @@ import Def from ... // the name you want
 
 ### How Modules Execute?
 
-Only once eh
+Only once when the first time is called
+
+### Useful Resources & Links
+
+These links might also be interesting:
+
+-   JavaScript Modules (Overview):  [https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b](https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b)
+-   More on ES Modules: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjI4NDE5MTEsLTE3NjgzNDQyNTEsMT
+eyJoaXN0b3J5IjpbLTExMjgwMDIwMzAsLTE3NjgzNDQyNTEsMT
 EyMjU1MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3
 NjcsMTcyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMT
 E3ODg5ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0
