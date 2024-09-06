@@ -1864,12 +1864,18 @@ He use types for google maps
 
 ### Useful Resources & Links
 
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
 
+These links might also be interesting:
+
+-   Google Maps Pricing:  [https://cloud.google.com/maps-platform/pricing/sheet/](https://cloud.google.com/maps-platform/pricing/sheet/)
+-   Google Geocoding API:  [https://developers.google.com/maps/documentation/geocoding/start](https://developers.google.com/maps/documentation/geocoding/start)
+-   Google Maps JS SDK: [https://developers.google.com/maps/documentation/javascript/tutorial](https://developers.google.com/maps/documentation/javascript/tutorial)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODQ5NDg2NiwtNDY2OTIwMjk5LC0yMD
+eyJoaXN0b3J5IjpbLTEwNTExNzExMywtNDY2OTIwMjk5LC0yMD
 IxMjg0ODA5LDE4MzI5OTc4MTAsMTkxODcyMDI3Myw1NjQxMjg2
 ODksNzMyMDg2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMT
 M0NDA5MjM1MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1
