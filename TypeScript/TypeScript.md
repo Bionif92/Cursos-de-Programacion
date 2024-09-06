@@ -1787,17 +1787,20 @@ Need to install Loadash Types -search in google
 
 ### Using Declare as a Last Resort
 
-If you dont have types for a librarie:
+If you dont have types for a librarie or global variables:
 
+````
+declare var GLOBAL:any;
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjAyNTM2NCw3MzIwODY0MjAsLTI3Nj
-I2OTkxMywtNDcwMDg0NzQ1LC0xMzQ0MDkyMzUwLDY4NTIwODAy
-NiwtMTc2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5MDMwLD
-E3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mzk0NDgw
-MDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYwODcsLT
-EzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5MDk2OSw4NDQ0
-MTk3NzZdfQ==
+eyJoaXN0b3J5IjpbLTE5MDU1MjQ5NjgsNzMyMDg2NDIwLC0yNz
+YyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1MCw2ODUyMDgw
+MjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMjA4NTU4OTAzMC
+wxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEwLC0xNTM5NDQ4
+MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtODM5ODU2MDg3LC
+0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5NjksODQ0
+NDE5Nzc2XX0=
 -->
