@@ -1750,12 +1750,15 @@ module.exports = {
 		extensions: ['.ts','.js']
 	}
 	plugins: [
-		new CleanPlugin.CleanWebpackPlugin()// delete the bundle and ov
+		new CleanPlugin.CleanWebpackPlugin()// overwrite the bundle to the latest one
 	]
 }
 
 // terminal
 npm install --save-dev clean-webpack-plugin
+
+//package.json
+"build": ""
 ````
 
 
@@ -1764,11 +1767,11 @@ npm install --save-dev clean-webpack-plugin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNDgyOTQwLC00NzAwODQ3NDUsLTEzND
-QwOTIzNTAsNjg1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0
-MzQsLTIwODU1ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3Mj
-Q4MDkxMCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgy
-NzEsLTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMy
-wyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3
-MDEyMF19
+eyJoaXN0b3J5IjpbLTE1MjEwNDkxOTMsLTQ3MDA4NDc0NSwtMT
+M0NDA5MjM1MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1
+MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMT
+cyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5
+ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxND
+EzLDIwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcx
+MDcwMTIwXX0=
 -->
