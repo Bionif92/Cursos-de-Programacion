@@ -1550,18 +1550,19 @@ namespace App {all the content}
 With this, it doesnt work when you compile to JS
 ````
 //ts.confif.json
-"module":
+"module":"amd"
 "outFile":"./dist/bundle.js",
 ````
+Now it does, need to change the script also in HTML
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzU3NDIyMSwtMjE3MjExMzkxLDExNz
-g4OTgyNzEsLTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2
-MTQxMywyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMT
-A3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMDEzOTA1MjM3LDE3MDQ0
-MDI4MTcsMTE0NDMzNjc0MywtMzIzMTE5MDU0LDYzNTg3OTgyMS
-wxMDYzMzE2MzM5LDE3MzQ2NzM3OTAsNjcwNzkwNTkyLDE2MjM2
-MzQ0MjddfQ==
+eyJoaXN0b3J5IjpbLTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMT
+c4ODk4MjcxLC04Mzk4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQz
+NjE0MTMsMjA3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LD
+EwNzEwNzAxMjAsLTE5NTg1NzM5NjMsMTAxMzkwNTIzNywxNzA0
+NDAyODE3LDExNDQzMzY3NDMsLTMyMzExOTA1NCw2MzU4Nzk4Mj
+EsMTA2MzMxNjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIz
+NjM0NDI3XX0=
 -->
