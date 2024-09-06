@@ -1710,6 +1710,7 @@ npm start // run code
 "start": change lite-server to webpack-dev-server
 
 //webpack.config.js
+mode: 'development',
 output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname,'dist'),
@@ -1720,6 +1721,8 @@ output: {
 npm start
 ````
 
+### Adding Production Workflow
+
 
 
 
@@ -1727,11 +1730,11 @@ npm start
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkyOTQ0MjgsLTQ3MDA4NDc0NSwtMT
-M0NDA5MjM1MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1
-MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMT
-cyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5
-ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxND
-EzLDIwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcx
-MDcwMTIwXX0=
+eyJoaXN0b3J5IjpbMzY1Mzk5ODQsLTQ3MDA4NDc0NSwtMTM0ND
+A5MjM1MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQz
+NCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyND
+gwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3
+MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLD
+IwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcw
+MTIwXX0=
 -->
