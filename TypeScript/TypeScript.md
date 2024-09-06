@@ -1584,7 +1584,7 @@ A feature only for modern browsers
 export interface {}
 
 // project.ts
-import from '../foulder/interfase.js'
+import { interface } from '../foulder/interfase.js'
 ````
 
 Important, it has to be a JS file not a TS
@@ -1592,11 +1592,11 @@ Important, it has to be a JS file not a TS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTc5ODIsNjk0OTc3NjcsMTcyNDgwOT
-EwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwt
-ODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNz
-A1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIw
-LC0xOTU4NTczOTYzLDEwMTM5MDUyMzcsMTcwNDQwMjgxNywxMT
-Q0MzM2NzQzLC0zMjMxMTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYz
-MzldfQ==
+eyJoaXN0b3J5IjpbMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MD
+kxMCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEs
+LTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMD
+cwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEy
+MCwtMTk1ODU3Mzk2MywxMDEzOTA1MjM3LDE3MDQ0MDI4MTcsMT
+E0NDMzNjc0MywtMzIzMTE5MDU0LDYzNTg3OTgyMSwxMDYzMzE2
+MzM5XX0=
 -->
