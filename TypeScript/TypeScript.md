@@ -1536,23 +1536,25 @@ New file for Drag & Drop Interfaces
 
 ````
 // drag-drop-interface.ts
-namespace DDInterfaces {
+namespace App {
 	export interface Draggable {...}
 	export interace DragTarget {...}
 }
 
 //app.ts
 /// <reference path="drag-drop-interface.ts" />
+
+namespace App {all the content}
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mz
-k4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5
-MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLT
-E5NTg1NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQz
-MzY3NDMsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMzOS
-wxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LDYzOTE1
-NTIxNF19
+eyJoaXN0b3J5IjpbMjQyNzQwNjA3LC0yMTcyMTEzOTEsMTE3OD
+g5ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYx
+NDEzLDIwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMD
+cxMDcwMTIwLC0xOTU4NTczOTYzLDEwMTM5MDUyMzcsMTcwNDQw
+MjgxNywxMTQ0MzM2NzQzLC0zMjMxMTkwNTQsNjM1ODc5ODIxLD
+EwNjMzMTYzMzksMTczNDY3Mzc5MCw2NzA3OTA1OTIsMTYyMzYz
+NDQyN119
 -->
