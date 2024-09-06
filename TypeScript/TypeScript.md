@@ -1586,18 +1586,24 @@ export interface {}
 // project.ts
 import { interface } from '../foulder/interfase.js' //other foulder
 import { interface } from './interfase.js' //same foulder
+
+//ts.config.json
+"target": "es6"
+"module": "es2015"
+"outFile":"./dist/bundle.js", 
 ````
 
 Important, it has to be a JS file not a TS
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODU1ODkwMzAsMTczODUzMTM5LDY5ND
-k3NzY3LDE3MjQ4MDkxMCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkx
-LDExNzg4OTgyNzEsLTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMT
-M5NDM2MTQxMywyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkz
-MDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMDEzOTA1MjM3LD
-E3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMzIzMTE5MDU0LDYzNTg3
-OTgyMV19
+eyJoaXN0b3J5IjpbLTE0ODI0MTYyNTMsLTIwODU1ODkwMzAsMT
+czODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMTUzOTQ0ODAw
+OSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1NjA4NywtMT
+MzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcwNTkwOTY5LDg0NDQx
+OTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2My
+wxMDEzOTA1MjM3LDE3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMzIz
+MTE5MDU0XX0=
 -->
