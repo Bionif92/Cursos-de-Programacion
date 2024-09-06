@@ -1573,14 +1573,20 @@ Need to change the references if you create foulders
 
 ### A problem with Namespaces
 
+Need to go to each file, and import all the things we need, but can be cumbersome
+
+### Using ES Modules
+
+A feature only for modern bro
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc2OTYwODcsMTcyNDgwOTEwLC0xNT
-M5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtODM5ODU2
-MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5Nj
-ksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC0xOTU4
-NTczOTYzLDEwMTM5MDUyMzcsMTcwNDQwMjgxNywxMTQ0MzM2Nz
-QzLC0zMjMxMTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYzMzksMTcz
-NDY3Mzc5MF19
+eyJoaXN0b3J5IjpbLTY5MzIzNjg0MSwxNzI0ODA5MTAsLTE1Mz
+k0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYw
+ODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5MDk2OS
+w4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLTE5NTg1
+NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQzMzY3ND
+MsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMxNjMzOSwxNzM0
+NjczNzkwXX0=
 -->
