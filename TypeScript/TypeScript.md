@@ -1854,18 +1854,18 @@ In node modules you can see that axios translate ts to js
 
 When he use the get method from axios, he describe the outcome type:
 ````
-axios.get <{result:{geometry:{location:{lat:num}}}}>
-
+axios.get <{result:{geometry:{location:{lat:number,long:number}}}[]}>
 ````
+Then it generate the autocomplition without errors in the response
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODI5MTk2NiwxODMyOTk3ODEwLDE5MT
-g3MjAyNzMsNTY0MTI4Njg5LDczMjA4NjQyMCwtMjc2MjY5OTEz
-LC00NzAwODQ3NDUsLTEzNDQwOTIzNTAsNjg1MjA4MDI2LC0xNz
-Y4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1ODkwMzAsMTczODUz
-MTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMTUzOTQ0ODAwOSwtMj
-E3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1NjA4NywtMTMzMjkx
-MTA4Nl19
+eyJoaXN0b3J5IjpbLTIwMjEyODQ4MDksMTgzMjk5NzgxMCwxOT
+E4NzIwMjczLDU2NDEyODY4OSw3MzIwODY0MjAsLTI3NjI2OTkx
+MywtNDcwMDg0NzQ1LC0xMzQ0MDkyMzUwLDY4NTIwODAyNiwtMT
+c2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5MDMwLDE3Mzg1
+MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mzk0NDgwMDksLT
+IxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYwODcsLTEzMzI5
+MTEwODZdfQ==
 -->
