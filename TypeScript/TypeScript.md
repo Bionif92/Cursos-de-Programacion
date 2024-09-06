@@ -1582,12 +1582,17 @@ A feature only for modern browsers
 ````
 // interface.ts
 export interface {}
+
+// project.ts
+import from '../foulder/interfase.js'
 ````
+
+I
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDI2MTEzNiw2OTQ5Nzc2NywxNzI0OD
+eyJoaXN0b3J5IjpbLTUxNTU1ODI2Myw2OTQ5Nzc2NywxNzI0OD
 A5MTAsLTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4Mjcx
 LC04Mzk4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMj
 A3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAx
