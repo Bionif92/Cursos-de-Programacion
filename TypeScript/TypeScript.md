@@ -1534,11 +1534,11 @@ Two options:
 
 New file for Drag & Drop Interfaces
 
-In the file:
 ````
+// drag-drop-interface.ts
 namespace DDInterfaces {
-	interface Draggable {...}
-	interace DragTarget {...}
+	export interface Draggable {...}
+	export interace DragTarget {...}
 }
 
 ````
@@ -1546,11 +1546,11 @@ namespace DDInterfaces {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODE5ODc4NDYsMTE3ODg5ODI3MSwtOD
-M5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1
-OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC
-0xOTU4NTczOTYzLDEwMTM5MDUyMzcsMTcwNDQwMjgxNywxMTQ0
-MzM2NzQzLC0zMjMxMTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYzMz
-ksMTczNDY3Mzc5MCw2NzA3OTA1OTIsMTYyMzYzNDQyNyw2Mzkx
-NTUyMTRdfQ==
+eyJoaXN0b3J5IjpbODU5MDY2NTI5LDExNzg4OTgyNzEsLTgzOT
+g1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcwNTkw
+OTY5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMT
+k1ODU3Mzk2MywxMDEzOTA1MjM3LDE3MDQ0MDI4MTcsMTE0NDMz
+Njc0MywtMzIzMTE5MDU0LDYzNTg3OTgyMSwxMDYzMzE2MzM5LD
+E3MzQ2NzM3OTAsNjcwNzkwNTkyLDE2MjM2MzQ0MjcsNjM5MTU1
+MjE0XX0=
 -->
