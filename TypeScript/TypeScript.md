@@ -1764,7 +1764,17 @@ npm install --save-dev clean-webpack-plugin
 npm run build
 ````
 
-### Useful Res
+### Useful Resources & Links
+
+Attached you find all the code snapshots for this module - you also find them attached to individual lectures throughout this module.
+
+These links might also be interesting:
+
+-   Official Webpack Docs: [https://webpack.js.org/](https://webpack.js.org/)
+
+## 3rd Party Libraries & TS
+
+
 
 
 
@@ -1772,7 +1782,7 @@ npm run build
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODExMzkxNiwtNDcwMDg0NzQ1LC0xMz
+eyJoaXN0b3J5IjpbLTg3ODU4Mjg3OCwtNDcwMDg0NzQ1LC0xMz
 Q0MDkyMzUwLDY4NTIwODAyNiwtMTc2ODM0NDI1MSwxMTIyNTUy
 NDM0LC0yMDg1NTg5MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNz
 I0ODA5MTAsLTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4
