@@ -1710,7 +1710,12 @@ npm start // run code
 "start": change lite-server to webpack-dev-server
 
 //webpack.config.js
-
+output: {
+		filename: 'bundle.js',
+		path: path.resolve(__dirname,'dist'),
+		publicPath: 'dist'
+	}
+	
 //terminal 
 npm start
 ````
@@ -1722,11 +1727,11 @@ npm start
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzg0NTYwNCwtNDcwMDg0NzQ1LC0xMz
-Q0MDkyMzUwLDY4NTIwODAyNiwtMTc2ODM0NDI1MSwxMTIyNTUy
-NDM0LC0yMDg1NTg5MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNz
-I0ODA5MTAsLTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4
-MjcxLC04Mzk4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MT
-MsMjA3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEw
-NzAxMjBdfQ==
+eyJoaXN0b3J5IjpbLTE2NDkyOTQ0MjgsLTQ3MDA4NDc0NSwtMT
+M0NDA5MjM1MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1
+MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMT
+cyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5
+ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxND
+EzLDIwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcx
+MDcwMTIwXX0=
 -->
