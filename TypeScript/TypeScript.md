@@ -1850,12 +1850,12 @@ experimentalDecorators: true
 
 Use Axios to send HTTP Request
 
-In node modules you can see that axios translate 
+In node modules you can see that axios translate ts to js
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNTA2MzAzOSwxOTE4NzIwMjczLDU2ND
+eyJoaXN0b3J5IjpbMTgzMjk5NzgxMCwxOTE4NzIwMjczLDU2ND
 EyODY4OSw3MzIwODY0MjAsLTI3NjI2OTkxMywtNDcwMDg0NzQ1
 LC0xMzQ0MDkyMzUwLDY4NTIwODAyNiwtMTc2ODM0NDI1MSwxMT
 IyNTUyNDM0LC0yMDg1NTg5MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2
