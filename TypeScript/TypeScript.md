@@ -1785,10 +1785,14 @@ Lodash is a JS Librarie, TS dont understand
 
 Need to install Loadash Types -search in google
 
+### Using Declare as a Last Resort
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NTE0NDM4Myw3MzIwODY0MjAsLTI3Nj
+eyJoaXN0b3J5IjpbMTM3OTQzODU1Niw3MzIwODY0MjAsLTI3Nj
 I2OTkxMywtNDcwMDg0NzQ1LC0xMzQ0MDkyMzUwLDY4NTIwODAy
 NiwtMTc2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5MDMwLD
 E3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mzk0NDgw
