@@ -1635,14 +1635,18 @@ These links might also be interesting:
 -   JavaScript Modules (Overview):  [https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b](https://medium.com/computed-comparisons/commonjs-vs-amd-vs-requirejs-vs-es6-modules-2e814b114a0b)
 -   More on ES Modules: [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules)
 
+## Webpack with TypeScript
+
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgwMDIwMzAsLTE3NjgzNDQyNTEsMT
-EyMjU1MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3
-NjcsMTcyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMT
-E3ODg5ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0
-MzYxNDEzLDIwNzA1OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOC
-wxMDcxMDcwMTIwLC0xOTU4NTczOTYzLDEwMTM5MDUyMzcsMTcw
-NDQwMjgxN119
+eyJoaXN0b3J5IjpbMTY1NjY0MTUzNCwtMTc2ODM0NDI1MSwxMT
+IyNTUyNDM0LC0yMDg1NTg5MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2
+NywxNzI0ODA5MTAsLTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMT
+c4ODk4MjcxLC04Mzk4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQz
+NjE0MTMsMjA3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LD
+EwNzEwNzAxMjAsLTE5NTg1NzM5NjMsMTAxMzkwNTIzNywxNzA0
+NDAyODE3XX0=
 -->
