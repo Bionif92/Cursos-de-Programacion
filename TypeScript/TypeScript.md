@@ -1687,13 +1687,21 @@ module.exports = {
 ````
 **We need to erase al the .js extension of the imports**
 
+To use Webpack:
+````
+//package.json
+scripts: {
+"build":
+
+````
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjE0MzY1NDgsLTEzNDQwOTIzNTAsNj
+eyJoaXN0b3J5IjpbLTExOTM4NTEwNjgsLTEzNDQwOTIzNTAsNj
 g1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1
 ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMT
 UzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1
