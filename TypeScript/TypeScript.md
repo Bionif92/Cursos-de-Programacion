@@ -1590,7 +1590,10 @@ import { interface } from './interfase.js' //same foulder
 //ts.config.json
 "target": "es6"
 "module": "es2015"
-"outFile":"./dist/bundle.js", 
+"outFile":"./dist/bundle.js"// dont need, make it a comment
+
+//HTML
+<>
 ````
 
 Important, it has to be a JS file not a TS
@@ -1599,11 +1602,11 @@ Important, it has to be a JS file not a TS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODI0MTYyNTMsLTIwODU1ODkwMzAsMT
-czODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMTUzOTQ0ODAw
-OSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1NjA4NywtMT
-MzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcwNTkwOTY5LDg0NDQx
-OTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2My
-wxMDEzOTA1MjM3LDE3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMzIz
-MTE5MDU0XX0=
+eyJoaXN0b3J5IjpbLTYxNTE3NjY1NCwtMjA4NTU4OTAzMCwxNz
+M4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEwLC0xNTM5NDQ4MDA5
+LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtODM5ODU2MDg3LC0xMz
+MyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5NjksODQ0NDE5
+Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC0xOTU4NTczOTYzLD
+EwMTM5MDUyMzcsMTcwNDQwMjgxNywxMTQ0MzM2NzQzLC0zMjMx
+MTkwNTRdfQ==
 -->
