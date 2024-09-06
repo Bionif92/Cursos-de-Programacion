@@ -1602,18 +1602,21 @@ Important, it has to be a JS file not a TS
 
 Group various imports from a file:
 ````
-import * as
+import * as Validation from ...
+
+//Need to change the access
+Validation.Validatable
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTUwMDU5MiwxMTIyNTUyNDM0LC0yMD
-g1NTg5MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAs
-LTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mz
-k4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5
-MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAxMjAsLT
-E5NTg1NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LDExNDQz
-MzY3NDNdfQ==
+eyJoaXN0b3J5IjpbLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
+A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
+LC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtOD
+M5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1
+OTA5NjksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC
+0xOTU4NTczOTYzLDEwMTM5MDUyMzcsMTcwNDQwMjgxNywxMTQ0
+MzM2NzQzXX0=
 -->
