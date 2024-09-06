@@ -1858,14 +1858,16 @@ axios.get <{result:{geometry:{location:{lat:number,long:number}}}[]}>
 ````
 Then it generate the autocomplition without errors in the response
 
+He declare the variable google, because he use the src of google
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjEyODQ4MDksMTgzMjk5NzgxMCwxOT
-E4NzIwMjczLDU2NDEyODY4OSw3MzIwODY0MjAsLTI3NjI2OTkx
-MywtNDcwMDg0NzQ1LC0xMzQ0MDkyMzUwLDY4NTIwODAyNiwtMT
-c2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5MDMwLDE3Mzg1
-MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mzk0NDgwMDksLT
-IxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYwODcsLTEzMzI5
-MTEwODZdfQ==
+eyJoaXN0b3J5IjpbLTQ2NjkyMDI5OSwtMjAyMTI4NDgwOSwxOD
+MyOTk3ODEwLDE5MTg3MjAyNzMsNTY0MTI4Njg5LDczMjA4NjQy
+MCwtMjc2MjY5OTEzLC00NzAwODQ3NDUsLTEzNDQwOTIzNTAsNj
+g1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1
+ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMT
+UzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1
+NjA4N119
 -->
