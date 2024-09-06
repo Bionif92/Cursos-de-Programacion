@@ -1830,7 +1830,12 @@ class {
 	@IsNotEmpty()
 	title:string;
 }
-// file.ts that run 
+// file.ts that need the validation
+import { validate } from 'class-validator';
+
+validate(newProd).then(errors => {
+	if (errors.lenght >0)
+})
 
 //tsconfig.json
 experimentalDecorators: true
@@ -1838,11 +1843,11 @@ experimentalDecorators: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDc5NDY4MzUsNTY0MTI4Njg5LDczMj
-A4NjQyMCwtMjc2MjY5OTEzLC00NzAwODQ3NDUsLTEzNDQwOTIz
-NTAsNjg1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLT
-IwODU1ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkx
-MCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLT
-gzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcw
-NTkwOTY5XX0=
+eyJoaXN0b3J5IjpbMTY0Mjk2MzgxNCw1NjQxMjg2ODksNzMyMD
+g2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1
+MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
+A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
+LC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtOD
+M5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1
+OTA5NjldfQ==
 -->
