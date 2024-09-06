@@ -1727,6 +1727,7 @@ New file:
 ````
 //webpack.config.prod.js
 const path = require('path');
+const CleanPlugin = require('clean-webpack-plugin');
 
 module.exports = {
 	mode: 'production',
@@ -1749,7 +1750,7 @@ module.exports = {
 		extensions: ['.ts','.js']
 	}
 	plugins: [
-		
+		new CleanPlugin.CleanWebpackPlugin()// delete the bundle and ov
 	]
 }
 
@@ -1763,7 +1764,7 @@ npm install --save-dev clean-webpack-plugin
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc0ODQ3MDY4LC00NzAwODQ3NDUsLTEzND
+eyJoaXN0b3J5IjpbLTYxNDgyOTQwLC00NzAwODQ3NDUsLTEzND
 QwOTIzNTAsNjg1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0
 MzQsLTIwODU1ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3Mj
 Q4MDkxMCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgy
