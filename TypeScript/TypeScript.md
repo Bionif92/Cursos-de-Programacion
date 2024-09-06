@@ -1812,13 +1812,13 @@ const products = [
 	{title: title2, price: price2}
 ];
 
-const loadedProduct
+const loadedProducts = plainToClass(ProductClass, products); // transform products into the class
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTMyMjUyNCw1NjQxMjg2ODksNzMyMD
+eyJoaXN0b3J5IjpbMTkyMjQ4MjMzOSw1NjQxMjg2ODksNzMyMD
 g2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1
 MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
 A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
