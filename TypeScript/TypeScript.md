@@ -1805,12 +1805,20 @@ npm install reflect-metadata - save
 // file.ts
 import "reflect-metadata";
 import { plainToClass } from 'class-transformer';
+
+
+const products = [
+	{title: title1, price: price1},
+	{title: title2, price: price2}
+];
+
+const loadedProduct
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4OTAyMjA1Niw1NjQxMjg2ODksNzMyMD
+eyJoaXN0b3J5IjpbMTg1NTMyMjUyNCw1NjQxMjg2ODksNzMyMD
 g2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1
 MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
 A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
