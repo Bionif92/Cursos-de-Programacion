@@ -1527,15 +1527,15 @@ More on Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag
 
 Two options:
 
- - Namespaces & File Bundling - Use namespace code to group code and bundle the compilation
- - ES6 Import/Export
+ - Namespaces & File Bundling - Use namespace code syntax to group code and bundle the compilation
+ - ES6 Import/Export -  Use ES6 Import/Export syntax and pre-file compilation but single script import
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMT
-M5NDM2MTQxMywyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkz
-MDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMDEzOTA1MjM3LD
-E3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMzIzMTE5MDU0LDYzNTg3
-OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3OTAsNjcwNzkwNTkyLD
-E2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mjg3
-ODAyN119
+eyJoaXN0b3J5IjpbLTM2MjY4MDEzOCwtODM5ODU2MDg3LC0xMz
+MyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5NjksODQ0NDE5
+Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC0xOTU4NTczOTYzLD
+EwMTM5MDUyMzcsMTcwNDQwMjgxNywxMTQ0MzM2NzQzLC0zMjMx
+MTkwNTQsNjM1ODc5ODIxLDEwNjMzMTYzMzksMTczNDY3Mzc5MC
+w2NzA3OTA1OTIsMTYyMzYzNDQyNyw2MzkxNTUyMTQsMTE3MDc5
+NDc2OV19
 -->
