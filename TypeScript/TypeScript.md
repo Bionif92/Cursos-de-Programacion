@@ -1580,13 +1580,14 @@ Need to go to each file, and import all the things we need, but can be cumbersom
 A feature only for modern browsers
 
 ````
-export 
+// interface.ts
+export interface {}
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTM0MjMxMSw2OTQ5Nzc2NywxNzI0OD
+eyJoaXN0b3J5IjpbMTkwNDI2MTEzNiw2OTQ5Nzc2NywxNzI0OD
 A5MTAsLTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4Mjcx
 LC04Mzk4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMj
 A3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAx
