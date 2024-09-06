@@ -1661,11 +1661,13 @@ rootDir // not needed
 Add new file:
 ````
 //webpack.config.js
+const path = require('path');
+
 module.exports = {
 	entry: './src/app.ts',
 	output: {
 		filename: 'bundle.js',
-		path:
+		path: path.resolve(__dirname,'dist')
 	}
 }
 ````
@@ -1677,7 +1679,7 @@ module.exports = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM0NDIyODcyLC0xMzQ0MDkyMzUwLDY4NT
+eyJoaXN0b3J5IjpbLTM1ODY4ODM3LC0xMzQ0MDkyMzUwLDY4NT
 IwODAyNiwtMTc2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMDg1NTg5
 MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAsLTE1Mz
 k0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mzk4NTYw
