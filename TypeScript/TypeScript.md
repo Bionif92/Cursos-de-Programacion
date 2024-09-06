@@ -1672,7 +1672,8 @@ module.exports = {
 	module: {
 		rules: [
 			{ 
-				tes
+				test: /\.ts$/,
+				use: 'ts-loader'
 			}
 		]
 	}
@@ -1686,7 +1687,7 @@ module.exports = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTQ3MTI0NjIsLTEzNDQwOTIzNTAsNj
+eyJoaXN0b3J5IjpbLTIxMzc4NjgwNzMsLTEzNDQwOTIzNTAsNj
 g1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1
 ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMT
 UzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1
