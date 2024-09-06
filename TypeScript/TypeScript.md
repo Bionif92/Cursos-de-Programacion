@@ -1654,6 +1654,13 @@ npm install --save-dev webpack webpack -cli webpack-dev-server typescript ts-loa
 // tsconfig.json
 target: es5 o es6
 module: es2015
+outDir: "./dist" //needed
+rootDir // not needed
+````
+
+Add new file:
+````
+//
 ````
 
 
@@ -1662,11 +1669,11 @@ module: es2015
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTIwMzA5NTAsLTEzNDQwOTIzNTAsNj
-g1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLTIwODU1
-ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkxMCwtMT
-UzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLTgzOTg1
-NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcwNTkwOT
-Y5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMTA3MTA3MDEyMCwtMTk1
-ODU3Mzk2M119
+eyJoaXN0b3J5IjpbMTAyNzM1MjAzMywtMTM0NDA5MjM1MCw2OD
+UyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMjA4NTU4
+OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEwLC0xNT
+M5NDQ4MDA5LC0yMTcyMTEzOTEsMTE3ODg5ODI3MSwtODM5ODU2
+MDg3LC0xMzMyOTExMDg2LC0xMzk0MzYxNDEzLDIwNzA1OTA5Nj
+ksODQ0NDE5Nzc2LDQ1MDQxOTMwOCwxMDcxMDcwMTIwLC0xOTU4
+NTczOTYzXX0=
 -->
