@@ -1823,13 +1823,14 @@ Class Validator - Search on Github
 //terminal 
 npm install class-validator --save
 
-//file.ts
+//file.ts that have the class
 import { IsNotEmpty, IsNumber, IsPositive } from 'class-validator';
 
 class {
 	@IsNotEmpty()
 	title:string;
 }
+// file.ts that run 
 
 //tsconfig.json
 experimentalDecorators: true
@@ -1837,11 +1838,11 @@ experimentalDecorators: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1MDYzMDQ2LDU2NDEyODY4OSw3MzIwOD
-Y0MjAsLTI3NjI2OTkxMywtNDcwMDg0NzQ1LC0xMzQ0MDkyMzUw
-LDY4NTIwODAyNiwtMTc2ODM0NDI1MSwxMTIyNTUyNDM0LC0yMD
-g1NTg5MDMwLDE3Mzg1MzEzOSw2OTQ5Nzc2NywxNzI0ODA5MTAs
-LTE1Mzk0NDgwMDksLTIxNzIxMTM5MSwxMTc4ODk4MjcxLC04Mz
-k4NTYwODcsLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMjA3MDU5
-MDk2OV19
+eyJoaXN0b3J5IjpbLTExNDc5NDY4MzUsNTY0MTI4Njg5LDczMj
+A4NjQyMCwtMjc2MjY5OTEzLC00NzAwODQ3NDUsLTEzNDQwOTIz
+NTAsNjg1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0MzQsLT
+IwODU1ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3MjQ4MDkx
+MCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgyNzEsLT
+gzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2MTQxMywyMDcw
+NTkwOTY5XX0=
 -->
