@@ -1748,10 +1748,13 @@ module.exports = {
 	resolve: {
 		extensions: ['.ts','.js']
 	}
-	plugins: {
+	plugins: [
 		
-	}
+	]
 }
+
+// terminal
+npm install --save-dev clean-webpack-plugin
 ````
 
 
@@ -1760,7 +1763,7 @@ module.exports = {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY0NjIxMTYyLC00NzAwODQ3NDUsLTEzND
+eyJoaXN0b3J5IjpbNTc0ODQ3MDY4LC00NzAwODQ3NDUsLTEzND
 QwOTIzNTAsNjg1MjA4MDI2LC0xNzY4MzQ0MjUxLDExMjI1NTI0
 MzQsLTIwODU1ODkwMzAsMTczODUzMTM5LDY5NDk3NzY3LDE3Mj
 Q4MDkxMCwtMTUzOTQ0ODAwOSwtMjE3MjExMzkxLDExNzg4OTgy
