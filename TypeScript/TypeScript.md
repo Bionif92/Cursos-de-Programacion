@@ -1550,13 +1550,14 @@ namespace App {all the content}
 With this, it doesnt work when you compile to JS
 ````
 //ts.confif.json
-"outFile":
+"module":
+"outFile":"./dist/bundle.js",
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzAyNTAwNCwtMjE3MjExMzkxLDExNz
+eyJoaXN0b3J5IjpbMTAyNzU3NDIyMSwtMjE3MjExMzkxLDExNz
 g4OTgyNzEsLTgzOTg1NjA4NywtMTMzMjkxMTA4NiwtMTM5NDM2
 MTQxMywyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkzMDgsMT
 A3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMDEzOTA1MjM3LDE3MDQ0
