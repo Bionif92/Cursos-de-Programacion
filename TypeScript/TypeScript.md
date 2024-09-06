@@ -1834,7 +1834,12 @@ class {
 import { validate } from 'class-validator';
 
 validate(newProd).then(errors => {
-	if (errors.lenght >0)
+	if (errors.lenght >0) {
+		console.log('Validation Errors');
+		console.log(errors);
+	} else {
+		console.log(newProd.method());
+	}
 })
 
 //tsconfig.json
@@ -1843,7 +1848,7 @@ experimentalDecorators: true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Mjk2MzgxNCw1NjQxMjg2ODksNzMyMD
+eyJoaXN0b3J5IjpbLTEyMTQ5MDQwMCw1NjQxMjg2ODksNzMyMD
 g2NDIwLC0yNzYyNjk5MTMsLTQ3MDA4NDc0NSwtMTM0NDA5MjM1
 MCw2ODUyMDgwMjYsLTE3NjgzNDQyNTEsMTEyMjU1MjQzNCwtMj
 A4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3NjcsMTcyNDgwOTEw
