@@ -1522,12 +1522,19 @@ event.dataTransfer for drag and drop
 More on Drag & Drop: [https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API](https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API)
 
 ## Modules & Namespaces
+
+### Writing Modular Code
+
+Two options:
+
+ - Namespacing
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI5MTEwODYsLTEzOTQzNjE0MTMsMj
-A3MDU5MDk2OSw4NDQ0MTk3NzYsNDUwNDE5MzA4LDEwNzEwNzAx
-MjAsLTE5NTg1NzM5NjMsMTAxMzkwNTIzNywxNzA0NDAyODE3LD
-ExNDQzMzY3NDMsLTMyMzExOTA1NCw2MzU4Nzk4MjEsMTA2MzMx
-NjMzOSwxNzM0NjczNzkwLDY3MDc5MDU5MiwxNjIzNjM0NDI3LD
-YzOTE1NTIxNCwxMTcwNzk0NzY5LDEwNzI4NzgwMjcsMTMwMjgz
-NTQyOF19
+eyJoaXN0b3J5IjpbMTgxMDQ0NzEzMSwtMTMzMjkxMTA4NiwtMT
+M5NDM2MTQxMywyMDcwNTkwOTY5LDg0NDQxOTc3Niw0NTA0MTkz
+MDgsMTA3MTA3MDEyMCwtMTk1ODU3Mzk2MywxMDEzOTA1MjM3LD
+E3MDQ0MDI4MTcsMTE0NDMzNjc0MywtMzIzMTE5MDU0LDYzNTg3
+OTgyMSwxMDYzMzE2MzM5LDE3MzQ2NzM3OTAsNjcwNzkwNTkyLD
+E2MjM2MzQ0MjcsNjM5MTU1MjE0LDExNzA3OTQ3NjksMTA3Mjg3
+ODAyN119
 -->
