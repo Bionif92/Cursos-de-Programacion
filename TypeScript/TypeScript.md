@@ -1612,13 +1612,22 @@ Change the name of the import:
 ````
 import {autobind as Autobind} from
 
-//use Autob
+//use Autobind in the file now
+````
+
+Default exports:
+````
+// file of export
+export default // only one
+
+// file of import
+import 
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njk3ODUwMzMsLTE3NjgzNDQyNTEsMT
+eyJoaXN0b3J5IjpbLTEwODU4OTQyNTUsLTE3NjgzNDQyNTEsMT
 EyMjU1MjQzNCwtMjA4NTU4OTAzMCwxNzM4NTMxMzksNjk0OTc3
 NjcsMTcyNDgwOTEwLC0xNTM5NDQ4MDA5LC0yMTcyMTEzOTEsMT
 E3ODg5ODI3MSwtODM5ODU2MDg3LC0xMzMyOTExMDg2LC0xMzk0
