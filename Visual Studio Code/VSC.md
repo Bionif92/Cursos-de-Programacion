@@ -21,11 +21,12 @@ Ventana de Terminal - Debug Console: vemos los valores que mandamos a ver en la 
  - Alt + Flecha V - Mover la linea
  - Shift + Tab - Volver la identacion
  - Control + P - Buscador de archivo
+ - Shift + Control + P - Buscador general
 
 Ver uso Snippets muy util para ahorrar codigo - buscar en los plug ins
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTQ2NTk2NF19
+eyJoaXN0b3J5IjpbLTIzMjA0ODAzNCwyMTE1NDY1OTY0XX0=
 -->
