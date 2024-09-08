@@ -6,8 +6,9 @@ React is a library for building interfaces - A JS Library
 
 ### React vs JS
 
-R
+React - Update the UI automatically
+With React you define the target UI state - not the steps to get there
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxMTgzMzM1NCwtNjI4Mzc5MDI2LC05OT
-Q2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOT
+k0NjgwMjQ2XX0=
 -->
