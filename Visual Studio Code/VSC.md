@@ -22,12 +22,13 @@ Ventana de Terminal - Debug Console: vemos los valores que mandamos a ver en la 
  - Shift + Tab - Volver la identacion
  - Control + P - Buscador de archivo
  - Shift + Control + P - Barra maestra
+ - Control +B - Ocultar menu lateral
 
 Ver uso Snippets muy util para ahorrar codigo - buscar en los plug ins
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzk2NzgzMiwtMjMyMDQ4MDM0LDIxMT
-U0NjU5NjRdfQ==
+eyJoaXN0b3J5IjpbMTY2Nzc0Mjc2LDE0OTc5Njc4MzIsLTIzMj
+A0ODAzNCwyMTE1NDY1OTY0XX0=
 -->
