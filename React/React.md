@@ -16,7 +16,9 @@ With React you define the target UI state - not the steps to get there
 or use VSC 
 
 or https://create-react-app.dev/
+
+Need to install Vite to use React
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNj
-I4Mzc5MDI2LC05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNz
+IxMDU1NTIwLC02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
 -->
