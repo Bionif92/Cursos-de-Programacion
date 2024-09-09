@@ -419,38 +419,27 @@ function  App() {
 	console.log('Hello World');
 	}
 	return (
-	<div>
-	<Header  />
-	<main>
-	<section  id="core-concepts">
-	<h2>Core Concepts</h2>
-	<ul>
-	<CoreConcept  {...CORE_CONCEPTS[0]}  />
-	<CoreConcept  {...CORE_CONCEPTS[1]}  />
-	<CoreConcept  {...CORE_CONCEPTS[2]}  />
-	<CoreConcept  {...CORE_CONCEPTS[3]}  />
-	</ul>
-	</section>
-	<section  id="examples">
-	<h2>Examples</h2>
-	<menu>
-	<TabButton  onSelect={handleSelect}>Component</TabButton>
-	<TabButton  onSelect={handleSelect}>JSX</TabButton>
-	<TabButton  onSelect={handleSelect}>Props</TabButton>
-	<TabButton  onSelect={handleSelect}>State</TabButton>
-	</menu>
-	</section>
+	...
+		<section  id="examples">
+		<h2>Examples</h2>
+			<menu>
+				<TabButton  onSelect={handleSelect}>Component</TabButton>
+				<TabButton  onSelect={handleSelect}>JSX</TabButton>
+				<TabButton  onSelect={handleSelect}>Props</TabButton>
+				<TabButton  onSelect={handleSelect}>State</TabButton>
+			</menu>
+		</section>
 	</main>
 	</div>
-);
+	);
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4NDg4MjMxLDIxMjIwNzY3MDgsODkxMj
-U3NjkyLDEzNjE1MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAy
-ODUsLTE2ODc0MTk4MCwxNzIyMTg1ODY2LDE0NDEwNjY2NjksLT
-EyMTY4ODg1ODEsLTIwNDgwNDY4OTMsMTcyMDI5NjM1OSw1MzIx
-NTE1OTAsLTE4MTg2MDY1NDUsODkxOTcyODgzLDIwOTc2NDkxNC
-wtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMjYw
-NjE1NDI4XX0=
+eyJoaXN0b3J5IjpbLTE1NjYxMTQ1NzMsMjEyMjA3NjcwOCw4OT
+EyNTc2OTIsMTM2MTUzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIw
+MDI4NSwtMTY4NzQxOTgwLDE3MjIxODU4NjYsMTQ0MTA2NjY2OS
+wtMTIxNjg4ODU4MSwtMjA0ODA0Njg5MywxNzIwMjk2MzU5LDUz
+MjE1MTU5MCwtMTgxODYwNjU0NSw4OTE5NzI4ODMsMjA5NzY0OT
+E0LC0xNzQ3OTkwMzYxLC05MjIzOTcwMCwyMDY3MDI4NjgzLDEy
+NjA2MTU0MjhdfQ==
 -->
