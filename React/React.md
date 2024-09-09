@@ -234,7 +234,7 @@ There is other way to write the component:
 function  CoreConcept(props) {
 	return (
 		<li>
-		<img  src={props.imagr}  alt={props.title}  />
+		<img  src={props.image}  alt={props.title}  />
 		<h3>{props.title}</h3>
 		<p>{props.description}</p>
 		</li>
@@ -252,12 +252,14 @@ function  CoreConcept({image, title, description}) {
 	);
 }
 ````
+
+### More Prop S
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjY1NjAzOSwtMTgxODYwNjU0NSw4OT
-E5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMzYxLC05MjIzOTcw
-MCwyMDY3MDI4NjgzLDEyNjA2MTU0MjgsLTY4MDM3NDU5MCwtMT
-I4Njc3NTczNCwtMTExNDQxMDg4NCw4MjI1MzQ1NCwxNzQ4NzE1
-MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOTMzNTEyNzk5LC
-05MTg2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0NjIz
-MjA4NDRdfQ==
+eyJoaXN0b3J5IjpbNzc4NDY0OTEwLC0xODE4NjA2NTQ1LDg5MT
+k3Mjg4MywyMDk3NjQ5MTQsLTE3NDc5OTAzNjEsLTkyMjM5NzAw
+LDIwNjcwMjg2ODMsMTI2MDYxNTQyOCwtNjgwMzc0NTkwLC0xMj
+g2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LDE3NDg3MTUz
+MTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5MzM1MTI3OTksLT
+kxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2OTYsMTQ2MjMy
+MDg0NF19
 -->
