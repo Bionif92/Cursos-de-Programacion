@@ -341,12 +341,14 @@ Want to split the CSS file into the components
 Put CSS of the component into a file next to it and import it to the component
 
 **The CSS styles are scoped for everything not only the component**
+
+Create a foulder with the .jsx and .css of the component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MSwtMj
-A0ODA0Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwtMTgxODYw
-NjU0NSw4OTE5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMzYxLC
-05MjIzOTcwMCwyMDY3MDI4NjgzLDEyNjA2MTU0MjgsLTY4MDM3
-NDU5MCwtMTI4Njc3NTczNCwtMTExNDQxMDg4NCw4MjI1MzQ1NC
-wxNzQ4NzE1MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOTMz
-NTEyNzk5XX0=
+eyJoaXN0b3J5IjpbMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC0xMj
+E2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3MjAyOTYzNTksNTMyMTUx
+NTkwLC0xODE4NjA2NTQ1LDg5MTk3Mjg4MywyMDk3NjQ5MTQsLT
+E3NDc5OTAzNjEsLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2MDYx
+NTQyOCwtNjgwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwOD
+g0LDgyMjUzNDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1
+Njc1MDc5XX0=
 -->
