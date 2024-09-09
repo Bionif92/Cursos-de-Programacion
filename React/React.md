@@ -178,14 +178,47 @@ We can use component as we want and as many times as we want
 How to reuse component with Props:
 
 ````
+function  CoreConcept(props) {
+	return (
+		<li>
+		<img  src={props.img}  alt={props.title}  />
+		<h3>{props.title}</h3>
+		<p>{props.description}</p>
+		</li>
+	);
+}
+
+function  App() {
+	return (
+		<div>
+		<Header  />
+		<main>
+		<section  id="core-concepts">
+		<h2>Core Concepts</h2>
+		<ul>
+		<CoreConcept
+		title="Components"
+		description="The core UI building block"
+		img={componetsImg}
+		/>
+		<CoreConcept  />
+		<CoreConcept  />
+		<CoreConcept  />
+		</ul>
+		</section>
+		</main>
+		</div>
+	);
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2MD
-YxNTQyOCwtNjgwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEw
-ODg0LDgyMjUzNDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMT
-Q1Njc1MDc5LDE5MzM1MTI3OTksLTkxODYxNjAwMiw5NDY1MjM4
-NDUsLTE5MzQyMTI2OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC
-0xNzIxMDU1NTIwLC02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
+eyJoaXN0b3J5IjpbLTM2NTI4OTQ4MSwtOTIyMzk3MDAsMjA2Nz
+AyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3NzU3
+MzQsLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMj
+UxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2
+MDAyLDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC
+01ODIxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0
+NjgwMjQ2XX0=
 -->
