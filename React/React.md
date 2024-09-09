@@ -476,6 +476,37 @@ Rules of hooks:
 
 ````
 import { useState } from  'react'; // react hooks
+
+function  App() {
+
+const [selectedTopic, setSelectedTopic] =  useState("Please Click a button"); // need to call in the top level
+
+  
+
+function  handleSelect(selectedButton) {
+
+setSelectedTopic(selectedButton);
+
+}
+
+return (
+...
+<section  id="examples">
+<h2>Examples</h2>
+<menu>
+<TabButton  onSelect={() =>  handleSelect("Component")}>
+Component
+</TabButton>
+<TabButton  onSelect={() =>  handleSelect("JSX")}>JSX</TabButton>
+<TabButton  onSelect={() =>  handleSelect("Props")}>Props</TabButton>
+<TabButton  onSelect={() =>  handleSelect("State")}>State</TabButton>
+</menu>
+{selectedTopic}
+</section>
+</main>
+</div>
+);
+}
 ````
 Manage State:
 ````
@@ -485,9 +516,9 @@ userState(0): initial state value
 setCounter: State updating function, update the stored value and tell react to re execute
 ````
 
-The component execute the stage at the end
+**The component execute the stage at the end**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjM2MTA5OSwtODk3Mjg5NDEyLDE4NT
+eyJoaXN0b3J5IjpbMTIxNDc4NjE1OCwtODk3Mjg5NDEyLDE4NT
 M1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcy
 MjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LD
 g5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1
