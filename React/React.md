@@ -332,13 +332,13 @@ This can easily be achieved since JavaScript supports default values when using 
 
 ### Best Practice: Storing Components in Files
 
-Use a foulder to store components
+Use a foulder to store components, and import them
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MT
-g2MDY1NDUsODkxOTcyODgzLDIwOTc2NDkxNCwtMTc0Nzk5MDM2
-MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMjYwNjE1NDI4LC02OD
-AzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsODIyNTM0
-NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUwNzksMT
-kzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMTkzNDIx
-MjY5Nl19
+eyJoaXN0b3J5IjpbLTIwNDgwNDY4OTMsMTcyMDI5NjM1OSw1Mz
+IxNTE1OTAsLTE4MTg2MDY1NDUsODkxOTcyODgzLDIwOTc2NDkx
+NCwtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMj
+YwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0
+MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LD
+IxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUy
+Mzg0NV19
 -->
