@@ -32,8 +32,14 @@ Advantajes:
  - Different component handle different data & logic
  - Simplify working with bigger apps
 
+### JSX
+
+Javascript Syntax Extension
+Used to describe and create HTML elements in JS
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxODYxNjAwMiw5NDY1MjM4NDUsLTE5Mz
-QyMTI2OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNzIxMDU1
-NTIwLC02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
+eyJoaXN0b3J5IjpbMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0Nj
+UyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1
+NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX
+0=
 -->
