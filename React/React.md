@@ -337,12 +337,14 @@ Use a foulder to store components, and import them
 ### Storing Component Style files next to Components
 
 Want to split the CSS file into the components
+
+Put CSS of the component into a file next to it and import it to the component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTY4ODg1ODEsLTIwNDgwNDY4OTMsMT
-cyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1NDUsODkxOTcy
-ODgzLDIwOTc2NDkxNCwtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMj
-A2NzAyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3
-NzU3MzQsLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNy
-wtMjUxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4
-NjE2MDAyXX0=
+eyJoaXN0b3J5IjpbMjM2NTk2MDMyLC0xMjE2ODg4NTgxLC0yMD
+Q4MDQ2ODkzLDE3MjAyOTYzNTksNTMyMTUxNTkwLC0xODE4NjA2
+NTQ1LDg5MTk3Mjg4MywyMDk3NjQ5MTQsLTE3NDc5OTAzNjEsLT
+kyMjM5NzAwLDIwNjcwMjg2ODMsMTI2MDYxNTQyOCwtNjgwMzc0
+NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LD
+E3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5MzM1
+MTI3OTldfQ==
 -->
