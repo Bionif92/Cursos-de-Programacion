@@ -69,18 +69,31 @@ going to build!
 function  Header() {
 	return (
 		<header>
-		<img  src="src/assets/react-core-concepts.png"  		alt="Stylized atom"  />
+		<img  src="src/assets/react-core-concepts.png"  		alt="Stylized atom"  /> // here need the /
 		<h1>React Essentials</h1>
 		<p>
 		Fundamental React concepts you will need for almost any app you are going to build!
 		</p>
 		</header>
-);
+	);
 }
+
+function  App() {
+	return (
+		<div>
+		<Header  /> // need the / 
+		<main>
+		<h2>Time to get started!</h2>
+		</main>
+		</div>
+	);
+}
+
+export  default  App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5Mz
-M1MTI3OTksLTkxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2
-OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNzIxMDU1NTIwLC
-02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
+eyJoaXN0b3J5IjpbLTc3NzE5ODQ2MywtMjUxMzcyNDY5LDIxND
+U2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0
+NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLT
+E3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
 -->
