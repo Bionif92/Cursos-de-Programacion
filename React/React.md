@@ -515,12 +515,23 @@ setCounter: State updating function, update the stored value and tell react to r
 **The component execute the stage at the end**
 
 ### Deriving & Outputting Data Based on Stage
+
+````
+// dinamic entry
+<div  id="tab-content">
+	<h3>{EXAMPLES[selectedTopic].title}</h3>
+	<p>{EXAMPLES[selectedTopic].description}</p>
+	<pre>
+		<code>{EXAMPLES[selectedTopic].code}</code>
+	</pre>
+</div>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODk5MzQ0NywtODk3Mjg5NDEyLDE4NT
-M1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcy
-MjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LD
-g5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1
-MjAwMjg1LC0xNjg3NDE5ODAsMTcyMjE4NTg2NiwxNDQxMDY2Nj
-Y5LC0xMjE2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3MjAyOTYzNTks
-NTMyMTUxNTkwXX0=
+eyJoaXN0b3J5IjpbNjAyNzQyNjUwLDE1Mzg5OTM0NDcsLTg5Nz
+I4OTQxMiwxODUzNTczMTk4LDEyNDA0MDQ0NzcsLTEzNTgwMzQw
+MzMsMjAzMTM3MjIxLDE3NTc4NjYyODAsLTE1NjYxMTQ1NzMsMj
+EyMjA3NjcwOCw4OTEyNTc2OTIsMTM2MTUzMDk2NywtMTgyMTY0
+ODk2NywtMTIwNTIwMDI4NSwtMTY4NzQxOTgwLDE3MjIxODU4Nj
+YsMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MSwtMjA0ODA0Njg5Mywx
+NzIwMjk2MzU5XX0=
 -->
