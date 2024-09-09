@@ -108,10 +108,49 @@ ReactDOM.createRoot(entryPoint).render(<App  />);
 A tree of components : starts with App and you can add subcomponents
 
 ### Using and Outputting Dinamyc Values
+
+````
+const  reactDescriptions  = ["Fundamental", "Crucial", "Core"];
+
+  
+
+function  getRandomInt(max) {
+
+return  Math.floor(Math.random() * (max  +  1));
+
+}
+
+  
+
+function  Header() {
+
+return (
+
+<header>
+
+<img  src="src/assets/react-core-concepts.png"  alt="Stylized atom"  />
+
+<h1>React Essentials</h1>
+
+<p>
+
+{reactDescriptions[getRandomInt(2)]} React concepts you will need for
+
+almost any app you are going to build!
+
+</p>
+
+</header>
+
+);
+
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsOD
-IyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUw
-NzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMT
-kzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEw
-NTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
+eyJoaXN0b3J5IjpbLTEwNzc1NzI2MzUsLTEyODY3NzU3MzQsLT
+ExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcy
+NDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLD
+k0NjUyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIx
+Nzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMj
+Q2XX0=
 -->
