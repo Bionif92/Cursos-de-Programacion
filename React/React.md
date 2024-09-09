@@ -66,7 +66,7 @@ going to build!
 ### First Custom Component
 
 ````
-function  Header() {
+function  Header() { // custom component
 	return (
 		<header>
 		<img  src="src/assets/react-core-concepts.png"  		alt="Stylized atom"  /> // here need the / too
@@ -81,7 +81,7 @@ function  Header() {
 function  App() {
 	return (
 		<div>
-		<Header  /> // need the / 
+		<Header  /> // need the / , the component is added here
 		<main>
 		<h2>Time to get started!</h2>
 		</main>
@@ -91,9 +91,12 @@ function  App() {
 
 export  default  App;
 ````
+### Build a Component Tree
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxND
-U2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0
-NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLT
-E3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
+eyJoaXN0b3J5IjpbODIyNTM0NTQsMTc0ODcxNTMxNywtMjUxMz
+cyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAy
+LDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01OD
+IxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0Njgw
+MjQ2XX0=
 -->
