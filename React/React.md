@@ -329,12 +329,14 @@ This can easily be achieved since JavaScript supports default values when using 
 1.  export  default  function  Button({ caption, type =  "submit"  })  {  
 2.    // caption has no default value, type has a default value of "submit"
 3.  }
+
+### Best Practice: Storing Components in Files
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMyMTUxNTkwLC0xODE4NjA2NTQ1LDg5MT
-k3Mjg4MywyMDk3NjQ5MTQsLTE3NDc5OTAzNjEsLTkyMjM5NzAw
-LDIwNjcwMjg2ODMsMTI2MDYxNTQyOCwtNjgwMzc0NTkwLC0xMj
-g2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LDE3NDg3MTUz
-MTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5MzM1MTI3OTksLT
-kxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2OTYsMTQ2MjMy
-MDg0NF19
+eyJoaXN0b3J5IjpbNjI5MDc3NzkwLDUzMjE1MTU5MCwtMTgxOD
+YwNjU0NSw4OTE5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMzYx
+LC05MjIzOTcwMCwyMDY3MDI4NjgzLDEyNjA2MTU0MjgsLTY4MD
+M3NDU5MCwtMTI4Njc3NTczNCwtMTExNDQxMDg4NCw4MjI1MzQ1
+NCwxNzQ4NzE1MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOT
+MzNTEyNzk5LC05MTg2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEy
+Njk2XX0=
 -->
