@@ -223,18 +223,18 @@ description={CORE_CONCEPTS[0].description}
 img={CORE_CONCEPTS[0].image}
 />
 ````
-This is cumbersome if you have to do it multiple times:
+This is cumbersome if you have to do it multiple times, do this instead:
 
 ````
-<CoreConcept {}
+<CoreConcept  {...CORE_CONCEPTS[0]}
 />
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNTY4MDYzNSwyMDk3NjQ5MTQsLTE3ND
-c5OTAzNjEsLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2MDYxNTQy
-OCwtNjgwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwODg0LD
-gyMjUzNDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1Njc1
-MDc5LDE5MzM1MTI3OTksLTkxODYxNjAwMiw5NDY1MjM4NDUsLT
-E5MzQyMTI2OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNzIx
-MDU1NTIwXX0=
+eyJoaXN0b3J5IjpbODkxOTcyODgzLDIwOTc2NDkxNCwtMTc0Nz
+k5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMjYwNjE1NDI4
+LC02ODAzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsOD
+IyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUw
+NzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMT
+kzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEw
+NTU1MjBdfQ==
 -->
