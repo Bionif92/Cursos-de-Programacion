@@ -36,6 +36,7 @@ Advantajes:
 
 JSX: Javascript Syntax Extension
 Used to describe and create HTML elements in JS
+Files with .jsx notation
 
 React Component: is a function with two rules:
 
@@ -43,10 +44,27 @@ React Component: is a function with two rules:
  - Return renderable content
 
 ````
+function  App() {
+return (
+	<div>
+	<header>
+	<img  src="src/assets/react-core-concepts.png"  alt="Stylized atom"  />
+	<h1>React Essentials</h1>
+	<p>
+	Fundamental React concepts you will need for almost any app you are
+going to build!
+	</p>
+	</header>
+	<main>
+	<h2>Time to get started!</h2>
+	</main>
+	</div>
+);
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDY5MTMwNSwxOTMzNTEyNzk5LC05MT
+eyJoaXN0b3J5IjpbMjE0NTY3NTA3OSwxOTMzNTEyNzk5LC05MT
 g2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0NjIzMjA4
 NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5MDI2LC
 05OTQ2ODAyNDZdfQ==
