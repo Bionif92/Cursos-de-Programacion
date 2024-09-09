@@ -484,12 +484,14 @@ counter: Current State Value, may change when component is executed again
 userState(0): initial state value
 setCounter: State updating function, update the stored value and tell react to re execute
 ````
+
+The component execute the stage at the end
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NzI4OTQxMiwxODUzNTczMTk4LDEyND
-A0MDQ0NzcsLTEzNTgwMzQwMzMsMjAzMTM3MjIxLDE3NTc4NjYy
-ODAsLTE1NjYxMTQ1NzMsMjEyMjA3NjcwOCw4OTEyNTc2OTIsMT
-M2MTUzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4
-NzQxOTgwLDE3MjIxODU4NjYsMTQ0MTA2NjY2OSwtMTIxNjg4OD
-U4MSwtMjA0ODA0Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwt
-MTgxODYwNjU0NV19
+eyJoaXN0b3J5IjpbMTQ2MjM2MTA5OSwtODk3Mjg5NDEyLDE4NT
+M1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcy
+MjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LD
+g5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1
+MjAwMjg1LC0xNjg3NDE5ODAsMTcyMjE4NTg2NiwxNDQxMDY2Nj
+Y5LC0xMjE2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3MjAyOTYzNTks
+NTMyMTUxNTkwXX0=
 -->
