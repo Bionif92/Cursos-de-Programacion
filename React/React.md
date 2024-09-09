@@ -32,14 +32,18 @@ Advantajes:
  - Different component handle different data & logic
  - Simplify working with bigger apps
 
-### JSX
+### JSX & React Component
 
-Javascript Syntax Extension
+JSX: Javascript Syntax Extension
 Used to describe and create HTML elements in JS
 
+React Component: is a function with two rules:
+
+ - List item
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0Nj
-UyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1
-NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX
-0=
+eyJoaXN0b3J5IjpbLTMwNDQ0OTUxNCwxOTMzNTEyNzk5LC05MT
+g2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0NjIzMjA4
+NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5MDI2LC
+05OTQ2ODAyNDZdfQ==
 -->
