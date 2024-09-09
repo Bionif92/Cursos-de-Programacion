@@ -481,10 +481,11 @@ Manage State:
 ````
 const [ counter, setCounter] =  userState(0);
 counter: Current State Value, may change when component is executed again
-
+userState(0): initial state value
+setCounter: State updating function, update the stored value and tell react to re execute
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODE5ODQ3MiwxODUzNTczMTk4LDEyND
+eyJoaXN0b3J5IjpbLTg5NzI4OTQxMiwxODUzNTczMTk4LDEyND
 A0MDQ0NzcsLTEzNTgwMzQwMzMsMjAzMTM3MjIxLDE3NTc4NjYy
 ODAsLTE1NjYxMTQ1NzMsMjEyMjA3NjcwOCw4OTEyNTc2OTIsMT
 M2MTUzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4
