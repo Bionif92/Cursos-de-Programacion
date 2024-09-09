@@ -468,16 +468,21 @@ By default, react components execute only once, need to say if you want to execu
 ### Managing State & Using Hooks
 
 State: registering variables
-Only work inside components
+
+Rules of hooks:
+
+ - Only work inside components
+ - Only calls on top level
+
 ````
 import { useState } from  'react'; // react hooks
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjEyNTY0ODMsMTI0MDQwNDQ3NywtMT
-M1ODAzNDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MCwtMTU2NjEx
-NDU3MywyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYxNTMwOTY3LC
-0xODIxNjQ4OTY3LC0xMjA1MjAwMjg1LC0xNjg3NDE5ODAsMTcy
-MjE4NTg2NiwxNDQxMDY2NjY5LC0xMjE2ODg4NTgxLC0yMDQ4MD
-Q2ODkzLDE3MjAyOTYzNTksNTMyMTUxNTkwLC0xODE4NjA2NTQ1
-LDg5MTk3Mjg4M119
+eyJoaXN0b3J5IjpbMTg1MzU3MzE5OCwxMjQwNDA0NDc3LC0xMz
+U4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC0xNTY2MTE0
+NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1MzA5NjcsLT
+E4MjE2NDg5NjcsLTEyMDUyMDAyODUsLTE2ODc0MTk4MCwxNzIy
+MTg1ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEsLTIwNDgwND
+Y4OTMsMTcyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1NDUs
+ODkxOTcyODgzXX0=
 -->
