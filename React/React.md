@@ -513,8 +513,10 @@ setCounter: State updating function, update the stored value and tell react to r
 ````
 
 **The component execute the stage at the end**
+
+### Deriving & Outputting Data Based on Stage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNjQ3NzczNywtODk3Mjg5NDEyLDE4NT
+eyJoaXN0b3J5IjpbMTUzODk5MzQ0NywtODk3Mjg5NDEyLDE4NT
 M1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcy
 MjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LD
 g5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1
