@@ -105,11 +105,11 @@ const  entryPoint  =  document.getElementById("root"); // root is a div
 ReactDOM.createRoot(entryPoint).render(<App  />);
 ````
 
-A tree of components : starts with 
+A tree of components : starts with App and you can add subcomponents
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTY0NTc1NCw4MjI1MzQ1NCwxNzQ4Nz
-E1MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOTMzNTEyNzk5
-LC05MTg2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0Nj
-IzMjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5
-MDI2LC05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0OD
+cxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5
+OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxND
+YyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3
+OTAyNiwtOTk0NjgwMjQ2XX0=
 -->
