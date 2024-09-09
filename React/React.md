@@ -93,10 +93,11 @@ export  default  App;
 ````
 ### Build a Component Tree
 
+The index.jsx file doent content componets, it is the entry point for the htlm
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIyNTM0NTQsMTc0ODcxNTMxNywtMjUxMz
-cyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAy
-LDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01OD
-IxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0Njgw
-MjQ2XX0=
+eyJoaXN0b3J5IjpbLTE2NTMxODA0NDgsODIyNTM0NTQsMTc0OD
+cxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5
+OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxND
+YyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3
+OTAyNiwtOTk0NjgwMjQ2XX0=
 -->
