@@ -354,9 +354,18 @@ export  default  function  TabButton(props) {
 		<li><button>{props.children}</button></li>
 	)
 }
+
+// app.jsx
+
+<section  id="examples">
+	<h2>Examples</h2>
+	<menu>
+		<TabButton>Component<TabButton/>
+	</menu>
+</section>
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NDI4ODEyOSwtMTY4NzQxOTgwLDE3Mj
+eyJoaXN0b3J5IjpbMTEwNjg5OTU5OCwtMTY4NzQxOTgwLDE3Mj
 IxODU4NjYsMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MSwtMjA0ODA0
 Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwtMTgxODYwNjU0NS
 w4OTE5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMzYxLC05MjIz
