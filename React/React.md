@@ -479,10 +479,12 @@ import { useState } from  'react'; // react hooks
 ````
 Manage State:
 ````
-const [] = 
+const [ counter, setCounter] =  userState(0);
+counter: Current State Value, may change when component is executed again
+
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NDA3MjQ5NCwxODUzNTczMTk4LDEyND
+eyJoaXN0b3J5IjpbMjA4ODE5ODQ3MiwxODUzNTczMTk4LDEyND
 A0MDQ0NzcsLTEzNTgwMzQwMzMsMjAzMTM3MjIxLDE3NTc4NjYy
 ODAsLTE1NjYxMTQ1NzMsMjEyMjA3NjcwOCw4OTEyNTc2OTIsMT
 M2MTUzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4
