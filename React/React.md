@@ -29,10 +29,11 @@ Advantajes:
 
  - Reusable building blocks
  - HTML, CSS y JS code are stored togheter
- - Different component hand
+ - Different component handle different data & logic
+ - Simplify working with bigger apps
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI5NTE4OTEsOTQ2NTIzODQ1LC0xOT
-M0MjEyNjk2LDE0NjIzMjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1
-NTUyMCwtNjI4Mzc5MDI2LC05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbLTkxODYxNjAwMiw5NDY1MjM4NDUsLTE5Mz
+QyMTI2OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNzIxMDU1
+NTIwLC02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
 -->
