@@ -364,12 +364,31 @@ export  default  function  TabButton(props) {
 	</menu>
 </section>
 ````
+
+Also you can:
+
+````
+export  default  function  TabButton({label}) {
+	return (
+		<li><button>{label}</button></li>
+	)
+}
+
+// app.jsx
+
+<section  id="examples">
+	<h2>Examples</h2>
+	<menu>
+		<TabButton label='Components'/>
+	</menu>
+</section>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDUyMDAyODUsLTE2ODc0MTk4MCwxNz
-IyMTg1ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEsLTIwNDgw
-NDY4OTMsMTcyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1ND
-UsODkxOTcyODgzLDIwOTc2NDkxNCwtMTc0Nzk5MDM2MSwtOTIy
-Mzk3MDAsMjA2NzAyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OT
-AsLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0
-ODcxNTMxN119
+eyJoaXN0b3J5IjpbLTE4MjE2NDg5NjcsLTEyMDUyMDAyODUsLT
+E2ODc0MTk4MCwxNzIyMTg1ODY2LDE0NDEwNjY2NjksLTEyMTY4
+ODg1ODEsLTIwNDgwNDY4OTMsMTcyMDI5NjM1OSw1MzIxNTE1OT
+AsLTE4MTg2MDY1NDUsODkxOTcyODgzLDIwOTc2NDkxNCwtMTc0
+Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMjYwNjE1ND
+I4LC02ODAzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQs
+ODIyNTM0NTRdfQ==
 -->
