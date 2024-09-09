@@ -69,7 +69,7 @@ going to build!
 function  Header() {
 	return (
 		<header>
-		<img  src="src/assets/react-core-concepts.png"  		alt="Stylized atom"  /> // here need the /
+		<img  src="src/assets/react-core-concepts.png"  		alt="Stylized atom"  /> // here need the / too
 		<h1>React Essentials</h1>
 		<p>
 		Fundamental React concepts you will need for almost any app you are going to build!
@@ -92,7 +92,7 @@ function  App() {
 export  default  App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NzE5ODQ2MywtMjUxMzcyNDY5LDIxND
+eyJoaXN0b3J5IjpbMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxND
 U2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0
 NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLT
 E3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
