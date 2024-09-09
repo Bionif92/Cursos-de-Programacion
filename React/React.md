@@ -406,19 +406,51 @@ To add dynamic content to different clicks:
 ````
 //button.jsx
 export  default  function  TabButton({ children, onSelect }) {
-return (
-<li>
-<button  onClick={onSelect}>{children}</button>
-</li>
+	return (
+		<li>
+			<button  onClick={onSelect}>{children}</button>
+		</li>
+		);
+}
+
+// app.jsx
+function  App() {
+	function  handleSelect() {
+	console.log('Hello World');
+	}
+	return (
+	<div>
+	<Header  />
+	<main>
+	<section  id="core-concepts">
+	<h2>Core Concepts</h2>
+	<ul>
+	<CoreConcept  {...CORE_CONCEPTS[0]}  />
+	<CoreConcept  {...CORE_CONCEPTS[1]}  />
+	<CoreConcept  {...CORE_CONCEPTS[2]}  />
+	<CoreConcept  {...CORE_CONCEPTS[3]}  />
+	</ul>
+	</section>
+	<section  id="examples">
+	<h2>Examples</h2>
+	<menu>
+	<TabButton  onSelect={handleSelect}>Component</TabButton>
+	<TabButton  onSelect={handleSelect}>JSX</TabButton>
+	<TabButton  onSelect={handleSelect}>Props</TabButton>
+	<TabButton  onSelect={handleSelect}>State</TabButton>
+	</menu>
+	</section>
+	</main>
+	</div>
 );
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzEwODAyNywyMTIyMDc2NzA4LDg5MT
-I1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1MjAw
-Mjg1LC0xNjg3NDE5ODAsMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC
-0xMjE2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3MjAyOTYzNTksNTMy
-MTUxNTkwLC0xODE4NjA2NTQ1LDg5MTk3Mjg4MywyMDk3NjQ5MT
-QsLTE3NDc5OTAzNjEsLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2
-MDYxNTQyOF19
+eyJoaXN0b3J5IjpbNDE4NDg4MjMxLDIxMjIwNzY3MDgsODkxMj
+U3NjkyLDEzNjE1MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAy
+ODUsLTE2ODc0MTk4MCwxNzIyMTg1ODY2LDE0NDEwNjY2NjksLT
+EyMTY4ODg1ODEsLTIwNDgwNDY4OTMsMTcyMDI5NjM1OSw1MzIx
+NTE1OTAsLTE4MTg2MDY1NDUsODkxOTcyODgzLDIwOTc2NDkxNC
+wtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMjYw
+NjE1NDI4XX0=
 -->
