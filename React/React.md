@@ -333,12 +333,16 @@ This can easily be achieved since JavaScript supports default values when using 
 ### Best Practice: Storing Components in Files
 
 Use a foulder to store components, and import them
+
+### Storing Component Style files next to Components
+
+Want to split the CSS file into the components
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDgwNDY4OTMsMTcyMDI5NjM1OSw1Mz
-IxNTE1OTAsLTE4MTg2MDY1NDUsODkxOTcyODgzLDIwOTc2NDkx
-NCwtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMj
-YwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0
-MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LD
-IxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUy
-Mzg0NV19
+eyJoaXN0b3J5IjpbLTEyMTY4ODg1ODEsLTIwNDgwNDY4OTMsMT
+cyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1NDUsODkxOTcy
+ODgzLDIwOTc2NDkxNCwtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMj
+A2NzAyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3
+NzU3MzQsLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNy
+wtMjUxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4
+NjE2MDAyXX0=
 -->
