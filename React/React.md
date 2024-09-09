@@ -436,12 +436,36 @@ function  App() {
 ````
 
 ### Passing Custom Arguments to Event Functions
+
+````
+function  App() {
+function  handleSelect(selectedButton) {
+console.log(selectedButton);
+}
+return (
+...
+<section  id="examples">
+<h2>Examples</h2>
+	<menu>
+		<TabButton  onSelect={() =>  handleSelect("Component")}>
+		Component
+		</TabButton>
+		<TabButton  onSelect={() =>  handleSelect("JSX")}>JSX</TabButton>
+		<TabButton  onSelect={() =>  handleSelect("Props")}>Props</TabButton>
+		<TabButton  onSelect={() =>  handleSelect("State")}>State</TabButton>
+	</menu>
+</section>
+</main>
+</div>
+);
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMT
-IyMDc2NzA4LDg5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4
-OTY3LC0xMjA1MjAwMjg1LC0xNjg3NDE5ODAsMTcyMjE4NTg2Ni
-wxNDQxMDY2NjY5LC0xMjE2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3
-MjAyOTYzNTksNTMyMTUxNTkwLC0xODE4NjA2NTQ1LDg5MTk3Mj
-g4MywyMDk3NjQ5MTQsLTE3NDc5OTAzNjEsLTkyMjM5NzAwLDIw
-NjcwMjg2ODNdfQ==
+eyJoaXN0b3J5IjpbMjAzMTM3MjIxLDE3NTc4NjYyODAsLTE1Nj
+YxMTQ1NzMsMjEyMjA3NjcwOCw4OTEyNTc2OTIsMTM2MTUzMDk2
+NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4NzQxOTgwLD
+E3MjIxODU4NjYsMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MSwtMjA0
+ODA0Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwtMTgxODYwNj
+U0NSw4OTE5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMzYxLC05
+MjIzOTcwMF19
 -->
