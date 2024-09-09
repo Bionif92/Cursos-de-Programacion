@@ -253,9 +253,84 @@ function  CoreConcept({image, title, description}) {
 }
 ````
 
-### More Prop S
+### More Prop Syntaxes
+
+Beyond the various ways of setting and extracting props about which you learned in the previous lecture, there are  **even more ways of dealing**  with props.
+
+But no worries, you'll see all these different features & syntaxes in action throughout the course!
+
+**Passing a Single Prop Object**
+
+If you got data that's already organized as a JavaScript object, you can pass that object as a single prop value instead of splitting it across multiple props.
+
+I.e., instead of
+
+1.  <CoreConcept
+2.    title={CORE_CONCEPTS[0].title}
+3.    description={CORE_CONCEPTS[0].description}  
+4.    image={CORE_CONCEPTS[0].image}  />
+
+or
+
+1.  <CoreConcept
+2.   {...CORE_CONCEPTS[0]} />
+
+you could also pass a single  `concept`  (or any name of your choice) prop to the  `CoreConcept`  component:
+
+1.  <CoreConcept
+2.    concept={CORE_CONCEPTS[0]}  />
+
+In the  `CoreConcept`  component, you would then get that one single prop:
+
+1.  export  default  function  CoreConcept({  concept  })  {
+2.    // Use concept.title, concept.description etc.
+3.    // Or destructure the concept object: const { title, description, image } = concept;
+4.  }
+
+It is entirely up to you which syntax & approach you prefer.
+
+**Grouping Received Props Into a Single Object**
+
+You can also pass multiple props to a component and then, in the component function, group them into a single object via JavaScript's  ["Rest Property"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#rest_property)  syntax.
+
+I.e., if a component is used like this:
+
+1.  <CoreConcept
+2.    title={CORE_CONCEPTS[0].title}
+3.    description={CORE_CONCEPTS[0].description}  
+4.    image={CORE_CONCEPTS[0].image}  />
+
+You could group the received props into a single object like this:
+
+1.  export  default  function  CoreConcept({  ...concept  })  {  
+2.    // ...concept groups multiple values into a single object
+3.    // Use concept.title, concept.description etc.
+4.    // Or destructure the concept object: const { title, description, image } = concept;
+5.  }
+
+If that syntax is a bit confusing - worry not! You'll also see concrete examples for this syntax (and for why you might want to use it in certain situations) throughout the course!
+
+**Default Prop Values**
+
+Sometimes, you'll build components that may receive an optional prop. For example, a custom  `Button`  component may receive a  `type`  prop.
+
+So the Button component should be usable either with a type being set:
+
+1.  <Button  type="submit"  caption="My Button"  />
+
+Or without it:
+
+1.  <Button  caption="My Button"  />
+
+To make this component work, you might want to set a default value for the  `type`  prop - in case it's not passed.
+
+This can easily be achieved since JavaScript supports default values when using object destructuring:
+
+1.  export  default  function  Button({ caption, type =  "submit"  })  {  
+2.    // caption has no default value, type has a default value of "submit"
+3.  }
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc4NDY0OTEwLC0xODE4NjA2NTQ1LDg5MT
+eyJoaXN0b3J5IjpbNTMyMTUxNTkwLC0xODE4NjA2NTQ1LDg5MT
 k3Mjg4MywyMDk3NjQ5MTQsLTE3NDc5OTAzNjEsLTkyMjM5NzAw
 LDIwNjcwMjg2ODMsMTI2MDYxNTQyOCwtNjgwMzc0NTkwLC0xMj
 g2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LDE3NDg3MTUz
