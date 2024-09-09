@@ -39,10 +39,14 @@ Used to describe and create HTML elements in JS
 
 React Component: is a function with two rules:
 
- - List item
+ - Name start with Uppercase character
+ - Return renderable content
+
+````
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNDQ0OTUxNCwxOTMzNTEyNzk5LC05MT
+eyJoaXN0b3J5IjpbMTczNDY5MTMwNSwxOTMzNTEyNzk5LC05MT
 g2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0NjIzMjA4
 NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5MDI2LC
 05OTQ2ODAyNDZdfQ==
