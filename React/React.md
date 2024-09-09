@@ -399,8 +399,10 @@ export  default  function  TabButton(props) {
 	);
 }
 ````
+
+### Passing Functions as Values to Props
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMTE5NjU2NCw4OTEyNTc2OTIsMTM2MT
+eyJoaXN0b3J5IjpbMjEyMjA3NjcwOCw4OTEyNTc2OTIsMTM2MT
 UzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4NzQx
 OTgwLDE3MjIxODU4NjYsMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MS
 wtMjA0ODA0Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwtMTgx
