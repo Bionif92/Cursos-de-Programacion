@@ -156,44 +156,28 @@ How to load images:
 ````
 import  reactImg  from  './assets/react-core-concepts.png';
 
-
-
-  
-
 function  Header() {
-
-const  description  =  reactDescriptions[getRandomInt(2)];
-
-return (
-
-<header>
-
-<img  src={reactImg}  alt="Stylized atom"  />
-
-<h1>React Essentials</h1>
-
-<p>
-
-{description} React concepts you will need for almost any app you are
-
+	const  description  =  reactDescriptions[getRandomInt(2)];
+	return (
+		<header>
+		<img  src={reactImg}  alt="Stylized atom"  />
+		<h1>React Essentials</h1>
+		<p>
+			{description} React concepts you will need for almost any app you are
 going to build!
-
-</p>
-
-</header>
-
-);
-
+		</p>
+		</header>
+	);
 }
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNDU1MDA5LDEyNjA2MTU0MjgsLTY4MD
-M3NDU5MCwtMTI4Njc3NTczNCwtMTExNDQxMDg4NCw4MjI1MzQ1
-NCwxNzQ4NzE1MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOT
-MzNTEyNzk5LC05MTg2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEy
-Njk2LDE0NjIzMjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMC
-wtNjI4Mzc5MDI2LC05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbLTEwMDAwNDc5ODMsMTI2MDYxNTQyOCwtNj
+gwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUz
+NDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LD
+E5MzM1MTI3OTksLTkxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQy
+MTI2OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNzIxMDU1NT
+IwLC02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
 -->
