@@ -63,9 +63,25 @@ going to build!
 }
 ````
 
+### First Custom Component
+
+````
+function  Header() {
+return (
+<header>
+<img  src="src/assets/react-core-concepts.png"  alt="Stylized atom"  />
+<h1>React Essentials</h1>
+<p>
+Fundamental React concepts you will need for almost any app you are
+going to build!
+</p>
+</header>
+);
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTY3NTA3OSwxOTMzNTEyNzk5LC05MT
-g2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0NjIzMjA4
-NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5MDI2LC
-05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbLTk0NzQxMjI1NywyMTQ1Njc1MDc5LDE5Mz
+M1MTI3OTksLTkxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2
+OTYsMTQ2MjMyMDg0NCwtNTgyMTc4NTc3LC0xNzIxMDU1NTIwLC
+02MjgzNzkwMjYsLTk5NDY4MDI0Nl19
 -->
