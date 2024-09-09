@@ -385,12 +385,26 @@ export  default  function  TabButton({label}) {
 ````
 
 ### Reacting to Events
+
+````
+export  default  function  TabButton(props) {
+	function  handleClick() {
+		console.log('Hello World');
+	}
+
+	return (
+		<li>
+			<button  onClick={handleClick}>{props.children}</button> // only point to the function
+		</li>
+	);
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxMjU3NjkyLDEzNjE1MzA5NjcsLTE4Mj
-E2NDg5NjcsLTEyMDUyMDAyODUsLTE2ODc0MTk4MCwxNzIyMTg1
-ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEsLTIwNDgwNDY4OT
-MsMTcyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1NDUsODkx
-OTcyODgzLDIwOTc2NDkxNCwtMTc0Nzk5MDM2MSwtOTIyMzk3MD
-AsMjA2NzAyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEy
-ODY3NzU3MzRdfQ==
+eyJoaXN0b3J5IjpbMTAyMTE5NjU2NCw4OTEyNTc2OTIsMTM2MT
+UzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4NzQx
+OTgwLDE3MjIxODU4NjYsMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MS
+wtMjA0ODA0Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwtMTgx
+ODYwNjU0NSw4OTE5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMz
+YxLC05MjIzOTcwMCwyMDY3MDI4NjgzLDEyNjA2MTU0MjgsLTY4
+MDM3NDU5MF19
 -->
