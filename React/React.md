@@ -24,8 +24,13 @@ Need to install Vite to use React
 ### Components
 
 UI Building Blocks
+
+Advantajes:
+
+ - Reusable building blocks
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0Nj
-IzMjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5
-MDI2LC05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbNDc5OTY0NDY2LDk0NjUyMzg0NSwtMTkzND
+IxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEwNTU1
+MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
 -->
