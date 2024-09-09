@@ -106,10 +106,12 @@ ReactDOM.createRoot(entryPoint).render(<App  />);
 ````
 
 A tree of components : starts with App and you can add subcomponents
+
+### Using and Outputting Dinamyc Values
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0OD
-cxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5
-OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxND
-YyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3
-OTAyNiwtOTk0NjgwMjQ2XX0=
+eyJoaXN0b3J5IjpbLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsOD
+IyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUw
+NzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMT
+kzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEw
+NTU1MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
 -->
