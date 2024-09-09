@@ -96,22 +96,18 @@ export  default  App;
 The index.jsx file doent content componets, it is the entry point for the htlm
 
 ````
+// index.jsx
 import  ReactDOM  from  "react-dom/client";
-
-  
-
 import  App  from  "./App.jsx";
-
 import  "./index.css";
 
-  
-
-const  entryPoint  =  document.getElementById("root");
-
+const  entryPoint  =  document.getElementById("root"); // root is a div
 ReactDOM.createRoot(entryPoint).render(<App  />);
 ````
+
+A tree of components : starts with 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDEwNzkzMCw4MjI1MzQ1NCwxNzQ4Nz
+eyJoaXN0b3J5IjpbMTIxNTY0NTc1NCw4MjI1MzQ1NCwxNzQ4Nz
 E1MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOTMzNTEyNzk5
 LC05MTg2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0Nj
 IzMjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5
