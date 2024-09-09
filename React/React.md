@@ -343,12 +343,16 @@ Put CSS of the component into a file next to it and import it to the component
 **The CSS styles are scoped for everything not only the component**
 
 Create a foulder with the .jsx and .css of the component
+
+### Component Composition: The Special children Prop
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC0xMj
-E2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3MjAyOTYzNTksNTMyMTUx
-NTkwLC0xODE4NjA2NTQ1LDg5MTk3Mjg4MywyMDk3NjQ5MTQsLT
-E3NDc5OTAzNjEsLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2MDYx
-NTQyOCwtNjgwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwOD
-g0LDgyMjUzNDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1
-Njc1MDc5XX0=
+eyJoaXN0b3J5IjpbLTE2ODc0MTk4MCwxNzIyMTg1ODY2LDE0ND
+EwNjY2NjksLTEyMTY4ODg1ODEsLTIwNDgwNDY4OTMsMTcyMDI5
+NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1NDUsODkxOTcyODgzLD
+IwOTc2NDkxNCwtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAy
+ODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3NzU3Mz
+QsLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMjUx
+MzcyNDY5XX0=
 -->
