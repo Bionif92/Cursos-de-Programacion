@@ -401,12 +401,24 @@ export  default  function  TabButton(props) {
 ````
 
 ### Passing Functions as Values to Props
+
+To add dynamic content to different clicks:
+````
+//button.jsx
+export  default  function  TabButton({ children, onSelect }) {
+return (
+<li>
+<button  onClick={onSelect}>{children}</button>
+</li>
+);
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjA3NjcwOCw4OTEyNTc2OTIsMTM2MT
-UzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMDI4NSwtMTY4NzQx
-OTgwLDE3MjIxODU4NjYsMTQ0MTA2NjY2OSwtMTIxNjg4ODU4MS
-wtMjA0ODA0Njg5MywxNzIwMjk2MzU5LDUzMjE1MTU5MCwtMTgx
-ODYwNjU0NSw4OTE5NzI4ODMsMjA5NzY0OTE0LC0xNzQ3OTkwMz
-YxLC05MjIzOTcwMCwyMDY3MDI4NjgzLDEyNjA2MTU0MjgsLTY4
-MDM3NDU5MF19
+eyJoaXN0b3J5IjpbMTg4NzEwODAyNywyMTIyMDc2NzA4LDg5MT
+I1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1MjAw
+Mjg1LC0xNjg3NDE5ODAsMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC
+0xMjE2ODg4NTgxLC0yMDQ4MDQ2ODkzLDE3MjAyOTYzNTksNTMy
+MTUxNTkwLC0xODE4NjA2NTQ1LDg5MTk3Mjg4MywyMDk3NjQ5MT
+QsLTE3NDc5OTAzNjEsLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2
+MDYxNTQyOF19
 -->
