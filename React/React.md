@@ -171,10 +171,13 @@ going to build!
 }
 ````
 
+### Component Reusable with Props
+
+We can use component as we 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDAwNDc5ODMsMTI2MDYxNTQyOCwtNj
+eyJoaXN0b3J5IjpbLTE1MzM4NTQ5MDAsMTI2MDYxNTQyOCwtNj
 gwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUz
 NDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LD
 E5MzM1MTI3OTksLTkxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQy
