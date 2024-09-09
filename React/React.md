@@ -218,18 +218,19 @@ Can bring an import with the component with all the structures inside
 
 ````
 <CoreConcept
-
 title={CORE_CONCEPTS[0].title}
-
 description={CORE_CONCEPTS[0].description}
-
 img={CORE_CONCEPTS[0].image}
-
 />
 ````
+This is cumbersome if you have to do it multiple times:
 
+````
+<CoreConcept {}
+/>
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNjE5MDE2OCwyMDk3NjQ5MTQsLTE3ND
+eyJoaXN0b3J5IjpbLTgwNTY4MDYzNSwyMDk3NjQ5MTQsLTE3ND
 c5OTAzNjEsLTkyMjM5NzAwLDIwNjcwMjg2ODMsMTI2MDYxNTQy
 OCwtNjgwMzc0NTkwLC0xMjg2Nzc1NzM0LC0xMTE0NDEwODg0LD
 gyMjUzNDU0LDE3NDg3MTUzMTcsLTI1MTM3MjQ2OSwyMTQ1Njc1
