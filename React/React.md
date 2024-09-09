@@ -346,7 +346,7 @@ Create a foulder with the .jsx and .css of the component
 
 ### Component Composition: The Special children Prop
 
-Prop set by react, is not an atribbute, it refer to the content between the component tags
+Children: Prop set by react, is not an atribbute, it refer to the content between the component tags
 
 ````
 export  default  function  TabButton(props) {
@@ -386,11 +386,11 @@ export  default  function  TabButton({label}) {
 
 ### Reacting to Events
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTUzMDk2NywtMTgyMTY0ODk2NywtMT
-IwNTIwMDI4NSwtMTY4NzQxOTgwLDE3MjIxODU4NjYsMTQ0MTA2
-NjY2OSwtMTIxNjg4ODU4MSwtMjA0ODA0Njg5MywxNzIwMjk2Mz
-U5LDUzMjE1MTU5MCwtMTgxODYwNjU0NSw4OTE5NzI4ODMsMjA5
-NzY0OTE0LC0xNzQ3OTkwMzYxLC05MjIzOTcwMCwyMDY3MDI4Nj
-gzLDEyNjA2MTU0MjgsLTY4MDM3NDU5MCwtMTI4Njc3NTczNCwt
-MTExNDQxMDg4NF19
+eyJoaXN0b3J5IjpbODkxMjU3NjkyLDEzNjE1MzA5NjcsLTE4Mj
+E2NDg5NjcsLTEyMDUyMDAyODUsLTE2ODc0MTk4MCwxNzIyMTg1
+ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEsLTIwNDgwNDY4OT
+MsMTcyMDI5NjM1OSw1MzIxNTE1OTAsLTE4MTg2MDY1NDUsODkx
+OTcyODgzLDIwOTc2NDkxNCwtMTc0Nzk5MDM2MSwtOTIyMzk3MD
+AsMjA2NzAyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEy
+ODY3NzU3MzRdfQ==
 -->
