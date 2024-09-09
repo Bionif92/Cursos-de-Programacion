@@ -193,19 +193,19 @@ function  App() {
 		<div>
 		<Header  />
 		<main>
-		<section  id="core-concepts">
-		<h2>Core Concepts</h2>
-		<ul>
-		<CoreConcept
-		title="Components"
-		description="The core UI building block"
-		img={componetsImg}
-		/>
-		<CoreConcept  />
-		<CoreConcept  />
-		<CoreConcept  />
-		</ul>
-		</section>
+			<section  id="core-concepts">
+				<h2>Core Concepts</h2>
+					<ul>
+						<CoreConcept
+						title="Components"
+						description="The core UI building block"
+						img={componetsImg}
+					/>
+					<CoreConcept  />
+					<CoreConcept  />
+					<CoreConcept  />
+					</ul>
+			</section>
 		</main>
 		</div>
 	);
@@ -214,11 +214,11 @@ function  App() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTI4OTQ4MSwtOTIyMzk3MDAsMjA2Nz
-AyODY4MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3NzU3
-MzQsLTExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMj
-UxMzcyNDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2
-MDAyLDk0NjUyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC
-01ODIxNzg1NzcsLTE3MjEwNTU1MjAsLTYyODM3OTAyNiwtOTk0
-NjgwMjQ2XX0=
+eyJoaXN0b3J5IjpbLTE3NDc5OTAzNjEsLTkyMjM5NzAwLDIwNj
+cwMjg2ODMsMTI2MDYxNTQyOCwtNjgwMzc0NTkwLC0xMjg2Nzc1
+NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LDE3NDg3MTUzMTcsLT
+I1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5MzM1MTI3OTksLTkxODYx
+NjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2OTYsMTQ2MjMyMDg0NC
+wtNTgyMTc4NTc3LC0xNzIxMDU1NTIwLC02MjgzNzkwMjYsLTk5
+NDY4MDI0Nl19
 -->
