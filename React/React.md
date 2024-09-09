@@ -131,15 +131,28 @@ almost any app you are going to build!
 ````
 Use {} to enter dinamyc Values
 
-Also:
+Also to make it leaner:
 
 ````
-
+function  Header() {
+	const description = reactDescriptions[getRandomInt(2)];
+	return (
+		<header>
+		<img  src="src/assets/react-core-concepts.png"  alt="Stylized atom"  />
+		<h1>React Essentials</h1>
+		<p>
+			{description} React concepts you will need for
+almost any app you are going to build!
+		</p>
+		</header>
+	);
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjY0NjAzMDcsLTY4MDM3NDU5MCwtMT
-I4Njc3NTczNCwtMTExNDQxMDg4NCw4MjI1MzQ1NCwxNzQ4NzE1
-MzE3LC0yNTEzNzI0NjksMjE0NTY3NTA3OSwxOTMzNTEyNzk5LC
-05MTg2MTYwMDIsOTQ2NTIzODQ1LC0xOTM0MjEyNjk2LDE0NjIz
-MjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1NTUyMCwtNjI4Mzc5MD
-I2LC05OTQ2ODAyNDZdfQ==
+eyJoaXN0b3J5IjpbMTEwMzY1MjQ4OCwtNjgwMzc0NTkwLC0xMj
+g2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LDE3NDg3MTUz
+MTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5MzM1MTI3OTksLT
+kxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2OTYsMTQ2MjMy
+MDg0NCwtNTgyMTc4NTc3LC0xNzIxMDU1NTIwLC02MjgzNzkwMj
+YsLTk5NDY4MDI0Nl19
 -->
