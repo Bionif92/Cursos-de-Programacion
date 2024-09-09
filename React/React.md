@@ -148,8 +148,12 @@ almost any app you are going to build!
 	);
 }
 ````
+
+### Setting HTLM Atribbutes Dynamically & Loading Image Files
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzY1MjQ4OCwtNjgwMzc0NTkwLC0xMj
+eyJoaXN0b3J5IjpbMTI2MDYxNTQyOCwtNjgwMzc0NTkwLC0xMj
 g2Nzc1NzM0LC0xMTE0NDEwODg0LDgyMjUzNDU0LDE3NDg3MTUz
 MTcsLTI1MTM3MjQ2OSwyMTQ1Njc1MDc5LDE5MzM1MTI3OTksLT
 kxODYxNjAwMiw5NDY1MjM4NDUsLTE5MzQyMTI2OTYsMTQ2MjMy
