@@ -28,9 +28,11 @@ UI Building Blocks
 Advantajes:
 
  - Reusable building blocks
+ - HTML, CSS y JS code are stored togheter
+ - Different component hand
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5OTY0NDY2LDk0NjUyMzg0NSwtMTkzND
-IxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEwNTU1
-MjAsLTYyODM3OTAyNiwtOTk0NjgwMjQ2XX0=
+eyJoaXN0b3J5IjpbLTIwMjI5NTE4OTEsOTQ2NTIzODQ1LC0xOT
+M0MjEyNjk2LDE0NjIzMjA4NDQsLTU4MjE3ODU3NywtMTcyMTA1
+NTUyMCwtNjI4Mzc5MDI2LC05OTQ2ODAyNDZdfQ==
 -->
