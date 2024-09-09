@@ -175,9 +175,13 @@ going to build!
 
 We can use component as we want and as many times as we want
 
+How to reuse:
+````
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjY3MDkxOCwxMjYwNjE1NDI4LC02OD
+eyJoaXN0b3J5IjpbMjA2NzAyODY4MywxMjYwNjE1NDI4LC02OD
 AzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsODIyNTM0
 NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUwNzksMT
 kzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMTkzNDIx
