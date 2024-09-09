@@ -226,15 +226,27 @@ img={CORE_CONCEPTS[0].image}
 This is cumbersome if you have to do it multiple times, do this instead:
 
 ````
-<CoreConcept  {...CORE_CONCEPTS[0]}
-/>
+<CoreConcept  {...CORE_CONCEPTS[0]} />
+````
+
+There is other way to write the component:
+````
+function  CoreConcept(props) {
+	return (
+		<li>
+		<img  src={props.img}  alt={props.title}  />
+		<h3>{props.title}</h3>
+		<p>{props.description}</p>
+		</li>
+	);
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkxOTcyODgzLDIwOTc2NDkxNCwtMTc0Nz
-k5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4MywxMjYwNjE1NDI4
-LC02ODAzNzQ1OTAsLTEyODY3NzU3MzQsLTExMTQ0MTA4ODQsOD
-IyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcyNDY5LDIxNDU2NzUw
-NzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLDk0NjUyMzg0NSwtMT
-kzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIxNzg1NzcsLTE3MjEw
-NTU1MjBdfQ==
+eyJoaXN0b3J5IjpbLTE4MTg2MDY1NDUsODkxOTcyODgzLDIwOT
+c2NDkxNCwtMTc0Nzk5MDM2MSwtOTIyMzk3MDAsMjA2NzAyODY4
+MywxMjYwNjE1NDI4LC02ODAzNzQ1OTAsLTEyODY3NzU3MzQsLT
+ExMTQ0MTA4ODQsODIyNTM0NTQsMTc0ODcxNTMxNywtMjUxMzcy
+NDY5LDIxNDU2NzUwNzksMTkzMzUxMjc5OSwtOTE4NjE2MDAyLD
+k0NjUyMzg0NSwtMTkzNDIxMjY5NiwxNDYyMzIwODQ0LC01ODIx
+Nzg1NzddfQ==
 -->
