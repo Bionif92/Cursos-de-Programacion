@@ -647,14 +647,16 @@ Now example is executed when you clic but not components
 
 When you are setting props on a custom component those settings are not automatically forwarded to the jsx code inside
 
+### Forwarding Props to Wrapped Elements
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtND
-M3NDY4NTQ5LDgzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1
-MTMsMTc3ODY2MjUsNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMD
-gzMTA5OTQ5LDE1Mzg5OTM0NDcsLTg5NzI4OTQxMiwxODUzNTcz
-MTk4LDEyNDA0MDQ0NzcsLTEzNTgwMzQwMzMsMjAzMTM3MjIxLD
-E3NTc4NjYyODAsLTE1NjYxMTQ1NzMsMjEyMjA3NjcwOCw4OTEy
-NTc2OTJdfQ==
+eyJoaXN0b3J5IjpbMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNz
+QyMDgzNDE0LC00Mzc0Njg1NDksODM4NTY3NDk3LC00MTUxMDc5
+NjgsLTQ4MTE2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgsLTIwMz
+k0MjY2MjcsLTIwODMxMDk5NDksMTUzODk5MzQ0NywtODk3Mjg5
+NDEyLDE4NTM1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMy
+wyMDMxMzcyMjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIy
+MDc2NzA4XX0=
 -->
