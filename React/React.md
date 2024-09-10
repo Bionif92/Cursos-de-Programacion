@@ -592,16 +592,16 @@ Instead of:
 <CoreConcept  {...CORE_CONCEPTS[3]}  />
 
 Change to this:
-{CORE_CONCEPTS.map((conceptItem) =>  <CoreConcept  {...conceptItem}  />)} // generate dinynamically depending the amount of elements
+{CORE_CONCEPTS.map((conceptItem) =>  <CoreConcept  key={conceptItem.title}  {...conceptItem}  />)} // generate dinynamically depending the amount of elements
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzk0MjY2MjcsLTIwODMxMDk5NDksMT
-UzODk5MzQ0NywtODk3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQw
-NDQ3NywtMTM1ODAzNDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MC
-wtMTU2NjExNDU3MywyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYx
-NTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1MjAwMjg1LC0xNjg3ND
-E5ODAsMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC0xMjE2ODg4NTgx
-LC0yMDQ4MDQ2ODkzXX0=
+eyJoaXN0b3J5IjpbNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMD
+gzMTA5OTQ5LDE1Mzg5OTM0NDcsLTg5NzI4OTQxMiwxODUzNTcz
+MTk4LDEyNDA0MDQ0NzcsLTEzNTgwMzQwMzMsMjAzMTM3MjIxLD
+E3NTc4NjYyODAsLTE1NjYxMTQ1NzMsMjEyMjA3NjcwOCw4OTEy
+NTc2OTIsMTM2MTUzMDk2NywtMTgyMTY0ODk2NywtMTIwNTIwMD
+I4NSwtMTY4NzQxOTgwLDE3MjIxODU4NjYsMTQ0MTA2NjY2OSwt
+MTIxNjg4ODU4MV19
 -->
