@@ -712,12 +712,23 @@ xport  default  function  Tabs({ children, buttons, ButtonsContainer='menu'}) //
 
 If you have static data, you can put it right on the HTML
 
+````
+<body>
+	<header> // static data
+		<img  src="game-logo.png"  alt="Hand-Drawn Tic Tac Toe game board"  />
+		<h1>Tic-Tac-Toe</h1>
+	</header>
+	<div  id="root"></div>
+	<script  type="module"  src="/src/index.jsx"></script>
+</body>
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTc1MDAzMzQsMjA1ODUwOTg5MCwtND
-k1MjMxNjQ0LC0zMjYxMTE4OTQsLTE3NzIyNDE4LDE5MTg2MTY1
-MTAsMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4MDAsLT
-E5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LDgzODU2
-NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMTc3ODY2MjUsND
-c4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMDgzMTA5OTQ5LDE1Mzg5
-OTM0NDddfQ==
+eyJoaXN0b3J5IjpbLTEzMzQ1NjMxMCwyMDU4NTA5ODkwLC00OT
+UyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxODYxNjUx
+MCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgwMCwtMT
+k5MDI5OTU2MywxNzQyMDgzNDE0LC00Mzc0Njg1NDksODM4NTY3
+NDk3LC00MTUxMDc5NjgsLTQ4MTE2OTUxMywxNzc4NjYyNSw0Nz
+gzMDgwNDgsLTIwMzk0MjY2MjcsLTIwODMxMDk5NDksMTUzODk5
+MzQ0N119
 -->
