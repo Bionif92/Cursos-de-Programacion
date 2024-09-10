@@ -542,9 +542,9 @@ setCounter: State updating function, update the stored value and tell react to r
 )}
 ````
 
-There is 
+There is two other ways to do it, search them if you need it, most common is to write an if statement before the component, and set the variable in the component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NTM4OTcyNCwtMjA4MzEwOTk0OSwxNT
+eyJoaXN0b3J5IjpbMTA0NDkwMjc4MSwtMjA4MzEwOTk0OSwxNT
 M4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0
 NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC
 0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1
