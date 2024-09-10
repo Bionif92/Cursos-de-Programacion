@@ -548,15 +548,53 @@ There is two other ways to do it, search them if you need it, most common is to 
 
 Selected tab highlighted
 
+````
+// button.jsx
+export  default  function  TabButton({ children, onSelect, isSelected }) {
+	return (
+		<li>
+		<button  className={isSelected ? "active" : ""}  onClick={onSelect}>
+		{children}
+		</button>
+		</li>
+		);
+}
 
+// app.jsx
+<menu>
+<TabButton
+isSelected={selectedTopic === "Component"}
+onSelect={() =>  handleSelect("Component")}
+>
+Component
+</TabButton>
+<TabButton
+isSelected={selectedTopic === "JSX"}
+onSelect={() =>  handleSelect("JSX")}
+>
+JSX
+</TabButton>
+<TabButton
+isSelected={selectedTopic === "Props"}
+onSelect={() =>  handleSelect("Props")}
+>
+Props
+</TabButton>
+<TabButton
+isSelected={selectedTopic === "State"}
+onSelect={() =>  handleSelect("State")}
+>
+State
+</TabButton>
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTc1OTU0OTksLTIwODMxMDk5NDksMT
-UzODk5MzQ0NywtODk3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQw
-NDQ3NywtMTM1ODAzNDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MC
-wtMTU2NjExNDU3MywyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYx
-NTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1MjAwMjg1LC0xNjg3ND
-E5ODAsMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC0xMjE2ODg4NTgx
-LC0yMDQ4MDQ2ODkzXX0=
+eyJoaXN0b3J5IjpbMTkwODI1ODAxOCwtMjA4MzEwOTk0OSwxNT
+M4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0
+NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC
+0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1
+MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAyODUsLTE2ODc0MT
+k4MCwxNzIyMTg1ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEs
+LTIwNDgwNDY4OTNdfQ==
 -->
