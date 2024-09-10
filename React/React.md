@@ -810,13 +810,15 @@ Create a constant inside the state to se the other state
 
 Generate a state, here for the turns, and with that information, fill the information for the Gameboard without needing an own state for that
 
+### Reducing State Managment & Identifiying Unnecesary State
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMz
-QwNjUyLC0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAx
-LDMxNjg3NjAyMiwtMjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5Mj
-U0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkw
-LC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxOD
-YxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgw
-MF19
+eyJoaXN0b3J5IjpbMTEwNTE2MTcxMywtMTQzMjc3NzUzOSwxNT
+U2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3
+LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Nj
+k0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1MzYyNzkw
+LDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTExODk0LC0xNz
+cyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4OTcsLTQ3MTE3NzE5
+N119
 -->
