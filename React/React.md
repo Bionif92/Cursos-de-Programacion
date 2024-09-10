@@ -631,24 +631,26 @@ The app file look like this now:
 function  App() {
 	return (
 		<>
-		<Header  />
-		<main>
-		<CoreConcepts  />
-		<Examples  />
-		</main>
+			<Header  />
+			<main>
+				<CoreConcepts  />
+				<Examples  />
+			</main>
 		</>
 	);
 }
 ````
 
+###
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODA4ODU0MTgsODM4NTY3NDk3LC00MT
-UxMDc5NjgsLTQ4MTE2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgs
-LTIwMzk0MjY2MjcsLTIwODMxMDk5NDksMTUzODk5MzQ0NywtOD
-k3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAz
-NDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3My
-wyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIx
-NjQ4OTY3XX0=
+eyJoaXN0b3J5IjpbLTQzNzQ2ODU0OSw4Mzg1Njc0OTcsLTQxNT
+EwNzk2OCwtNDgxMTY5NTEzLDE3Nzg2NjI1LDQ3ODMwODA0OCwt
+MjAzOTQyNjYyNywtMjA4MzEwOTk0OSwxNTM4OTkzNDQ3LC04OT
+cyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0NDc3LC0xMzU4MDM0
+MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC0xNTY2MTE0NTczLD
+IxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1MzA5NjcsLTE4MjE2
+NDg5NjddfQ==
 -->
