@@ -783,11 +783,13 @@ if (isEditing) {
 
 ### Update Object State Immutably
 
-Object or Array: Create a copy a change this one
+Object or Array: Create a copy and change this one
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ4NjA3NzQsMTgxNzQ5MjEwMSwzMT
+eyJoaXN0b3J5IjpbLTEwNjkxMzY4OTYsMTgxNzQ5MjEwMSwzMT
 Y4NzYwMjIsLTI1MDE0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcw
 MjE0LDg5MTc4MzEwLDExMjUzNjI3OTAsMjA1ODUwOTg5MCwtND
 k1MjMxNjQ0LC0zMjYxMTE4OTQsLTE3NzIyNDE4LDE5MTg2MTY1
