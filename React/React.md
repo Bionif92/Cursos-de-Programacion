@@ -812,13 +812,15 @@ Generate a state, here for the turns, and with that information, fill the inform
 
 ### Reducing State Managment & Identifiying Unnecesary State
 
+See if all the components are related and use only once, state, then use the information of that state to update the information to the others
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTE2MTcxMywtMTQzMjc3NzUzOSwxNT
-U2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3
-LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Nj
-k0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1MzYyNzkw
-LDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTExODk0LC0xNz
-cyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4OTcsLTQ3MTE3NzE5
-N119
+eyJoaXN0b3J5IjpbLTEwMDY4NzcwODQsMTEwNTE2MTcxMywtMT
+QzMjc3NzUzOSwxNTU2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgx
+MTAsMzM5NzcyODA3LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNT
+AxNDQ0NjIsLTE2Njk0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMx
+MCwxMTI1MzYyNzkwLDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMz
+I2MTExODk0LC0xNzcyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4
+OTddfQ==
 -->
