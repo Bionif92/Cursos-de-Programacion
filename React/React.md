@@ -614,12 +614,16 @@ ReactDOM.createRoot(entryPoint).render(React.createElement(App));
 JSX components has to have an element parent
 The return of the function has to have only one element
 
-Use Fractent to wrap the sibling components
+Use Fractent to wrap the sibling components:
+
+Instead of `<div>` only use `<>`
+
+### When you should split comments
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTQ4NDg4MiwtNDgxMTY5NTEzLDE3Nz
+eyJoaXN0b3J5IjpbLTQxNTEwNzk2OCwtNDgxMTY5NTEzLDE3Nz
 g2NjI1LDQ3ODMwODA0OCwtMjAzOTQyNjYyNywtMjA4MzEwOTk0
 OSwxNTM4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMj
 QwNDA0NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2
