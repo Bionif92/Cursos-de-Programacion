@@ -624,14 +624,31 @@ In this case, the two component of main, interact with the refresher and we dont
 
 ### Splitting Components by Feature & State
 
+The CoreConcepts and the example into different jsx files
+
+The app file look like this now:
+````
+function  App() {
+	return (
+		<>
+		<Header  />
+		<main>
+		<CoreConcepts  />
+		<Examples  />
+		</main>
+		</>
+	);
+}
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM4NTY3NDk3LC00MTUxMDc5NjgsLTQ4MT
-E2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgsLTIwMzk0MjY2Mjcs
-LTIwODMxMDk5NDksMTUzODk5MzQ0NywtODk3Mjg5NDEyLDE4NT
-M1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcy
-MjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LD
-g5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1
-MjAwMjg1XX0=
+eyJoaXN0b3J5IjpbLTE2ODA4ODU0MTgsODM4NTY3NDk3LC00MT
+UxMDc5NjgsLTQ4MTE2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgs
+LTIwMzk0MjY2MjcsLTIwODMxMDk5NDksMTUzODk5MzQ0NywtOD
+k3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAz
+NDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3My
+wyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIx
+NjQ4OTY3XX0=
 -->
