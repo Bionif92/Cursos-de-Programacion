@@ -614,16 +614,16 @@ ReactDOM.createRoot(entryPoint).render(React.createElement(App));
 JSX components has to have an element parent
 The return of the function has to have only one element
 
-Use Fractent to wrap the sibling compone
+Use Fractent to wrap the sibling components
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDI1MDI5OTksLTQ4MTE2OTUxMywxNz
-c4NjYyNSw0NzgzMDgwNDgsLTIwMzk0MjY2MjcsLTIwODMxMDk5
-NDksMTUzODk5MzQ0NywtODk3Mjg5NDEyLDE4NTM1NzMxOTgsMT
-I0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcyMjEsMTc1Nzg2
-NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LDg5MTI1NzY5Mi
-wxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1MjAwMjg1LC0x
-Njg3NDE5ODBdfQ==
+eyJoaXN0b3J5IjpbMjEyNTQ4NDg4MiwtNDgxMTY5NTEzLDE3Nz
+g2NjI1LDQ3ODMwODA0OCwtMjAzOTQyNjYyNywtMjA4MzEwOTk0
+OSwxNTM4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMj
+QwNDA0NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2
+MjgwLC0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLD
+EzNjE1MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAyODUsLTE2
+ODc0MTk4MF19
 -->
