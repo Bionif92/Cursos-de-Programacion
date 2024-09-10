@@ -775,7 +775,7 @@ function  handleChange(event) {
 
 if (isEditing) {
 	editablePlayerName  = (
-	<input  type="text"  required  value={playerName}  onChange={handleChange}  />
+		<input  type="text"  required  value={playerName}  onChange={handleChange}  />
 	);
 	buttonCaption  =  "Save";
 }
@@ -784,11 +784,11 @@ if (isEditing) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NDEwMDM2NiwtMjUwMTQ0NDYyLC0xNj
-Y5NDA2NzA1LDE5MjU0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5
-MCwyMDU4NTA5ODkwLC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMT
-c3MjI0MTgsMTkxODYxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcx
-OTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNzQyMDgzNDE0LC
-00Mzc0Njg1NDksODM4NTY3NDk3LC00MTUxMDc5NjgsLTQ4MTE2
-OTUxM119
+eyJoaXN0b3J5IjpbMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Nj
+k0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1MzYyNzkw
+LDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTExODk0LC0xNz
+cyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4OTcsLTQ3MTE3NzE5
+NywxOTk4Njc0ODAwLC0xOTkwMjk5NTYzLDE3NDIwODM0MTQsLT
+QzNzQ2ODU0OSw4Mzg1Njc0OTcsLTQxNTEwNzk2OCwtNDgxMTY5
+NTEzXX0=
 -->
