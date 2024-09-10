@@ -755,16 +755,22 @@ If you reuse a component, only the component you try to change, make the change
 
 ### Updating State Base on Old Stage
 
+````
+const [isEditing, setIsEditing] =  useState(false);
 
+function  handleEditClick() {
+	setIsEditing((editing) =>  !editing);
+}
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Mzk4Mjk3NiwtMTY2OTQwNjcwNSwxOT
-I1NDcwMjE0LDg5MTc4MzEwLDExMjUzNjI3OTAsMjA1ODUwOTg5
-MCwtNDk1MjMxNjQ0LC0zMjYxMTE4OTQsLTE3NzIyNDE4LDE5MT
-g2MTY1MTAsMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4
-MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LD
-gzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMTc3ODY2
-MjVdfQ==
+eyJoaXN0b3J5IjpbMTA2MjYzODA3LC0xNjY5NDA2NzA1LDE5Mj
+U0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkw
+LC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxOD
+YxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgw
+MCwtMTk5MDI5OTU2MywxNzQyMDgzNDE0LC00Mzc0Njg1NDksOD
+M4NTY3NDk3LC00MTUxMDc5NjgsLTQ4MTE2OTUxMywxNzc4NjYy
+NV19
 -->
