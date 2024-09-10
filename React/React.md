@@ -755,6 +755,7 @@ If you reuse a component, only the component you try to change, make the change
 
 ### Updating State Base on Old Stage
 
+Assure that you work with the latest 
 ````
 const [isEditing, setIsEditing] =  useState(false);
 
@@ -766,7 +767,7 @@ function  handleEditClick() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg4MDAwOTYwLC0xNjY5NDA2NzA1LDE5Mj
+eyJoaXN0b3J5IjpbNDk1MjI0NTM2LC0xNjY5NDA2NzA1LDE5Mj
 U0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkw
 LC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxOD
 YxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgw
