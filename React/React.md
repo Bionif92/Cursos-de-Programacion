@@ -806,13 +806,17 @@ Need to get the state to the closest ancestor, this case, the app.jsx
 
 Create a constant inside the state to se the other state
 
+### Deriving State
+
+Generate a state, here for the turns, and with that information, fill the information for the Gameboard without needing an own state for that
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMj
-k4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwt
-MjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsODkxNz
-gzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkwLC00OTUyMzE2NDQs
-LTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxODYxNjUxMCwyMTAwMz
-A5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2
-M119
+eyJoaXN0b3J5IjpbLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMz
+QwNjUyLC0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAx
+LDMxNjg3NjAyMiwtMjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5Mj
+U0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkw
+LC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxOD
+YxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgw
+MF19
 -->
