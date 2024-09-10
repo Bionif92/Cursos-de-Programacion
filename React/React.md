@@ -585,16 +585,23 @@ onSelect={() =>  handleSelect("State")}
 If the data is change, potentially can break the page
 Put the cuantity of elements dynamically
 ````
+Instead of:
+<CoreConcept  {...CORE_CONCEPTS[0]}  />
+<CoreConcept  {...CORE_CONCEPTS[1]}  />
+<CoreConcept  {...CORE_CONCEPTS[2]}  />
+<CoreConcept  {...CORE_CONCEPTS[3]}  />
 
+Change to this:
+{CORE_CONCEPTS.map((conceptItem) =>  <CoreConcept  {...conceptItem}  />)} // generate dinynamically depending the amount of elements
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjU2MjEyOSwtMjA4MzEwOTk0OSwxNT
-M4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0
-NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC
-0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1
-MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAyODUsLTE2ODc0MT
-k4MCwxNzIyMTg1ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEs
-LTIwNDgwNDY4OTNdfQ==
+eyJoaXN0b3J5IjpbLTIwMzk0MjY2MjcsLTIwODMxMDk5NDksMT
+UzODk5MzQ0NywtODk3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQw
+NDQ3NywtMTM1ODAzNDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MC
+wtMTU2NjExNDU3MywyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYx
+NTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1MjAwMjg1LC0xNjg3ND
+E5ODAsMTcyMjE4NTg2NiwxNDQxMDY2NjY5LC0xMjE2ODg4NTgx
+LC0yMDQ4MDQ2ODkzXX0=
 -->
