@@ -759,14 +759,14 @@ If you reuse a component, only the component you try to change, make the change
 const [isEditing, setIsEditing] =  useState(false);
 
 function  handleEditClick() {
-	setIsEditing((editing) =>  !editing);
+	setIsEditing((editing) =>  !editing); // to the oposite
 }
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MjYzODA3LC0xNjY5NDA2NzA1LDE5Mj
+eyJoaXN0b3J5IjpbMzg4MDAwOTYwLC0xNjY5NDA2NzA1LDE5Mj
 U0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkw
 LC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxOD
 YxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgw
