@@ -766,16 +766,29 @@ function  handleEditClick() {
 
 ### User Input & Two-Way-Binding
 
+````
+const [playerName, setPlayerName] =  useState(initialName);
 
+function  handleChange(event) {
+	setPlayerName(event.target.value);
+}
+
+if (isEditing) {
+	editablePlayerName  = (
+	<input  type="text"  required  value={playerName}  onChange={handleChange}  />
+	);
+	buttonCaption  =  "Save";
+}
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzMxNDU5MDgsLTI1MDE0NDQ2MiwtMT
-Y2OTQwNjcwNSwxOTI1NDcwMjE0LDg5MTc4MzEwLDExMjUzNjI3
-OTAsMjA1ODUwOTg5MCwtNDk1MjMxNjQ0LC0zMjYxMTE4OTQsLT
-E3NzIyNDE4LDE5MTg2MTY1MTAsMjEwMDMwOTg5NywtNDcxMTc3
-MTk3LDE5OTg2NzQ4MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNC
-wtNDM3NDY4NTQ5LDgzODU2NzQ5NywtNDE1MTA3OTY4LC00ODEx
-Njk1MTNdfQ==
+eyJoaXN0b3J5IjpbMTM5NDEwMDM2NiwtMjUwMTQ0NDYyLC0xNj
+Y5NDA2NzA1LDE5MjU0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5
+MCwyMDU4NTA5ODkwLC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMT
+c3MjI0MTgsMTkxODYxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcx
+OTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNzQyMDgzNDE0LC
+00Mzc0Njg1NDksODM4NTY3NDk3LC00MTUxMDc5NjgsLTQ4MTE2
+OTUxM119
 -->
