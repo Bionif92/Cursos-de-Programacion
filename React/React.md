@@ -797,11 +797,14 @@ function  handleSelectSquare(rowIndex, colIndex) {
 
 ### Lifting State Up
 
-Two component t
+Two component that need the state of the player simultaneously, how?
+
+**Lifting the state up**
+Need to get the state to the closest ancestor
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU0MTk3NDQsMzM5NzcyODA3LDE4MT
+eyJoaXN0b3J5IjpbLTE3NzAyOTgxMTAsMzM5NzcyODA3LDE4MT
 c0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0MDY3
 MDUsMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1MzYyNzkwLDIwNT
 g1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTExODk0LC0xNzcyMjQx
