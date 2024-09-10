@@ -528,12 +528,25 @@ setCounter: State updating function, update the stored value and tell react to r
 ````
 
 ### Rendering Content Conditionally
+
+````
+{!selectedTopic ? (<p>Please select a Topic</p>
+) : (
+<div  id="tab-content">
+<h3>{EXAMPLES[selectedTopic].title}</h3>
+<p>{EXAMPLES[selectedTopic].description}</p>
+<pre>
+<code>{EXAMPLES[selectedTopic].code}</code>
+</pre>
+</div>
+)}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODMxMDk5NDksMTUzODk5MzQ0NywtOD
-k3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAz
-NDAzMywyMDMxMzcyMjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3My
-wyMTIyMDc2NzA4LDg5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIx
-NjQ4OTY3LC0xMjA1MjAwMjg1LC0xNjg3NDE5ODAsMTcyMjE4NT
-g2NiwxNDQxMDY2NjY5LC0xMjE2ODg4NTgxLC0yMDQ4MDQ2ODkz
-LDE3MjAyOTYzNTldfQ==
+eyJoaXN0b3J5IjpbLTYxNzA0NzI0NiwtMjA4MzEwOTk0OSwxNT
+M4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0
+NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC
+0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1
+MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAyODUsLTE2ODc0MT
+k4MCwxNzIyMTg1ODY2LDE0NDEwNjY2NjksLTEyMTY4ODg1ODEs
+LTIwNDgwNDY4OTNdfQ==
 -->
