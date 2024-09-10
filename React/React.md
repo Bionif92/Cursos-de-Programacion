@@ -697,15 +697,24 @@ The put ButtonsContainer = 'menu' in the example
 
 ### Setting Default Prop Values
 
-
+````
+xport  default  function  Tabs({ children, buttons, ButtonsContainer='menu'}) // default 
+	return (
+		<>
+		<ButtonsContainer>{buttons}</ButtonsContainer>
+		{children}
+		</>
+		);
+}
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxOD
-YxNjUxMCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgw
-MCwtMTk5MDI5OTU2MywxNzQyMDgzNDE0LC00Mzc0Njg1NDksOD
-M4NTY3NDk3LC00MTUxMDc5NjgsLTQ4MTE2OTUxMywxNzc4NjYy
-NSw0NzgzMDgwNDgsLTIwMzk0MjY2MjcsLTIwODMxMDk5NDksMT
-UzODk5MzQ0NywtODk3Mjg5NDEyLDE4NTM1NzMxOTgsMTI0MDQw
-NDQ3N119
+eyJoaXN0b3J5IjpbLTQzMTU4NTk1NywtMzI2MTExODk0LC0xNz
+cyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4OTcsLTQ3MTE3NzE5
+NywxOTk4Njc0ODAwLC0xOTkwMjk5NTYzLDE3NDIwODM0MTQsLT
+QzNzQ2ODU0OSw4Mzg1Njc0OTcsLTQxNTEwNzk2OCwtNDgxMTY5
+NTEzLDE3Nzg2NjI1LDQ3ODMwODA0OCwtMjAzOTQyNjYyNywtMj
+A4MzEwOTk0OSwxNTM4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3
+MzE5OF19
 -->
