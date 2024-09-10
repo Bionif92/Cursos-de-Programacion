@@ -682,15 +682,29 @@ Then adjust the Example.jsx with this blue print
 
 Use different wrappers dynamically in the component
 
+````
+	export  default  function  Tabs({ children, buttons, buttonsContainer }) {
+	const  ButtonsContainer  =  buttonsContainer; // see the value of the parameter
+	return (
+		<>
+		<ButtonsContainer>{buttons}</ButtonsContainer>
+		{children}
+		</>
+		);
+}
+
+The put buttonsContainer = 'menu' in the example
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIyNDE4LDE5MTg2MTY1MTAsMjEwMD
-MwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4MDAsLTE5OTAyOTk1
-NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LDgzODU2NzQ5NywtND
-E1MTA3OTY4LC00ODExNjk1MTMsMTc3ODY2MjUsNDc4MzA4MDQ4
-LC0yMDM5NDI2NjI3LC0yMDgzMTA5OTQ5LDE1Mzg5OTM0NDcsLT
-g5NzI4OTQxMiwxODUzNTczMTk4LDEyNDA0MDQ0NzcsLTEzNTgw
-MzQwMzNdfQ==
+eyJoaXN0b3J5IjpbLTE5ODQ3ODcwNDMsLTE3NzIyNDE4LDE5MT
+g2MTY1MTAsMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4
+MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LD
+gzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMTc3ODY2
+MjUsNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMDgzMTA5OTQ5LD
+E1Mzg5OTM0NDcsLTg5NzI4OTQxMiwxODUzNTczMTk4LDEyNDA0
+MDQ0NzddfQ==
 -->
