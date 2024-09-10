@@ -785,15 +785,23 @@ if (isEditing) {
 
 Object or Array: Create a copy and change this one
 
-
+````
+function  handleSelectSquare(rowIndex, colIndex) {
+	setGameBoard((prevGameBoard) => {
+		const  updatedBoard  = [...prevGameBoard.map(innerArray  => [...innerArray])]; // create a copy
+		updatedBoard[rowIndex][colIndex] =  'X';
+		return  updatedBoard;
+	});
+}
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjkxMzY4OTYsMTgxNzQ5MjEwMSwzMT
-Y4NzYwMjIsLTI1MDE0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcw
-MjE0LDg5MTc4MzEwLDExMjUzNjI3OTAsMjA1ODUwOTg5MCwtND
-k1MjMxNjQ0LC0zMjYxMTE4OTQsLTE3NzIyNDE4LDE5MTg2MTY1
-MTAsMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4MDAsLT
-E5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LDgzODU2
-NzQ5N119
+eyJoaXN0b3J5IjpbMzM5NzcyODA3LDE4MTc0OTIxMDEsMzE2OD
+c2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0MDY3MDUsMTkyNTQ3MDIx
+NCw4OTE3ODMxMCwxMTI1MzYyNzkwLDIwNTg1MDk4OTAsLTQ5NT
+IzMTY0NCwtMzI2MTExODk0LC0xNzcyMjQxOCwxOTE4NjE2NTEw
+LDIxMDAzMDk4OTcsLTQ3MTE3NzE5NywxOTk4Njc0ODAwLC0xOT
+kwMjk5NTYzLDE3NDIwODM0MTQsLTQzNzQ2ODU0OSw4Mzg1Njc0
+OTddfQ==
 -->
