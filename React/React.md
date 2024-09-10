@@ -565,32 +565,24 @@ export  default  function  TabButton({ children, onSelect, isSelected }) {
 <TabButton
 isSelected={selectedTopic === "Component"}
 onSelect={() =>  handleSelect("Component")}
->
-Component
-</TabButton>
+>Component</TabButton>
 <TabButton
 isSelected={selectedTopic === "JSX"}
 onSelect={() =>  handleSelect("JSX")}
->
-JSX
-</TabButton>
+>JSX</TabButton>
 <TabButton
 isSelected={selectedTopic === "Props"}
 onSelect={() =>  handleSelect("Props")}
->
-Props
-</TabButton>
+>Props</TabButton>
 <TabButton
 isSelected={selectedTopic === "State"}
 onSelect={() =>  handleSelect("State")}
->
-State
-</TabButton>
+>State</TabButton>
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwODI1ODAxOCwtMjA4MzEwOTk0OSwxNT
+eyJoaXN0b3J5IjpbMTYyOTI3NTE3MCwtMjA4MzEwOTk0OSwxNT
 M4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0
 NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC
 0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLDEzNjE1
