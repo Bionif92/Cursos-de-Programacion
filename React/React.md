@@ -665,15 +665,28 @@ Also with the onClick, put ...props in the component, and change the prop to OnC
 
 ### Working with Multiple JSX Slots
 
+Use like a blue print:
+````
+export  default  function  Tabs({ children, buttons }) {
+	return (
+		<>
+		<menu>{buttons}</menu>
+		{children}
+		</>
+	);
+}
+Then adjust the Example.jsx with this blue print
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OT
-g2NzQ4MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4
-NTQ5LDgzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMT
-c3ODY2MjUsNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMDgzMTA5
-OTQ5LDE1Mzg5OTM0NDcsLTg5NzI4OTQxMiwxODUzNTczMTk4LD
-EyNDA0MDQ0NzcsLTEzNTgwMzQwMzMsMjAzMTM3MjIxLDE3NTc4
-NjYyODBdfQ==
+eyJoaXN0b3J5IjpbMTk5MjMyOTQ1MCwyMTAwMzA5ODk3LC00Nz
+ExNzcxOTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNzQyMDgz
+NDE0LC00Mzc0Njg1NDksODM4NTY3NDk3LC00MTUxMDc5NjgsLT
+Q4MTE2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgsLTIwMzk0MjY2
+MjcsLTIwODMxMDk5NDksMTUzODk5MzQ0NywtODk3Mjg5NDEyLD
+E4NTM1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMx
+MzcyMjFdfQ==
 -->
