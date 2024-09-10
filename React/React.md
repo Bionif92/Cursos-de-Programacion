@@ -800,15 +800,17 @@ function  handleSelectSquare(rowIndex, colIndex) {
 Two component that need the state of the player simultaneously, how?
 
 **Lifting the state up**
-Need to get the state to the closest ancestor
+Need to get the state to the closest ancestor, this case, the app.jsx
+
+###
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzAyOTgxMTAsMzM5NzcyODA3LDE4MT
-c0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0MDY3
-MDUsMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1MzYyNzkwLDIwNT
-g1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTExODk0LC0xNzcyMjQx
-OCwxOTE4NjE2NTEwLDIxMDAzMDk4OTcsLTQ3MTE3NzE5NywxOT
-k4Njc0ODAwLC0xOTkwMjk5NTYzLDE3NDIwODM0MTQsLTQzNzQ2
-ODU0OV19
+eyJoaXN0b3J5IjpbMTcyMzQwNjUyLC0xNzcwMjk4MTEwLDMzOT
+c3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwtMjUwMTQ0NDYy
+LC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsODkxNzgzMTAsMTEyNT
+M2Mjc5MCwyMDU4NTA5ODkwLC00OTUyMzE2NDQsLTMyNjExMTg5
+NCwtMTc3MjI0MTgsMTkxODYxNjUxMCwyMTAwMzA5ODk3LC00Nz
+ExNzcxOTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNzQyMDgz
+NDE0XX0=
 -->
