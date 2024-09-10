@@ -749,16 +749,18 @@ You should use the  `public/`  folder for any images that should  **not be handl
 
 On the other hand, images that are used  **inside of components**  should typically be stored in the  `src/`  folder (e.g., in  `src/assets/`).
 
-### 
+### Component work in isolation	
+
+If you reuse a component, only the component you try to change, make the change
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1Mz
-YyNzkwLDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTExODk0
-LC0xNzcyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4OTcsLTQ3MT
-E3NzE5NywxOTk4Njc0ODAwLC0xOTkwMjk5NTYzLDE3NDIwODM0
-MTQsLTQzNzQ2ODU0OSw4Mzg1Njc0OTcsLTQxNTEwNzk2OCwtND
-gxMTY5NTEzLDE3Nzg2NjI1LDQ3ODMwODA0OCwtMjAzOTQyNjYy
-N119
+eyJoaXN0b3J5IjpbLTE2Njk0MDY3MDUsMTkyNTQ3MDIxNCw4OT
+E3ODMxMCwxMTI1MzYyNzkwLDIwNTg1MDk4OTAsLTQ5NTIzMTY0
+NCwtMzI2MTExODk0LC0xNzcyMjQxOCwxOTE4NjE2NTEwLDIxMD
+AzMDk4OTcsLTQ3MTE3NzE5NywxOTk4Njc0ODAwLC0xOTkwMjk5
+NTYzLDE3NDIwODM0MTQsLTQzNzQ2ODU0OSw4Mzg1Njc0OTcsLT
+QxNTEwNzk2OCwtNDgxMTY5NTEzLDE3Nzg2NjI1LDQ3ODMwODA0
+OF19
 -->
