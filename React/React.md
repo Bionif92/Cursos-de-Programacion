@@ -652,12 +652,12 @@ When you are setting props on a custom component those settings are not automati
 All extra props are set to the component
 ````
 export  default  function  Section({ title, children, ...props }) {
-return (
-<section  {...props}>
-<h2>{title}</h2>
-{children}
-</section>
-);
+	return (
+		<section  {...props}>
+			<h2>{title}</h2>
+			{children}
+		</section>
+		);
 }
 ````
 
@@ -665,7 +665,7 @@ return (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM1NjA1MywxOTk4Njc0ODAwLC0xOT
+eyJoaXN0b3J5IjpbLTQ3MTE3NzE5NywxOTk4Njc0ODAwLC0xOT
 kwMjk5NTYzLDE3NDIwODM0MTQsLTQzNzQ2ODU0OSw4Mzg1Njc0
 OTcsLTQxNTEwNzk2OCwtNDgxMTY5NTEzLDE3Nzg2NjI1LDQ3OD
 MwODA0OCwtMjAzOTQyNjYyNywtMjA4MzEwOTk0OSwxNTM4OTkz
