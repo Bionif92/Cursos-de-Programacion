@@ -620,14 +620,18 @@ Instead of `<div>` only use `<>`
 
 ### When you should split comments
 
+In this case, the two component of main, interact with the refresher and we dont want to, so we have to split
+
+### Splitting Components by Feature & State
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTEwNzk2OCwtNDgxMTY5NTEzLDE3Nz
-g2NjI1LDQ3ODMwODA0OCwtMjAzOTQyNjYyNywtMjA4MzEwOTk0
-OSwxNTM4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMj
-QwNDA0NDc3LC0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2
-MjgwLC0xNTY2MTE0NTczLDIxMjIwNzY3MDgsODkxMjU3NjkyLD
-EzNjE1MzA5NjcsLTE4MjE2NDg5NjcsLTEyMDUyMDAyODUsLTE2
-ODc0MTk4MF19
+eyJoaXN0b3J5IjpbODM4NTY3NDk3LC00MTUxMDc5NjgsLTQ4MT
+E2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgsLTIwMzk0MjY2Mjcs
+LTIwODMxMDk5NDksMTUzODk5MzQ0NywtODk3Mjg5NDEyLDE4NT
+M1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMywyMDMxMzcy
+MjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIyMDc2NzA4LD
+g5MTI1NzY5MiwxMzYxNTMwOTY3LC0xODIxNjQ4OTY3LC0xMjA1
+MjAwMjg1XX0=
 -->
