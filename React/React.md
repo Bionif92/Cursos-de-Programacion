@@ -683,7 +683,7 @@ Then adjust the Example.jsx with this blue print
 Use different wrappers dynamically in the component
 
 ````
-	export  default  function  Tabs({ children, buttons, buttonsContainer }) {
+	export  default  function  Tabs({ children, buttons, ButtonsContainer }) { // uppercase 
 	const  ButtonsContainer  =  buttonsContainer; // see the value of the parameter
 	return (
 		<>
@@ -700,7 +700,7 @@ The put buttonsContainer = 'menu' in the example
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODQ3ODcwNDMsLTE3NzIyNDE4LDE5MT
+eyJoaXN0b3J5IjpbLTEyMjQzMDY5NjUsLTE3NzIyNDE4LDE5MT
 g2MTY1MTAsMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4
 MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LD
 gzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMTc3ODY2
