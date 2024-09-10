@@ -663,13 +663,13 @@ export  default  function  Section({ title, children, ...props }) {
 
 Also with the onClick, put ...props in the component, and change the prop to OnClick
 
-### Working with Multiple JSX
+### Working with Multiple JSX Slots
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNzMxNjk1OCwtNDcxMTc3MTk3LDE5OT
+eyJoaXN0b3J5IjpbMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OT
 g2NzQ4MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4
 NTQ5LDgzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMT
 c3ODY2MjUsNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMDgzMTA5
