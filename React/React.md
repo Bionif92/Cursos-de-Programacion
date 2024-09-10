@@ -649,14 +649,27 @@ When you are setting props on a custom component those settings are not automati
 
 ### Forwarding Props to Wrapped Elements
 
+All extra props are set to the component
+````
+export  default  function  Section({ title, children, ...props }) {
+return (
+<section  {...props}>
+<h2>{title}</h2>
+{children}
+</section>
+);
+}
+````
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNz
-QyMDgzNDE0LC00Mzc0Njg1NDksODM4NTY3NDk3LC00MTUxMDc5
-NjgsLTQ4MTE2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgsLTIwMz
-k0MjY2MjcsLTIwODMxMDk5NDksMTUzODk5MzQ0NywtODk3Mjg5
-NDEyLDE4NTM1NzMxOTgsMTI0MDQwNDQ3NywtMTM1ODAzNDAzMy
-wyMDMxMzcyMjEsMTc1Nzg2NjI4MCwtMTU2NjExNDU3MywyMTIy
-MDc2NzA4XX0=
+eyJoaXN0b3J5IjpbLTEzMzM1NjA1MywxOTk4Njc0ODAwLC0xOT
+kwMjk5NTYzLDE3NDIwODM0MTQsLTQzNzQ2ODU0OSw4Mzg1Njc0
+OTcsLTQxNTEwNzk2OCwtNDgxMTY5NTEzLDE3Nzg2NjI1LDQ3OD
+MwODA0OCwtMjAzOTQyNjYyNywtMjA4MzEwOTk0OSwxNTM4OTkz
+NDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0NDc3LC
+0xMzU4MDM0MDMzLDIwMzEzNzIyMSwxNzU3ODY2MjgwLC0xNTY2
+MTE0NTczXX0=
 -->
