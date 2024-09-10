@@ -678,11 +678,13 @@ export  default  function  Tabs({ children, buttons }) {
 Then adjust the Example.jsx with this blue print
 ````
 
+### Setting Component Types Dynamically
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjMyOTQ1MCwyMTAwMzA5ODk3LC00Nz
+eyJoaXN0b3J5IjpbMTkxODYxNjUxMCwyMTAwMzA5ODk3LC00Nz
 ExNzcxOTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNzQyMDgz
 NDE0LC00Mzc0Njg1NDksODM4NTY3NDk3LC00MTUxMDc5NjgsLT
 Q4MTE2OTUxMywxNzc4NjYyNSw0NzgzMDgwNDgsLTIwMzk0MjY2
