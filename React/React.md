@@ -802,15 +802,17 @@ Two component that need the state of the player simultaneously, how?
 **Lifting the state up**
 Need to get the state to the closest ancestor, this case, the app.jsx
 
-###
+### Avoid Merging States
+
+Create a constant inside the state to se the other state
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzQwNjUyLC0xNzcwMjk4MTEwLDMzOT
-c3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwtMjUwMTQ0NDYy
-LC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsODkxNzgzMTAsMTEyNT
-M2Mjc5MCwyMDU4NTA5ODkwLC00OTUyMzE2NDQsLTMyNjExMTg5
-NCwtMTc3MjI0MTgsMTkxODYxNjUxMCwyMTAwMzA5ODk3LC00Nz
-ExNzcxOTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2MywxNzQyMDgz
-NDE0XX0=
+eyJoaXN0b3J5IjpbMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMj
+k4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwt
+MjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsODkxNz
+gzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkwLC00OTUyMzE2NDQs
+LTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxODYxNjUxMCwyMTAwMz
+A5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgwMCwtMTk5MDI5OTU2
+M119
 -->
