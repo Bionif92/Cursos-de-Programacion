@@ -723,8 +723,12 @@ If you have static data, you can put it right on the HTML
 </body>
 ````
 
+### Closer Look: public/ vs assets/ for Image Storage
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ1NjMxMCwyMDU4NTA5ODkwLC00OT
+eyJoaXN0b3J5IjpbMTc1NTMyOTAxNCwyMDU4NTA5ODkwLC00OT
 UyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0MTgsMTkxODYxNjUx
 MCwyMTAwMzA5ODk3LC00NzExNzcxOTcsMTk5ODY3NDgwMCwtMT
 k5MDI5OTU2MywxNzQyMDgzNDE0LC00Mzc0Njg1NDksODM4NTY3
