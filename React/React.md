@@ -645,12 +645,12 @@ Now example is executed when you clic but not components
 
 ### Problem: Props are not Forwarded to Inner Elements
 
-Whe
+When you are setting props on a custom component those settings are not automatically forwarded to the jsx code inside
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Nzc1MjM0NTgsMTc0MjA4MzQxNCwtND
+eyJoaXN0b3J5IjpbLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtND
 M3NDY4NTQ5LDgzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1
 MTMsMTc3ODY2MjUsNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMD
 gzMTA5OTQ5LDE1Mzg5OTM0NDcsLTg5NzI4OTQxMiwxODUzNTcz
