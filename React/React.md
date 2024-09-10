@@ -683,8 +683,7 @@ Then adjust the Example.jsx with this blue print
 Use different wrappers dynamically in the component
 
 ````
-	export  default  function  Tabs({ children, buttons, ButtonsContainer }) { // uppercase 
-	const  ButtonsContainer  =  buttonsContainer; // see the value of the parameter
+	export  default  function  Tabs({ children, buttons, ButtonsContainer }) { // uppercase needed
 	return (
 		<>
 		<ButtonsContainer>{buttons}</ButtonsContainer>
@@ -693,18 +692,18 @@ Use different wrappers dynamically in the component
 		);
 }
 
-The put buttonsContainer = 'menu' in the example
+The put ButtonsContainer = 'menu' in the example
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQzMDY5NjUsLTE3NzIyNDE4LDE5MT
-g2MTY1MTAsMjEwMDMwOTg5NywtNDcxMTc3MTk3LDE5OTg2NzQ4
-MDAsLTE5OTAyOTk1NjMsMTc0MjA4MzQxNCwtNDM3NDY4NTQ5LD
-gzODU2NzQ5NywtNDE1MTA3OTY4LC00ODExNjk1MTMsMTc3ODY2
-MjUsNDc4MzA4MDQ4LC0yMDM5NDI2NjI3LC0yMDgzMTA5OTQ5LD
-E1Mzg5OTM0NDcsLTg5NzI4OTQxMiwxODUzNTczMTk4LDEyNDA0
-MDQ0NzddfQ==
+eyJoaXN0b3J5IjpbNzQyMDY2NzYzLC0xNzcyMjQxOCwxOTE4Nj
+E2NTEwLDIxMDAzMDk4OTcsLTQ3MTE3NzE5NywxOTk4Njc0ODAw
+LC0xOTkwMjk5NTYzLDE3NDIwODM0MTQsLTQzNzQ2ODU0OSw4Mz
+g1Njc0OTcsLTQxNTEwNzk2OCwtNDgxMTY5NTEzLDE3Nzg2NjI1
+LDQ3ODMwODA0OCwtMjAzOTQyNjYyNywtMjA4MzEwOTk0OSwxNT
+M4OTkzNDQ3LC04OTcyODk0MTIsMTg1MzU3MzE5OCwxMjQwNDA0
+NDc3XX0=
 -->
