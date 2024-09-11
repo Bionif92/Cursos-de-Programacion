@@ -831,12 +831,18 @@ To restart the game, he need the original copy of the board, so we need to make 
 let  gameBoard  = [...initialGameBoard.map((array) => [...array])];
 ````
 
+### Final Polishing
+
+Gererate function ouside the main component if you can
+
+Generate general variables like INITIAL_GAME_BOARD
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMD
-A2ODc3MDg0LDExMDUxNjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIz
-MDgsMTcyMzQwNjUyLC0xNzcwMjk4MTEwLDMzOTc3MjgwNywxOD
-E3NDkyMTAxLDMxNjg3NjAyMiwtMjUwMTQ0NDYyLC0xNjY5NDA2
-NzA1LDE5MjU0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMD
-U4NTA5ODkwLC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0
-MThdfQ==
+eyJoaXN0b3J5IjpbMTA3NzE5OTc5OSwxNzU0NDE3NTAxLC0zOD
+MyODMzMDQsLTEwMDY4NzcwODQsMTEwNTE2MTcxMywtMTQzMjc3
+NzUzOSwxNTU2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMz
+M5NzcyODA3LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0
+NjIsLTE2Njk0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMxMCwxMT
+I1MzYyNzkwLDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMzI2MTEx
+ODk0XX0=
 -->
