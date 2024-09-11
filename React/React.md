@@ -837,8 +837,12 @@ Gererate function ouside the main component if you can
 
 Generate general variables like INITIAL_GAME_BOARD
 
+## Practice Project
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NzE5OTc5OSwxNzU0NDE3NTAxLC0zOD
+eyJoaXN0b3J5IjpbMjA4MTk3Mjk2NSwxNzU0NDE3NTAxLC0zOD
 MyODMzMDQsLTEwMDY4NzcwODQsMTEwNTE2MTcxMywtMTQzMjc3
 NzUzOSwxNTU2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMz
 M5NzcyODA3LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0
