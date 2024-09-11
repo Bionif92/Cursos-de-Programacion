@@ -814,13 +814,21 @@ Generate a state, here for the turns, and with that information, fill the inform
 
 See if all the components are related and use only once, state, then use the information of that state to update the information to the others
 
+### Dissabling Buttons Conditionally
+
+````
+<button
+onClick={() =>  onSelectSquare(rowIndex, colIndex)}
+disabled={playerSymbol !== null} // the condition
+>
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDY4NzcwODQsMTEwNTE2MTcxMywtMT
-QzMjc3NzUzOSwxNTU2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgx
-MTAsMzM5NzcyODA3LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNT
-AxNDQ0NjIsLTE2Njk0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMx
-MCwxMTI1MzYyNzkwLDIwNTg1MDk4OTAsLTQ5NTIzMTY0NCwtMz
-I2MTExODk0LC0xNzcyMjQxOCwxOTE4NjE2NTEwLDIxMDAzMDk4
-OTddfQ==
+eyJoaXN0b3J5IjpbLTM4MzI4MzMwNCwtMTAwNjg3NzA4NCwxMT
+A1MTYxNzEzLC0xNDMyNzc3NTM5LDE1NTYyMzA4LDE3MjM0MDY1
+MiwtMTc3MDI5ODExMCwzMzk3NzI4MDcsMTgxNzQ5MjEwMSwzMT
+Y4NzYwMjIsLTI1MDE0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcw
+MjE0LDg5MTc4MzEwLDExMjUzNjI3OTAsMjA1ODUwOTg5MCwtND
+k1MjMxNjQ0LC0zMjYxMTE4OTQsLTE3NzIyNDE4LDE5MTg2MTY1
+MTBdfQ==
 -->
