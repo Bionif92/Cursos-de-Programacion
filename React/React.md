@@ -844,12 +844,25 @@ Change the value on the screen with the prop value
 <input  type="number"  required  value={userInput.initialInvestment}  onChange={(event) =>  handleChange('initialInvestment',event.target.value)}/>
 ````
 
+The value of an event is always a string, need to change it to number if you need to make mathematical operations:
+
+````
+function  handleChange(inputIdentifier, newValue) {
+setUserInput((prevUserInput) => {
+return {
+...prevUserInput,
+[inputIdentifier]:  +newValue,
+};
+});
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1ND
-QxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3
-MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNz
-cwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAy
-MiwtMjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsOD
-kxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkwLC00OTUyMzE2
-NDRdfQ==
+eyJoaXN0b3J5IjpbMTQxNzQ1OTQzOCwtMjgxNzc0NjIsMjA4MT
+k3Mjk2NSwxNzU0NDE3NTAxLC0zODMyODMzMDQsLTEwMDY4Nzcw
+ODQsMTEwNTE2MTcxMywtMTQzMjc3NzUzOSwxNTU2MjMwOCwxNz
+IzNDA2NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3LDE4MTc0OTIx
+MDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0MDY3MDUsMT
+kyNTQ3MDIxNCw4OTE3ODMxMCwxMTI1MzYyNzkwLDIwNTg1MDk4
+OTBdfQ==
 -->
