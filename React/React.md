@@ -841,15 +841,15 @@ Generate general variables like INITIAL_GAME_BOARD
 
 Change the value on the screen with the prop value
 ````
-<input  type="number"  required  value={userInput}  onChange={(event) =>  handleChange('initialInvestment',event.target.value)}/>
+<input  type="number"  required  value={userInput.initialInvestment}  onChange={(event) =>  handleChange('initialInvestment',event.target.value)}/>
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjIwMDY1MywyMDgxOTcyOTY1LDE3NT
-Q0MTc1MDEsLTM4MzI4MzMwNCwtMTAwNjg3NzA4NCwxMTA1MTYx
-NzEzLC0xNDMyNzc3NTM5LDE1NTYyMzA4LDE3MjM0MDY1MiwtMT
-c3MDI5ODExMCwzMzk3NzI4MDcsMTgxNzQ5MjEwMSwzMTY4NzYw
-MjIsLTI1MDE0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcwMjE0LD
-g5MTc4MzEwLDExMjUzNjI3OTAsMjA1ODUwOTg5MCwtNDk1MjMx
-NjQ0XX0=
+eyJoaXN0b3J5IjpbLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1ND
+QxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3
+MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNz
+cwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAy
+MiwtMjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsOD
+kxNzgzMTAsMTEyNTM2Mjc5MCwyMDU4NTA5ODkwLC00OTUyMzE2
+NDRdfQ==
 -->
