@@ -823,12 +823,20 @@ disabled={playerSymbol !== null} // the condition
 >
 ````
 
+### Why Immutability Matters
+
+To restart the game, he need the original copy of the board, so we need to make a deep copy to play the game, and when restart make a copy again:
+
+````
+let  gameBoard  = [...initialGameBoard.map((array) => [...array])];
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MzI4MzMwNCwtMTAwNjg3NzA4NCwxMT
-A1MTYxNzEzLC0xNDMyNzc3NTM5LDE1NTYyMzA4LDE3MjM0MDY1
-MiwtMTc3MDI5ODExMCwzMzk3NzI4MDcsMTgxNzQ5MjEwMSwzMT
-Y4NzYwMjIsLTI1MDE0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcw
-MjE0LDg5MTc4MzEwLDExMjUzNjI3OTAsMjA1ODUwOTg5MCwtND
-k1MjMxNjQ0LC0zMjYxMTE4OTQsLTE3NzIyNDE4LDE5MTg2MTY1
-MTBdfQ==
+eyJoaXN0b3J5IjpbMTc1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMD
+A2ODc3MDg0LDExMDUxNjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIz
+MDgsMTcyMzQwNjUyLC0xNzcwMjk4MTEwLDMzOTc3MjgwNywxOD
+E3NDkyMTAxLDMxNjg3NjAyMiwtMjUwMTQ0NDYyLC0xNjY5NDA2
+NzA1LDE5MjU0NzAyMTQsODkxNzgzMTAsMTEyNTM2Mjc5MCwyMD
+U4NTA5ODkwLC00OTUyMzE2NDQsLTMyNjExMTg5NCwtMTc3MjI0
+MThdfQ==
 -->
