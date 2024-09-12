@@ -1140,12 +1140,35 @@ export  default  function  Header() {
 	);
 }
 ````
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NT
-Q4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2
-NSwtNjgwMDM1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4OD
-IyMDM5MCwxODY1MDg3NTc2LDI0NTg4NzMxLC05OTUyMTA0NCw3
-ODkzNjAxMSwtNzkxOTY0MzMsLTIwNjg5MzI3MzgsMTA2MzI4Mj
-UwMSwtMTYzNzM2OTQ4MCwtNDEyNDA4NTMsMTY0MzIwNTc4OF19
 
+### Adding & Using Tailwind CSS In A React Project
+
+Add an external font:
+
+````
+// tailwind.config.js
+/** @type  {import('tailwindcss').Config} */
+export  default {
+content: [
+"./index.html",
+"./src/**/*.{js,ts,jsx,tsx}",
+],
+theme: {
+extend: {
+	fontFamily: {
+		
+	}
+},
+},
+plugins: [],
+}
+````
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1MzcxOTY2NjksMTkxMTUxMjY0NywtNz
+M1MTg1MjE2LC04NTQ4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4
+NDgwLDk3ODc1NjY2NSwtNjgwMDM1NDYyLDg2NDA4MDI1NSwxMj
+MyNTYxOTg5LDU4ODIyMDM5MCwxODY1MDg3NTc2LDI0NTg4NzMx
+LC05OTUyMTA0NCw3ODkzNjAxMSwtNzkxOTY0MzMsLTIwNjg5Mz
+I3MzgsMTA2MzI4MjUwMSwtMTYzNzM2OTQ4MCwtNDEyNDA4NTNd
+fQ==
 -->
