@@ -863,7 +863,7 @@ function  handleChange(inputIdentifier, newValue) {
 
 Vite identify the css file that you will use in the project
 
-You can split the css files and put them next to the component or where you need it : need to put the import of the css into the component
+You can split the css files and put them next to the files that use it : need to put the import of the css into the component
 
 ### Props & Cons of using vanilla CSS
 
@@ -877,8 +877,12 @@ Disadvantajes:
  - Need to kwon CSS
  - CSS rules may clash across components
 
+### Vanilla CSS Styles are not scoped to components
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjE5MjIzMjEsMTI4OTI0OTEwMywxNj
+eyJoaXN0b3J5IjpbLTEyNDQxNTQxMTMsMTI4OTI0OTEwMywxNj
 c4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1NDQxNzUw
 MSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3MTMsLT
 E0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMjk4
