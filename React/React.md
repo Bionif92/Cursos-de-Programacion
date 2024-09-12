@@ -926,13 +926,29 @@ CSS Modules: Vanilla CSS with file-specific scoping
 
 `.module.css` needed
 
+````
+import  classes  from  "./Header.module.css";
+
+export  default  function  Header() {
+	return (
+		<header>
+			<img  src={logo}  alt="A canvas"  />
+			<h1>ReactArt</h1>
+			<p  className={classes.paragraph}>
+			A community of artists and art-lovers.
+			</p>
+		</header>
+	);
+}
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzczNjk0ODAsLTQxMjQwODUzLDE2ND
-MyMDU3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0
-OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMT
-c1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUx
-NjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC
-0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3
-NjAyMl19
+eyJoaXN0b3J5IjpbMTA2MzI4MjUwMSwtMTYzNzM2OTQ4MCwtND
+EyNDA4NTMsMTY0MzIwNTc4OCwtMjA3NjMzNzYxOSwtMTI0NDE1
+NDExMywxMjg5MjQ5MTAzLDE2Nzg2MzM4NCwtMjgxNzc0NjIsMj
+A4MTk3Mjk2NSwxNzU0NDE3NTAxLC0zODMyODMzMDQsLTEwMDY4
+NzcwODQsMTEwNTE2MTcxMywtMTQzMjc3NzUzOSwxNTU2MjMwOC
+wxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3LDE4MTc0
+OTIxMDFdfQ==
 -->
