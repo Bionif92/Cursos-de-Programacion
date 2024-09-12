@@ -988,10 +988,11 @@ color: #6b7280;
 
 ### Dynamic & Conditional Styling with Styled Components
 
-
+````
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MzE0ODYzMCwyNDU4ODczMSwtOTk1Mj
+eyJoaXN0b3J5IjpbMTg2NTA4NzU3NiwyNDU4ODczMSwtOTk1Mj
 EwNDQsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OTMyNzM4LDEw
 NjMyODI1MDEsLTE2MzczNjk0ODAsLTQxMjQwODUzLDE2NDMyMD
 U3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0OTEw
