@@ -863,14 +863,14 @@ function  handleChange(inputIdentifier, newValue) {
 
 Vite identify the css file that you will use in the project
 
-You can split the files
+You can split the css files and put them next to the component or where you need it : need to put the import of the css into the component
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTkxNTIxNzMsMTI4OTI0OTEwMywxNj
-c4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1NDQxNzUw
-MSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3MTMsLT
-E0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMjk4
-MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwtMj
-UwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0NzAyMTQsODkxNzgz
-MTBdfQ==
+eyJoaXN0b3J5IjpbNTcyNzg5MDMzLDEyODkyNDkxMDMsMTY3OD
+YzMzg0LC0yODE3NzQ2MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEs
+LTM4MzI4MzMwNCwtMTAwNjg3NzA4NCwxMTA1MTYxNzEzLC0xND
+MyNzc3NTM5LDE1NTYyMzA4LDE3MjM0MDY1MiwtMTc3MDI5ODEx
+MCwzMzk3NzI4MDcsMTgxNzQ5MjEwMSwzMTY4NzYwMjIsLTI1MD
+E0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcwMjE0LDg5MTc4MzEw
+XX0=
 -->
