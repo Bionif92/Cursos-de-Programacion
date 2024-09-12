@@ -1026,12 +1026,41 @@ Be careful, the $ is not to clash the props
 
 ### Styled Components: Pseudo Selectors, Nested Rules & Media Queries
 
+````
+const  StyleHeader  =  styled.header`
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-top: 2rem;
+margin-bottom: 2rem;
+
+& img {
+object-fit: contain;
+margin-bottom: 2rem;
+width: 11rem;
+height: 11rem;
+}
+
+@media (min-width: 768px) {
+	& {
+	margin-bottom: 4rem;
+	}
+		& h1 {
+		font-size: 2.25rem;
+		}
+		}
+
+`;
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0MDgwMjU1LDEyMzI1NjE5ODksNTg4Mj
-IwMzkwLDE4NjUwODc1NzYsMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4
-OTM2MDExLC03OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNT
-AxLC0xNjM3MzY5NDgwLC00MTI0MDg1MywxNjQzMjA1Nzg4LC0y
-MDc2MzM3NjE5LC0xMjQ0MTU0MTEzLDEyODkyNDkxMDMsMTY3OD
-YzMzg0LC0yODE3NzQ2MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDFd
+eyJoaXN0b3J5IjpbMjA3MDE4NTMxMSw4NjQwODAyNTUsMTIzMj
+U2MTk4OSw1ODgyMjAzOTAsMTg2NTA4NzU3NiwyNDU4ODczMSwt
+OTk1MjEwNDQsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OTMyNz
+M4LDEwNjMyODI1MDEsLTE2MzczNjk0ODAsLTQxMjQwODUzLDE2
+NDMyMDU3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OT
+I0OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjVd
 fQ==
 -->
