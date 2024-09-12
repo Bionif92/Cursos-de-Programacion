@@ -1191,12 +1191,20 @@ if(invalid) {
 ### Tailwind CSS: Pros & Cons
 
 Work really well with React because you can reuse the components with the classes
+
+Dont have clashes between components because you dont define css rules
+
+Cons:
+
+ - Long class names values
+ - Any style changes need editing 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTc3MDExMTcsMTgzODg1NDc2Niw4OT
-A4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03MzUxODUy
-MTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMjU4NTg0ODAsOT
-c4NzU2NjY1LC02ODAwMzU0NjIsODY0MDgwMjU1LDEyMzI1NjE5
-ODksNTg4MjIwMzkwLDE4NjUwODc1NzYsMjQ1ODg3MzEsLTk5NT
-IxMDQ0LDc4OTM2MDExLC03OTE5NjQzMywtMjA2ODkzMjczOF19
+eyJoaXN0b3J5IjpbLTkzNzcwNjI3NywxODM4ODU0NzY2LDg5MD
+gwMjA0MiwtNDY2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIx
+NiwtODU0ODIzMDA3LDUyNDQ4MTYzMSwtMTEyNTg1ODQ4MCw5Nz
+g3NTY2NjUsLTY4MDAzNTQ2Miw4NjQwODAyNTUsMTIzMjU2MTk4
+OSw1ODgyMjAzOTAsMTg2NTA4NzU3NiwyNDU4ODczMSwtOTk1Mj
+EwNDQsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OTMyNzM4XX0=
 
 -->
