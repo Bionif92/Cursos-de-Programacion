@@ -1074,12 +1074,32 @@ background-color: #f0920e;
 
 ### Creating Reusable Components & Component Combinations
 
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MD
-gwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzYs
-MjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5NjQzMy
-wtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgwLC00
-MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5LC0xMjQ0MT
-U0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0LC0yODE3NzQ2Ml19
+Put styled CSS into separated files, if they are related you can do this:
 
+````
+import { styled } from  "styled-components"
+
+const  Label  =  styled.label`
+...
+`;
+
+const  Input  =  styled.input`
+...
+`;
+
+export  function  CustomInput ( {label, ...props} ) {
+return  <p>
+<Label>{label}</Label>
+<Input  {...props}/>
+</p>
+}
+````
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE2MTU4Nzg2MzksOTc4NzU2NjY1LC02OD
+AwMzU0NjIsODY0MDgwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkw
+LDE4NjUwODc1NzYsMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MD
+ExLC03OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0x
+NjM3MzY5NDgwLC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2Mz
+M3NjE5LC0xMjQ0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0
+XX0=
 -->
