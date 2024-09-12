@@ -861,10 +861,12 @@ function  handleChange(inputIdentifier, newValue) {
 
 ### Splitting CSS code across multiple files
 
-Vite 
+Vite identify the css file that you will use in the project
+
+You can split the files
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTk4MjE0MjQsMTI4OTI0OTEwMywxNj
+eyJoaXN0b3J5IjpbLTE3NTkxNTIxNzMsMTI4OTI0OTEwMywxNj
 c4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1NDQxNzUw
 MSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3MTMsLT
 E0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMjk4
