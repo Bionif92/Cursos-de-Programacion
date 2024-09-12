@@ -1087,21 +1087,25 @@ const  Input  =  styled.input`
 ...
 `;
 
-export  function  CustomInput ( {label, ...props} ) {
-	return  <p>
-		<Label>{label}</Label>
-		<Input  {...props}/>
-	</p>
+export  function  CustomInput ( {label, invalid, ...props} ) {
+return  <p>
+
+<Label  $invalid={invalid}>{label}</Label>
+
+<Input  $invalid={invalid}  {...props}/>
+
+</p>
+
 }
 ````
 If there is one thing to export you can use default:
 `export default Button`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2Nzk5MjE3LDk3ODc1NjY2NSwtNjgwMD
-M1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4ODIyMDM5MCwx
-ODY1MDg3NTc2LDI0NTg4NzMxLC05OTUyMTA0NCw3ODkzNjAxMS
-wtNzkxOTY0MzMsLTIwNjg5MzI3MzgsMTA2MzI4MjUwMSwtMTYz
-NzM2OTQ4MCwtNDEyNDA4NTMsMTY0MzIwNTc4OCwtMjA3NjMzNz
-YxOSwtMTI0NDE1NDExMywxMjg5MjQ5MTAzLDE2Nzg2MzM4NF19
-
+eyJoaXN0b3J5IjpbLTE4MjI0Njk4NDgsOTc4NzU2NjY1LC02OD
+AwMzU0NjIsODY0MDgwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkw
+LDE4NjUwODc1NzYsMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MD
+ExLC03OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0x
+NjM3MzY5NDgwLC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2Mz
+M3NjE5LC0xMjQ0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0
+XX0=
 -->
