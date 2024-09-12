@@ -1057,32 +1057,25 @@ height: 11rem;
 For pseudo:
 ````
 const  Button  =  styled.button`
-
 padding: 1rem 2rem;
-
 font-weight: 600;
-
 text-transform: uppercase;
-
 border-radius: 0.25rem;
-
 color: #1f2937;
-
 background-color: #f0b322;
-
 border-radius: 6px;
-
 border: none;
 
-  
 &:hover {
 background-color: #f0920e;
 }
 `;
 ````
 
+### Creating Reusable Components & Component Combinations
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgxNzc4MzQxLC02ODAwMzU0NjIsODY0MD
+eyJoaXN0b3J5IjpbOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MD
 gwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzYs
 MjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5NjQzMy
 wtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgwLC00
