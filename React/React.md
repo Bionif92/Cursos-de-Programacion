@@ -903,10 +903,10 @@ Apply only to the thing you put the style
 Disadvantage: 
 
  - need to style every element individually
- - 
+ - no separation between JSX & CSS
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTc3Mzk1MSwtMTI0NDE1NDExMywxMj
+eyJoaXN0b3J5IjpbMTc3MjY4NTM1NiwtMTI0NDE1NDExMywxMj
 g5MjQ5MTAzLDE2Nzg2MzM4NCwtMjgxNzc0NjIsMjA4MTk3Mjk2
 NSwxNzU0NDE3NTAxLC0zODMyODMzMDQsLTEwMDY4NzcwODQsMT
 EwNTE2MTcxMywtMTQzMjc3NzUzOSwxNTU2MjMwOCwxNzIzNDA2
