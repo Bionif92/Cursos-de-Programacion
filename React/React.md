@@ -1197,10 +1197,12 @@ Dont have clashes between components because you dont define css rules
 Cons:
 
  - Long class names values
- - Any style changes need editing 
+ - Any style changes need editing JSX
+
+## Debbuging React Apps
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzcwNjI3NywxODM4ODU0NzY2LDg5MD
+eyJoaXN0b3J5IjpbMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MD
 gwMjA0MiwtNDY2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIx
 NiwtODU0ODIzMDA3LDUyNDQ4MTYzMSwtMTEyNTg1ODQ4MCw5Nz
 g3NTY2NjUsLTY4MDAzNTQ2Miw4NjQwODAyNTUsMTIzMjU2MTk4
