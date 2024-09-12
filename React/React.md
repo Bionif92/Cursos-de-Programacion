@@ -1056,14 +1056,37 @@ height: 11rem;
 ````
 For pseudo:
 ````
+const  Button  =  styled.button`
+
+padding: 1rem 2rem;
+
+font-weight: 600;
+
+text-transform: uppercase;
+
+border-radius: 0.25rem;
+
+color: #1f2937;
+
+background-color: #f0b322;
+
+border-radius: 6px;
+
+border: none;
+
+  
+&:hover {
+background-color: #f0920e;
+}
+`;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MDAzNTQ2Miw4NjQwODAyNTUsMTIzMj
-U2MTk4OSw1ODgyMjAzOTAsMTg2NTA4NzU3NiwyNDU4ODczMSwt
-OTk1MjEwNDQsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OTMyNz
-M4LDEwNjMyODI1MDEsLTE2MzczNjk0ODAsLTQxMjQwODUzLDE2
-NDMyMDU3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OT
-I0OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjVd
-fQ==
+eyJoaXN0b3J5IjpbOTgxNzc4MzQxLC02ODAwMzU0NjIsODY0MD
+gwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzYs
+MjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5NjQzMy
+wtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgwLC00
+MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5LC0xMjQ0MT
+U0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0LC0yODE3NzQ2Ml19
+
 -->
