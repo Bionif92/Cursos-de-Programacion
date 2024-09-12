@@ -1108,13 +1108,26 @@ https://tailwindcss.com/docs/guides/vite
 ````
 //terminal
 npm install -D tailwindcss postcss autoprefixernpx tailwindcss init -p
+
+// tailwind.config.js
+/** @type  {import('tailwindcss').Config} */
+export  default {
+content: [
+"./index.html",
+"./src/**/*.{js,ts,jsx,tsx}",
+],
+theme: {
+extend: {},
+},
+plugins: [],
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMj
-U4NTg0ODAsOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MDgwMjU1
-LDEyMzI1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzYsMjQ1OD
-g3MzEsLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5NjQzMywtMjA2
-ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgwLC00MTI0MD
-g1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5LC0xMjQ0MTU0MTEz
-XX0=
+eyJoaXN0b3J5IjpbLTUwNTEyMjA3MywtODU0ODIzMDA3LDUyND
+Q4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2
+Miw4NjQwODAyNTUsMTIzMjU2MTk4OSw1ODgyMjAzOTAsMTg2NT
+A4NzU3NiwyNDU4ODczMSwtOTk1MjEwNDQsNzg5MzYwMTEsLTc5
+MTk2NDMzLC0yMDY4OTMyNzM4LDEwNjMyODI1MDEsLTE2MzczNj
+k0ODAsLTQxMjQwODUzLDE2NDMyMDU3ODgsLTIwNzYzMzc2MTld
+fQ==
 -->
