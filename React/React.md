@@ -920,13 +920,17 @@ Adding class dynamically
 <label  className={`label ${emailNotValid ? 'invalid' : ''}`}>Email</label> // label is a permanent class, invalid is conditional
 ````
 
+### Scoping CSS Rules with CSS Modules
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODI4MDAzNzQsLTQxMjQwODUzLDE2ND
-MyMDU3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0
-OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMT
-c1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUx
-NjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC
-0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3
-NjAyMl19
+eyJoaXN0b3J5IjpbMjA0MDAyMDc2OCwtNDEyNDA4NTMsMTY0Mz
+IwNTc4OCwtMjA3NjMzNzYxOSwtMTI0NDE1NDExMywxMjg5MjQ5
+MTAzLDE2Nzg2MzM4NCwtMjgxNzc0NjIsMjA4MTk3Mjk2NSwxNz
+U0NDE3NTAxLC0zODMyODMzMDQsLTEwMDY4NzcwODQsMTEwNTE2
+MTcxMywtMTQzMjc3NzUzOSwxNTU2MjMwOCwxNzIzNDA2NTIsLT
+E3NzAyOTgxMTAsMzM5NzcyODA3LDE4MTc0OTIxMDEsMzE2ODc2
+MDIyXX0=
 -->
