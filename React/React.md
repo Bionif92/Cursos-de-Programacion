@@ -915,14 +915,18 @@ backgroundColor:  emailNotValid ? '#fed2d2' : '#d1d5db'
 
 ### Dynamic & Conditional Styling with CSS Files & CSS Classes
 
+Adding class dynamically
+````
+className={emailNotValid ? "invalid" : undefined}
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzIwNTc4OCwtMjA3NjMzNzYxOSwtMT
-I0NDE1NDExMywxMjg5MjQ5MTAzLDE2Nzg2MzM4NCwtMjgxNzc0
-NjIsMjA4MTk3Mjk2NSwxNzU0NDE3NTAxLC0zODMyODMzMDQsLT
-EwMDY4NzcwODQsMTEwNTE2MTcxMywtMTQzMjc3NzUzOSwxNTU2
-MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3LD
-E4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0
-MDY3MDVdfQ==
+eyJoaXN0b3J5IjpbLTQxMjQwODUzLDE2NDMyMDU3ODgsLTIwNz
+YzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0OTEwMywxNjc4NjMz
+ODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1NDQxNzUwMSwtMz
+gzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3MTMsLTE0MzI3
+Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMjk4MTEwLD
+MzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwtMjUwMTQ0
+NDYyXX0=
 -->
