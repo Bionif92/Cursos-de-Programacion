@@ -1100,8 +1100,12 @@ If there is one thing to export you can use default:
 ### Introducing Tailwind CSS For React App Styling
 
 CSS Framework
+
+Dont need to know CSS to use it
+
+https://tailwindcss.com/docs/guides/vite
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2Mzg3Mjc5LDUyNDQ4MTYzMSwtMTEyNT
+eyJoaXN0b3J5IjpbMTAyNTg4MzQ4LDUyNDQ4MTYzMSwtMTEyNT
 g1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2Miw4NjQwODAyNTUs
 MTIzMjU2MTk4OSw1ODgyMjAzOTAsMTg2NTA4NzU3NiwyNDU4OD
 czMSwtOTk1MjEwNDQsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4
