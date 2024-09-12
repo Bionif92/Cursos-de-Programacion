@@ -1105,6 +1105,8 @@ Dont need to know CSS to use it
 
 https://tailwindcss.com/docs/guides/vite
 
+Inportant to see the Docs
+
 ````
 //terminal
 npm install -D tailwindcss postcss autoprefixernpx tailwindcss init -p
@@ -1128,11 +1130,11 @@ plugins: [],
 @tailwind utilities;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTE4NTIxNiwtODU0ODIzMDA3LDUyND
-Q4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2
-Miw4NjQwODAyNTUsMTIzMjU2MTk4OSw1ODgyMjAzOTAsMTg2NT
-A4NzU3NiwyNDU4ODczMSwtOTk1MjEwNDQsNzg5MzYwMTEsLTc5
-MTk2NDMzLC0yMDY4OTMyNzM4LDEwNjMyODI1MDEsLTE2MzczNj
-k0ODAsLTQxMjQwODUzLDE2NDMyMDU3ODgsLTIwNzYzMzc2MTld
-fQ==
+eyJoaXN0b3J5IjpbMTQ2NTYwNzgzNywtNzM1MTg1MjE2LC04NT
+Q4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2
+NSwtNjgwMDM1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4OD
+IyMDM5MCwxODY1MDg3NTc2LDI0NTg4NzMxLC05OTUyMTA0NCw3
+ODkzNjAxMSwtNzkxOTY0MzMsLTIwNjg5MzI3MzgsMTA2MzI4Mj
+UwMSwtMTYzNzM2OTQ4MCwtNDEyNDA4NTMsMTY0MzIwNTc4OF19
+
 -->
