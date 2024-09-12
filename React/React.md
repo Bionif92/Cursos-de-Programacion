@@ -972,12 +972,26 @@ If you want you can import them like the components to use them wherever you wan
 
 ### Creating Flexible Components with Styled Components
 
+````
+const  Label  =  styled.label`
+display: block;
+margin-bottom: 0.5rem;
+font-size: 0.75rem;
+font-weight: 700;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #6b7280;
+`;
+
+<Label  className={`label ${emailNotValid ? "invalid" : ""}`}>
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MD
-ExLC03OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0x
-NjM3MzY5NDgwLC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2Mz
-M3NjE5LC0xMjQ0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0
-LC0yODE3NzQ2MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEsLTM4Mz
-I4MzMwNCwtMTAwNjg3NzA4NCwxMTA1MTYxNzEzLC0xNDMyNzc3
-NTM5XX0=
+eyJoaXN0b3J5IjpbMzgwNjY4NywyNDU4ODczMSwtOTk1MjEwND
+QsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OTMyNzM4LDEwNjMy
+ODI1MDEsLTE2MzczNjk0ODAsLTQxMjQwODUzLDE2NDMyMDU3OD
+gsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0OTEwMywx
+Njc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1NDQxNz
+UwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3MTNd
+fQ==
 -->
