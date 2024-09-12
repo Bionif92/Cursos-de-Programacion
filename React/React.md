@@ -865,12 +865,16 @@ Vite identify the css file that you will use in the project
 
 You can split the css files and put them next to the component or where you need it : need to put the import of the css into the component
 
+### Props & Cons of using vanilla CSS
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcyNzg5MDMzLDEyODkyNDkxMDMsMTY3OD
-YzMzg0LC0yODE3NzQ2MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEs
-LTM4MzI4MzMwNCwtMTAwNjg3NzA4NCwxMTA1MTYxNzEzLC0xND
-MyNzc3NTM5LDE1NTYyMzA4LDE3MjM0MDY1MiwtMTc3MDI5ODEx
-MCwzMzk3NzI4MDcsMTgxNzQ5MjEwMSwzMTY4NzYwMjIsLTI1MD
-E0NDQ2MiwtMTY2OTQwNjcwNSwxOTI1NDcwMjE0LDg5MTc4MzEw
-XX0=
+eyJoaXN0b3J5IjpbLTQ5NzIzMjM0NiwxMjg5MjQ5MTAzLDE2Nz
+g2MzM4NCwtMjgxNzc0NjIsMjA4MTk3Mjk2NSwxNzU0NDE3NTAx
+LC0zODMyODMzMDQsLTEwMDY4NzcwODQsMTEwNTE2MTcxMywtMT
+QzMjc3NzUzOSwxNTU2MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgx
+MTAsMzM5NzcyODA3LDE4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNT
+AxNDQ0NjIsLTE2Njk0MDY3MDUsMTkyNTQ3MDIxNCw4OTE3ODMx
+MF19
 -->
