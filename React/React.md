@@ -1175,11 +1175,20 @@ Search Responsive Design to see the shortcuts to write them
 ### Dynamic & Conditional Styling with Tailwind
 
 ````
-export default function But
-className= ""
+export default function Input () {
+let labelClasses = "classes1"
+
+if(invalid) {
+	lableClasses = "classes2"
+}
+	return(
+	className= {}
+	)
+}
+
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI0NTg5NCw4OTA4MDIwNDIsLTQ2Nj
+eyJoaXN0b3J5IjpbLTU4NzQyNzg3Niw4OTA4MDIwNDIsLTQ2Nj
 AxNzc3NiwxOTExNTEyNjQ3LC03MzUxODUyMTYsLTg1NDgyMzAw
 Nyw1MjQ0ODE2MzEsLTExMjU4NTg0ODAsOTc4NzU2NjY1LC02OD
 AwMzU0NjIsODY0MDgwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkw
