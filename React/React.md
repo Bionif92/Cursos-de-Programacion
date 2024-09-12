@@ -951,15 +951,31 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
 ````
 // terminal
 npm install styled-components
+
+//.jsx
+import { styled } from  'styled-components';
+
+const  ControlContainer  =  styled.div`
+display: flex;
+flex-direction: column;
+gap: 0.5rem;
+margin-bottom: 1.5rem;
+`
+
+return (
+	<ControlContainer>
+	</ControlContainer>
+);
 ````
 
+If you want you can import them like the components to use them wherever you want
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OT
-MyNzM4LDEwNjMyODI1MDEsLTE2MzczNjk0ODAsLTQxMjQwODUz
-LDE2NDMyMDU3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMT
-I4OTI0OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5
-NjUsMTc1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LD
-ExMDUxNjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQw
-NjUyXX0=
+eyJoaXN0b3J5IjpbLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5Nj
+QzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgw
+LC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5LC0xMj
+Q0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0LC0yODE3NzQ2
+MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEsLTM4MzI4MzMwNCwtMT
+AwNjg3NzA4NCwxMTA1MTYxNzEzLC0xNDMyNzc3NTM5LDE1NTYy
+MzA4XX0=
 -->
