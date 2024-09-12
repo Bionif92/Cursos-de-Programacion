@@ -996,10 +996,10 @@ font-size: 0.75rem;
 font-weight: 700;
 letter-spacing: 0.1em;
 text-transform: uppercase;
-color: ${({ invalid }) => (invalid ? "#f87171" : "#6b7280")};
+color: ${({ $invalid }) => ($invalid ? "#f87171" : "#6b7280")};
 `;
 
-<Label  invalid={emailNotValid}>Email</Label>
+<Label  $invalid={emailNotValid}>Email</Label>
 ````
 
 ````
@@ -1007,29 +1007,29 @@ const  Input  =  styled.input`
 width: 100%;
 padding: 0.75rem 1rem;
 line-height: 1.5;
-background-color: ${({ invalid }) => (invalid ? "#fed2d2" : "#d1d5db")};
-color: ${({ invalid }) => (invalid ? "#ef4444" : "#374151")};
-border-color: ${({ invalid }) => (invalid ? "#f73f3f" : "undefined")}
+background-color: ${({ $invalid }) => ($invalid ? "#fed2d2" : "#d1d5db")};
+color: ${({ $invalid }) => ($invalid ? "#ef4444" : "#374151")};
+border-color: ${({ $invalid }) => ($invalid ? "#f73f3f" : "undefined")}
 border: 1px solid transparent;
 border-radius: 0.25rem;
 box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 `;
 
 <Input
-	invalid={passwordNotValid}
+	$invalid={passwordNotValid}
 	type="email"
 	onChange={(event) =>  handleInputChange("email", event.target.value)}
 />
 ````
 
-Be careful, to
+Be careful, the $ is not to clash the props
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDcyMjcwNTMsNTg4MjIwMzkwLDE4Nj
-UwODc1NzYsMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MDExLC03
-OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3Mz
-Y5NDgwLC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5
-LC0xMjQ0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0LC0yOD
-E3NzQ2MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEsLTM4MzI4MzMw
-NF19
+eyJoaXN0b3J5IjpbMTIzMjU2MTk4OSw1ODgyMjAzOTAsMTg2NT
+A4NzU3NiwyNDU4ODczMSwtOTk1MjEwNDQsNzg5MzYwMTEsLTc5
+MTk2NDMzLC0yMDY4OTMyNzM4LDEwNjMyODI1MDEsLTE2MzczNj
+k0ODAsLTQxMjQwODUzLDE2NDMyMDU3ODgsLTIwNzYzMzc2MTks
+LTEyNDQxNTQxMTMsMTI4OTI0OTEwMywxNjc4NjMzODQsLTI4MT
+c3NDYyLDIwODE5NzI5NjUsMTc1NDQxNzUwMSwtMzgzMjgzMzA0
+XX0=
 -->
