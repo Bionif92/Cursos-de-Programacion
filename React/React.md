@@ -955,7 +955,7 @@ npm install styled-components
 //.jsx
 import { styled } from  'styled-components';
 
-const  ControlContainer  =  styled.div`
+const  ControlContainer  =  styled.div` // important the tag
 display: flex;
 flex-direction: column;
 gap: 0.5rem;
@@ -970,12 +970,14 @@ return (
 
 If you want you can import them like the components to use them wherever you want
 
+### Creating Flexible Components with Styled Components
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5Nj
-QzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgw
-LC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5LC0xMj
-Q0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0LC0yODE3NzQ2
-MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEsLTM4MzI4MzMwNCwtMT
-AwNjg3NzA4NCwxMTA1MTYxNzEzLC0xNDMyNzc3NTM5LDE1NTYy
-MzA4XX0=
+eyJoaXN0b3J5IjpbMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MD
+ExLC03OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0x
+NjM3MzY5NDgwLC00MTI0MDg1MywxNjQzMjA1Nzg4LC0yMDc2Mz
+M3NjE5LC0xMjQ0MTU0MTEzLDEyODkyNDkxMDMsMTY3ODYzMzg0
+LC0yODE3NzQ2MiwyMDgxOTcyOTY1LDE3NTQ0MTc1MDEsLTM4Mz
+I4MzMwNCwtMTAwNjg3NzA4NCwxMTA1MTYxNzEzLC0xNDMyNzc3
+NTM5XX0=
 -->
