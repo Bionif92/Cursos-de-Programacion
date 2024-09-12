@@ -989,14 +989,25 @@ color: #6b7280;
 ### Dynamic & Conditional Styling with Styled Components
 
 ````
+const  Label  =  styled.label`
+display: block;
+margin-bottom: 0.5rem;
+font-size: 0.75rem;
+font-weight: 700;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: ${({ invalid }) => (invalid ? "#f87171" : "#6b7280")};
+`;
+
+<Label  invalid={emailNotValid}>Email</Label>
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTA4NzU3NiwyNDU4ODczMSwtOTk1Mj
-EwNDQsNzg5MzYwMTEsLTc5MTk2NDMzLC0yMDY4OTMyNzM4LDEw
-NjMyODI1MDEsLTE2MzczNjk0ODAsLTQxMjQwODUzLDE2NDMyMD
-U3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0OTEw
-MywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1ND
-QxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3
-MTNdfQ==
+eyJoaXN0b3J5IjpbNTg4MjIwMzkwLDE4NjUwODc1NzYsMjQ1OD
+g3MzEsLTk5NTIxMDQ0LDc4OTM2MDExLC03OTE5NjQzMywtMjA2
+ODkzMjczOCwxMDYzMjgyNTAxLC0xNjM3MzY5NDgwLC00MTI0MD
+g1MywxNjQzMjA1Nzg4LC0yMDc2MzM3NjE5LC0xMjQ0MTU0MTEz
+LDEyODkyNDkxMDMsMTY3ODYzMzg0LC0yODE3NzQ2MiwyMDgxOT
+cyOTY1LDE3NTQ0MTc1MDEsLTM4MzI4MzMwNCwtMTAwNjg3NzA4
+NF19
 -->
