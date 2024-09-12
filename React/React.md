@@ -1088,20 +1088,16 @@ const  Input  =  styled.input`
 `;
 
 export  function  CustomInput ( {label, invalid, ...props} ) {
-return  <p>
-
-<Label  $invalid={invalid}>{label}</Label>
-
-<Input  $invalid={invalid}  {...props}/>
-
-</p>
-
+	return  <p>
+		<Label  $invalid={invalid}>{label}</Label>
+		<Input  $invalid={invalid}  {...props}/>
+	</p>
 }
 ````
 If there is one thing to export you can use default:
 `export default Button`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjI0Njk4NDgsOTc4NzU2NjY1LC02OD
+eyJoaXN0b3J5IjpbLTExMjU4NTg0ODAsOTc4NzU2NjY1LC02OD
 AwMzU0NjIsODY0MDgwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkw
 LDE4NjUwODc1NzYsMjQ1ODg3MzEsLTk5NTIxMDQ0LDc4OTM2MD
 ExLC03OTE5NjQzMywtMjA2ODkzMjczOCwxMDYzMjgyNTAxLC0x
