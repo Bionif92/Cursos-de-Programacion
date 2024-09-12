@@ -917,16 +917,16 @@ backgroundColor:  emailNotValid ? '#fed2d2' : '#d1d5db'
 
 Adding class dynamically
 ````
-className={emailNotValid ? "invalid" : undefined}
+<label  className={`label ${emailNotValid ? 'invalid' : ''}`}>Email</label> // label is a permanent class, invalid is conditional
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjQwODUzLDE2NDMyMDU3ODgsLTIwNz
-YzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0OTEwMywxNjc4NjMz
-ODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMTc1NDQxNzUwMSwtMz
-gzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUxNjE3MTMsLTE0MzI3
-Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC0xNzcwMjk4MTEwLD
-MzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3NjAyMiwtMjUwMTQ0
-NDYyXX0=
+eyJoaXN0b3J5IjpbLTEzODI4MDAzNzQsLTQxMjQwODUzLDE2ND
+MyMDU3ODgsLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMTI4OTI0
+OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5NjUsMT
+c1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LDExMDUx
+NjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQwNjUyLC
+0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLDMxNjg3
+NjAyMl19
 -->
