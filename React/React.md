@@ -883,10 +883,20 @@ The CSS are scoped globally to the page if they are not specific
 
 ### Styling React Apps with Inline Styles
 
-
+````
+export  default  function  Header() {
+	return (
+		<header>
+			<img  src={logo}  alt="A canvas"  />
+			<h1>ReactArt</h1>
+			<p style={}>A community of artists and art-lovers.</p>
+		</header>
+	);
+}
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkxMjI4NTUsLTEyNDQxNTQxMTMsMT
+eyJoaXN0b3J5IjpbLTExNTQ0NjY1NzEsLTEyNDQxNTQxMTMsMT
 I4OTI0OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5
 NjUsMTc1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LD
 ExMDUxNjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQw
