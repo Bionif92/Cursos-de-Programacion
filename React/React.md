@@ -1121,9 +1121,14 @@ extend: {},
 },
 plugins: [],
 }
+
+//index.css
+@tailwind base;  
+@tailwind components;  
+@tailwind utilities;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNTEyMjA3MywtODU0ODIzMDA3LDUyND
+eyJoaXN0b3J5IjpbLTczNTE4NTIxNiwtODU0ODIzMDA3LDUyND
 Q4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2
 Miw4NjQwODAyNTUsMTIzMjU2MTk4OSw1ODgyMjAzOTAsMTg2NT
 A4NzU3NiwyNDU4ODczMSwtOTk1MjEwNDQsNzg5MzYwMTEsLTc5
