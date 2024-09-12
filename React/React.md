@@ -1128,9 +1128,20 @@ plugins: [],
 @tailwind base;  
 @tailwind components;  
 @tailwind utilities;
+
+// jsx
+export  default  function  Header() {
+	return (
+		<header  className="flex flex-col items-center mt-8 mb-16">
+			<img  src={logo}  alt="A canvas"  className="mb-8 w-44 h-44 object-contain"/>
+			<h1  className="text-4xl font-semibold tracking-widest text-center uppercase text-amber-800">ReactArt</h1>
+			<p>A community of artists and art-lovers.</p>
+		</header>
+	);
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTYwNzgzNywtNzM1MTg1MjE2LC04NT
+eyJoaXN0b3J5IjpbMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NT
 Q4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2
 NSwtNjgwMDM1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4OD
 IyMDM5MCwxODY1MDg3NTc2LDI0NTg4NzMxLC05OTUyMTA0NCw3
