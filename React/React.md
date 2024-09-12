@@ -1165,8 +1165,12 @@ plugins: [],
 
 You can use the font-title now
 ````
+
+### Tailwind: Media Queries & Pseudo Selectors
+
+Search Responsive Design to see the shortcuts to write them
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAzNTExMTM5LC00NjYwMTc3NzYsMTkxMT
+eyJoaXN0b3J5IjpbODkwODAyMDQyLC00NjYwMTc3NzYsMTkxMT
 UxMjY0NywtNzM1MTg1MjE2LC04NTQ4MjMwMDcsNTI0NDgxNjMx
 LC0xMTI1ODU4NDgwLDk3ODc1NjY2NSwtNjgwMDM1NDYyLDg2ND
 A4MDI1NSwxMjMyNTYxOTg5LDU4ODIyMDM5MCwxODY1MDg3NTc2
