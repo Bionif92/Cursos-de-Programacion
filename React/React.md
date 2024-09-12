@@ -907,14 +907,22 @@ Disadvantage:
 
 ### Dynamic & Conditional Inline Styles
 
+````
+style={{
+backgroundColor:  emailNotValid ? '#fed2d2' : '#d1d5db'
+}}
+````
+
+### Dynamic & Conditional Styling with CSS Files & CSS Classes
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzYzMzc2MTksLTEyNDQxNTQxMTMsMT
-I4OTI0OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5
-NjUsMTc1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LD
-ExMDUxNjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQw
-NjUyLC0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLD
-MxNjg3NjAyMiwtMjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0
-NzAyMTRdfQ==
+eyJoaXN0b3J5IjpbMTY0MzIwNTc4OCwtMjA3NjMzNzYxOSwtMT
+I0NDE1NDExMywxMjg5MjQ5MTAzLDE2Nzg2MzM4NCwtMjgxNzc0
+NjIsMjA4MTk3Mjk2NSwxNzU0NDE3NTAxLC0zODMyODMzMDQsLT
+EwMDY4NzcwODQsMTEwNTE2MTcxMywtMTQzMjc3NzUzOSwxNTU2
+MjMwOCwxNzIzNDA2NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3LD
+E4MTc0OTIxMDEsMzE2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0
+MDY3MDVdfQ==
 -->
