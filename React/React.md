@@ -900,14 +900,17 @@ export  default  function  Header() {
 ````
 Apply only to the thing you put the style
 
-Disadvantage: need to style e
+Disadvantage: 
+
+ - need to style every element individually
+ - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjY1OTMwMjcsLTEyNDQxNTQxMTMsMT
-I4OTI0OTEwMywxNjc4NjMzODQsLTI4MTc3NDYyLDIwODE5NzI5
-NjUsMTc1NDQxNzUwMSwtMzgzMjgzMzA0LC0xMDA2ODc3MDg0LD
-ExMDUxNjE3MTMsLTE0MzI3Nzc1MzksMTU1NjIzMDgsMTcyMzQw
-NjUyLC0xNzcwMjk4MTEwLDMzOTc3MjgwNywxODE3NDkyMTAxLD
-MxNjg3NjAyMiwtMjUwMTQ0NDYyLC0xNjY5NDA2NzA1LDE5MjU0
-NzAyMTRdfQ==
+eyJoaXN0b3J5IjpbMTAzMTc3Mzk1MSwtMTI0NDE1NDExMywxMj
+g5MjQ5MTAzLDE2Nzg2MzM4NCwtMjgxNzc0NjIsMjA4MTk3Mjk2
+NSwxNzU0NDE3NTAxLC0zODMyODMzMDQsLTEwMDY4NzcwODQsMT
+EwNTE2MTcxMywtMTQzMjc3NzUzOSwxNTU2MjMwOCwxNzIzNDA2
+NTIsLTE3NzAyOTgxMTAsMzM5NzcyODA3LDE4MTc0OTIxMDEsMz
+E2ODc2MDIyLC0yNTAxNDQ0NjIsLTE2Njk0MDY3MDUsMTkyNTQ3
+MDIxNF19
 -->
