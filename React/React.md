@@ -1326,6 +1326,7 @@ export default function TimerChallenge({ title, targetTime }) {
 
 ### Forwarding Refs to Custom Components
 
+To show the modal
 ````
 // TimerChallenge.jsx
 import { useState, useRef } from 'react';
@@ -1398,11 +1399,11 @@ const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref)
 export default ResultModal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMyNjA2NTUyLC0xMDIwODIyODI1LC04OD
-cwODA4MiwxNjM1ODQyMjk2LC0xNDY0NTU0ODI3LDIwODUwOTky
-OCwzNTc5NTM5MDQsMTkzOTI3OTI2NSwxMzc1Nzc5MDc4LC03MD
-k4NTA4NiwxODE2NjU0MzQ2LDE4Mzg4NTQ3NjYsODkwODAyMDQy
-LC00NjYwMTc3NzYsMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NT
-Q4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2
-NV19
+eyJoaXN0b3J5IjpbMTQ4NDE1OTEzNiwtMTAyMDgyMjgyNSwtOD
+g3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5
+MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNz
+A5ODUwODYsMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0
+MiwtNDY2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtOD
+U0ODIzMDA3LDUyNDQ4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2
+NjVdfQ==
 -->
