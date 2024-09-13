@@ -1284,7 +1284,7 @@ Can be used to gain access to DOM elements
 ````
 import { useState, useRef } from 'react';
 
-// let timer;
+// let timer; // here is not recreated if we use them, better ref
 
 export default function TimerChallenge({ title, targetTime }) {
   const timer = useRef();
@@ -1324,7 +1324,7 @@ export default function TimerChallenge({ title, targetTime }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzkzMjkyNiwtODg3MDgwODIsMTYzNT
+eyJoaXN0b3J5IjpbMTc2MzM0MTExMSwtODg3MDgwODIsMTYzNT
 g0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0
 LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYsMTgxNj
 Y1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtNDY2MDE3Nzc2
