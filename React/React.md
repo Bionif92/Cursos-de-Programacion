@@ -1325,12 +1325,84 @@ export default function TimerChallenge({ title, targetTime }) {
 ````
 
 ### Forwarding Refs to Custom Components
+
+````
+// TimerChallenge.jsx
+import { useState, useRef } from 'react';
+
+import ResultModal from './ResultModal.jsx';
+
+// let timer;
+
+export default function TimerChallenge({ title, targetTime }) {
+  const timer = useRef();
+  const dialog = useRef();
+
+  const [timerStarted, setTimerStarted] = useState(false);
+  const [timerExpired, setTimerExpired] = useState(false);
+
+  function handleStart() {
+    timer.current = setTimeout(() => {
+      setTimerExpired(true);
+      dialog.current.showModal();
+    }, targetTime * 1000);
+
+    setTimerStarted(true);
+  }
+
+  function handleStop() {
+    clearTimeout(timer.current);
+  }
+
+  return (
+    <>
+      <ResultModal ref={dialog} targetTime={targetTime} result="lost" /> // foward t
+      <section className="challenge">
+        <h2>{title}</h2>
+        <p className="challenge-time">
+          {targetTime} second{targetTime > 1 ? 's' : ''}
+        </p>
+        <p>
+          <button onClick={timerStarted ? handleStop : handleStart}>
+            {timerStarted ? 'Stop' : 'Start'} Challenge
+          </button>
+        </p>
+        <p className={timerStarted ? 'active' : undefined}>
+          {timerStarted ? 'Time is running...' : 'Timer inactive'}
+        </p>
+      </section>
+    </>
+  );
+}
+
+//Modal.jsx
+import { forwardRef } from 'react';
+
+const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref) {
+  return (
+    <dialog ref={ref} className="result-modal">
+      <h2>You {result}</h2>
+      <p>
+        The target time was <strong>{targetTime} seconds.</strong>
+      </p>
+      <p>
+        You stopped the timer with <strong>X seconds left.</strong>
+      </p>
+      <form method="dialog">
+        <button>Close</button>
+      </form>
+    </dialog>
+  );
+})
+
+export default ResultModal;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYxNjY1MjEsLTEwMjA4MjI4MjUsLTg4Nz
-A4MDgyLDE2MzU4NDIyOTYsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4
-LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1LDEzNzU3NzkwNzgsLTcwOT
-g1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2Niw4OTA4MDIwNDIs
-LTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03MzUxODUyMTYsLTg1ND
-gyMzAwNyw1MjQ0ODE2MzEsLTExMjU4NTg0ODAsOTc4NzU2NjY1
-XX0=
+eyJoaXN0b3J5IjpbMTI1NzI4MTIxNywtMTAyMDgyMjgyNSwtOD
+g3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5
+MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNz
+A5ODUwODYsMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0
+MiwtNDY2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtOD
+U0ODIzMDA3LDUyNDQ4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2
+NjVdfQ==
 -->
