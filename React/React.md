@@ -1284,7 +1284,7 @@ Can be used to gain access to DOM elements
 ````
 import { useState, useRef } from 'react';
 
-// let timer; // here is not recreated if we use them, better ref
+// let timer; // will be shared with all the components, not what we want
 
 export default function TimerChallenge({ title, targetTime }) {
   const timer = useRef();
@@ -1324,11 +1324,11 @@ export default function TimerChallenge({ title, targetTime }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzM0MTExMSwtODg3MDgwODIsMTYzNT
-g0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0
-LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYsMTgxNj
-Y1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtNDY2MDE3Nzc2
-LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtODU0ODIzMDA3LDUyND
-Q4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2
-Ml19
+eyJoaXN0b3J5IjpbLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2Mz
+U4NDIyOTYsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1Mzkw
+NCwxOTM5Mjc5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MT
+Y2NTQzNDYsMTgzODg1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3
+NiwxOTExNTEyNjQ3LC03MzUxODUyMTYsLTg1NDgyMzAwNyw1Mj
+Q0ODE2MzEsLTExMjU4NTg0ODAsOTc4NzU2NjY1LC02ODAwMzU0
+NjJdfQ==
 -->
