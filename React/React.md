@@ -1301,7 +1301,7 @@ export default function TimerChallenge({ title, targetTime }) {
   }
 
   function handleStop() {
-    clearTimeout(timer.current);
+    clearTimeout(timer.current); // stop the timer
   }
 
   return (
@@ -1324,7 +1324,7 @@ export default function TimerChallenge({ title, targetTime }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTIwNDcxMCwtODg3MDgwODIsMTYzNT
+eyJoaXN0b3J5IjpbMTIwNzkzMjkyNiwtODg3MDgwODIsMTYzNT
 g0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0
 LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYsMTgxNj
 Y1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtNDY2MDE3Nzc2
