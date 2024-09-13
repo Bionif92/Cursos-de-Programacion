@@ -1273,8 +1273,12 @@ If you want to not change the dom, need to make a copy
 
 Need state to make the conection to ref
 
+State: causes component re evaluation when changed
+Should be used for values that are directly reflected in the UI
+
+Ref: Not cause a com
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTA0NjUzNTQsLTE0NjQ1NTQ4MjcsMj
+eyJoaXN0b3J5IjpbLTE2NDAyODY0NjUsLTE0NjQ1NTQ4MjcsMj
 A4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1LDEzNzU3Nzkw
 NzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2Niw4OT
 A4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03MzUxODUy
