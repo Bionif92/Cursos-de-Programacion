@@ -1401,7 +1401,7 @@ export default ResultModal;
 
 ### Exposing Component APIs via the useImperativeHandle Hook
 
-Hook to define propertyes or method that can be used outside
+Hook to define properties or method that can be used outside
 
 ````
 import { forwardRef, useImperativeHandle, useRef } from 'react';
@@ -1436,11 +1436,11 @@ const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref)
 export default ResultModal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTgxNjY5NCwxMTE2NTI1MzUwLDEzMD
-c1MjMzMTcsMTQ4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgw
-ODIsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMz
-U3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUw
-ODYsMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtND
-Y2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtODU0ODIz
-MDA3XX0=
+eyJoaXN0b3J5IjpbNzMyMjQyMjAyLDExMTY1MjUzNTAsMTMwNz
+UyMzMxNywxNDg0MTU5MTM2LC0xMDIwODIyODI1LC04ODcwODA4
+MiwxNjM1ODQyMjk2LC0xNDY0NTU0ODI3LDIwODUwOTkyOCwzNT
+c5NTM5MDQsMTkzOTI3OTI2NSwxMzc1Nzc5MDc4LC03MDk4NTA4
+NiwxODE2NjU0MzQ2LDE4Mzg4NTQ3NjYsODkwODAyMDQyLC00Nj
+YwMTc3NzYsMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NTQ4MjMw
+MDddfQ==
 -->
