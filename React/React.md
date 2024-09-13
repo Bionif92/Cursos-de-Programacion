@@ -1252,7 +1252,7 @@ export default function Player() {
 
   return (
     <section id="player">
-      <h2>Welcome {enteredPlayerName ?? 'unknown entity'}</h2>
+      <h2>Welcome {enteredPlayerName ?? 'unknown entity'} </h2> 
       <p>
         <input
           ref={playerName}
@@ -1265,11 +1265,11 @@ export default function Player() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mj
-c5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYs
-MTgzODg1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNT
-EyNjQ3LC03MzUxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEs
-LTExMjU4NTg0ODAsOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MD
-gwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzZd
-fQ==
+eyJoaXN0b3J5IjpbOTAwNjYxNjQyLDIwODUwOTkyOCwzNTc5NT
+M5MDQsMTkzOTI3OTI2NSwxMzc1Nzc5MDc4LC03MDk4NTA4Niwx
+ODE2NjU0MzQ2LDE4Mzg4NTQ3NjYsODkwODAyMDQyLC00NjYwMT
+c3NzYsMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NTQ4MjMwMDcs
+NTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2NSwtNjgwMD
+M1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4ODIyMDM5MF19
+
 -->
