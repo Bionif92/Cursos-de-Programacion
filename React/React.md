@@ -1276,13 +1276,14 @@ Need state to make the conection to ref
 State: causes component re evaluation when changed
 Should be used for values that are directly reflected in the UI
 
-Ref: Not cause a com
+Ref: Not cause a component re evaluation
+Can be used to gain access to DOM elements
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDAyODY0NjUsLTE0NjQ1NTQ4MjcsMj
-A4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1LDEzNzU3Nzkw
-NzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2Niw4OT
-A4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03MzUxODUy
-MTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMjU4NTg0ODAsOT
-c4NzU2NjY1LC02ODAwMzU0NjIsODY0MDgwMjU1LDEyMzI1NjE5
-ODldfQ==
+eyJoaXN0b3J5IjpbMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMD
+g1MDk5MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3
+OCwtNzA5ODUwODYsMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MD
+gwMjA0MiwtNDY2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIx
+NiwtODU0ODIzMDA3LDUyNDQ4MTYzMSwtMTEyNTg1ODQ4MCw5Nz
+g3NTY2NjUsLTY4MDAzNTQ2Miw4NjQwODAyNTUsMTIzMjU2MTk4
+OV19
 -->
