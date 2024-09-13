@@ -1236,17 +1236,40 @@ For findinx and fixing performance issues
 
 ### Introducing Refs: Connecting & Accessing HTML Elements via Refs
 
-Ref: variable that can connect to jsx elements
+Ref: object that can connect to jsx elements
 
 ````
 import { useState, useRef } from 'react';
+
+export default function Player() {
+  const playerName = useRef();
+
+  const [enteredPlayerName, setEnteredPlayerName] = useState(null);
+  
+  function handleClick() {
+    setEnteredPlayerName(playerName.current.value);
+  }
+
+  return (
+    <section id="player">
+      <h2>Welcome {enteredPlayerName ?? 'unknown entity'}</h2>
+      <p>
+        <input
+          ref={playerName}
+          type="text"
+        />
+        <button onClick={handleClick}>Set Name</button>
+      </p>
+    </section>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjY2MDYxNzksMzU3OTUzOTA0LDE5Mz
-kyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYsMTgxNjY1NDM0
-NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtNDY2MDE3Nzc2LDE5MT
-E1MTI2NDcsLTczNTE4NTIxNiwtODU0ODIzMDA3LDUyNDQ4MTYz
-MSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2Miw4Nj
-QwODAyNTUsMTIzMjU2MTk4OSw1ODgyMjAzOTAsMTg2NTA4NzU3
-Nl19
+eyJoaXN0b3J5IjpbMTUyOTEyNzY5OSwzNTc5NTM5MDQsMTkzOT
+I3OTI2NSwxMzc1Nzc5MDc4LC03MDk4NTA4NiwxODE2NjU0MzQ2
+LDE4Mzg4NTQ3NjYsODkwODAyMDQyLC00NjYwMTc3NzYsMTkxMT
+UxMjY0NywtNzM1MTg1MjE2LC04NTQ4MjMwMDcsNTI0NDgxNjMx
+LC0xMTI1ODU4NDgwLDk3ODc1NjY2NSwtNjgwMDM1NDYyLDg2ND
+A4MDI1NSwxMjMyNTYxOTg5LDU4ODIyMDM5MCwxODY1MDg3NTc2
+XX0=
 -->
