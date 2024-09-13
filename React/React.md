@@ -1415,7 +1415,7 @@ const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref)
         dialog.current.showModal();
       }
     };
-  });
+  }); // use open() intead of showmodal() in the other component
 
   return (
     <dialog ref={dialog} className="result-modal">
@@ -1436,11 +1436,11 @@ const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref)
 export default ResultModal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0OD
-QxNTkxMzYsLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4NDIy
-OTYsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOT
-M5Mjc5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQz
-NDYsMTgzODg1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOT
-ExNTEyNjQ3LC03MzUxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2
-MzFdfQ==
+eyJoaXN0b3J5IjpbLTU5NTgxNjY5NCwxMTE2NTI1MzUwLDEzMD
+c1MjMzMTcsMTQ4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgw
+ODIsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMz
+U3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUw
+ODYsMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtND
+Y2MDE3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtODU0ODIz
+MDA3XX0=
 -->
