@@ -1438,16 +1438,57 @@ export default ResultModal;
 
 ### Introducing & Understanding "Portals"
 
-Move an element in the dom, in this case the modal
+Teleport an element in the dom, in this case the modal
 
 ````
+import { forwardRef, useImperativeHandle, useRef } from 'react';
+import { createPortal } from 'react-dom'; // this
+
+const ResultModal = forwardRef(function ResultModal(
+  { targetTime, remainingTime, onReset },
+  ref
+) {
+  const dialog = useRef();
+
+  const userLost = remainingTime <= 0;
+  const formattedRemainingTime = (remainingTime / 1000).toFixed(2);
+  const score = Math.round((1 - remainingTime / (targetTime * 1000)) * 100);
+
+  useImperativeHandle(ref, () => {
+    return {
+      open() {
+        dialog.current.showModal();
+      },
+    };
+  });
+
+  return createPortal(
+    <dialog ref={dialog} className="result-modal">
+      {userLost && <h2>You lost</h2>}
+      {!userLost && <h2>Your Score: {score}</h2>}
+      <p>
+        The target time was <strong>{targetTime} seconds.</strong>
+      </p>
+      <p>
+        You stopped the timer with{' '}
+        <strong>{formattedRemainingTime} seconds left.</strong>
+      </p>
+      <form method="dialog" onSubmit={onReset}>
+        <button>Close</button>
+      </form>
+    </dialog>,
+    document.getElementById('modal')
+  );
+});
+
+export default ResultModal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDk2Mzg5MzMsLTE4ODU5NjUxMDYsNT
-Q5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywxNDg0MTU5
-MTM2LC0xMDIwODIyODI1LC04ODcwODA4MiwxNjM1ODQyMjk2LC
-0xNDY0NTU0ODI3LDIwODUwOTkyOCwzNTc5NTM5MDQsMTkzOTI3
-OTI2NSwxMzc1Nzc5MDc4LC03MDk4NTA4NiwxODE2NjU0MzQ2LD
-E4Mzg4NTQ3NjYsODkwODAyMDQyLC00NjYwMTc3NzYsMTkxMTUx
-MjY0N119
+eyJoaXN0b3J5IjpbMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1ND
+kyMTEzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0ODQxNTkx
+MzYsLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4NDIyOTYsLT
+E0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5
+MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMT
+gzODg1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEy
+NjQ3XX0=
 -->
