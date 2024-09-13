@@ -1247,7 +1247,7 @@ export default function Player() {
   const [enteredPlayerName, setEnteredPlayerName] = useState(null);
   
   function handleClick() {
-    setEnteredPlayerName(playerName.current.value);
+    setEnteredPlayerName(playerName.current.value); // with current you have the current status of the input object
   }
 
   return (
@@ -1265,11 +1265,11 @@ export default function Player() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyOTEyNzY5OSwzNTc5NTM5MDQsMTkzOT
-I3OTI2NSwxMzc1Nzc5MDc4LC03MDk4NTA4NiwxODE2NjU0MzQ2
-LDE4Mzg4NTQ3NjYsODkwODAyMDQyLC00NjYwMTc3NzYsMTkxMT
-UxMjY0NywtNzM1MTg1MjE2LC04NTQ4MjMwMDcsNTI0NDgxNjMx
-LC0xMTI1ODU4NDgwLDk3ODc1NjY2NSwtNjgwMDM1NDYyLDg2ND
-A4MDI1NSwxMjMyNTYxOTg5LDU4ODIyMDM5MCwxODY1MDg3NTc2
-XX0=
+eyJoaXN0b3J5IjpbMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mj
+c5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYs
+MTgzODg1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNT
+EyNjQ3LC03MzUxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEs
+LTExMjU4NTg0ODAsOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MD
+gwMjU1LDEyMzI1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzZd
+fQ==
 -->
