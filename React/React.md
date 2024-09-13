@@ -1344,7 +1344,7 @@ export default function TimerChallenge({ title, targetTime }) {
   function handleStart() {
     timer.current = setTimeout(() => {
       setTimerExpired(true);
-      dialog.current.showModal();
+      dialog.current.showModal(); // browser feature
     }, targetTime * 1000);
 
     setTimerStarted(true);
@@ -1356,7 +1356,7 @@ export default function TimerChallenge({ title, targetTime }) {
 
   return (
     <>
-      <ResultModal ref={dialog} targetTime={targetTime} result="lost" /> // foward t
+      <ResultModal ref={dialog} targetTime={targetTime} result="lost" /> // foward the ref
       <section className="challenge">
         <h2>{title}</h2>
         <p className="challenge-time">
@@ -1398,7 +1398,7 @@ const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref)
 export default ResultModal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1NzI4MTIxNywtMTAyMDgyMjgyNSwtOD
+eyJoaXN0b3J5IjpbMTY5ODU2MDk3NSwtMTAyMDgyMjgyNSwtOD
 g3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5
 MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNz
 A5ODUwODYsMTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0
