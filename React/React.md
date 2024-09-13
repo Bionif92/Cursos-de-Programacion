@@ -1224,14 +1224,18 @@ Execute every component twice in development: make you see if there is a problem
 
 ### Using the React DevTools
 
+Extension React Devtool in chrome - already installed
+
+Two new pages in the Borwser Dev Tool
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTI3OTI2NSwxMzc1Nzc5MDc4LC03MD
-k4NTA4NiwxODE2NjU0MzQ2LDE4Mzg4NTQ3NjYsODkwODAyMDQy
-LC00NjYwMTc3NzYsMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NT
-Q4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2
-NSwtNjgwMDM1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4OD
-IyMDM5MCwxODY1MDg3NTc2LDI0NTg4NzMxLC05OTUyMTA0NF19
-
+eyJoaXN0b3J5IjpbMTIxNTEzMTE1MywxOTM5Mjc5MjY1LDEzNz
+U3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2
+Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03Mz
+UxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMjU4NTg0
+ODAsOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MDgwMjU1LDEyMz
+I1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzYsMjQ1ODg3MzFd
+fQ==
 -->
