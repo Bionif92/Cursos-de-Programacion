@@ -1279,13 +1279,56 @@ Should be used for values that are directly reflected in the UI
 Ref: Not cause a component re evaluation
 Can be used to gain access to DOM elements
 
-### Setting Timers & Managing State
+### Using Refs for More Than "DOM Element Connections"
+
+````
+import { useState, useRef } from 'react';
+
+// let timer;
+
+export default function TimerChallenge({ title, targetTime }) {
+  const timer = useRef();
+
+  const [timerStarted, setTimerStarted] = useState(false);
+  const [timerExpired, setTimerExpired] = useState(false);
+
+  function handleStart() {
+    timer.current = setTimeout(() => {
+      setTimerExpired(true);
+    }, targetTime * 1000);
+
+    setTimerStarted(true);
+  }
+
+  function handleStop() {
+    clearTimeout(timer.current);
+  }
+
+  return (
+    <section className="challenge">
+      <h2>{title}</h2>
+      {timerExpired && <p>You lost!</p>}
+      <p className="challenge-time">
+        {targetTime} second{targetTime > 1 ? 's' : ''}
+      </p>
+      <p>
+        <button onClick={timerStarted ? handleStop : handleStart}>
+          {timerStarted ? 'Stop' : 'Start'} Challenge
+        </button>
+      </p>
+      <p className={timerStarted ? 'active' : undefined}>
+        {timerStarted ? 'Time is running...' : 'Timer inactive'}
+      </p>
+    </section>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzA4MDgyLDE2MzU4NDIyOTYsLTE0Nj
-Q1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1
-LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzOD
-g1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3
-LC03MzUxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMj
-U4NTg0ODAsOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MDgwMjU1
-XX0=
+eyJoaXN0b3J5IjpbMjA4OTIwNDcxMCwtODg3MDgwODIsMTYzNT
+g0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0
+LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYsMTgxNj
+Y1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtNDY2MDE3Nzc2
+LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtODU0ODIzMDA3LDUyND
+Q4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MDAzNTQ2
+Ml19
 -->
