@@ -1232,8 +1232,10 @@ For findinx and fixing performance issues
 
  - Component: can see your component tree
 
+Component/ Gear
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzI5MTkyNSwxOTM5Mjc5MjY1LDEzNz
+eyJoaXN0b3J5IjpbMTcwMTU1NTM0MCwxOTM5Mjc5MjY1LDEzNz
 U3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2
 Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03Mz
 UxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMjU4NTg0
