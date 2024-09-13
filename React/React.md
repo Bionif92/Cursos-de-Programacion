@@ -1222,8 +1222,12 @@ ReactDOM.createRoot(document.getElementById('root')).render(<StrictMode><App  />
 
 Execute every component twice in development: make you see if there is a problem in the app
 
+### Using the React DevTools
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTgyMzQwMCwxMzc1Nzc5MDc4LC03MD
+eyJoaXN0b3J5IjpbMTkzOTI3OTI2NSwxMzc1Nzc5MDc4LC03MD
 k4NTA4NiwxODE2NjU0MzQ2LDE4Mzg4NTQ3NjYsODkwODAyMDQy
 LC00NjYwMTc3NzYsMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NT
 Q4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2
