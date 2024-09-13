@@ -1399,13 +1399,48 @@ const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref)
 export default ResultModal;
 ````
 
-###
+### Exposing Component APIs via the useImperativeHandle Hook
+
+Hook to define propertyes or method
+
+````
+import { forwardRef, useImperativeHandle, useRef } from 'react';
+
+const ResultModal = forwardRef(function ResultModal({ result, targetTime }, ref) {
+  const dialog = useRef();
+
+  useImperativeHandle(ref, () => {
+    return {
+      open() {
+        dialog.current.showModal();
+      }
+    };
+  });
+
+  return (
+    <dialog ref={dialog} className="result-modal">
+      <h2>You {result}</h2>
+      <p>
+        The target time was <strong>{targetTime} seconds.</strong>
+      </p>
+      <p>
+        You stopped the timer with <strong>X seconds left.</strong>
+      </p>
+      <form method="dialog">
+        <button>Close</button>
+      </form>
+    </dialog>
+  );
+})
+
+export default ResultModal;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNzUyMzMxNywxNDg0MTU5MTM2LC0xMD
-IwODIyODI1LC04ODcwODA4MiwxNjM1ODQyMjk2LC0xNDY0NTU0
-ODI3LDIwODUwOTkyOCwzNTc5NTM5MDQsMTkzOTI3OTI2NSwxMz
-c1Nzc5MDc4LC03MDk4NTA4NiwxODE2NjU0MzQ2LDE4Mzg4NTQ3
-NjYsODkwODAyMDQyLC00NjYwMTc3NzYsMTkxMTUxMjY0NywtNz
-M1MTg1MjE2LC04NTQ4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4
-NDgwXX0=
+eyJoaXN0b3J5IjpbMTc4MTIzNDc3OCwxMzA3NTIzMzE3LDE0OD
+QxNTkxMzYsLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4NDIy
+OTYsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOT
+M5Mjc5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQz
+NDYsMTgzODg1NDc2Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOT
+ExNTEyNjQ3LC03MzUxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2
+MzFdfQ==
 -->
