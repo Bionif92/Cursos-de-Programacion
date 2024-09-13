@@ -1252,7 +1252,7 @@ export default function Player() {
 
   return (
     <section id="player">
-      <h2>Welcome {enteredPlayerName ?? 'unknown entity'} </h2> 
+      <h2>Welcome {enteredPlayerName ?? 'unknown entity'} </h2> // output the same value
       <p>
         <input
           ref={playerName}
@@ -1264,12 +1264,16 @@ export default function Player() {
   );
 }
 ````
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNjYxNjQyLDIwODUwOTkyOCwzNTc5NT
-M5MDQsMTkzOTI3OTI2NSwxMzc1Nzc5MDc4LC03MDk4NTA4Niwx
-ODE2NjU0MzQ2LDE4Mzg4NTQ3NjYsODkwODAyMDQyLC00NjYwMT
-c3NzYsMTkxMTUxMjY0NywtNzM1MTg1MjE2LC04NTQ4MjMwMDcs
-NTI0NDgxNjMxLC0xMTI1ODU4NDgwLDk3ODc1NjY2NSwtNjgwMD
-M1NDYyLDg2NDA4MDI1NSwxMjMyNTYxOTg5LDU4ODIyMDM5MF19
 
+### Manipulating the DOM via Refs
+
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE5OTAzMjc0MCwyMDg1MDk5MjgsMzU3OT
+UzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYs
+MTgxNjY1NDM0NiwxODM4ODU0NzY2LDg5MDgwMjA0MiwtNDY2MD
+E3Nzc2LDE5MTE1MTI2NDcsLTczNTE4NTIxNiwtODU0ODIzMDA3
+LDUyNDQ4MTYzMSwtMTEyNTg1ODQ4MCw5Nzg3NTY2NjUsLTY4MD
+AzNTQ2Miw4NjQwODAyNTUsMTIzMjU2MTk4OSw1ODgyMjAzOTBd
+fQ==
 -->
