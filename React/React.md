@@ -1228,16 +1228,16 @@ Extension React Devtool in chrome - already installed
 
 Two new pages in the Borwser Dev Tool
 
-For findinx and fixing 
+For findinx and fixing performance issues
 
-
+ - Component: can see your component tree
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTY1OTU3OTQsMTkzOTI3OTI2NSwxMz
-c1Nzc5MDc4LC03MDk4NTA4NiwxODE2NjU0MzQ2LDE4Mzg4NTQ3
-NjYsODkwODAyMDQyLC00NjYwMTc3NzYsMTkxMTUxMjY0NywtNz
-M1MTg1MjE2LC04NTQ4MjMwMDcsNTI0NDgxNjMxLC0xMTI1ODU4
-NDgwLDk3ODc1NjY2NSwtNjgwMDM1NDYyLDg2NDA4MDI1NSwxMj
-MyNTYxOTg5LDU4ODIyMDM5MCwxODY1MDg3NTc2LDI0NTg4NzMx
-XX0=
+eyJoaXN0b3J5IjpbLTEzMzI5MTkyNSwxOTM5Mjc5MjY1LDEzNz
+U3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2
+Niw4OTA4MDIwNDIsLTQ2NjAxNzc3NiwxOTExNTEyNjQ3LC03Mz
+UxODUyMTYsLTg1NDgyMzAwNyw1MjQ0ODE2MzEsLTExMjU4NTg0
+ODAsOTc4NzU2NjY1LC02ODAwMzU0NjIsODY0MDgwMjU1LDEyMz
+I1NjE5ODksNTg4MjIwMzkwLDE4NjUwODc1NzYsMjQ1ODg3MzFd
+fQ==
 -->
