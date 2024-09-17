@@ -1633,7 +1633,7 @@ function App() {
   });
     const ctxValue = {
     items: shoppingCart.items,
-    addItemToCart: handleAddItemToCart
+    addItemToCart: handleAddItemToCart // add functions for use in the components
   };
 	return (
     <CartContext.Provider value={ctxValue}>
@@ -1651,13 +1651,38 @@ function App() {
     </CartContext.Provider>
   );
 }
+
+// Product.jsx
+import { useContext } from 'react';
+
+import { CartContext } from '../store/shopping-cart-context.jsx';
+
+export default function Product({ id, image, title, price, description }) { // delete the addproduct from prop
+  const { addItemToCart } = useContext(CartContext);
+
+  return (
+    <article className="product">
+      <img src={image} alt={title} />
+      <div className="product-content">
+        <div>
+          <h3>{title}</h3>
+          <p className="product-price">${price}</p>
+          <p>{description}</p>
+        </div>
+        <p className="product-actions">
+          <button onClick={() => addItemToCart(id)}>Add to Cart</button>
+        </p>
+      </div>
+    </article>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mzk2ODAzMCwtMTUxNDc5NzA1NiwtOD
-AyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5NTM1
-MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5NjUxMD
-YsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywxNDg0
-MTU5MTM2LC0xMDIwODIyODI1LC04ODcwODA4MiwxNjM1ODQyMj
-k2LC0xNDY0NTU0ODI3LDIwODUwOTkyOCwzNTc5NTM5MDQsMTkz
-OTI3OTI2NV19
+eyJoaXN0b3J5IjpbNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MT
+Q3OTcwNTYsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2
+NjYxNCw3OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC
+0xODg1OTY1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1
+MjMzMTcsMTQ4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgwOD
+IsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3
+OTUzOTA0XX0=
 -->
