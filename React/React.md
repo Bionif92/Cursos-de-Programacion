@@ -1684,8 +1684,12 @@ CartContext.Consumer
 
 Other way of writting the code
 It is more harder to read
+
+### What Happens When Context Values Change?
+
+The context will re execute when it changes, also the things inside the context
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzEzNzY0MSwxOTcyNTQ0MzYzLDU0MD
+eyJoaXN0b3J5IjpbLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MD
 c5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIz
 MTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC
 01MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDky
