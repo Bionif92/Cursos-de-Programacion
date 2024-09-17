@@ -1494,12 +1494,28 @@ Cumbersome to use this way
 
 ### Prop Drilling: Component Composition as a Solution
 
-Component Composition: move the content of the 
+Component Composition: move the content of the next component into a wrapper of the root component
 
 ````
+ return (
+    <>
+      <Header
+        cart={shoppingCart}
+        onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
+      />
+      <Shop>
+        {DUMMY_PRODUCTS.map((product) => (
+          <li key={product.id}>
+            <Product {...product} onAddToCart={handleAddItemToCart} /> // this part
+          </li>
+        ))}
+      </Shop>
+    </>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MjgxODg2OCw3OTUzNTIxMjYsLTUwMz
+eyJoaXN0b3J5IjpbLTU0NTQ4MTQ1MSw3OTUzNTIxMjYsLTUwMz
 M3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4
 MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwtMT
 AyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1
