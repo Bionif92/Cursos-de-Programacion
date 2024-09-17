@@ -1557,13 +1557,60 @@ return (
 ### Consuming the Context
 
 ````
+// Cart.jsx
+import { useContext } from 'react';
+import { CartContext } from '../store/shopping-cart-context.jsx';
 
+export default function Cart({ onUpdateItemQuantity }) {
+  const { items } = useContext(CartContext);
+
+  const totalPrice = items.reduce(
+    (acc, item) => acc + item.price * item.quantity,
+    0
+  );
+  const formattedTotalPrice = `$${totalPrice.toFixed(2)}`;
+
+  return (
+    <div id="cart">
+      {items.length === 0 && <p>No items in cart!</p>}
+      {items.length > 0 && (
+        <ul id="cart-items">
+          {items.map((item) => {
+            const formattedPrice = `$${item.price.toFixed(2)}`;
+
+            return (
+              <li key={item.id}>
+                <div>
+                  <span>{item.name}</span>
+                  <span> ({formattedPrice})</span>
+                </div>
+                <div className="cart-item-actions">
+                  <button onClick={() => onUpdateItemQuantity(item.id, -1)}>
+                    -
+                  </button>
+                  <span>{item.quantity}</span>
+                  <button onClick={() => onUpdateItemQuantity(item.id, 1)}>
+                    +
+                  </button>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+      <p id="cart-total-price">
+        Cart Total: <strong>{formattedTotalPrice}</strong>
+      </p>
+    </div>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MDIxMjMxNiwtMTUxNDc5NzA1NiwtOD
-AyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5NTM1
-MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5NjUxMD
-YsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywxNDg0
-MTU5MTM2LC0xMDIwODIyODI1LC04ODcwODA4MiwxNjM1ODQyMj
-k2LC0xNDY0NTU0ODI3LDIwODUwOTkyOCwzNTc5NTM5MDQsMTkz
-OTI3OTI2NV19
+eyJoaXN0b3J5IjpbMzEzMDI4MDIxLC0xNTE0Nzk3MDU2LC04MD
+I3MTIzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUy
+MTI2LC01MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNi
+w1NDkyMTEzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0ODQx
+NTkxMzYsLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4NDIyOT
+YsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5
+Mjc5MjY1XX0=
 -->
