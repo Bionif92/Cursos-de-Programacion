@@ -1514,13 +1514,13 @@ Component Composition: move the content of the next component into a wrapper of 
   );
 }
 ````
-Need to modify the imports too
+Need to modify the imports too and use the wrapper as a children in the next component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI0Nzg1NjMsNzk1MzUyMTI2LC01MD
-MzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMTEz
-ODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYsLT
-EwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4NDIyOTYsLTE0NjQ1
-NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1LD
-EzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1
-NDc2Nl19
+eyJoaXN0b3J5IjpbMTg2OTE4NDYyOSw3OTUzNTIxMjYsLTUwMz
+M3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4
+MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwtMT
+AyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1
+NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMT
+M3NTc3OTA3OCwtNzA5ODUwODYsMTgxNjY1NDM0NiwxODM4ODU0
+NzY2XX0=
 -->
