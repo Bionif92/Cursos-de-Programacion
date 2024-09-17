@@ -1522,9 +1522,14 @@ Shared data between component more easily
 
 Create a Cart Context that wrap all components, and we can use the State
 
-###
+### Creating & Providing The Context
+
+Create `store` Foulder:
+
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDE4ODE1NywtMTg2MDg2NjYxNCw3OT
+eyJoaXN0b3J5IjpbMTI1MDMyMTc2MCwtMTg2MDg2NjYxNCw3OT
 UzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1
 MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMT
 Q4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0
