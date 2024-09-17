@@ -1561,7 +1561,7 @@ return (
 import { useContext } from 'react';
 import { CartContext } from '../store/shopping-cart-context.jsx';
 
-export default function Cart({ onUpdateItemQuantity }) {
+export default function Cart({ onUpdateItemQuantity }) { // get rid of the item prop
   const { items } = useContext(CartContext); // establish the connection
 
   const totalPrice = items.reduce(
@@ -1606,7 +1606,7 @@ export default function Cart({ onUpdateItemQuantity }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzOTEwMzYyNSwtMTUxNDc5NzA1NiwtOD
+eyJoaXN0b3J5IjpbMTI4NTMwMzEwMiwtMTUxNDc5NzA1NiwtOD
 AyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5NTM1
 MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5NjUxMD
 YsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywxNDg0
