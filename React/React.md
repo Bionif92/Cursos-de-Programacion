@@ -1520,13 +1520,15 @@ Need to modify the imports too and use the wrapper as a children in the next com
 
 Shared data between component more easily
 
-Create a Cart Context that wrap all components
+Create a Cart Context that wrap all components, and we can use the State
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDU2MjgwNDIsLTE4NjA4NjY2MTQsNz
-k1MzUyMTI2LC01MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2
-NTEwNiw1NDkyMTEzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LD
-E0ODQxNTkxMzYsLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4
-NDIyOTYsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNC
-wxOTM5Mjc5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2
-NTQzNDZdfQ==
+eyJoaXN0b3J5IjpbLTkwMDE4ODE1NywtMTg2MDg2NjYxNCw3OT
+UzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1
+MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMT
+Q4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0
+MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0LD
+E5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5ODUwODYsMTgxNjY1
+NDM0Nl19
 -->
