@@ -1681,8 +1681,10 @@ export default function Product({ id, image, title, price, description }) { // d
 ### A Different Way Of Consuming Context
 
 CartContext.Consumer
+
+Other way of writting the code
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ1NDE1MjIyLDE5NzI1NDQzNjMsNTQwNz
+eyJoaXN0b3J5IjpbMjczNDE2MTE0LDE5NzI1NDQzNjMsNTQwNz
 k3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNTYsLTgwMjcxMjMx
 MCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUzNTIxMjYsLT
 UwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIx
