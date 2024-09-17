@@ -1658,7 +1658,7 @@ import { useContext } from 'react';
 import { CartContext } from '../store/shopping-cart-context.jsx';
 
 export default function Product({ id, image, title, price, description }) { // delete the addproduct from prop
-  const { addItemToCart } = useContext(CartContext);
+  const { addItemToCart } = useContext(CartContext); // if you want autocomplition, put the function in the original file of context
 
   return (
     <article className="product">
@@ -1678,11 +1678,11 @@ export default function Product({ id, image, title, price, description }) { // d
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MT
-Q3OTcwNTYsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2
-NjYxNCw3OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC
-0xODg1OTY1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1
-MjMzMTcsMTQ4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgwOD
-IsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3
-OTUzOTA0XX0=
+eyJoaXN0b3J5IjpbOTY1Mjk2MDcwLDU0MDc5NzA1MCwtNzQzOT
+Y4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTExNDk3OTAw
+OTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNzIzOTcsMT
+M5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMTEzODIsMTExNjUy
+NTM1MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYsLTEwMjA4MjI4Mj
+UsLTg4NzA4MDgyLDE2MzU4NDIyOTYsLTE0NjQ1NTQ4MjcsMjA4
+NTA5OTI4XX0=
 -->
