@@ -1517,12 +1517,16 @@ Component Composition: move the content of the next component into a wrapper of 
 Need to modify the imports too and use the wrapper as a children in the next component
 
 ### Introducing the Context API
+
+Shared data between component more easily
+
+Create a Cart Context that wrap all components
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01MD
-MzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMTEz
-ODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYsLT
-EwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4NDIyOTYsLTE0NjQ1
-NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1LD
-EzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1
-NDc2Nl19
+eyJoaXN0b3J5IjpbLTEyNDU2MjgwNDIsLTE4NjA4NjY2MTQsNz
+k1MzUyMTI2LC01MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2
+NTEwNiw1NDkyMTEzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LD
+E0ODQxNTkxMzYsLTEwMjA4MjI4MjUsLTg4NzA4MDgyLDE2MzU4
+NDIyOTYsLTE0NjQ1NTQ4MjcsMjA4NTA5OTI4LDM1Nzk1MzkwNC
+wxOTM5Mjc5MjY1LDEzNzU3NzkwNzgsLTcwOTg1MDg2LDE4MTY2
+NTQzNDZdfQ==
 -->
