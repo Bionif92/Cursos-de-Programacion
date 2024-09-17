@@ -1537,14 +1537,31 @@ export const CartContext = createContext({
 // App.jsx
 import { CartContext } from './store/shopping-cart-context.jsx';
 
-
+return (
+    <CartContext.Provider> // the wrapper
+      <Header
+        cart={shoppingCart}
+        onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
+      />
+      <Shop>
+        {DUMMY_PRODUCTS.map((product) => (
+          <li key={product.id}>
+            <Product {...product} onAddToCart={handleAddItemToCart} />
+          </li>
+        ))}
+      </Shop>
+    </CartContext.Provider>
+  );
 ````
+
+### Consuming the Context
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMT
-g2MDg2NjYxNCw3OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0
-NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLD
-EzMDc1MjMzMTcsMTQ4NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3
-MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1NDgyNywyMDg1MDk5Mj
-gsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMTM3NTc3OTA3OCwtNzA5
-ODUwODZdfQ==
+eyJoaXN0b3J5IjpbLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMCwtMT
+E0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUzNTIxMjYsLTUwMzM3
+MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4Mi
+wxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwtMTAy
+MDgyMjgyNSwtODg3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1ND
+gyNywyMDg1MDk5MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMTM3
+NTc3OTA3OF19
 -->
