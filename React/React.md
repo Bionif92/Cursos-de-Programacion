@@ -1486,13 +1486,17 @@ export default ResultModal;
 
 ## React Context API & useReducer - Advanced Stage Managment
 
-###
+### Understanding Prop Drilling & Project Overview
+
+Prop Drilling: Passing shared data through multiple components layers
+
+Cu
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1MzUyMTI2LC01MDMzNzIzOTcsMTM5Nz
-QzNDUxNywtMTg4NTk2NTEwNiw1NDkyMTEzODIsMTExNjUyNTM1
-MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYsLTEwMjA4MjI4MjUsLT
-g4NzA4MDgyLDE2MzU4NDIyOTYsLTE0NjQ1NTQ4MjcsMjA4NTA5
-OTI4LDM1Nzk1MzkwNCwxOTM5Mjc5MjY1LDEzNzU3NzkwNzgsLT
-cwOTg1MDg2LDE4MTY2NTQzNDYsMTgzODg1NDc2Niw4OTA4MDIw
-NDJdfQ==
+eyJoaXN0b3J5IjpbLTQyNjYzNTk4MSw3OTUzNTIxMjYsLTUwMz
+M3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4
+MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwtMT
+AyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1
+NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0LDE5MzkyNzkyNjUsMT
+M3NTc3OTA3OCwtNzA5ODUwODYsMTgxNjY1NDM0NiwxODM4ODU0
+NzY2XX0=
 -->
