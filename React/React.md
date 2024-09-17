@@ -1562,7 +1562,7 @@ import { useContext } from 'react';
 import { CartContext } from '../store/shopping-cart-context.jsx';
 
 export default function Cart({ onUpdateItemQuantity }) { // get rid of the item prop
-  const { items } = useContext(CartContext); // establish the connection, des
+  const { items } = useContext(CartContext); // establish the connection, destructure the constant
 
   const totalPrice = items.reduce(
     (acc, item) => acc + item.price * item.quantity,
@@ -1623,11 +1623,11 @@ return (
   );
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMDcwNDg3OSwtMTUxNDc5NzA1NiwtOD
-AyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5NTM1
-MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5NjUxMD
-YsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywxNDg0
-MTU5MTM2LC0xMDIwODIyODI1LC04ODcwODA4MiwxNjM1ODQyMj
-k2LC0xNDY0NTU0ODI3LDIwODUwOTkyOCwzNTc5NTM5MDQsMTkz
-OTI3OTI2NV19
+eyJoaXN0b3J5IjpbLTE1MzYzNjQzMjYsLTE1MTQ3OTcwNTYsLT
+gwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUz
+NTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MT
+A2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4
+NDE1OTEzNiwtMTAyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0Mj
+I5NiwtMTQ2NDU1NDgyNywyMDg1MDk5MjgsMzU3OTUzOTA0LDE5
+MzkyNzkyNjVdfQ==
 -->
