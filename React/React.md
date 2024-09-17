@@ -1494,12 +1494,12 @@ Cumbersome to use this way
 
 ### Prop Drilling: Component Composition as a Solution
 
-Component Composition
+Component Composition: move the content of the 
 
 ````
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTAyNjU0Nyw3OTUzNTIxMjYsLTUwMz
+eyJoaXN0b3J5IjpbMTY4MjgxODg2OCw3OTUzNTIxMjYsLTUwMz
 M3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4
 MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwtMT
 AyMDgyMjgyNSwtODg3MDgwODIsMTYzNTg0MjI5NiwtMTQ2NDU1
