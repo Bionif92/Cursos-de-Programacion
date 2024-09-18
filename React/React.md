@@ -2149,13 +2149,46 @@ function Modal({ open, children, onClose }) {
 export default Modal;
 ````
 
-### 
+###  Introducing useEffect's Cleanup Function
+
+````
+import { useEffect } from 'react';
+
+export default function DeleteConfirmation({ onConfirm, onCancel }) {
+  useEffect(() => {
+    console.log('TIMER SET');
+    const timer = setTimeout(() => {
+      onConfirm();
+    }, 3000);
+
+    return () => {
+      console.log('Cleaning up timer');
+      clearTimeout(timer);
+    };
+  }, []);
+
+  return (
+    <div id="delete-confirmation">
+      <h2>Are you sure?</h2>
+      <p>Do you really want to remove this place?</p>
+      <div id="confirmation-actions">
+        <button onClick={onCancel} className="button-text">
+          No
+        </button>
+        <button onClick={onConfirm} className="button">
+          Yes
+        </button>
+      </div>
+    </div>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNT
-I1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIz
-NTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NS
-wxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5
-ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMj
-c2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYz
-LDU0MDc5NzA1MF19
+eyJoaXN0b3J5IjpbLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLTE5Nj
+g5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMzM3NjUy
+MDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNjc3OTAzNDY2LC
+0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0ODU4ODMsMTc1
+MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2MjIsLTYzMDQ5Nz
+Y2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQy
+LDE5NzI1NDQzNjNdfQ==
 -->
