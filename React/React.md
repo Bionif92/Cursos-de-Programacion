@@ -1809,7 +1809,7 @@ export default App;
 Reducer: A function that reduce one or more complex values to a simpler one
 
 ```` context.jsx
-import { createContext, useState, useReducer } from 'react';
+-- import { createContext, useState, useReducer } from 'react';
 
 import { DUMMY_PRODUCTS } from '../dummy-products.js';
 
@@ -1819,12 +1819,12 @@ export const CartContext = createContext({
   updateItemQuantity: () => {},
 });
 
-function shoppingCartReducer(state, action) { // this function has not to be recreated when re execute
+-- function shoppingCartReducer(state, action) { // this function has not to be recreated when re execute
   return state;
 }
 
 export default function CartContextProvider({ children }) {
-  const [shoppingCartState, shoppingCartDispatch] = useReducer(
+  -- const [shoppingCartState, shoppingCartDispatch] = useReducer(
     shoppingCartReducer,
     {
       items: [],
@@ -1903,11 +1903,11 @@ export default function CartContextProvider({ children }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTc0NTAyNywtNjMwNDk3NjY4LC0xMD
-IyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0
-NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1Ni
-wtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5
-NTM1MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5Nj
-UxMDYsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywx
-NDg0MTU5MTM2XX0=
+eyJoaXN0b3J5IjpbLTE1MzU5MjQ2ODMsLTYzMDQ5NzY2OCwtMT
+AyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1
+NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNT
+YsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3
+OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OT
+Y1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcs
+MTQ4NDE1OTEzNl19
 -->
