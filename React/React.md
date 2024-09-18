@@ -2089,8 +2089,12 @@ With this the function will be executed after the execution of all the component
 
 If the array of dependecies changes, it re execute the function
 
+### Not All Side Effects Need useEffect
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzg2NTU5MzIsLTY3NzkwMzQ2NiwtMj
+eyJoaXN0b3J5IjpbLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMj
 AyMTY2MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAx
 ODI2MjAsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2Nj
 gsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0Miwx
