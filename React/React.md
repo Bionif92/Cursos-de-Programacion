@@ -2076,6 +2076,13 @@ This will cause an infinte loop, because it will change the state all the time w
       setAvailablePlaces(sortedPlaces);
     });
   }, []); // second argument - array of dependencies
+
+<Places
+          title="Available Places"
+          places={availablePlaces}
+          fallbackText="Sorting places by distance..." // fallback text while waiting for the data
+          onSelectPlace={handleSelectPlace}
+        />
 ````
 
 With this the function will be executed after the execution of all the component function
@@ -2083,11 +2090,11 @@ With this the function will be executed after the execution of all the component
 If the array of dependecies changes, it re execute the function
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOT
-A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
-NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2Nj
-MsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0
-MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MT
-IzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2
-LC01MDMzNzIzOTddfQ==
+eyJoaXN0b3J5IjpbLTEzMzg2NTU5MzIsLTY3NzkwMzQ2NiwtMj
+AyMTY2MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAx
+ODI2MjAsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2Nj
+gsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0Miwx
+OTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nz
+k3MDU2LC04MDI3MTIzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2
+MTQsNzk1MzUyMTI2XX0=
 -->
