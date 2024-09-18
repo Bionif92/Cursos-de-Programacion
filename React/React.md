@@ -2216,13 +2216,59 @@ const handleRemovePlace = useCallback(function handleRemovePlace() {
 ### useEffect's Cleanup Function: Another Example
 
 ````
+import { useEffect, useState } from 'react';
+
+const TIMER = 3000;
+
+export default function DeleteConfirmation({ onConfirm, onCancel }) {
+  const [remainingTime, setRemainingTime] = useState(TIMER);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      console.log('INTERVAL');
+      setRemainingTime((prevTime) => prevTime - 10);
+    }, 10);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  useEffect(() => {
+    console.log('TIMER SET');
+    const timer = setTimeout(() => {
+      onConfirm();
+    }, TIMER);
+
+    return () => {
+      console.log('Cleaning up timer');
+      clearTimeout(timer);
+    };
+  }, [onConfirm]);
+
+  return (
+    <div id="delete-confirmation">
+      <h2>Are you sure?</h2>
+      <p>Do you really want to remove this place?</p>
+      <div id="confirmation-actions">
+        <button onClick={onCancel} className="button-text">
+          No
+        </button>
+        <button onClick={onConfirm} className="button">
+          Yes
+        </button>
+      </div>
+      <progress value={remainingTime} max={TIMER} />
+    </div>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDM4MTk1MCw3NjQxMDY1MDIsNzU0ND
-Y5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIwMywt
-MTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4OTcxODQsMjAzMz
-c2NTIwMiwxNDAwNDQyMzU3LC0xNDI4Mjg0NDgwLC02Nzc5MDM0
-NjYsLTIwMjE2NjExNTUsMTkwNTY3NzI2MywtMjExNDQ4NTg4My
-wxNzUwMTgyNjIwLDYyOTg0NjQ3OCwtMTkwNzgwMzYyMiwtNjMw
-NDk3NjY4XX0=
+eyJoaXN0b3J5IjpbLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1ND
+Q2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MTUyMDMs
+LTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMz
+M3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNjc3OTAz
+NDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0ODU4OD
+MsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2MjIsLTYz
+MDQ5NzY2OF19
 -->
