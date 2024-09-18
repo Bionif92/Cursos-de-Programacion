@@ -2194,11 +2194,25 @@ Two look alike objects are not the same
 
 ### The useCallback Hook
 
+You dont re create the function with useCallB
 ````
 import { useRef, useState, useEffect, useCallback } from 'react';
+
+const handleRemovePlace = useCallback(function handleRemovePlace() {
+    setPickedPlaces((prevPickedPlaces) =>
+      prevPickedPlaces.filter((place) => place.id !== selectedPlace.current)
+    );
+    setModalIsOpen(false);
+
+    const storedIds = JSON.parse(localStorage.getItem('selectedPlaces')) || [];
+    localStorage.setItem(
+      'selectedPlaces',
+      JSON.stringify(storedIds.filter((id) => id !== selectedPlace.current))
+    );
+  }, []);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzY5NDMyNyw3NTQ0Njk2ODksMjQ2MD
+eyJoaXN0b3J5IjpbMTc2ODcyODc4NCw3NTQ0Njk2ODksMjQ2MD
 M1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4
 LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MD
 A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
