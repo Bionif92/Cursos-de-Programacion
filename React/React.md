@@ -2022,17 +2022,25 @@ Can use Reducer without Context
 Are tasks that dont impact the current component render cycle
 
 ````
+// App.jsx
+navigator.geolocation.getCurrentPosition((position) => {
+      const sortedPlaces = sortPlacesByDistance(
+        AVAILABLE_PLACES,
+        position.coords.latitude,
+        position.coords.longitude
+      );
 ````
+This is a side effect because w
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNTY3NzI2MywtMjExNDQ4NTg4MywxNz
-UwMTgyNjIwLDYyOTg0NjQ3OCwtMTkwNzgwMzYyMiwtNjMwNDk3
-NjY4LC0xMDIyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5ND
-IsMTk3MjU0NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUx
-NDc5NzA1NiwtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwOD
-Y2NjE0LDc5NTM1MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcs
-LTE4ODU5NjUxMDZdfQ==
+eyJoaXN0b3J5IjpbMTQ2MjY1MTQxNiwxOTA1Njc3MjYzLC0yMT
+E0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2NDc4LC0xOTA3ODAz
+NjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MD
+EsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQz
+OTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTExNDk3OT
+AwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNzIzOTcs
+MTM5NzQzNDUxN119
 -->
