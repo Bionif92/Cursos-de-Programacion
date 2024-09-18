@@ -2034,15 +2034,16 @@ This is a side effect because we need it, but no to render the jsx code
 
 ### A Potential Problem with Side Effects: An Infinite Loop
 
-
+````
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjE2NjExNTUsMTkwNTY3NzI2MywtMj
-ExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OCwtMTkwNzgw
-MzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0xOTU3NjIwNz
-AxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1NDA3OTcwNTAsLTc0
-Mzk2ODAzMCwtMTUxNDc5NzA1NiwtODAyNzEyMzEwLC0xMTQ5Nz
-kwMDk4LC0xODYwODY2NjE0LDc5NTM1MjEyNiwtNTAzMzcyMzk3
-LDEzOTc0MzQ1MTddfQ==
+eyJoaXN0b3J5IjpbLTE1NjIxMTUzMTcsLTIwMjE2NjExNTUsMT
+kwNTY3NzI2MywtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0
+NjQ3OCwtMTkwNzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3Nj
+YzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1
+NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1NiwtODAyNz
+EyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5NTM1MjEy
+NiwtNTAzMzcyMzk3XX0=
 -->
