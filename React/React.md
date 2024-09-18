@@ -2075,12 +2075,13 @@ This will cause an infinte loop, because it will change the state all the time w
 
       setAvailablePlaces(sortedPlaces);
     });
-  }, []);
+  }, []); // second argument - array of dependencies
 ````
 
+With this the function will be executed 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODc1MzgxMywtMjAyMTY2MTE1NSwxOT
+eyJoaXN0b3J5IjpbMjA2MTQzNDI2NSwtMjAyMTY2MTE1NSwxOT
 A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
 NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2Nj
 MsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0
