@@ -2078,10 +2078,12 @@ This will cause an infinte loop, because it will change the state all the time w
   }, []); // second argument - array of dependencies
 ````
 
-With this the function will be executed 
+With this the function will be executed after the execution of all the component function
+
+If the array of dependecies changes, it re execute the function
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTQzNDI2NSwtMjAyMTY2MTE1NSwxOT
+eyJoaXN0b3J5IjpbLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOT
 A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
 NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2Nj
 MsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0
