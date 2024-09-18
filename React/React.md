@@ -2266,13 +2266,13 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
 
 ### Optimizing State Updates
 
-The state of the previous bar is better to put it in a different component, not to re execute
+The state of the previous bar is better to put it in a different component, not to re execute all the root component, and get slower
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjIxNjE1NywtMTA1NzUzMjg3NCw3Nj
-QxMDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5
-LC0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMz
-Q4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xNDI4Mjg0
-NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3NzI2My
-wtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OCwtMTkw
-NzgwMzYyMl19
+eyJoaXN0b3J5IjpbNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MT
+A2NTAyLDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwt
+MTY5MTUyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0OD
+k3MTg0LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4
+MCwtNjc3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLT
+IxMTQ0ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4
+MDM2MjJdfQ==
 -->
