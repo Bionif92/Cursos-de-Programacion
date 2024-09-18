@@ -2210,14 +2210,14 @@ const handleRemovePlace = useCallback(function handleRemovePlace() {
       'selectedPlaces',
       JSON.stringify(storedIds.filter((id) => id !== selectedPlace.current))
     );
-  }, []);
+  }, []); // dependecies needed too if they have
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3Nzg4OTEyOSw3NTQ0Njk2ODksMjQ2MD
-M1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4
-LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MD
-A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
-MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2Mj
-AsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEw
-MjIwMjc2NjNdfQ==
+eyJoaXN0b3J5IjpbNzY0MTA2NTAyLDc1NDQ2OTY4OSwyNDYwMz
+U3MjMsLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLTE5Njg5ODEwNTgs
+MjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMzM3NjUyMDIsMTQwMD
+Q0MjM1NywtMTQyODI4NDQ4MCwtNjc3OTAzNDY2LC0yMDIxNjYx
+MTU1LDE5MDU2NzcyNjMsLTIxMTQ0ODU4ODMsMTc1MDE4MjYyMC
+w2Mjk4NDY0NzgsLTE5MDc4MDM2MjIsLTYzMDQ5NzY2OCwtMTAy
+MjAyNzY2M119
 -->
