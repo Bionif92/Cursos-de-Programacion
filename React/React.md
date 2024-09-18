@@ -2117,14 +2117,14 @@ Also you cant use hooks inside nested functions
 
 **If there is no promise, no need to use side effect because the data you get will be instantly**
 
-
+**If you need to update the state to have the first value, an use the function, you can use side effect to run it after you have the first data**
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MD
-A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
-MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2Mj
-AsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEw
-MjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNT
-Q0MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2
-LC04MDI3MTIzMTBdfQ==
+eyJoaXN0b3J5IjpbMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMz
+M3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNjc3OTAz
+NDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0ODU4OD
+MsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2MjIsLTYz
+MDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5ND
+c2OTQyLDE5NzI1NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAs
+LTE1MTQ3OTcwNTZdfQ==
 -->
