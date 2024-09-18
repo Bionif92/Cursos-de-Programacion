@@ -2115,12 +2115,12 @@ This storage can be a side effect, but it is only executed when you add an image
 
 Also you cant use hooks inside nested functions
 
-If there is no promise, no need to use side effect 
+**If there is no promise, no need to use side effect because the data you get will be instantly**
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMjc5MjQ0MSwyMDMzNzY1MjAyLDE0MD
+eyJoaXN0b3J5IjpbMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MD
 A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
 MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2Mj
 AsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEw
