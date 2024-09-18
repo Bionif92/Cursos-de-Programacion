@@ -2111,10 +2111,14 @@ function handleSelectPlace(id) {
   }
 ````
 
-This storage can be a side effect, but it is only execute
+This storage can be a side effect, but it is only executed when you add an image to the selected place
+
+Also you cant use hooks inside nested functions
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDYyMTQ5MywxNDAwNDQyMzU3LC0xND
+eyJoaXN0b3J5IjpbMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
 I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
 NzI2MywtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OC
 wtMTkwNzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0x
