@@ -1828,7 +1828,7 @@ export default function CartContextProvider({ children }) {
     shoppingCartReducer,
     {
       items: [],
-    }
+    } // initial state
   );
 
   const [shoppingCart, setShoppingCart] = useState({
@@ -1903,7 +1903,7 @@ export default function CartContextProvider({ children }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzU5MjQ2ODMsLTYzMDQ5NzY2OCwtMT
+eyJoaXN0b3J5IjpbLTE2ODY5ODI0MzQsLTYzMDQ5NzY2OCwtMT
 AyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1
 NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNT
 YsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3
