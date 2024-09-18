@@ -1916,7 +1916,7 @@ export const CartContext = createContext({
   updateItemQuantity: () => {},
 });
 
---function shoppingCartReducer(state, action) {
+--function shoppingCartReducer(state, action) { // we will have the latest state action
   if (action.type === 'ADD_ITEM') {
     const updatedItems = [...state.items];
 
@@ -2011,14 +2011,15 @@ export default function CartContextProvider({ children }) {
   );
 }
 ````
+With this, you dont have to write the (prevState => ....) function everytime, you will have the state updated
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTIwMDkyNzAsLTE5MDc4MDM2MjIsLT
-YzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5
-NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMz
-AsLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwt
-MTg2MDg2NjYxNCw3OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3ND
-M0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUw
-LDEzMDc1MjMzMTddfQ==
+eyJoaXN0b3J5IjpbNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02Mz
+A0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3
+Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC
+0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTExNDk3OTAwOTgsLTE4
+NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNzIzOTcsMTM5NzQzND
+UxNywtMTg4NTk2NTEwNiw1NDkyMTEzODIsMTExNjUyNTM1MCwx
+MzA3NTIzMzE3XX0=
 -->
