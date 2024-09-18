@@ -2194,7 +2194,8 @@ Two look alike objects are not the same
 
 ### The useCallback Hook
 
-You dont re create the function with useCallB
+You dont re create the function with useCallback, when passing functions to a dependency of sideeffect
+
 ````
 import { useRef, useState, useEffect, useCallback } from 'react';
 
@@ -2212,7 +2213,7 @@ const handleRemovePlace = useCallback(function handleRemovePlace() {
   }, []);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2ODcyODc4NCw3NTQ0Njk2ODksMjQ2MD
+eyJoaXN0b3J5IjpbMTU3Nzg4OTEyOSw3NTQ0Njk2ODksMjQ2MD
 M1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4
 LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MD
 A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
