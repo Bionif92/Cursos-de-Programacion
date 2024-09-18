@@ -2030,17 +2030,19 @@ navigator.geolocation.getCurrentPosition((position) => {
         position.coords.longitude
       );
 ````
-This is a side effect because w
+This is a side effect because we need it, but no to render the jsx code
+
+### A Potential Problem with Side Effects: An Infinite Loop
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2MjY1MTQxNiwxOTA1Njc3MjYzLC0yMT
-E0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2NDc4LC0xOTA3ODAz
-NjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MD
-EsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQz
-OTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTExNDk3OT
-AwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNzIzOTcs
-MTM5NzQzNDUxN119
+eyJoaXN0b3J5IjpbLTIwMjE2NjExNTUsMTkwNTY3NzI2MywtMj
+ExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OCwtMTkwNzgw
+MzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0xOTU3NjIwNz
+AxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1NDA3OTcwNTAsLTc0
+Mzk2ODAzMCwtMTUxNDc5NzA1NiwtODAyNzEyMzEwLC0xMTQ5Nz
+kwMDk4LC0xODYwODY2NjE0LDc5NTM1MjEyNiwtNTAzMzcyMzk3
+LDEzOTc0MzQ1MTddfQ==
 -->
