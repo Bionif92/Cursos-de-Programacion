@@ -2121,13 +2121,39 @@ Also you cant use hooks inside nested functions
 
 ### Understanding Effect Dependencies
 
-Are props or state, and also cou
+Are props or state, and also could be fuctions or context that depedent on props or state
+
+````
+import { useRef, useEffect } from 'react';
+import { createPortal } from 'react-dom';
+
+function Modal({ open, children, onClose }) {
+  const dialog = useRef();
+
+  --useEffect(() => {
+    if (open) {
+      dialog.current.showModal();
+    } else {
+      dialog.current.close();
+    }
+  }, [open]);
+
+  return createPortal(
+    <dialog className="modal" ref={dialog} onClose={onClose}>
+      {children}
+    </dialog>,
+    document.getElementById('modal')
+  );
+}
+
+export default Modal;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzNjc5MjI5LDIwNTI1MDAxMDUsMTMzND
-g5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcsLTE0MjgyODQ0
-ODAsLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOTA1Njc3MjYzLC
-0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2NDc4LC0xOTA3
-ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2Mj
-A3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwt
-NzQzOTY4MDMwXX0=
+eyJoaXN0b3J5IjpbLTM1ODgwODI4NCwyMDUyNTAwMTA1LDEzMz
+Q4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xNDI4Mjg0
+NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3NzI2My
+wtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OCwtMTkw
+NzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0xOTU3Nj
+IwNzAxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1NDA3OTcwNTAs
+LTc0Mzk2ODAzMF19
 -->
