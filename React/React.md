@@ -2048,16 +2048,25 @@ navigator.geolocation.getCurrentPosition((position) => {
     });
 
 return (
+<Places
+          title="Available Places"
+          --places={availablePlaces}
+          fallbackText="Sorting places by distance..."
+          onSelectPlace={handleSelectPlace}
+        />
+      </main>
 )
 ````
 
+This will cause an infinte loop, because it will change the state all the time when you try to access the position
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mzc4ODg4MCwtMjAyMTY2MTE1NSwxOT
-A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
-NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2Nj
-MsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0
-MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MT
-IzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2
-LC01MDMzNzIzOTddfQ==
+eyJoaXN0b3J5IjpbNTc3Njc5ODcxLC0yMDIxNjYxMTU1LDE5MD
+U2NzcyNjMsLTIxMTQ0ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0
+NzgsLTE5MDc4MDM2MjIsLTYzMDQ5NzY2OCwtMTAyMjAyNzY2My
+wtMTk1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1NDQzNjMsNTQw
+Nzk3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNTYsLTgwMjcxMj
+MxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUzNTIxMjYs
+LTUwMzM3MjM5N119
 -->
