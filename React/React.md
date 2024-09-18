@@ -1892,7 +1892,7 @@ export default function CartContextProvider({ children }) {
   }
 
   const ctxValue = {
-    items: shoppingCartState.items,
+    -- items: shoppingCartState.items,
     addItemToCart: handleAddItemToCart,
     updateItemQuantity: handleUpdateCartItemQuantity,
   };
@@ -1902,12 +1902,14 @@ export default function CartContextProvider({ children }) {
   );
 }
 ````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODY5ODI0MzQsLTYzMDQ5NzY2OCwtMT
-AyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1
-NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNT
-YsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3
-OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OT
-Y1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcs
-MTQ4NDE1OTEzNl19
+eyJoaXN0b3J5IjpbNDQwNjM2NTA2LC02MzA0OTc2NjgsLTEwMj
+IwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0
+MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC
+04MDI3MTIzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1
+MzUyMTI2LC01MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NT
+EwNiw1NDkyMTEzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0
+ODQxNTkxMzZdfQ==
 -->
