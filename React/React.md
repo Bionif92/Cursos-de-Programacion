@@ -2190,8 +2190,9 @@ The previous lecture need a dependecy, in that case was a function
 
 The side effect will re execute when the function change
 Function are object, and will re execute when the component run
+Two look alike objects are not the same
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjYyOTQzODA2LDI0NjAzNTcyMywtNDk2Nj
+eyJoaXN0b3J5IjpbNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2Nj
 I2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1
 LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
 I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
