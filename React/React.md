@@ -1906,15 +1906,119 @@ export default function CartContextProvider({ children }) {
 ### Dispatching Actions & Editing State with useReducer
 
 ````
+import { createContext, useReducer } from 'react';
+
+import { DUMMY_PRODUCTS } from '../dummy-products.js';
+
+export const CartContext = createContext({
+  items: [],
+  addItemToCart: () => {},
+  updateItemQuantity: () => {},
+});
+
+function shoppingCartReducer(state, action) {
+  if (action.type === 'ADD_ITEM') {
+    const updatedItems = [...state.items];
+
+    const existingCartItemIndex = updatedItems.findIndex(
+      (cartItem) => cartItem.id === action.payload
+    );
+    const existingCartItem = updatedItems[existingCartItemIndex];
+
+    if (existingCartItem) {
+      const updatedItem = {
+        ...existingCartItem,
+        quantity: existingCartItem.quantity + 1,
+      };
+      updatedItems[existingCartItemIndex] = updatedItem;
+    } else {
+      const product = DUMMY_PRODUCTS.find(
+        (product) => product.id === action.payload
+      );
+      updatedItems.push({
+        id: action.payload,
+        name: product.title,
+        price: product.price,
+        quantity: 1,
+      });
+    }
+
+    return {
+      ...state, // not needed here because we have only one value
+      items: updatedItems,
+    };
+  }
+
+  if (action.type === 'UPDATE_ITEM') {
+    const updatedItems = [...state.items];
+      const updatedItemIndex = updatedItems.findIndex(
+        (item) => item.id === action.payload.productId
+      );
+
+      const updatedItem = {
+        ...updatedItems[updatedItemIndex],
+      };
+
+      updatedItem.quantity += action.payload.amount;
+
+      if (updatedItem.quantity <= 0) {
+        updatedItems.splice(updatedItemIndex, 1);
+      } else {
+        updatedItems[updatedItemIndex] = updatedItem;
+      }
+
+      return {
+        ...state,
+        items: updatedItems,
+      };
+  }
+  return state;
+}
+
+export default function CartContextProvider({ children }) {
+  const [shoppingCartState, shoppingCartDispatch] = useReducer(
+    shoppingCartReducer,
+    {
+      items: [],
+    }
+  );
+
+  function handleAddItemToCart(id) {
+    shoppingCartDispatch({
+      type: 'ADD_ITEM',
+      payload: id,
+    });
+  }
+
+  function handleUpdateCartItemQuantity(productId, amount) {
+    shoppingCartDispatch({
+      type: 'UPDATE_ITEM',
+      payload: {
+        productId,
+        amount
+      }
+    });
+  }
+
+  const ctxValue = {
+    items: shoppingCartState.items,
+    addItemToCart: handleAddItemToCart,
+    updateItemQuantity: handleUpdateCartItemQuantity,
+  };
+
+  return (
+    <CartContext.Provider value={ctxValue}>{children}</CartContext.Provider>
+  );
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTQyNDc1OCwtNjMwNDk3NjY4LC0xMD
-IyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0
-NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1Ni
-wtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5
-NTM1MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5Nj
-UxMDYsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywx
-NDg0MTU5MTM2XX0=
+eyJoaXN0b3J5IjpbLTE5MDc4MDM2MjIsLTYzMDQ5NzY2OCwtMT
+AyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1
+NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNT
+YsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3
+OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OT
+Y1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcs
+MTQ4NDE1OTEzNl19
 -->
