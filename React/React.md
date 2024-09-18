@@ -2101,7 +2101,7 @@ function handleSelectPlace(id) {
       return [place, ...prevPickedPlaces];
     });
 
-   -- const storedIds = JSON.parse(localStorage.getItem('selectedPlaces')) || [];
+   -- const storedIds = JSON.parse(localStorage.getItem('selectedPlaces')) || []; // to store the changes
     if (storedIds.indexOf(id) === -1) {
       localStorage.setItem(
         'selectedPlaces',
@@ -2112,7 +2112,7 @@ function handleSelectPlace(id) {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNTM1OTM4NywtMTQyODI4NDQ4MCwtNj
+eyJoaXN0b3J5IjpbMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNj
 c3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0
 ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2Mj
 IsLTYzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwt
