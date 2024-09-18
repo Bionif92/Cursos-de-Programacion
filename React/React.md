@@ -1772,7 +1772,7 @@ export default function CartContextProvider({children}) {
     updateItemQuantity: handleUpdateCartItemQuantity,
   };
 
-  return <CartContext.Provider value={ctxValue}>
+  return <CartContext.Provider value={ctxValue}> // need to add this return
     {children}
   </CartContext.Provider>
 }
@@ -1802,7 +1802,7 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyOTgzNzY5NiwtMTAyMjAyNzY2MywtMT
+eyJoaXN0b3J5IjpbLTYzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMT
 k1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3
 MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMC
 wtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUzNTIxMjYsLTUw
