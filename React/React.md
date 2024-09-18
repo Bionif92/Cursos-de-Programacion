@@ -2136,7 +2136,7 @@ function Modal({ open, children, onClose }) {
     } else {
       dialog.current.close();
     }
-  }, [open]);
+  }, [open]); // open is the dependency
 
   return createPortal(
     <dialog className="modal" ref={dialog} onClose={onClose}>
@@ -2149,11 +2149,11 @@ function Modal({ open, children, onClose }) {
 export default Modal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1ODgwODI4NCwyMDUyNTAwMTA1LDEzMz
-Q4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xNDI4Mjg0
-NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3NzI2My
-wtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OCwtMTkw
-NzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0xOTU3Nj
-IwNzAxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1NDA3OTcwNTAs
-LTc0Mzk2ODAzMF19
+eyJoaXN0b3J5IjpbLTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMz
+M0ODk3MTg0LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4
+NDQ4MCwtNjc3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNj
+MsLTIxMTQ0ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5
+MDc4MDM2MjIsLTYzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1Nz
+YyMDcwMSwtNTk5NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3MDUw
+LC03NDM5NjgwMzBdfQ==
 -->
