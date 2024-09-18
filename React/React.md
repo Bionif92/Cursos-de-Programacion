@@ -2161,7 +2161,7 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
       onConfirm();
     }, 3000);
 
-    return () => {
+    --return () => { // cleaner
       console.log('Cleaning up timer');
       clearTimeout(timer);
     };
@@ -2184,11 +2184,11 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLTE5Nj
-g5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMzM3NjUy
-MDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNjc3OTAzNDY2LC
-0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0ODU4ODMsMTc1
-MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2MjIsLTYzMDQ5Nz
-Y2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQy
-LDE5NzI1NDQzNjNdfQ==
+eyJoaXN0b3J5IjpbMjQ2MDM1NzIzLC00OTY2MjY0MjksLTE2OT
+E1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MDAxMDUsMTMzNDg5NzE4
+NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcsLTE0MjgyODQ0ODAsLT
+Y3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOTA1Njc3MjYzLC0yMTE0
+NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2NDc4LC0xOTA3ODAzNj
+IyLC02MzA0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEs
+LTU5OTQ3Njk0Ml19
 -->
