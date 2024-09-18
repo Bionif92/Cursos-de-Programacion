@@ -1693,6 +1693,8 @@ The context will re execute when it changes, also the things inside the context
 
 Take the things inside the app like functions and constants to the context to make it leaner:
 
+Useful when you have more context in a bigger app
+
 ````
 // shopping-cart-context.jsx
 import { createContext, useState } from 'react';
@@ -1802,11 +1804,11 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMT
-k1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3
-MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMC
-wtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUzNTIxMjYsLTUw
-MzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMT
-M4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwt
-MTAyMDgyMjgyNV19
+eyJoaXN0b3J5IjpbMTU0Mjg2NzI0MiwtNjMwNDk3NjY4LC0xMD
+IyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0
+NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1Ni
+wtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5
+NTM1MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5Nj
+UxMDYsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywx
+NDg0MTU5MTM2XX0=
 -->
