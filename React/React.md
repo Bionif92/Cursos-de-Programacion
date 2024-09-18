@@ -1694,14 +1694,119 @@ The context will re execute when it changes, also the things inside the context
 Take the things inside the app like functions and constants to the context to make it leaner:
 
 ````
-// shopping-c
+// shopping-cart-context.jsx
+import { createContext, useState } from 'react';
+
+import { DUMMY_PRODUCTS } from '../dummy-products.js';
+
+export const CartContext = createContext({
+  items: [],
+  addItemToCart: () => {},
+  updateItemQuantity: () => {},
+});
+
+export default function CartContextProvider({children}) {
+  const [shoppingCart, setShoppingCart] = useState({
+    items: [],
+  });
+
+  function handleAddItemToCart(id) {
+    setShoppingCart((prevShoppingCart) => {
+      const updatedItems = [...prevShoppingCart.items];
+
+      const existingCartItemIndex = updatedItems.findIndex(
+        (cartItem) => cartItem.id === id
+      );
+      const existingCartItem = updatedItems[existingCartItemIndex];
+
+      if (existingCartItem) {
+        const updatedItem = {
+          ...existingCartItem,
+          quantity: existingCartItem.quantity + 1,
+        };
+        updatedItems[existingCartItemIndex] = updatedItem;
+      } else {
+        const product = DUMMY_PRODUCTS.find((product) => product.id === id);
+        updatedItems.push({
+          id: id,
+          name: product.title,
+          price: product.price,
+          quantity: 1,
+        });
+      }
+
+      return {
+        items: updatedItems,
+      };
+    });
+  }
+
+  function handleUpdateCartItemQuantity(productId, amount) {
+    setShoppingCart((prevShoppingCart) => {
+      const updatedItems = [...prevShoppingCart.items];
+      const updatedItemIndex = updatedItems.findIndex(
+        (item) => item.id === productId
+      );
+
+      const updatedItem = {
+        ...updatedItems[updatedItemIndex],
+      };
+
+      updatedItem.quantity += amount;
+
+      if (updatedItem.quantity <= 0) {
+        updatedItems.splice(updatedItemIndex, 1);
+      } else {
+        updatedItems[updatedItemIndex] = updatedItem;
+      }
+
+      return {
+        items: updatedItems,
+      };
+    });
+  }
+
+  const ctxValue = {
+    items: shoppingCart.items,
+    addItemToCart: handleAddItemToCart,
+    updateItemQuantity: handleUpdateCartItemQuantity,
+  };
+
+  return <CartContext.Provider value={ctxValue}>
+    {children}
+  </CartContext.Provider>
+}
+
+// App.jsx
+import Header from './components/Header.jsx';
+import Shop from './components/Shop.jsx';
+import Product from './components/Product.jsx';
+import { DUMMY_PRODUCTS } from './dummy-products.js';
+import CartContextProvider from './store/shopping-cart-context.jsx';
+
+function App() {
+  return (
+    <CartContextProvider>
+      <Header />
+      <Shop>
+        {DUMMY_PRODUCTS.map((product) => (
+          <li key={product.id}>
+            <Product {...product} />
+          </li>
+        ))}
+      </Shop>
+    </CartContextProvider>
+  );
+}
+
+export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTQwMzkxMjIsLTEwMjIwMjc2NjMsLT
-E5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5
-NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMT
-AsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01
-MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMT
-EzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYs
-LTEwMjA4MjI4MjVdfQ==
+eyJoaXN0b3J5IjpbMTgyOTgzNzY5NiwtMTAyMjAyNzY2MywtMT
+k1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3
+MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMC
+wtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3OTUzNTIxMjYsLTUw
+MzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OTY1MTA2LDU0OTIxMT
+M4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcsMTQ4NDE1OTEzNiwt
+MTAyMDgyMjgyNV19
 -->
