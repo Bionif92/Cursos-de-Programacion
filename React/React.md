@@ -1819,7 +1819,7 @@ export const CartContext = createContext({
   updateItemQuantity: () => {},
 });
 
-function shoppingCartReducer(state, action) {
+function shoppingCartReducer(state, action) { // this function has not to be recreated when re execute
   return state;
 }
 
@@ -1903,11 +1903,11 @@ export default function CartContextProvider({ children }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwMTkxNzE5LC02MzA0OTc2NjgsLTEwMj
-IwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0
-MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC
-04MDI3MTIzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1
-MzUyMTI2LC01MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NT
-EwNiw1NDkyMTEzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0
-ODQxNTkxMzZdfQ==
+eyJoaXN0b3J5IjpbLTM2NTc0NTAyNywtNjMwNDk3NjY4LC0xMD
+IyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0
+NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1Ni
+wtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5
+NTM1MjEyNiwtNTAzMzcyMzk3LDEzOTc0MzQ1MTcsLTE4ODU5Nj
+UxMDYsNTQ5MjExMzgyLDExMTY1MjUzNTAsMTMwNzUyMzMxNywx
+NDg0MTU5MTM2XX0=
 -->
