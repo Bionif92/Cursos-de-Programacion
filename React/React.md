@@ -1803,8 +1803,10 @@ function App() {
 
 export default App;
 ````
+
+### Introducing the useReducer Hook
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0Mjg2NzI0MiwtNjMwNDk3NjY4LC0xMD
+eyJoaXN0b3J5IjpbMTkzMDg2NTYwMCwtNjMwNDk3NjY4LC0xMD
 IyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0
 NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1Ni
 wtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5
