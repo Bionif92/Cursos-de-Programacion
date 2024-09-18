@@ -1690,12 +1690,18 @@ It is more harder to read
 The context will re execute when it changes, also the things inside the context
 
 ### Outsourcing Context & State Into a Separate Provider Component
+
+Take the things inside the app like functions and constants to the context to make it leaner:
+
+````
+// shopping-c
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEsLT
-U5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQzOTY4
-MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTExNDk3OTAwOT
-gsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNzIzOTcsMTM5
-NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMTEzODIsMTExNjUyNT
-M1MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYsLTEwMjA4MjI4MjUs
-LTg4NzA4MDgyXX0=
+eyJoaXN0b3J5IjpbLTE5MTQwMzkxMjIsLTEwMjIwMjc2NjMsLT
+E5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5
+NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMT
+AsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01
+MDMzNzIzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMT
+EzODIsMTExNjUyNTM1MCwxMzA3NTIzMzE3LDE0ODQxNTkxMzYs
+LTEwMjA4MjI4MjVdfQ==
 -->
