@@ -1916,7 +1916,7 @@ export const CartContext = createContext({
   updateItemQuantity: () => {},
 });
 
-function shoppingCartReducer(state, action) {
+--function shoppingCartReducer(state, action) {
   if (action.type === 'ADD_ITEM') {
     const updatedItems = [...state.items];
 
@@ -1983,14 +1983,14 @@ export default function CartContextProvider({ children }) {
     }
   );
 
-  function handleAddItemToCart(id) {
+ -- function handleAddItemToCart(id) {
     shoppingCartDispatch({
       type: 'ADD_ITEM',
       payload: id,
     });
   }
 
-  function handleUpdateCartItemQuantity(productId, amount) {
+  -- function handleUpdateCartItemQuantity(productId, amount) {
     shoppingCartDispatch({
       type: 'UPDATE_ITEM',
       payload: {
@@ -2014,11 +2014,11 @@ export default function CartContextProvider({ children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDc4MDM2MjIsLTYzMDQ5NzY2OCwtMT
-AyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5NDc2OTQyLDE5NzI1
-NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAsLTE1MTQ3OTcwNT
-YsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwtMTg2MDg2NjYxNCw3
-OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3NDM0NTE3LC0xODg1OT
-Y1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUwLDEzMDc1MjMzMTcs
-MTQ4NDE1OTEzNl19
+eyJoaXN0b3J5IjpbLTEzOTIwMDkyNzAsLTE5MDc4MDM2MjIsLT
+YzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5
+NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMz
+AsLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMCwtMTE0OTc5MDA5OCwt
+MTg2MDg2NjYxNCw3OTUzNTIxMjYsLTUwMzM3MjM5NywxMzk3ND
+M0NTE3LC0xODg1OTY1MTA2LDU0OTIxMTM4MiwxMTE2NTI1MzUw
+LDEzMDc1MjMzMTddfQ==
 -->
