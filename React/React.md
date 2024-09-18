@@ -2188,13 +2188,14 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
 
 The previous lecture need a dependecy, in that case was a function
 
-The side effect
+The side effect will re execute when the function change
+Function are object, and will re execute when the component run
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjM0MjM4MCwyNDYwMzU3MjMsLTQ5Nj
-YyNjQyOSwtMTY5MTUyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEw
-NSwxMzM0ODk3MTg0LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMT
-QyODI4NDQ4MCwtNjc3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2
-NzcyNjMsLTIxMTQ0ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0Nz
-gsLTE5MDc4MDM2MjIsLTYzMDQ5NzY2OCwtMTAyMjAyNzY2Mywt
-MTk1NzYyMDcwMV19
+eyJoaXN0b3J5IjpbNjYyOTQzODA2LDI0NjAzNTcyMywtNDk2Nj
+I2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1
+LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
+I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
+NzI2MywtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OC
+wtMTkwNzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0x
+OTU3NjIwNzAxXX0=
 -->
