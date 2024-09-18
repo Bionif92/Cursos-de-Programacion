@@ -2001,7 +2001,7 @@ export default function CartContextProvider({ children }) {
   }
 
   const ctxValue = {
-    items: shoppingCartState.items,
+    -- items: shoppingCartState.items,
     addItemToCart: handleAddItemToCart,
     updateItemQuantity: handleUpdateCartItemQuantity,
   };
@@ -2013,13 +2013,15 @@ export default function CartContextProvider({ children }) {
 ````
 With this, you dont have to write the (prevState => ....) function everytime, you will have the state updated
 
+Can use Reducer without Context
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02Mz
-A0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3
-Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC
-0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTExNDk3OTAwOTgsLTE4
-NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNzIzOTcsMTM5NzQzND
-UxNywtMTg4NTk2NTEwNiw1NDkyMTEzODIsMTExNjUyNTM1MCwx
-MzA3NTIzMzE3XX0=
+eyJoaXN0b3J5IjpbLTE3MTQ1NjA0NzgsNjI5ODQ2NDc4LC0xOT
+A3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2
+MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MC
+wtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MTIzMTAsLTEx
+NDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2LC01MDMzNz
+IzOTcsMTM5NzQzNDUxNywtMTg4NTk2NTEwNiw1NDkyMTEzODIs
+MTExNjUyNTM1MF19
 -->
