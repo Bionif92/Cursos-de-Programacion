@@ -2191,12 +2191,18 @@ The previous lecture need a dependecy, in that case was a function
 The side effect will re execute when the function change
 Function are object, and will re execute when the component run
 Two look alike objects are not the same
+
+### The useCallback Hook
+
+````
+import { useRef, useState, useEffect, useCallback } from 'react';
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2Nj
-I2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1
-LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
-I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
-NzI2MywtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OC
-wtMTkwNzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0x
-OTU3NjIwNzAxXX0=
+eyJoaXN0b3J5IjpbLTY0NzY5NDMyNyw3NTQ0Njk2ODksMjQ2MD
+M1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4
+LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MD
+A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
+MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2Mj
+AsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEw
+MjIwMjc2NjNdfQ==
 -->
