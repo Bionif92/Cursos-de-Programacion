@@ -2119,12 +2119,15 @@ Also you cant use hooks inside nested functions
 
 **If you need to update the state to have the first value, an use the function, you can use side effect to run it after you have the first data**
 
+### Understanding Effect Dependencies
+
+Are props or state, and also cou
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMz
-M3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNjc3OTAz
-NDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0ODU4OD
-MsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2MjIsLTYz
-MDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwtNTk5ND
-c2OTQyLDE5NzI1NDQzNjMsNTQwNzk3MDUwLC03NDM5NjgwMzAs
-LTE1MTQ3OTcwNTZdfQ==
+eyJoaXN0b3J5IjpbNjQzNjc5MjI5LDIwNTI1MDAxMDUsMTMzND
+g5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcsLTE0MjgyODQ0
+ODAsLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOTA1Njc3MjYzLC
+0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2NDc4LC0xOTA3
+ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2NjMsLTE5NTc2Mj
+A3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0MDc5NzA1MCwt
+NzQzOTY4MDMwXX0=
 -->
