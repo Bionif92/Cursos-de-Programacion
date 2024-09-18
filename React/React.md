@@ -2035,15 +2035,29 @@ This is a side effect because we need it, but no to render the jsx code
 ### A Potential Problem with Side Effects: An Infinite Loop
 
 ````
+const [availablePlaces, setAvailablePlaces] = useState([]);
+
+navigator.geolocation.getCurrentPosition((position) => {
+      const sortedPlaces = sortPlacesByDistance(
+        AVAILABLE_PLACES,
+        position.coords.latitude,
+        position.coords.longitude
+      );
+
+      setAvailablePlaces(sortedPlaces);
+    });
+
+return (
+)
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjIxMTUzMTcsLTIwMjE2NjExNTUsMT
-kwNTY3NzI2MywtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0
-NjQ3OCwtMTkwNzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3Nj
-YzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1
-NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1NiwtODAyNz
-EyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5NTM1MjEy
-NiwtNTAzMzcyMzk3XX0=
+eyJoaXN0b3J5IjpbMTI1Mzc4ODg4MCwtMjAyMTY2MTE1NSwxOT
+A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
+NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEwMjIwMjc2Nj
+MsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNTQ0MzYzLDU0
+MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2LC04MDI3MT
+IzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2MTQsNzk1MzUyMTI2
+LC01MDMzNzIzOTddfQ==
 -->
