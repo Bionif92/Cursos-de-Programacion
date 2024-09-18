@@ -2058,7 +2058,7 @@ return (
 )
 ````
 
-This will cause an infinte loop, because it will change the state all the time when you try to access the position
+This will cause an infinte loop, because it will change the state when it finish to get the location
 
 ### Using useEffect for Handling (Some) Side Effects
 
@@ -2115,14 +2115,16 @@ This storage can be a side effect, but it is only executed when you add an image
 
 Also you cant use hooks inside nested functions
 
+If there is no promise, no need to use side effect 
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
-I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
-NzI2MywtMjExNDQ4NTg4MywxNzUwMTgyNjIwLDYyOTg0NjQ3OC
-wtMTkwNzgwMzYyMiwtNjMwNDk3NjY4LC0xMDIyMDI3NjYzLC0x
-OTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0NDM2Myw1NDA3OT
-cwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1NiwtODAyNzEyMzEw
-LC0xMTQ5NzkwMDk4XX0=
+eyJoaXN0b3J5IjpbLTMwMjc5MjQ0MSwyMDMzNzY1MjAyLDE0MD
+A0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2
+MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2Mj
+AsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2NjgsLTEw
+MjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0MiwxOTcyNT
+Q0MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nzk3MDU2
+LC04MDI3MTIzMTBdfQ==
 -->
