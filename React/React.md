@@ -2091,14 +2091,32 @@ If the array of dependecies changes, it re execute the function
 
 ### Not All Side Effects Need useEffect
 
+````
+function handleSelectPlace(id) {
+    setPickedPlaces((prevPickedPlaces) => {
+      if (prevPickedPlaces.some((place) => place.id === id)) {
+        return prevPickedPlaces;
+      }
+      const place = AVAILABLE_PLACES.find((place) => place.id === id);
+      return [place, ...prevPickedPlaces];
+    });
 
+   -- const storedIds = JSON.parse(localStorage.getItem('selectedPlaces')) || [];
+    if (storedIds.indexOf(id) === -1) {
+      localStorage.setItem(
+        'selectedPlaces',
+        JSON.stringify([id, ...storedIds])
+      );
+    }
+  }
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMj
-AyMTY2MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAx
-ODI2MjAsNjI5ODQ2NDc4LC0xOTA3ODAzNjIyLC02MzA0OTc2Nj
-gsLTEwMjIwMjc2NjMsLTE5NTc2MjA3MDEsLTU5OTQ3Njk0Miwx
-OTcyNTQ0MzYzLDU0MDc5NzA1MCwtNzQzOTY4MDMwLC0xNTE0Nz
-k3MDU2LC04MDI3MTIzMTAsLTExNDk3OTAwOTgsLTE4NjA4NjY2
-MTQsNzk1MzUyMTI2XX0=
+eyJoaXN0b3J5IjpbLTkwNTM1OTM4NywtMTQyODI4NDQ4MCwtNj
+c3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0
+ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4MDM2Mj
+IsLTYzMDQ5NzY2OCwtMTAyMjAyNzY2MywtMTk1NzYyMDcwMSwt
+NTk5NDc2OTQyLDE5NzI1NDQzNjMsNTQwNzk3MDUwLC03NDM5Nj
+gwMzAsLTE1MTQ3OTcwNTYsLTgwMjcxMjMxMCwtMTE0OTc5MDA5
+OCwtMTg2MDg2NjYxNF19
 -->
