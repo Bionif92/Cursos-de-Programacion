@@ -1805,8 +1805,10 @@ export default App;
 ````
 
 ### Introducing the useReducer Hook
+
+Reducer: A function that reduce one or more complex values to a simpler one
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDg2NTYwMCwtNjMwNDk3NjY4LC0xMD
+eyJoaXN0b3J5IjpbLTMxMTQ4MzcwNCwtNjMwNDk3NjY4LC0xMD
 IyMDI3NjYzLC0xOTU3NjIwNzAxLC01OTk0NzY5NDIsMTk3MjU0
 NDM2Myw1NDA3OTcwNTAsLTc0Mzk2ODAzMCwtMTUxNDc5NzA1Ni
 wtODAyNzEyMzEwLC0xMTQ5NzkwMDk4LC0xODYwODY2NjE0LDc5
