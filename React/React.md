@@ -2267,12 +2267,16 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
 ### Optimizing State Updates
 
 The state of the previous bar is better to put it in a different component, not to re execute all the root component, and get slower
+
+## Project : Building a Quiz App+
+
+**Important: to restart the QuestionTimer you need to use the prop key and set it to a different value everytime**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MT
-A2NTAyLDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwt
-MTY5MTUyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0OD
-k3MTg0LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4
-MCwtNjc3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLT
-IxMTQ0ODU4ODMsMTc1MDE4MjYyMCw2Mjk4NDY0NzgsLTE5MDc4
-MDM2MjJdfQ==
+eyJoaXN0b3J5IjpbNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NT
+MyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00
+OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MD
+AxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcs
+LTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOT
+A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
+NDc4XX0=
 -->
