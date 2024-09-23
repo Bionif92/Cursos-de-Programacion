@@ -2277,12 +2277,14 @@ Avoid the use of useEffect as possible in your project
 **To shuffle the answers he made a new component and give a key prop to re shuffle**
 
 **He group the component that need a key into a bigger component with only one key, because react doesnt like more than one unique key**
+
+Cannot use key as a prop
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM2NTE3NDMsNjM5MDgyOTUyLDc2OT
-M3NDYxLC0xMDU3NTMyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODks
-MjQ2MDM1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OT
-gxMDU4LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAy
-LDE0MDA0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMj
-AyMTY2MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAx
-ODI2MjBdfQ==
+eyJoaXN0b3J5IjpbLTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2Mz
+kwODI5NTIsNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAy
+LDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MT
+UyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0
+LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNj
+c3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0
+ODU4ODNdfQ==
 -->
