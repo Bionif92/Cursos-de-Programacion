@@ -2283,12 +2283,14 @@ Cannot use key as a prop
 Update the timer of the bar if the answer was selected
 
 **Index is better key than the answer because if you skipped an answer twice, you have two keys with the same value. Is not recommended if you swap the result because the index will be the same for that question**
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOT
-czNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3
-NCw3NjQxMDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2Nj
-I2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1
-LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
-I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
-NzI2M119
+eyJoaXN0b3J5IjpbLTEwNjk1MDQ4MzEsLTQ3ODgwODI5NywtOT
+k4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2
+MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIsNzU0NDY5Njg5LDI0Nj
+AzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1
+OCwyMDUyNTAwMTA1LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxND
+AwNDQyMzU3LC0xNDI4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2
+NjExNTVdfQ==
 -->
