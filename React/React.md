@@ -2284,9 +2284,9 @@ Update the timer of the bar if the answer was selected
 
 **Index is better key than the answer because if you skipped an answer twice, you have two keys with the same value. Is not recommended if you swap the result because the index will be the same for that question**
 
-## 
+## Look Behind the Scenes of React & Optimization Techniques
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjk1MDQ4MzEsLTQ3ODgwODI5NywtOT
+eyJoaXN0b3J5IjpbLTE4MTc0NDcwNzYsLTQ3ODgwODI5NywtOT
 k4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2
 MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIsNzU0NDY5Njg5LDI0Nj
 AzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1
