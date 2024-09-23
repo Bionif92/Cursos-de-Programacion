@@ -2279,12 +2279,14 @@ Avoid the use of useEffect as possible in your project
 **He group the component that need a key into a bigger component with only one key, because react doesnt like more than one unique key**
 
 Cannot use key as a prop
+
+Update the timer of the bar if the answer was selected
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2Mz
-kwODI5NTIsNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAy
-LDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MT
-UyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0
-LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMTQyODI4NDQ4MCwtNj
-c3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2NzcyNjMsLTIxMTQ0
-ODU4ODNdfQ==
+eyJoaXN0b3J5IjpbLTEzNzIwNjYwMjIsLTk5ODU4MTg4NCwtMT
+k3MzY1MTc0Myw2MzkwODI5NTIsNzY5Mzc0NjEsLTEwNTc1MzI4
+NzQsNzY0MTA2NTAyLDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5Nj
+YyNjQyOSwtMTY5MTUyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEw
+NSwxMzM0ODk3MTg0LDIwMzM3NjUyMDIsMTQwMDQ0MjM1NywtMT
+QyODI4NDQ4MCwtNjc3OTAzNDY2LC0yMDIxNjYxMTU1LDE5MDU2
+NzcyNjNdfQ==
 -->
