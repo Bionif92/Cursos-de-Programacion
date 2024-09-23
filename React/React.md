@@ -2268,7 +2268,7 @@ export default function DeleteConfirmation({ onConfirm, onCancel }) {
 
 The state of the previous bar is better to put it in a different component, not to re execute all the root component, and get slower
 
-## Project : Building a Quiz App+
+## Project : Building a Quiz App
 
 **Important: to restart the QuestionTimer you need to use the prop key and set it to a different value everytime**
 
@@ -2286,11 +2286,11 @@ Update the timer of the bar if the answer was selected
 
 ## Look Behind the Scenes of React & Optimization Techniques
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTc0NDcwNzYsLTQ3ODgwODI5NywtOT
-k4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2
-MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIsNzU0NDY5Njg5LDI0Nj
-AzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1
-OCwyMDUyNTAwMTA1LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxND
-AwNDQyMzU3LC0xNDI4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2
-NjExNTVdfQ==
+eyJoaXN0b3J5IjpbLTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYsLT
+Q3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4
+Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIsNz
+U0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIw
+MywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4OTcxODQsMj
+AzMzc2NTIwMiwxNDAwNDQyMzU3LC0xNDI4Mjg0NDgwLC02Nzc5
+MDM0NjZdfQ==
 -->
