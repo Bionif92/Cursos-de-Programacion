@@ -2275,8 +2275,9 @@ The state of the previous bar is better to put it in a different component, not 
 Avoid the use of useEffect as possible in your project
 
 **To shuffle the answers he made a new component and give a key prop to re shuffle**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNzg5MTMxMCw2MzkwODI5NTIsNzY5Mz
+eyJoaXN0b3J5IjpbLTE1MjQwMDEwMCw2MzkwODI5NTIsNzY5Mz
 c0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2OTY4OSwy
 NDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLTE5Njg5OD
 EwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMzM3NjUyMDIs
