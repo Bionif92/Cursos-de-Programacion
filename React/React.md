@@ -2273,8 +2273,10 @@ The state of the previous bar is better to put it in a different component, not 
 **Important: to restart the QuestionTimer you need to use the prop key and set it to a different value everytime**
 
 Avoid the use of useEffect as possible in your project
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjIwMzI5MzIsNjM5MDgyOTUyLDc2OT
+eyJoaXN0b3J5IjpbLTExMTUxMjA0NTYsNjM5MDgyOTUyLDc2OT
 M3NDYxLC0xMDU3NTMyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODks
 MjQ2MDM1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OT
 gxMDU4LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAy
