@@ -2282,13 +2282,13 @@ Cannot use key as a prop
 
 Update the timer of the bar if the answer was selected
 
-
+Index is better key than the answer because if you skipped an answer twice, you have two keys with the same value
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTA2Njg3MCwtOTk4NTgxODg0LC0xOT
-czNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3
-NCw3NjQxMDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2Nj
-I2NDI5LC0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1
-LDEzMzQ4OTcxODQsMjAzMzc2NTIwMiwxNDAwNDQyMzU3LC0xND
-I4Mjg0NDgwLC02Nzc5MDM0NjYsLTIwMjE2NjExNTUsMTkwNTY3
-NzI2M119
+eyJoaXN0b3J5IjpbMjIzNDU4MDMxLC05OTg1ODE4ODQsLTE5Nz
+M2NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0
+LDc2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00OTY2Mj
+Y0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MDAxMDUs
+MTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcsLTE0Mj
+gyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOTA1Njc3
+MjYzXX0=
 -->
