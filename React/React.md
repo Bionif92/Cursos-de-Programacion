@@ -2271,12 +2271,14 @@ The state of the previous bar is better to put it in a different component, not 
 ## Project : Building a Quiz App+
 
 **Important: to restart the QuestionTimer you need to use the prop key and set it to a different value everytime**
+
+Avoid the use of useEffect as possible in your project
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NT
-MyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00
-OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MD
-AxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcs
-LTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMjAyMTY2MTE1NSwxOT
-A1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAxODI2MjAsNjI5ODQ2
-NDc4XX0=
+eyJoaXN0b3J5IjpbLTE4NjIwMzI5MzIsNjM5MDgyOTUyLDc2OT
+M3NDYxLC0xMDU3NTMyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODks
+MjQ2MDM1NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OT
+gxMDU4LDIwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAy
+LDE0MDA0NDIzNTcsLTE0MjgyODQ0ODAsLTY3NzkwMzQ2NiwtMj
+AyMTY2MTE1NSwxOTA1Njc3MjYzLC0yMTE0NDg1ODgzLDE3NTAx
+ODI2MjBdfQ==
 -->
