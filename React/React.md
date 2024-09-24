@@ -2563,12 +2563,25 @@ export default UserFinder;
 ````
 
 ### Class-based Components & Context
+
+````
+//context.js
+import React from 'react';
+
+const UsersContext = React.createContext({
+  users: []
+});
+
+export default UsersContext;
+
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLT
-Q2NzEwODU1NCwtMTIxNzg2NzYxMywtMTUxNDI3OTY4MCwtMTY2
-MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4NjU0MTEsMTc1ODAyNT
-g0NSwtMTgzODcxMDA4MiwxNTE1MTIwODM5LC0yNjg3OTIwODgs
-LTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMTUyMjI3MTg3NywtMT
-c5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkwMjUwNywxMTUxODA5
-MjM1LC0xMjQ0NTMxMjQ5XX0=
+eyJoaXN0b3J5IjpbMTIyMjgwMjY0MiwtMTcxNTcwOTQ2NiwtMT
+Y2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0
+Mjc5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NT
+QxMSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4Mzks
+LTI2ODc5MjA4OCwtMjE4MTg1Mzk2LC0xODI2NTk4ODkzLC0xNT
+IyMjcxODc3LC0xNzk3OTU1NDIsLTU3MTMzMzEyNywtODIxOTAy
+NTA3LDExNTE4MDkyMzVdfQ==
 -->
