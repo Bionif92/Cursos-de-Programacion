@@ -2389,12 +2389,16 @@ const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount])
 ````
 
 **`useMemo`  caches the return value of a function.  `useCallback`  caches the function definition itself.**
+
+### React Uses A Virtual DOM
+
+Only update the things that are changed
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMTkwMjUwNywxMTUxODA5MjM1LC0xMj
-Q0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNzQ3OTY1Mjc1LC0yMzI0
-NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMTU5NDY3Nj
-A1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQs
-LTE5NzM2NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NT
-MyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00
-OTY2MjY0MjldfQ==
+eyJoaXN0b3J5IjpbLTIwNzA0NTUwNjUsLTgyMTkwMjUwNywxMT
+UxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNzQ3
+OTY1Mjc1LC0yMzI0NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0MT
+A3NSwtMTU5NDY3NjA1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3
+LC05OTg1ODE4ODQsLTE5NzM2NTE3NDMsNjM5MDgyOTUyLDc2OT
+M3NDYxLC0xMDU3NTMyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODks
+MjQ2MDM1NzIzXX0=
 -->
