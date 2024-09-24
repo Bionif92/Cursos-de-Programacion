@@ -2867,7 +2867,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
         const response = await fetch('http://localhost:3000/places');
         const resData = await response.json();
 
-        if (!response.ok) {
+        if (!response.ok) { // ok is a property
           throw new Error('Failed to fetch places');
         }
 
@@ -2902,7 +2902,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDE1MzA3NCwxMjk2NDEyMTk3LDE5ND
+eyJoaXN0b3J5IjpbMTM2MDczMTQwMCwxMjk2NDEyMTk3LDE5ND
 c2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5
 ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyOD
 EsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwt
