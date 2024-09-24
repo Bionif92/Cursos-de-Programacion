@@ -2287,8 +2287,10 @@ Update the timer of the bar if the answer was selected
 ## Look Behind the Scenes of React & Optimization Techniques
 
 ### How React Works Behind The Scenes
+
+React creates a tree of components
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NjQyNDQ1MSwtMTU5NDY3NjA1MywtMT
+eyJoaXN0b3J5IjpbMjAyMzc0MTA3NSwtMTU5NDY3NjA1MywtMT
 gxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQsLTE5NzM2
 NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0LD
 c2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00OTY2MjY0
