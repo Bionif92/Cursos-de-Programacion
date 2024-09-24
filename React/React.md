@@ -2406,8 +2406,12 @@ With key you map the state to a concrete instance, use the reference to key to s
 ### More Reasons For Why Keys Matter
 
 If you dont use key, they will re render all the items every time
+
+### Using Keys For Resetting Components
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mjc5NzkyMDIsLTE1MjIyNzE4NzcsLT
+eyJoaXN0b3J5IjpbLTE4MjY1OTg4OTMsLTE1MjIyNzE4NzcsLT
 E3OTc5NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgw
 OTIzNSwtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NT
 I3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMTY2LDIwMjM3NDEwNzUs
