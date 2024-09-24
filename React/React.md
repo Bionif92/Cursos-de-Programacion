@@ -2440,19 +2440,23 @@ Class based components cant use hooks
 ### Adding a First Class-based Component
 
 ````
+import { Component } from 'react';
+
 class User extends Component {
   render() {
     return <li className={classes.user}>{this.props.name}</li>;
   } 
 }
+
 export default User;
 ````
+Render the same as result in component
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIzMzY5NzQsLTE3NDY4NjU0MTEsMT
-c1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwODM5LC0yNjg3
-OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMTUyMjI3MT
-g3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkwMjUwNywx
-MTUxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNz
-Q3OTY1Mjc1LC0yMzI0NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0
-MTA3NSwtMTU5NDY3NjA1M119
+eyJoaXN0b3J5IjpbNjMzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NT
+gwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMDgzOSwtMjY4Nzky
+MDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OTMsLTE1MjIyNzE4Nz
+csLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1
+MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nz
+k2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMTY2LDIwMjM3NDEw
+NzUsLTE1OTQ2NzYwNTNdfQ==
 -->
