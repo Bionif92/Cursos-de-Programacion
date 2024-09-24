@@ -2652,13 +2652,65 @@ class ErrorBoundary extends Component {
 }
 
 export default ErrorBoundary;
+
+// userfinder.js
+import { Fragment, useState, useEffect, Component } from 'react';
+
+import Users from './Users';
+import classes from './UserFinder.module.css';
+import UsersContext from '../store/users-context';
+import ErrorBoundary from './ErrorBoundary';
+
+class UserFinder extends Component {
+  static contextType = UsersContext;
+
+  constructor() {
+    super();
+    this.state = {
+      filteredUsers: [],
+      searchTerm: '',
+    };
+  }
+
+  componentDidMount() {
+    // Send http request...
+    this.setState({ filteredUsers: this.context.users });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.searchTerm !== this.state.searchTerm) {
+      this.setState({
+        filteredUsers: this.context.users.filter((user) =>
+          user.name.includes(this.state.searchTerm)
+        ),
+      });
+    }
+  }
+
+  searchChangeHandler(event) {
+    this.setState({ searchTerm: event.target.value });
+  }
+
+  render() {
+    return (
+      <Fragment>
+        <div className={classes.finder}>
+          <input type='search' onChange={this.searchChangeHandler.bind(this)} />
+        </div>
+        <ErrorBoundary>
+          <Users users={this.state.filteredUsers} />
+        </ErrorBoundary>
+      </Fragment>
+    );
+  }
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU0MDIyNjUsLTE3MTU3MDk0NjYsLTE2Nj
-ExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMTUxNDI3
-OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4NjU0MT
-EsMTc1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwODM5LC0y
-Njg3OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMTUyMj
-I3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkwMjUw
-NywxMTUxODA5MjM1XX0=
+eyJoaXN0b3J5IjpbMTA0ODc5MjQzOCwtMTcxNTcwOTQ2NiwtMT
+Y2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0
+Mjc5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NT
+QxMSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4Mzks
+LTI2ODc5MjA4OCwtMjE4MTg1Mzk2LC0xODI2NTk4ODkzLC0xNT
+IyMjcxODc3LC0xNzk3OTU1NDIsLTU3MTMzMzEyNywtODIxOTAy
+NTA3LDExNTE4MDkyMzVdfQ==
 -->
