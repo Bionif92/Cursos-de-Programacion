@@ -2715,9 +2715,9 @@ export default UserFinder;
 
 You can not directly access to a database because of security issues
 
-Need a Backend
+Need a Backend, and you connect to that with http request
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyOTgwNjI0NywtMTcxNjYyMzYzNSwtMj
+eyJoaXN0b3J5IjpbLTU2NjAwNjQ2MCwtMTcxNjYyMzYzNSwtMj
 YxNDAwMjgxLC0xNzE1NzA5NDY2LC0xNjYxMTYzNjI4LC00Njcx
 MDg1NTQsLTEyMTc4Njc2MTMsLTE1MTQyNzk2ODAsLTE2NjA1Mz
 ExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUs
