@@ -2952,13 +2952,21 @@ export async function updateUserPlaces(places) {
   });
 
   const resData = await response.json();
+
+  if (!response.ok) {
+    throw new Error('Failed to update user data.');
+  }
+
+  return resData.message;
+}
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTAwNjIzMywtMTcxMjA0Mjk4Myw0ND
-Q0MzMwMTQsMTM2MDczMTQwMCwxMjk2NDEyMTk3LDE5NDc2MDA0
-NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5ODY4LC
-0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyODEsLTE3
-MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNz
-g2NzYxMywtMTUxNDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcw
-NDYsLTE3NDY4NjU0MTFdfQ==
+eyJoaXN0b3J5IjpbLTgzNzg5ODIwNiwtODY1MDA2MjMzLC0xNz
+EyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIx
+OTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLT
+E0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUsLTI2
+MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2MzYyOCwtNDY3MT
+A4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5NjgwLC0xNjYwNTMx
+MTI0LDYzMzMxNzA0Nl19
 -->
