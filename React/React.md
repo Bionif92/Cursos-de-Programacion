@@ -2846,9 +2846,63 @@ export default function AvailablePlaces({ onSelectPlace }) {
 }
 ````
 
+### Handling HTTP Errors
 
+````
+import { useState, useEffect } from 'react';
+
+import Places from './Places.jsx';
+import Error from './Error.jsx';
+
+export default function AvailablePlaces({ onSelectPlace }) {
+  const [isFetching, setIsFetching] = useState(false);
+  const [availablePlaces, setAvailablePlaces] = useState([]);
+ -- const [error, setError] = useState();
+
+  useEffect(() => {
+    async function fetchPlaces() {
+      setIsFetching(true);
+
+      --try {
+        const response = await fetch('http://localhost:3000/places');
+        const resData = await response.json();
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch places');
+        }
+
+        setAvailablePlaces(resData.places);
+      } --catch (error) {
+        setError({
+          message:
+            error.message || 'Could not fetch places, please try again later.',
+        });
+      }
+
+      setIsFetching(false);
+    }
+
+    fetchPlaces();
+  }, []);
+
+  if (error) {
+    return <Error title="An error occurred!" message={error.message} />;
+  }
+
+  return (
+    <Places
+      title="Available Places"
+      places={availablePlaces}
+      isLoading={isFetching}
+      loadingText="Fetching place data..."
+      fallbackText="No places available."
+      onSelectPlace={onSelectPlace}
+    />
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MjY4ODY1MywxMjk2NDEyMTk3LDE5ND
+eyJoaXN0b3J5IjpbLTY5MDE1MzA3NCwxMjk2NDEyMTk3LDE5ND
 c2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5
 ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyOD
 EsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwt
