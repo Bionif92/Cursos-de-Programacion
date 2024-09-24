@@ -2362,8 +2362,10 @@ function isPrime(number) {
 
 --export default Counter;
 ````
+
+Dont overuse memo: Use it as high in the component as possible
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDEwODM2MCwtMjMyNDU4NTYzLC0xNj
+eyJoaXN0b3J5IjpbLTY2NTM3MjA3OCwtMjMyNDU4NTYzLC0xNj
 QxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0
 NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNz
 QzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQx
