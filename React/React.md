@@ -2380,6 +2380,7 @@ Use useCallback to not re render a function
 ### Understanding the useMemo() Hook
 
 UseMemo to not re render normal functions inside de component function
+The function will only re execute if one of the dependencies change
 ````
 import { useState, memo, useCallback, useMemo } from 'react';
 
@@ -2387,11 +2388,11 @@ import { useState, memo, useCallback, useMemo } from 'react';
 const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount]);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjE3NTU3MjQsLTEyNDQ1MzEyNDksLT
-IwMzcxMTMzNTIsLTE3NDc5NjUyNzUsLTIzMjQ1ODU2MywtMTY0
-MTc1MzE2NiwyMDIzNzQxMDc1LC0xNTk0Njc2MDUzLC0xODE3ND
-Q3MDc2LC00Nzg4MDgyOTcsLTk5ODU4MTg4NCwtMTk3MzY1MTc0
-Myw2MzkwODI5NTIsNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MT
-A2NTAyLDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwt
-MTY5MTUyMDNdfQ==
+eyJoaXN0b3J5IjpbMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMj
+AzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQx
+NzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0ND
+cwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQz
+LDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMD
+Y1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0x
+NjkxNTIwM119
 -->
