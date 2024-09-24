@@ -2778,12 +2778,14 @@ export default function Places({ title, places, fallbackText, onSelectPlace }) {
 ````
 useEffect(() => {
 	async function fetchPlaces() {
-		const response = await
+		const response = await fetch('http://localhost:3000/places');
+		const resData = await response.json();
+		setAvailablePlaces(resData.places);
 	}
 }, []);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5ODYyNDEyNywxOTQ3NjAwNDUxLC01OT
+eyJoaXN0b3J5IjpbMTQ4NTg5MjY1MiwxOTQ3NjAwNDUxLC01OT
 Y4MTQ4NTYsMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5
 Njg1MCwtMTcxNjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1NzA5ND
 Y2LC0xNjYxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMs
