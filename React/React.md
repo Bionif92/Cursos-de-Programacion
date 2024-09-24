@@ -2717,7 +2717,7 @@ You can not directly access to a database because of security issues
 
 Need a Backend, and you connect to that with http request
 
-### Preparing the App For Data Fetching
+### Sending HTTP Requests (GET Request) via useEffect
 
 Cant use async in components of React
 ````
@@ -2749,11 +2749,11 @@ export default function AvailablePlaces({ onSelectPlace }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xND
-k2MzY5ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0
-MDAyODEsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwOD
-U1NCwtMTIxNzg2NzYxMywtMTUxNDI3OTY4MCwtMTY2MDUzMTEy
-NCw2MzMzMTcwNDYsLTE3NDY4NjU0MTEsMTc1ODAyNTg0NSwtMT
-gzODcxMDA4MiwxNTE1MTIwODM5LC0yNjg3OTIwODgsLTIxODE4
-NTM5NiwtMTgyNjU5ODg5M119
+eyJoaXN0b3J5IjpbMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMj
+k3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2
+MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2Mz
+YyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5Njgw
+LC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NTQxMSwxNz
+U4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4MzksLTI2ODc5
+MjA4OCwtMjE4MTg1Mzk2XX0=
 -->
