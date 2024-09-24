@@ -2413,9 +2413,9 @@ To re render a component you can use a key that changes when the value is change
 
 ### State Scheduling & Batching
 
-The state is updated at the end 
+The state is updated is scheduled, that why you use prevState in the function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMzM1MDA1NSwtMTgyNjU5ODg5MywtMT
+eyJoaXN0b3J5IjpbLTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMT
 UyMjI3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkw
 MjUwNywxMTUxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEzMz
 UyLC0xNzQ3OTY1Mjc1LC0yMzI0NTg1NjMsLTE2NDE3NTMxNjYs
