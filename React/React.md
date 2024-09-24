@@ -2984,12 +2984,37 @@ async function handleSelectPlace(selectedPlace) {
 ### Using Optimistic Updating
 
 Can load the screen and at the same time sending the http request
+
+````
+async function handleSelectPlace(selectedPlace) {
+    // await updateUserPlaces([selectedPlace, ...userPlaces]);
+
+    setUserPlaces((prevPickedPlaces) => {
+      if (!prevPickedPlaces) {
+        prevPickedPlaces = [];
+      }
+      if (prevPickedPlaces.some((place) => place.id === selectedPlace.id)) {
+        return prevPickedPlaces;
+      }
+      return [selectedPlace, ...prevPickedPlaces];
+    });
+
+    try {
+      await updateUserPlaces([selectedPlace, ...userPlaces]);
+    } catch (error) {
+      setUserPlaces(userPlaces); // if crash go back to the previous state
+      setErrorUpdatingPlaces({
+        message: error.message || 'Failed to update places.',
+      });
+    }
+  }
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyODkyNTQyMSwxNzc4ODcyMTEwLC04Nj
-UwMDYyMzMsLTE3MTIwNDI5ODMsNDQ0NDMzMDE0LDEzNjA3MzE0
-MDAsMTI5NjQxMjE5NywxOTQ3NjAwNDUxLC01OTY4MTQ4NTYsMT
-MyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5Njg1MCwtMTcx
-NjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1NzA5NDY2LC0xNjYxMT
-YzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MTQyNzk2
-ODAsLTE2NjA1MzExMjRdfQ==
+eyJoaXN0b3J5IjpbLTE3MDQyNjI1MTIsMTc3ODg3MjExMCwtOD
+Y1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMx
+NDAwLDEyOTY0MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LD
+EzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3
+MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MT
+E2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5
+NjgwLC0xNjYwNTMxMTI0XX0=
 -->
