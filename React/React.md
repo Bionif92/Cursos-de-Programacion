@@ -2981,8 +2981,11 @@ async function handleSelectPlace(selectedPlace) {
   }
 ````
 
+### Using Optimistic Updating
+
+Can load the screen and at the same time sending de 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA0NDUxODcwLDE3Nzg4NzIxMTAsLTg2NT
+eyJoaXN0b3J5IjpbNTk0MTc0MDEyLDE3Nzg4NzIxMTAsLTg2NT
 AwNjIzMywtMTcxMjA0Mjk4Myw0NDQ0MzMwMTQsMTM2MDczMTQw
 MCwxMjk2NDEyMTk3LDE5NDc2MDA0NTEsLTU5NjgxNDg1NiwxMz
 I5NzY4NTY0LC0xNDk2MzY5ODY4LC0xMzU5MTk2ODUwLC0xNzE2
