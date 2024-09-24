@@ -2398,12 +2398,14 @@ See the snapshot of the tree, and the things that are changed, it change the dom
 ### Why Keys Matter When Managing State!
 
 If you copy a component, the state is scoped to each component, they dont share it
+
+React tracks state by component type & position in the tree
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04Mj
-E5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzEx
-MzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMT
-Y2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYs
-LTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQzLDYzOT
-A4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIs
-NzU0NDY5Njg5XX0=
+eyJoaXN0b3J5IjpbLTMxNjUwMDg5MywtMTc5Nzk1NTQyLC01Nz
+EzMzMxMjcsLTgyMTkwMjUwNywxMTUxODA5MjM1LC0xMjQ0NTMx
+MjQ5LC0yMDM3MTEzMzUyLC0xNzQ3OTY1Mjc1LC0yMzI0NTg1Nj
+MsLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMTU5NDY3NjA1Mywt
+MTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQsLTE5Nz
+M2NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0
+LDc2NDEwNjUwMl19
 -->
