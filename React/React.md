@@ -2285,12 +2285,14 @@ Update the timer of the bar if the answer was selected
 **Index is better key than the answer because if you skipped an answer twice, you have two keys with the same value. Is not recommended if you swap the result because the index will be the same for that question**
 
 ## Look Behind the Scenes of React & Optimization Techniques
+
+### How React Works Behind The Scenes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYsLT
-Q3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4
-Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIsNz
-U0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIw
-MywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4OTcxODQsMj
-AzMzc2NTIwMiwxNDAwNDQyMzU3LC0xNDI4Mjg0NDgwLC02Nzc5
-MDM0NjZdfQ==
+eyJoaXN0b3J5IjpbLTQ3NjQyNDQ1MSwtMTU5NDY3NjA1MywtMT
+gxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQsLTE5NzM2
+NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0LD
+c2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00OTY2MjY0
+MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MDAxMDUsMT
+MzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MDA0NDIzNTcsLTE0Mjgy
+ODQ0ODBdfQ==
 -->
