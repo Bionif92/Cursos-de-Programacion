@@ -2718,12 +2718,41 @@ You can not directly access to a database because of security issues
 Need a Backend, and you connect to that with http request
 
 ### Preparing the App For Data Fetching
+
+````
+import { useState, useEffect } from 'react';
+
+import Places from './Places.jsx';
+
+export default function AvailablePlaces({ onSelectPlace }) {
+  const [availablePlaces, setAvailablePlaces] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:3000/places')
+      .then((response) => {
+        return response.json();
+      })
+      .then((resData) => {
+        setAvailablePlaces(resData.places);
+      });
+  }, []);
+
+  return (
+    <Places
+      title="Available Places"
+      places={availablePlaces}
+      fallbackText="No places available."
+      onSelectPlace={onSelectPlace}
+    />
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLT
-E3MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2
-MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mj
-c5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NTQx
-MSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4MzksLT
-I2ODc5MjA4OCwtMjE4MTg1Mzk2LC0xODI2NTk4ODkzLC0xNTIy
-MjcxODc3LC0xNzk3OTU1NDJdfQ==
+eyJoaXN0b3J5IjpbMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMT
+M1OTE5Njg1MCwtMTcxNjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1
+NzA5NDY2LC0xNjYxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Nj
+c2MTMsLTE1MTQyNzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2
+LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMT
+UxNTEyMDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1
+OTg4OTMsLTE1MjIyNzE4NzddfQ==
 -->
