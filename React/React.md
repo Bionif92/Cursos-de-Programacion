@@ -2748,7 +2748,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
   );
 }
 ````
-This for the images
+This for the images to render
 ````
 export default function Places({ title, places, fallbackText, onSelectPlace }) {
   console.log(places);
@@ -2773,7 +2773,7 @@ export default function Places({ title, places, fallbackText, onSelectPlace }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjU0MzI2NzAsMTk0NzYwMDQ1MSwtNT
+eyJoaXN0b3J5IjpbLTE0MjcxMDI3NTUsMTk0NzYwMDQ1MSwtNT
 k2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkx
 OTY4NTAsLTE3MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOT
 Q2NiwtMTY2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEz
