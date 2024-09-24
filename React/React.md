@@ -2414,12 +2414,15 @@ To re render a component you can use a key that changes when the value is change
 ### State Scheduling & Batching
 
 The state is updated is scheduled, that why you use prevState in the function to update it one after the other
+
+If you have more than one change of state on a function, they are batched, it will lead to an only run of the component,
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODc5MjA4OCwtMjE4MTg1Mzk2LC0xOD
-I2NTk4ODkzLC0xNTIyMjcxODc3LC0xNzk3OTU1NDIsLTU3MTMz
-MzEyNywtODIxOTAyNTA3LDExNTE4MDkyMzUsLTEyNDQ1MzEyND
-ksLTIwMzcxMTMzNTIsLTE3NDc5NjUyNzUsLTIzMjQ1ODU2Mywt
-MTY0MTc1MzE2NiwyMDIzNzQxMDc1LC0xNTk0Njc2MDUzLC0xOD
-E3NDQ3MDc2LC00Nzg4MDgyOTcsLTk5ODU4MTg4NCwtMTk3MzY1
-MTc0Myw2MzkwODI5NTJdfQ==
+eyJoaXN0b3J5IjpbODc4Nzk4NjMwLC0yNjg3OTIwODgsLTIxOD
+E4NTM5NiwtMTgyNjU5ODg5MywtMTUyMjI3MTg3NywtMTc5Nzk1
+NTQyLC01NzEzMzMxMjcsLTgyMTkwMjUwNywxMTUxODA5MjM1LC
+0xMjQ0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNzQ3OTY1Mjc1LC0y
+MzI0NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMTU5ND
+Y3NjA1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4
+ODQsLTE5NzM2NTE3NDNdfQ==
 -->
