@@ -2629,6 +2629,7 @@ class UserFinder extends Component {
 
 If you want to generate an error to have the information 
 ````
+//errorboundary.js
 import { Component } from 'react';
 
 class ErrorBoundary extends Component {
@@ -2653,11 +2654,11 @@ class ErrorBoundary extends Component {
 export default ErrorBoundary;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI3MTQ3ODIsLTE3MTU3MDk0NjYsLT
-E2NjExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMTUx
-NDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4Nj
-U0MTEsMTc1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwODM5
-LC0yNjg3OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMT
-UyMjI3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkw
-MjUwNywxMTUxODA5MjM1XX0=
+eyJoaXN0b3J5IjpbMzU0MDIyNjUsLTE3MTU3MDk0NjYsLTE2Nj
+ExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMTUxNDI3
+OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4NjU0MT
+EsMTc1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwODM5LC0y
+Njg3OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMTUyMj
+I3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkwMjUw
+NywxMTUxODA5MjM1XX0=
 -->
