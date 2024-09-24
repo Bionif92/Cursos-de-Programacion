@@ -2370,12 +2370,16 @@ Dont use it in component where props will change frecuently
 ### Avoiding Component Function Executions with Clever Structuring
 
 Try to move the thing that changes everytime to a component
+
+### Understanding the useCallback() Hook
+
+If you have functions in the component, it will re render the func
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzcxMTMzNTIsLTE3NDc5NjUyNzUsLT
-IzMjQ1ODU2MywtMTY0MTc1MzE2NiwyMDIzNzQxMDc1LC0xNTk0
-Njc2MDUzLC0xODE3NDQ3MDc2LC00Nzg4MDgyOTcsLTk5ODU4MT
-g4NCwtMTk3MzY1MTc0Myw2MzkwODI5NTIsNzY5Mzc0NjEsLTEw
-NTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2OTY4OSwyNDYwMzU3Mj
-MsLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLTE5Njg5ODEwNTgsMjA1
-MjUwMDEwNV19
+eyJoaXN0b3J5IjpbMTI4MTM4ODI5NywtMjAzNzExMzM1MiwtMT
+c0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMTY2LDIwMjM3
+NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYsLTQ3ODgwOD
+I5NywtOTk4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4Mjk1Miw3
+NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIsNzU0NDY5Nj
+g5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0xNjkxNTIwMywtMTk2
+ODk4MTA1OF19
 -->
