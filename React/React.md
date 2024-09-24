@@ -3043,10 +3043,45 @@ async function handleSelectPlace(selectedPlace) {
 ### Fetching User Data
 
 ````
-http.js
+//http.js
+export async function updateUserPlaces(places) {
+  const response = await fetch('http://localhost:3000/user-places', {
+    method: 'PUT',
+    body: JSON.stringify({ places }),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  const resData = await response.json();
+
+  if (!response.ok) {
+    throw new Error('Failed to update user data.');
+  }
+
+  return resData.message;
+}
+````
+````
+//app.js
+useEffect(() => {
+    async function fetchPlaces() {
+      setIsFetching(true);
+      try {
+        const places = await fetchUserPlaces();
+        setUserPlaces(places);
+      } catch (error) {
+        setError({ message: error.message || 'Failed to fetch user places.' });
+      }
+
+      setIsFetching(false);
+    }
+
+    fetchPlaces();
+  }, []);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTA0ODQxOSwxOTQ4MTAyNzA4LC05NT
+eyJoaXN0b3J5IjpbLTYyNzQyMDY5MiwxOTQ4MTAyNzA4LC05NT
 I3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQy
 OTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMT
 k0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYz
