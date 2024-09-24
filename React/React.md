@@ -2298,14 +2298,15 @@ React Dev Tool - Profiler: can see the execution of every component while are ch
 
 Not to re render all the component only for a single thing, use memo
 
+Memo will look at the props and if the new is the same as the old, it not re render
 ````
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5MzcyNTM2NCwtMjMyNDU4NTYzLC0xNj
-QxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0
-NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNz
-QzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQx
-MDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC
-0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4
-OTcxODRdfQ==
+eyJoaXN0b3J5IjpbNjUxMTk0NTYwLC0yMzI0NTg1NjMsLTE2ND
+E3NTMxNjYsMjAyMzc0MTA3NSwtMTU5NDY3NjA1MywtMTgxNzQ0
+NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQsLTE5NzM2NTE3ND
+MsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0LDc2NDEw
+NjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00OTY2MjY0MjksLT
+E2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MDAxMDUsMTMzNDg5
+NzE4NF19
 -->
