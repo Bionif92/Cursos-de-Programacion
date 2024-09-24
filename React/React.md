@@ -2986,6 +2986,8 @@ async function handleSelectPlace(selectedPlace) {
 Can load the screen and at the same time sending the http request
 
 ````
+const [errorUpdatingPlaces, setErrorUpdatingPlaces] = useState();
+
 async function handleSelectPlace(selectedPlace) {
     // await updateUserPlaces([selectedPlace, ...userPlaces]);
 
@@ -3010,11 +3012,11 @@ async function handleSelectPlace(selectedPlace) {
   }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDQyNjI1MTIsMTc3ODg3MjExMCwtOD
-Y1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMx
-NDAwLDEyOTY0MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LD
-EzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3
-MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MT
-E2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5
-NjgwLC0xNjYwNTMxMTI0XX0=
+eyJoaXN0b3J5IjpbLTk1Mjc1OTIyOCwxNzc4ODcyMTEwLC04Nj
+UwMDYyMzMsLTE3MTIwNDI5ODMsNDQ0NDMzMDE0LDEzNjA3MzE0
+MDAsMTI5NjQxMjE5NywxOTQ3NjAwNDUxLC01OTY4MTQ4NTYsMT
+MyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5Njg1MCwtMTcx
+NjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1NzA5NDY2LC0xNjYxMT
+YzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MTQyNzk2
+ODAsLTE2NjA1MzExMjRdfQ==
 -->
