@@ -2628,6 +2628,7 @@ class UserFinder extends Component {
 ### Introducing  Errors Boundaries
 
 If you want to generate an error to have the information 
+To catch the error and 
 ````
 //errorboundary.js
 import { Component } from 'react';
@@ -2708,7 +2709,7 @@ class UserFinder extends Component {
 export default UserFinder;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMzM5OTIzLC0xNzE1NzA5NDY2LC0xNj
+eyJoaXN0b3J5IjpbLTUzOTc5NDk3LC0xNzE1NzA5NDY2LC0xNj
 YxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MTQy
 Nzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1ND
 ExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMDgzOSwt
