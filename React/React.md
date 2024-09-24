@@ -2629,18 +2629,35 @@ class UserFinder extends Component {
 
 If you want to generate an error to have the information 
 ````
-componentDidUpdate() {
-    if (this.props.users.length === 0) {
-      throw new Error('No users provided!');
-    }
+import { Component } from 'react';
+
+class ErrorBoundary extends Component {
+  constructor() {
+    super();
+    this.state = { hasError: false };
   }
+
+  componentDidCatch(error) {
+    console.log(error);
+    this.setState({ hasError: true });
+  }
+
+  render() {
+    if (this.state.hasError) {
+      return <p>Something went wrong!</p>;
+    }
+    return this.props.children;
+  }
+}
+
+export default ErrorBoundary;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3OTQ3NDgwNCwtMTcxNTcwOTQ2NiwtMT
-Y2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0
-Mjc5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NT
-QxMSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4Mzks
-LTI2ODc5MjA4OCwtMjE4MTg1Mzk2LC0xODI2NTk4ODkzLC0xNT
-IyMjcxODc3LC0xNzk3OTU1NDIsLTU3MTMzMzEyNywtODIxOTAy
-NTA3LDExNTE4MDkyMzVdfQ==
+eyJoaXN0b3J5IjpbLTE2MDI3MTQ3ODIsLTE3MTU3MDk0NjYsLT
+E2NjExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMTUx
+NDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4Nj
+U0MTEsMTc1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwODM5
+LC0yNjg3OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5MywtMT
+UyMjI3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkw
+MjUwNywxMTUxODA5MjM1XX0=
 -->
