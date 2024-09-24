@@ -2748,12 +2748,36 @@ export default function AvailablePlaces({ onSelectPlace }) {
   );
 }
 ````
+This for the images
+````
+export default function Places({ title, places, fallbackText, onSelectPlace }) {
+  console.log(places);
+  return (
+    <section className="places-category">
+      <h2>{title}</h2>
+      {places.length === 0 && <p className="fallback-text">{fallbackText}</p>}
+      {places.length > 0 && (
+        <ul className="places">
+          {places.map((place) => (
+            <li key={place.id} className="place-item">
+              <button onClick={() => onSelectPlace(place)}>
+                --<img src={`http://localhost:3000/${place.image.src}`} alt={place.image.alt} />
+                <h3>{place.title}</h3>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+    </section>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMj
-k3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2
-MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2Mz
-YyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5Njgw
-LC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NTQxMSwxNz
-U4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4MzksLTI2ODc5
-MjA4OCwtMjE4MTg1Mzk2XX0=
+eyJoaXN0b3J5IjpbLTE1NjU0MzI2NzAsMTk0NzYwMDQ1MSwtNT
+k2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkx
+OTY4NTAsLTE3MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOT
+Q2NiwtMTY2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEz
+LC0xNTE0Mjc5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMT
+c0Njg2NTQxMSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUx
+MjA4MzksLTI2ODc5MjA4OF19
 -->
