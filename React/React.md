@@ -2466,7 +2466,7 @@ class Users extends Component {
     };
   }
 
-  toggleUsersHandler() { // u
+  toggleUsersHandler() { // update the state
     // this.state.showUsers = false; // NOT!
     this.setState((curState) => {
       return { showUsers: !curState.showUsers };
@@ -2498,7 +2498,7 @@ export default Users;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjUzNTU0NzIsLTE2NjA1MzExMjQsNj
+eyJoaXN0b3J5IjpbLTE1MTQyNzk2ODAsLTE2NjA1MzExMjQsNj
 MzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3
 MTAwODIsMTUxNTEyMDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOT
 YsLTE4MjY1OTg4OTMsLTE1MjIyNzE4NzcsLTE3OTc5NTU0Miwt
