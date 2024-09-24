@@ -2503,12 +2503,13 @@ LifeCycle methods overwrite the hooks in class based components
 Equivalents:
 componentDidMount() -- UseEffect() with no dependecies 
 componentDidUpdate() -- UseEffect() with dependecies 
+componentWillUnmount() -- clean up function of UseEffect
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzc5ODkyNDUsLTEyMTc4Njc2MTMsLT
-E1MTQyNzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2
-ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMD
-gzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OTMs
-LTE1MjIyNzE4NzcsLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04Mj
-E5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzEx
-MzM1MiwtMTc0Nzk2NTI3NV19
+eyJoaXN0b3J5IjpbLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMT
+UxNDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4
+NjU0MTEsMTc1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwOD
+M5LC0yNjg3OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5Mywt
+MTUyMjI3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMT
+kwMjUwNywxMTUxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEz
+MzUyLC0xNzQ3OTY1Mjc1XX0=
 -->
