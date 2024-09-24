@@ -2574,10 +2574,57 @@ const UsersContext = React.createContext({
 
 export default UsersContext;
 
+// Component
+import { Fragment, useState, useEffect, Component } from 'react';
 
+import Users from './Users';
+import classes from './UserFinder.module.css';
+import UsersContext from '../store/users-context';
+
+class UserFinder extends Component {
+ -- static contextType = UsersContext;
+
+  constructor() {
+    super();
+    this.state = {
+      filteredUsers: [],
+      searchTerm: '',
+    };
+  }
+
+  componentDidMount() {
+    // Send http request...
+    this.setState({ filteredUsers: this.context.users });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.searchTerm !== this.state.searchTerm) {
+      this.setState({
+        filteredUsers: this.context.users.filter((user) =>
+          user.name.includes(this.state.searchTerm)
+        ),
+      });
+    }
+  }
+
+  searchChangeHandler(event) {
+    this.setState({ searchTerm: event.target.value });
+  }
+
+  render() {
+    return (
+      <Fragment>
+        <div className={classes.finder}>
+          <input type='search' onChange={this.searchChangeHandler.bind(this)} />
+        </div>
+        <Users users={this.state.filteredUsers} />
+      </Fragment>
+    );
+  }
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMjgwMjY0MiwtMTcxNTcwOTQ2NiwtMT
+eyJoaXN0b3J5IjpbMjA1MjAwNTI4NCwtMTcxNTcwOTQ2NiwtMT
 Y2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0
 Mjc5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NT
 QxMSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4Mzks
