@@ -2942,13 +2942,23 @@ Can put the fetch data code into a new file
 ### Sending Data with POST Requests
 
 ````
+export async function updateUserPlaces(places) {
+  const response = await fetch('http://localhost:3000/user-places', {
+    method: 'PUT',
+    body: JSON.stringify({ places }),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  const resData = await response.json();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIwNDI5ODMsNDQ0NDMzMDE0LDEzNj
-A3MzE0MDAsMTI5NjQxMjE5NywxOTQ3NjAwNDUxLC01OTY4MTQ4
-NTYsMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5Njg1MC
-wtMTcxNjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1NzA5NDY2LC0x
-NjYxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MT
-QyNzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1
-NDExLDE3NTgwMjU4NDVdfQ==
+eyJoaXN0b3J5IjpbLTg2NTAwNjIzMywtMTcxMjA0Mjk4Myw0ND
+Q0MzMwMTQsMTM2MDczMTQwMCwxMjk2NDEyMTk3LDE5NDc2MDA0
+NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5ODY4LC
+0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyODEsLTE3
+MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNz
+g2NzYxMywtMTUxNDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcw
+NDYsLTE3NDY4NjU0MTFdfQ==
 -->
