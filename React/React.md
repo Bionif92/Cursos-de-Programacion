@@ -2387,12 +2387,14 @@ import { useState, memo, useCallback, useMemo } from 'react';
 //Inside component
 const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount]);
 ````
+
+**`useMemo`  caches the return value of a function.  `useCallback`  caches the function definition itself.**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMj
-AzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQx
-NzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0ND
-cwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQz
-LDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMD
-Y1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0x
-NjkxNTIwM119
+eyJoaXN0b3J5IjpbLTgyMTkwMjUwNywxMTUxODA5MjM1LC0xMj
+Q0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNzQ3OTY1Mjc1LC0yMzI0
+NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMTU5NDY3Nj
+A1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQs
+LTE5NzM2NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NT
+MyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00
+OTY2MjY0MjldfQ==
 -->
