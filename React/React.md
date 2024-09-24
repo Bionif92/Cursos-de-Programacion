@@ -2790,7 +2790,7 @@ useEffect(() => {
 
 Create fallbacks with the props
 
-Also managing loading stage
+Also managing loading stage:
 
 ````
 import { useState, useEffect } from 'react';
@@ -2837,8 +2837,8 @@ export default function AvailablePlaces({ onSelectPlace }) {
     <Places
       title="Available Places"
       places={availablePlaces}
-      isLoading={isFetching}
-      loadingText="Fetching place data..."
+      --isLoading={isFetching}
+      --loadingText="Fetching place data..."
       fallbackText="No places available."
       onSelectPlace={onSelectPlace}
     />
@@ -2848,7 +2848,7 @@ export default function AvailablePlaces({ onSelectPlace }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNTYzMjQ2MywxMjk2NDEyMTk3LDE5ND
+eyJoaXN0b3J5IjpbMTA5MjY4ODY1MywxMjk2NDEyMTk3LDE5ND
 c2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5
 ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyOD
 EsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwt
