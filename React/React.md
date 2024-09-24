@@ -2492,11 +2492,13 @@ class Users extends Component {
     );
   }
 }
+
+export default Users;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgzODM5OTgsNjMzMzE3MDQ2LC0xNz
+eyJoaXN0b3J5IjpbLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNz
 Q2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEy
 MDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OT
 MsLTE1MjIyNzE4NzcsLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04
