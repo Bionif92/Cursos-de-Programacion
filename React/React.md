@@ -2501,9 +2501,10 @@ export default Users;
 LifeCycle methods overwrite the hooks in class based components
 
 Equivalents:
-co
+componentDidMount() -- UseEffect() with no dependecies 
+componentDidUpdate() -- UseEffect() with dependecies 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDYxMDE2NTYsLTEyMTc4Njc2MTMsLT
+eyJoaXN0b3J5IjpbLTEwNzc5ODkyNDUsLTEyMTc4Njc2MTMsLT
 E1MTQyNzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2
 ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMD
 gzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OTMs
