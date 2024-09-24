@@ -2945,7 +2945,7 @@ Can put the fetch data code into a new file
 export async function updateUserPlaces(places) {
   const response = await fetch('http://localhost:3000/user-places', {
     method: 'PUT',
-    body: JSON.stringify({ places }),
+    body: JSON.stringify({ places }), // shorten notation for places: places
     headers: {
       'Content-Type': 'application/json',
     },
@@ -2982,11 +2982,11 @@ async function handleSelectPlace(selectedPlace) {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNz
-EyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIx
-OTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLT
-E0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUsLTI2
-MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2MzYyOCwtNDY3MT
-A4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5NjgwLC0xNjYwNTMx
-MTI0LDYzMzMxNzA0Nl19
+eyJoaXN0b3J5IjpbNTA0NDUxODcwLDE3Nzg4NzIxMTAsLTg2NT
+AwNjIzMywtMTcxMjA0Mjk4Myw0NDQ0MzMwMTQsMTM2MDczMTQw
+MCwxMjk2NDEyMTk3LDE5NDc2MDA0NTEsLTU5NjgxNDg1NiwxMz
+I5NzY4NTY0LC0xNDk2MzY5ODY4LC0xMzU5MTk2ODUwLC0xNzE2
+NjIzNjM1LC0yNjE0MDAyODEsLTE3MTU3MDk0NjYsLTE2NjExNj
+M2MjgsLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMTUxNDI3OTY4
+MCwtMTY2MDUzMTEyNF19
 -->
