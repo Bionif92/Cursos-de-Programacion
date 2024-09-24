@@ -2782,10 +2782,15 @@ useEffect(() => {
 		const resData = await response.json();
 		setAvailablePlaces(resData.places);
 	}
+	fetchPlaces();
 }, []);
 ````
+
+### 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTg5MjY1MiwxOTQ3NjAwNDUxLC01OT
+eyJoaXN0b3J5IjpbMTI5NjQxMjE5NywxOTQ3NjAwNDUxLC01OT
 Y4MTQ4NTYsMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5
 Njg1MCwtMTcxNjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1NzA5ND
 Y2LC0xNjYxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMs
