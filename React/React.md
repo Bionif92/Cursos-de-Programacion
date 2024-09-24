@@ -2903,12 +2903,42 @@ export default function AvailablePlaces({ onSelectPlace }) {
 ````
 
 ### Transforming Fetched Data
+
+````
+useEffect(() => {
+    async function fetchPlaces() {
+      setIsFetching(true);
+
+      try {
+        const places = await fetchAvailablePlaces();
+
+        --navigator.geolocation.getCurrentPosition((position) => {
+          const sortedPlaces = sortPlacesByDistance(
+            places,
+            position.coords.latitude,
+            position.coords.longitude
+          );
+          setAvailablePlaces(sortedPlaces);
+          setIsFetching(false);
+        });
+      } catch (error) {
+        setError({
+          message:
+            error.message || 'Could not fetch places, please try again later.',
+        });
+        setIsFetching(false);
+      }
+    }
+
+    fetchPlaces();
+  }, []);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDc2NzUzOCwxMzYwNzMxNDAwLDEyOT
-Y0MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1
-NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2Mz
-UsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2MzYyOCwt
-NDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mjc5NjgwLC0xNj
-YwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NTQxMSwxNzU4MDI1
-ODQ1LC0xODM4NzEwMDgyXX0=
+eyJoaXN0b3J5IjpbNDQ0NDMzMDE0LDEzNjA3MzE0MDAsMTI5Nj
+QxMjE5NywxOTQ3NjAwNDUxLC01OTY4MTQ4NTYsMTMyOTc2ODU2
+NCwtMTQ5NjM2OTg2OCwtMTM1OTE5Njg1MCwtMTcxNjYyMzYzNS
+wtMjYxNDAwMjgxLC0xNzE1NzA5NDY2LC0xNjYxMTYzNjI4LC00
+NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MTQyNzk2ODAsLTE2Nj
+A1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgwMjU4
+NDUsLTE4Mzg3MTAwODJdfQ==
 -->
