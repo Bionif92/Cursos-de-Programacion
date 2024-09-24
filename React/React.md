@@ -2300,13 +2300,74 @@ Not to re render all the component only for a single thing, use memo
 
 Memo will look at the props and if the new is the same as the old, it not re render
 ````
+--import { useState, memo, useCallback, useMemo } from 'react';
+
+import IconButton from '../UI/IconButton.jsx';
+import MinusIcon from '../UI/Icons/MinusIcon.jsx';
+import PlusIcon from '../UI/Icons/PlusIcon.jsx';
+import CounterOutput from './CounterOutput.jsx';
+import { log } from '../../log.js';
+
+function isPrime(number) {
+  log('Calculating if is prime number', 2, 'other');
+
+  if (number <= 1) {
+    return false;
+  }
+
+  const limit = Math.sqrt(number);
+
+  for (let i = 2; i <= limit; i++) {
+    if (number % i === 0) {
+      return false;
+    }
+  }
+
+  return true;
+}
+
+--const Counter = memo(function Counter({ initialCount }) {
+  log('<Counter /> rendered', 1);
+
+  const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount]);
+
+  const [counter, setCounter] = useState(initialCount);
+
+  const handleDecrement = useCallback(function handleDecrement() {
+    setCounter((prevCounter) => prevCounter - 1);
+  }, []);
+
+  const handleIncrement = useCallback(function handleIncrement() {
+    setCounter((prevCounter) => prevCounter + 1);
+  }, []);
+
+  return (
+    <section className="counter">
+      <p className="counter-info">
+        The initial counter value was <strong>{initialCount}</strong>. It{' '}
+        <strong>is {initialCountIsPrime ? 'a' : 'not a'}</strong> prime number.
+      </p>
+      <p>
+        <IconButton icon={MinusIcon} onClick={handleDecrement}>
+          Decrement
+        </IconButton>
+        <CounterOutput value={counter} />
+        <IconButton icon={PlusIcon} onClick={handleIncrement}>
+          Increment
+        </IconButton>
+      </p>
+    </section>
+  );
+});
+
+--export default Counter;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUxMTk0NTYwLC0yMzI0NTg1NjMsLTE2ND
-E3NTMxNjYsMjAyMzc0MTA3NSwtMTU5NDY3NjA1MywtMTgxNzQ0
-NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQsLTE5NzM2NTE3ND
-MsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0LDc2NDEw
-NjUwMiw3NTQ0Njk2ODksMjQ2MDM1NzIzLC00OTY2MjY0MjksLT
-E2OTE1MjAzLC0xOTY4OTgxMDU4LDIwNTI1MDAxMDUsMTMzNDg5
-NzE4NF19
+eyJoaXN0b3J5IjpbLTY3NDEwODM2MCwtMjMyNDU4NTYzLC0xNj
+QxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0
+NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNz
+QzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQx
+MDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC
+0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4
+OTcxODRdfQ==
 -->
