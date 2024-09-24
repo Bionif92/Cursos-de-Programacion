@@ -2920,26 +2920,28 @@ useEffect(() => {
             position.coords.longitude
           );
           setAvailablePlaces(sortedPlaces);
-          setIsFetching(false);
+          setIsFetching(false); // double 
         });
       } catch (error) {
         setError({
           message:
             error.message || 'Could not fetch places, please try again later.',
         });
-        setIsFetching(false);
+        setIsFetching(false); // double, because of the outcome
       }
     }
 
     fetchPlaces();
   }, []);
 ````
+
+### Extracting Code & Improving Code Structure
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTExMTg0NjQsNDQ0NDMzMDE0LDEzNj
-A3MzE0MDAsMTI5NjQxMjE5NywxOTQ3NjAwNDUxLC01OTY4MTQ4
-NTYsMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5Njg1MC
-wtMTcxNjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1NzA5NDY2LC0x
-NjYxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MT
-QyNzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1
-NDExLDE3NTgwMjU4NDVdfQ==
+eyJoaXN0b3J5IjpbOTg3OTMyNDIwLDQ0NDQzMzAxNCwxMzYwNz
+MxNDAwLDEyOTY0MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2
+LDEzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLT
+E3MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2
+MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0Mj
+c5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NTQx
+MSwxNzU4MDI1ODQ1XX0=
 -->
