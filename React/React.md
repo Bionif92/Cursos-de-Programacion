@@ -2659,7 +2659,7 @@ import { Fragment, useState, useEffect, Component } from 'react';
 import Users from './Users';
 import classes from './UserFinder.module.css';
 import UsersContext from '../store/users-context';
-import ErrorBoundary from './ErrorBoundary';
+--import ErrorBoundary from './ErrorBoundary';
 
 class UserFinder extends Component {
   static contextType = UsersContext;
@@ -2697,20 +2697,22 @@ class UserFinder extends Component {
         <div className={classes.finder}>
           <input type='search' onChange={this.searchChangeHandler.bind(this)} />
         </div>
-        <ErrorBoundary>
+        --<ErrorBoundary>
           <Users users={this.state.filteredUsers} />
         </ErrorBoundary>
       </Fragment>
     );
   }
 }
+
+export default UserFinder;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODc5MjQzOCwtMTcxNTcwOTQ2NiwtMT
-Y2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEzLC0xNTE0
-Mjc5NjgwLC0xNjYwNTMxMTI0LDYzMzMxNzA0NiwtMTc0Njg2NT
-QxMSwxNzU4MDI1ODQ1LC0xODM4NzEwMDgyLDE1MTUxMjA4Mzks
-LTI2ODc5MjA4OCwtMjE4MTg1Mzk2LC0xODI2NTk4ODkzLC0xNT
-IyMjcxODc3LC0xNzk3OTU1NDIsLTU3MTMzMzEyNywtODIxOTAy
-NTA3LDExNTE4MDkyMzVdfQ==
+eyJoaXN0b3J5IjpbNDgyMzM5OTIzLC0xNzE1NzA5NDY2LC0xNj
+YxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Njc2MTMsLTE1MTQy
+Nzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1ND
+ExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMDgzOSwt
+MjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OTMsLTE1Mj
+IyNzE4NzcsLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1
+MDcsMTE1MTgwOTIzNV19
 -->
