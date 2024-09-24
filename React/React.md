@@ -2938,8 +2938,10 @@ useEffect(() => {
 ### Extracting Code & Improving Code Structure
 
 Can put the fetch data code into a new file
+
+### Sending Data with POST Requests
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyMDMwODU4OCw0NDQ0MzMwMTQsMTM2MD
+eyJoaXN0b3J5IjpbMTMzODM1MDQxNSw0NDQ0MzMwMTQsMTM2MD
 czMTQwMCwxMjk2NDEyMTk3LDE5NDc2MDA0NTEsLTU5NjgxNDg1
 NiwxMzI5NzY4NTY0LC0xNDk2MzY5ODY4LC0xMzU5MTk2ODUwLC
 0xNzE2NjIzNjM1LC0yNjE0MDAyODEsLTE3MTU3MDk0NjYsLTE2
