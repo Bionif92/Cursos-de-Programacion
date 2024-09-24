@@ -2378,8 +2378,16 @@ If you have functions in the component, it will re render the function and memo 
 Use useCallback to not re render a function
 
 ### Understanding the useMemo() Hook
+
+UseMemo to 
+````
+import { useState, memo, useCallback, useMemo } from 'react';
+
+//Inside component
+const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount]);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1ODc2NTUzOCwtMTI0NDUzMTI0OSwtMj
+eyJoaXN0b3J5IjpbLTc0Mzk2MzM1MCwtMTI0NDUzMTI0OSwtMj
 AzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQx
 NzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0ND
 cwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQz
