@@ -2960,9 +2960,29 @@ export async function updateUserPlaces(places) {
   return resData.message;
 }
 ````
+In the app.js
+````
+async function handleSelectPlace(selectedPlace) {
+    setUserPlaces((prevPickedPlaces) => {
+      if (!prevPickedPlaces) {
+        prevPickedPlaces = [];
+      }
+      if (prevPickedPlaces.some((place) => place.id === selectedPlace.id)) {
+        return prevPickedPlaces;
+      }
+      return [selectedPlace, ...prevPickedPlaces];
+    });
+
+    --try {
+      await updateUserPlaces([selectedPlace, ...userPlaces]);
+    } catch (error) {
+      // ...
+    }
+  }
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzg5ODIwNiwtODY1MDA2MjMzLC0xNz
+eyJoaXN0b3J5IjpbMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNz
 EyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIx
 OTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLT
 E0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUsLTI2
