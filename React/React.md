@@ -2293,12 +2293,15 @@ React creates a tree of components
 ### Analyzing Component Function Executions via React's DevTools Profiler
 
 React Dev Tool - Profiler: can see the execution of every component while are changing
+
+### Avoiding Component Function Executions with memo()
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMT
-U5NDY3NjA1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1
-ODE4ODQsLTE5NzM2NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC
-0xMDU3NTMyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODksMjQ2MDM1
-NzIzLC00OTY2MjY0MjksLTE2OTE1MjAzLC0xOTY4OTgxMDU4LD
-IwNTI1MDAxMDUsMTMzNDg5NzE4NCwyMDMzNzY1MjAyLDE0MDA0
-NDIzNTddfQ==
+eyJoaXN0b3J5IjpbLTIzMjQ1ODU2MywtMTY0MTc1MzE2NiwyMD
+IzNzQxMDc1LC0xNTk0Njc2MDUzLC0xODE3NDQ3MDc2LC00Nzg4
+MDgyOTcsLTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2MzkwODI5NT
+IsNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2
+OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLT
+E5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMzM3
+NjUyMDJdfQ==
 -->
