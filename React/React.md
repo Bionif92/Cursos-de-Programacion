@@ -2376,12 +2376,14 @@ Try to move the thing that changes everytime to a component
 If you have functions in the component, it will re render the function and memo will not work
 
 Use useCallback to not re render a function
+
+### Understanding the useMemo() Hook
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDQ1MzEyNDksLTIwMzcxMTMzNTIsLT
-E3NDc5NjUyNzUsLTIzMjQ1ODU2MywtMTY0MTc1MzE2NiwyMDIz
-NzQxMDc1LC0xNTk0Njc2MDUzLC0xODE3NDQ3MDc2LC00Nzg4MD
-gyOTcsLTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2MzkwODI5NTIs
-NzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2OT
-Y4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLTE5
-Njg5ODEwNThdfQ==
+eyJoaXN0b3J5IjpbMjA1ODc2NTUzOCwtMTI0NDUzMTI0OSwtMj
+AzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQx
+NzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0ND
+cwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQz
+LDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMD
+Y1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC0x
+NjkxNTIwM119
 -->
