@@ -2451,12 +2451,56 @@ class User extends Component {
 export default User;
 ````
 Render the same as result in component
+
+### Working with State & Events
+
+````
+import { Component } from 'react';
+
+class Users extends Component {
+  constructor() {
+    super();
+    this.state = {
+      showUsers: true,
+      more: 'Test',
+    };
+  }
+
+  toggleUsersHandler() {
+    // this.state.showUsers = false; // NOT!
+    this.setState((curState) => {
+      return { showUsers: !curState.showUsers };
+    });
+  }
+
+  render() {
+    const usersList = (
+      <ul>
+        {DUMMY_USERS.map((user) => (
+          <User key={user.id} name={user.name} />
+        ))}
+      </ul>
+    );
+
+    return (
+      <div className={classes.users}>
+        <button onClick={this.toggleUsersHandler.bind(this)}>
+          {this.state.showUsers ? 'Hide' : 'Show'} Users
+        </button>
+        {this.state.showUsers && usersList}
+      </div>
+    );
+  }
+}
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NT
-gwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMDgzOSwtMjY4Nzky
-MDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OTMsLTE1MjIyNzE4Nz
-csLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1
-MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nz
-k2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMTY2LDIwMjM3NDEw
-NzUsLTE1OTQ2NzYwNTNdfQ==
+eyJoaXN0b3J5IjpbLTEyMjgzODM5OTgsNjMzMzE3MDQ2LC0xNz
+Q2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEy
+MDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OT
+MsLTE1MjIyNzE4NzcsLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04
+MjE5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNz
+ExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUz
+MTY2LDIwMjM3NDEwNzVdfQ==
 -->
