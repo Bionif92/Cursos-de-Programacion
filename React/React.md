@@ -2394,12 +2394,14 @@ const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount])
 
 Only update the things that are changed
 See the snapshot of the tree, and the things that are changed, it change the dom
+
+### Why Keys Matter When Managing State!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTMzMzEyNywtODIxOTAyNTA3LDExNT
-E4MDkyMzUsLTEyNDQ1MzEyNDksLTIwMzcxMTMzNTIsLTE3NDc5
-NjUyNzUsLTIzMjQ1ODU2MywtMTY0MTc1MzE2NiwyMDIzNzQxMD
-c1LC0xNTk0Njc2MDUzLC0xODE3NDQ3MDc2LC00Nzg4MDgyOTcs
-LTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2MzkwODI5NTIsNzY5Mz
-c0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2OTY4OSwy
-NDYwMzU3MjNdfQ==
+eyJoaXN0b3J5IjpbMTU2NTY3NjUxNywtNTcxMzMzMTI3LC04Mj
+E5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzEx
+MzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMT
+Y2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYs
+LTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNzQzLDYzOT
+A4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQxMDY1MDIs
+NzU0NDY5Njg5XX0=
 -->
