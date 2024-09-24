@@ -3015,13 +3015,36 @@ async function handleSelectPlace(selectedPlace) {
 ### Deleting Data (via DELETE HTTP Requests)
 
 ````
+ const handleRemovePlace = useCallback(
+    async function handleRemovePlace() {
+      setUserPlaces((prevPickedPlaces) =>
+        prevPickedPlaces.filter(
+          (place) => place.id !== selectedPlace.current.id
+        )
+      );
+
+      try {
+        await updateUserPlaces(
+          userPlaces.filter((place) => place.id !== selectedPlace.current.id)
+        );
+      } catch (error) {
+        setUserPlaces(userPlaces);
+        setErrorUpdatingPlaces({
+          message: error.message || 'Failed to delete place.',
+        });
+      }
+
+      setModalIsOpen(false);
+    },
+    [userPlaces]
+  );
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYzNDc1OTEzLC05NTI3NTkyMjgsMTc3OD
-g3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQzMzAx
-NCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMTk0NzYwMDQ1MSwtNT
-k2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEzNTkx
-OTY4NTAsLTE3MTY2MjM2MzUsLTI2MTQwMDI4MSwtMTcxNTcwOT
-Q2NiwtMTY2MTE2MzYyOCwtNDY3MTA4NTU0LC0xMjE3ODY3NjEz
-LC0xNTE0Mjc5NjgwXX0=
+eyJoaXN0b3J5IjpbMTk0ODEwMjcwOCwtOTUyNzU5MjI4LDE3Nz
+g4NzIxMTAsLTg2NTAwNjIzMywtMTcxMjA0Mjk4Myw0NDQ0MzMw
+MTQsMTM2MDczMTQwMCwxMjk2NDEyMTk3LDE5NDc2MDA0NTEsLT
+U5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5ODY4LC0xMzU5
+MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyODEsLTE3MTU3MD
+k0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwtMTIxNzg2NzYx
+MywtMTUxNDI3OTY4MF19
 -->
