@@ -2793,16 +2793,66 @@ Create fallbacks with the props
 Also managing loading stage
 
 ````
-const [isFetching, setIsFetching] = useState(false);
+import { useState, useEffect } from 'react';
+
+import Places from './Places.jsx';
+import Error from './Error.jsx';
+
+export default function AvailablePlaces({ onSelectPlace }) {
+  --const [isFetching, setIsFetching] = useState(false);
+  const [availablePlaces, setAvailablePlaces] = useState([]);
+  const [error, setError] = useState();
+
+  useEffect(() => {
+    async function fetchPlaces() {
+      --setIsFetching(true);
+
+      try {
+        const response = await fetch('http://localhost:3000/places');
+        const resData = await response.json();
+
+        if (!response.ok) {
+          throw new Error('Failed to fetch places');
+        }
+
+        setAvailablePlaces(resData.places);
+      } catch (error) {
+        setError({
+          message:
+            error.message || 'Could not fetch places, please try again later.',
+        });
+      }
+
+      --setIsFetching(false);
+    }
+
+    fetchPlaces();
+  }, []);
+
+  if (error) {
+    return <Error title="An error occurred!" message={error.message} />;
+  }
+
+  return (
+    <Places
+      title="Available Places"
+      places={availablePlaces}
+      isLoading={isFetching}
+      loadingText="Fetching place data..."
+      fallbackText="No places available."
+      onSelectPlace={onSelectPlace}
+    />
+  );
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjAxMjA5MzgsMTI5NjQxMjE5NywxOT
-Q3NjAwNDUxLC01OTY4MTQ4NTYsMTMyOTc2ODU2NCwtMTQ5NjM2
-OTg2OCwtMTM1OTE5Njg1MCwtMTcxNjYyMzYzNSwtMjYxNDAwMj
-gxLC0xNzE1NzA5NDY2LC0xNjYxMTYzNjI4LC00NjcxMDg1NTQs
-LTEyMTc4Njc2MTMsLTE1MTQyNzk2ODAsLTE2NjA1MzExMjQsNj
-MzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3
-MTAwODIsMTUxNTEyMDgzOV19
+eyJoaXN0b3J5IjpbLTQyNTYzMjQ2MywxMjk2NDEyMTk3LDE5ND
+c2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5
+ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyOD
+EsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwt
+MTIxNzg2NzYxMywtMTUxNDI3OTY4MCwtMTY2MDUzMTEyNCw2Mz
+MzMTcwNDYsLTE3NDY4NjU0MTEsMTc1ODAyNTg0NSwtMTgzODcx
+MDA4MiwxNTE1MTIwODM5XX0=
 -->
