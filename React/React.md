@@ -2450,7 +2450,7 @@ class User extends Component {
 
 export default User;
 ````
-Render the same as result in component
+Render the same as result in function component
 
 ### Working with State & Events
 
@@ -2496,13 +2496,15 @@ class Users extends Component {
 export default Users;
 ````
 
+###
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTQyNzk2ODAsLTE2NjA1MzExMjQsNj
-MzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3
-MTAwODIsMTUxNTEyMDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOT
-YsLTE4MjY1OTg4OTMsLTE1MjIyNzE4NzcsLTE3OTc5NTU0Miwt
-NTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgwOTIzNSwtMTI0ND
-UzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4
-NTYzLC0xNjQxNzUzMTY2XX0=
+eyJoaXN0b3J5IjpbLTEyMTc4Njc2MTMsLTE1MTQyNzk2ODAsLT
+E2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgw
+MjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEyMDgzOSwtMjY4NzkyMD
+g4LC0yMTgxODUzOTYsLTE4MjY1OTg4OTMsLTE1MjIyNzE4Nzcs
+LTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MT
+gwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2
+NTI3NSwtMjMyNDU4NTYzXX0=
 -->
