@@ -2402,12 +2402,16 @@ If you copy a component, the state is scoped to each component, they dont share 
 React tracks state by component type & position in the tree
 
 With key you map the state to a concrete instance, use the reference to key to something that not change, like id
+
+### More Reasons For Why Keys Matter
+
+If you dont use key, they will re render all the items every time
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjIyNzE4NzcsLTE3OTc5NTU0MiwtNT
-cxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUz
-MTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NT
-YzLC0xNjQxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMs
-LTE4MTc0NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOT
-czNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3
-NCw3NjQxMDY1MDJdfQ==
+eyJoaXN0b3J5IjpbLTE5Mjc5NzkyMDIsLTE1MjIyNzE4NzcsLT
+E3OTc5NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgw
+OTIzNSwtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NT
+I3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMTY2LDIwMjM3NDEwNzUs
+LTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYsLTQ3ODgwODI5NywtOT
+k4NTgxODg0LC0xOTczNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2
+MSwtMTA1NzUzMjg3NF19
 -->
