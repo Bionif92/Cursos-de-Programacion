@@ -2393,12 +2393,13 @@ const initialCountIsPrime = useMemo(() => isPrime(initialCount), [initialCount])
 ### React Uses A Virtual DOM
 
 Only update the things that are changed
+See the snapshot of the tree, and the things that are changed, it change the dom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzA0NTUwNjUsLTgyMTkwMjUwNywxMT
-UxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNzQ3
-OTY1Mjc1LC0yMzI0NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0MT
-A3NSwtMTU5NDY3NjA1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3
-LC05OTg1ODE4ODQsLTE5NzM2NTE3NDMsNjM5MDgyOTUyLDc2OT
-M3NDYxLC0xMDU3NTMyODc0LDc2NDEwNjUwMiw3NTQ0Njk2ODks
-MjQ2MDM1NzIzXX0=
+eyJoaXN0b3J5IjpbLTU3MTMzMzEyNywtODIxOTAyNTA3LDExNT
+E4MDkyMzUsLTEyNDQ1MzEyNDksLTIwMzcxMTMzNTIsLTE3NDc5
+NjUyNzUsLTIzMjQ1ODU2MywtMTY0MTc1MzE2NiwyMDIzNzQxMD
+c1LC0xNTk0Njc2MDUzLC0xODE3NDQ3MDc2LC00Nzg4MDgyOTcs
+LTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2MzkwODI5NTIsNzY5Mz
+c0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2OTY4OSwy
+NDYwMzU3MjNdfQ==
 -->
