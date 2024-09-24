@@ -2296,12 +2296,16 @@ React Dev Tool - Profiler: can see the execution of every component while are ch
 
 ### Avoiding Component Function Executions with memo()
 
+Not to re render all the component only for a single thing, use memo
+
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjQ1ODU2MywtMTY0MTc1MzE2NiwyMD
-IzNzQxMDc1LC0xNTk0Njc2MDUzLC0xODE3NDQ3MDc2LC00Nzg4
-MDgyOTcsLTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2MzkwODI5NT
-IsNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0MTA2NTAyLDc1NDQ2
-OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOSwtMTY5MTUyMDMsLT
-E5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0ODk3MTg0LDIwMzM3
-NjUyMDJdfQ==
+eyJoaXN0b3J5IjpbMTA5MzcyNTM2NCwtMjMyNDU4NTYzLC0xNj
+QxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0
+NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNz
+QzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQx
+MDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC
+0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4
+OTcxODRdfQ==
 -->
