@@ -3078,14 +3078,14 @@ function App() {
   const selectedPlace = useRef();
 
   const [userPlaces, setUserPlaces] = useState([]);
-  const [isFetching, setIsFetching] = useState(false);
-  const [error, setError] = useState();
+  --const [isFetching, setIsFetching] = useState(false);
+  --const [error, setError] = useState();
 
   const [errorUpdatingPlaces, setErrorUpdatingPlaces] = useState();
 
   const [modalIsOpen, setModalIsOpen] = useState(false);
 
-  useEffect(() => {
+  --useEffect(() => {
     async function fetchPlaces() {
       setIsFetching(true);
       try {
@@ -3189,13 +3189,13 @@ function App() {
         </p>
       </header>
       <main>
-        {error && <Error title="An error occurred!" message={error.message} />}
+        --{error && <Error title="An error occurred!" message={error.message} />}
         {!error && (
           <Places
             title="I'd like to visit ..."
             fallbackText="Select the places you would like to visit below."
-            isLoading={isFetching}
-            loadingText="Fetching your places..."
+            --isLoading={isFetching}
+            --loadingText="Fetching your places..."
             places={userPlaces}
             onSelectPlace={handleStartRemovePlace}
           />
@@ -3210,11 +3210,11 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAyNDQ3ODksMTk0ODEwMjcwOCwtOT
-UyNzU5MjI4LDE3Nzg4NzIxMTAsLTg2NTAwNjIzMywtMTcxMjA0
-Mjk4Myw0NDQ0MzMwMTQsMTM2MDczMTQwMCwxMjk2NDEyMTk3LD
-E5NDc2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2
-MzY5ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MD
-AyODEsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwODU1
-NCwtMTIxNzg2NzYxM119
+eyJoaXN0b3J5IjpbLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NT
+I3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQy
+OTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMT
+k0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYz
+Njk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUsLTI2MTQwMD
+I4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2MzYyOCwtNDY3MTA4NTU0
+LC0xMjE3ODY3NjEzXX0=
 -->
