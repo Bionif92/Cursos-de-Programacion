@@ -2401,12 +2401,13 @@ If you copy a component, the state is scoped to each component, they dont share 
 
 React tracks state by component type & position in the tree
 
+With key you map the state to a concrete instance
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzYwNjE3NDMsLTE3OTc5NTU0MiwtNT
-cxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUz
-MTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NT
-YzLC0xNjQxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMs
-LTE4MTc0NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOT
-czNjUxNzQzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3
-NCw3NjQxMDY1MDJdfQ==
+eyJoaXN0b3J5IjpbMTIwMDAxNDYwMywtMTc5Nzk1NTQyLC01Nz
+EzMzMxMjcsLTgyMTkwMjUwNywxMTUxODA5MjM1LC0xMjQ0NTMx
+MjQ5LC0yMDM3MTEzMzUyLC0xNzQ3OTY1Mjc1LC0yMzI0NTg1Nj
+MsLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMTU5NDY3NjA1Mywt
+MTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4ODQsLTE5Nz
+M2NTE3NDMsNjM5MDgyOTUyLDc2OTM3NDYxLC0xMDU3NTMyODc0
+LDc2NDEwNjUwMl19
 -->
