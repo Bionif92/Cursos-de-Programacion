@@ -2719,6 +2719,7 @@ Need a Backend, and you connect to that with http request
 
 ### Preparing the App For Data Fetching
 
+Cant use async in components of React
 ````
 import { useState, useEffect } from 'react';
 
@@ -2748,11 +2749,11 @@ export default function AvailablePlaces({ onSelectPlace }) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMT
-M1OTE5Njg1MCwtMTcxNjYyMzYzNSwtMjYxNDAwMjgxLC0xNzE1
-NzA5NDY2LC0xNjYxMTYzNjI4LC00NjcxMDg1NTQsLTEyMTc4Nj
-c2MTMsLTE1MTQyNzk2ODAsLTE2NjA1MzExMjQsNjMzMzE3MDQ2
-LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMT
-UxNTEyMDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1
-OTg4OTMsLTE1MjIyNzE4NzddfQ==
+eyJoaXN0b3J5IjpbLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xND
+k2MzY5ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0
+MDAyODEsLTE3MTU3MDk0NjYsLTE2NjExNjM2MjgsLTQ2NzEwOD
+U1NCwtMTIxNzg2NzYxMywtMTUxNDI3OTY4MCwtMTY2MDUzMTEy
+NCw2MzMzMTcwNDYsLTE3NDY4NjU0MTEsMTc1ODAyNTg0NSwtMT
+gzODcxMDA4MiwxNTE1MTIwODM5LC0yNjg3OTIwODgsLTIxODE4
+NTM5NiwtMTgyNjU5ODg5M119
 -->
