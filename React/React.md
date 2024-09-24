@@ -2504,12 +2504,69 @@ Equivalents:
 componentDidMount() -- UseEffect() with no dependecies 
 componentDidUpdate() -- UseEffect() with dependecies 
 componentWillUnmount() -- clean up function of UseEffect
+
+### Lifecycle Methods In Action
+
+````
+import { Fragment, useState, useEffect, Component } from 'react';
+
+import Users from './Users';
+import classes from './UserFinder.module.css';
+
+const DUMMY_USERS = [
+  { id: 'u1', name: 'Max' },
+  { id: 'u2', name: 'Manuel' },
+  { id: 'u3', name: 'Julie' },
+];
+
+class UserFinder extends Component {
+  constructor() {
+    super();
+    this.state = {
+      filteredUsers: [],
+      searchTerm: '',
+    };
+  }
+
+  componentDidMount() {
+    // Send http request...
+    this.setState({ filteredUsers: DUMMY_USERS });
+  }
+
+  componentDidUpdate(prevProps, prevState) {
+    if (prevState.searchTerm !== this.state.searchTerm) {
+      this.setState({
+        filteredUsers: DUMMY_USERS.filter((user) =>
+          user.name.includes(this.state.searchTerm)
+        ),
+      });
+    }
+  }
+
+  searchChangeHandler(event) {
+    this.setState({ searchTerm: event.target.value });
+  }
+
+  render() {
+    return (
+      <Fragment>
+        <div className={classes.finder}>
+          <input type='search' onChange={this.searchChangeHandler.bind(this)} />
+        </div>
+        <Users users={this.state.filteredUsers} />
+      </Fragment>
+    );
+  }
+}
+
+export default UserFinder;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NzEwODU1NCwtMTIxNzg2NzYxMywtMT
-UxNDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMzMTcwNDYsLTE3NDY4
-NjU0MTEsMTc1ODAyNTg0NSwtMTgzODcxMDA4MiwxNTE1MTIwOD
-M5LC0yNjg3OTIwODgsLTIxODE4NTM5NiwtMTgyNjU5ODg5Mywt
-MTUyMjI3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMT
-kwMjUwNywxMTUxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEz
-MzUyLC0xNzQ3OTY1Mjc1XX0=
+eyJoaXN0b3J5IjpbLTE2NjExNjM2MjgsLTQ2NzEwODU1NCwtMT
+IxNzg2NzYxMywtMTUxNDI3OTY4MCwtMTY2MDUzMTEyNCw2MzMz
+MTcwNDYsLTE3NDY4NjU0MTEsMTc1ODAyNTg0NSwtMTgzODcxMD
+A4MiwxNTE1MTIwODM5LC0yNjg3OTIwODgsLTIxODE4NTM5Niwt
+MTgyNjU5ODg5MywtMTUyMjI3MTg3NywtMTc5Nzk1NTQyLC01Nz
+EzMzMxMjcsLTgyMTkwMjUwNywxMTUxODA5MjM1LC0xMjQ0NTMx
+MjQ5LC0yMDM3MTEzMzUyXX0=
 -->
