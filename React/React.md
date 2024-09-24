@@ -2902,9 +2902,9 @@ export default function AvailablePlaces({ onSelectPlace }) {
 }
 ````
 
-
+### Transforming Fetched Data
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTQ1NjEwMCwxMzYwNzMxNDAwLDEyOT
+eyJoaXN0b3J5IjpbMTM2NDc2NzUzOCwxMzYwNzMxNDAwLDEyOT
 Y0MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1
 NjQsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2Mz
 UsLTI2MTQwMDI4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2MzYyOCwt
