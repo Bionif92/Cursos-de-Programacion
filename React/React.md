@@ -3064,6 +3064,8 @@ export async function updateUserPlaces(places) {
 ````
 ````
 //app.js
+const [isFetching, setIsFetching] = useState(false);
+
 useEffect(() => {
     async function fetchPlaces() {
       setIsFetching(true);
@@ -3081,11 +3083,11 @@ useEffect(() => {
   }, []);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNzQyMDY5MiwxOTQ4MTAyNzA4LC05NT
-I3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQy
-OTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMT
-k0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYz
-Njk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUsLTI2MTQwMD
-I4MSwtMTcxNTcwOTQ2NiwtMTY2MTE2MzYyOCwtNDY3MTA4NTU0
-LC0xMjE3ODY3NjEzXX0=
+eyJoaXN0b3J5IjpbODYxNzc1MTMzLDE5NDgxMDI3MDgsLTk1Mj
+c1OTIyOCwxNzc4ODcyMTEwLC04NjUwMDYyMzMsLTE3MTIwNDI5
+ODMsNDQ0NDMzMDE0LDEzNjA3MzE0MDAsMTI5NjQxMjE5NywxOT
+Q3NjAwNDUxLC01OTY4MTQ4NTYsMTMyOTc2ODU2NCwtMTQ5NjM2
+OTg2OCwtMTM1OTE5Njg1MCwtMTcxNjYyMzYzNSwtMjYxNDAwMj
+gxLC0xNzE1NzA5NDY2LC0xNjYxMTYzNjI4LC00NjcxMDg1NTQs
+LTEyMTc4Njc2MTNdfQ==
 -->
