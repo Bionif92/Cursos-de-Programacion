@@ -2410,12 +2410,16 @@ If you dont use key, they will re render all the items every time
 ### Using Keys For Resetting Components
 
 To re render a component you can use a key that changes when the value is changed
+
+### State Scheduling & Batching
+
+The state is updated at the end 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMxMjk0MTgzLC0xODI2NTk4ODkzLC0xNT
-IyMjcxODc3LC0xNzk3OTU1NDIsLTU3MTMzMzEyNywtODIxOTAy
-NTA3LDExNTE4MDkyMzUsLTEyNDQ1MzEyNDksLTIwMzcxMTMzNT
-IsLTE3NDc5NjUyNzUsLTIzMjQ1ODU2MywtMTY0MTc1MzE2Niwy
-MDIzNzQxMDc1LC0xNTk0Njc2MDUzLC0xODE3NDQ3MDc2LC00Nz
-g4MDgyOTcsLTk5ODU4MTg4NCwtMTk3MzY1MTc0Myw2MzkwODI5
-NTIsNzY5Mzc0NjFdfQ==
+eyJoaXN0b3J5IjpbMTMyMzM1MDA1NSwtMTgyNjU5ODg5MywtMT
+UyMjI3MTg3NywtMTc5Nzk1NTQyLC01NzEzMzMxMjcsLTgyMTkw
+MjUwNywxMTUxODA5MjM1LC0xMjQ0NTMxMjQ5LC0yMDM3MTEzMz
+UyLC0xNzQ3OTY1Mjc1LC0yMzI0NTg1NjMsLTE2NDE3NTMxNjYs
+MjAyMzc0MTA3NSwtMTU5NDY3NjA1MywtMTgxNzQ0NzA3NiwtND
+c4ODA4Mjk3LC05OTg1ODE4ODQsLTE5NzM2NTE3NDMsNjM5MDgy
+OTUyLDc2OTM3NDYxXX0=
 -->
