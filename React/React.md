@@ -2366,12 +2366,16 @@ function isPrime(number) {
 Dont overuse memo: Use it as high in the component as possible
 Checking props with memo cost performance
 Dont use it in component where props will change frecuently
+
+### Avoiding Component Function Executions with Clever Structuring
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTUwMTY0MCwtMjMyNDU4NTYzLC0xNj
-QxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0
-NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgxODg0LC0xOTczNjUxNz
-QzLDYzOTA4Mjk1Miw3NjkzNzQ2MSwtMTA1NzUzMjg3NCw3NjQx
-MDY1MDIsNzU0NDY5Njg5LDI0NjAzNTcyMywtNDk2NjI2NDI5LC
-0xNjkxNTIwMywtMTk2ODk4MTA1OCwyMDUyNTAwMTA1LDEzMzQ4
-OTcxODRdfQ==
+eyJoaXN0b3J5IjpbLTE3NDc5NjUyNzUsLTIzMjQ1ODU2MywtMT
+Y0MTc1MzE2NiwyMDIzNzQxMDc1LC0xNTk0Njc2MDUzLC0xODE3
+NDQ3MDc2LC00Nzg4MDgyOTcsLTk5ODU4MTg4NCwtMTk3MzY1MT
+c0Myw2MzkwODI5NTIsNzY5Mzc0NjEsLTEwNTc1MzI4NzQsNzY0
+MTA2NTAyLDc1NDQ2OTY4OSwyNDYwMzU3MjMsLTQ5NjYyNjQyOS
+wtMTY5MTUyMDMsLTE5Njg5ODEwNTgsMjA1MjUwMDEwNSwxMzM0
+ODk3MTg0XX0=
 -->
