@@ -2415,14 +2415,21 @@ To re render a component you can use a key that changes when the value is change
 
 The state is updated is scheduled, that why you use prevState in the function to update it one after the other
 
-If you have more than one change of state on a function, they are batched, it will lead to an only run of the component,
+If you have more than one change of state on a function, they are batched, it will lead to an only run of the component
+
+### Optimizing React with MillionJS
+
+https://million.dev/
+
+Can make react faster
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc4Nzk4NjMwLC0yNjg3OTIwODgsLTIxOD
-E4NTM5NiwtMTgyNjU5ODg5MywtMTUyMjI3MTg3NywtMTc5Nzk1
-NTQyLC01NzEzMzMxMjcsLTgyMTkwMjUwNywxMTUxODA5MjM1LC
-0xMjQ0NTMxMjQ5LC0yMDM3MTEzMzUyLC0xNzQ3OTY1Mjc1LC0y
-MzI0NTg1NjMsLTE2NDE3NTMxNjYsMjAyMzc0MTA3NSwtMTU5ND
-Y3NjA1MywtMTgxNzQ0NzA3NiwtNDc4ODA4Mjk3LC05OTg1ODE4
-ODQsLTE5NzM2NTE3NDNdfQ==
+eyJoaXN0b3J5IjpbMTY4MDExMTcwMCwtMjY4NzkyMDg4LC0yMT
+gxODUzOTYsLTE4MjY1OTg4OTMsLTE1MjIyNzE4NzcsLTE3OTc5
+NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgwOTIzNS
+wtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NTI3NSwt
+MjMyNDU4NTYzLC0xNjQxNzUzMTY2LDIwMjM3NDEwNzUsLTE1OT
+Q2NzYwNTMsLTE4MTc0NDcwNzYsLTQ3ODgwODI5NywtOTk4NTgx
+ODg0LC0xOTczNjUxNzQzXX0=
 -->
