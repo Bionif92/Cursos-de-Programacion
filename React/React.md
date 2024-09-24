@@ -2423,9 +2423,18 @@ https://million.dev/
 
 Can make react faster
 
+Use automatic mode
+
+````
+//bash
+npm install million
+
+Change the vite file with the script they made
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MDExMTcwMCwtMjY4NzkyMDg4LC0yMT
+eyJoaXN0b3J5IjpbMTUxNTEyMDgzOSwtMjY4NzkyMDg4LC0yMT
 gxODUzOTYsLTE4MjY1OTg4OTMsLTE1MjIyNzE4NzcsLTE3OTc5
 NTU0MiwtNTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgwOTIzNS
 wtMTI0NDUzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NTI3NSwt
