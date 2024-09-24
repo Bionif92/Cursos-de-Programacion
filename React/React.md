@@ -2396,8 +2396,10 @@ Only update the things that are changed
 See the snapshot of the tree, and the things that are changed, it change the dom
 
 ### Why Keys Matter When Managing State!
+
+If you copy a component, the state is scoped to each component, they dont share it
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2NTY3NjUxNywtNTcxMzMzMTI3LC04Mj
+eyJoaXN0b3J5IjpbLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04Mj
 E5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNzEx
 MzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUzMT
 Y2LDIwMjM3NDEwNzUsLTE1OTQ2NzYwNTMsLTE4MTc0NDcwNzYs
