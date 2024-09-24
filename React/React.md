@@ -2460,7 +2460,7 @@ import { Component } from 'react';
 class Users extends Component {
   constructor() {
     super();
-    this.state = {
+    this.state = { // always an object
       showUsers: true,
       more: 'Test',
     };
@@ -2498,11 +2498,11 @@ export default Users;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjA1MzExMjQsNjMzMzE3MDQ2LC0xNz
-Q2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3MTAwODIsMTUxNTEy
-MDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOTYsLTE4MjY1OTg4OT
-MsLTE1MjIyNzE4NzcsLTE3OTc5NTU0MiwtNTcxMzMzMTI3LC04
-MjE5MDI1MDcsMTE1MTgwOTIzNSwtMTI0NDUzMTI0OSwtMjAzNz
-ExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4NTYzLC0xNjQxNzUz
-MTY2LDIwMjM3NDEwNzVdfQ==
+eyJoaXN0b3J5IjpbLTE0NzQwODIxNjUsLTE2NjA1MzExMjQsNj
+MzMzE3MDQ2LC0xNzQ2ODY1NDExLDE3NTgwMjU4NDUsLTE4Mzg3
+MTAwODIsMTUxNTEyMDgzOSwtMjY4NzkyMDg4LC0yMTgxODUzOT
+YsLTE4MjY1OTg4OTMsLTE1MjIyNzE4NzcsLTE3OTc5NTU0Miwt
+NTcxMzMzMTI3LC04MjE5MDI1MDcsMTE1MTgwOTIzNSwtMTI0ND
+UzMTI0OSwtMjAzNzExMzM1MiwtMTc0Nzk2NTI3NSwtMjMyNDU4
+NTYzLC0xNjQxNzUzMTY2XX0=
 -->
