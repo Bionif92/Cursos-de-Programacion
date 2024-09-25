@@ -3289,9 +3289,12 @@ async function fetchSortedPlaces() {
   });
 }
 ````
-This one goes to the custom
+This one goes to the custom hook
+
+
+## Working with Forms & Inp
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTQ4MDE4LC01ODg5NzY2ODUsMTU4Mz
+eyJoaXN0b3J5IjpbODQ2OTQ2ODcwLC01ODg5NzY2ODUsMTU4Mz
 YxMjIyLC0yNjg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAz
 LC0xMzk4NDQ1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOT
 Q4MTAyNzA4LC05NTI3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2
