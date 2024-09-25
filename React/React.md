@@ -3707,12 +3707,12 @@ export default function Login() {
 import { useRef, useState } from 'react';
 
 export default function Login() {
-  const [emailIsInvalid, setEmailIsInvalid] = useState(false);
+  -- const [emailIsInvalid, setEmailIsInvalid] = useState(false);
 
   const email = useRef();
   const password = useRef();
 
-  function handleSubmit(event) {
+ -- function handleSubmit(event) {
     event.preventDefault();
 
     const enteredEmail = email.current.value;
@@ -3758,11 +3758,11 @@ export default function Login() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4OTYzNjM0LDE5NTgzMzM0ODEsLTc4Mz
-kyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3
-OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMj
-EzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0
-ODksLTU4ODk3NjY4NSwxNTgzNjEyMjIsLTI2ODQ1NzQ5MSwxMj
-QzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0NDUzOTIsMTc2NjM1
-NjQwN119
+eyJoaXN0b3J5IjpbLTIwMDU5NDE5OTYsMTk1ODMzMzQ4MSwtNz
+gzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5
+Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2My
+wyMTMyMzM0MzkwLDg3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1
+MjQ4OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLD
+EyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2
+MzU2NDA3XX0=
 -->
