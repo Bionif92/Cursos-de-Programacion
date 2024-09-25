@@ -3363,7 +3363,7 @@ export default function Login() {
   function handleInputChange(identifier, value) {
     setEnteredValues((prevValues) => ({
       ...prevValues,
-      [identifier]: value,
+      [identifier]: value, // dymanically enter
     }));
   }
 
@@ -3415,11 +3415,11 @@ export default function Login() {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMz
-IzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtNDUwNTUyNDg5
-LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0OTEsMTI0Mz
-M1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYzNTY0
-MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTkyMjgsMT
-c3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQz
-MzAxNF19
+eyJoaXN0b3J5IjpbMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03OD
+M3Mjc3NjMsMjEzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5MTAz
+LC00NTA1NTI0ODksLTU4ODk3NjY4NSwxNTgzNjEyMjIsLTI2OD
+Q1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0NDUz
+OTIsMTc2NjM1NjQwNywtNTQ3ODEyMTQ5LDE5NDgxMDI3MDgsLT
+k1Mjc1OTIyOCwxNzc4ODcyMTEwLC04NjUwMDYyMzMsLTE3MTIw
+NDI5ODNdfQ==
 -->
