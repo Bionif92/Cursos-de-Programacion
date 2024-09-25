@@ -3222,15 +3222,46 @@ With the first one, it is more flexible than that
 ### Creating a Custom Hook
 
 Foulder Hooks
+
+The function need to start with `use`
 ````
+import { useEffect, useState } from 'react';
+
+export function useFetch(fetchFn, initialValue) {
+  const [isFetching, setIsFetching] = useState();
+  const [error, setError] = useState();
+  const [fetchedData, setFetchedData] = useState(initialValue);
+
+  useEffect(() => {
+    async function fetchData() {
+      setIsFetching(true);
+      try {
+        const data = await fetchFn();
+        setFetchedData(data);
+      } catch (error) {
+        setError({ message: error.message || 'Failed to fetch data.' });
+      }
+
+      setIsFetching(false);
+    }
+
+    fetchData();
+  }, [fetchFn]);
+
+  return {
+    isFetching,
+    fetchedData,
+    error
+  }
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MjQyOTI0LC0xMzk4NDQ1MzkyLDE3Nj
-YzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTky
-MjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLD
-Q0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMTk0NzYw
-MDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYzNjk4Nj
-gsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUsLTI2MTQwMDI4MSwt
-MTcxNTcwOTQ2Nl19
+eyJoaXN0b3J5IjpbLTU2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNz
+Y2MzU2NDA3LC01NDc4MTIxNDksMTk0ODEwMjcwOCwtOTUyNzU5
+MjI4LDE3Nzg4NzIxMTAsLTg2NTAwNjIzMywtMTcxMjA0Mjk4My
+w0NDQ0MzMwMTQsMTM2MDczMTQwMCwxMjk2NDEyMTk3LDE5NDc2
+MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2MzY5OD
+Y4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1LC0yNjE0MDAyODEs
+LTE3MTU3MDk0NjZdfQ==
 -->
