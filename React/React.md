@@ -3975,13 +3975,13 @@ export function useInput(defaultValue, validationFn) {
 ````
 ````
 export default function Login() {
-  const {
+  const { // for email
     value: emailValue,
     handleInputChange: handleEmailChange,
     handleInputBlur: handleEmailBlur,
     hasError: emailHasError,
   } = useInput('', (value) => isEmail(value) && isNotEmpty(value));
-  const {
+  const { for password
     value: passwordValue,
     handleInputChange: handlePasswordChange,
     handleInputBlur: handlePasswordBlur,
@@ -4003,11 +4003,11 @@ export default function Login() {
 
 ### Using Third-Party Form Libraries
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4MDY4MTM1LC02OTgwMDcyMjEsMzA4Nj
-IyODE4LDIwNzQ2NTcxODcsLTEzMzk2MzkzNzksLTQ1MTg1NjIw
-NCwxOTU4MzMzNDgxLC03ODM5MjU2MjUsLTgyNTE0ODIzNCwtMT
-E4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5Mzky
-NjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMT
-A2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYx
-MjIyXX0=
+eyJoaXN0b3J5IjpbMjI2NDM5MzgsMzQ4MDY4MTM1LC02OTgwMD
+cyMjEsMzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2MzkzNzks
+LTQ1MTg1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2MjUsLTgyNT
+E0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkz
+NTcsLTc5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsOD
+c2Mjc4ODksMTA2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2
+ODVdfQ==
 -->
