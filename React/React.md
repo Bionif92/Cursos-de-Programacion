@@ -3582,7 +3582,7 @@ With FormData `event.target.reset()`
 
 ### Validating Input on Every Keystroke via State
 
-Print a message bel
+Print a message below the input, but it appears at the begging of the typing, not what we want
 ````
 const emailIsInvalid =
     enteredValues.email !== '' && !enteredValues.email.includes('@');
@@ -3605,7 +3605,7 @@ return(
 )
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDk5MzI5MjUsLTc4MzkyNTYyNSwtOD
+eyJoaXN0b3J5IjpbLTIwNjM1MDc1NDksLTc4MzkyNTYyNSwtOD
 I1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3OTcsMTk3Mjc1
 OTM1NywtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMjEzMjMzNDM5MC
 w4NzYyNzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0ODksLTU4ODk3
