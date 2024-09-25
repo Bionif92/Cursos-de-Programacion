@@ -3585,13 +3585,30 @@ With FormData `event.target.reset()`
 ````
 const emailIsInvalid =
     enteredValues.email !== '' && !enteredValues.email.includes('@');
+
+return(
+<div className="control-row">
+        <div className="control no-margin">
+          <label htmlFor="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            onChange={(event) => handleInputChange('email', event.target.value)}
+            value={enteredValues.email}
+          />
+          <div className="control-error">
+            {emailIsInvalid && <p>Please enter a valid email address.</p>}
+          </div>
+        </div>
+)
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMwNzI4OTEsLTc4MzkyNTYyNSwtOD
-I1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3OTcsMTk3Mjc1
-OTM1NywtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMjEzMjMzNDM5MC
-w4NzYyNzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0ODksLTU4ODk3
-NjY4NSwxNTgzNjEyMjIsLTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC
-01NjMwMzIyMDMsLTEzOTg0NDUzOTIsMTc2NjM1NjQwNywtNTQ3
-ODEyMTQ5XX0=
+eyJoaXN0b3J5IjpbLTUyMTIwNzkxNSwtNzgzOTI1NjI1LC04Mj
+UxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5
+MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLD
+g3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2
+Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLDEyNDMzNTk0MDEsLT
+U2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2MzU2NDA3LC01NDc4
+MTIxNDldfQ==
 -->
