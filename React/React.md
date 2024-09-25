@@ -3344,14 +3344,82 @@ Or preventDafault()
 ### Managing & Getting User Input via State & Generic Handlers
 
 ````
+import { useState } from 'react';
+
+export default function Login() {
+  // const [enteredEmail, setEnteredEmail] = useState('');
+  // const [enteredPassword, setEnteredPassword] = useState('');
+  const [enteredValues, setEnteredValues] = useState({
+    email: '',
+    password: '',
+  });
+
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    console.log(enteredValues);
+  }
+
+  function handleInputChange(identifier, value) {
+    setEnteredValues((prevValues) => ({
+      ...prevValues,
+      [identifier]: value,
+    }));
+  }
+
+  // function handleEmailChange(event) {
+  //   setEnteredEmail(event.target.value);
+  // }
+
+  // function handlePasswordChange(event) {
+  //   setEnteredPassword(event.target.value);
+  // }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2>Login</h2>
+
+      <div className="control-row">
+        <div className="control no-margin">
+          <label htmlFor="email">Email</label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            onChange={(event) => handleInputChange('email', event.target.value)}
+            value={enteredValues.email}
+          />
+        </div>
+
+        <div className="control no-margin">
+          <label htmlFor="password">Password</label>
+          <input
+            id="password"
+            type="password"
+            name="password"
+            onChange={(event) =>
+              handleInputChange('password', event.target.value)
+            }
+            value={enteredValues.password}
+          />
+        </div>
+      </div>
+
+      <p className="form-actions">
+        <button className="button button-flat">Reset</button>
+        <button className="button">Login</button>
+      </p>
+    </form>
+  );
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzM0OTYyODQsLTc4MzcyNzc2MywyMT
-MyMzM0MzkwLDg3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4
-OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLDEyND
-MzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2MzU2
-NDA3LC01NDc4MTIxNDksMTk0ODEwMjcwOCwtOTUyNzU5MjI4LD
-E3Nzg4NzIxMTAsLTg2NTAwNjIzMywtMTcxMjA0Mjk4Myw0NDQ0
-MzMwMTRdfQ==
+eyJoaXN0b3J5IjpbLTc5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMz
+IzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtNDUwNTUyNDg5
+LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0OTEsMTI0Mz
+M1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYzNTY0
+MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTkyMjgsMT
+c3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQz
+MzAxNF19
 -->
