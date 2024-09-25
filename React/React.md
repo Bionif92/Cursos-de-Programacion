@@ -3267,12 +3267,35 @@ Cannot use function that change the state that is inside the custom hook, how to
 ### Using A Custom Hook in Multiple Components
 
 Thats the idea
+
+### Creating Flexible Custom Hooks
+
+Converting a non promise to a promise:
+
+````
+async function fetchSortedPlaces() {
+  const places = await fetchAvailablePlaces();
+
+  return new Promise((resolve) => {
+    navigator.geolocation.getCurrentPosition((position) => {
+      const sortedPlaces = sortPlacesByDistance(
+        places,
+        position.coords.latitude,
+        position.coords.longitude
+      );
+
+      resolve(sortedPlaces);
+    });
+  });
+}
+````
+This one goes to the custom
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODk3NjY4NSwxNTgzNjEyMjIsLTI2OD
-Q1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0NDUz
-OTIsMTc2NjM1NjQwNywtNTQ3ODEyMTQ5LDE5NDgxMDI3MDgsLT
-k1Mjc1OTIyOCwxNzc4ODcyMTEwLC04NjUwMDYyMzMsLTE3MTIw
-NDI5ODMsNDQ0NDMzMDE0LDEzNjA3MzE0MDAsMTI5NjQxMjE5Ny
-wxOTQ3NjAwNDUxLC01OTY4MTQ4NTYsMTMyOTc2ODU2NCwtMTQ5
-NjM2OTg2OF19
+eyJoaXN0b3J5IjpbMTYzMTQ4MDE4LC01ODg5NzY2ODUsMTU4Mz
+YxMjIyLC0yNjg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAz
+LC0xMzk4NDQ1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOT
+Q4MTAyNzA4LC05NTI3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2
+MjMzLC0xNzEyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLD
+EyOTY0MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3
+Njg1NjRdfQ==
 -->
