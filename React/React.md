@@ -3460,6 +3460,7 @@ Require less code than with state
 
 ### Getting Values via FormData & Native Browser APIs
 
+Native build in feature
 ````
 export default function Signup() {
   function handleSubmit(event) {
@@ -3571,11 +3572,11 @@ export default function Signup() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMyNTc4MzcsLTExODI5NzIyMjMsMT
-QzODE5Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLTc4Mzcy
-Nzc2MywyMTMyMzM0MzkwLDg3NjI3ODg5LDEwNjY3MzkxMDMsLT
-Q1MDU1MjQ4OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMjY4NDU3
-NDkxLDEyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0NTM5Mi
-wxNzY2MzU2NDA3LC01NDc4MTIxNDksMTk0ODEwMjcwOCwtOTUy
-NzU5MjI4XX0=
+eyJoaXN0b3J5IjpbMjAzNjc4NjUyOSwtMTE4Mjk3MjIyMywxND
+M4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3
+NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtND
+UwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0
+OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLD
+E3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3
+NTkyMjhdfQ==
 -->
