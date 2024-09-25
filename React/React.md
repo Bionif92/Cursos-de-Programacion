@@ -3886,12 +3886,33 @@ export default function Signup() {
 ````
 
 ### Mixing Custom & Built-in Validation Logic
+
+Some validation need to write them, here to confirm the sama
+````
+ const [passwordsAreNotEqual, setPasswordsAreNotEqual] = useState(false);
+
+function handleSubmit(event) {
+    event.preventDefault();
+
+    const fd = new FormData(event.target);
+    const acquisitionChannel = fd.getAll('acquisition');
+    const data = Object.fromEntries(fd.entries());
+    data.acquisition = acquisitionChannel;
+
+    --if (data.password !== data['confirm-password']) {
+      setPasswordsAreNotEqual(true);
+      return;
+    }
+
+    console.log(data);
+  }
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNzQ0Mjk2MSwtNDUxODU2MjA0LDE5NT
-gzMzM0ODEsLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcy
-MjIzLDE0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC
-03ODM3Mjc3NjMsMjEzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5
-MTAzLC00NTA1NTI0ODksLTU4ODk3NjY4NSwxNTgzNjEyMjIsLT
-I2ODQ1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0
-NDUzOTJdfQ==
+eyJoaXN0b3J5IjpbMzg3NjM5MjE2LC00NTE4NTYyMDQsMTk1OD
+MzMzQ4MSwtNzgzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIy
+MjMsMTQzODE5Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLT
+c4MzcyNzc2MywyMTMyMzM0MzkwLDg3NjI3ODg5LDEwNjY3Mzkx
+MDMsLTQ1MDU1MjQ4OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMj
+Y4NDU3NDkxLDEyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0
+NTM5Ml19
 -->
