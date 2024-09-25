@@ -3258,12 +3258,13 @@ export function useFetch(fetchFn, initialValue) {
 Use useFetch() wherever you need
 Delete the state on the component
 Use object destructuring to have the return state
+Can rename the destructuring with allias `{fetch: places}`
 
 ### Exposing Nested Functions From The Custom Hook
 
 Cannot use function that change the state that is inside the custom hook, how to solve it:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2OTkwMjU0LC0yNjg0NTc0OTEsMTI0Mz
+eyJoaXN0b3J5IjpbMTU4MzYxMjIyLC0yNjg0NTc0OTEsMTI0Mz
 M1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYzNTY0
 MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTkyMjgsMT
 c3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQz
