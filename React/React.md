@@ -3303,6 +3303,7 @@ Need:
 
 ### Handling Form Submission
 
+By default buttons in form make an http request when clicked
 ````
 export default function Login() {
   function handleSubmit(event) {
@@ -3339,11 +3340,11 @@ export default function Login() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMTI4MDMsODc2Mjc4ODksMTA2NjczOT
-EwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0y
-Njg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4ND
-Q1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4
-LC05NTI3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNz
-EyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIx
-OTddfQ==
+eyJoaXN0b3J5IjpbMjEzMjMzNDM5MCw4NzYyNzg4OSwxMDY2Nz
+M5MTAzLC00NTA1NTI0ODksLTU4ODk3NjY4NSwxNTgzNjEyMjIs
+LTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLTEzOT
+g0NDUzOTIsMTc2NjM1NjQwNywtNTQ3ODEyMTQ5LDE5NDgxMDI3
+MDgsLTk1Mjc1OTIyOCwxNzc4ODcyMTEwLC04NjUwMDYyMzMsLT
+E3MTIwNDI5ODMsNDQ0NDMzMDE0LDEzNjA3MzE0MDAsMTI5NjQx
+MjE5N119
 -->
