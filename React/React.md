@@ -3298,11 +3298,11 @@ This one goes to the custom hook
 
 Need:
 
- - Form Submission : relatively easy
- - Input Validation
+ - Form Submission : relatively easy , can use state or ref, or via FormData
+ - Input Validation : this one is tricky
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0OTI3MjIyMCwtNDUwNTUyNDg5LC01OD
+eyJoaXN0b3J5IjpbMTA2NjczOTEwMywtNDUwNTUyNDg5LC01OD
 g5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0OTEsMTI0MzM1OTQw
 MSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYzNTY0MDcsLT
 U0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTkyMjgsMTc3ODg3
