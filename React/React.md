@@ -3414,12 +3414,54 @@ export default function Login() {
 }
 ````
 
+### Getting User Input via Refs
+
+````
+import { useRef } from 'react';
+
+export default function Login() {
+  const email = useRef();
+  const password = useRef();
+
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    const enteredEmail = email.current.value;
+    const enteredPassword = password.current.value;
+
+    console.log(enteredEmail, enteredPassword);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2>Login</h2>
+
+      <div className="control-row">
+        <div className="control no-margin">
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" name="email" ref={email} />
+        </div>
+
+        <div className="control no-margin">
+          <label htmlFor="password">Password</label>
+          <input id="password" type="password" name="password" ref={password} />
+        </div>
+      </div>
+
+      <p className="form-actions">
+        <button className="button button-flat">Reset</button>
+        <button className="button">Login</button>
+      </p>
+    </form>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03OD
-M3Mjc3NjMsMjEzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5MTAz
-LC00NTA1NTI0ODksLTU4ODk3NjY4NSwxNTgzNjEyMjIsLTI2OD
-Q1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0NDUz
-OTIsMTc2NjM1NjQwNywtNTQ3ODEyMTQ5LDE5NDgxMDI3MDgsLT
-k1Mjc1OTIyOCwxNzc4ODcyMTEwLC04NjUwMDYyMzMsLTE3MTIw
-NDI5ODNdfQ==
+eyJoaXN0b3J5IjpbMTQzODE5Nzc5NywxOTcyNzU5MzU3LC03OT
+M5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLDg3NjI3ODg5
+LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2Njg1LDE1OD
+M2MTIyMiwtMjY4NDU3NDkxLDEyNDMzNTk0MDEsLTU2MzAzMjIw
+MywtMTM5ODQ0NTM5MiwxNzY2MzU2NDA3LC01NDc4MTIxNDksMT
+k0ODEwMjcwOCwtOTUyNzU5MjI4LDE3Nzg4NzIxMTAsLTg2NTAw
+NjIzM119
 -->
