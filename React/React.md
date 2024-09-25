@@ -3577,8 +3577,9 @@ export default function Signup() {
 
 Button type reset
 Or reset with the state
+With ref you do `ref.current.value = ""`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjgwODY2OTUsLTgyNTE0ODIzNCwtMT
+eyJoaXN0b3J5IjpbLTIxMDE5NDIxMDQsLTgyNTE0ODIzNCwtMT
 E4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5Mzky
 NjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMT
 A2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYx
