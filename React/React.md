@@ -3910,13 +3910,25 @@ function handleSubmit(event) {
 
 ### Building & Using a Reusable Input Component
 
+Create a component of the Input 
 
+````
+export default function Input({ label, id, error, ...props }) {
+  return (
+    <div className="control no-margin">
+      <label htmlFor={id}>{label}</label>
+      <input id={id} {...props} />
+      <div className="control-error">{error && <p>{error}</p>}</div>
+    </div>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzY4OTQ0Njg5LC0xMzM5NjM5Mzc5LC00NT
-E4NTYyMDQsMTk1ODMzMzQ4MSwtNzgzOTI1NjI1LC04MjUxNDgy
-MzQsLTExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5MzU3LC
-03OTM5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLDg3NjI3
-ODg5LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2Njg1LD
-E1ODM2MTIyMiwtMjY4NDU3NDkxLDEyNDMzNTk0MDEsLTU2MzAz
-MjIwM119
+eyJoaXN0b3J5IjpbMjA3NDY1NzE4NywtMTMzOTYzOTM3OSwtND
+UxODU2MjA0LDE5NTgzMzM0ODEsLTc4MzkyNTYyNSwtODI1MTQ4
+MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3OTcsMTk3Mjc1OTM1Ny
+wtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMjEzMjMzNDM5MCw4NzYy
+Nzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0ODksLTU4ODk3NjY4NS
+wxNTgzNjEyMjIsLTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC01NjMw
+MzIyMDNdfQ==
 -->
