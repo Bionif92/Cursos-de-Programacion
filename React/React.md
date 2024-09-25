@@ -3578,8 +3578,9 @@ export default function Signup() {
 Button type reset
 Or reset with the state
 With ref you do `ref.current.value = ""`
+With FormData `event.target.reset()`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDE5NDIxMDQsLTgyNTE0ODIzNCwtMT
+eyJoaXN0b3J5IjpbLTE4NTU4NzU4MDMsLTgyNTE0ODIzNCwtMT
 E4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5Mzky
 NjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMT
 A2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYx
