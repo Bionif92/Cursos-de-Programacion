@@ -3948,9 +3948,35 @@ export function isEqualsToOtherValue(value, otherValue) {
 ### Creating a Custom useInput Hook
 
 ````
+import { useState } from 'react';
+
+export function useInput(defaultValue, validationFn) {
+  const [enteredValue, setEnteredValue] = useState(defaultValue);
+  const [didEdit, setDidEdit] = useState(false);
+
+  const valueIsValid = validationFn(enteredValue);
+
+  function handleInputChange(event) {
+    setEnteredValue(event.target.value);
+    setDidEdit(false);
+  }
+
+  function handleInputBlur() {
+    setDidEdit(true);
+  }
+
+  return {
+    value: enteredValue,
+    handleInputChange,
+    handleInputBlur,
+    hasError: didEdit && !valueIsValid
+  };
+}
 ````
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0MDIzMDcyLDMwODYyMjgxOCwyMDc0Nj
+eyJoaXN0b3J5IjpbLTkyODc1ODU2LDMwODYyMjgxOCwyMDc0Nj
 U3MTg3LC0xMzM5NjM5Mzc5LC00NTE4NTYyMDQsMTk1ODMzMzQ4
 MSwtNzgzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIyMjMsMT
 QzODE5Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLTc4Mzcy
