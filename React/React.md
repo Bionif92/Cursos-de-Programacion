@@ -3263,12 +3263,16 @@ Can rename the destructuring with allias `{fetch: places}`
 ### Exposing Nested Functions From The Custom Hook
 
 Cannot use function that change the state that is inside the custom hook, how to solve it: **add them into the return of the custom hook**
+
+### Using A Custom Hook in Multiple Components
+
+Thats the idea
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzODY0OTM0LDE1ODM2MTIyMiwtMjY4ND
-U3NDkxLDEyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0NTM5
-MiwxNzY2MzU2NDA3LC01NDc4MTIxNDksMTk0ODEwMjcwOCwtOT
-UyNzU5MjI4LDE3Nzg4NzIxMTAsLTg2NTAwNjIzMywtMTcxMjA0
-Mjk4Myw0NDQ0MzMwMTQsMTM2MDczMTQwMCwxMjk2NDEyMTk3LD
-E5NDc2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NTY0LC0xNDk2
-MzY5ODY4XX0=
+eyJoaXN0b3J5IjpbLTU4ODk3NjY4NSwxNTgzNjEyMjIsLTI2OD
+Q1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0NDUz
+OTIsMTc2NjM1NjQwNywtNTQ3ODEyMTQ5LDE5NDgxMDI3MDgsLT
+k1Mjc1OTIyOCwxNzc4ODcyMTEwLC04NjUwMDYyMzMsLTE3MTIw
+NDI5ODMsNDQ0NDMzMDE0LDEzNjA3MzE0MDAsMTI5NjQxMjE5Ny
+wxOTQ3NjAwNDUxLC01OTY4MTQ4NTYsMTMyOTc2ODU2NCwtMTQ5
+NjM2OTg2OF19
 -->
