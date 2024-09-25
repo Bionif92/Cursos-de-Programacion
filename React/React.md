@@ -3468,8 +3468,8 @@ export default function Signup() {
     event.preventDefault();
 
     const fd = new FormData(event.target);
-    const acquisitionChannel = fd.getAll('acquisition');
-    const data = Object.fromEntries(fd.entries());
+    const acquisitionChannel = fd.getAll('acquisition'); // this for the multiple data entry
+    const data = Object.fromEntries(fd.entries()); // all entries less the multiple data
     data.acquisition = acquisitionChannel;
     console.log(data);
   }
@@ -3573,11 +3573,11 @@ export default function Signup() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxND
-M4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3
-NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtND
-UwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0
-OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLD
-E3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3
-NTkyMjhdfQ==
+eyJoaXN0b3J5IjpbLTEyNzcwMTI4OTcsLTgyNTE0ODIzNCwtMT
+E4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5Mzky
+NjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMT
+A2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYx
+MjIyLC0yNjg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC
+0xMzk4NDQ1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4
+MTAyNzA4XX0=
 -->
