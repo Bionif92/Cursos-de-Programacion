@@ -3781,7 +3781,7 @@ export default function Signup() {
 
       <div className="control">
         <label htmlFor="email">Email</label>
-        <input id="email" type="email" name="email" required />
+        --<input id="email" type="email" name="email" required /> // required and with the type needed
       </div>
 
       <div className="control-row">
@@ -3791,8 +3791,8 @@ export default function Signup() {
             id="password"
             type="password"
             name="password"
-            required
-            minLength={6}
+            --required
+            --minLength={6}
           />
         </div>
 
@@ -3886,7 +3886,7 @@ export default function Signup() {
 
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzEzOTgxOSwtNDUxODU2MjA0LDE5NT
+eyJoaXN0b3J5IjpbMTUwNTU5MjQyOSwtNDUxODU2MjA0LDE5NT
 gzMzM0ODEsLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcy
 MjIzLDE0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC
 03ODM3Mjc3NjMsMjEzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5
