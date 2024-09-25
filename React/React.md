@@ -3883,10 +3883,11 @@ export default function Signup() {
     </form>
   );
 }
-
 ````
+
+### Mixing Custom & Built-in Validation Logic
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MjQxMDQ2NCwtNDUxODU2MjA0LDE5NT
+eyJoaXN0b3J5IjpbLTQwNzQ0Mjk2MSwtNDUxODU2MjA0LDE5NT
 gzMzM0ODEsLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcy
 MjIzLDE0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC
 03ODM3Mjc3NjMsMjEzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5
