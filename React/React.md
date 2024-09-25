@@ -3579,12 +3579,17 @@ Button type reset
 Or reset with the state
 With ref you do `ref.current.value = ""`
 With FormData `event.target.reset()`
+
+### Validating Input on Every Keystroke via State
+
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTU4NzU4MDMsLTgyNTE0ODIzNCwtMT
-E4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5Mzky
-NjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMT
-A2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYx
-MjIyLC0yNjg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC
-0xMzk4NDQ1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4
-MTAyNzA4XX0=
+eyJoaXN0b3J5IjpbLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMT
+gyOTcyMjIzLDE0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2
+MDkyLC03ODM3Mjc3NjMsMjEzMjMzNDM5MCw4NzYyNzg4OSwxMD
+Y2NzM5MTAzLC00NTA1NTI0ODksLTU4ODk3NjY4NSwxNTgzNjEy
+MjIsLTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC01NjMwMzIyMDMsLT
+EzOTg0NDUzOTIsMTc2NjM1NjQwNywtNTQ3ODEyMTQ5LDE5NDgx
+MDI3MDhdfQ==
 -->
