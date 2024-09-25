@@ -3607,7 +3607,7 @@ return(
 
 ### Validating Input Upon Lost Focus (Blur)
 
-With blur is like user was using the input a
+With blur is like user was using the input and then he change to other input
 ````
 import { useState } from 'react';
 
@@ -3619,7 +3619,7 @@ export default function Login() {
     password: '',
   });
 
-  const [didEdit, setDidEdit] = useState({
+ -- const [didEdit, setDidEdit] = useState({
     email: false,
     password: false,
   });
@@ -3701,11 +3701,11 @@ export default function Login() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzI0MjUyNCwtNzgzOTI1NjI1LC04Mj
-UxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5
-MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLD
-g3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2
-Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLDEyNDMzNTk0MDEsLT
-U2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2MzU2NDA3LC01NDc4
-MTIxNDldfQ==
+eyJoaXN0b3J5IjpbLTE5NTQ3NDk2ODcsLTc4MzkyNTYyNSwtOD
+I1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3OTcsMTk3Mjc1
+OTM1NywtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMjEzMjMzNDM5MC
+w4NzYyNzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0ODksLTU4ODk3
+NjY4NSwxNTgzNjEyMjIsLTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC
+01NjMwMzIyMDMsLTEzOTg0NDUzOTIsMTc2NjM1NjQwNywtNTQ3
+ODEyMTQ5XX0=
 -->
