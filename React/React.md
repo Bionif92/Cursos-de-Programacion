@@ -3582,6 +3582,7 @@ With FormData `event.target.reset()`
 
 ### Validating Input on Every Keystroke via State
 
+Print a message bel
 ````
 const emailIsInvalid =
     enteredValues.email !== '' && !enteredValues.email.includes('@');
@@ -3604,11 +3605,11 @@ return(
 )
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTIwNzkxNSwtNzgzOTI1NjI1LC04Mj
-UxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5
-MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLD
-g3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2
-Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLDEyNDMzNTk0MDEsLT
-U2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2MzU2NDA3LC01NDc4
-MTIxNDldfQ==
+eyJoaXN0b3J5IjpbLTEwMDk5MzI5MjUsLTc4MzkyNTYyNSwtOD
+I1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3OTcsMTk3Mjc1
+OTM1NywtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMjEzMjMzNDM5MC
+w4NzYyNzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0ODksLTU4ODk3
+NjY4NSwxNTgzNjEyMjIsLTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC
+01NjMwMzIyMDMsLTEzOTg0NDUzOTIsMTc2NjM1NjQwNywtNTQ3
+ODEyMTQ5XX0=
 -->
