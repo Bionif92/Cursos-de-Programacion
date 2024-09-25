@@ -3303,12 +3303,47 @@ Need:
 
 ### Handling Form Submission
 
+````
+export default function Login() {
+  function handleSubmit(event) {
+    event.preventDefault();
+    console.log('Submitted!');
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2>Login</h2>
+
+      <div className="control-row">
+        <div className="control no-margin">
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" name="email" />
+        </div>
+
+        <div className="control no-margin">
+          <label htmlFor="password">Password</label>
+          <input id="password" type="password" name="password" />
+        </div>
+      </div>
+
+      <p className="form-actions">
+        <button className="button button-flat">Reset</button>
+        <button className="button">
+          Login
+        </button>
+      </p>
+    </form>
+  );
+}
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODc2Mjc4ODksMTA2NjczOTEwMywtNDUwNT
-UyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0OTEs
-MTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3Nj
-YzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTky
-MjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLD
-Q0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMTk0NzYw
-MDQ1MV19
+eyJoaXN0b3J5IjpbNzUwMTI4MDMsODc2Mjc4ODksMTA2NjczOT
+EwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0y
+Njg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4ND
+Q1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4
+LC05NTI3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC0xNz
+EyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIx
+OTddfQ==
 -->
