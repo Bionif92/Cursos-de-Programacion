@@ -3230,7 +3230,7 @@ import { useEffect, useState } from 'react';
 export function useFetch(fetchFn, initialValue) {
   const [isFetching, setIsFetching] = useState();
   const [error, setError] = useState();
-  const [fetchedData, setFetchedData] = useState(initialValue);
+  const [fetchedData, setFetchedData] = useState(initialValue); // this one is the generic 
 
   useEffect(() => {
     async function fetchData() {
@@ -3258,11 +3258,11 @@ export function useFetch(fetchFn, initialValue) {
 Use useFetch() wherever you need
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzcwOTI0ODUsLTU2MzAzMjIwMywtMT
-M5ODQ0NTM5MiwxNzY2MzU2NDA3LC01NDc4MTIxNDksMTk0ODEw
-MjcwOCwtOTUyNzU5MjI4LDE3Nzg4NzIxMTAsLTg2NTAwNjIzMy
-wtMTcxMjA0Mjk4Myw0NDQ0MzMwMTQsMTM2MDczMTQwMCwxMjk2
-NDEyMTk3LDE5NDc2MDA0NTEsLTU5NjgxNDg1NiwxMzI5NzY4NT
-Y0LC0xNDk2MzY5ODY4LC0xMzU5MTk2ODUwLC0xNzE2NjIzNjM1
-LC0yNjE0MDAyODFdfQ==
+eyJoaXN0b3J5IjpbMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMz
+k4NDQ1MzkyLDE3NjYzNTY0MDcsLTU0NzgxMjE0OSwxOTQ4MTAy
+NzA4LC05NTI3NTkyMjgsMTc3ODg3MjExMCwtODY1MDA2MjMzLC
+0xNzEyMDQyOTgzLDQ0NDQzMzAxNCwxMzYwNzMxNDAwLDEyOTY0
+MTIxOTcsMTk0NzYwMDQ1MSwtNTk2ODE0ODU2LDEzMjk3Njg1Nj
+QsLTE0OTYzNjk4NjgsLTEzNTkxOTY4NTAsLTE3MTY2MjM2MzUs
+LTI2MTQwMDI4MV19
 -->
