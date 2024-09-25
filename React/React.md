@@ -3639,7 +3639,7 @@ export default function Login() {
     }));
     setDidEdit((prevEdit) => ({
       ...prevEdit,
-      [identifier]: false,
+      [identifier]: false, // important when user start writing, delete the warning
     }));
   }
 
@@ -3701,11 +3701,11 @@ export default function Login() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1ODMzMzQ4MSwtNzgzOTI1NjI1LC04Mj
-UxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5
-MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLD
-g3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2
-Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLDEyNDMzNTk0MDEsLT
-U2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2MzU2NDA3LC01NDc4
-MTIxNDldfQ==
+eyJoaXN0b3J5IjpbLTEwOTM5OTQxOTAsMTk1ODMzMzQ4MSwtNz
+gzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5
+Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2My
+wyMTMyMzM0MzkwLDg3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1
+MjQ4OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLD
+EyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2
+MzU2NDA3XX0=
 -->
