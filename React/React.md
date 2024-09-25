@@ -3738,7 +3738,7 @@ export default function Login() {
         <div className="control no-margin">
           <label htmlFor="email">Email</label>
           <input id="email" type="email" name="email" ref={email} />
-          <div className="control-error">
+          --<div className="control-error">
             {emailIsInvalid && <p>Please enter a valid email address.</p>}
           </div>
         </div>
@@ -3758,11 +3758,11 @@ export default function Login() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU5NDE5OTYsMTk1ODMzMzQ4MSwtNz
-gzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5
-Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2My
-wyMTMyMzM0MzkwLDg3NjI3ODg5LDEwNjY3MzkxMDMsLTQ1MDU1
-MjQ4OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMjY4NDU3NDkxLD
-EyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0NTM5MiwxNzY2
-MzU2NDA3XX0=
+eyJoaXN0b3J5IjpbLTQ1MTg1NjIwNCwxOTU4MzMzNDgxLC03OD
+M5MjU2MjUsLTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3
+Nzk3LDE5NzI3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3NzYzLD
+IxMzIzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtNDUwNTUy
+NDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0OTEsMT
+I0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYz
+NTY0MDddfQ==
 -->
