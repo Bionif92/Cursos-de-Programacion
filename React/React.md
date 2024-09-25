@@ -3259,12 +3259,15 @@ Use useFetch() wherever you need
 Delete the state on the component
 Use object destructuring to have the return state
 
+### Exposing Nested Functions From The Custom Hook
+
+Cannot use function that change the state that is inside the custom hook, how to solve it:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2ODQ1NzQ5MSwxMjQzMzU5NDAxLC01Nj
-MwMzIyMDMsLTEzOTg0NDUzOTIsMTc2NjM1NjQwNywtNTQ3ODEy
-MTQ5LDE5NDgxMDI3MDgsLTk1Mjc1OTIyOCwxNzc4ODcyMTEwLC
-04NjUwMDYyMzMsLTE3MTIwNDI5ODMsNDQ0NDMzMDE0LDEzNjA3
-MzE0MDAsMTI5NjQxMjE5NywxOTQ3NjAwNDUxLC01OTY4MTQ4NT
-YsMTMyOTc2ODU2NCwtMTQ5NjM2OTg2OCwtMTM1OTE5Njg1MCwt
-MTcxNjYyMzYzNV19
+eyJoaXN0b3J5IjpbODA2OTkwMjU0LC0yNjg0NTc0OTEsMTI0Mz
+M1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYzNTY0
+MDcsLTU0NzgxMjE0OSwxOTQ4MTAyNzA4LC05NTI3NTkyMjgsMT
+c3ODg3MjExMCwtODY1MDA2MjMzLC0xNzEyMDQyOTgzLDQ0NDQz
+MzAxNCwxMzYwNzMxNDAwLDEyOTY0MTIxOTcsMTk0NzYwMDQ1MS
+wtNTk2ODE0ODU2LDEzMjk3Njg1NjQsLTE0OTYzNjk4NjgsLTEz
+NTkxOTY4NTBdfQ==
 -->
