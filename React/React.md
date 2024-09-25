@@ -3925,8 +3925,29 @@ export default function Input({ label, id, error, ...props }) {
 ````
 
 ### Outsourcing Validation Logic
+
+Validation in other folder
+````
+export function isEmail(value) {
+  return value.includes('@');
+}
+
+export function isNotEmpty(value) {
+  return value.trim() !== '';
+}
+
+export function hasMinLength(value, minLength) {
+  return value.length >= minLength;
+}
+
+export function isEqualsToOtherValue(value, otherValue) {
+  return value === otherValue;
+}
+````
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTY2MTE5OSwzMDg2MjI4MTgsMjA3ND
+eyJoaXN0b3J5IjpbLTE3NTgyNzk1NSwzMDg2MjI4MTgsMjA3ND
 Y1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgzMzM0
 ODEsLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcyMjIzLD
 E0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03ODM3
