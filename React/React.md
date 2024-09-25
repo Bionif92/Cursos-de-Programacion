@@ -3461,6 +3461,7 @@ Require less code than with state
 ### Getting Values via FormData & Native Browser APIs
 
 Native build in feature
+Need name prop in all the things you want to control
 ````
 export default function Signup() {
   function handleSubmit(event) {
@@ -3572,7 +3573,7 @@ export default function Signup() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNjc4NjUyOSwtMTE4Mjk3MjIyMywxND
+eyJoaXN0b3J5IjpbLTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxND
 M4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3
 NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtND
 UwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0
