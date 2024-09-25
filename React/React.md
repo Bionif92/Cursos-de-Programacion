@@ -3702,12 +3702,67 @@ export default function Login() {
 ````
 
 ### Validating Input Upon Form Submission
+
+````
+import { useRef, useState } from 'react';
+
+export default function Login() {
+  const [emailIsInvalid, setEmailIsInvalid] = useState(false);
+
+  const email = useRef();
+  const password = useRef();
+
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    const enteredEmail = email.current.value;
+    const enteredPassword = password.current.value;
+
+    const emailIsValid = enteredEmail.includes('@');
+
+    if (!emailIsValid) {
+      setEmailIsInvalid(true);
+      return;
+    }
+
+    setEmailIsInvalid(false);
+
+    console.log('Sending HTTP request...');
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <h2>Login</h2>
+
+      <div className="control-row">
+        <div className="control no-margin">
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" name="email" ref={email} />
+          <div className="control-error">
+            {emailIsInvalid && <p>Please enter a valid email address.</p>}
+          </div>
+        </div>
+
+        <div className="control no-margin">
+          <label htmlFor="password">Password</label>
+          <input id="password" type="password" name="password" ref={password} />
+        </div>
+      </div>
+
+      <p className="form-actions">
+        <button className="button button-flat">Reset</button>
+        <button className="button">Login</button>
+      </p>
+    </form>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NTc1MDA4MiwxOTU4MzMzNDgxLC03OD
-M5MjU2MjUsLTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3
-Nzk3LDE5NzI3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3NzYzLD
-IxMzIzMzQzOTAsODc2Mjc4ODksMTA2NjczOTEwMywtNDUwNTUy
-NDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC0yNjg0NTc0OTEsMT
-I0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4NDQ1MzkyLDE3NjYz
-NTY0MDddfQ==
+eyJoaXN0b3J5IjpbODY4OTYzNjM0LDE5NTgzMzM0ODEsLTc4Mz
+kyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0MzgxOTc3
+OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03ODM3Mjc3NjMsMj
+EzMjMzNDM5MCw4NzYyNzg4OSwxMDY2NzM5MTAzLC00NTA1NTI0
+ODksLTU4ODk3NjY4NSwxNTgzNjEyMjIsLTI2ODQ1NzQ5MSwxMj
+QzMzU5NDAxLC01NjMwMzIyMDMsLTEzOTg0NDUzOTIsMTc2NjM1
+NjQwN119
 -->
