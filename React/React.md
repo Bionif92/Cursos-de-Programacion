@@ -3974,15 +3974,40 @@ export function useInput(defaultValue, validationFn) {
 }
 ````
 ````
+export default function Login() {
+  const {
+    value: emailValue,
+    handleInputChange: handleEmailChange,
+    handleInputBlur: handleEmailBlur,
+    hasError: emailHasError,
+  } = useInput('', (value) => isEmail(value) && isNotEmpty(value));
+  const {
+    value: passwordValue,
+    handleInputChange: handlePasswordChange,
+    handleInputBlur: handlePasswordBlur,
+    hasError: passwordHasError,
+  } = useInput('', (value) => hasMinLength(value, 6));
+
+  function handleSubmit(event) {
+    event.preventDefault();
+
+    if (emailHasError || passwordHasError) {
+      return;
+    }
+
+    console.log(emailValue, passwordValue);
+  }
+
+  return (...
 ````
 
 ### Using Third-Party Form Libraries
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMDM5MTUxMywtNjk4MDA3MjIxLDMwOD
-YyMjgxOCwyMDc0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4NTYy
-MDQsMTk1ODMzMzQ4MSwtNzgzOTI1NjI1LC04MjUxNDgyMzQsLT
-ExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5MzU3LC03OTM5
-MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0MzkwLDg3NjI3ODg5LD
-EwNjY3MzkxMDMsLTQ1MDU1MjQ4OSwtNTg4OTc2Njg1LDE1ODM2
-MTIyMl19
+eyJoaXN0b3J5IjpbMzQ4MDY4MTM1LC02OTgwMDcyMjEsMzA4Nj
+IyODE4LDIwNzQ2NTcxODcsLTEzMzk2MzkzNzksLTQ1MTg1NjIw
+NCwxOTU4MzMzNDgxLC03ODM5MjU2MjUsLTgyNTE0ODIzNCwtMT
+E4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5Mzky
+NjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMT
+A2NjczOTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYx
+MjIyXX0=
 -->
