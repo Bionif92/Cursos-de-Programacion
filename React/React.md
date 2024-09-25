@@ -3887,7 +3887,7 @@ export default function Signup() {
 
 ### Mixing Custom & Built-in Validation Logic
 
-Some validation need to write them, here to confirm the sama
+Some validation need to write them, here to confirm the sama password
 ````
  const [passwordsAreNotEqual, setPasswordsAreNotEqual] = useState(false);
 
@@ -3908,11 +3908,11 @@ function handleSubmit(event) {
   }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3NjM5MjE2LC00NTE4NTYyMDQsMTk1OD
-MzMzQ4MSwtNzgzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIy
-MjMsMTQzODE5Nzc5NywxOTcyNzU5MzU3LC03OTM5MjYwOTIsLT
-c4MzcyNzc2MywyMTMyMzM0MzkwLDg3NjI3ODg5LDEwNjY3Mzkx
-MDMsLTQ1MDU1MjQ4OSwtNTg4OTc2Njg1LDE1ODM2MTIyMiwtMj
-Y4NDU3NDkxLDEyNDMzNTk0MDEsLTU2MzAzMjIwMywtMTM5ODQ0
-NTM5Ml19
+eyJoaXN0b3J5IjpbLTEzMzk2MzkzNzksLTQ1MTg1NjIwNCwxOT
+U4MzMzNDgxLC03ODM5MjU2MjUsLTgyNTE0ODIzNCwtMTE4Mjk3
+MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLTc5MzkyNjA5Mi
+wtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4ODksMTA2Njcz
+OTEwMywtNDUwNTUyNDg5LC01ODg5NzY2ODUsMTU4MzYxMjIyLC
+0yNjg0NTc0OTEsMTI0MzM1OTQwMSwtNTYzMDMyMjAzLC0xMzk4
+NDQ1MzkyXX0=
 -->
