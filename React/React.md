@@ -1806,7 +1806,7 @@ export default App;
 
 ### Introducing the useReducer Hook
 
-Reducer: A function that reduce one or more complex values to a simpler one
+Reducer: A hook to reduce multiple tasks to a function that can be call depending of type of action we need
 
 ```` context.jsx
 -- import { createContext, useState, useReducer } from 'react';
@@ -4013,11 +4013,11 @@ Setting a prop convert it automatically to true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NzQ2NzYzNiw2NjE1NDY1OTIsLTExND
-gyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02OTgwMDcyMjEs
-MzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2MzkzNzksLTQ1MT
-g1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2MjUsLTgyNTE0ODIz
-NCwtMTE4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3NTkzNTcsLT
-c5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQzOTAsODc2Mjc4
-ODldfQ==
+eyJoaXN0b3J5IjpbNTQyNzcyNzUsMTQ1NzQ2NzYzNiw2NjE1ND
+Y1OTIsLTExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02
+OTgwMDcyMjEsMzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2Mz
+kzNzksLTQ1MTg1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2MjUs
+LTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5Nz
+I3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQz
+OTBdfQ==
 -->
