@@ -2011,6 +2011,8 @@ export default function CartContextProvider({ children }) {
   );
 }
 ````
+See project 4 to understand it more how to use it
+
 With this, you dont have to write the (prevState => ....) function everytime, you will have the state updated
 
 Can use Reducer without Context
@@ -4013,11 +4015,11 @@ Setting a prop convert it automatically to true
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQyNzcyNzUsMTQ1NzQ2NzYzNiw2NjE1ND
-Y1OTIsLTExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02
-OTgwMDcyMjEsMzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2Mz
-kzNzksLTQ1MTg1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2MjUs
-LTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5Nz
-I3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMzIzMzQz
-OTBdfQ==
+eyJoaXN0b3J5IjpbNDI5NzcxMjY5LDE0NTc0Njc2MzYsNjYxNT
+Q2NTkyLC0xMTQ4Mjg1MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwt
+Njk4MDA3MjIxLDMwODYyMjgxOCwyMDc0NjU3MTg3LC0xMzM5Nj
+M5Mzc5LC00NTE4NTYyMDQsMTk1ODMzMzQ4MSwtNzgzOTI1NjI1
+LC04MjUxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5Nzc5NywxOT
+cyNzU5MzU3LC03OTM5MjYwOTIsLTc4MzcyNzc2MywyMTMyMzM0
+MzkwXX0=
 -->
