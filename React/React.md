@@ -4015,13 +4015,15 @@ Setting a prop convert it automatically to true
 
 UseReducer and UseContext used togheter to spread the state
 
+If you close the modal or checkout with esc key, need to put a onClose prop with the function of closing the modal or checkout
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY3MjUwNzgsMTQ1NzQ2NzYzNiw2Nj
-E1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1
-LC02OTgwMDcyMjEsMzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMz
-k2MzkzNzksLTQ1MTg1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2
-MjUsLTgyNTE0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3Nzk3LD
-E5NzI3NTkzNTcsLTc5MzkyNjA5MiwtNzgzNzI3NzYzLDIxMzIz
-MzQzOTBdfQ==
+eyJoaXN0b3J5IjpbMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxND
+U3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0Mzkz
+OCwzNDgwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMjA3ND
+Y1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgzMzM0
+ODEsLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcyMjIzLD
+E0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03ODM3
+Mjc3NjNdfQ==
 -->
