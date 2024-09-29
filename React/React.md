@@ -4017,13 +4017,17 @@ UseReducer and UseContext used togheter to spread the state
 
 If you close the modal or checkout with esc key, need to put a onClose prop with the function of closing the modal or checkout
 
+````
+onClose={userProgressCtx.progress === "cart" ? handleCloseCart : null}
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxND
-U3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0Mzkz
-OCwzNDgwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMjA3ND
-Y1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgzMzM0
-ODEsLTc4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcyMjIzLD
-E0MzgxOTc3OTcsMTk3Mjc1OTM1NywtNzkzOTI2MDkyLC03ODM3
-Mjc3NjNdfQ==
+eyJoaXN0b3J5IjpbMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMj
+c2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1
+MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLDMwOD
+YyMjgxOCwyMDc0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4NTYy
+MDQsMTk1ODMzMzQ4MSwtNzgzOTI1NjI1LC04MjUxNDgyMzQsLT
+ExODI5NzIyMjMsMTQzODE5Nzc5NywxOTcyNzU5MzU3LC03OTM5
+MjYwOTJdfQ==
 -->
