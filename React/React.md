@@ -4027,7 +4027,7 @@ Third Party React Library
 
 ### Another Look At State In React Apps
 
-Redux: A state ma
+Redux: A state managment system for cross-component or app-wide state
 
 
 
@@ -4035,7 +4035,7 @@ Redux: A state ma
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTk2MjkyOCwtMzkzMDczNjE3LDEzNj
+eyJoaXN0b3J5IjpbMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNj
 c1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1
 MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLD
 IyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLDMwODYyMjgx
