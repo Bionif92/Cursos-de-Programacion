@@ -4084,10 +4084,11 @@ After this:
 node redux-demo.js
 
 //redux-demo.js
-store.dispatch();
+store.dispatch({type:'increment'}); // the action
 ````
+With that you run the reducer and change the state
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQ4OTYzOTYsLTEwMzQ1MDc5OCwxMj
+eyJoaXN0b3J5IjpbLTE2NDY1ODMzODUsLTEwMzQ1MDc5OCwxMj
 EyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5
 NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OC
 wxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0
