@@ -4070,17 +4070,19 @@ const counterReducer = (state, action) => {
 const store = redux.createStore(counterReducer);
 
 const counterSubscriber = () => {
-	store.getState(); 
+	const latestState = store.getState(); // latest state
 };
+
+store.subscribe(counterSubscriber);
 ````
 
 Reducer will recieve two inputs: old state + dispatch action and return a new state object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzYzOTQxODksLTEwMzQ1MDc5OCwxMj
-EyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5
-NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OC
-wxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0
-MzkzOCwzNDgwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMj
-A3NDY1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgz
-MzM0ODFdfQ==
+eyJoaXN0b3J5IjpbMTAzMTIzNzMyNiwtMTAzNDUwNzk4LDEyMT
+IxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNjc1NDk0
+ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1MDc4LD
+E0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLDIyNjQz
+OTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLDMwODYyMjgxOCwyMD
+c0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4NTYyMDQsMTk1ODMz
+MzQ4MV19
 -->
