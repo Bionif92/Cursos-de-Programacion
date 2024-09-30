@@ -4077,8 +4077,14 @@ store.subscribe(counterSubscriber);
 ````
 
 Reducer will recieve two inputs: old state + dispatch action and return a new state object
+
+After this:
+````
+// terminal
+node redux-demo.js
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzMTIzNzMyNiwtMTAzNDUwNzk4LDEyMT
+eyJoaXN0b3J5IjpbLTU5MTM2MjE2NywtMTAzNDUwNzk4LDEyMT
 IxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNjc1NDk0
 ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1MDc4LD
 E0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLDIyNjQz
