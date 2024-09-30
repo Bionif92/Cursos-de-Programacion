@@ -4101,12 +4101,19 @@ const counterReducer = (state = {counter: 0}, action) => {
 	return state;
 };
 ````
+
+### Preparing a new Project
+
+To make redux work wit
+````
+//terminal
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0ODAxNjExMiwtMTAzNDUwNzk4LDEyMT
-IxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNjc1NDk0
-ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1MDc4LD
-E0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLDIyNjQz
-OTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLDMwODYyMjgxOCwyMD
-c0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4NTYyMDQsMTk1ODMz
-MzQ4MV19
+eyJoaXN0b3J5IjpbLTE2NDg5MTk2MTEsLTQ0ODAxNjExMiwtMT
+AzNDUwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDcz
+NjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC
+0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4
+Mjg1MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLD
+MwODYyMjgxOCwyMDc0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4
+NTYyMDRdfQ==
 -->
