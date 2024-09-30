@@ -4035,8 +4035,12 @@ There are three types of state:
  - Cross-Component State: affecting multiple components - React Context or Redux
  - App-wide State: affecting entire app - React Context or Redux
 
+### Redux vs React Context
+
+Context potencial disadvantages:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzM3NTU5OCwxNzkxNzMxNzg5LC0zOT
+eyJoaXN0b3J5IjpbLTQxNzQ5MzA0NCwxNzkxNzMxNzg5LC0zOT
 MwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTczLDExMzA2MjA2
 MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2NzYzNiw2NjE1NDY1OTIsLT
 ExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02OTgwMDcy
