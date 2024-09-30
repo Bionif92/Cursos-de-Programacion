@@ -4061,10 +4061,14 @@ npm install redux
 //redux-demo.js
 const redux = require('redux');
 
+const counterReducer = () => {
+	
+};
+
 const store = redux.createStore();
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzI1NDA2ODcsLTEwMzQ1MDc5OCwxMj
+eyJoaXN0b3J5IjpbLTE0MTY3Njg3NTQsLTEwMzQ1MDc5OCwxMj
 EyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5
 NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OC
 wxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0
