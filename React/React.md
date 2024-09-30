@@ -4040,9 +4040,10 @@ There are three types of state:
 Context potencial disadvantages:
 
  - Complex setup & managment
+ - Deeply nested providers
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDc1MTA1MTgsMTc5MTczMTc4OSwtMz
+eyJoaXN0b3J5IjpbLTE5Njg1MjEwMTMsMTc5MTczMTc4OSwtMz
 kzMDczNjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIw
 NjE2LC0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC
 0xMTQ4Mjg1MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3
