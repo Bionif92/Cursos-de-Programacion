@@ -4068,11 +4068,15 @@ const counterReducer = (state, action) => {
 };
 
 const store = redux.createStore(counterReducer);
+
+const counterSubscriber = () => {
+	store.getState(); 
+};
 ````
 
 Reducer will recieve two inputs: old state + dispatch action and return a new state object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzM3OTE3MjgsLTEwMzQ1MDc5OCwxMj
+eyJoaXN0b3J5IjpbLTExMzYzOTQxODksLTEwMzQ1MDc5OCwxMj
 EyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5
 NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OC
 wxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0
