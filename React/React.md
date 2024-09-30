@@ -4046,10 +4046,11 @@ Context potencial disadvantages:
 ### How Redux Works
 
 Having a Central Data (State) Store
-Use it on the components
+Use it on the components, with a subscription
+Component **never** directly manipule the store
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0MDMxMzUwLC0xMDM0NTA3OTgsMTIxMj
+eyJoaXN0b3J5IjpbNjcyNTQ3MjU2LC0xMDM0NTA3OTgsMTIxMj
 EyMDM3NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4
 OSwxMzI4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMT
 Q1NzQ2NzYzNiw2NjE1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5
