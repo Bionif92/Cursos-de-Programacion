@@ -4049,13 +4049,14 @@ Having a Central Data (State) Store
 Use it on the components, with a subscription
 Component **never** directly manipule the store 
 We have Reducer function that changes the data in the store
+Component dispatch actions (the operation) and forwarded to the reducer function, and 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDAwNzU2LC0xMDM0NTA3OTgsMTIxMj
-EyMDM3NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4
-OSwxMzI4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMT
-Q1NzQ2NzYzNiw2NjE1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5
-MzgsMzQ4MDY4MTM1LC02OTgwMDcyMjEsMzA4NjIyODE4LDIwNz
-Q2NTcxODcsLTEzMzk2MzkzNzksLTQ1MTg1NjIwNCwxOTU4MzMz
-NDgxXX0=
+eyJoaXN0b3J5IjpbLTIxMzYzNjA5MzcsLTEwMzQ1MDc5OCwxMj
+EyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5
+NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OC
+wxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0
+MzkzOCwzNDgwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMj
+A3NDY1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgz
+MzM0ODFdfQ==
 -->
