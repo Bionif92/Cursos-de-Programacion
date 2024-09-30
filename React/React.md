@@ -4021,15 +4021,19 @@ If you close the modal or checkout with esc key, need to put a onClose prop with
 onClose={userProgressCtx.progress === "cart" ? handleCloseCart : null}
 ````
 
+## Diving into Redux
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzU0OTQ4OSwxMzI4MDA5MTczLDExMz
-A2MjA2MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2NzYzNiw2NjE1NDY1
-OTIsLTExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02OT
-gwMDcyMjEsMzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2Mzkz
-NzksLTQ1MTg1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2MjUsLT
-gyNTE0ODIzNCwtMTE4Mjk3MjIyMywxNDM4MTk3Nzk3LDE5NzI3
-NTkzNTddfQ==
+eyJoaXN0b3J5IjpbMjU3NTcwNTAyLDEzNjc1NDk0ODksMTMyOD
+AwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1MDc4LDE0NTc0Njc2
+MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLDIyNjQzOTM4LDM0OD
+A2ODEzNSwtNjk4MDA3MjIxLDMwODYyMjgxOCwyMDc0NjU3MTg3
+LC0xMzM5NjM5Mzc5LC00NTE4NTYyMDQsMTk1ODMzMzQ4MSwtNz
+gzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5NzIyMjMsMTQzODE5
+Nzc5N119
 -->
