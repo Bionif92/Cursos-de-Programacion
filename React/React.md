@@ -4047,10 +4047,11 @@ Context potencial disadvantages:
 
 Having a Central Data (State) Store
 Use it on the components, with a subscription
-Component **never** directly manipule the store
+Component **never** directly manipule the store 
+We have Reducer function that changes the data in the store
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyNTQ3MjU2LC0xMDM0NTA3OTgsMTIxMj
+eyJoaXN0b3J5IjpbMTc4MDAwNzU2LC0xMDM0NTA3OTgsMTIxMj
 EyMDM3NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4
 OSwxMzI4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMT
 Q1NzQ2NzYzNiw2NjE1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5
