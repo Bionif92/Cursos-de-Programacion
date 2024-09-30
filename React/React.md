@@ -4061,8 +4061,8 @@ npm install redux
 //redux-demo.js
 const redux = require('redux');
 
-const counterReducer = () => {
-	
+const counterReducer = (state, action) => {
+	return 
 };
 
 const store = redux.createStore();
@@ -4070,7 +4070,7 @@ const store = redux.createStore();
 
 Reducer will recieve two inputs: old state + dispatch action and return a new state object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyOTA3NDUsLTEwMzQ1MDc5OCwxMjEyMT
+eyJoaXN0b3J5IjpbNzk4OTQ0OTQsLTEwMzQ1MDc5OCwxMjEyMT
 IwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5NDg5
 LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxND
 U3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0Mzkz
