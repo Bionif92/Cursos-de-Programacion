@@ -4104,16 +4104,17 @@ const counterReducer = (state = {counter: 0}, action) => {
 
 ### Preparing a new Project
 
-To make redux work wit
+To make redux work with react easier
 ````
 //terminal
+npm install redux react-redux
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDg5MTk2MTEsLTQ0ODAxNjExMiwtMT
-AzNDUwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDcz
-NjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC
-0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4
-Mjg1MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLD
-MwODYyMjgxOCwyMDc0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4
-NTYyMDRdfQ==
+eyJoaXN0b3J5IjpbMTExNzU2NzE1NywtNDQ4MDE2MTEyLC0xMD
+M0NTA3OTgsMTIxMjEyMDM3NywxNzkxNzMxNzg5LC0zOTMwNzM2
+MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTczLDExMzA2MjA2MTYsLT
+EyNzY3MjUwNzgsMTQ1NzQ2NzYzNiw2NjE1NDY1OTIsLTExNDgy
+ODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02OTgwMDcyMjEsMz
+A4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2MzkzNzksLTQ1MTg1
+NjIwNF19
 -->
