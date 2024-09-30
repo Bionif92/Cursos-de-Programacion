@@ -4025,7 +4025,9 @@ onClose={userProgressCtx.progress === "cart" ? handleCloseCart : null}
 
 Third Party React Library
 
+### Another Look At State In React Apps
 
+Redux: A state ma
 
 
 
@@ -4033,11 +4035,11 @@ Third Party React Library
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzA3MzYxNywxMzY3NTQ5NDg5LDEzMj
-gwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxNDU3NDY3
-NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0MzkzOCwzND
-gwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMjA3NDY1NzE4
-NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgzMzM0ODEsLT
-c4MzkyNTYyNSwtODI1MTQ4MjM0LC0xMTgyOTcyMjIzLDE0Mzgx
-OTc3OTddfQ==
+eyJoaXN0b3J5IjpbMTU4MTk2MjkyOCwtMzkzMDczNjE3LDEzNj
+c1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1
+MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLD
+IyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLDMwODYyMjgx
+OCwyMDc0NjU3MTg3LC0xMzM5NjM5Mzc5LC00NTE4NTYyMDQsMT
+k1ODMzMzQ4MSwtNzgzOTI1NjI1LC04MjUxNDgyMzQsLTExODI5
+NzIyMjNdfQ==
 -->
