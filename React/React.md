@@ -4031,14 +4031,16 @@ Redux: A state managment system for cross-component or app-wide state
 
 There are three types of state:
 
- - List item
+ - Local State: single component - useState or useReduce
+ - Cross-Component State
+ - App-wide State
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA5NjAzNzE4LDE3OTE3MzE3ODksLTM5Mz
-A3MzYxNywxMzY3NTQ5NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYx
-NiwtMTI3NjcyNTA3OCwxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMT
-E0ODI4NTM2MiwyMjY0MzkzOCwzNDgwNjgxMzUsLTY5ODAwNzIy
-MSwzMDg2MjI4MTgsMjA3NDY1NzE4NywtMTMzOTYzOTM3OSwtND
-UxODU2MjA0LDE5NTgzMzM0ODEsLTc4MzkyNTYyNSwtODI1MTQ4
-MjM0XX0=
+eyJoaXN0b3J5IjpbLTU3NTE5NTcxNCwxNzkxNzMxNzg5LC0zOT
+MwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTczLDExMzA2MjA2
+MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2NzYzNiw2NjE1NDY1OTIsLT
+ExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4MTM1LC02OTgwMDcy
+MjEsMzA4NjIyODE4LDIwNzQ2NTcxODcsLTEzMzk2MzkzNzksLT
+Q1MTg1NjIwNCwxOTU4MzMzNDgxLC03ODM5MjU2MjUsLTgyNTE0
+ODIzNF19
 -->
