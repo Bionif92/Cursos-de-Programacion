@@ -4062,19 +4062,21 @@ npm install redux
 const redux = require('redux');
 
 const counterReducer = (state, action) => {
-	return 
+	return {
+		counter: state.counter + 1,
+	};
 };
 
-const store = redux.createStore();
+const store = redux.createStore(counterReducer);
 ````
 
 Reducer will recieve two inputs: old state + dispatch action and return a new state object
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk4OTQ0OTQsLTEwMzQ1MDc5OCwxMjEyMT
-IwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5NDg5
-LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxND
-U3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0Mzkz
-OCwzNDgwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMjA3ND
-Y1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgzMzM0
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTE4NzM3OTE3MjgsLTEwMzQ1MDc5OCwxMj
+EyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5
+NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OC
+wxNDU3NDY3NjM2LDY2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0
+MzkzOCwzNDgwNjgxMzUsLTY5ODAwNzIyMSwzMDg2MjI4MTgsMj
+A3NDY1NzE4NywtMTMzOTYzOTM3OSwtNDUxODU2MjA0LDE5NTgz
+MzM0ODFdfQ==
 -->
