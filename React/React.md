@@ -4662,7 +4662,7 @@ export default Header;
 
 ### Splitting Our Code
 
-Store foulder
+Store foulder, split the slices
 ````
 //auth.js
 import { createSlice } from '@reduxjs/toolkit';
@@ -4731,12 +4731,14 @@ const store = configureStore({
 
 export default store;
 ````
+
+## 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTk4MjYxNSwtNjM4NDE2MzU0LC0xOT
-IzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0MDc4MDUsMjg1NjU2
-NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3NywxNDE3Mjk3MzI3LD
-E3MjM5MTY3NCwxMjMzNjQ3NjU5LC0xMDc2MDE5MDgxLDExOTU0
-MDk1MzcsLTE5MDgzMjA2MjAsODY4NzY3MTQ5LDEyNDg5NjA5MD
-ksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYy
-NTc0NTQ2XX0=
+eyJoaXN0b3J5IjpbLTE2MjcxMjg4MDcsLTUyNTk4MjYxNSwtNj
+M4NDE2MzU0LC0xOTIzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0
+MDc4MDUsMjg1NjU2NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3Ny
+wxNDE3Mjk3MzI3LDE3MjM5MTY3NCwxMjMzNjQ3NjU5LC0xMDc2
+MDE5MDgxLDExOTU0MDk1MzcsLTE5MDgzMjA2MjAsODY4NzY3MT
+Q5LDEyNDg5NjA5MDksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5
+NTI4NjczNDNdfQ==
 -->
