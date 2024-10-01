@@ -4760,12 +4760,42 @@ Async Code or code with side-effects - Put code in action creators or components
 
 We can let the front end change the state and then send the information
 
+````
+import { useEffect } from 'react';
+import { useSelector } from 'react-redux';
+
+import Cart from './components/Cart/Cart';
+import Layout from './components/Layout/Layout';
+import Products from './components/Shop/Products';
+
+function App() {
+  --const showCart = useSelector((state) => state.ui.cartIsVisible);
+  --const cart = useSelector((state) => state.cart);
+
+  --useEffect(() => {
+    fetch('https://react-http-6b4a6.firebaseio.com/cart.json', {
+      method: 'PUT',
+      body: JSON.stringify(cart),
+    });
+  }, [cart]);
+
+  return (
+    <Layout>
+      {showCart && <Cart />}
+      <Products />
+    </Layout>
+  );
+}
+
+export default App;
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTE3NTQ1OSw2NjI2MzA2MDIsLTQyMD
-YyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1
-MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNjM1NC
-wtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4
-NTY1NjU1MiwxMDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5Nz
-MyNywxNzIzOTE2NzQsMTIzMzY0NzY1OSwtMTA3NjAxOTA4MSwx
-MTk1NDA5NTM3XX0=
+eyJoaXN0b3J5IjpbLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00Mj
+A2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4
+NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNT
+QsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwy
+ODU2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOT
+czMjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEs
+MTE5NTQwOTUzN119
 -->
