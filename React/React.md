@@ -4664,6 +4664,7 @@ export default Header;
 
 Store foulder
 ````
+//auth.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialAuthState = {
@@ -4688,6 +4689,7 @@ export const authActions = authSlice.actions;
 export default authSlice.reducer;
 ````
 ````
+//counter.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialCounterState = { counter: 0, showCounter: true };
@@ -4716,13 +4718,25 @@ export const counterActions = counterSlice.actions;
 export default counterSlice.reducer;
 ````
 ````
+//index.js merge all the slices
+import { configureStore } from '@reduxjs/toolkit';
+
+import counterReducer from './counter';
+import authReducer from './auth';
+
+
+const store = configureStore({
+  reducer: { counter: counterReducer, auth: authReducer },
+});
+
+export default store;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyMjUwNjEsLTYzODQxNjM1NCwtMTkyMz
-UyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1
-MiwxMDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNz
-IzOTE2NzQsMTIzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5
-NTM3LC0xOTA4MzIwNjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC
-0zNDI4OTk4NTEsLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3
-NDU0Nl19
+eyJoaXN0b3J5IjpbLTUyNTk4MjYxNSwtNjM4NDE2MzU0LC0xOT
+IzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0MDc4MDUsMjg1NjU2
+NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3NywxNDE3Mjk3MzI3LD
+E3MjM5MTY3NCwxMjMzNjQ3NjU5LC0xMDc2MDE5MDgxLDExOTU0
+MDk1MzcsLTE5MDgzMjA2MjAsODY4NzY3MTQ5LDEyNDg5NjA5MD
+ksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYy
+NTc0NTQ2XX0=
 -->
