@@ -4396,7 +4396,7 @@ import classes from './Counter.module.css';
 const Counter = () => {
   const dispatch = useDispatch();
   const counter = useSelector((state) => state.counter);
-  const show = useSelector((state) => state.showCounter);
+  --const show = useSelector((state) => state.showCounter);
 
   const incrementHandler = () => {
     dispatch({ type: 'increment' });
@@ -4417,7 +4417,7 @@ const Counter = () => {
   return (
     <main className={classes.counter}>
       <h1>Redux Counter</h1>
-      {show && <div className={classes.value}>{counter}</div>}
+      --{show && <div className={classes.value}>{counter}</div>}
       <div>
         <button onClick={incrementHandler}>Increment</button>
         <button onClick={increaseHandler}>Increase by 10</button>
@@ -4431,11 +4431,11 @@ const Counter = () => {
 export default Counter;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ2MTE2MDQsODY4NzY3MTQ5LDEyNDg5Nj
-A5MDksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMs
-NTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mz
-g3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1Nywt
-NDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3NywxNzkxNz
-MxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTcz
-XX0=
+eyJoaXN0b3J5IjpbLTE5MDgzMjA2MjAsODY4NzY3MTQ5LDEyND
+g5NjA5MDksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4Njcz
+NDMsNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNj
+M4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1
+NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3NywxNz
+kxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5
+MTczXX0=
 -->
