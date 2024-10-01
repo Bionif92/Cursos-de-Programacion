@@ -4187,19 +4187,19 @@ You will have the latest state with useSelector
 ### Dispatching Actions From Inside Components
 
 ````
-import { useSelector, useDispatch } from 'react-redux';
+--import { useSelector, useDispatch } from 'react-redux';
 
 import classes from './Counter.module.css';
 
 const Counter = () => {
-  const dispatch = useDispatch();
+  --const dispatch = useDispatch();
   const counter = useSelector(state => state.counter);
 
-  const incrementHandler = () => {
+  --const incrementHandler = () => {
     dispatch({ type: 'increment' });
   };
 
-  const decrementHandler = () => {
+  --const decrementHandler = () => {
     dispatch({ type: 'decrement' });
   };
 
@@ -4221,7 +4221,7 @@ const Counter = () => {
 export default Counter;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY0NjU5ODQ1LC0xMDk4NDMyNjY2LC02Mz
+eyJoaXN0b3J5IjpbNzk0MTczODI5LC0xMDk4NDMyNjY2LC02Mz
 gzODczMCwtMzkwOTQ4MDg5LDEwODA4NjQ2MSwxMTE3NTY3MTU3
 LC00NDgwMTYxMTIsLTEwMzQ1MDc5OCwxMjEyMTIwMzc3LDE3OT
 E3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5NDg5LDEzMjgwMDkx
