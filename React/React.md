@@ -4344,12 +4344,56 @@ export default store;
 ````
 
 ### Working with Multiple State Properties
+
+````
+//store
+import { createStore } from 'redux';
+
+const initialState = { counter: 0, showCounter: true };
+
+const counterReducer = (state = initialState, action) => {
+  if (action.type === 'increment') {
+    return {
+      counter: state.counter + 1,
+      showCounter: state.showCounter
+    };
+  }
+
+  if (action.type === 'increase') {
+    return {
+      counter: state.counter + action.amount,
+      showCounter: state.showCounter
+    };
+  }
+
+  if (action.type === 'decrement') {
+    return {
+      counter: state.counter - 1,
+      showCounter: state.showCounter
+    };
+  }
+
+ --if (action.type === 'toggle') {
+    return {
+      showCounter: !state.showCounter,
+      counter: state.counter
+    };
+  }
+
+  return state;
+};
+
+const store = createStore(counterReducer);
+
+export default store;
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0ODk2MDkwOSwtMzQyODk5ODUxLC0xMj
-AyOTgwNTg0LDk1Mjg2NzM0Myw1NjI1NzQ1NDYsNzk0MTczODI5
-LC0xMDk4NDMyNjY2LC02MzgzODczMCwtMzkwOTQ4MDg5LDEwOD
-A4NjQ2MSwxMTE3NTY3MTU3LC00NDgwMTYxMTIsLTEwMzQ1MDc5
-OCwxMjEyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMz
-Y3NTQ5NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3Njcy
-NTA3OF19
+eyJoaXN0b3J5IjpbODY4NzY3MTQ5LDEyNDg5NjA5MDksLTM0Mj
+g5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYyNTc0NTQ2
+LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mzg3MzAsLTM5MD
+k0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1NywtNDQ4MDE2MTEy
+LC0xMDM0NTA3OTgsMTIxMjEyMDM3NywxNzkxNzMxNzg5LC0zOT
+MwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTczLDExMzA2MjA2
+MTZdfQ==
 -->
