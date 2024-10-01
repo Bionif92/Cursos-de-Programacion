@@ -4533,8 +4533,10 @@ const Counter = () => {
 
 export default Counter;
 ````
+
+### Working with Multiple Slices
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjAxMzIwNiwtMTk2NzQwNzgwNSwyOD
+eyJoaXN0b3J5IjpbMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwyOD
 U2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTcz
 MjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEsMT
 E5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3NjcxNDksMTI0ODk2
