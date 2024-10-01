@@ -4343,9 +4343,9 @@ const store = createStore(counterReducer);
 export default store;
 ````
 
-### 
+### Working with Multiple State Properties
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyOTcwODI2OCwtMzQyODk5ODUxLC0xMj
+eyJoaXN0b3J5IjpbMTI0ODk2MDkwOSwtMzQyODk5ODUxLC0xMj
 AyOTgwNTg0LDk1Mjg2NzM0Myw1NjI1NzQ1NDYsNzk0MTczODI5
 LC0xMDk4NDMyNjY2LC02MzgzODczMCwtMzkwOTQ4MDg5LDEwOD
 A4NjQ2MSwxMTE3NTY3MTU3LC00NDgwMTYxMTIsLTEwMzQ1MDc5
