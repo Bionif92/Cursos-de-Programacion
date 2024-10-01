@@ -4455,11 +4455,11 @@ Redux toolKit: package to be the standard way of writing Redux
 npm install @reduxjs/toolkit
 ````
 ````
-import { createSlice, configureStore } from '@reduxjs/toolkit';
+--import { createSlice, configureStore } from '@reduxjs/toolkit';
 
 const initialState = { counter: 0, showCounter: true };
 
-const counterSlice = createSlice({
+--const counterSlice = createSlice({
   name: 'counter',
   initialState,
   reducers: {
@@ -4487,11 +4487,11 @@ export const counterActions = counterSlice.actions;
 export default store;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNzI5NzMyNywxNzIzOTE2NzQsMTIzMz
-Y0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4MzIw
-NjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC0zNDI4OTk4NTEsLT
-EyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQxNzM4
-MjksLTEwOTg0MzI2NjYsLTYzODM4NzMwLC0zOTA5NDgwODksMT
-A4MDg2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzNDUw
-Nzk4XX0=
+eyJoaXN0b3J5IjpbLTQzNTY0MDk3NywxNDE3Mjk3MzI3LDE3Mj
+M5MTY3NCwxMjMzNjQ3NjU5LC0xMDc2MDE5MDgxLDExOTU0MDk1
+MzcsLTE5MDgzMjA2MjAsODY4NzY3MTQ5LDEyNDg5NjA5MDksLT
+M0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYyNTc0
+NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mzg3MzAsLT
+M5MDk0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1NywtNDQ4MDE2
+MTEyXX0=
 -->
