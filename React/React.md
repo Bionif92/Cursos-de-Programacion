@@ -4325,7 +4325,7 @@ const counterReducer = (state = { counter: 0 }, action) => {
 
   --if (action.type === 'increase') {
     return {
-      counter: state.counter + action.amount,
+      counter: state.counter + action.amount, // it is dinamic
     };
   }
 
@@ -4342,12 +4342,14 @@ const store = createStore(counterReducer);
 
 export default store;
 ````
+
+### 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NT
-I4NjczNDMsNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2
-NiwtNjM4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNz
-U2NzE1NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3
-NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMz
-I4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2
-NzYzNl19
+eyJoaXN0b3J5IjpbLTkyOTcwODI2OCwtMzQyODk5ODUxLC0xMj
+AyOTgwNTg0LDk1Mjg2NzM0Myw1NjI1NzQ1NDYsNzk0MTczODI5
+LC0xMDk4NDMyNjY2LC02MzgzODczMCwtMzkwOTQ4MDg5LDEwOD
+A4NjQ2MSwxMTE3NTY3MTU3LC00NDgwMTYxMTIsLTEwMzQ1MDc5
+OCwxMjEyMTIwMzc3LDE3OTE3MzE3ODksLTM5MzA3MzYxNywxMz
+Y3NTQ5NDg5LDEzMjgwMDkxNzMsMTEzMDYyMDYxNiwtMTI3Njcy
+NTA3OF19
 -->
