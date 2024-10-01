@@ -4490,13 +4490,55 @@ export default store;
 ### Migrating Everything To Redux Toolkit
 
 ````
+//counter.js
+import { useSelector, useDispatch } from 'react-redux';
+
+--import { counterActions } from '../store/index';
+import classes from './Counter.module.css';
+
+const Counter = () => {
+  const dispatch = useDispatch();
+  const counter = useSelector((state) => state.counter);
+  const show = useSelector((state) => state.showCounter);
+
+  const incrementHandler = () => {
+    dispatch(counterActions.increment());
+  };
+
+  const increaseHandler = () => {
+    dispatch(counterActions.increase(10)); // { type: SOME_UNIQUE_IDENTIFIER, payload: 10 }
+  };
+
+  const decrementHandler = () => {
+    dispatch(counterActions.decrement());
+  };
+
+  const toggleCounterHandler = () => {
+    dispatch(counterActions.toggleCounter());
+  };
+
+  return (
+    <main className={classes.counter}>
+      <h1>Redux Counter</h1>
+      {show && <div className={classes.value}>{counter}</div>}
+      <div>
+        <button onClick={incrementHandler}>Increment</button>
+        <button onClick={increaseHandler}>Increase by 10</button>
+        <button onClick={decrementHandler}>Decrement</button>
+      </div>
+      <button onClick={toggleCounterHandler}>Toggle Counter</button>
+    </main>
+  );
+};
+
+export default Counter;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njc0MDc4MDUsMjg1NjU2NTUyLDEwMT
-M1NzkyMjYsLTQzNTY0MDk3NywxNDE3Mjk3MzI3LDE3MjM5MTY3
-NCwxMjMzNjQ3NjU5LC0xMDc2MDE5MDgxLDExOTU0MDk1MzcsLT
-E5MDgzMjA2MjAsODY4NzY3MTQ5LDEyNDg5NjA5MDksLTM0Mjg5
-OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYyNTc0NTQ2LD
-c5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mzg3MzAsLTM5MDk0
-ODA4OV19
+eyJoaXN0b3J5IjpbLTEwMTk0NDAyOSwtMTk2NzQwNzgwNSwyOD
+U2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTcz
+MjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEsMT
+E5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3NjcxNDksMTI0ODk2
+MDkwOSwtMzQyODk5ODUxLC0xMjAyOTgwNTg0LDk1Mjg2NzM0My
+w1NjI1NzQ1NDYsNzk0MTczODI5LC0xMDk4NDMyNjY2LC02Mzgz
+ODczMF19
 -->
