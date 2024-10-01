@@ -4437,9 +4437,14 @@ The state is overwritten
 Need to set all the states when we update a piece of state
 
 ````
+if (action.type === 'increment') {
+    return {
+      counter: state.counter + 1, // not state.counter++
+      showCounter: state.showCounter,
+    };
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDc4MDkwOSwtMTA3NjAxOTA4MSwxMT
+eyJoaXN0b3J5IjpbMTIzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMT
 k1NDA5NTM3LC0xOTA4MzIwNjIwLDg2ODc2NzE0OSwxMjQ4OTYw
 OTA5LC0zNDI4OTk4NTEsLTEyMDI5ODA1ODQsOTUyODY3MzQzLD
 U2MjU3NDU0Niw3OTQxNzM4MjksLTEwOTg0MzI2NjYsLTYzODM4
