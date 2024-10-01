@@ -4620,10 +4620,48 @@ function App() {
 }
 
 export default App;
+
+//header.js
+import { useSelector, useDispatch } from 'react-redux';
+
+import classes from './Header.module.css';
+import { authActions } from '../store/index';
+
+const Header = () => {
+  const dispatch = useDispatch();
+  const isAuth = useSelector((state) => state.auth.isAuthenticated);
+
+  const logoutHandler = () => {
+    dispatch(authActions.logout());
+  };
+
+  return (
+    <header className={classes.header}>
+      <h1>Redux Auth</h1>
+      {isAuth && (
+        <nav>
+          <ul>
+            <li>
+              <a href='/'>My Products</a>
+            </li>
+            <li>
+              <a href='/'>My Sales</a>
+            </li>
+            <li>
+              <button onClick={logoutHandler}>Logout</button>
+            </li>
+          </ul>
+        </nav>
+      )}
+    </header>
+  );
+};
+
+export default Header;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzkxNjM2OCwtMTkyMzUyNTU2OCwxMz
+eyJoaXN0b3J5IjpbLTYzODQxNjM1NCwtMTkyMzUyNTU2OCwxMz
 Y0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1MiwxMDEzNTc5
 MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNzIzOTE2NzQsMT
 IzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4
