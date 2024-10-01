@@ -4732,9 +4732,9 @@ const store = configureStore({
 export default store;
 ````
 
-## 
+## Advanced Redux
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjcxMjg4MDcsLTUyNTk4MjYxNSwtNj
+eyJoaXN0b3J5IjpbLTIxMDY5Mjk2MjksLTUyNTk4MjYxNSwtNj
 M4NDE2MzU0LC0xOTIzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0
 MDc4MDUsMjg1NjU2NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3Ny
 wxNDE3Mjk3MzI3LDE3MjM5MTY3NCwxMjMzNjQ3NjU5LC0xMDc2
