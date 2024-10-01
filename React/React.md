@@ -4885,7 +4885,7 @@ function App() {
   return (
     <Fragment>
      -- {notification && (
-        <Notification
+        <Notification // other component created to make a notification
           status={notification.status}
           title={notification.title}
           message={notification.message}
@@ -4904,11 +4904,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTMzNjI5OCwtMTg0MDMxOTI2LC0xMj
-A3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIwNjIx
-MzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIxMzUwODUzNj
-UsLTIxMDY5Mjk2MjksLTUyNTk4MjYxNSwtNjM4NDE2MzU0LC0x
-OTIzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0MDc4MDUsMjg1Nj
-U2NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3NywxNDE3Mjk3MzI3
-LDE3MjM5MTY3NF19
+eyJoaXN0b3J5IjpbLTEwNDkyNjExNDQsLTE4NDAzMTkyNiwtMT
+IwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQyMDYy
+MTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1Mz
+Y1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNjM1NCwt
+MTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NT
+Y1NjU1MiwxMDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMy
+NywxNzIzOTE2NzRdfQ==
 -->
