@@ -4224,6 +4224,10 @@ export default Counter;
 ### Redux with Class-based Components
 
 ````
+import { Component } from 'react';
+import { connect } from 'react-redux';
+
+
 // class Counter extends Component {
 //   incrementHandler() {
 //     this.props.increment();
@@ -4265,12 +4269,14 @@ export default Counter;
 
 // export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 ````
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5OD
-QzMjY2NiwtNjM4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEs
-MTExNzU2NzE1NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMj
-EyMDM3NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4
-OSwxMzI4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMT
-Q1NzQ2NzYzNiw2NjE1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5
-MzhdfQ==
+eyJoaXN0b3J5IjpbOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQxNz
+M4MjksLTEwOTg0MzI2NjYsLTYzODM4NzMwLC0zOTA5NDgwODks
+MTA4MDg2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzND
+UwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3
+LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMj
+c2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1
+MzYyXX0=
 -->
