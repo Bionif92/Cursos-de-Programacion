@@ -5005,12 +5005,55 @@ export default cartSlice;
 ````
 ````
 //App.js
+import { Fragment, useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 
+import Cart from './components/Cart/Cart';
+import Layout from './components/Layout/Layout';
+import Products from './components/Shop/Products';
+import Notification from './components/UI/Notification';
+import { sendCartData } from './store/cart-slice';
+
+let isInitial = true;
+
+function App() {
+  const dispatch = useDispatch();
+  const showCart = useSelector((state) => state.ui.cartIsVisible);
+  const cart = useSelector((state) => state.cart);
+  const notification = useSelector((state) => state.ui.notification);
+
+  useEffect(() => {
+    if (isInitial) {
+      isInitial = false;
+      return;
+    }
+
+    dispatch(sendCartData(cart));
+  }, [cart, dispatch]);
+
+  return (
+    <Fragment>
+      {notification && (
+        <Notification
+          status={notification.status}
+          title={notification.title}
+          message={notification.message}
+        />
+      )}
+      <Layout>
+        {showCart && <Cart />}
+        <Products />
+      </Layout>
+    </Fragment>
+  );
+}
+
+export default App;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzY1OTM3MCwtMzk0NjIyOTAxLC0xOD
+eyJoaXN0b3J5IjpbLTU5NTQxMTIxNiwtMzk0NjIyOTAxLC0xOD
 QwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMw
 NjAyLC00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OC
 wtMjEzNTA4NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02
