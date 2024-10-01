@@ -4386,14 +4386,56 @@ const counterReducer = (state = initialState, action) => {
 const store = createStore(counterReducer);
 
 export default store;
+````
+````
+//counter,js
+import { useSelector, useDispatch } from 'react-redux';
 
+import classes from './Counter.module.css';
+
+const Counter = () => {
+  const dispatch = useDispatch();
+  const counter = useSelector((state) => state.counter);
+  const show = useSelector((state) => state.showCounter);
+
+  const incrementHandler = () => {
+    dispatch({ type: 'increment' });
+  };
+
+  const increaseHandler = () => {
+    dispatch({ type: 'increase', amount: 10 });
+  };
+
+  const decrementHandler = () => {
+    dispatch({ type: 'decrement' });
+  };
+
+  --const toggleCounterHandler = () => {
+    dispatch({ type: 'toggle' });
+  };
+
+  return (
+    <main className={classes.counter}>
+      <h1>Redux Counter</h1>
+      {show && <div className={classes.value}>{counter}</div>}
+      <div>
+        <button onClick={incrementHandler}>Increment</button>
+        <button onClick={increaseHandler}>Increase by 10</button>
+        <button onClick={decrementHandler}>Decrement</button>
+      </div>
+      --<button onClick={toggleCounterHandler}>Toggle Counter</button>
+    </main>
+  );
+};
+
+export default Counter;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY4NzY3MTQ5LDEyNDg5NjA5MDksLTM0Mj
-g5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYyNTc0NTQ2
-LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mzg3MzAsLTM5MD
-k0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1NywtNDQ4MDE2MTEy
-LC0xMDM0NTA3OTgsMTIxMjEyMDM3NywxNzkxNzMxNzg5LC0zOT
-MwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTczLDExMzA2MjA2
-MTZdfQ==
+eyJoaXN0b3J5IjpbNzQ2MTE2MDQsODY4NzY3MTQ5LDEyNDg5Nj
+A5MDksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMs
+NTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mz
+g3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1Nywt
+NDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3NywxNzkxNz
+MxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5MTcz
+XX0=
 -->
