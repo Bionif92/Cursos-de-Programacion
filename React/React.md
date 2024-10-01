@@ -4446,6 +4446,7 @@ if (action.type === 'increment') {
 
 ### Redux Challenges & Introducing Redux Toolkit
 
+Redux toolKit: package to be the standard way of writing Redux
 ````
 import { createSlice, configureStore } from '@reduxjs/toolkit';
 
@@ -4477,10 +4478,9 @@ const store = configureStore({
 export const counterActions = counterSlice.actions;
 
 export default store;
-
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNDEyNzQ0MSwxNzIzOTE2NzQsMTIzMz
+eyJoaXN0b3J5IjpbMTUyMjY5MDkyNSwxNzIzOTE2NzQsMTIzMz
 Y0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4MzIw
 NjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC0zNDI4OTk4NTEsLT
 EyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQxNzM4
