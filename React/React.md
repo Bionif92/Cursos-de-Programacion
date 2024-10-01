@@ -4535,12 +4535,63 @@ export default Counter;
 ````
 
 ### Working with Multiple Slices
+
+````
+import { createSlice, configureStore } from '@reduxjs/toolkit';
+
+const initialCounterState = { counter: 0, showCounter: true };
+
+const counterSlice = createSlice({
+  name: 'counter',
+  initialState: initialCounterState,
+  reducers: {
+    increment(state) {
+      state.counter++;
+    },
+    decrement(state) {
+      state.counter--;
+    },
+    increase(state, action) {
+      state.counter = state.counter + action.payload;
+    },
+    toggleCounter(state) {
+      state.showCounter = !state.showCounter;
+    },
+  },
+});
+
+--const initialAuthState = {
+  isAuthenticated: false,
+};
+
+--const authSlice = createSlice({
+  name: 'authentication',
+  initialState: initialAuthState,
+  reducers: {
+    login(state) {
+      state.isAuthenticated = true;
+    },
+    logout(state) {
+      state.isAuthenticated = false;
+    },
+  },
+});
+
+const store = configureStore({
+  reducer: { counter: counterSlice.reducer, auth: authSlice.reducer },
+});
+
+export const counterActions = counterSlice.actions;
+export const authActions = authSlice.actions;
+
+export default store;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwyOD
-U2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTcz
-MjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEsMT
-E5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3NjcxNDksMTI0ODk2
-MDkwOSwtMzQyODk5ODUxLC0xMjAyOTgwNTg0LDk1Mjg2NzM0My
-w1NjI1NzQ1NDYsNzk0MTczODI5LC0xMDk4NDMyNjY2LC02Mzgz
-ODczMF19
+eyJoaXN0b3J5IjpbMjcwNTg0MjAwLDEzNjQzNDUzNTksLTE5Nj
+c0MDc4MDUsMjg1NjU2NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3
+NywxNDE3Mjk3MzI3LDE3MjM5MTY3NCwxMjMzNjQ3NjU5LC0xMD
+c2MDE5MDgxLDExOTU0MDk1MzcsLTE5MDgzMjA2MjAsODY4NzY3
+MTQ5LDEyNDg5NjA5MDksLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NC
+w5NTI4NjczNDMsNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQz
+MjY2Nl19
 -->
