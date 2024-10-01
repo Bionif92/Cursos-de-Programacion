@@ -4272,7 +4272,10 @@ import { connect } from 'react-redux';
 
 ### Attaching Payloads to Actions
 
+Adding values to the ac
+
 ````
+//Counter,js
 import { useSelector, useDispatch } from 'react-redux';
 
 import classes from './Counter.module.css';
@@ -4285,7 +4288,7 @@ const Counter = () => {
     dispatch({ type: 'increment' });
   };
 
-  const increaseHandler = () => {
+ -- const increaseHandler = () => {
     dispatch({ type: 'increase', amount: 10 });
   };
 
@@ -4310,13 +4313,42 @@ const Counter = () => {
 };
 
 export default Counter;
+
+// store
+import { createStore } from 'redux';
+
+const counterReducer = (state = { counter: 0 }, action) => {
+  if (action.type === 'increment') {
+    return {
+      counter: state.counter + 1,
+    };
+  }
+
+  --if (action.type === 'increase') {
+    return {
+      counter: state.counter + action.amount,
+    };
+  }
+
+  if (action.type === 'decrement') {
+    return {
+      counter: state.counter - 1,
+    };
+  }
+
+  return state;
+};
+
+const store = createStore(counterReducer);
+
+export default store;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2Mj
-U3NDU0Niw3OTQxNzM4MjksLTEwOTg0MzI2NjYsLTYzODM4NzMw
-LC0zOTA5NDgwODksMTA4MDg2NDYxLDExMTc1NjcxNTcsLTQ0OD
-AxNjExMiwtMTAzNDUwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4
-OSwtMzkzMDczNjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMT
-MwNjIwNjE2LC0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2
-NTkyXX0=
+eyJoaXN0b3J5IjpbMTQ0Mjg1MDkzNiwtMTIwMjk4MDU4NCw5NT
+I4NjczNDMsNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2
+NiwtNjM4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNz
+U2NzE1NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3
+NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMz
+I4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2
+NzYzNl19
 -->
