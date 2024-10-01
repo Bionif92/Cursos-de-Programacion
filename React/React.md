@@ -4139,13 +4139,30 @@ export default store;
 ````
 We need to provide our store once
 
-###
+### Providing the Store
+
+````
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+--import { Provider } from 'react-redux';
+
+import './index.css';
+import App from './App';
+import store from './store/index';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  --<Provider store={store}>
+    <App />
+  </Provider>
+);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODM4NzMwLC0zOTA5NDgwODksMTA4MD
-g2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzNDUwNzk4
-LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNj
-c1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1
-MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLD
-IyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3MjIxLDMwODYyMjgx
-OF19
+eyJoaXN0b3J5IjpbLTEwOTg0MzI2NjYsLTYzODM4NzMwLC0zOT
+A5NDgwODksMTA4MDg2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjEx
+MiwtMTAzNDUwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMz
+kzMDczNjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIw
+NjE2LC0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC
+0xMTQ4Mjg1MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3
+MjIxXX0=
 -->
