@@ -4761,6 +4761,7 @@ Async Code or code with side-effects - Put code in action creators or components
 We can let the front end change the state and then send the information
 
 ````
+//App.js
 import { useEffect } from 'react';
 import { useSelector } from 'react-redux';
 
@@ -4791,11 +4792,11 @@ export default App;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00Mj
-A2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4
-NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNT
-QsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwy
-ODU2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOT
-czMjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEs
-MTE5NTQwOTUzN119
+eyJoaXN0b3J5IjpbLTEyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNj
+YyNjMwNjAyLC00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5
+Njg3OCwtMjEzNTA4NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNj
+E1LC02Mzg0MTYzNTQsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwt
+MTk2NzQwNzgwNSwyODU2NTY1NTIsMTAxMzU3OTIyNiwtNDM1Nj
+QwOTc3LDE0MTcyOTczMjcsMTcyMzkxNjc0LDEyMzM2NDc2NTks
+LTEwNzYwMTkwODFdfQ==
 -->
