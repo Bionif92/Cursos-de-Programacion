@@ -5061,13 +5061,25 @@ He create another thrunk for fetching the data
 Problem with fetching the initial data we get from server:
 Put on initialState a prop `changed:false` and change it to true when add and remove
 
+When we try to fetch the data, if we dont have items, need to tweek the code to accept empty object
+````
+ try {
+      const cartData = await fetchData();
+      dispatch(
+        cartActions.replaceCart({
+          items: cartData.items || [], 
+          totalQuantity: cartData.totalQuantity,
+        })
+      );
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NT
-Q5MDg3NTcsLTU5NTQxMTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5
-MjYsLTEyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC
-00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEz
-NTA4NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MT
-YzNTQsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgw
-NSwyODU2NTY1NTJdfQ==
+eyJoaXN0b3J5IjpbLTkxNDU4MTQ3OSwtMTc2MDcyODc0Niw3MT
+c4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5
+MDEsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MS
+w2NjI2MzA2MDIsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQy
+NDk2ODc4LC0yMTM1MDg1MzY1LC0yMTA2OTI5NjI5LC01MjU5OD
+I2MTUsLTYzODQxNjM1NCwtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5
+LC0xOTY3NDA3ODA1XX0=
 -->
