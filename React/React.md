@@ -4224,9 +4224,10 @@ export default Counter;
 ### Redux with Class-based Components
 
 ````
+
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDc5NzMyNCw3OTQxNzM4MjksLTEwOT
+eyJoaXN0b3J5IjpbMjA3NDg1MjI1OCw3OTQxNzM4MjksLTEwOT
 g0MzI2NjYsLTYzODM4NzMwLC0zOTA5NDgwODksMTA4MDg2NDYx
 LDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzNDUwNzk4LDEyMT
 IxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNjc1NDk0
