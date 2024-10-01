@@ -4506,7 +4506,7 @@ const Counter = () => {
   };
 
   const increaseHandler = () => {
-    dispatch(counterActions.increase(10)); // { type: SOME_UNIQUE_IDENTIFIER, payload: 10 } Value inside is alwa
+    dispatch(counterActions.increase(10)); // { type: SOME_UNIQUE_IDENTIFIER, payload: 10 } Value inside is always the payload
   };
 
   const decrementHandler = () => {
@@ -4534,7 +4534,7 @@ const Counter = () => {
 export default Counter;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjE3OTI3OSwtMTk2NzQwNzgwNSwyOD
+eyJoaXN0b3J5IjpbMTAwNjAxMzIwNiwtMTk2NzQwNzgwNSwyOD
 U2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTcz
 MjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEsMT
 E5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3NjcxNDksMTI0ODk2
