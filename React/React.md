@@ -4737,12 +4737,18 @@ export default store;
 ### Redux & Side Effects (and Asynchronous Code)
 
 Reducer must be pure, syde effect free, and synchronous functions
+
+Where to put side effects and async code:
+
+ - Inside Component
+ - Inside the action creators
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzUwODUzNjUsLTIxMDY5Mjk2MjksLT
-UyNTk4MjYxNSwtNjM4NDE2MzU0LC0xOTIzNTI1NTY4LDEzNjQz
-NDUzNTksLTE5Njc0MDc4MDUsMjg1NjU2NTUyLDEwMTM1NzkyMj
-YsLTQzNTY0MDk3NywxNDE3Mjk3MzI3LDE3MjM5MTY3NCwxMjMz
-NjQ3NjU5LC0xMDc2MDE5MDgxLDExOTU0MDk1MzcsLTE5MDgzMj
-A2MjAsODY4NzY3MTQ5LDEyNDg5NjA5MDksLTM0Mjg5OTg1MSwt
-MTIwMjk4MDU4NF19
+eyJoaXN0b3J5IjpbMTE0MjQ5Njg3OCwtMjEzNTA4NTM2NSwtMj
+EwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNTQsLTE5MjM1
+MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwyODU2NTY1NT
+IsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTczMjcsMTcy
+MzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEsMTE5NTQwOT
+UzNywtMTkwODMyMDYyMCw4Njg3NjcxNDksMTI0ODk2MDkwOSwt
+MzQyODk5ODUxXX0=
 -->
