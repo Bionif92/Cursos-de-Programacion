@@ -4142,13 +4142,14 @@ We need to provide our store once
 ### Providing the Store
 
 ````
+//index,js
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 --import { Provider } from 'react-redux';
 
 import './index.css';
 import App from './App';
-import store from './store/index';
+--import store from './store/index';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -4157,12 +4158,14 @@ root.render(
   </Provider>
 );
 ````
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTg0MzI2NjYsLTYzODM4NzMwLC0zOT
-A5NDgwODksMTA4MDg2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjEx
-MiwtMTAzNDUwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMz
-kzMDczNjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIw
-NjE2LC0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC
-0xMTQ4Mjg1MzYyLDIyNjQzOTM4LDM0ODA2ODEzNSwtNjk4MDA3
-MjIxXX0=
+eyJoaXN0b3J5IjpbMTk3NDIwMzg4LC0xMDk4NDMyNjY2LC02Mz
+gzODczMCwtMzkwOTQ4MDg5LDEwODA4NjQ2MSwxMTE3NTY3MTU3
+LC00NDgwMTYxMTIsLTEwMzQ1MDc5OCwxMjEyMTIwMzc3LDE3OT
+E3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5NDg5LDEzMjgwMDkx
+NzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxNDU3NDY3NjM2LD
+Y2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0MzkzOCwzNDgwNjgx
+MzVdfQ==
 -->
