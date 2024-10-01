@@ -5059,15 +5059,15 @@ He create another thrunk for fetching the data
 ### Finalizing the Fetching Logic
 
 Problem with fetching the initial data we get from server:
-Put on initialState a prop `changed`
+Put on initialState a prop `changed:false` and change it to true when add and remove
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODIxMjYxMiw3MTc4MTQ5NjcsMTc1ND
-kwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTky
-NiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLT
-QyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1
-MDg1MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNj
-M1NCwtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1
-LDI4NTY1NjU1Ml19
+eyJoaXN0b3J5IjpbLTE3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NT
+Q5MDg3NTcsLTU5NTQxMTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5
+MjYsLTEyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC
+00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEz
+NTA4NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MT
+YzNTQsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgw
+NSwyODU2NTY1NTJdfQ==
 -->
