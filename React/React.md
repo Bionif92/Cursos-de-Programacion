@@ -5003,10 +5003,14 @@ export const cartActions = cartSlice.actions;
 
 export default cartSlice;
 ````
+````
+//App.js
+
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MDg3ODE2OCwtMzk0NjIyOTAxLC0xOD
+eyJoaXN0b3J5IjpbMTQxMzY1OTM3MCwtMzk0NjIyOTAxLC0xOD
 QwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMw
 NjAyLC00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OC
 wtMjEzNTA4NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02
