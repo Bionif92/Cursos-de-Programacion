@@ -4184,13 +4184,48 @@ export default Counter;
 ````
 You will have the latest state with useSelector
 
-###
+### Dispatching Actions From Inside Components
+
+````
+import { useSelector, useDispatch } from 'react-redux';
+
+import classes from './Counter.module.css';
+
+const Counter = () => {
+  const dispatch = useDispatch();
+  const counter = useSelector(state => state.counter);
+
+  const incrementHandler = () => {
+    dispatch({ type: 'increment' });
+  };
+
+  const decrementHandler = () => {
+    dispatch({ type: 'decrement' });
+  };
+
+  const toggleCounterHandler = () => {};
+
+  return (
+    <main className={classes.counter}>
+      <h1>Redux Counter</h1>
+      <div className={classes.value}>{counter}</div>
+      <div>
+        --<button onClick={incrementHandler}>Increment</button>
+        --<button onClick={decrementHandler}>Decrement</button>
+      </div>
+      <button onClick={toggleCounterHandler}>Toggle Counter</button>
+    </main>
+  );
+};
+
+export default Counter;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5OTc5MjUwMSwtMTA5ODQzMjY2NiwtNj
-M4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1
-NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3NywxNz
-kxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMzI4MDA5
-MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2NzYzNi
-w2NjE1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5MzgsMzQ4MDY4
-MTM1XX0=
+eyJoaXN0b3J5IjpbMjY0NjU5ODQ1LC0xMDk4NDMyNjY2LC02Mz
+gzODczMCwtMzkwOTQ4MDg5LDEwODA4NjQ2MSwxMTE3NTY3MTU3
+LC00NDgwMTYxMTIsLTEwMzQ1MDc5OCwxMjEyMTIwMzc3LDE3OT
+E3MzE3ODksLTM5MzA3MzYxNywxMzY3NTQ5NDg5LDEzMjgwMDkx
+NzMsMTEzMDYyMDYxNiwtMTI3NjcyNTA3OCwxNDU3NDY3NjM2LD
+Y2MTU0NjU5MiwtMTE0ODI4NTM2MiwyMjY0MzkzOCwzNDgwNjgx
+MzVdfQ==
 -->
