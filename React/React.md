@@ -4758,8 +4758,10 @@ Async Code or code with side-effects - Put code in action creators or components
 
 ### Using useEffect with Redux
 
+We can let the front end change the state and then send the information
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNjE1NTUwNiw2NjI2MzA2MDIsLTQyMD
+eyJoaXN0b3J5IjpbMTE5OTE3NTQ1OSw2NjI2MzA2MDIsLTQyMD
 YyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1
 MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNjM1NC
 wtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4
