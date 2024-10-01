@@ -4224,14 +4224,53 @@ export default Counter;
 ### Redux with Class-based Components
 
 ````
+// class Counter extends Component {
+//   incrementHandler() {
+//     this.props.increment();
+//   }
 
+//   decrementHandler() {
+//     this.props.decrement();
+//   }
+
+//   toggleCounterHandler() {}
+
+//   render() {
+//     return (
+//       <main className={classes.counter}>
+//         <h1>Redux Counter</h1>
+//         <div className={classes.value}>{this.props.counter}</div>
+//         <div>
+//           <button onClick={this.incrementHandler.bind(this)}>Increment</button>
+//           <button onClick={this.decrementHandler.bind(this)}>Decrement</button>
+//         </div>
+//         <button onClick={this.toggleCounterHandler}>Toggle Counter</button>
+//       </main>
+//     );
+//   }
+// }
+
+// const mapStateToProps = state => {
+//   return {
+//     counter: state.counter
+//   };
+// }
+
+// const mapDispatchToProps = dispatch => {
+//   return {
+//     increment: () => dispatch({ type: 'increment' }),
+//     decrement: () => dispatch({ type: 'decrement' }),
+//   }
+// };
+
+// export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NDg1MjI1OCw3OTQxNzM4MjksLTEwOT
-g0MzI2NjYsLTYzODM4NzMwLC0zOTA5NDgwODksMTA4MDg2NDYx
-LDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzNDUwNzk4LDEyMT
-IxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3LDEzNjc1NDk0
-ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMjc2NzI1MDc4LD
-E0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1MzYyLDIyNjQz
-OTM4XX0=
+eyJoaXN0b3J5IjpbNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5OD
+QzMjY2NiwtNjM4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEs
+MTExNzU2NzE1NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMj
+EyMDM3NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4
+OSwxMzI4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMT
+Q1NzQ2NzYzNiw2NjE1NDY1OTIsLTExNDgyODUzNjIsMjI2NDM5
+MzhdfQ==
 -->
