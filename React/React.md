@@ -4464,7 +4464,7 @@ const initialState = { counter: 0, showCounter: true };
   initialState,
   reducers: {
     increment(state) {
-      state.counter++;
+      state.counter++; // here it is allowed with this package
     },
     decrement(state) {
       state.counter--;
@@ -4487,11 +4487,11 @@ export const counterActions = counterSlice.actions;
 export default store;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNTY0MDk3NywxNDE3Mjk3MzI3LDE3Mj
-M5MTY3NCwxMjMzNjQ3NjU5LC0xMDc2MDE5MDgxLDExOTU0MDk1
-MzcsLTE5MDgzMjA2MjAsODY4NzY3MTQ5LDEyNDg5NjA5MDksLT
-M0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NTI4NjczNDMsNTYyNTc0
-NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2NiwtNjM4Mzg3MzAsLT
-M5MDk0ODA4OSwxMDgwODY0NjEsMTExNzU2NzE1NywtNDQ4MDE2
-MTEyXX0=
+eyJoaXN0b3J5IjpbMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MT
+cyOTczMjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkw
+ODEsMTE5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3NjcxNDksMT
+I0ODk2MDkwOSwtMzQyODk5ODUxLC0xMjAyOTgwNTg0LDk1Mjg2
+NzM0Myw1NjI1NzQ1NDYsNzk0MTczODI5LC0xMDk4NDMyNjY2LC
+02MzgzODczMCwtMzkwOTQ4MDg5LDEwODA4NjQ2MSwxMTE3NTY3
+MTU3XX0=
 -->
