@@ -4904,9 +4904,11 @@ export default App;
 
 ### Using an Action Creator Thunk
 
+Thunk: function that delays an action until later
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NjEyMTg2OSwtMTg0MDMxOTI2LC0xMj
+eyJoaXN0b3J5IjpbLTM5NDYyMjkwMSwtMTg0MDMxOTI2LC0xMj
 A3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIwNjIx
 MzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIxMzUwODUzNj
 UsLTIxMDY5Mjk2MjksLTUyNTk4MjYxNSwtNjM4NDE2MzU0LC0x
