@@ -4445,12 +4445,46 @@ if (action.type === 'increment') {
 ````
 
 ### Redux Challenges & Introducing Redux Toolkit
+
+````
+import { createSlice, configureStore } from '@reduxjs/toolkit';
+
+const initialState = { counter: 0, showCounter: true };
+
+const counterSlice = createSlice({
+  name: 'counter',
+  initialState,
+  reducers: {
+    increment(state) {
+      state.counter++;
+    },
+    decrement(state) {
+      state.counter--;
+    },
+    increase(state, action) {
+      state.counter = state.counter + action.payload;
+    },
+    toggleCounter(state) {
+      state.showCounter = !state.showCounter;
+    }
+  }
+});
+
+const store = configureStore({
+  reducer: counterSlice.reducer
+});
+
+export const counterActions = counterSlice.actions;
+
+export default store;
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNz
-YwMTkwODEsMTE5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3Njcx
-NDksMTI0ODk2MDkwOSwtMzQyODk5ODUxLC0xMjAyOTgwNTg0LD
-k1Mjg2NzM0Myw1NjI1NzQ1NDYsNzk0MTczODI5LC0xMDk4NDMy
-NjY2LC02MzgzODczMCwtMzkwOTQ4MDg5LDEwODA4NjQ2MSwxMT
-E3NTY3MTU3LC00NDgwMTYxMTIsLTEwMzQ1MDc5OCwxMjEyMTIw
-Mzc3XX0=
+eyJoaXN0b3J5IjpbLTUzNDEyNzQ0MSwxNzIzOTE2NzQsMTIzMz
+Y0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4MzIw
+NjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC0zNDI4OTk4NTEsLT
+EyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQxNzM4
+MjksLTEwOTg0MzI2NjYsLTYzODM4NzMwLC0zOTA5NDgwODksMT
+A4MDg2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzNDUw
+Nzk4XX0=
 -->
