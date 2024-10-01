@@ -4866,7 +4866,7 @@ function App() {
       );
     };
 
-    if (isInitial) { // when start application dont overw
+    if (isInitial) { // when start application dont overwrite with nothing in the cart
       isInitial = false;
       return;
     }
@@ -4902,13 +4902,15 @@ function App() {
 export default App;
 ````
 
+### Using an Action Creator Thunk
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkzMDA3MTI0LC0xODQwMzE5MjYsLTEyMD
-c4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00MjA2MjEz
-MjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4NTM2NS
-wtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNTQsLTE5
-MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwyODU2NT
-Y1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTczMjcs
-MTcyMzkxNjc0XX0=
+eyJoaXN0b3J5IjpbMTA0NjEyMTg2OSwtMTg0MDMxOTI2LC0xMj
+A3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIwNjIx
+MzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIxMzUwODUzNj
+UsLTIxMDY5Mjk2MjksLTUyNTk4MjYxNSwtNjM4NDE2MzU0LC0x
+OTIzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0MDc4MDUsMjg1Nj
+U2NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3NywxNDE3Mjk3MzI3
+LDE3MjM5MTY3NF19
 -->
