@@ -5051,11 +5051,13 @@ function App() {
 export default App;
 ````
 
-### Getting Started with Fetching Dat
+### Getting Started with Fetching Data
+
+He create a file for the actions
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mzc5MzY2MywtNTk1NDExMjE2LC0zOT
+eyJoaXN0b3J5IjpbMTc1NDkwODc1NywtNTk1NDExMjE2LC0zOT
 Q2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwtMTk3Mzkz
 MjU0MSw2NjI2MzA2MDIsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMi
 wxMTQyNDk2ODc4LC0yMTM1MDg1MzY1LC0yMTA2OTI5NjI5LC01
