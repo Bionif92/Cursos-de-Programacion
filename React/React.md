@@ -4272,8 +4272,7 @@ import { connect } from 'react-redux';
 
 ### Attaching Payloads to Actions
 
-Adding values to the ac
-
+Adding values to the actions
 ````
 //Counter,js
 import { useSelector, useDispatch } from 'react-redux';
@@ -4344,7 +4343,7 @@ const store = createStore(counterReducer);
 export default store;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0Mjg1MDkzNiwtMTIwMjk4MDU4NCw5NT
+eyJoaXN0b3J5IjpbLTM0Mjg5OTg1MSwtMTIwMjk4MDU4NCw5NT
 I4NjczNDMsNTYyNTc0NTQ2LDc5NDE3MzgyOSwtMTA5ODQzMjY2
 NiwtNjM4Mzg3MzAsLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNz
 U2NzE1NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3
