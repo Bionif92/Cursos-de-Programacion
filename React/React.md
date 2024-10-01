@@ -4113,13 +4113,32 @@ npm install redux react-redux
 ### Creating a Redux Store for React
 
 ````
-// src/store
+// src/store index.js
 
+import { createStore } from 'redux';
 
+const counterReducer = (state = { counter: 0 }, action) => {
+  if (action.type === 'increment') {
+    return {
+      counter: state.counter + 1,
+    };
+  }
 
+  if (action.type === 'decrement') {
+    return {
+      counter: state.counter - 1,
+    };
+  }
+
+  return state;
+};
+
+const store = createStore(counterReducer);
+
+export default store;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNDk4MDY4MSwxMDgwODY0NjEsMTExNz
+eyJoaXN0b3J5IjpbLTM5MDk0ODA4OSwxMDgwODY0NjEsMTExNz
 U2NzE1NywtNDQ4MDE2MTEyLC0xMDM0NTA3OTgsMTIxMjEyMDM3
 NywxNzkxNzMxNzg5LC0zOTMwNzM2MTcsMTM2NzU0OTQ4OSwxMz
 I4MDA5MTczLDExMzA2MjA2MTYsLTEyNzY3MjUwNzgsMTQ1NzQ2
