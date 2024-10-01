@@ -4751,12 +4751,16 @@ He use Firebase as a backend for this lecture, you can use it with a google acco
 
 Depending on the backend, you need to transform and send data or just send it
 
+### Where To Put Our Logic
+
+Inside Component
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTUxMjcyMTEsLTQyMDYyMTMyOSwtMT
-Y2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1MzY1LC0yMTA2
-OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNjM1NCwtMTkyMzUyNT
-U2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1Miwx
-MDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNzIzOT
-E2NzQsMTIzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3
-LC0xOTA4MzIwNjIwXX0=
+eyJoaXN0b3J5IjpbNjYyNjMwNjAyLC00MjA2MjEzMjksLTE2Nj
+kwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4NTM2NSwtMjEwNjky
+OTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNTQsLTE5MjM1MjU1Nj
+gsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwyODU2NTY1NTIsMTAx
+MzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTczMjcsMTcyMzkxNj
+c0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEsMTE5NTQwOTUzNywt
+MTkwODMyMDYyMF19
 -->
