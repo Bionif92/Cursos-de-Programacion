@@ -4596,6 +4596,7 @@ const counter = useSelector((state) => state.counter.counter); // change when yo
 ### Reading & Dispatching From A New Slice
 
 ````
+//app.js
 import { Fragment } from 'react';
 import { useSelector } from 'react-redux';
 
@@ -4622,11 +4623,11 @@ export default App;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk3Nzk4NjQsLTE5MjM1MjU1NjgsMT
-M2NDM0NTM1OSwtMTk2NzQwNzgwNSwyODU2NTY1NTIsMTAxMzU3
-OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTczMjcsMTcyMzkxNjc0LD
-EyMzM2NDc2NTksLTEwNzYwMTkwODEsMTE5NTQwOTUzNywtMTkw
-ODMyMDYyMCw4Njg3NjcxNDksMTI0ODk2MDkwOSwtMzQyODk5OD
-UxLC0xMjAyOTgwNTg0LDk1Mjg2NzM0Myw1NjI1NzQ1NDYsNzk0
-MTczODI5XX0=
+eyJoaXN0b3J5IjpbMTI3NzkxNjM2OCwtMTkyMzUyNTU2OCwxMz
+Y0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1MiwxMDEzNTc5
+MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNzIzOTE2NzQsMT
+IzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4
+MzIwNjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC0zNDI4OTk4NT
+EsLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQx
+NzM4MjldfQ==
 -->
