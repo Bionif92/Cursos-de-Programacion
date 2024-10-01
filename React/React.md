@@ -4660,12 +4660,69 @@ const Header = () => {
 export default Header;
 ````
 
+### Splitting Our Code
+
+Store foulder
+````
+import { createSlice } from '@reduxjs/toolkit';
+
+const initialAuthState = {
+  isAuthenticated: false,
+};
+
+const authSlice = createSlice({
+  name: 'authentication',
+  initialState: initialAuthState,
+  reducers: {
+    login(state) {
+      state.isAuthenticated = true;
+    },
+    logout(state) {
+      state.isAuthenticated = false;
+    },
+  },
+});
+
+export const authActions = authSlice.actions;
+
+export default authSlice.reducer;
+````
+````
+import { createSlice } from '@reduxjs/toolkit';
+
+const initialCounterState = { counter: 0, showCounter: true };
+
+const counterSlice = createSlice({
+  name: 'counter',
+  initialState: initialCounterState,
+  reducers: {
+    increment(state) {
+      state.counter++;
+    },
+    decrement(state) {
+      state.counter--;
+    },
+    increase(state, action) {
+      state.counter = state.counter + action.payload;
+    },
+    toggleCounter(state) {
+      state.showCounter = !state.showCounter;
+    },
+  },
+});
+
+export const counterActions = counterSlice.actions;
+
+export default counterSlice.reducer;
+````
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODQxNjM1NCwtMTkyMzUyNTU2OCwxMz
-Y0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1MiwxMDEzNTc5
-MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNzIzOTE2NzQsMT
-IzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4
-MzIwNjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC0zNDI4OTk4NT
-EsLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQx
-NzM4MjldfQ==
+eyJoaXN0b3J5IjpbOTgyMjUwNjEsLTYzODQxNjM1NCwtMTkyMz
+UyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1
+MiwxMDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNz
+IzOTE2NzQsMTIzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5
+NTM3LC0xOTA4MzIwNjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC
+0zNDI4OTk4NTEsLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3
+NDU0Nl19
 -->
