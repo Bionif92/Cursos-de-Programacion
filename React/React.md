@@ -4828,7 +4828,7 @@ import Products from './components/Shop/Products';
 import { uiActions } from './store/ui-slice';
 import Notification from './components/UI/Notification';
 
-let isInitial = true;
+let isInitial = true; // not to send it when refresh
 
 function App() {
   const dispatch = useDispatch();
@@ -4904,11 +4904,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDkyNjExNDQsLTE4NDAzMTkyNiwtMT
-IwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQyMDYy
-MTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1Mz
-Y1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNjM1NCwt
-MTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NT
-Y1NjU1MiwxMDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMy
-NywxNzIzOTE2NzRdfQ==
+eyJoaXN0b3J5IjpbLTQ3NTM0Mzc4LC0xODQwMzE5MjYsLTEyMD
+c4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00MjA2MjEz
+MjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4NTM2NS
+wtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNTQsLTE5
+MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwyODU2NT
+Y1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOTczMjcs
+MTcyMzkxNjc0XX0=
 -->
