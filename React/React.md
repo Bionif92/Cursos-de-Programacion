@@ -4270,13 +4270,53 @@ import { connect } from 'react-redux';
 // export default connect(mapStateToProps, mapDispatchToProps)(Counter);
 ````
 
-###
+### Attaching Payloads to Actions
+
+````
+import { useSelector, useDispatch } from 'react-redux';
+
+import classes from './Counter.module.css';
+
+const Counter = () => {
+  const dispatch = useDispatch();
+  const counter = useSelector((state) => state.counter);
+
+  const incrementHandler = () => {
+    dispatch({ type: 'increment' });
+  };
+
+  const increaseHandler = () => {
+    dispatch({ type: 'increase', amount: 10 });
+  };
+
+  const decrementHandler = () => {
+    dispatch({ type: 'decrement' });
+  };
+
+  const toggleCounterHandler = () => {};
+
+  return (
+    <main className={classes.counter}>
+      <h1>Redux Counter</h1>
+      <div className={classes.value}>{counter}</div>
+      <div>
+        <button onClick={incrementHandler}>Increment</button>
+        --<button onClick={increaseHandler}>Increase by 10</button>
+        <button onClick={decrementHandler}>Decrement</button>
+      </div>
+      <button onClick={toggleCounterHandler}>Toggle Counter</button>
+    </main>
+  );
+};
+
+export default Counter;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQxNz
-M4MjksLTEwOTg0MzI2NjYsLTYzODM4NzMwLC0zOTA5NDgwODks
-MTA4MDg2NDYxLDExMTc1NjcxNTcsLTQ0ODAxNjExMiwtMTAzND
-UwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4OSwtMzkzMDczNjE3
-LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMTMwNjIwNjE2LC0xMj
-c2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2NTkyLC0xMTQ4Mjg1
-MzYyXX0=
+eyJoaXN0b3J5IjpbLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2Mj
+U3NDU0Niw3OTQxNzM4MjksLTEwOTg0MzI2NjYsLTYzODM4NzMw
+LC0zOTA5NDgwODksMTA4MDg2NDYxLDExMTc1NjcxNTcsLTQ0OD
+AxNjExMiwtMTAzNDUwNzk4LDEyMTIxMjAzNzcsMTc5MTczMTc4
+OSwtMzkzMDczNjE3LDEzNjc1NDk0ODksMTMyODAwOTE3MywxMT
+MwNjIwNjE2LC0xMjc2NzI1MDc4LDE0NTc0Njc2MzYsNjYxNTQ2
+NTkyXX0=
 -->
