@@ -4866,7 +4866,7 @@ function App() {
       );
     };
 
-    if (isInitial) {
+    if (isInitial) { // when start application dont overw
       isInitial = false;
       return;
     }
@@ -4904,7 +4904,7 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NTM0Mzc4LC0xODQwMzE5MjYsLTEyMD
+eyJoaXN0b3J5IjpbNzkzMDA3MTI0LC0xODQwMzE5MjYsLTEyMD
 c4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00MjA2MjEz
 MjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4NTM2NS
 wtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNTQsLTE5
