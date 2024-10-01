@@ -4906,13 +4906,111 @@ export default App;
 
 Thunk: function that delays an action until later
 
+````
+//cart-slice.js in the store foulder
+import { createSlice } from '@reduxjs/toolkit';
+
+import { uiActions } from './ui-slice';
+
+const cartSlice = createSlice({
+  name: 'cart',
+  initialState: {
+    items: [],
+    totalQuantity: 0,
+  },
+  reducers: {
+    replaceCart(state, action) {
+      state.totalQuantity = action.payload.totalQuantity;
+      state.items = action.payload.items;
+    },
+    addItemToCart(state, action) {
+      const newItem = action.payload;
+      const existingItem = state.items.find((item) => item.id === newItem.id);
+      state.totalQuantity++;
+      if (!existingItem) {
+        state.items.push({
+          id: newItem.id,
+          price: newItem.price,
+          quantity: 1,
+          totalPrice: newItem.price,
+          name: newItem.title,
+        });
+      } else {
+        existingItem.quantity++;
+        existingItem.totalPrice = existingItem.totalPrice + newItem.price;
+      }
+    },
+    removeItemFromCart(state, action) {
+      const id = action.payload;
+      const existingItem = state.items.find((item) => item.id === id);
+      state.totalQuantity--;
+      if (existingItem.quantity === 1) {
+        state.items = state.items.filter((item) => item.id !== id);
+      } else {
+        existingItem.quantity--;
+      }
+    },
+  },
+});
+
+export const sendCartData = (cart) => {
+  return async (dispatch) => {
+    dispatch(
+      uiActions.showNotification({
+        status: 'pending',
+        title: 'Sending...',
+        message: 'Sending cart data!',
+      })
+    );
+
+    const sendRequest = async () => {
+      const response = await fetch(
+        'https://react-http-6b4a6.firebaseio.com/cart.json',
+        {
+          method: 'PUT',
+          body: JSON.stringify(cart),
+        }
+      );
+
+      if (!response.ok) {
+        throw new Error('Sending cart data failed.');
+      }
+    };
+
+    try {
+      await sendRequest();
+
+      dispatch(
+        uiActions.showNotification({
+          status: 'success',
+          title: 'Success!',
+          message: 'Sent cart data successfully!',
+        })
+      );
+    } catch (error) {
+      dispatch(
+        uiActions.showNotification({
+          status: 'error',
+          title: 'Error!',
+          message: 'Sending cart data failed!',
+        })
+      );
+    }
+  };
+};
+
+export const cartActions = cartSlice.actions;
+
+export default cartSlice;
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5NDYyMjkwMSwtMTg0MDMxOTI2LC0xMj
-A3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIwNjIx
-MzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIxMzUwODUzNj
-UsLTIxMDY5Mjk2MjksLTUyNTk4MjYxNSwtNjM4NDE2MzU0LC0x
-OTIzNTI1NTY4LDEzNjQzNDUzNTksLTE5Njc0MDc4MDUsMjg1Nj
-U2NTUyLDEwMTM1NzkyMjYsLTQzNTY0MDk3NywxNDE3Mjk3MzI3
-LDE3MjM5MTY3NF19
+eyJoaXN0b3J5IjpbODQ5MDMyMDA4LC0zOTQ2MjI5MDEsLTE4ND
+AzMTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2
+MDIsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC
+0yMTM1MDg1MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYz
+ODQxNjM1NCwtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3ND
+A3ODA1LDI4NTY1NjU1MiwxMDEzNTc5MjI2LC00MzU2NDA5Nzcs
+MTQxNzI5NzMyN119
 -->
