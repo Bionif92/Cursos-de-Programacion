@@ -4588,14 +4588,17 @@ export default store;
 ````
 
 ````
+// counter
+const counter = useSelector((state) => state.counter.counter); // change when you have more slices
+  const show = useSelector((state) => state.counter.showCounter);
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMT
-k2NzQwNzgwNSwyODU2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQw
-OTc3LDE0MTcyOTczMjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLT
-EwNzYwMTkwODEsMTE5NTQwOTUzNywtMTkwODMyMDYyMCw4Njg3
-NjcxNDksMTI0ODk2MDkwOSwtMzQyODk5ODUxLC0xMjAyOTgwNT
-g0LDk1Mjg2NzM0Myw1NjI1NzQ1NDYsNzk0MTczODI5LC0xMDk4
-NDMyNjY2XX0=
+eyJoaXN0b3J5IjpbMTM5OTY5ODYyNSwtMTkyMzUyNTU2OCwxMz
+Y0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4NTY1NjU1MiwxMDEzNTc5
+MjI2LC00MzU2NDA5NzcsMTQxNzI5NzMyNywxNzIzOTE2NzQsMT
+IzMzY0NzY1OSwtMTA3NjAxOTA4MSwxMTk1NDA5NTM3LC0xOTA4
+MzIwNjIwLDg2ODc2NzE0OSwxMjQ4OTYwOTA5LC0zNDI4OTk4NT
+EsLTEyMDI5ODA1ODQsOTUyODY3MzQzLDU2MjU3NDU0Niw3OTQx
+NzM4MjldfQ==
 -->
