@@ -4792,8 +4792,33 @@ export default App;
 ````
 
 ### Handling Http States & Feedback with Redux
-
 ````
+// ui-slice.js/store
+import { createSlice } from '@reduxjs/toolkit';
+
+const uiSlice = createSlice({
+  name: 'ui',
+  --initialState: { cartIsVisible: false, notification: null },
+  reducers: {
+    toggle(state) {
+      state.cartIsVisible = !state.cartIsVisible;
+    },
+    --showNotification(state, action) {
+      state.notification = {
+        status: action.payload.status,
+        title: action.payload.title,
+        message: action.payload.message,
+      };
+    },
+  },
+});
+
+export const uiActions = uiSlice.actions;
+
+export default uiSlice;
+````
+````
+//App.js
 import { Fragment, useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
@@ -4877,8 +4902,9 @@ function App() {
 export default App;
 ````
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyNDI2MTEyNCwtMTIwNzg5NDkwMSwtMT
+eyJoaXN0b3J5IjpbLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwtMT
 k3MzkzMjU0MSw2NjI2MzA2MDIsLTQyMDYyMTMyOSwtMTY2OTA4
 OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1MzY1LC0yMTA2OTI5Nj
 I5LC01MjU5ODI2MTUsLTYzODQxNjM1NCwtMTkyMzUyNTU2OCwx
