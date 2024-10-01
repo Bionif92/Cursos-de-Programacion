@@ -4953,7 +4953,7 @@ const cartSlice = createSlice({
   },
 });
 
-export const sendCartData = (cart) => {
+--export const sendCartData = (cart) => {
   return async (dispatch) => {
     dispatch(
       uiActions.showNotification({
@@ -5006,11 +5006,11 @@ export default cartSlice;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5MDMyMDA4LC0zOTQ2MjI5MDEsLTE4ND
-AzMTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2
-MDIsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC
-0yMTM1MDg1MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYz
-ODQxNjM1NCwtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3ND
-A3ODA1LDI4NTY1NjU1MiwxMDEzNTc5MjI2LC00MzU2NDA5Nzcs
-MTQxNzI5NzMyN119
+eyJoaXN0b3J5IjpbLTI0MDg3ODE2OCwtMzk0NjIyOTAxLC0xOD
+QwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMw
+NjAyLC00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OC
+wtMjEzNTA4NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02
+Mzg0MTYzNTQsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2Nz
+QwNzgwNSwyODU2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3
+LDE0MTcyOTczMjddfQ==
 -->
