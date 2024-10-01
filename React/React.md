@@ -4753,14 +4753,15 @@ Depending on the backend, you need to transform and send data or just send it
 
 ### Where To Put Our Logic
 
-Synchronous, side effect
+Synchronous, side effect free code - Put code in Reducers
+Async Code or code with side-effects - Put code in action 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNDAyODMyNiw2NjI2MzA2MDIsLTQyMD
-YyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1
-MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUsLTYzODQxNjM1NC
-wtMTkyMzUyNTU2OCwxMzY0MzQ1MzU5LC0xOTY3NDA3ODA1LDI4
-NTY1NjU1MiwxMDEzNTc5MjI2LC00MzU2NDA5NzcsMTQxNzI5Nz
-MyNywxNzIzOTE2NzQsMTIzMzY0NzY1OSwtMTA3NjAxOTA4MSwx
-MTk1NDA5NTM3XX0=
+eyJoaXN0b3J5IjpbLTEwNDM3NTEwMzMsNjYyNjMwNjAyLC00Mj
+A2MjEzMjksLTE2NjkwODkzMjIsMTE0MjQ5Njg3OCwtMjEzNTA4
+NTM2NSwtMjEwNjkyOTYyOSwtNTI1OTgyNjE1LC02Mzg0MTYzNT
+QsLTE5MjM1MjU1NjgsMTM2NDM0NTM1OSwtMTk2NzQwNzgwNSwy
+ODU2NTY1NTIsMTAxMzU3OTIyNiwtNDM1NjQwOTc3LDE0MTcyOT
+czMjcsMTcyMzkxNjc0LDEyMzM2NDc2NTksLTEwNzYwMTkwODEs
+MTE5NTQwOTUzN119
 -->
