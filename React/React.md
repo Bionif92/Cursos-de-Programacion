@@ -5076,12 +5076,12 @@ When we try to fetch the data, if we dont have items, need to tweek the code to 
 ### Exploring the Redux DevTools
 
 Debbugin easier
-Search repository of Redux Devtools - 
-De
+Search repository of Redux Devtools - and install them
+Devtools/Redux
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDY2MzY5MjEsLTE3NjA3Mjg3NDYsNz
+eyJoaXN0b3J5IjpbLTEyOTIxMjI2MzcsLTE3NjA3Mjg3NDYsNz
 E3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NTQxMTIxNiwtMzk0NjIy
 OTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5NzM5MzI1ND
 EsNjYyNjMwNjAyLC00MjA2MjEzMjksLTE2NjkwODkzMjIsMTE0
