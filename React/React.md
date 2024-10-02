@@ -5584,13 +5584,17 @@ export default EventsPage;
 ### More loader() Data Usage
 
 Could use it direcly in the component of before `<EventList />`
-Cannot use it in a higher route level, but you can in l
+Cannot use it in a higher route level, but you can in lower levels
+
+### Where Should loader() Code Be Stored?
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjcxNDU4NDgsOTcyNzMyNTMsLTEyOT
-M1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUy
-OSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcyMjI0NC
-w3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMTA5
-MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3NTQ0Mi
-wxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4NzQ2LDcx
-NzgxNDk2N119
+eyJoaXN0b3J5IjpbLTMyNTE3NjQ0Myw5NzI3MzI1MywtMTI5Mz
+U4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5
+LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LD
+cyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkz
+NTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0Njc1NDQyLD
+E5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3Mjg3NDYsNzE3
+ODE0OTY3XX0=
 -->
