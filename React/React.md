@@ -5350,7 +5350,7 @@ function MainNavigation() {
               // style={({ isActive }) => ({
               //   textAlign: isActive ? 'center' : 'left',
               // })}
-              end
+              end // 
             >
               Home
             </NavLink>
@@ -5374,11 +5374,11 @@ function MainNavigation() {
 export default MainNavigation;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQ3MTU2ODAsNzIwNDcyODU4LDIxMD
-A0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUy
-MTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMT
-I5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkw
-ODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNi
-wtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQy
-MDYyMTMyOV19
+eyJoaXN0b3J5IjpbNTI2NjQ2NDAwLDcyMDQ3Mjg1OCwyMTAwND
+A5MTA3LC0xODc1ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0
+OCwyODcxNTg3ODIsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOT
+IxMjI2MzcsLTE3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NTQ5MDg3
+NTcsLTU5NTQxMTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5MjYsLT
+EyMDc4OTQ5MDEsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00MjA2
+MjEzMjldfQ==
 -->
