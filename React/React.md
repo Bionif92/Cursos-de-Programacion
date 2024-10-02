@@ -6038,7 +6038,7 @@ export async function loader({ request, params }) {
 --export async function action({ params, request }) {
   const eventId = params.eventId;
   const response = await fetch('http://localhost:8080/events/' + eventId, {
-    method: request.method,
+    method: request.method, //here used the method
   });
 
   if (!response.ok) {
@@ -6054,11 +6054,11 @@ export async function loader({ request, params }) {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMT
-AwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIs
-LTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMD
-MyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQz
-NSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xND
-I0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3
-Mjg1OF19
+eyJoaXN0b3J5IjpbMzQyMDU3MjgwLDE5OTI0MDc3ODksOTkyMT
+Q2NjcyLDU3MDEwMDcwNiwxOTkxMjgwNTU0LC03ODA2NTc5Niwx
+NDUyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUwMSw3ODIwNz
+k0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOTcyNzMyNTMs
+LTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMz
+UxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcy
+MjI0NF19
 -->
