@@ -5696,7 +5696,7 @@ The `errorElement`in the app.js will display any error you have in the route
 
 ### Extracting Error Data & Throwing Responses
 
-Need to change the error to a response to show it
+Need to change the error to a response to show it, help you put the status to know with type of error was
 
 ````
 import { useLoaderData } from 'react-router-dom';
@@ -5742,11 +5742,11 @@ function ErrorPage() {
   let title = 'An error occurred!';
   let message = 'Something went wrong!';
 
-  if (error.status === 500) {
+  --if (error.status === 500) {
     message = JSON.parse(error.data).message;
   }
 
-  if (error.status === 404) {
+  --if (error.status === 404) {
     title = 'Not found!';
     message = 'Could not find resource or page.';
   }
@@ -5764,7 +5764,7 @@ function ErrorPage() {
 export default ErrorPage;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODQxMjg3Niw0MTE2MzA1MDEsNzgyMD
+eyJoaXN0b3J5IjpbLTkxMjY2MTQ3OCw0MTE2MzA1MDEsNzgyMD
 c5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUz
 LC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MT
 M1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3
