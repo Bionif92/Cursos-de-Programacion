@@ -5468,12 +5468,29 @@ export default ProductsPage;
 ````
 
 ### Understanding Relative & Absolute Paths
+
+Relative Path:
+````
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { path: '', element: <HomePage /> },
+      { path: 'products', element: <ProductsPage /> },
+      { path: 'products/:productId', element: <ProductDetailPage /> }
+    ],
+  }
+]);
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEzNTExNTI5LC0xNDI0NDE0NjY3LC0xMD
-EzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5
-MTA3LC0xODc1ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OC
-wyODcxNTg3ODIsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIx
-MjI2MzcsLTE3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NT
-csLTU5NTQxMTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5MjYsLTEy
-MDc4OTQ5MDFdfQ==
+eyJoaXN0b3J5IjpbMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyND
+QxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4
+NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Mi
+w0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3NTQ0MiwxOTM0NjUx
+NjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2Ny
+wxNzU0OTA4NzU3LC01OTU0MTEyMTYsLTM5NDYyMjkwMSwtMTg0
+MDMxOTI2XX0=
 -->
