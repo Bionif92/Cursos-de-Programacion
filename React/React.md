@@ -5951,9 +5951,9 @@ export default NewEventPage;
 
 ### Submitting Data Programmatically
 
-In the Form you can point to other action inc
+In the Form you can point to other action including the prop `action='/any-other-path'`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTM5ODM1Nyw5OTIxNDY2NzIsNTcwMT
+eyJoaXN0b3J5IjpbMTkwMzgxNjkxNyw5OTIxNDY2NzIsNTcwMT
 AwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIs
 LTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMD
 MyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQz
