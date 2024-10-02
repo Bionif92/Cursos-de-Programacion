@@ -5115,7 +5115,7 @@ export default App;
 ````
 
 ````
-// pages/Home.js
+//pages/Home.js
 function HomePage() {
   return <h1>My Home Page</h1>;
 }
@@ -5123,9 +5123,15 @@ function HomePage() {
 export default HomePage;
 ````
 
-###
+### Adding a Second Route
+
+````
+//page
+````
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY1MzkzNDczLDQwOTY1MjE0OCwyODcxNT
+eyJoaXN0b3J5IjpbNjEwMjcwOTk1LDQwOTY1MjE0OCwyODcxNT
 g3ODIsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2Mzcs
 LTE3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NT
 QxMTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5
