@@ -5906,6 +5906,7 @@ Can generate actions to send data
 Need in the form that have the prop name
 Change form component to Form and add:
 ````
+import { Form } from 'react-router-dom';
 ````
 ````
 //app.js
@@ -5948,7 +5949,7 @@ export default NewEventPage;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcwOTIwMiw1NzAxMDA3MDYsMTk5MT
+eyJoaXN0b3J5IjpbLTg3NjgxNzY0OCw1NzAxMDA3MDYsMTk5MT
 I4MDU1NCwtNzgwNjU3OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3
 NCw0MTE2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMj
 M2MTQxODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5
