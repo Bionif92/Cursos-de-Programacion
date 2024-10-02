@@ -5807,7 +5807,7 @@ export async function loader() {
 
 ### Dynamic Routes & loader()s
 
-Intead of Params use a Loader to render the details from the backend a
+Intead of params use a Loader to render the details from the backend also using params
 ````
 //eventdetail.js
 import { useLoaderData, json } from 'react-router-dom';
@@ -5839,11 +5839,11 @@ export default EventDetailPage;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzE2NTYxOSwxNDUyODc1ODIyLC0xMj
-Q1NDQzMTc0LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1
-NzAsLTEyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLT
-E3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQx
-NDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4NT
-gsMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Miw0
-MDk2NTIxNDhdfQ==
+eyJoaXN0b3J5IjpbOTQ5OTEwNDI1LDE0NTI4NzU4MjIsLTEyND
+U0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3
+MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMT
+cyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0
+NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OC
+wyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkzNTc1MTUyLDQw
+OTY1MjE0OF19
 -->
