@@ -5373,12 +5373,41 @@ function MainNavigation() {
 
 export default MainNavigation;
 ````
+
+### Navigating Programmatically
+
+````
+//pages/home.js
+import { Link, useNavigate } from 'react-router-dom';
+
+function HomePage() {
+  const navigate = useNavigate();
+
+  function navigateHandler() {
+    navigate('/products');
+  }
+
+  return (
+    <>
+      <h1>My Home Page</h1>
+      <p>
+        Go to <Link to="/products">the list of products</Link>.
+      </p>
+      <p>
+        <button onClick={navigateHandler}>Navigate</button>
+      </p>
+    </>
+  );
+}
+
+export default HomePage;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4ODA5Nzc2MCw3MjA0NzI4NTgsMjEwMD
-QwOTEwNywtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Miw0MDk2NTIx
-NDgsMjg3MTU4NzgyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0xMj
-kyMTIyNjM3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2NywxNzU0OTA4
-NzU3LC01OTU0MTEyMTYsLTM5NDYyMjkwMSwtMTg0MDMxOTI2LC
-0xMjA3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIw
-NjIxMzI5XX0=
+eyJoaXN0b3J5IjpbLTEwMzM3MjIyNDQsNzIwNDcyODU4LDIxMD
+A0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUy
+MTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMT
+I5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkw
+ODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNi
+wtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQy
+MDYyMTMyOV19
 -->
