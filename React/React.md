@@ -5863,6 +5863,7 @@ Need the loader data in two places:
             ],
           }
 ````
+Change the loader with useRouteLoaderData:
 ````
 //eventdetail.js
 --import { useRouteLoaderData, json } from 'react-router-dom';
@@ -5894,12 +5895,16 @@ export async function loader({ request, params }) {
   }
 }
 ````
+
+### Planning Data Submission
+
+Send data to the backend
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODg2MjcyMywxOTkxMjgwNTU0LC03OD
-A2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUw
-MSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOT
-cyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEz
-NjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNC
-wtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3
-NTgwNDc5Nl19
+eyJoaXN0b3J5IjpbNTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MD
+Y1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAx
+LDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5Nz
+I3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2
+MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC
+0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1
+ODA0Nzk2XX0=
 -->
