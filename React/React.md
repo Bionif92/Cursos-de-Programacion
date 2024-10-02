@@ -5624,12 +5624,37 @@ We will see a better way in the next lectures
 ### Returning Responses in loader()s
 
 You can return any kind of data on the loader
+
+````
+import { useLoaderData } from 'react-router-dom';
+
+import EventsList from '../components/EventsList';
+
+function EventsPage() {
+  const data = useLoaderData();
+  --const events = data.events; // now you can extract the events here
+
+  return <EventsList events={events} />;
+}
+
+export default EventsPage;
+
+export async function loader() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // ...
+  } else {
+    --return response; // any kind of data can return
+  }
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMj
-M2MTQxODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5
-MjUxLDEwMjAxMzYzMyw2MTM1MTE1MjksLTE0MjQ0MTQ2NjcsLT
-EwMTM0OTE4MTQsLTEwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0
-MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMT
-Q4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5
-MjEyMjYzN119
+eyJoaXN0b3J5IjpbNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMD
+MyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQz
+NSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xND
+I0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3
+Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkzNTc1MT
+UyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0Njc1NDQyLDE5MzQ2
+NTE2NjddfQ==
 -->
