@@ -5487,13 +5487,13 @@ const router = createBrowserRouter([
 ````
 
 The `..` make you up to the root
-If you want to go up one path, need to p
+If you want to go up one path, need to put `relative='path'`
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mzg0MTg4LDEwMjAxMzYzMyw2MTM1MT
-E1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIy
-NDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLT
-EwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0
-NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Ni
-w3MTc4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2
-MjI5MDFdfQ==
+eyJoaXN0b3J5IjpbLTEyMzEzNTc5NzUsMTAyMDEzNjMzLDYxMz
+UxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcy
+MjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5Ni
+wtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3
+NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4Nz
+Q2LDcxNzgxNDk2NywxNzU0OTA4NzU3LC01OTU0MTEyMTYsLTM5
+NDYyMjkwMV19
 -->
