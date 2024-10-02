@@ -5729,8 +5729,42 @@ export async function loader() {
   }
 }
 ````
+On the error page:
+````
+--import { useRouteError } from 'react-router-dom';
+import MainNavigation from '../components/MainNavigation';
+
+import PageContent from '../components/PageContent';
+
+function ErrorPage() {
+  --const error = useRouteError();
+
+  let title = 'An error occurred!';
+  let message = 'Something went wrong!';
+
+  if (error.status === 500) {
+    message = JSON.parse(error.data).message;
+  }
+
+  if (error.status === 404) {
+    title = 'Not found!';
+    message = 'Could not find resource or page.';
+  }
+
+  return (
+    <>
+      <MainNavigation />
+      <PageContent title={title}>
+        <p>{message}</p>
+      </PageContent>
+    </>
+  );
+}
+
+export default ErrorPage;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMzc1OTI0NCw0MTE2MzA1MDEsNzgyMD
+eyJoaXN0b3J5IjpbLTY3ODQxMjg3Niw0MTE2MzA1MDEsNzgyMD
 c5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUz
 LC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MT
 M1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3
