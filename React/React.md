@@ -5303,9 +5303,23 @@ function ErrorPage() {
 export default ErrorPage;
 ````
 ````
+//App.js
+import ErrorPage from './pages/Error';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { path: '/', element: <HomePage /> },
+      { path: '/products', element: <ProductsPage /> },
+    ],
+  }
+]);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM0ODI0NjUwLDIxMDA0MDkxMDcsLTE4Nz
+eyJoaXN0b3J5IjpbNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4Nz
 U4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4
 Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMT
 c2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDEx
