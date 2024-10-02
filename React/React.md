@@ -5422,6 +5422,7 @@ const router = createBrowserRouter([
   }
 ]);
 ````
+Extracting the ID and show it in a paragraph
 ````
 //pages/productdetail.js
 import { useParams } from 'react-router-dom';
@@ -5507,11 +5508,11 @@ const router = createBrowserRouter([
 ]);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMz
-UxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcy
-MjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5Ni
-wtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3
-NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4Nz
-Q2LDcxNzgxNDk2NywxNzU0OTA4NzU3LC01OTU0MTEyMTYsLTM5
-NDYyMjkwMV19
+eyJoaXN0b3J5IjpbLTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMT
+AyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5
+MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNy
+wtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3
+MTU4NzgyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNj
+M3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2NywxNzU0OTA4NzU3LC01
+OTU0MTEyMTZdfQ==
 -->
