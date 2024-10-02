@@ -5593,12 +5593,16 @@ Put the loader as a function in the page you need it and export it to the app.js
 ### When Are loader() Functions Executed?
 
 Execute right when we start navigating to that page
+
+### Reflecting The Current Navigation State in the UI
+
+Give user a feedback that something 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOT
-M1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUy
-OSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcyMjI0NC
-w3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMTA5
-MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3NTQ0Mi
-wxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4NzQ2LDcx
-NzgxNDk2N119
+eyJoaXN0b3J5IjpbMTM3NDYzNjM5NiwtMTIzNjE0MTg0OCw5Nz
+I3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2
+MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC
+0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1
+ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3OD
+IsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3
+NjA3Mjg3NDZdfQ==
 -->
