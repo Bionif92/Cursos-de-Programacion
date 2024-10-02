@@ -5945,15 +5945,15 @@ export default NewEventPage;
     throw json({ message: 'Could not save event.' }, { status: 500 });
   }
 
-  return redirect('/events');
+  return redirect('/events'); // through to a different page hen submit
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMj
-gwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0
-LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMz
-YxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3Mjky
-NTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMT
-AxMzQ5MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQw
-OTEwN119
+eyJoaXN0b3J5IjpbLTYzMjA4MTYwOCw5OTIxNDY2NzIsNTcwMT
+AwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIs
+LTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMD
+MyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQz
+NSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xND
+I0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3
+Mjg1OF19
 -->
