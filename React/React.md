@@ -5987,7 +5987,7 @@ function EventItem({ event }) {
 
 export default EventItem;
 ````
-C
+Point to a new action
 ````
 //App.js
 {
@@ -6004,9 +6004,57 @@ C
             ],
           }
 ````
+Create the action
 ````
+import { useRouteLoaderData, json, redirect } from 'react-router-dom';
+
+import EventItem from '../components/EventItem';
+
+function EventDetailPage() {
+  const data = useRouteLoaderData('event-detail');
+
+  return <EventItem event={data.event} />;
+}
+
+export default EventDetailPage;
+
+export async function loader({ request, params }) {
+  const id = params.eventId;
+
+  const response = await fetch('http://localhost:8080/events/' + id);
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not fetch details for selected event.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    return response;
+  }
+}
+
+--export async function action({ params, request }) {
+  const eventId = params.eventId;
+  const response = await fetch('http://localhost:8080/events/' + eventId, {
+    method: request.method,
+  });
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not delete event.' },
+      {
+        status: 500,
+      }
+    );
+  }
+  return redirect('/events');
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NTQ0MzM1MCw5OTIxNDY2NzIsNTcwMT
+eyJoaXN0b3J5IjpbMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMT
 AwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIs
 LTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMD
 MyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQz
