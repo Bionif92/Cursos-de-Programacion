@@ -5846,8 +5846,10 @@ Adding loader to app.js
 ````
 
 ### The useRouteLoaderData() Hook & Accessing Data From Other Routes
+
+Need the loader data in two places
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzczNDY5NSwtNzgwNjU3OTYsMTQ1Mj
+eyJoaXN0b3J5IjpbMTgwNjQwMTM0MCwtNzgwNjU3OTYsMTQ1Mj
 g3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5NDc3
 LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUzLC0xMj
 kzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1
