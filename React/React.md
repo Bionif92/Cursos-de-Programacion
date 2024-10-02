@@ -5323,13 +5323,62 @@ const router = createBrowserRouter([
 
 The link css is an `a`
 ````
+// navigation css
+.list a:hover,
+.list a.active {
+  color: var(--color-primary-800);
+  text-decoration: underline;
+}
+````
+````
+//navigation.js
+import { NavLink } from 'react-router-dom';
+
+import classes from './MainNavigation.module.css';
+
+function MainNavigation() {
+  return (
+    <header className={classes.header}>
+      <nav>
+        <ul className={classes.list}>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+              // style={({ isActive }) => ({
+              //   textAlign: isActive ? 'center' : 'left',
+              // })}
+              end
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/products"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Products
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+export default MainNavigation;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2NjU1MDAyMyw3MjA0NzI4NTgsMjEwMD
-QwOTEwNywtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Miw0MDk2NTIx
-NDgsMjg3MTU4NzgyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0xMj
-kyMTIyNjM3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2NywxNzU0OTA4
-NzU3LC01OTU0MTEyMTYsLTM5NDYyMjkwMSwtMTg0MDMxOTI2LC
-0xMjA3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIw
-NjIxMzI5XX0=
+eyJoaXN0b3J5IjpbLTE5NjM5MjUxOTIsNzIwNDcyODU4LDIxMD
+A0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUy
+MTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMT
+I5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkw
+ODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNi
+wtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQy
+MDYyMTMyOV19
 -->
