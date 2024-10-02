@@ -5847,13 +5847,28 @@ Adding loader to app.js
 
 ### The useRouteLoaderData() Hook & Accessing Data From Other Routes
 
-Need the loader data in two places
+Need the loader data in two places:
+
+````
+{
+            path: ':eventId',
+            id: 'event-detail',
+            loader: eventDetailLoader, 
+            children: [
+              {
+                index: true,
+                element: <EventDetailPage />,
+              },
+              { path: 'edit', element: <EditEventPage /> },
+            ],
+          }
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNjQwMTM0MCwtNzgwNjU3OTYsMTQ1Mj
-g3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5NDc3
-LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUzLC0xMj
-kzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1
-MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIyND
-QsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEw
-OTM1NzUxNTJdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzc1MjcyNzcsLTc4MDY1Nzk2LDE0NT
+I4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3
+NywtMTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMT
+I5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTEx
+NTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMj
+Q0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0x
+MDkzNTc1MTUyXX0=
 -->
