@@ -5499,7 +5499,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     errorElement: <ErrorPage />,
     children: [
-      { index: true, element: <HomePage /> }, // become index ro
+      { index: true, element: <HomePage /> }, // become index route, the default
       { path: 'products', element: <ProductsPage /> },
       { path: 'products/:productId', element: <ProductDetailPage /> }
     ],
@@ -5507,11 +5507,11 @@ const router = createBrowserRouter([
 ]);
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNTk4OTM0OSwxMDIwMTM2MzMsNjEzNT
-ExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIy
-MjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC
-0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0Njc1
-NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3Mjg3ND
-YsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NTQxMTIxNiwtMzk0
-NjIyOTAxXX0=
+eyJoaXN0b3J5IjpbLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMz
+UxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcy
+MjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5Ni
+wtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3
+NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4Nz
+Q2LDcxNzgxNDk2NywxNzU0OTA4NzU3LC01OTU0MTEyMTYsLTM5
+NDYyMjkwMV19
 -->
