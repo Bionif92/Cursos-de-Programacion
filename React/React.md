@@ -5233,12 +5233,38 @@ function MainNavigation() {
 
 export default MainNavigation;
 ````
+````
+//App.js
+import {
+  createBrowserRouter,RouterProvider,} from 'react-router-dom';
+
+import HomePage from './pages/Home';
+import ProductsPage from './pages/Products';
+import RootLayout from './pages/Root';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { path: '/', element: <HomePage /> },
+      { path: '/products', element: <ProductsPage /> },
+    ],
+  }
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
+
+export default App;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzM3NTg4NzcsLTEwOTM1NzUxNTIsND
-A5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2
-NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMT
-c1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAz
-MTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MD
-IsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0y
-MTM1MDg1MzY1XX0=
+eyJoaXN0b3J5IjpbMjQ1OTQzNywtMTA5MzU3NTE1Miw0MDk2NT
+IxNDgsMjg3MTU4NzgyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0x
+MjkyMTIyNjM3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2NywxNzU0OT
+A4NzU3LC01OTU0MTEyMTYsLTM5NDYyMjkwMSwtMTg0MDMxOTI2
+LC0xMjA3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtND
+IwNjIxMzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIxMzUw
+ODUzNjVdfQ==
 -->
