@@ -5739,8 +5739,8 @@ import PageContent from '../components/PageContent';
 function ErrorPage() {
   --const error = useRouteError();
 
-  let title = 'An error occurred!';
-  let message = 'Something went wrong!';
+  --let title = 'An error occurred!';
+  --let message = 'Something went wrong!';
 
   --if (error.status === 500) {
     message = JSON.parse(error.data).message;
@@ -5764,11 +5764,11 @@ function ErrorPage() {
 export default ErrorPage;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMjY2MTQ3OCw0MTE2MzA1MDEsNzgyMD
-c5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUz
-LC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MT
-M1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3
-MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OT
-YsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2
-NzU0NDJdfQ==
+eyJoaXN0b3J5IjpbLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4Mj
+A3OTQ3NywtMTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1
+MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNj
+EzNTExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMz
+NzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nz
+k2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0
+Njc1NDQyXX0=
 -->
