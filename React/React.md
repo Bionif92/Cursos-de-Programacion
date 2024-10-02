@@ -5599,18 +5599,18 @@ Execute right when we start navigating to that page
 Give user a feedback that something is trying to render?
 
 ````
-import { Outlet, useNavigation } from 'react-router-dom';
+--import { Outlet, useNavigation } from 'react-router-dom';
 
 import MainNavigation from '../components/MainNavigation';
 
-function RootLayout() {
-  / const navigation = useNavigation();
+--function RootLayout() {
+   const navigation = useNavigation();
 
   return (
     <>
       <MainNavigation />
       <main>
-        {/* {navigation.state === 'loading' && <p>Loading...</p>} */}
+        --{navigation.state === 'loading' && <p>Loading...</p>}
         <Outlet />
       </main>
     </>
@@ -5619,12 +5619,15 @@ function RootLayout() {
 
 export default RootLayout;
 ````
+We will see a better way in the next lectures
+
+###
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkwMDI4OTU1LC0xMjM2MTQxODQ4LDk3Mj
-czMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYz
-Myw2MTM1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLT
-EwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4
-MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Mi
-w4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2
-MDcyODc0Nl19
+eyJoaXN0b3J5IjpbMjA2NDc0ODE3NCwtMTIzNjE0MTg0OCw5Nz
+I3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2
+MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC
+0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1
+ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3OD
+IsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3
+NjA3Mjg3NDZdfQ==
 -->
