@@ -5927,7 +5927,7 @@ export default NewEventPage;
   const data = await request.formData();
 
   const eventData = {
-    title: data.get('title'), /
+    title: data.get('title'), // with the name in the form
     image: data.get('image'),
     date: data.get('date'),
     description: data.get('description'),
@@ -5949,11 +5949,11 @@ export default NewEventPage;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc0OTQ0MzEsNTcwMTAwNzA2LDE5OT
-EyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMx
-NzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMT
-IzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcy
-OTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC
-0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAw
-NDA5MTA3XX0=
+eyJoaXN0b3J5IjpbOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMj
+gwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0
+LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMz
+YxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3Mjky
+NTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMT
+AxMzQ5MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQw
+OTEwN119
 -->
