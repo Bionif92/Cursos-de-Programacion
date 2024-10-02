@@ -5126,12 +5126,47 @@ export default HomePage;
 ### Adding a Second Route
 
 ````
-//page
+//pages/Product.js
+function ProductsPage() {
+  return <h1>The Products Page</h1>;
+}
+
+export default ProductsPage;
 ````
 ````
+//App.js
+import {
+  createBrowserRouter,
+  // createRoutesFromElements,
+  RouterProvider,
+  // Route,
+} from 'react-router-dom';
+
+import HomePage from './pages/Home';
+import ProductsPage from './pages/Products';
+
+// const routeDefinitions = createRoutesFromElements(
+//   <Route>
+//     <Route path="/" element={<HomePage />} />
+//     <Route path="/products" element={<ProductsPage />} />
+//   </Route>
+// );
+
+const router = createBrowserRouter([
+  { path: '/', element: <HomePage /> },
+  { path: '/products', element: <ProductsPage /> },
+]);
+
+// const router = createBrowserRouter(routeDefinitions);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
+
+export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMjcwOTk1LDQwOTY1MjE0OCwyODcxNT
+eyJoaXN0b3J5IjpbMjA4MjA5NjkxLDQwOTY1MjE0OCwyODcxNT
 g3ODIsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2Mzcs
 LTE3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NT
 QxMTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5
