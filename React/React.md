@@ -5597,12 +5597,34 @@ Execute right when we start navigating to that page
 ### Reflecting The Current Navigation State in the UI
 
 Give user a feedback that something is trying to render?
+
+````
+import { Outlet, useNavigation } from 'react-router-dom';
+
+import MainNavigation from '../components/MainNavigation';
+
+function RootLayout() {
+  / const navigation = useNavigation();
+
+  return (
+    <>
+      <MainNavigation />
+      <main>
+        {/* {navigation.state === 'loading' && <p>Loading...</p>} */}
+        <Outlet />
+      </main>
+    </>
+  );
+}
+
+export default RootLayout;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcyNzQxMDcsLTEyMzYxNDE4NDgsOT
-cyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEz
-NjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNC
-wtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3
-NTgwNDc5NiwtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4Nz
-gyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0x
-NzYwNzI4NzQ2XX0=
+eyJoaXN0b3J5IjpbOTkwMDI4OTU1LC0xMjM2MTQxODQ4LDk3Mj
+czMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYz
+Myw2MTM1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLT
+EwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4
+MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Mi
+w4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2
+MDcyODc0Nl19
 -->
