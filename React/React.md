@@ -5469,7 +5469,7 @@ export default ProductsPage;
 
 ### Understanding Relative & Absolute Paths
 
-Absolute path is in the previo
+Absolute path is in the previous exercises
 Relative Path:
 ````
 const router = createBrowserRouter([
@@ -5489,8 +5489,25 @@ const router = createBrowserRouter([
 
 The `..` make you up to the root
 If you want to go up one path, need to put `relative='path'`
+
+### Working with Index Routes
+
+````
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { index: true, element: <HomePage /> }, // become index ro
+      { path: 'products', element: <ProductsPage /> },
+      { path: 'products/:productId', element: <ProductDetailPage /> }
+    ],
+  }
+]);
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyODk5Mzk0NiwxMDIwMTM2MzMsNjEzNT
+eyJoaXN0b3J5IjpbMTMxNTk4OTM0OSwxMDIwMTM2MzMsNjEzNT
 ExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIy
 MjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC
 0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0Njc1
