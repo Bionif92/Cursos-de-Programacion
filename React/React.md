@@ -5154,7 +5154,7 @@ export default App;
 
 ### Exploring an Alternative Way of Defining Routes
 
-Not so used, more i
+Not so used, more in the past
 ````
 import {
   createBrowserRouter,
@@ -5185,10 +5185,28 @@ function App() {
 }
 
 export default App;
+````
+
+### Navigating between Pages with Links
 
 ````
+import { Link } from 'react-router-dom';
+
+function HomePage() {
+  return (
+    <>
+      <h1>My Home Page</h1>
+      <p>
+        Go to <Link to="/products">the list of products</Link>.
+      </p>
+    </>
+  );
+}
+
+export default HomePage;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDkxNDA2NjYsNDA5NjUyMTQ4LDI4Nz
+eyJoaXN0b3J5IjpbLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4Nz
 E1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYz
 NywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNT
 k1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5
