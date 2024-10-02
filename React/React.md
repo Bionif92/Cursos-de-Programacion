@@ -5096,12 +5096,29 @@ npm install react-router-dom
 ````
 
 ### Defining Routes
+
+````
+//App.js
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
+import HomePage from './pages/Home';
+
+const router = createBrowserRouter([
+  { path: '/', element: <HomePage /> },
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
+
+export default App;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTY3OTgzNywyODcxNTg3ODIsODE0Nj
-c1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3Mjg3
-NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NTQxMTIxNiwtMz
-k0NjIyOTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5NzM5
-MzI1NDEsNjYyNjMwNjAyLC00MjA2MjEzMjksLTE2NjkwODkzMj
-IsMTE0MjQ5Njg3OCwtMjEzNTA4NTM2NSwtMjEwNjkyOTYyOSwt
-NTI1OTgyNjE1XX0=
+eyJoaXN0b3J5IjpbNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2Nz
+U0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2MDcyODc0
+Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDExMjE2LC0zOT
+Q2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwtMTk3Mzkz
+MjU0MSw2NjI2MzA2MDIsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMi
+wxMTQyNDk2ODc4LC0yMTM1MDg1MzY1LC0yMTA2OTI5NjI5LC01
+MjU5ODI2MTVdfQ==
 -->
