@@ -5853,7 +5853,7 @@ Need the loader data in two places:
 {
             path: ':eventId',
             id: 'event-detail',
-            loader: eventDetailLoader, 
+            loader: eventDetailLoader, // the loader for the two children
             children: [
               {
                 index: true,
@@ -5864,11 +5864,11 @@ Need the loader data in two places:
           }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzc1MjcyNzcsLTc4MDY1Nzk2LDE0NT
-I4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3
-NywtMTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMT
-I5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTEx
-NTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMj
-Q0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0x
-MDkzNTc1MTUyXX0=
+eyJoaXN0b3J5IjpbMTk5MTI4MDU1NCwtNzgwNjU3OTYsMTQ1Mj
+g3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5NDc3
+LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUzLC0xMj
+kzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1
+MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIyND
+QsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEw
+OTM1NzUxNTJdfQ==
 -->
