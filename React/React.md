@@ -5332,7 +5332,7 @@ The link css is an `a`
 ````
 ````
 //navigation.js
-import { NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom'; // changed
 
 import classes from './MainNavigation.module.css';
 
@@ -5374,7 +5374,7 @@ function MainNavigation() {
 export default MainNavigation;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM5MjUxOTIsNzIwNDcyODU4LDIxMD
+eyJoaXN0b3J5IjpbLTExNTQ3MTU2ODAsNzIwNDcyODU4LDIxMD
 A0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUy
 MTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMT
 I5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkw
