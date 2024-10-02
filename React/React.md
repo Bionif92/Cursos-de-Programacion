@@ -5695,8 +5695,42 @@ You can use both alternatives to handle the error
 The `errorElement`in the app.js will display any error you have in the route
 
 ### Extracting Error Data & Throwing Responses
+
+Need to change the error to a response to show it
+
+````
+import { useLoaderData } from 'react-router-dom';
+
+import EventsList from '../components/EventsList';
+
+function EventsPage() {
+  const data = useLoaderData();
+
+  // if (data.isError) {
+  //   return <p>{data.message}</p>;
+  // }
+  const events = data.events;
+
+  return <EventsList events={events} />;
+}
+
+export default EventsPage;
+
+export async function loader() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // return { isError: true, message: 'Could not fetch events.' };
+    --throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
+      status: 500,
+    });
+  } else {
+    return response;
+  }
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDY5NzgwNSw0MTE2MzA1MDEsNzgyMD
+eyJoaXN0b3J5IjpbMTEzMzc1OTI0NCw0MTE2MzA1MDEsNzgyMD
 c5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUz
 LC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MT
 M1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3
