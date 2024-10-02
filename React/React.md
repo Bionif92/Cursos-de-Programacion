@@ -5530,7 +5530,7 @@ const router = createBrowserRouter([
     element: <RootLayout />,
     children: [
       { index: true, element: <HomePage /> },
-      {
+     -- {
         path: 'events',
         element: <EventsRootLayout />,
         children: [
@@ -5564,11 +5564,11 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMzg4OTY0LDk3MjczMjUzLC0xMjkzNT
-gxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1Mjks
-LTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIyNDQsNz
-IwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1
-NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMT
-kzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4
-MTQ5NjddfQ==
+eyJoaXN0b3J5IjpbMTgwNjI1NjI2MCw5NzI3MzI1MywtMTI5Mz
+U4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5
+LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LD
+cyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkz
+NTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0Njc1NDQyLD
+E5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3Mjg3NDYsNzE3
+ODE0OTY3XX0=
 -->
