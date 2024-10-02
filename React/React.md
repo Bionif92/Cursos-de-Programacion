@@ -5655,12 +5655,47 @@ export async function loader() {
 The code of the loader is executed in the browser
 Can use browser API like localstorage
 Cannot user react hooks
+
+### Error Handling with Custom Errors
+
+````
+import { useLoaderData } from 'react-router-dom';
+
+import EventsList from '../components/EventsList';
+
+function EventsPage() {
+  const data = useLoaderData();
+
+  // if (data.isError) {
+  //   return <p>{data.message}</p>;
+  // }
+  const events = data.events;
+
+  return <EventsList events={events} />;
+}
+
+export default EventsPage;
+
+export async function loader() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // return { isError: true, message: 'Could not fetch events.' };
+    throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
+      status: 500,
+    });
+  } else {
+    return response;
+  }
+}
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MDE2Mjk0LDQxMTYzMDUwMSw3ODIwNz
-k0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOTcyNzMyNTMs
-LTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMz
-UxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcy
-MjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3NTgwNDc5Ni
-wtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3
-NTQ0Ml19
+eyJoaXN0b3J5IjpbMjAzMzg5NjQ2MSw0MTE2MzA1MDEsNzgyMD
+c5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUz
+LC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MT
+M1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3
+MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OT
+YsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2
+NzU0NDJdfQ==
 -->
