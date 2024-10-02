@@ -5513,13 +5513,62 @@ const router = createBrowserRouter([
 We want the fetching data before the component render
 
 ````
+//App.js
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+
+import EditEventPage from './pages/EditEvent';
+import EventDetailPage from './pages/EventDetail';
+import EventsPage from './pages/Events';
+import EventsRootLayout from './pages/EventsRoot';
+import HomePage from './pages/Home';
+import NewEventPage from './pages/NewEvent';
+import RootLayout from './pages/Root';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    children: [
+      { index: true, element: <HomePage /> },
+      {
+        path: 'events',
+        element: <EventsRootLayout />,
+        children: [
+          {
+            index: true,
+            element: <EventsPage />,
+            loader: async () => {
+              const response = await fetch('http://localhost:8080/events');
+
+              if (!response.ok) {
+                // ...
+              } else {
+                const resData = await response.json();
+                return resData.events;
+              }
+            },
+          },
+          { path: ':eventId', element: <EventDetailPage /> },
+          { path: 'new', element: <NewEventPage /> },
+          { path: ':eventId/edit', element: <EditEventPage /> },
+        ],
+      },
+    ],
+  },
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
+}
+
+export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0ODY0MDI4OSw5NzI3MzI1MywtMTI5Mz
-U4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5
-LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LD
-cyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkz
-NTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsODE0Njc1NDQyLD
-E5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3Mjg3NDYsNzE3
-ODE0OTY3XX0=
+eyJoaXN0b3J5IjpbNjAyMzg4OTY0LDk3MjczMjUzLC0xMjkzNT
+gxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1Mjks
+LTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIyNDQsNz
+IwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1
+NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMT
+kzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4
+MTQ5NjddfQ==
 -->
