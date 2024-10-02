@@ -5902,8 +5902,15 @@ Send data to the backend
 Can generate actions to send data
 
 ### Working with action() Functions
+
+````
+//app.js
+ { path: 'new', element: <NewEventPage />, action: newEventAction }
+````
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODQ4NjIwMzMsNTcwMTAwNzA2LDE5OT
+eyJoaXN0b3J5IjpbLTEwNDY4OTk0NjYsNTcwMTAwNzA2LDE5OT
 EyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMx
 NzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMT
 IzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcy
