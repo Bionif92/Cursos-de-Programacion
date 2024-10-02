@@ -5406,13 +5406,32 @@ export default HomePage;
 ### Defining & Using Dynamic Routes
 
 ````
+//App.js
+import ProductDetailPage from './pages/ProductDetail';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    children: [
+      { path: '/', element: <HomePage /> },
+      { path: '/products', element: <ProductsPage /> },
+      { path: '/products/:productId', element: <ProductDetailPage /> } // is dinamyc with the :
+    ],
+  }
+]);
+````
+````
+````
+````
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM0OTE4MTQsLTEwMzM3MjIyNDQsNz
-IwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1
-NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMT
-kzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4
-MTQ5NjcsMTc1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MD
-EsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2
-NjI2MzA2MDJdfQ==
+eyJoaXN0b3J5IjpbLTE2Njg3MTM5NTEsLTEwMTM0OTE4MTQsLT
+EwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4
+MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Mi
+w4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2
+MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDExMj
+E2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwt
+MTk3MzkzMjU0MV19
 -->
