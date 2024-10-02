@@ -5094,8 +5094,10 @@ Visible content is changed without fetching a new HTML file
 //terminal
 npm install react-router-dom
 ````
+
+### Defining Routes
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDg2MjI0NiwyODcxNTg3ODIsODE0Nj
+eyJoaXN0b3J5IjpbMTQ3MTY3OTgzNywyODcxNTg3ODIsODE0Nj
 c1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3Mjg3
 NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NTQxMTIxNiwtMz
 k0NjIyOTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5NzM5
