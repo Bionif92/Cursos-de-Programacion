@@ -5283,14 +5283,33 @@ export default RootLayout;
 
 ### Showing Error Pages with errorElement
 
+Prepare a default error page
+````
+//pages/error.js
+import MainNavigation from '../components/MainNavigation';
+
+function ErrorPage() {
+  return (
+    <>
+      <MainNavigation />
+      <main>
+        <h1>An error occurred!</h1>
+        <p>Could not find this page!</p>
+      </main>
+    </>
+  );
+}
+
+export default ErrorPage;
+````
 ````
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExODkzODIyMSwyMTAwNDA5MTA3LC0xOD
-c1ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3
-ODIsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLT
-E3NjA3Mjg3NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NTQx
-MTIxNiwtMzk0NjIyOTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5MD
-EsLTE5NzM5MzI1NDEsNjYyNjMwNjAyLC00MjA2MjEzMjksLTE2
-NjkwODkzMjJdfQ==
+eyJoaXN0b3J5IjpbNzM0ODI0NjUwLDIxMDA0MDkxMDcsLTE4Nz
+U4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4
+Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMT
+c2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDEx
+MjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMS
+wtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQyMDYyMTMyOSwtMTY2
+OTA4OTMyMl19
 -->
