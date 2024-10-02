@@ -5908,13 +5908,47 @@ Can generate actions to send data
  { path: 'new', element: <NewEventPage />, action: newEventAction }
 ````
 ````
+import { json, redirect } from 'react-router-dom';
+
+import EventForm from '../components/EventForm';
+
+function NewEventPage() {
+  return <EventForm />;
+}
+
+export default NewEventPage;
+
+--export async function action({ request, params }) {
+  const data = await request.formData();
+
+  const eventData = {
+    title: data.get('title'),
+    image: data.get('image'),
+    date: data.get('date'),
+    description: data.get('description'),
+  };
+
+  const response = await fetch('http://localhost:8080/events', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(eventData),
+  });
+
+  if (!response.ok) {
+    throw json({ message: 'Could not save event.' }, { status: 500 });
+  }
+
+  return redirect('/events');
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY4OTk0NjYsNTcwMTAwNzA2LDE5OT
-EyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMx
-NzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMT
-IzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcy
-OTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC
-0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAw
-NDA5MTA3XX0=
+eyJoaXN0b3J5IjpbLTQ5OTA3OTEzNiw1NzAxMDA3MDYsMTk5MT
+I4MDU1NCwtNzgwNjU3OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3
+NCw0MTE2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMj
+M2MTQxODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5
+MjUxLDEwMjAxMzYzMyw2MTM1MTE1MjksLTE0MjQ0MTQ2NjcsLT
+EwMTM0OTE4MTQsLTEwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0
+MDkxMDddfQ==
 -->
