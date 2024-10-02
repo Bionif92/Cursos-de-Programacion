@@ -5209,13 +5209,36 @@ export default HomePage;
 ### Layouts & Nested Routes
 
 ````
+//component/navigation.js
+import { Link } from 'react-router-dom';
+
+import classes from './MainNavigation.module.css';
+
+function MainNavigation() {
+  return (
+    <header className={classes.header}>
+      <nav>
+        <ul className={classes.list}>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/products">Products</Link>
+          </li>
+        </ul>
+      </nav>
+    </header>
+  );
+}
+
+export default MainNavigation;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTYxMTk4MSwtMTA5MzU3NTE1Miw0MD
-k2NTIxNDgsMjg3MTU4NzgyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3
-LC0xMjkyMTIyNjM3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2NywxNz
-U0OTA4NzU3LC01OTU0MTEyMTYsLTM5NDYyMjkwMSwtMTg0MDMx
-OTI2LC0xMjA3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMi
-wtNDIwNjIxMzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIx
-MzUwODUzNjVdfQ==
+eyJoaXN0b3J5IjpbLTIwNzM3NTg4NzcsLTEwOTM1NzUxNTIsND
+A5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2
+NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMT
+c1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAz
+MTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MD
+IsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0y
+MTM1MDg1MzY1XX0=
 -->
