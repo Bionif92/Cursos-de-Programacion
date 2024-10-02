@@ -5955,6 +5955,7 @@ In the Form you can point to other action including the prop `action='/any-other
 
 To delete, confirm if you want to delete:
 ````
+//eventitem.js
 import { Link, useSubmit } from 'react-router-dom';
 
 import classes from './EventItem.module.css';
@@ -5986,8 +5987,26 @@ function EventItem({ event }) {
 
 export default EventItem;
 ````
+C
+````
+//App.js
+{
+            path: ':eventId',
+            id: 'event-detail',
+            loader: eventDetailLoader,
+            children: [
+              {
+                index: true,
+                element: <EventDetailPage />,
+                action: deleteEventAction,
+              },
+              { path: 'edit', element: <EditEventPage /> },
+            ],
+          }
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MTU5MTE4Nyw5OTIxNDY2NzIsNTcwMT
+eyJoaXN0b3J5IjpbMTc5NTQ0MzM1MCw5OTIxNDY2NzIsNTcwMT
 AwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIs
 LTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMD
 MyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQz
