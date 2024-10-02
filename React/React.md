@@ -5104,7 +5104,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import HomePage from './pages/Home';
 
 const router = createBrowserRouter([
-  { path: '/', element: <HomePage /> },
+  { path: '/', element: <HomePage /> }, // route obhect
 ]);
 
 function App() {
@@ -5123,11 +5123,11 @@ function HomePage() {
 export default HomePage;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODg3MTk4MCw0MDk2NTIxNDgsMjg3MT
-U4NzgyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3
-LC0xNzYwNzI4NzQ2LDcxNzgxNDk2NywxNzU0OTA4NzU3LC01OT
-U0MTEyMTYsLTM5NDYyMjkwMSwtMTg0MDMxOTI2LC0xMjA3ODk0
-OTAxLC0xOTczOTMyNTQxLDY2MjYzMDYwMiwtNDIwNjIxMzI5LC
-0xNjY5MDg5MzIyLDExNDI0OTY4NzgsLTIxMzUwODUzNjUsLTIx
-MDY5Mjk2MjldfQ==
+eyJoaXN0b3J5IjpbLTIxMjE2NzMwMDQsNDA5NjUyMTQ4LDI4Nz
+E1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYz
+NywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNT
+k1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5
+NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MDIsLTQyMDYyMTMyOS
+wtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0yMTM1MDg1MzY1LC0y
+MTA2OTI5NjI5XX0=
 -->
