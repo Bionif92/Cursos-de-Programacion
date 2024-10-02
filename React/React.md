@@ -5766,6 +5766,7 @@ export default ErrorPage;
 
 ### The json() Utility Function
 
+Other way easier to write the error
 ````
 --import { useLoaderData, json } from 'react-router-dom';
 
@@ -5792,7 +5793,7 @@ export async function loader() {
     // throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
     //   status: 500,
     // });
-    -throw json(
+    --throw json(
       { message: 'Could not fetch events.' },
       {
         status: 500,
@@ -5804,7 +5805,7 @@ export async function loader() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTU4Mzc5MiwtMTI0NTQ0MzE3NCw0MT
+eyJoaXN0b3J5IjpbMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MT
 E2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQx
 ODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLD
 EwMjAxMzYzMyw2MTM1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0
