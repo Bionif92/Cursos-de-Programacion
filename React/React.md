@@ -5596,13 +5596,13 @@ Execute right when we start navigating to that page
 
 ### Reflecting The Current Navigation State in the UI
 
-Give user a feedback that something 
+Give user a feedback that something is trying to render?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NDYzNjM5NiwtMTIzNjE0MTg0OCw5Nz
-I3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2
-MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC
-0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1
-ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3OD
-IsODE0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3
-NjA3Mjg3NDZdfQ==
+eyJoaXN0b3J5IjpbLTE2MzcyNzQxMDcsLTEyMzYxNDE4NDgsOT
+cyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEz
+NjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNC
+wtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3
+NTgwNDc5NiwtMTA5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4Nz
+gyLDgxNDY3NTQ0MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0x
+NzYwNzI4NzQ2XX0=
 -->
