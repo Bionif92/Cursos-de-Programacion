@@ -5838,8 +5838,14 @@ export default EventDetailPage;
   }
 }
 ````
+Adding loader to app.js
+````
+ path: ':eventId',
+ element: <EventDetailPage />,
+ loader: eventDetailLoader,
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ5OTEwNDI1LDE0NTI4NzU4MjIsLTEyND
+eyJoaXN0b3J5IjpbLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyND
 U0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3
 MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMT
 cyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0
