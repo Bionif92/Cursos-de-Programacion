@@ -5863,12 +5863,43 @@ Need the loader data in two places:
             ],
           }
 ````
+````
+//eventdetail.js
+--import { useRouteLoaderData, json } from 'react-router-dom';
+
+import EventItem from '../components/EventItem';
+
+function EventDetailPage() {
+  --const data = useRouteLoaderData('event-detail');
+
+  return <EventItem event={data.event} />;
+}
+
+export default EventDetailPage;
+
+export async function loader({ request, params }) {
+  const id = params.eventId;
+
+  const response = await fetch('http://localhost:8080/events/' + id);
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not fetch details for selected event.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    return response;
+  }
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MTI4MDU1NCwtNzgwNjU3OTYsMTQ1Mj
-g3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5NDc3
-LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUzLC0xMj
-kzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1
-MjksLTE0MjQ0MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIyND
-QsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEw
-OTM1NzUxNTJdfQ==
+eyJoaXN0b3J5IjpbMTExODg2MjcyMywxOTkxMjgwNTU0LC03OD
+A2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUw
+MSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOT
+cyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEz
+NjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNC
+wtMTAzMzcyMjI0NCw3MjA0NzI4NTgsMjEwMDQwOTEwNywtMTg3
+NTgwNDc5Nl19
 -->
