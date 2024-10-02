@@ -5423,15 +5423,30 @@ const router = createBrowserRouter([
 ]);
 ````
 ````
+//pages/productdetail.js
+import { useParams } from 'react-router-dom';
+
+function ProductDetailPage() {
+  const params = useParams();
+
+  return (
+    <>
+      <h1>Product Details!</h1>
+      <p>{params.productId}</p>
+    </>
+  );
+}
+
+export default ProductDetailPage;
 ````
 ````
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg3MTM5NTEsLTEwMTM0OTE4MTQsLT
-EwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMDcsLTE4NzU4
-MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4NzE1ODc4Mi
-w4MTQ2NzU0NDIsMTkzNDY1MTY2NywtMTI5MjEyMjYzNywtMTc2
-MDcyODc0Niw3MTc4MTQ5NjcsMTc1NDkwODc1NywtNTk1NDExMj
-E2LC0zOTQ2MjI5MDEsLTE4NDAzMTkyNiwtMTIwNzg5NDkwMSwt
-MTk3MzkzMjU0MV19
+eyJoaXN0b3J5IjpbODU4NzYwMTUxLC0xMDEzNDkxODE0LC0xMD
+MzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0
+Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwyODcxNTg3ODIsOD
+E0Njc1NDQyLDE5MzQ2NTE2NjcsLTEyOTIxMjI2MzcsLTE3NjA3
+Mjg3NDYsNzE3ODE0OTY3LDE3NTQ5MDg3NTcsLTU5NTQxMTIxNi
+wtMzk0NjIyOTAxLC0xODQwMzE5MjYsLTEyMDc4OTQ5MDEsLTE5
+NzM5MzI1NDFdfQ==
 -->
