@@ -5208,6 +5208,7 @@ export default HomePage;
 
 ### Layouts & Nested Routes
 
+Outlet is the render of the children
 ````
 //component/navigation.js
 import { Link } from 'react-router-dom';
@@ -5280,11 +5281,11 @@ function RootLayout() {
 export default RootLayout;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsND
-A5NjUyMTQ4LDI4NzE1ODc4Miw4MTQ2NzU0NDIsMTkzNDY1MTY2
-NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5NjcsMT
-c1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLTE4NDAz
-MTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2MzA2MD
-IsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2ODc4LC0y
-MTM1MDg1MzY1XX0=
+eyJoaXN0b3J5IjpbMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMT
+A5MzU3NTE1Miw0MDk2NTIxNDgsMjg3MTU4NzgyLDgxNDY3NTQ0
+MiwxOTM0NjUxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4NzQ2LD
+cxNzgxNDk2NywxNzU0OTA4NzU3LC01OTU0MTEyMTYsLTM5NDYy
+MjkwMSwtMTg0MDMxOTI2LC0xMjA3ODk0OTAxLC0xOTczOTMyNT
+QxLDY2MjYzMDYwMiwtNDIwNjIxMzI5LC0xNjY5MDg5MzIyLDEx
+NDI0OTY4NzhdfQ==
 -->
