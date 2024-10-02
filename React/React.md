@@ -5806,12 +5806,44 @@ export async function loader() {
 ````
 
 ### Dynamic Routes & loader()s
+
+Intead of Params use a Loader to render the details
+````
+//eventdetail.js
+import { useLoaderData, json } from 'react-router-dom';
+
+import EventItem from '../components/EventItem';
+
+function EventDetailPage() {
+  const data = useLoaderData();
+
+  return (
+    <EventItem event={data.event} />
+  );
+}
+
+export default EventDetailPage;
+
+export async function loader({request, params}) {
+  const id = params.eventId;
+
+  const response = await fetch('http://localhost:8080/events/' + id);
+
+  if (!response.ok) {
+    throw json({message: 'Could not fetch details for selected event.'}, {
+      status: 500
+    })
+  } else {
+    return response;
+  }
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODUwNDY3LDE0NTI4NzU4MjIsLTEyND
-U0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3
-MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMT
-cyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0
-NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OC
-wyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkzNTc1MTUyLDQw
-OTY1MjE0OF19
+eyJoaXN0b3J5IjpbLTMxNTA1OTIyOSwxNDUyODc1ODIyLC0xMj
+Q1NDQzMTc0LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1
+NzAsLTEyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLT
+E3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQx
+NDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4NT
+gsMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Miw0
+MDk2NTIxNDhdfQ==
 -->
