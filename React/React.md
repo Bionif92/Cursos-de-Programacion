@@ -5824,7 +5824,7 @@ function EventDetailPage() {
 
 export default EventDetailPage;
 
-export async function loader({request, params}) {
+--export async function loader({request, params}) {
   const id = params.eventId;
 
   const response = await fetch('http://localhost:8080/events/' + id);
@@ -5839,11 +5839,11 @@ export async function loader({request, params}) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTA1OTIyOSwxNDUyODc1ODIyLC0xMj
-Q1NDQzMTc0LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1
-NzAsLTEyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLT
-E3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQx
-NDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcyMjI0NCw3MjA0NzI4NT
-gsMjEwMDQwOTEwNywtMTg3NTgwNDc5NiwtMTA5MzU3NTE1Miw0
-MDk2NTIxNDhdfQ==
+eyJoaXN0b3J5IjpbLTE2NDMzMTIzMTcsMTQ1Mjg3NTgyMiwtMT
+I0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4
+NTcwLC0xMjM2MTQxODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC
+0xNzI5NzI5MjUxLDEwMjAxMzYzMyw2MTM1MTE1MjksLTE0MjQ0
+MTQ2NjcsLTEwMTM0OTE4MTQsLTEwMzM3MjIyNDQsNzIwNDcyOD
+U4LDIxMDA0MDkxMDcsLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIs
+NDA5NjUyMTQ4XX0=
 -->
