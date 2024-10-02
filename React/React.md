@@ -5652,9 +5652,11 @@ export async function loader() {
 
 ### Which Kind Of Code Goes Into loader()s?
 
-The code 
+The code of the loader is executed in the browser
+Can use browser API like localstorage
+Cannot user react hooks
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzNjk2MDEzLDQxMTYzMDUwMSw3ODIwNz
+eyJoaXN0b3J5IjpbLTQ4MDE2Mjk0LDQxMTYzMDUwMSw3ODIwNz
 k0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOTcyNzMyNTMs
 LTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEzNjMzLDYxMz
 UxMTUyOSwtMTQyNDQxNDY2NywtMTAxMzQ5MTgxNCwtMTAzMzcy
