@@ -5588,9 +5588,9 @@ Cannot use it in a higher route level, but you can in lower levels
 
 ### Where Should loader() Code Be Stored?
 
-
+Put the loader as a function in the page you need it and export it to the app.js file
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNTE3NjQ0Myw5NzI3MzI1MywtMTI5Mz
+eyJoaXN0b3J5IjpbMTQzMTMyMzY2NCw5NzI3MzI1MywtMTI5Mz
 U4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5
 LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LD
 cyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkz
