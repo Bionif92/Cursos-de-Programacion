@@ -5765,12 +5765,50 @@ export default ErrorPage;
 ````
 
 ### The json() Utility Function
+
+````
+--import { useLoaderData, json } from 'react-router-dom';
+
+import EventsList from '../components/EventsList';
+
+function EventsPage() {
+  const data = useLoaderData();
+
+  // if (data.isError) {
+  //   return <p>{data.message}</p>;
+  // }
+  const events = data.events;
+
+  return <EventsList events={events} />;
+}
+
+export default EventsPage;
+
+export async function loader() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // return { isError: true, message: 'Could not fetch events.' };
+    // throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
+    //   status: 500,
+    // });
+    -throw json(
+      { message: 'Could not fetch events.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    return response;
+  }
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU5NTg5MDUsLTEyNDU0NDMxNzQsND
-ExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMTIzNjE0
-MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MS
-wxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3LC0xMDEz
-NDkxODE0LC0xMDMzNzIyMjQ0LDcyMDQ3Mjg1OCwyMTAwNDA5MT
-A3LC0xODc1ODA0Nzk2LC0xMDkzNTc1MTUyLDQwOTY1MjE0OCwy
-ODcxNTg3ODJdfQ==
+eyJoaXN0b3J5IjpbLTQxOTU4Mzc5MiwtMTI0NTQ0MzE3NCw0MT
+E2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQx
+ODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLD
+EwMjAxMzYzMyw2MTM1MTE1MjksLTE0MjQ0MTQ2NjcsLTEwMTM0
+OTE4MTQsLTEwMzM3MjIyNDQsNzIwNDcyODU4LDIxMDA0MDkxMD
+csLTE4NzU4MDQ3OTYsLTEwOTM1NzUxNTIsNDA5NjUyMTQ4LDI4
+NzE1ODc4Ml19
 -->
