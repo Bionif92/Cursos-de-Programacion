@@ -5580,8 +5580,10 @@ function EventsPage() {
 
 export default EventsPage;
 ````
+
+### More loader() Data Usage
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NjQyNzQ1MCw5NzI3MzI1MywtMTI5Mz
+eyJoaXN0b3J5IjpbLTQyOTc2NTU3NSw5NzI3MzI1MywtMTI5Mz
 U4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5
 LC0xNDI0NDE0NjY3LC0xMDEzNDkxODE0LC0xMDMzNzIyMjQ0LD
 cyMDQ3Mjg1OCwyMTAwNDA5MTA3LC0xODc1ODA0Nzk2LC0xMDkz
