@@ -5085,15 +5085,16 @@ Devtools/Redux
 
 Different URL path load different content on the screen
 
-Only one initial HTML, and the url changes
+Only one initial HTML, and the page changes handled by React Code
+Visible content is changed without fetching a new HTML file
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM2NTQxNTc0LDgxNDY3NTQ0MiwxOTM0Nj
-UxNjY3LC0xMjkyMTIyNjM3LC0xNzYwNzI4NzQ2LDcxNzgxNDk2
-NywxNzU0OTA4NzU3LC01OTU0MTEyMTYsLTM5NDYyMjkwMSwtMT
-g0MDMxOTI2LC0xMjA3ODk0OTAxLC0xOTczOTMyNTQxLDY2MjYz
-MDYwMiwtNDIwNjIxMzI5LC0xNjY5MDg5MzIyLDExNDI0OTY4Nz
-gsLTIxMzUwODUzNjUsLTIxMDY5Mjk2MjksLTUyNTk4MjYxNSwt
-NjM4NDE2MzU0XX0=
+eyJoaXN0b3J5IjpbMTQ4NzY1MzE2OCw4MTQ2NzU0NDIsMTkzND
+Y1MTY2NywtMTI5MjEyMjYzNywtMTc2MDcyODc0Niw3MTc4MTQ5
+NjcsMTc1NDkwODc1NywtNTk1NDExMjE2LC0zOTQ2MjI5MDEsLT
+E4NDAzMTkyNiwtMTIwNzg5NDkwMSwtMTk3MzkzMjU0MSw2NjI2
+MzA2MDIsLTQyMDYyMTMyOSwtMTY2OTA4OTMyMiwxMTQyNDk2OD
+c4LC0yMTM1MDg1MzY1LC0yMTA2OTI5NjI5LC01MjU5ODI2MTUs
+LTYzODQxNjM1NF19
 -->
