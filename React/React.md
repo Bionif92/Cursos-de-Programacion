@@ -5903,6 +5903,10 @@ Can generate actions to send data
 
 ### Working with action() Functions
 
+Need in the form that have the prop name
+Change form component to Form and add:
+````
+````
 ````
 //app.js
  { path: 'new', element: <NewEventPage />, action: newEventAction }
@@ -5944,7 +5948,7 @@ export default NewEventPage;
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5OTA3OTEzNiw1NzAxMDA3MDYsMTk5MT
+eyJoaXN0b3J5IjpbLTE3NTcwOTIwMiw1NzAxMDA3MDYsMTk5MT
 I4MDU1NCwtNzgwNjU3OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3
 NCw0MTE2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMj
 M2MTQxODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5
