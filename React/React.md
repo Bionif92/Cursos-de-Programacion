@@ -6888,18 +6888,36 @@ export async function action({ params, request }) {
 }
 ````
 
-### Adding User Logou
+### Adding User Logout
+
+````
+//mainnavigation.js
+<li>
+            <Form action="/logout" method="post">
+              <button>Logout</button>
+            </Form>
+          </li>
+````
+He create a logout page
+````
+import { redirect } from 'react-router-dom';
+
+export function action() {
+  localStorage.removeItem('token');
+  return redirect('/');
+}
+````
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY5MDU3NDMsNTYzNDQ0ODYwLC0xMj
-k4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTcz
-NDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mj
-g1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwx
-ODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1Nz
-U5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYz
-MDc0LDEyODkwOTY1OTddfQ==
+eyJoaXN0b3J5IjpbMTQ1ODYxMzAwMyw1NjM0NDQ4NjAsLTEyOT
+gzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0
+MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyOD
+UyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4
+NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4NjU3NT
+k4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNzE0NjMw
+NzQsMTI4OTA5NjU5N119
 -->
