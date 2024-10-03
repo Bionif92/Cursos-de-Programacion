@@ -6351,7 +6351,7 @@ export async function action({ request, params }) {
     url = 'http://localhost:8080/events/' + eventId;
   }
 
-  const response = await fetch(url, {
+  const response = await fetch(url, { // dinamic way of sending the request
     method: method,
     headers: {
       'Content-Type': 'application/json',
@@ -6373,11 +6373,11 @@ export async function action({ request, params }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDQyNDYyMiwtMTQ5MTg3MTYyNiwtMT
-A3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4NiwzNDIwNTcy
-ODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAwNzA2LDE5OT
-EyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMx
-NzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMT
-IzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcy
-OTI1MV19
+eyJoaXN0b3J5IjpbLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLT
+EwNzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3
+MjgwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOT
+kxMjgwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQz
+MTc0LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLT
+EyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3
+MjkyNTFdfQ==
 -->
