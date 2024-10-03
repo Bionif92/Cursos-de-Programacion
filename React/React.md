@@ -6608,7 +6608,7 @@ function AuthForm() {
         </p>
         <div className={classes.actions}>
           <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
-            {isLogin ? 'Create new user' : 'Login'}
+            {isLogin ? 'Create new user' : 'Login'} //switch 
           </Link>
           <button>Save</button>
         </div>
@@ -6622,7 +6622,7 @@ export default AuthForm;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTkyNDcxMCwtMTY5NjEyMDUyMywxMD
+eyJoaXN0b3J5IjpbMTQ0ODM3ODExOCwtMTY5NjEyMDUyMywxMD
 UwOTA2NTExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQy
 MDM2LDE2MjUwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC
 05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5
