@@ -6568,10 +6568,12 @@ export async function action({ params, request }) {
 }
 ````
 
-## Adding Autentication to React Apps
+## Adding Authentication to React Apps
+
+### How Authentication Works
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE2MDE1MzUsMTYyNTA2NTc4NCwxOD
+eyJoaXN0b3J5IjpbLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwxOD
 U3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5
 ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMD
 c0LDEyODkwOTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTky
