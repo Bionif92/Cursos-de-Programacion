@@ -6572,9 +6572,12 @@ export async function action({ params, request }) {
 
 ### How Authentication Works
 
+Authentication is needed if content should be protected
+
+Start with request with credentials
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEzMzY1ODIsLTEwMDUyNDIwMzYsMT
+eyJoaXN0b3J5IjpbLTE0MDk0MTM5MDYsLTEwMDUyNDIwMzYsMT
 YyNTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2
 NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNj
 I2LC0xMDcxNDYzMDc0LDEyODkwOTY1OTcsNTk5Njc2NTg2LDM0
