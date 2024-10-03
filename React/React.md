@@ -6580,14 +6580,14 @@ A yes alone is not enough, can use:
  - Server-side Sessions - popular in fullstack, store unique identifier on serrver, send some identifier to client
  - Authentication Tokens - Create but not store a permission token on server and send it to the client. Client attaches token to future requests for protected resources - **The response is an Auth.token**
 
-### 
+### Working with Query Parameters
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDI3Mjg4MiwxMDUwOTA2NTExLC01NT
-I4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3
-ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05ODc4NjQ2OTgsMT
-g2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3MTYyNiwtMTA3
-MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4NiwzNDIwNTcyOD
-AsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAwNzA2LDE5OTEy
-ODA1NTRdfQ==
+eyJoaXN0b3J5IjpbLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNT
+UyODYyODUyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1
+Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LD
+E4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEw
+NzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3Mj
+gwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkx
+MjgwNTU0XX0=
 -->
