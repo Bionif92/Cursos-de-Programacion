@@ -6575,10 +6575,13 @@ export async function action({ params, request }) {
 Authentication is needed if content should be protected
 
 Start with request with credentials, and get a response with access granted or denied
-A yes alone is not enough
+A yes alone is not enough, can use:
+
+ - Server-side Sessions - popular in fullstack, store unique ide
+ - Authentication Tokens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjY1OTIxMCwtMTAwNTI0MjAzNiwxNj
+eyJoaXN0b3J5IjpbMTYyMTM2NjQ2NywtMTAwNTI0MjAzNiwxNj
 I1MDY1Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0
 Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2Mj
 YsLTEwNzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQy
