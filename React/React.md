@@ -7062,6 +7062,20 @@ The token will expire in 1 hour because of backend code
 
 Logout and delete the token after an hour:
 ````
+//authentication.js
+
+const resData = await response.json();
+  const token = resData.token;
+
+  localStorage.setItem('token', token);
+  const expiration = new Date();
+  expiration.setHours(expiration.getHours() + 1); //one hour in the future
+  localStorage.setItem('expiration', expiration.toISOString());
+````
+````
+````
+
+````
 //root.js
 function RootLayout() {
   --const token = useLoaderData();
@@ -7099,17 +7113,7 @@ function RootLayout() {
 export default RootLayout;
 ````
 
-````
-//authentication.js
 
-const resData = await response.json();
-  const token = resData.token;
-
-  localStorage.setItem('token', token);
-  const expiration = new Date();
-  expiration.setHours(expiration.getHours() + 1);
-  localStorage.setItem('expiration', expiration.toISOString());
-````
 
 
 
@@ -7117,7 +7121,7 @@ const resData = await response.json();
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MDUxMjAwOCwxMTkxNjMzMTEzLDU2Mz
+eyJoaXN0b3J5IjpbMTg2Mzc2NzU1MywxMTkxNjMzMTEzLDU2Mz
 Q0NDg2MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5
 MTk3MSwtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NT
 ExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2
