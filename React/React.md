@@ -6059,15 +6059,15 @@ useNavigate -- To move to a different part of the route
 useNavigation -- current state of the transition we are
 
 ````
-import { Form, useNavigate, useNavigation } from 'react-router-dom';
+--import { Form, useNavigate, useNavigation } from 'react-router-dom';
 
 import classes from './EventForm.module.css';
 
 function EventForm({ method, event }) {
   const navigate = useNavigate();
-  const navigation = useNavigation();
+  --const navigation = useNavigation();
 
-  const isSubmitting = navigation.state === 'submitting';
+  --const isSubmitting = navigation.state === 'submitting';
 
   function cancelHandler() {
     navigate('..');
@@ -6116,10 +6116,10 @@ function EventForm({ method, event }) {
         />
       </p>
       <div className={classes.actions}>
-        <button type="button" onClick={cancelHandler} disabled={isSubmitting}>
+        --<button type="button" onClick={cancelHandler} disabled={isSubmitting}>
           Cancel
         </button>
-        <button disabled={isSubmitting}>
+        --<button disabled={isSubmitting}>
           {isSubmitting ? 'Submitting...' : 'Save'}
         </button>
       </div>
@@ -6132,7 +6132,7 @@ export default EventForm;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODIyMTQ4MCwxMjg5MDk2NTk3LDU5OT
+eyJoaXN0b3J5IjpbMTA0NjIyNzI1NiwxMjg5MDk2NTk3LDU5OT
 Y3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIs
 NTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4Nz
 U4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3Nywt
