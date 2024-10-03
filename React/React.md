@@ -7062,6 +7062,41 @@ The token will expire in 1 hour because of backend code
 
 Logout and delete the token after an hour:
 ````
+//root.js
+function RootLayout() {
+  --const token = useLoaderData();
+  const submit = useSubmit();
+  // const navigation = useNavigation();
+  --useEffect(() => {
+    if (!token) {
+      return;
+    } //nothing to do because we have it
+
+    if (token === 'EXPIRED') {
+      submit(null, { action: '/logout', method: 'post' });
+      return;
+    }
+
+    const tokenDuration = getTokenDuration();
+    console.log(tokenDuration);
+
+    setTimeout(() => {
+      submit(null, { action: '/logout', method: 'post' });
+    }, tokenDuration);
+  }, [token, submit]);
+
+  return (
+    <>
+      <MainNavigation />
+      <main>
+        {/* {navigation.state === 'loading' && <p>Loading...</p>} */}
+        <Outlet />
+      </main>
+    </>
+  );
+}
+
+export default RootLayout;
 ````
 
 
@@ -7070,7 +7105,7 @@ Logout and delete the token after an hour:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzIyOTYyNSw1NjM0NDQ4NjAsLTEyOT
+eyJoaXN0b3J5IjpbLTE2NDkxMDQwNyw1NjM0NDQ4NjAsLTEyOT
 gzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0
 MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyOD
 UyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4
