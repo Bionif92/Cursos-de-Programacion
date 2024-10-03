@@ -7091,9 +7091,9 @@ export function getAuthToken() {
     return null;
   }
 
-  const tokenDuration = getTokenDuration();
+  --const tokenDuration = getTokenDuration();
 
-  if (tokenDuration < 0) {
+  --if (tokenDuration < 0) {
     return 'EXPIRED';
   }
 
@@ -7160,11 +7160,11 @@ export default RootLayout;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MzEzNjI4LDExOTE2MzMxMTMsNTYzND
-Q0ODYwLC0xMjk4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkx
-OTcxLC0xMTczNDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5MDY1MT
-EsLTU1Mjg2Mjg1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMzYsMTYy
-NTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2ND
-Y5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNjI2
-LC0xMDcxNDYzMDc0XX0=
+eyJoaXN0b3J5IjpbLTEwMTEyMDMwMzYsMTE5MTYzMzExMyw1Nj
+M0NDQ4NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3
+OTE5NzEsLTExNzM0MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNj
+UxMSwtNTUyODYyODUyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwx
+NjI1MDY1Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3OD
+Y0Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2
+MjYsLTEwNzE0NjMwNzRdfQ==
 -->
