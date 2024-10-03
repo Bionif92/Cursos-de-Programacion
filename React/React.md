@@ -7099,17 +7099,29 @@ function RootLayout() {
 export default RootLayout;
 ````
 
+````
+//authentication.js
+
+const resData = await response.json();
+  const token = resData.token;
+
+  localStorage.setItem('token', token);
+  const expiration = new Date();
+  expiration.setHours(expiration.getHours() + 1);
+  localStorage.setItem('expiration', expiration.toISOString());
+````
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOT
-gzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0
-MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyOD
-UyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4
-NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4NjU3NT
-k4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNzE0NjMw
-NzQsMTI4OTA5NjU5N119
+eyJoaXN0b3J5IjpbMTY1MDUxMjAwOCwxMTkxNjMzMTEzLDU2Mz
+Q0NDg2MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5
+MTk3MSwtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NT
+ExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2
+MjUwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05ODc4Nj
+Q2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3MTYy
+NiwtMTA3MTQ2MzA3NF19
 -->
