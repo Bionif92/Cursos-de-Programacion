@@ -6418,15 +6418,59 @@ Can use fetcher.(data, load, state,action,etc)
 Defer=Postpone
 
 ````
+import { Suspense } from 'react';
+--import { useLoaderData, json, defer, Await } from 'react-router-dom';
+
+import EventsList from '../components/EventsList';
+
+function EventsPage() {
+  const { events } = useLoaderData();
+
+  return (
+    <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+      <Await resolve={events}>
+        {(loadedEvents) => <EventsList events={loadedEvents} />}
+      </Await>
+    </Suspense>
+  );
+}
+
+export default EventsPage;
+
+async function loadEvents() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // return { isError: true, message: 'Could not fetch events.' };
+    // throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
+    //   status: 500,
+    // });
+    throw json(
+      { message: 'Could not fetch events.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    const resData = await response.json();
+    return resData.events;
+  }
+}
+
+--export function loader() {
+  return defer({
+    events: loadEvents(),
+  });
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4Nj
-U3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNzE0
-NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3MjgwLD
-E5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMjgw
-NTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LD
-QxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMzYx
-NDE4NDhdfQ==
+eyJoaXN0b3J5IjpbMTkwMjAzMzQzNCwxMDcyNTg3NDU1LC05OD
+c4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3
+MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4Ni
+wzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAw
+NzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLT
+EyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMy
+ODU3MF19
 -->
