@@ -6907,13 +6907,31 @@ export function action() {
   return redirect('/');
 }
 ````
+````
+//app.js
+{
+        path: 'auth',
+        element: <AuthenticationPage />,
+        action: authAction,
+      },
+      {
+        path: 'newsletter',
+        element: <NewsletterPage />,
+        action: newsletterAction,
+      },
+      --{
+        path: 'logout',
+        action: logoutAction, // whit
+      },
+
+````
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1ODYxMzAwMyw1NjM0NDQ4NjAsLTEyOT
+eyJoaXN0b3J5IjpbLTg5Mjc1MDYyNyw1NjM0NDQ4NjAsLTEyOT
 gzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0
 MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyOD
 UyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4
