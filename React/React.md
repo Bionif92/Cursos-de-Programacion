@@ -6949,6 +6949,73 @@ export function getAuthToken() {
 }
 ````
 Now use it
+````
+function MainNavigation() {
+  --const token = useRouteLoaderData('root');
+
+  return (
+    <header className={classes.header}>
+      <nav>
+        <ul className={classes.list}>
+          <li>
+            <NavLink
+              to="/"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+              end
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/events"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Events
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/newsletter"
+              className={({ isActive }) =>
+                isActive ? classes.active : undefined
+              }
+            >
+              Newsletter
+            </NavLink>
+          </li>
+          {!token && (
+            <li>
+              <NavLink
+                to="/auth?mode=login"
+                className={({ isActive }) =>
+                  isActive ? classes.active : undefined
+                }
+              >
+                Authentication
+              </NavLink>
+            </li>
+          )}
+          --{token && (
+            <li>
+              <Form action="/logout" method="post">
+                <button>Logout</button>
+              </Form>
+            </li>
+          )}
+        </ul>
+      </nav>
+      <NewsletterSignup />
+    </header>
+  );
+}
+
+export default MainNavigation;
+````
 
 
 
@@ -6956,7 +7023,7 @@ Now use it
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTg4MTQ3MzYsNTYzNDQ0ODYwLC0xMj
+eyJoaXN0b3J5IjpbLTE3Njc5MzE3NjcsNTYzNDQ0ODYwLC0xMj
 k4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTcz
 NDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mj
 g1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwx
