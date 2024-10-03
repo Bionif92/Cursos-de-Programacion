@@ -6374,6 +6374,8 @@ export async function action({ request, params }) {
 ### Behind-the-Scenes Work with useFetcher()
 
 A component that is render in all pages, clashes the action with the actual page action
+
+useFetcher to apply an action without going to the page, can use different types of methods for fetcher
 ````
 import { useEffect } from 'react';
 --import { useFetcher } from 'react-router-dom';
@@ -6391,7 +6393,7 @@ function NewsletterSignup() {
   }, [data, state]);
 
   return (
-    <fetcher.Form
+   -- <fetcher.Form
       method="post"
       action="/newsletter"
       className={classes.newsletter}
@@ -6410,11 +6412,11 @@ export default NewsletterSignup;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTEzNzU5OCwxODY1NzU5ODA4LC0xOT
-gzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkw
-OTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LD
-k5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3
-OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNz
-gyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3Mjcz
-MjUzXX0=
+eyJoaXN0b3J5IjpbMzAwNzk1MzU5LDE4NjU3NTk4MDgsLTE5OD
+M5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNzE0NjMwNzQsMTI4OTA5
+NjU5Nyw1OTk2NzY1ODYsMzQyMDU3MjgwLDE5OTI0MDc3ODksOT
+kyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMjgwNTU0LC03ODA2NTc5
+NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUwMSw3OD
+IwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOTcyNzMy
+NTNdfQ==
 -->
