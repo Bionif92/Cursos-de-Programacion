@@ -6373,16 +6373,48 @@ export async function action({ request, params }) {
 
 ### Behind-the-Scenes Work with useFetcher()
 
-A component that is render in
+A component that is render in all pages, clashes the action with the actual page action
 ````
+import { useEffect } from 'react';
+--import { useFetcher } from 'react-router-dom';
+
+import classes from './NewsletterSignup.module.css';
+
+function NewsletterSignup() {
+  --const fetcher = useFetcher();
+  --const { data, state } = fetcher;
+
+  useEffect(() => {
+    if (state === 'idle' && data && data.message) {
+      window.alert(data.message);
+    }
+  }, [data, state]);
+
+  return (
+    <fetcher.Form
+      method="post"
+      action="/newsletter"
+      className={classes.newsletter}
+    >
+      <input
+        type="email"
+        placeholder="Sign up for newsletter..."
+        aria-label="Sign up for newsletter"
+      />
+      <button>Sign up</button>
+    </fetcher.Form>
+  );
+}
+
+export default NewsletterSignup;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY0ODMyMjIsMTg2NTc1OTgwOCwtMT
-k4MzkzODU5NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5
-MDk2NTk3LDU5OTY3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4OS
-w5OTIxNDY2NzIsNTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MDY1
-Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLD
-c4MjA3OTQ3NywtMTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5NzI3
-MzI1M119
+eyJoaXN0b3J5IjpbMTQxOTEzNzU5OCwxODY1NzU5ODA4LC0xOT
+gzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkw
+OTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LD
+k5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3
+OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNz
+gyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3Mjcz
+MjUzXX0=
 -->
