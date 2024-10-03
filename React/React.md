@@ -7017,13 +7017,15 @@ function MainNavigation() {
 export default MainNavigation;
 ````
 
+**Important: loader()s must return null or any other value**
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyMzQyMjQ5LDU2MzQ0NDg2MCwtMTI5OD
+eyJoaXN0b3J5IjpbNTU5MzAwNTc0LDU2MzQ0NDg2MCwtMTI5OD
 MyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQy
 MDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NT
 IsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1
