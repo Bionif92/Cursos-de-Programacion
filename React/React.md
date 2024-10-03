@@ -6484,16 +6484,16 @@ import EventItem from '../components/EventItem';
 import EventsList from '../components/EventsList';
 
 function EventDetailPage() {
-  const { event, events } = useRouteLoaderData('event-detail');
+  --const { event, events } = useRouteLoaderData('event-detail');
 
   return (
     <>
-      <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+      --<Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
         <Await resolve={event}>
           {(loadedEvent) => <EventItem event={loadedEvent} />}
         </Await>
       </Suspense>
-      <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+      --<Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
         <Await resolve={events}>
           {(loadedEvents) => <EventsList events={loadedEvents} />}
         </Await>
@@ -6569,7 +6569,7 @@ export async function action({ params, request }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDA5NjI0MSwxODU3MjUxMzUxLDEwNz
+eyJoaXN0b3J5IjpbLTEwMjU1NDczNSwxODU3MjUxMzUxLDEwNz
 I1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4
 NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OT
 csNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LDk5MjE0
