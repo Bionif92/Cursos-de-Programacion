@@ -6271,7 +6271,7 @@ function EventForm({ method, event }) {
   }
 
   return (
-    <Form method={method} className={classes.form}>
+    --<Form method={method} className={classes.form}> //set method dinamically
       {data && data.errors && (
         <ul>
           {Object.values(data.errors).map((err) => (
@@ -6334,7 +6334,7 @@ function EventForm({ method, event }) {
 export default EventForm;
 
 export async function action({ request, params }) {
-  const method = request.method;
+  --const method = request.method; //extract the method
   const data = await request.formData();
 
   const eventData = {
@@ -6373,11 +6373,11 @@ export async function action({ request, params }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMyMTk1MzI5LC0xNDkxODcxNjI2LC0xMD
-cxNDYzMDc0LDEyODkwOTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4
-MCwxOTkyNDA3Nzg5LDk5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MT
-I4MDU1NCwtNzgwNjU3OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3
-NCw0MTE2MzA1MDEsNzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMj
-M2MTQxODQ4LDk3MjczMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5
-MjUxXX0=
+eyJoaXN0b3J5IjpbMTEyMDgyNzE1OCwtMTQ5MTg3MTYyNiwtMT
+A3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4NiwzNDIwNTcy
+ODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAwNzA2LDE5OT
+EyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMx
+NzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMT
+IzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcy
+OTI1MV19
 -->
