@@ -6056,15 +6056,84 @@ export async function loader({ request, params }) {
 ### Updating the UI State Based on the Submission Status
 
 ````
+import { Form, useNavigate, useNavigation } from 'react-router-dom';
+
+import classes from './EventForm.module.css';
+
+function EventForm({ method, event }) {
+  const navigate = useNavigate();
+  const navigation = useNavigation();
+
+  const isSubmitting = navigation.state === 'submitting';
+
+  function cancelHandler() {
+    navigate('..');
+  }
+
+  return (
+    <Form method="post" className={classes.form}>
+      <p>
+        <label htmlFor="title">Title</label>
+        <input
+          id="title"
+          type="text"
+          name="title"
+          required
+          defaultValue={event ? event.title : ''}
+        />
+      </p>
+      <p>
+        <label htmlFor="image">Image</label>
+        <input
+          id="image"
+          type="url"
+          name="image"
+          required
+          defaultValue={event ? event.image : ''}
+        />
+      </p>
+      <p>
+        <label htmlFor="date">Date</label>
+        <input
+          id="date"
+          type="date"
+          name="date"
+          required
+          defaultValue={event ? event.date : ''}
+        />
+      </p>
+      <p>
+        <label htmlFor="description">Description</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          required
+          defaultValue={event ? event.description : ''}
+        />
+      </p>
+      <div className={classes.actions}>
+        <button type="button" onClick={cancelHandler} disabled={isSubmitting}>
+          Cancel
+        </button>
+        <button disabled={isSubmitting}>
+          {isSubmitting ? 'Submitting...' : 'Save'}
+        </button>
+      </div>
+    </Form>
+  );
+}
+
+export default EventForm;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI5NDc1NDI2LDU5OTY3NjU4NiwzNDIwNT
-cyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAwNzA2LDE5
-OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0ND
-MxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMyODU3MCwt
-MTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5MzU4MTQzNSwtMTcyOT
-cyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5LC0xNDI0NDE0NjY3
-XX0=
+eyJoaXN0b3J5IjpbMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMD
+U3MjgwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwx
+OTkxMjgwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1ND
+QzMTc0LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAs
+LTEyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mj
+k3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2
+N119
 -->
