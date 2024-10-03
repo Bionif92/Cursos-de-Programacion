@@ -6417,8 +6417,9 @@ Can use fetcher.(data, load, state,action,etc)
 
 Defer=Postpone
 
+Suspense for fallback message
 ````
-import { Suspense } from 'react';
+--import { Suspense } from 'react';
 --import { useLoaderData, json, defer, Await } from 'react-router-dom';
 
 import EventsList from '../components/EventsList';
@@ -6466,11 +6467,11 @@ async function loadEvents() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05OD
-c4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3
-MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4Ni
-wzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAw
-NzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLT
-EyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3NywtMTMwMDMy
-ODU3MF19
+eyJoaXN0b3J5IjpbLTMyMjA3MzgzLDE4NTcyNTEzNTEsMTA3Mj
+U4NzQ1NSwtOTg3ODY0Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1
+OTcsLTE0OTE4NzE2MjYsLTEwNzE0NjMwNzQsMTI4OTA5NjU5Ny
+w1OTk2NzY1ODYsMzQyMDU3MjgwLDE5OTI0MDc3ODksOTkyMTQ2
+NjcyLDU3MDEwMDcwNiwxOTkxMjgwNTU0LC03ODA2NTc5NiwxND
+UyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUwMSw3ODIwNzk0
+NzddfQ==
 -->
