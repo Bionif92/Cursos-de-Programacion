@@ -6469,7 +6469,7 @@ async function loadEvents() {
 
 ### Controlling Which Data Should Be Deferred
 
-Making the loading fallback
+Making the loading fallback with two components, that came in different times
 ````
 //eventdetail.js
 import { Suspense } from 'react';
@@ -6570,7 +6570,7 @@ export async function action({ params, request }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg1Mjc0NjMsMTg1NzI1MTM1MSwxMD
+eyJoaXN0b3J5IjpbLTExOTI1MDAwMjAsMTg1NzI1MTM1MSwxMD
 cyNTg3NDU1LC05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4Mzkz
 ODU5NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NT
 k3LDU5OTY3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIx
