@@ -6469,13 +6469,111 @@ async function loadEvents() {
 
 ### Controlling Which Data Should Be Deferred
 
+````
+//eventdetail.js
+import { Suspense } from 'react';
+import {
+  useRouteLoaderData,
+  json,
+  redirect,
+  defer,
+  Await,
+} from 'react-router-dom';
+
+import EventItem from '../components/EventItem';
+import EventsList from '../components/EventsList';
+
+function EventDetailPage() {
+  const { event, events } = useRouteLoaderData('event-detail');
+
+  return (
+    <>
+      <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+        <Await resolve={event}>
+          {(loadedEvent) => <EventItem event={loadedEvent} />}
+        </Await>
+      </Suspense>
+      <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+        <Await resolve={events}>
+          {(loadedEvents) => <EventsList events={loadedEvents} />}
+        </Await>
+      </Suspense>
+    </>
+  );
+}
+
+export default EventDetailPage;
+
+async function loadEvent(id) {
+  const response = await fetch('http://localhost:8080/events/' + id);
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not fetch details for selected event.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    const resData = await response.json();
+    return resData.event;
+  }
+}
+
+async function loadEvents() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // return { isError: true, message: 'Could not fetch events.' };
+    // throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
+    //   status: 500,
+    // });
+    throw json(
+      { message: 'Could not fetch events.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    const resData = await response.json();
+    return resData.events;
+  }
+}
+
+export async function loader({ request, params }) {
+  const id = params.eventId;
+
+  return defer({ // two loaders
+    event: await loadEvent(id),
+    events: loadEvents(),
+  });
+}
+
+export async function action({ params, request }) {
+  const eventId = params.eventId;
+  const response = await fetch('http://localhost:8080/events/' + eventId, {
+    method: request.method,
+  });
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not delete event.' },
+      {
+        status: 500,
+      }
+    );
+  }
+  return redirect('/events');
+}
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjIzMTIsMTg1NzI1MTM1MSwxMDcyNT
-g3NDU1LC05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5
-NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LD
-U5OTY3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2
-NzIsNTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NT
-I4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3
-N119
+eyJoaXN0b3J5IjpbMTMwMDA5NjI0MSwxODU3MjUxMzUxLDEwNz
+I1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4
+NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OT
+csNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LDk5MjE0
+NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3OTYsMT
+Q1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5
+NDc3XX0=
 -->
