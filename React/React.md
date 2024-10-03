@@ -6582,12 +6582,51 @@ A yes alone is not enough, can use:
 
 ### Working with Query Parameters
 
+Same path, but with query you can show the component you want
+
+````
+//authform.js
+import { Form, Link, useSearchParams } from 'react-router-dom';
+
+import classes from './AuthForm.module.css';
+
+function AuthForm() {
+  const [searchParams] = useSearchParams();
+  const isLogin = searchParams.get('mode') === 'login';
+
+  return (
+    <>
+      <Form method="post" className={classes.form}>
+        <h1>{isLogin ? 'Log in' : 'Create a new user'}</h1>
+        <p>
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" name="email" required />
+        </p>
+        <p>
+          <label htmlFor="image">Password</label>
+          <input id="password" type="password" name="password" required />
+        </p>
+        <div className={classes.actions}>
+          <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
+            {isLogin ? 'Create new user' : 'Login'}
+          </Link>
+          <button>Save</button>
+        </div>
+      </Form>
+    </>
+  );
+}
+
+export default AuthForm;
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNT
-UyODYyODUyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1
-Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LD
-E4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEw
-NzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3Mj
-gwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkx
-MjgwNTU0XX0=
+eyJoaXN0b3J5IjpbLTEyNTkyNDcxMCwtMTY5NjEyMDUyMywxMD
+UwOTA2NTExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQy
+MDM2LDE2MjUwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC
+05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5
+MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3Nj
+U4NiwzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcw
+MTAwNzA2XX0=
 -->
