@@ -6346,7 +6346,7 @@ export async function action({ request, params }) {
 
   let url = 'http://localhost:8080/events';
 
-  if (method === 'PATCH') {
+  if (method === 'PATCH') { //editing
     const eventId = params.eventId;
     url = 'http://localhost:8080/events/' + eventId;
   }
@@ -6373,7 +6373,7 @@ export async function action({ request, params }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMDgyNzE1OCwtMTQ5MTg3MTYyNiwtMT
+eyJoaXN0b3J5IjpbMjA1NDQyNDYyMiwtMTQ5MTg3MTYyNiwtMT
 A3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4NiwzNDIwNTcy
 ODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAwNzA2LDE5OT
 EyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMx
