@@ -6578,10 +6578,10 @@ Start with request with credentials, and get a response with access granted or d
 A yes alone is not enough, can use:
 
  - Server-side Sessions - popular in fullstack, store unique identifier on serrver, send some identifier to client
- - Authentication Tokens - Create but not store a permission token on server and send it to the client
+ - Authentication Tokens - Create but not store a permission token on server and send it to the client. Client attaches token to future requests for protected resources
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzMxOTA0NSwzNjQ1Njg4MDUsLTEwMD
+eyJoaXN0b3J5IjpbLTU1Mjg2Mjg1MiwzNjQ1Njg4MDUsLTEwMD
 UyNDIwMzYsMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0
 NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC
 0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OTcsNTk5
