@@ -6574,14 +6574,15 @@ export async function action({ params, request }) {
 
 Authentication is needed if content should be protected
 
-Start with request with credentials
+Start with request with credentials, and get a response with access granted or denied
+A yes alone is not enough
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk0MTM5MDYsLTEwMDUyNDIwMzYsMT
-YyNTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2
-NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNj
-I2LC0xMDcxNDYzMDc0LDEyODkwOTY1OTcsNTk5Njc2NTg2LDM0
-MjA1NzI4MCwxOTkyNDA3Nzg5LDk5MjE0NjY3Miw1NzAxMDA3MD
-YsMTk5MTI4MDU1NCwtNzgwNjU3OTYsMTQ1Mjg3NTgyMiwtMTI0
-NTQ0MzE3NF19
+eyJoaXN0b3J5IjpbLTE2MjY1OTIxMCwtMTAwNTI0MjAzNiwxNj
+I1MDY1Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0
+Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2Mj
+YsLTEwNzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQy
+MDU3MjgwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNi
+wxOTkxMjgwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1
+NDQzMTc0XX0=
 -->
