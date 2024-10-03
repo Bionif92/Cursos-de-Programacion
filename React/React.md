@@ -6459,14 +6459,14 @@ async function loadEvents() {
 
 --export function loader() {
   return defer({
-    events: loadEvents(),
+    events: loadEvents(), // it is a promise
   });
 }
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMjAzMzQzNCwxMDcyNTg3NDU1LC05OD
+eyJoaXN0b3J5IjpbMTk3NjAxNDcxMSwxMDcyNTg3NDU1LC05OD
 c4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3
 MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4Ni
 wzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAw
