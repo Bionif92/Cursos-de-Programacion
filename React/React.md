@@ -6427,7 +6427,7 @@ function EventsPage() {
   const { events } = useLoaderData();
 
   return (
-    <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+    --<Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
       <Await resolve={events}>
         {(loadedEvents) => <EventsList events={loadedEvents} />}
       </Await>
@@ -6466,7 +6466,7 @@ async function loadEvents() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjAxNDcxMSwxMDcyNTg3NDU1LC05OD
+eyJoaXN0b3J5IjpbMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05OD
 c4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3
 MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4Ni
 wzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAw
