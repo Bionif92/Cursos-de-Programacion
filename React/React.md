@@ -6417,6 +6417,8 @@ Can use fetcher.(data, load, state,action,etc)
 
 Defer=Postpone
 
+Show a content while wainting for the real content
+
 Suspense for fallback message
 ````
 --import { Suspense } from 'react';
@@ -6454,7 +6456,7 @@ async function loadEvents() {
     );
   } else {
     const resData = await response.json();
-    return resData.events;
+    --return resData.events; //need to change
   }
 }
 
@@ -6467,11 +6469,11 @@ async function loadEvents() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMjA3MzgzLDE4NTcyNTEzNTEsMTA3Mj
-U4NzQ1NSwtOTg3ODY0Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1
-OTcsLTE0OTE4NzE2MjYsLTEwNzE0NjMwNzQsMTI4OTA5NjU5Ny
-w1OTk2NzY1ODYsMzQyMDU3MjgwLDE5OTI0MDc3ODksOTkyMTQ2
-NjcyLDU3MDEwMDcwNiwxOTkxMjgwNTU0LC03ODA2NTc5NiwxND
-UyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUwMSw3ODIwNzk0
-NzddfQ==
+eyJoaXN0b3J5IjpbMTUyMTc2ODI1NiwxODU3MjUxMzUxLDEwNz
+I1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4
+NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OT
+csNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LDk5MjE0
+NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3OTYsMT
+Q1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5
+NDc3XX0=
 -->
