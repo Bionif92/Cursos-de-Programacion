@@ -6686,7 +6686,7 @@ import {
 import classes from './AuthForm.module.css';
 
 function AuthForm() {
-  const data = useActionData();
+  const data = useActionData(); // only return if had a problem
   const navigation = useNavigation();
 
   const [searchParams] = useSearchParams();
@@ -6697,7 +6697,7 @@ function AuthForm() {
     <>
       <Form method="post" className={classes.form}>
         <h1>{isLogin ? 'Log in' : 'Create a new user'}</h1>
-        {data && data.errors && (
+        --{data && data.errors && (
           <ul>
             {Object.values(data.errors).map((err) => (
               <li key={err}>{err}</li>
@@ -6731,11 +6731,11 @@ export default AuthForm;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5Mjc5NDc4OCwtMTUzODIwMjc3OCwtMT
-QwMjc5MTk3MSwtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUw
-OTA2NTExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQyMD
-M2LDE2MjUwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05
-ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MT
-g3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4
-NiwzNDIwNTcyODBdfQ==
+eyJoaXN0b3J5IjpbNTI0ODczMDAwLC0xNTM4MjAyNzc4LC0xND
+AyNzkxOTcxLC0xMTczNDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5
+MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMz
+YsMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4
+Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxOD
+cxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OTcsNTk5Njc2NTg2
+LDM0MjA1NzI4MF19
 -->
