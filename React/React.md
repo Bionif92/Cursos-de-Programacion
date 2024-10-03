@@ -6134,16 +6134,42 @@ export default EventForm;
 
 Need to have client and server validation
 
+Returning the error to the client:
+````
+//newevent.js
+const response = await fetch('http://localhost:8080/events', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(eventData),
+  });
+
+  --if (response.status === 422) {
+    return response;
+  }
+
+  if (!response.ok) {
+    throw json({ message: 'Could not save event.' }, { status: 500 });
+  }
+
+  return redirect('/events');
+}
+````
+
+````
+
+//eventforn.js
+
 ````
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzMyNjI5NywtMTA3MTQ2MzA3NCwxMj
-g5MDk2NTk3LDU5OTY3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4
-OSw5OTIxNDY2NzIsNTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MD
-Y1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAx
-LDc4MjA3OTQ3NywtMTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5Nz
-I3MzI1MywtMTI5MzU4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2
-MzNdfQ==
+eyJoaXN0b3J5IjpbODY5MTcyOTcyLC0xMDcxNDYzMDc0LDEyOD
+kwOTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5
+LDk5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNj
+U3OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEs
+NzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3Mj
+czMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYz
+M119
 -->
