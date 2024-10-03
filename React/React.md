@@ -6988,7 +6988,7 @@ function MainNavigation() {
               Newsletter
             </NavLink>
           </li>
-          {!token && (
+          --{!token && (
             <li>
               <NavLink
                 to="/auth?mode=login"
@@ -7023,11 +7023,11 @@ export default MainNavigation;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc5MzE3NjcsNTYzNDQ0ODYwLC0xMj
-k4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTcz
-NDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mj
-g1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwx
-ODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1Nz
-U5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYz
-MDc0LDEyODkwOTY1OTddfQ==
+eyJoaXN0b3J5IjpbNzQyMzQyMjQ5LDU2MzQ0NDg2MCwtMTI5OD
+MyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQy
+MDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NT
+IsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1
+NzI1MTM1MSwxMDcyNTg3NDU1LC05ODc4NjQ2OTgsMTg2NTc1OT
+gwOCwtMTk4MzkzODU5NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3
+NCwxMjg5MDk2NTk3XX0=
 -->
