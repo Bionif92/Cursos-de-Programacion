@@ -6156,7 +6156,7 @@ const response = await fetch('http://localhost:8080/events', {
   return redirect('/events');
 }
 ````
-New hook: useActionData
+New hook: useActionData, here return the data of the error backend
 ````
 //eventforn.js
 import {
@@ -6181,7 +6181,7 @@ function EventForm({ method, event }) {
 
   return (
     <Form method="post" className={classes.form}>
-      {data && data.errors && (
+      --{data && data.errors && (
         <ul>
           {Object.values(data.errors).map((err) => (
             <li key={err}>{err}</li>
@@ -6245,7 +6245,7 @@ export default EventForm;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDEyMzE4MzksLTEwNzE0NjMwNzQsMT
+eyJoaXN0b3J5IjpbLTE0OTE4NzE2MjYsLTEwNzE0NjMwNzQsMT
 I4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3MjgwLDE5OTI0MDc3
 ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMjgwNTU0LC03OD
 A2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUw
