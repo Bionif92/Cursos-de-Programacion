@@ -6785,7 +6785,107 @@ export function getAuthToken() {
 ````
 Now we can use the token:
 ````
-//eve
+//eventdetail.js
+import { Suspense } from 'react';
+import {
+  useRouteLoaderData,
+  json,
+  redirect,
+  defer,
+  Await,
+} from 'react-router-dom';
+
+import EventItem from '../components/EventItem';
+import EventsList from '../components/EventsList';
+import { getAuthToken } from '../util/auth';
+
+function EventDetailPage() {
+  const { event, events } = useRouteLoaderData('event-detail');
+
+  return (
+    <>
+      <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+        <Await resolve={event}>
+          {(loadedEvent) => <EventItem event={loadedEvent} />}
+        </Await>
+      </Suspense>
+      <Suspense fallback={<p style={{ textAlign: 'center' }}>Loading...</p>}>
+        <Await resolve={events}>
+          {(loadedEvents) => <EventsList events={loadedEvents} />}
+        </Await>
+      </Suspense>
+    </>
+  );
+}
+
+export default EventDetailPage;
+
+async function loadEvent(id) {
+  const response = await fetch('http://localhost:8080/events/' + id);
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not fetch details for selected event.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    const resData = await response.json();
+    return resData.event;
+  }
+}
+
+async function loadEvents() {
+  const response = await fetch('http://localhost:8080/events');
+
+  if (!response.ok) {
+    // return { isError: true, message: 'Could not fetch events.' };
+    // throw new Response(JSON.stringify({ message: 'Could not fetch events.' }), {
+    //   status: 500,
+    // });
+    throw json(
+      { message: 'Could not fetch events.' },
+      {
+        status: 500,
+      }
+    );
+  } else {
+    const resData = await response.json();
+    return resData.events;
+  }
+}
+
+export async function loader({ request, params }) {
+  const id = params.eventId;
+
+  return defer({
+    event: await loadEvent(id),
+    events: loadEvents(),
+  });
+}
+
+export async function action({ params, request }) {
+  const eventId = params.eventId;
+
+  --const token = getAuthToken();
+  const response = await fetch('http://localhost:8080/events/' + eventId, {
+    method: request.method,
+    --headers: {
+      'Authorization': 'Bearer ' + token
+    }
+  });
+
+  if (!response.ok) {
+    throw json(
+      { message: 'Could not delete event.' },
+      {
+        status: 500,
+      }
+    );
+  }
+  return redirect('/events');
+}
 ````
 
 
@@ -6793,11 +6893,11 @@ Now we can use the token:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTkyNDgwOCwtMTI5ODMyNjIzMCwtMT
-UzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQyMDk5NiwtMTY5
-NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NTIsMzY0NTY4OD
-A1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1NzI1MTM1MSwx
-MDcyNTg3NDU1LC05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4Mz
-kzODU5NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2
-NTk3LDU5OTY3NjU4Nl19
+eyJoaXN0b3J5IjpbNTYzNDQ0ODYwLC0xMjk4MzI2MjMwLC0xNT
+M4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTczNDIwOTk2LC0xNjk2
+MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Njg4MD
+UsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEw
+NzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOT
+M4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1
+OTcsNTk5Njc2NTg2XX0=
 -->
