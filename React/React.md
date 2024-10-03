@@ -6927,12 +6927,35 @@ export function action() {
 
 ### Updating the UI Based on Auth Status
 
+````
+//app.js
+{
+    path: '/',
+    element: <RootLayout />,
+    errorElement: <ErrorPage />,
+    id: 'root',
+    loader: tokenLoader,
+    children: [...
+````
+````
+//util/auth.js
+export function getAuthToken() {
+  const token = localStorage.getItem('token');
+  return token;
+}
+
+--export function tokenLoader() {
+  return getAuthToken();
+}
+````
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYxMjc1MjgxLDU2MzQ0NDg2MCwtMTI5OD
+eyJoaXN0b3J5IjpbNTcxMjUwMzg0LDU2MzQ0NDg2MCwtMTI5OD
 MyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQy
 MDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NT
 IsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1
