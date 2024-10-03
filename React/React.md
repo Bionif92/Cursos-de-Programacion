@@ -7065,7 +7065,7 @@ Logout and delete the token after an hour:
 //root.js
 function RootLayout() {
   --const token = useLoaderData();
-  const submit = useSubmit();
+  --const submit = useSubmit();
   // const navigation = useNavigation();
   --useEffect(() => {
     if (!token) {
@@ -7105,7 +7105,7 @@ export default RootLayout;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkxMDQwNyw1NjM0NDQ4NjAsLTEyOT
+eyJoaXN0b3J5IjpbMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOT
 gzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0
 MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyOD
 UyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4
