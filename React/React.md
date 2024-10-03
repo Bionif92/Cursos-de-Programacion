@@ -7021,7 +7021,33 @@ export default MainNavigation;
 
 ### Adding Route Protection
 
-You can reach the form although you are n
+You can reach the form although you are not log in
+Use a loader:
+
+````
+//util/auth.js
+import { redirect } from 'react-router-dom';
+
+export function getAuthToken() {
+  const token = localStorage.getItem('token');
+  return token;
+}
+
+export function tokenLoader() {
+  return getAuthToken();
+}
+
+export function checkAuthLoader() {
+  const token = getAuthToken();
+
+  if (!token) {
+    return redirect('/auth');
+  }
+  return null;
+}
+````
+````
+````
 
 
 
@@ -7029,7 +7055,7 @@ You can reach the form although you are n
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1MTQ0Nzk0LDU2MzQ0NDg2MCwtMTI5OD
+eyJoaXN0b3J5IjpbNzE5NjM1NjMzLDU2MzQ0NDg2MCwtMTI5OD
 MyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQy
 MDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NT
 IsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1
