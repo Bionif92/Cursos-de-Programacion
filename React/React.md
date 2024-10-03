@@ -7073,6 +7073,45 @@ const resData = await response.json();
   localStorage.setItem('expiration', expiration.toISOString());
 ````
 ````
+//util/auth.js
+import { redirect } from 'react-router-dom';
+
+--export function getTokenDuration() {
+  const storedExpirationDate = localStorage.getItem('expiration');
+  const expirationDate = new Date(storedExpirationDate);
+  const now = new Date();
+  const duration = expirationDate.getTime() - now.getTime();
+  return duration;
+}
+
+export function getAuthToken() {
+  const token = localStorage.getItem('token');
+
+  if (!token) {
+    return null;
+  }
+
+  const tokenDuration = getTokenDuration();
+
+  if (tokenDuration < 0) {
+    return 'EXPIRED';
+  }
+
+  return token;
+}
+
+export function tokenLoader() {
+  const token = getAuthToken();
+  return token;
+}
+
+export function checkAuthLoader() {
+  const token = getAuthToken();
+
+  if (!token) {
+    return redirect('/auth');
+  }
+}
 ````
 
 ````
@@ -7121,11 +7160,11 @@ export default RootLayout;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Mzc2NzU1MywxMTkxNjMzMTEzLDU2Mz
-Q0NDg2MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5
-MTk3MSwtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NT
-ExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2
-MjUwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05ODc4Nj
-Q2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3MTYy
-NiwtMTA3MTQ2MzA3NF19
+eyJoaXN0b3J5IjpbLTc1MzEzNjI4LDExOTE2MzMxMTMsNTYzND
+Q0ODYwLC0xMjk4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkx
+OTcxLC0xMTczNDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5MDY1MT
+EsLTU1Mjg2Mjg1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMzYsMTYy
+NTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2ND
+Y5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNjI2
+LC0xMDcxNDYzMDc0XX0=
 -->
