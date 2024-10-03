@@ -6768,23 +6768,26 @@ export async function action({ request }) {
     throw json({ message: 'Could not authenticate user.' }, { status: 500 });
   }
 
-  -const resData = await response.json();
-  -const token = resData.token;
+  --const resData = await response.json();
+  --const token = resData.token;
 
-  -localStorage.setItem('token', token);
+  --localStorage.setItem('token', token);
 
   return redirect('/');
 }
+````
+````
+//util/auth
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjgwMjU5MjUsLTEyOTgzMjYyMzAsLT
-E1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0MjA5OTYsLTE2
-OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyODUyLDM2NDU2OD
-gwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4NTcyNTEzNTEs
-MTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4NjU3NTk4MDgsLTE5OD
-M5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNzE0NjMwNzQsMTI4OTA5
-NjU5Nyw1OTk2NzY1ODZdfQ==
+eyJoaXN0b3J5IjpbLTYxODc0OTgxLC0xMjk4MzI2MjMwLC0xNT
+M4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTczNDIwOTk2LC0xNjk2
+MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Njg4MD
+UsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEw
+NzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOT
+M4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1
+OTcsNTk5Njc2NTg2XX0=
 -->
