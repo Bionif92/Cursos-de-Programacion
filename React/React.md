@@ -6624,16 +6624,59 @@ export default AuthForm;
 
 Create the action to send the user
 ````
-//a
+//authentication.js
+import { json, redirect } from 'react-router-dom';
+
+import AuthForm from '../components/AuthForm';
+
+function AuthenticationPage() {
+  return <AuthForm />;
+}
+
+export default AuthenticationPage;
+
+--export async function action({ request }) {
+  const searchParams = new URL(request.url).searchParams;
+  const mode = searchParams.get('mode') || 'login';
+
+  if (mode !== 'login' && mode !== 'signup') {
+    throw json({ message: 'Unsupported mode.' }, { status: 422 });
+  }
+
+  const data = await request.formData();
+  const authData = {
+    email: data.get('email'),
+    password: data.get('password'),
+  };
+
+  const response = await fetch('http://localhost:8080/' + mode, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(authData),
+  });
+
+  if (response.status === 422 || response.status === 401) {
+    return response;
+  }
+
+  if (!response.ok) {
+    throw json({ message: 'Could not authenticate user.' }, { status: 500 });
+  }
+
+  // soon: manage that token
+  return redirect('/');
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODQyNjY0LC0xNDAyNzkxOTcxLC0xMT
-czNDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2
-Mjg1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NC
-wxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1
-NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxND
-YzMDc0LDEyODkwOTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwx
-OTkyNDA3Nzg5XX0=
+eyJoaXN0b3J5IjpbLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLT
+ExNzM0MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUy
+ODYyODUyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nz
+g0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4
+NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNz
+E0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3Mjgw
+LDE5OTI0MDc3ODldfQ==
 -->
