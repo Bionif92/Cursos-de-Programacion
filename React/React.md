@@ -6411,9 +6411,10 @@ function NewsletterSignup() {
 export default NewsletterSignup;
 ````
 With Form you will move to the page after submition
+Can use fetcher.(data, load, state,action,etc)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzU1NTcwNCwxODY1NzU5ODA4LC0xOT
+eyJoaXN0b3J5IjpbLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOT
 gzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkw
 OTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LD
 k5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3
