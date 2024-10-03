@@ -6055,6 +6055,9 @@ export async function loader({ request, params }) {
 
 ### Updating the UI State Based on the Submission Status
 
+useNavigate -- To move to a different part of the route
+useNavigation -- current state of the transition we are
+
 ````
 import { Form, useNavigate, useNavigation } from 'react-router-dom';
 
@@ -6129,11 +6132,11 @@ export default EventForm;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMD
-U3MjgwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwx
-OTkxMjgwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1ND
-QzMTc0LDQxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAs
-LTEyMzYxNDE4NDgsOTcyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mj
-k3MjkyNTEsMTAyMDEzNjMzLDYxMzUxMTUyOSwtMTQyNDQxNDY2
-N119
+eyJoaXN0b3J5IjpbLTE1ODIyMTQ4MCwxMjg5MDk2NTk3LDU5OT
+Y3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIs
+NTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4Nz
+U4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3OTQ3Nywt
+MTMwMDMyODU3MCwtMTIzNjE0MTg0OCw5NzI3MzI1MywtMTI5Mz
+U4MTQzNSwtMTcyOTcyOTI1MSwxMDIwMTM2MzMsNjEzNTExNTI5
+XX0=
 -->
