@@ -6673,7 +6673,7 @@ export default AuthenticationPage;
 ### Validating User Input & Outputting Validation Errors
 
 useActionData to output errors
-useNavigation to know in wtih stage we are, 
+useNavigation to know in wtih stage we are, to disable the button here
 ````
 //authform.js
 import {
@@ -6730,13 +6730,15 @@ function AuthForm() {
 export default AuthForm;
 ````
 
+### Adding User Login
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcxNDM3MzQ2LC0xNTM4MjAyNzc4LC0xND
-AyNzkxOTcxLC0xMTczNDIwOTk2LC0xNjk2MTIwNTIzLDEwNTA5
-MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Njg4MDUsLTEwMDUyNDIwMz
-YsMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEwNzI1ODc0NTUsLTk4
-Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4NTk3LC0xNDkxOD
-cxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OTcsNTk5Njc2NTg2
-LDM0MjA1NzI4MF19
+eyJoaXN0b3J5IjpbLTEyOTgzMjYyMzAsLTE1MzgyMDI3NzgsLT
+E0MDI3OTE5NzEsLTExNzM0MjA5OTYsLTE2OTYxMjA1MjMsMTA1
+MDkwNjUxMSwtNTUyODYyODUyLDM2NDU2ODgwNSwtMTAwNTI0Mj
+AzNiwxNjI1MDY1Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwt
+OTg3ODY0Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OT
+E4NzE2MjYsLTEwNzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1
+ODYsMzQyMDU3MjgwXX0=
 -->
