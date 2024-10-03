@@ -6156,20 +6156,100 @@ const response = await fetch('http://localhost:8080/events', {
   return redirect('/events');
 }
 ````
-
+New hook: useActionData
 ````
-
 //eventforn.js
+import {
+  Form,
+  useNavigate,
+  useNavigation,
+  --useActionData,
+} from 'react-router-dom';
 
+import classes from './EventForm.module.css';
+
+function EventForm({ method, event }) {
+  --const data = useActionData();
+  const navigate = useNavigate();
+  const navigation = useNavigation();
+
+  const isSubmitting = navigation.state === 'submitting';
+
+  function cancelHandler() {
+    navigate('..');
+  }
+
+  return (
+    <Form method="post" className={classes.form}>
+      {data && data.errors && (
+        <ul>
+          {Object.values(data.errors).map((err) => (
+            <li key={err}>{err}</li>
+          ))}
+        </ul>
+      )}
+      <p>
+        <label htmlFor="title">Title</label>
+        <input
+          id="title"
+          type="text"
+          name="title"
+          required
+          defaultValue={event ? event.title : ''}
+        />
+      </p>
+      <p>
+        <label htmlFor="image">Image</label>
+        <input
+          id="image"
+          type="url"
+          name="image"
+          required
+          defaultValue={event ? event.image : ''}
+        />
+      </p>
+      <p>
+        <label htmlFor="date">Date</label>
+        <input
+          id="date"
+          type="date"
+          name="date"
+          required
+          defaultValue={event ? event.date : ''}
+        />
+      </p>
+      <p>
+        <label htmlFor="description">Description</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          required
+          defaultValue={event ? event.description : ''}
+        />
+      </p>
+      <div className={classes.actions}>
+        <button type="button" onClick={cancelHandler} disabled={isSubmitting}>
+          Cancel
+        </button>
+        <button disabled={isSubmitting}>
+          {isSubmitting ? 'Submitting...' : 'Save'}
+        </button>
+      </div>
+    </Form>
+  );
+}
+
+export default EventForm;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5MTcyOTcyLC0xMDcxNDYzMDc0LDEyOD
-kwOTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5
-LDk5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNj
-U3OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEs
-NzgyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3Mj
-czMjUzLC0xMjkzNTgxNDM1LC0xNzI5NzI5MjUxLDEwMjAxMzYz
-M119
+eyJoaXN0b3J5IjpbLTE4MDEyMzE4MzksLTEwNzE0NjMwNzQsMT
+I4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3MjgwLDE5OTI0MDc3
+ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMjgwNTU0LC03OD
+A2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LDQxMTYzMDUw
+MSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMzYxNDE4NDgsOT
+cyNzMyNTMsLTEyOTM1ODE0MzUsLTE3Mjk3MjkyNTEsMTAyMDEz
+NjMzXX0=
 -->
