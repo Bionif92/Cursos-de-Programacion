@@ -6670,13 +6670,72 @@ export default AuthenticationPage;
 }
 ````
 
+### Validating User Input & Outputting Validation Errors
+
+
+````
+//authform.js
+import {
+  Form,
+  Link,
+  useSearchParams,
+  useActionData,
+  useNavigation,
+} from 'react-router-dom';
+
+import classes from './AuthForm.module.css';
+
+function AuthForm() {
+  const data = useActionData();
+  const navigation = useNavigation();
+
+  const [searchParams] = useSearchParams();
+  const isLogin = searchParams.get('mode') === 'login';
+  const isSubmitting = navigation.state === 'submitting';
+
+  return (
+    <>
+      <Form method="post" className={classes.form}>
+        <h1>{isLogin ? 'Log in' : 'Create a new user'}</h1>
+        {data && data.errors && (
+          <ul>
+            {Object.values(data.errors).map((err) => (
+              <li key={err}>{err}</li>
+            ))}
+          </ul>
+        )}
+        {data && data.message && <p>{data.message}</p>}
+        <p>
+          <label htmlFor="email">Email</label>
+          <input id="email" type="email" name="email" required />
+        </p>
+        <p>
+          <label htmlFor="image">Password</label>
+          <input id="password" type="password" name="password" required />
+        </p>
+        <div className={classes.actions}>
+          <Link to={`?mode=${isLogin ? 'signup' : 'login'}`}>
+            {isLogin ? 'Create new user' : 'Login'}
+          </Link>
+          <button disabled={isSubmitting}>
+            {isSubmitting ? 'Submitting...' : 'Save'}
+          </button>
+        </div>
+      </Form>
+    </>
+  );
+}
+
+export default AuthForm;
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLT
-ExNzM0MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUy
-ODYyODUyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nz
-g0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4
-NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNz
-E0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3Mjgw
-LDE5OTI0MDc3ODldfQ==
+eyJoaXN0b3J5IjpbMjA5Mjc5NDc4OCwtMTUzODIwMjc3OCwtMT
+QwMjc5MTk3MSwtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUw
+OTA2NTExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0xMDA1MjQyMD
+M2LDE2MjUwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05
+ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MT
+g3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4
+NiwzNDIwNTcyODBdfQ==
 -->
