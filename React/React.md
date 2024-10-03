@@ -6577,15 +6577,15 @@ Authentication is needed if content should be protected
 Start with request with credentials, and get a response with access granted or denied
 A yes alone is not enough, can use:
 
- - Server-side Sessions - popular in fullstack, store unique ide
+ - Server-side Sessions - popular in fullstack, store unique identifier on serrver, send some identifier to client
  - Authentication Tokens
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTM2NjQ2NywtMTAwNTI0MjAzNiwxNj
-I1MDY1Nzg0LDE4NTcyNTEzNTEsMTA3MjU4NzQ1NSwtOTg3ODY0
-Njk4LDE4NjU3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2Mj
-YsLTEwNzE0NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQy
-MDU3MjgwLDE5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNi
-wxOTkxMjgwNTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1
-NDQzMTc0XX0=
+eyJoaXN0b3J5IjpbMzY0NTY4ODA1LC0xMDA1MjQyMDM2LDE2Mj
+UwNjU3ODQsMTg1NzI1MTM1MSwxMDcyNTg3NDU1LC05ODc4NjQ2
+OTgsMTg2NTc1OTgwOCwtMTk4MzkzODU5NywtMTQ5MTg3MTYyNi
+wtMTA3MTQ2MzA3NCwxMjg5MDk2NTk3LDU5OTY3NjU4NiwzNDIw
+NTcyODAsMTk5MjQwNzc4OSw5OTIxNDY2NzIsNTcwMTAwNzA2LD
+E5OTEyODA1NTQsLTc4MDY1Nzk2LDE0NTI4NzU4MjIsLTEyNDU0
+NDMxNzRdfQ==
 -->
