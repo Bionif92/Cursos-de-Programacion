@@ -6777,17 +6777,27 @@ export async function action({ request }) {
 }
 ````
 ````
-//util/auth
+//util/auth.js
+export function getAuthToken() {
+  const token = localStorage.getItem('token');
+  return token;
+}
+````
+Now we can use the token:
+````
+//eve
 ````
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODc0OTgxLC0xMjk4MzI2MjMwLC0xNT
-M4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTczNDIwOTk2LC0xNjk2
-MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Njg4MD
-UsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEw
-NzI1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOT
-M4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1
-OTcsNTk5Njc2NTg2XX0=
+eyJoaXN0b3J5IjpbMjAwOTkyNDgwOCwtMTI5ODMyNjIzMCwtMT
+UzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQyMDk5NiwtMTY5
+NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NTIsMzY0NTY4OD
+A1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1NzI1MTM1MSwx
+MDcyNTg3NDU1LC05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4Mz
+kzODU5NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2
+NTk3LDU5OTY3NjU4Nl19
 -->
