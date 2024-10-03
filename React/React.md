@@ -6413,12 +6413,20 @@ export default NewsletterSignup;
 With Form you will move to the page after submition
 Can use fetcher.(data, load, state,action,etc)
 
+### Deferring Data Fetching with defer()
+
+Defer=Postpone
+
+````
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOT
-gzOTM4NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkw
-OTY1OTcsNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LD
-k5MjE0NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3
-OTYsMTQ1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNz
-gyMDc5NDc3LC0xMzAwMzI4NTcwLC0xMjM2MTQxODQ4LDk3Mjcz
-MjUzXX0=
+eyJoaXN0b3J5IjpbMTA3MjU4NzQ1NSwtOTg3ODY0Njk4LDE4Nj
+U3NTk4MDgsLTE5ODM5Mzg1OTcsLTE0OTE4NzE2MjYsLTEwNzE0
+NjMwNzQsMTI4OTA5NjU5Nyw1OTk2NzY1ODYsMzQyMDU3MjgwLD
+E5OTI0MDc3ODksOTkyMTQ2NjcyLDU3MDEwMDcwNiwxOTkxMjgw
+NTU0LC03ODA2NTc5NiwxNDUyODc1ODIyLC0xMjQ1NDQzMTc0LD
+QxMTYzMDUwMSw3ODIwNzk0NzcsLTEzMDAzMjg1NzAsLTEyMzYx
+NDE4NDhdfQ==
 -->
