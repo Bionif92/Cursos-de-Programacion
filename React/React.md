@@ -6921,7 +6921,7 @@ export function action() {
       },
       --{
         path: 'logout',
-        action: logoutAction, // whit
+        action: logoutAction, // without element
       },
 
 ````
@@ -6931,7 +6931,7 @@ export function action() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5Mjc1MDYyNyw1NjM0NDQ4NjAsLTEyOT
+eyJoaXN0b3J5IjpbMTYyNzg4NzM4NSw1NjM0NDQ4NjAsLTEyOT
 gzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0
 MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyOD
 UyLDM2NDU2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4
