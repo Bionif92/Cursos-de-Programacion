@@ -6545,7 +6545,7 @@ export async function loader({ request, params }) {
   const id = params.eventId;
 
   return defer({ // two loaders
-    event: await loadEvent(id),
+    event: await loadEvent(id), //wait this data to load, if you want
     events: loadEvents(),
   });
 }
@@ -6570,11 +6570,11 @@ export async function action({ params, request }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTI1MDAwMjAsMTg1NzI1MTM1MSwxMD
-cyNTg3NDU1LC05ODc4NjQ2OTgsMTg2NTc1OTgwOCwtMTk4Mzkz
-ODU5NywtMTQ5MTg3MTYyNiwtMTA3MTQ2MzA3NCwxMjg5MDk2NT
-k3LDU5OTY3NjU4NiwzNDIwNTcyODAsMTk5MjQwNzc4OSw5OTIx
-NDY2NzIsNTcwMTAwNzA2LDE5OTEyODA1NTQsLTc4MDY1Nzk2LD
-E0NTI4NzU4MjIsLTEyNDU0NDMxNzQsNDExNjMwNTAxLDc4MjA3
-OTQ3N119
+eyJoaXN0b3J5IjpbMTYyNTA2NTc4NCwxODU3MjUxMzUxLDEwNz
+I1ODc0NTUsLTk4Nzg2NDY5OCwxODY1NzU5ODA4LC0xOTgzOTM4
+NTk3LC0xNDkxODcxNjI2LC0xMDcxNDYzMDc0LDEyODkwOTY1OT
+csNTk5Njc2NTg2LDM0MjA1NzI4MCwxOTkyNDA3Nzg5LDk5MjE0
+NjY3Miw1NzAxMDA3MDYsMTk5MTI4MDU1NCwtNzgwNjU3OTYsMT
+Q1Mjg3NTgyMiwtMTI0NTQ0MzE3NCw0MTE2MzA1MDEsNzgyMDc5
+NDc3XX0=
 -->
