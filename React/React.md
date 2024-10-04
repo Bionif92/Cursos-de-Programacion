@@ -7257,12 +7257,66 @@ Install
 npm install@tanstack/react-query
 ````
 
+````
+//neweventsection.jsx
+import { useQuery } from '@tanstack/react-query';
+
+import LoadingIndicator from '../UI/LoadingIndicator.jsx';
+import ErrorBlock from '../UI/ErrorBlock.jsx';
+import EventItem from './EventItem.jsx';
+import { fetchEvents } from '../../util/http.js';
+
+export default function NewEventsSection() {
+  const { data, isPending, isError, error } = useQuery({
+    queryKey: ['events'],
+    queryFn: fetchEvents,
+  });
+
+  let content;
+
+  if (isPending) {
+    content = <LoadingIndicator />;
+  }
+
+  if (isError) {
+    content = (
+      <ErrorBlock
+        title="An error occurred"
+        message={error.info?.message || 'Failed to fetch events.'}
+      />
+    );
+  }
+
+  if (data) {
+    content = (
+      <ul className="events-list">
+        {data.map((event) => (
+          <li key={event.id}>
+            <EventItem event={event} />
+          </li>
+        ))}
+      </ul>
+    );
+  }
+
+  return (
+    <section className="content-section" id="new-events-section">
+      <header>
+        <h2>Recently added events</h2>
+      </header>
+      {content}
+    </section>
+  );
+}
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMz
-UyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwt
-MTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OT
-gwLC0xNDI2MzAwOTI2LC0xODQ1MDAwMDUyLC03NjgxNDAwNTYs
-OTc1MTYxNzA3LC0xMDExMjAzMDM2LDExOTE2MzMxMTMsNTYzND
-Q0ODYwLC0xMjk4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkx
-OTcxXX0=
+eyJoaXN0b3J5IjpbMjA4MjE5Mzg4MywtNjY1NzgwODksNDE0Nz
+g3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAs
+NjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxND
+Y5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIs
+LTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MT
+YzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3
+NzhdfQ==
 -->
