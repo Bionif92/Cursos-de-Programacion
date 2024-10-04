@@ -7184,7 +7184,7 @@ And for the use in the app.js:
 loader: () => import('./pages/Blog').then((module) => module.loader())
 ````
 
-And the element:
+And the element in app.js:
 ````
  element: (
               <Suspense fallback={<p>Loading...</p>}>
@@ -7194,11 +7194,11 @@ And the element:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDQxODkwMSwtMTQyNjMwMDkyNiwtMT
-g0NTAwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIw
-MzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2MCwtMTI5ODMyNjIzMC
-wtMTUzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQyMDk5Niwt
-MTY5NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NTIsMzY0NT
-Y4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1NzI1MTM1
-MSwxMDcyNTg3NDU1XX0=
+eyJoaXN0b3J5IjpbNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
+UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
+MzYsMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzAsLT
+E1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0MjA5OTYsLTE2
+OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyODUyLDM2NDU2OD
+gwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4NTcyNTEzNTEs
+MTA3MjU4NzQ1NV19
 -->
