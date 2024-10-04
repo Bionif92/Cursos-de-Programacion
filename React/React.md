@@ -7181,17 +7181,16 @@ const BlogPage = lazy(() => import('./pages/Blog'));
 
 And for the use in the app.js:
 ````
-loader: () =>
-              import('./pages/Blog').then((module) => module.loader())
+loader: () => import('./pages/Blog').then((module) => module.loader())
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzYxMjU2MiwtMTQyNjMwMDkyNiwtMT
-g0NTAwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIw
-MzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2MCwtMTI5ODMyNjIzMC
-wtMTUzODIwMjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQyMDk5Niwt
-MTY5NjEyMDUyMywxMDUwOTA2NTExLC01NTI4NjI4NTIsMzY0NT
-Y4ODA1LC0xMDA1MjQyMDM2LDE2MjUwNjU3ODQsMTg1NzI1MTM1
-MSwxMDcyNTg3NDU1XX0=
+eyJoaXN0b3J5IjpbMjQ5MDAyNjEyLC0xNDI2MzAwOTI2LC0xOD
+Q1MDAwMDUyLC03NjgxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAz
+MDM2LDExOTE2MzMxMTMsNTYzNDQ0ODYwLC0xMjk4MzI2MjMwLC
+0xNTM4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTczNDIwOTk2LC0x
+Njk2MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Nj
+g4MDUsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwxODU3MjUxMzUx
+LDEwNzI1ODc0NTVdfQ==
 -->
