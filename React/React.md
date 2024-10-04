@@ -7326,15 +7326,70 @@ export async function fetchEvents() {
   return events;
 }
 ````
+Need to wrap the app for query:
+````
+//app.jsx
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from 'react-router-dom';
+--import { QueryClientProvider, QueryClient } from '@tanstack/react-query';
+
+import Events from './components/Events/Events.jsx';
+import EventDetails from './components/Events/EventDetails.jsx';
+import NewEvent from './components/Events/NewEvent.jsx';
+import EditEvent from './components/Events/EditEvent.jsx';
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Navigate to="/events" />,
+  },
+  {
+    path: '/events',
+    element: <Events />,
+
+    children: [
+      {
+        path: '/events/new',
+        element: <NewEvent />,
+      },
+    ],
+  },
+  {
+    path: '/events/:id',
+    element: <EventDetails />,
+    children: [
+      {
+        path: '/events/:id/edit',
+        element: <EditEvent />,
+      },
+    ],
+  },
+]);
+
+const queryClient = new QueryClient();
+
+function App() {
+  return (
+    --<QueryClientProvider client={queryClient}>
+      <RouterProvider router={router} />
+    </QueryClientProvider>
+  );
+}
+
+export default App;
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTIzNTUxNywtNjY1NzgwODksNDE0Nz
-g3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAs
-NjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxND
-Y5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIs
-LTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MT
-YzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3
-NzhdfQ==
+eyJoaXN0b3J5IjpbMzI4NjQyNzQsMTk4MTIzNTUxNywtNjY1Nz
+gwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwz
+MTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMT
+M4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4
+NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMD
+MwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzBd
+fQ==
 -->
