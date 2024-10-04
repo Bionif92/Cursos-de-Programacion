@@ -7154,7 +7154,7 @@ export default RootLayout;
 
 ## Deploying React Apps
 
-
+From Development to Production
 
 
 
@@ -7164,7 +7164,7 @@ export default RootLayout;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTY1NDgyNCw5NzUxNjE3MDcsLTEwMT
+eyJoaXN0b3J5IjpbLTIzNDA5Nzg2Nyw5NzUxNjE3MDcsLTEwMT
 EyMDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYy
 MzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0MjA5OT
 YsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyODUyLDM2
