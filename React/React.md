@@ -7369,7 +7369,7 @@ const router = createBrowserRouter([
   },
 ]);
 
-const queryClient = new QueryClient();
+--const queryClient = new QueryClient();
 
 function App() {
   return (
@@ -7385,11 +7385,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI4NjQyNzQsMTk4MTIzNTUxNywtNjY1Nz
-gwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwz
-MTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMT
-M4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4
-NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMD
-MwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzBd
-fQ==
+eyJoaXN0b3J5IjpbMTQyMzc4MjMyMiwxOTgxMjM1NTE3LC02Nj
+U3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1Nzgx
+LDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczOD
+MxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwt
+MTg0NTAwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMT
+IwMzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2MCwtMTI5ODMyNjIz
+MF19
 -->
