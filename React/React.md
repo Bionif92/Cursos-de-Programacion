@@ -7158,17 +7158,14 @@ From Development to Production
 
 ### Deployment Steps
 
+Steps:
 
-
-
-
-
-
-
-
+ - Test your Code
+ - Optimize your Code
+ - Build App for Production
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDk3ODEwOCwtNzY4MTQwMDU2LDk3NT
+eyJoaXN0b3J5IjpbMTk3MTI0NjcxNiwtNzY4MTQwMDU2LDk3NT
 E2MTcwNywtMTAxMTIwMzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2
 MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MS
 wtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01
