@@ -7212,13 +7212,15 @@ Build/Hosting/Get Started - follow the steps
 
 ### Server-side Routing & Required Configuration
 
+If you configure as a single page app when deploying firebase, you enable client side routing (can search /something in the url) 
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3Mz
-gzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYs
-LTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMT
-EyMDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYy
-MzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0MjA5OT
-YsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyODUyLDM2
-NDU2ODgwNV19
+eyJoaXN0b3J5IjpbLTE5NzYxMTk0NDcsNjY2ODIzODQxLC0xNz
+UxMzcxMDYyLDk3MzgzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAs
+LTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5Nz
+UxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4
+NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5Nz
+EsLTExNzM0MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwt
+NTUyODYyODUyXX0=
 -->
