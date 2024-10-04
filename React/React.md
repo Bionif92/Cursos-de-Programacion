@@ -7163,9 +7163,10 @@ Steps:
  - Test your Code
  - Optimize your Code
  - Build App for Production
+ - Upload the app to a server
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3MTI0NjcxNiwtNzY4MTQwMDU2LDk3NT
+eyJoaXN0b3J5IjpbLTgyMDg0MDAwNywtNzY4MTQwMDU2LDk3NT
 E2MTcwNywtMTAxMTIwMzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2
 MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MS
 wtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01
