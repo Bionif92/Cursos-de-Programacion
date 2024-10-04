@@ -7212,15 +7212,37 @@ Build/Hosting/Get Started - follow the steps
 
 ### Server-side Routing & Required Configuration
 
-If you configure as a single page app when deploying firebase, you enable client side routing (can search /something in the url) 
+If you configure as a single page app when deploying firebase, you enable client side routing (can search /something in the url)
+
+Important, not all the servers will ask you this question, yo have to write it yourself 
+````
+//firebase.json
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [ // this part
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzYxMTk0NDcsNjY2ODIzODQxLC0xNz
-UxMzcxMDYyLDk3MzgzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAs
-LTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5Nz
-UxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4
-NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3NzgsLTE0MDI3OTE5Nz
-EsLTExNzM0MjA5OTYsLTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwt
-NTUyODYyODUyXX0=
+eyJoaXN0b3J5IjpbMTU0NTEzMTkxOSw2NjY4MjM4NDEsLTE3NT
+EzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwt
+MTQyNjMwMDkyNiwtMTg0NTAwMDA1MiwtNzY4MTQwMDU2LDk3NT
+E2MTcwNywtMTAxMTIwMzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2
+MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5MTk3MS
+wtMTE3MzQyMDk5NiwtMTY5NjEyMDUyMywxMDUwOTA2NTExLC01
+NTI4NjI4NTJdfQ==
 -->
