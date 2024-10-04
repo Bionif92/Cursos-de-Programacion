@@ -7245,14 +7245,16 @@ A library that helps with sending HTTP request & keeping your front end
 Helps you simplify your code
 
 With useEffect and fetch you can not refresh the data
+Save the fetched data in the localstore- you cant without query
 
+Use TansStack Que
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzMzMjE3NCw0MTQ3ODc4NzUsLTgxMz
-M1MjQwOSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEs
-LTE3NTEzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5OSw2ODA1ND
-k4MCwtMTQyNjMwMDkyNiwtMTg0NTAwMDA1MiwtNzY4MTQwMDU2
-LDk3NTE2MTcwNywtMTAxMTIwMzAzNiwxMTkxNjMzMTEzLDU2Mz
-Q0NDg2MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3OCwtMTQwMjc5
-MTk3MV19
+eyJoaXN0b3J5IjpbNDk5NjI3MzMxLDQxNDc4Nzg3NSwtODEzMz
+UyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwt
+MTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OT
+gwLC0xNDI2MzAwOTI2LC0xODQ1MDAwMDUyLC03NjgxNDAwNTYs
+OTc1MTYxNzA3LC0xMDExMjAzMDM2LDExOTE2MzMxMTMsNTYzND
+Q0ODYwLC0xMjk4MzI2MjMwLC0xNTM4MjAyNzc4LC0xNDAyNzkx
+OTcxXX0=
 -->
