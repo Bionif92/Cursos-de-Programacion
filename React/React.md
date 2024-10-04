@@ -7172,17 +7172,22 @@ Load certain pieces of the code only when it is needed
 
 Instead of:
 ````
-// import BlogPage, { loader as postsLoader } from './pages/Blog';
+import BlogPage, { loader as postsLoader } from './pages/Blog';
 ````
-Put this
+Put this:
+````
+const BlogPage = lazy(() => import('./pages/Blog'));
+````
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODQ1OTI0LC0xNDI2MzAwOTI2LC0xOD
-Q1MDAwMDUyLC03NjgxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAz
-MDM2LDExOTE2MzMxMTMsNTYzNDQ0ODYwLC0xMjk4MzI2MjMwLC
-0xNTM4MjAyNzc4LC0xNDAyNzkxOTcxLC0xMTczNDIwOTk2LC0x
-Njk2MTIwNTIzLDEwNTA5MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Nj
-g4MDUsLTEwMDUyNDIwMzYsMTYyNTA2NTc4NCwxODU3MjUxMzUx
-LDEwNzI1ODc0NTVdfQ==
+eyJoaXN0b3J5IjpbLTE5ODM3MDcyNjcsLTE0MjYzMDA5MjYsLT
+E4NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEy
+MDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMz
+AsLTE1MzgyMDI3NzgsLTE0MDI3OTE5NzEsLTExNzM0MjA5OTYs
+LTE2OTYxMjA1MjMsMTA1MDkwNjUxMSwtNTUyODYyODUyLDM2ND
+U2ODgwNSwtMTAwNTI0MjAzNiwxNjI1MDY1Nzg0LDE4NTcyNTEz
+NTEsMTA3MjU4NzQ1NV19
 -->
