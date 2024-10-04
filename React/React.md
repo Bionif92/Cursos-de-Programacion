@@ -7247,10 +7247,18 @@ Helps you simplify your code
 With useEffect and fetch you can not refresh the data
 Save the fetched data in the localstore- you cant without query
 
-Use TansStack Que
+Use TansStack Query library
+
+### Installing & Using Tanstack Query
+
+Install
+````
+//terminal
+npm install@tanstack/react-query
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk5NjI3MzMxLDQxNDc4Nzg3NSwtODEzMz
+eyJoaXN0b3J5IjpbLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMz
 UyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwt
 MTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OT
 gwLC0xNDI2MzAwOTI2LC0xODQ1MDAwMDUyLC03NjgxNDAwNTYs
