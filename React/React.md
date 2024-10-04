@@ -7206,15 +7206,16 @@ Create build foulder, that the one to deploy in the server
 The React Single Page Application is a Static Website (only HTML,CSS,JS)-  A static host is needed
 
 He use Firebase hosting
-Log in goo
+Log in with google account
+Create a project without google analytics
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTM0NzE4NDEsOTczODMxMzgwLDEyMD
-E0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwtMTg0NTAwMDA1
-MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIwMzAzNiwxMT
-kxNjMzMTEzLDU2MzQ0NDg2MCwtMTI5ODMyNjIzMCwtMTUzODIw
-Mjc3OCwtMTQwMjc5MTk3MSwtMTE3MzQyMDk5NiwtMTY5NjEyMD
-UyMywxMDUwOTA2NTExLC01NTI4NjI4NTIsMzY0NTY4ODA1LC0x
-MDA1MjQyMDM2XX0=
+eyJoaXN0b3J5IjpbMTMxODYwMzk5MSw5NzM4MzEzODAsMTIwMT
+Q2OTk5LDY4MDU0OTgwLC0xNDI2MzAwOTI2LC0xODQ1MDAwMDUy
+LC03NjgxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAzMDM2LDExOT
+E2MzMxMTMsNTYzNDQ0ODYwLC0xMjk4MzI2MjMwLC0xNTM4MjAy
+Nzc4LC0xNDAyNzkxOTcxLC0xMTczNDIwOTk2LC0xNjk2MTIwNT
+IzLDEwNTA5MDY1MTEsLTU1Mjg2Mjg1MiwzNjQ1Njg4MDUsLTEw
+MDUyNDIwMzZdfQ==
 -->
