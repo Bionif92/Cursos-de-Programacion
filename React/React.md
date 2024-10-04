@@ -7268,7 +7268,7 @@ import { fetchEvents } from '../../util/http.js';
 
 export default function NewEventsSection() {
   --const { data, isPending, isError, error } = useQuery({
-    queryKey: ['events'],
+    queryKey: ['events'], // can use the data again
     queryFn: fetchEvents, // need to return a promise
   });
 
@@ -7330,11 +7330,11 @@ export async function fetchEvents() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc1NjQ3NTc5LC02NjU3ODA4OSw0MTQ3OD
-c4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2
-NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgwLDEyMDE0Nj
-k5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwtMTg0NTAwMDA1Miwt
-NzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIwMzAzNiwxMTkxNj
-MzMTEzLDU2MzQ0NDg2MCwtMTI5ODMyNjIzMCwtMTUzODIwMjc3
-OF19
+eyJoaXN0b3J5IjpbMTk4MTIzNTUxNywtNjY1NzgwODksNDE0Nz
+g3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAs
+NjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxND
+Y5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIs
+LTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MT
+YzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3
+NzhdfQ==
 -->
