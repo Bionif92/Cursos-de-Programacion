@@ -7310,13 +7310,27 @@ export default function NewEventsSection() {
 }
 ````
 ````
-//util/h
+//util/http.js
+export async function fetchEvents() {
+  const response = await fetch('http://localhost:3000/events');
+
+  if (!response.ok) {
+    const error = new Error('An error occurred while fetching the events');
+    error.code = response.status;
+    error.info = await response.json();
+    throw error;
+  }
+
+  const { events } = await response.json();
+
+  return events;
+}
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjA3NjY4MCwtNjY1NzgwODksNDE0Nz
+eyJoaXN0b3J5IjpbMTkzODU4MjY1OCwtNjY1NzgwODksNDE0Nz
 g3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAs
 NjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxND
 Y5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIs
