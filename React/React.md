@@ -7259,7 +7259,7 @@ npm install@tanstack/react-query
 
 ````
 //neweventsection.jsx
-import { useQuery } from '@tanstack/react-query';
+--import { useQuery } from '@tanstack/react-query';
 
 import LoadingIndicator from '../UI/LoadingIndicator.jsx';
 import ErrorBlock from '../UI/ErrorBlock.jsx';
@@ -7267,7 +7267,7 @@ import EventItem from './EventItem.jsx';
 import { fetchEvents } from '../../util/http.js';
 
 export default function NewEventsSection() {
-  const { data, isPending, isError, error } = useQuery({
+  --const { data, isPending, isError, error } = useQuery({
     queryKey: ['events'],
     queryFn: fetchEvents,
   });
@@ -7330,11 +7330,11 @@ export async function fetchEvents() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODU4MjY1OCwtNjY1NzgwODksNDE0Nz
-g3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAs
-NjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxND
-Y5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIs
-LTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MT
-YzMzExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3
-NzhdfQ==
+eyJoaXN0b3J5IjpbMTM1NzMxNCwtNjY1NzgwODksNDE0Nzg3OD
+c1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2
+ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxNDY5OT
+ksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMDAwNTIsLTc2
+ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzYsMTE5MTYzMz
+ExMyw1NjM0NDQ4NjAsLTEyOTgzMjYyMzAsLTE1MzgyMDI3Nzhd
+fQ==
 -->
