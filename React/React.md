@@ -7620,7 +7620,7 @@ export default function NewEvent() {
   const { mutate, isPending, isError, error } = useMutation({
     mutationFn: createNewEvent,
     --onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['events'] });
+      queryClient.invalidateQueries({ queryKey: ['events'] }); // for re fetch
       navigate('/events');
     },
   });
@@ -7659,11 +7659,11 @@ export default function NewEvent() {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODAxMzU1LDE4NTk0MDA2MzQsMTA3NT
-UxMjUwOSwtMTE4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1
-MTcsLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04Nz
-I5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MTM3MTA2
-Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OTgwLC0xNDI2Mz
-AwOTI2LC0xODQ1MDAwMDUyLC03NjgxNDAwNTYsOTc1MTYxNzA3
-XX0=
+eyJoaXN0b3J5IjpbLTE5NTUzMDMyMTUsMTg1OTQwMDYzNCwxMD
+c1NTEyNTA5LC0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIz
+NTUxNywtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLT
+g3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcx
+MDYyLDk3MzgzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0Mj
+YzMDA5MjYsLTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3
+MDddfQ==
 -->
