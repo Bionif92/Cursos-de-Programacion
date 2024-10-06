@@ -7957,19 +7957,36 @@ export async function fetchEvents({ signal, searchTerm, max }) {
 }
 ````
 
-###
+### React Query & React Router
 
+````
+//editevent.jsx
+export function loader({ params }) {
+  return queryClient.fetchQuery({
+    queryKey: ['events', params.id],
+    queryFn: ({ signal }) => fetchEvent({ signal, id: params.id }),
+  });
+}
+
+export async function action({ request, params }) {
+  const formData = await request.formData();
+  const updatedEventData = Object.fromEntries(formData);
+  await updateEvent({ id: params.id, event: updatedEventData });
+  await queryClient.invalidateQueries(['events']);
+  return redirect('../');
+}
 ````
 
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDU4MTUxNiw1NzAwMjI4MzcsODU0OT
-k1OTU1LC0xNTExODE5ODIxLC0xMjg5Mzc0NzYzLC0xMzk5MDI2
-OTUsMzgxMzYyNTE3LDE0MDU3NDQzNTMsLTE3MDY4Mzk4ODAsMT
-ExNzU3MzM0MSwxODU5NDAwNjM0LDEwNzU1MTI1MDksLTExODgy
-NzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4OS
-w0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMDMy
-MzEwMF19
+eyJoaXN0b3J5IjpbMTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OT
+U5NTUsLTE1MTE4MTk4MjEsLTEyODkzNzQ3NjMsLTEzOTkwMjY5
+NSwzODEzNjI1MTcsMTQwNTc0NDM1MywtMTcwNjgzOTg4MCwxMT
+E3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3
+NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LD
+QxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIz
+MTAwXX0=
 -->
