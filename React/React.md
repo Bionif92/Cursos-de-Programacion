@@ -7511,11 +7511,14 @@ queryFn: ({ signal }) => fetchEvents({ signal, searchTerm })
 
 If you dont need custum data, you can use the first way of passing the function
 
+### Enabled & Disabled Queries
 
+````
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NjU3MTU2NCwxMDc1NTEyNTA5LC0xMT
+eyJoaXN0b3J5IjpbLTU1NzE0NTc2MiwxMDc1NTEyNTA5LC0xMT
 g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
 ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
 AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
