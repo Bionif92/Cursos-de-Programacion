@@ -7790,10 +7790,14 @@ const { mutate } = useMutation({
 ````
 With this only after another task will refetch
 
+### Enhancing the Demo App & Repeating Mutation Concepts
+
+Confirmation modal of deletion
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMDMyOTE3NCwtMTcwNjgzOTg4MCwxMT
+eyJoaXN0b3J5IjpbMTQwNTc0NDM1MywtMTcwNjgzOTg4MCwxMT
 E3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3
 NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LD
 QxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIz
