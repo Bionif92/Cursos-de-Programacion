@@ -7494,14 +7494,19 @@ export async function fetchEvents({ signal, searchTerm }) {
   return events;
 }
 ````
+Problem with previous query, because the function passes default values
+
+### The Query Configuration Object & Aborting Requests
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NTUxMjUwOSwtMTE4ODI3NTk5MywtND
-I5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LDQxNDc4Nzg3
-NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2Nj
-gyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5
-LDY4MDU0OTgwLC0xNDI2MzAwOTI2LC0xODQ1MDAwMDUyLC03Nj
-gxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAzMDM2LDExOTE2MzMx
-MTNdfQ==
+eyJoaXN0b3J5IjpbNTY0NzM2NTgxLDEwNzU1MTI1MDksLTExOD
+gyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4
+OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMD
+MyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgw
+LDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwtMTg0NT
+AwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIwMzAz
+Nl19
 -->
