@@ -7414,7 +7414,7 @@ export default function FindEventSection() {
   const searchElement = useRef();
   const [searchTerm, setSearchTerm] = useState();
 
-  const { data, isLoading, isError, error } = useQuery({
+  --const { data, isLoading, isError, error } = useQuery({
     queryKey: ['events', { search: searchTerm }],
     queryFn: ({ signal }) => fetchEvents({ signal, searchTerm }),
     enabled: searchTerm !== undefined
@@ -7476,7 +7476,7 @@ export async function fetchEvents({ signal, searchTerm }) {
   console.log(searchTerm);
   let url = 'http://localhost:3000/events';
 
-  if (searchTerm) {
+  --if (searchTerm) {
     url += '?search=' + searchTerm;
   }
 
@@ -7497,7 +7497,7 @@ export async function fetchEvents({ signal, searchTerm }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzI2MjIxMSwtMTE4ODI3NTk5MywtND
+eyJoaXN0b3J5IjpbMTA3NTUxMjUwOSwtMTE4ODI3NTk5MywtND
 I5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LDQxNDc4Nzg3
 NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2Nj
 gyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5
