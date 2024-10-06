@@ -7513,13 +7513,18 @@ If you dont need custum data, you can use the first way of passing the function
 
 ### Enabled & Disabled Queries
 
-If you re
+If you refresh with the filter, the event will be the same as with the filter, you want to disable the query until you produce a filter
 ````
+  const { data, isLoading, isError, error } = useQuery({
+    queryKey: ['events', { search: searchTerm }],
+    queryFn: ({ signal }) => fetchEvents({ signal, searchTerm }),
+    --enabled: searchTerm !== undefined
+  });
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTE1ODUyOSwxMDc1NTEyNTA5LC0xMT
+eyJoaXN0b3J5IjpbLTQ3MDMyMzkyNiwxMDc1NTEyNTA5LC0xMT
 g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
 ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
 AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
