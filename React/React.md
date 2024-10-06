@@ -7521,11 +7521,12 @@ If you refresh with the filter, the event will be the same as with the filter, y
     --enabled: searchTerm !== undefined
   });
 ````
-Initial state need to be  use
+Initial state need to be  `useState()`
+Instead of isPending to isLoading
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDY1ODI4NTgsMTA3NTUxMjUwOSwtMT
+eyJoaXN0b3J5IjpbLTE3NDM2MjM0MzEsMTA3NTUxMjUwOSwtMT
 E4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4
 MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMz
 EwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEz
