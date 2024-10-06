@@ -7393,7 +7393,8 @@ Best of both worlds - Instant results and updated data
 const { data, isPending, isError, error } = useQuery({
     queryKey: ['events'], 
     queryFn: fetchEvents, 
-    staleTime: 5000 // 5 sec until making a refresh of data, if less than that, don do it
+    staleTime: 5000 // 5 sec until making a refresh of data, if less than that, don do it, default 0
+    gcTime: // time of the cache stored, default 5 min
   });
 
 ````
@@ -7401,7 +7402,7 @@ const { data, isPending, isError, error } = useQuery({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzA0NTk1NjAsLTQyOTUwNzI3MiwxOT
+eyJoaXN0b3J5IjpbLTExMjkxNzgzMTAsLTQyOTUwNzI3MiwxOT
 gxMjM1NTE3LC02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQw
 OSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NT
 EzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwt
