@@ -7900,7 +7900,7 @@ const { mutate } = useMutation({
       const newEvent = data.event;
 
       await queryClient.cancelQueries({ queryKey: ['events', params.id] });
-      const previousEvent = queryClient.getQueryData(['events', params.id]);
+      const previousEvent = queryClient.getQueryData(['events', params.id]); // for the rollback
 
       queryClient.setQueryData(['events', params.id], newEvent); // the first arg is the key
 
@@ -7920,11 +7920,11 @@ const { mutate } = useMutation({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzOD
-EzNjI1MTcsMTQwNTc0NDM1MywtMTcwNjgzOTg4MCwxMTE3NTcz
-MzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3NTk5My
-wtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LDQxNDc4
-Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLD
-Y2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2
-OTk5XX0=
+eyJoaXN0b3J5IjpbMTIwMjM0OTcyNywtMTI4OTM3NDc2MywtMT
+M5OTAyNjk1LDM4MTM2MjUxNywxNDA1NzQ0MzUzLC0xNzA2ODM5
+ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYzNCwxMDc1NTEyNTA5LC
+0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1
+NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MS
+wzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3Mzgz
+MTM4MF19
 -->
