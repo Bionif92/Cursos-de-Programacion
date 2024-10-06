@@ -7526,12 +7526,12 @@ Instead of `isPending` to `isLoading` you dont have the spinner waiting for data
 
 ### Changing Data with Mutations
 
-Can send data also
+Can send data also, with useMutation
 
 ````
 //newevent.jsx
 import { Link, useNavigate } from 'react-router-dom';
-import { useMutation } from '@tanstack/react-query';
+--import { useMutation } from '@tanstack/react-query';
 
 import Modal from '../UI/Modal.jsx';
 import EventForm from './EventForm.jsx';
@@ -7580,11 +7580,11 @@ export default function NewEvent() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTcxODc5NSwxMDc1NTEyNTA5LC0xMT
-g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
-ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
-AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
-MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
-UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
-MzZdfQ==
+eyJoaXN0b3J5IjpbNTYzNDgxODk5LDEwNzU1MTI1MDksLTExOD
+gyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4
+OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMD
+MyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgw
+LDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwtMTg0NT
+AwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIwMzAz
+Nl19
 -->
