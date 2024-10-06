@@ -7959,8 +7959,87 @@ export async function fetchEvents({ signal, searchTerm, max }) {
 
 ### React Query & React Router
 
+The cache is grabbed with the loader, then with 
 ````
 //editevent.jsx
+import {
+  Link,
+  redirect,
+  useNavigate,
+  useParams,
+  useSubmit,
+  useNavigation,
+} from 'react-router-dom';
+import { useQuery } from '@tanstack/react-query';
+
+import Modal from '../UI/Modal.jsx';
+import EventForm from './EventForm.jsx';
+import { fetchEvent, updateEvent, queryClient } from '../../util/http.js';
+import ErrorBlock from '../UI/ErrorBlock.jsx';
+
+export default function EditEvent() {
+  const navigate = useNavigate();
+  const { state } = useNavigation();
+  const submit = useSubmit();
+  const params = useParams();
+
+  const { data, isError, error } = useQuery({
+    queryKey: ['events', params.id],
+    queryFn: ({ signal }) => fetchEvent({ signal, id: params.id }),
+    staleTime: 10000
+  });
+
+  function handleSubmit(formData) {
+    submit(formData, { method: 'PUT' });
+  }
+
+  function handleClose() {
+    navigate('../');
+  }
+
+  let content;
+
+  if (isError) {
+    content = (
+      <>
+        <ErrorBlock
+          title="Failed to load event"
+          message={
+            error.info?.message ||
+            'Failed to load event. Please check your inputs and try again later.'
+          }
+        />
+        <div className="form-actions">
+          <Link to="../" className="button">
+            Okay
+          </Link>
+        </div>
+      </>
+    );
+  }
+
+  if (data) {
+    content = (
+      <EventForm inputData={data} onSubmit={handleSubmit}>
+        {state === 'submitting' ? (
+          <p>Sending data...</p>
+        ) : (
+          <>
+            <Link to="../" className="button-text">
+              Cancel
+            </Link>
+            <button type="submit" className="button">
+              Update
+            </button>
+          </>
+        )}
+      </EventForm>
+    );
+  }
+
+  return <Modal onClose={handleClose}>{content}</Modal>;
+}
+
 export function loader({ params }) {
   return queryClient.fetchQuery({
     queryKey: ['events', params.id],
@@ -7982,11 +8061,11 @@ export async function action({ request, params }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OT
-U5NTUsLTE1MTE4MTk4MjEsLTEyODkzNzQ3NjMsLTEzOTkwMjY5
-NSwzODEzNjI1MTcsMTQwNTc0NDM1MywtMTcwNjgzOTg4MCwxMT
-E3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3
-NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LD
-QxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIz
-MTAwXX0=
+eyJoaXN0b3J5IjpbMTg0OTEzNjQ5MywxODEzMzAzMDQsNTcwMD
+IyODM3LDg1NDk5NTk1NSwtMTUxMTgxOTgyMSwtMTI4OTM3NDc2
+MywtMTM5OTAyNjk1LDM4MTM2MjUxNywxNDA1NzQ0MzUzLC0xNz
+A2ODM5ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYzNCwxMDc1NTEy
+NTA5LC0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNy
+wtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1
+NTc4MV19
 -->
