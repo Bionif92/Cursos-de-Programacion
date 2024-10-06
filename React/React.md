@@ -7612,7 +7612,7 @@ import Modal from '../UI/Modal.jsx';
 import EventForm from './EventForm.jsx';
 import { createNewEvent } from '../../util/http.js';
 import ErrorBlock from '../UI/ErrorBlock.jsx';
-import { queryClient } from '../../util/http.js';
+--import { queryClient } from '../../util/http.js'; //
 
 export default function NewEvent() {
   const navigate = useNavigate();
@@ -7620,7 +7620,7 @@ export default function NewEvent() {
   const { mutate, isPending, isError, error } = useMutation({
     mutationFn: createNewEvent,
     --onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ['events'] }); // for re fetch
+      queryClient.invalidateQueries({ queryKey: ['events'] }); // for re fetch data
       navigate('/events');
     },
   });
@@ -7659,7 +7659,7 @@ export default function NewEvent() {
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUzMDMyMTUsMTg1OTQwMDYzNCwxMD
+eyJoaXN0b3J5IjpbLTEzMTg3NTg4MDEsMTg1OTQwMDYzNCwxMD
 c1NTEyNTA5LC0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIz
 NTUxNywtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLT
 g3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcx
