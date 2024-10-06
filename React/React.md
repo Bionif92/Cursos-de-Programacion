@@ -7774,11 +7774,26 @@ export default function EventDetails() {
 
 ### Disabling Automatic Refetching After Invalidations
 
-Get a 404 request error
+Get a 404 request error because we are in a different page, and want to refetch the data
+
+````
+const { mutate } = useMutation({
+    mutationFn: deleteEvent,
+    onSuccess: () => {
+      queryClient.invalidateQueries({
+        queryKey: ['events'],
+        refetchType: 'none'
+      });
+      navigate('/events');
+    }
+  });
+
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Nzk3MTc5MSwtMTcwNjgzOTg4MCwxMT
+eyJoaXN0b3J5IjpbMjExMjM2OTg4NSwtMTcwNjgzOTg4MCwxMT
 E3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3
 NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LD
 QxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIz
