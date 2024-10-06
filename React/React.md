@@ -7902,7 +7902,7 @@ const { mutate } = useMutation({
       await queryClient.cancelQueries({ queryKey: ['events', params.id] });
       const previousEvent = queryClient.getQueryData(['events', params.id]);
 
-      queryClient.setQueryData(['events', params.id], newEvent);
+      queryClient.setQueryData(['events', params.id], newEvent); // the first arg is the key
 
       return { previousEvent };
     },
@@ -7920,11 +7920,11 @@ const { mutate } = useMutation({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxMDkwNDgyLC0xMzk5MDI2OTUsMzgxMz
-YyNTE3LDE0MDU3NDQzNTMsLTE3MDY4Mzk4ODAsMTExNzU3MzM0
-MSwxODU5NDAwNjM0LDEwNzU1MTI1MDksLTExODgyNzU5OTMsLT
-QyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4OSw0MTQ3ODc4
-NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2Nj
-Y4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5
-OV19
+eyJoaXN0b3J5IjpbLTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzOD
+EzNjI1MTcsMTQwNTc0NDM1MywtMTcwNjgzOTg4MCwxMTE3NTcz
+MzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3NTk5My
+wtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LDQxNDc4
+Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLD
+Y2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2
+OTk5XX0=
 -->
