@@ -7501,17 +7501,20 @@ Problem with previous query, because the function passes default values
 Query passes default data to the function
 
 ````
+ const response = await fetch(url, { signal: signal });
+````
 
+Need to pass the function like this
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI3NTMyMzAzLDEwNzU1MTI1MDksLTExOD
-gyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4
-OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMD
-MyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgw
-LDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwtMTg0NT
-AwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIwMzAz
-Nl19
+eyJoaXN0b3J5IjpbLTEzODYyNTg5NTcsMTA3NTUxMjUwOSwtMT
+E4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4
+MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMz
+EwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEz
+ODAsMTIwMTQ2OTk5LDY4MDU0OTgwLC0xNDI2MzAwOTI2LC0xOD
+Q1MDAwMDUyLC03NjgxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAz
+MDM2XX0=
 -->
