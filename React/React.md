@@ -7498,15 +7498,17 @@ Problem with previous query, because the function passes default values
 
 ### The Query Configuration Object & Aborting Requests
 
+Query passes default data to the function
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0NzM2NTgxLDEwNzU1MTI1MDksLTExOD
-gyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4
-OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMD
-MyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgw
-LDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDkyNiwtMTg0NT
-AwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcwNywtMTAxMTIwMzAz
-Nl19
+eyJoaXN0b3J5IjpbMTI1ODkxMTA0NSwxMDc1NTEyNTA5LC0xMT
+g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
+ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
+AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
+MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
+UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
+MzZdfQ==
 -->
