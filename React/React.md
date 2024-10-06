@@ -7790,16 +7790,114 @@ const { mutate } = useMutation({
 ````
 With this only after another task will refetch
 
-### 
+### React Query Advantages In Action
+
+Edit the event
+
+````
+//editevent.jsx
+import { Link, useNavigate, useParams } from 'react-router-dom';
+import { useQuery, useMutation } from '@tanstack/react-query';
+
+import Modal from '../UI/Modal.jsx';
+import EventForm from './EventForm.jsx';
+import { fetchEvent, updateEvent, queryClient } from '../../util/http.js';
+import LoadingIndicator from '../UI/LoadingIndicator.jsx';
+import ErrorBlock from '../UI/ErrorBlock.jsx';
+
+export default function EditEvent() {
+  const navigate = useNavigate();
+  const params = useParams();
+
+  const { data, isPending, isError, error } = useQuery({
+    queryKey: ['events', params.id],
+    queryFn: ({ signal }) => fetchEvent({ signal, id: params.id }),
+  });
+
+  const { mutate } = useMutation({
+    mutationFn: updateEvent,
+    onMutate: async (data) => {
+      const newEvent = data.event;
+
+      await queryClient.cancelQueries({ queryKey: ['events', params.id] });
+      const previousEvent = queryClient.getQueryData(['events', params.id]);
+
+      queryClient.setQueryData(['events', params.id], newEvent);
+
+      return { previousEvent };
+    },
+    onError: (error, data, context) => {
+      queryClient.setQueryData(['events', params.id], context.previousEvent);
+    },
+    onSettled: () => {
+      queryClient.invalidateQueries(['events', params.id]);
+    }
+  });
+
+  function handleSubmit(formData) {
+    mutate({ id: params.id, event: formData });
+    navigate('../');
+  }
+
+  function handleClose() {
+    navigate('../');
+  }
+
+  let content;
+
+  if (isPending) {
+    content = (
+      <div className="center">
+        <LoadingIndicator />
+      </div>
+    );
+  }
+
+  if (isError) {
+    content = (
+      <>
+        <ErrorBlock
+          title="Failed to load event"
+          message={
+            error.info?.message ||
+            'Failed to load event. Please check your inputs and try again later.'
+          }
+        />
+        <div className="form-actions">
+          <Link to="../" className="button">
+            Okay
+          </Link>
+        </div>
+      </>
+    );
+  }
+
+  if (data) {
+    content = (
+      <EventForm inputData={data} onSubmit={handleSubmit}>
+        <Link to="../" className="button-text">
+          Cancel
+        </Link>
+        <button type="submit" className="button">
+          Update
+        </button>
+      </EventForm>
+    );
+  }
+
+  return <Modal onClose={handleClose}>{content}</Modal>;
+}
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzgxMzYyNTE3LDE0MDU3NDQzNTMsLTE3MD
-Y4Mzk4ODAsMTExNzU3MzM0MSwxODU5NDAwNjM0LDEwNzU1MTI1
-MDksLTExODgyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC
-02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1
-NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOT
-czODMxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNjMwMDky
-Nl19
+eyJoaXN0b3J5IjpbLTEzOTkwMjY5NSwzODEzNjI1MTcsMTQwNT
+c0NDM1MywtMTcwNjgzOTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2
+MzQsMTA3NTUxMjUwOSwtMTE4ODI3NTk5MywtNDI5NTA3MjcyLD
+E5ODEyMzU1MTcsLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUy
+NDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwtMT
+c1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OTgw
+XX0=
 -->
