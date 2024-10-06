@@ -7612,7 +7612,7 @@ import Modal from '../UI/Modal.jsx';
 import EventForm from './EventForm.jsx';
 import { createNewEvent } from '../../util/http.js';
 import ErrorBlock from '../UI/ErrorBlock.jsx';
---import { queryClient } from '../../util/http.js'; //
+--import { queryClient } from '../../util/http.js'; // queryClient created in app.js
 
 export default function NewEvent() {
   const navigate = useNavigate();
@@ -7657,13 +7657,17 @@ export default function NewEvent() {
   );
 }
 ````
+Need to import queryclients to app.js too
+````
+import { queryClient } from '../../util/http.js';
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTg3NTg4MDEsMTg1OTQwMDYzNCwxMD
-c1NTEyNTA5LC0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIz
-NTUxNywtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLT
-g3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcx
-MDYyLDk3MzgzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0Mj
-YzMDA5MjYsLTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3
-MDddfQ==
+eyJoaXN0b3J5IjpbMTc2NDM0MDMxNSwxODU5NDAwNjM0LDEwNz
+U1MTI1MDksLTExODgyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1
+NTE3LC02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtOD
+cyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEw
+NjIsOTczODMxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwtMTQyNj
+MwMDkyNiwtMTg0NTAwMDA1MiwtNzY4MTQwMDU2LDk3NTE2MTcw
+N119
 -->
