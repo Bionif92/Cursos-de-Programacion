@@ -7579,15 +7579,35 @@ export default function NewEvent() {
 ````
 ````
 //util/http.js
+export async function createNewEvent(eventData) {
+  const response = await fetch(`http://localhost:3000/events`, {
+    method: 'POST',
+    body: JSON.stringify(eventData),
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  });
+
+  if (!response.ok) {
+    const error = new Error('An error occurred while creating the event');
+    error.code = response.status;
+    error.info = await response.json();
+    throw error;
+  }
+
+  const { event } = await response.json();
+
+  return event;
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyMTYzOTIxMywxMDc1NTEyNTA5LC0xMT
-g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
-ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
-AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
-MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
-UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
-MzZdfQ==
+eyJoaXN0b3J5IjpbNzYzNzUyNywxMDc1NTEyNTA5LC0xMTg4Mj
+c1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1NzgwODks
+NDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMj
+MxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwx
+MjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMD
+AwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzZd
+fQ==
 -->
