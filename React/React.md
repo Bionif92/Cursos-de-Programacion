@@ -7389,14 +7389,23 @@ It refresh the fetched data if you go out of the page
 React Query cache response data - information not images
 Best of both worlds - Instant results and updated data
 
+````
+const { data, isPending, isError, error } = useQuery({
+    queryKey: ['events'], 
+    queryFn: fetchEvents, 
+    staleTime: 5000 // 5 sec until making a refresh of data, if less than that, don do it
+  });
+
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MzcyNTUxLC00Mjk1MDcyNzIsMTk4MT
-IzNTUxNywtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDks
-LTg3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMz
-cxMDYyLDk3MzgzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0
-MjYzMDA5MjYsLTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNj
-E3MDcsLTEwMTEyMDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjBd
-fQ==
+eyJoaXN0b3J5IjpbLTE1NzA0NTk1NjAsLTQyOTUwNzI3MiwxOT
+gxMjM1NTE3LC02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQw
+OSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NT
+EzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwt
+MTQyNjMwMDkyNiwtMTg0NTAwMDA1MiwtNzY4MTQwMDU2LDk3NT
+E2MTcwNywtMTAxMTIwMzAzNiwxMTkxNjMzMTEzLDU2MzQ0NDg2
+MF19
 -->
