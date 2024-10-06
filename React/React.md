@@ -7891,11 +7891,13 @@ export default function EditEvent() {
 
 ### Optimistic Updating
 
+Confirm an update, we want it to change instantly without waiting the response
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NzUwNzU3MSwtMTM5OTAyNjk1LDM4MT
+eyJoaXN0b3J5IjpbMTYwMTM3NzU1MiwtMTM5OTAyNjk1LDM4MT
 M2MjUxNywxNDA1NzQ0MzUzLC0xNzA2ODM5ODgwLDExMTc1NzMz
 NDEsMTg1OTQwMDYzNCwxMDc1NTEyNTA5LC0xMTg4Mjc1OTkzLC
 00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1NzgwODksNDE0Nzg3
