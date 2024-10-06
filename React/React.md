@@ -7918,14 +7918,25 @@ const { mutate } = useMutation({
 
 ### Using the Query Key As Query Function Input
 
+Only to show some events:
+
+````
+  const { data, isPending, isError, error } = useQuery({
+   -- queryKey: ['events', { max: 3 }],
+    queryFn: ({ signal, queryKey }) => fetchEvents({ signal, ...queryKey[1] }),
+    staleTime: 5000,
+    // gcTime: 1000
+  });
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzMjU3MDYxLC0xMjg5Mzc0NzYzLC0xMz
-k5MDI2OTUsMzgxMzYyNTE3LDE0MDU3NDQzNTMsLTE3MDY4Mzk4
-ODAsMTExNzU3MzM0MSwxODU5NDAwNjM0LDEwNzU1MTI1MDksLT
-ExODgyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3
-ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLD
-MxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMx
-MzgwXX0=
+eyJoaXN0b3J5IjpbLTIxNDQ4NDk1OSwtMTI4OTM3NDc2MywtMT
+M5OTAyNjk1LDM4MTM2MjUxNywxNDA1NzQ0MzUzLC0xNzA2ODM5
+ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYzNCwxMDc1NTEyNTA5LC
+0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1
+NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MS
+wzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3Mzgz
+MTM4MF19
 -->
