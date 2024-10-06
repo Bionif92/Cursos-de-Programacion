@@ -8056,6 +8056,16 @@ export async function action({ request, params }) {
 }
 ````
 ````
+//app.jsx
+path: '/events/:id',
+    element: <EventDetails />,
+    children: [
+      {
+        path: '/events/:id/edit',
+        element: <EditEvent />,
+        loader: editEventLoader,
+        action: editEventAction
+      },
 ````
 
 
@@ -8063,11 +8073,11 @@ export async function action({ request, params }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDUxNzQ4MjcsMTgxMzMwMzA0LDU3MD
-AyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MTk4MjEsLTEyODkzNzQ3
-NjMsLTEzOTkwMjY5NSwzODEzNjI1MTcsMTQwNTc0NDM1MywtMT
-cwNjgzOTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUx
-MjUwOSwtMTE4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MT
-csLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5
-NTU3ODFdfQ==
+eyJoaXN0b3J5IjpbLTc0MTMzNDY2LDE4MTMzMDMwNCw1NzAwMj
+I4MzcsODU0OTk1OTU1LC0xNTExODE5ODIxLC0xMjg5Mzc0NzYz
+LC0xMzk5MDI2OTUsMzgxMzYyNTE3LDE0MDU3NDQzNTMsLTE3MD
+Y4Mzk4ODAsMTExNzU3MzM0MSwxODU5NDAwNjM0LDEwNzU1MTI1
+MDksLTExODgyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1NTE3LC
+02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtODcyOTU1
+NzgxXX0=
 -->
