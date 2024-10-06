@@ -7504,17 +7504,22 @@ Query passes default data to the function
  const response = await fetch(url, { signal: signal });
 ````
 
-Need to pass the function like this
+Need to pass the function like this:
+````
+queryFn: ({ signal }) => fetchEvents({ signal, searchTerm })
+````
+
+If you dont need custum data, you can use the first way of passing the function
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODYyNTg5NTcsMTA3NTUxMjUwOSwtMT
-E4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4
-MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMz
-EwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEz
-ODAsMTIwMTQ2OTk5LDY4MDU0OTgwLC0xNDI2MzAwOTI2LC0xOD
-Q1MDAwMDUyLC03NjgxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAz
-MDM2XX0=
+eyJoaXN0b3J5IjpbMjA2NjU3MTU2NCwxMDc1NTEyNTA5LC0xMT
+g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
+ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
+AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
+MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
+UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
+MzZdfQ==
 -->
