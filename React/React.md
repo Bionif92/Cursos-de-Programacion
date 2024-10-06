@@ -7782,18 +7782,18 @@ const { mutate } = useMutation({
     onSuccess: () => {
       queryClient.invalidateQueries({
         queryKey: ['events'],
-        refetchType: 'none'
+        --refetchType: 'none'
       });
       navigate('/events');
     }
   });
-
 ````
+With this only after another task will refetch
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMjM2OTg4NSwtMTcwNjgzOTg4MCwxMT
+eyJoaXN0b3J5IjpbMjExMDMyOTE3NCwtMTcwNjgzOTg4MCwxMT
 E3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOSwtMTE4ODI3
 NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LD
 QxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIz
