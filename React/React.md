@@ -7387,16 +7387,16 @@ It refresh the fetched data if you go out of the page
 ### Understanding & Configuring Query Behaviors - Cache & Stale Data
 
 React Query cache response data - information not images
-Best of both worlds - Instant resu
+Best of both worlds - Instant results and updated data
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3NjkyODY4NCwtNDI5NTA3MjcyLDE5OD
-EyMzU1MTcsLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5
-LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MT
-M3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OTgwLC0x
-NDI2MzAwOTI2LC0xODQ1MDAwMDUyLC03NjgxNDAwNTYsOTc1MT
-YxNzA3LC0xMDExMjAzMDM2LDExOTE2MzMxMTMsNTYzNDQ0ODYw
-XX0=
+eyJoaXN0b3J5IjpbNTE1MzcyNTUxLC00Mjk1MDcyNzIsMTk4MT
+IzNTUxNywtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDks
+LTg3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMz
+cxMDYyLDk3MzgzMTM4MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0
+MjYzMDA5MjYsLTE4NDUwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNj
+E3MDcsLTEwMTEyMDMwMzYsMTE5MTYzMzExMyw1NjM0NDQ4NjBd
+fQ==
 -->
