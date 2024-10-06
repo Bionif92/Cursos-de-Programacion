@@ -7396,13 +7396,14 @@ const { data, isPending, isError, error } = useQuery({
     staleTime: 5000 // 5 sec until making a refresh of data, if less than that, don do it, default 0
     gcTime: // time of the cache stored, default 5 min
   });
-
 ````
+
+### Dynamic Query Functions & Query Keys
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjkxNzgzMTAsLTQyOTUwNzI3MiwxOT
+eyJoaXN0b3J5IjpbLTExODgyNzU5OTMsLTQyOTUwNzI3MiwxOT
 gxMjM1NTE3LC02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQw
 OSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NT
 EzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5OSw2ODA1NDk4MCwt
