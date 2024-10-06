@@ -7959,7 +7959,7 @@ export async function fetchEvents({ signal, searchTerm, max }) {
 
 ### React Query & React Router
 
-The cache is grabbed with the loader, then with 
+The cache is grabbed with the loader, then with useQuery in the component, the cache data is taken
 ````
 //editevent.jsx
 import {
@@ -8055,17 +8055,19 @@ export async function action({ request, params }) {
   return redirect('../');
 }
 ````
+````
+````
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTEzNjQ5MywxODEzMzAzMDQsNTcwMD
-IyODM3LDg1NDk5NTk1NSwtMTUxMTgxOTgyMSwtMTI4OTM3NDc2
-MywtMTM5OTAyNjk1LDM4MTM2MjUxNywxNDA1NzQ0MzUzLC0xNz
-A2ODM5ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYzNCwxMDc1NTEy
-NTA5LC0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNy
-wtNjY1NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1
-NTc4MV19
+eyJoaXN0b3J5IjpbLTE2MDUxNzQ4MjcsMTgxMzMwMzA0LDU3MD
+AyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MTk4MjEsLTEyODkzNzQ3
+NjMsLTEzOTkwMjY5NSwzODEzNjI1MTcsMTQwNTc0NDM1MywtMT
+cwNjgzOTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUx
+MjUwOSwtMTE4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MT
+csLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5
+NTU3ODFdfQ==
 -->
