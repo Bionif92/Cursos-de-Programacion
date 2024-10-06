@@ -7401,14 +7401,103 @@ const { data, isPending, isError, error } = useQuery({
 ### Dynamic Query Functions & Query Keys
 
 ````
-//find
+//findeventsection.jsx
+import { useRef, useState } from 'react';
+import { useQuery } from '@tanstack/react-query';
+
+import { fetchEvents } from '../../util/http.js';
+import LoadingIndicator from '../UI/LoadingIndicator.jsx';
+import ErrorBlock from '../UI/ErrorBlock.jsx';
+import EventItem from './EventItem.jsx';
+
+export default function FindEventSection() {
+  const searchElement = useRef();
+  const [searchTerm, setSearchTerm] = useState();
+
+  const { data, isLoading, isError, error } = useQuery({
+    queryKey: ['events', { search: searchTerm }],
+    queryFn: ({ signal }) => fetchEvents({ signal, searchTerm }),
+    enabled: searchTerm !== undefined
+  });
+
+  function handleSubmit(event) {
+    event.preventDefault();
+    setSearchTerm(searchElement.current.value);
+  }
+
+  let content = <p>Please enter a search term and to find events.</p>;
+
+  if (isLoading) {
+    content = <LoadingIndicator />;
+  }
+
+  if (isError) {
+    content = (
+      <ErrorBlock
+        title="An error occurred"
+        message={error.info?.message || 'Failed to fetch events.'}
+      />
+    );
+  }
+
+  if (data) {
+    content = (
+      <ul className="events-list">
+        {data.map((event) => (
+          <li key={event.id}>
+            <EventItem event={event} />
+          </li>
+        ))}
+      </ul>
+    );
+  }
+
+  return (
+    <section className="content-section" id="all-events-section">
+      <header>
+        <h2>Find your next event!</h2>
+        <form onSubmit={handleSubmit} id="search-form">
+          <input
+            type="search"
+            placeholder="Search events"
+            ref={searchElement}
+          />
+          <button>Search</button>
+        </form>
+      </header>
+      {content}
+    </section>
+  );
+}
 ````
 ````
+//util/http.js
+export async function fetchEvents({ signal, searchTerm }) {
+  console.log(searchTerm);
+  let url = 'http://localhost:3000/events';
+
+  if (searchTerm) {
+    url += '?search=' + searchTerm;
+  }
+
+  const response = await fetch(url, { signal: signal });
+
+  if (!response.ok) {
+    const error = new Error('An error occurred while fetching the events');
+    error.code = response.status;
+    error.info = await response.json();
+    throw error;
+  }
+
+  const { events } = await response.json();
+
+  return events;
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNjc1MDk5NiwtMTE4ODI3NTk5MywtND
+eyJoaXN0b3J5IjpbLTI0MzI2MjIxMSwtMTE4ODI3NTk5MywtND
 I5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4MDg5LDQxNDc4Nzg3
 NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2Nj
 gyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5
