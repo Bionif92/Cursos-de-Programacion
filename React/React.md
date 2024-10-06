@@ -7545,7 +7545,7 @@ export default function NewEvent() {
     mutationFn: createNewEvent,
   });
 
-  function handleSubmit(formData) {
+  --function handleSubmit(formData) { // here you tell to send the request
     mutate({ event: formData });
   }
 
@@ -7603,11 +7603,11 @@ export async function createNewEvent(eventData) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYzNzUyNywxMDc1NTEyNTA5LC0xMTg4Mj
-c1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1NzgwODks
-NDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMj
-MxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwx
-MjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4NDUwMD
-AwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMwMzZd
-fQ==
+eyJoaXN0b3J5IjpbMTg1OTQwMDYzNCwxMDc1NTEyNTA5LC0xMT
+g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
+ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
+AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
+MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
+UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
+MzZdfQ==
 -->
