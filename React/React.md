@@ -7386,12 +7386,12 @@ It refresh the fetched data if you go out of the page
 
 ### Understanding & Configuring Query Behaviors - Cache & Stale Data
 
-React Query cache response data
+React Query cache response data - information not images
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjE0MzY4MiwtNDI5NTA3MjcyLDE5OD
+eyJoaXN0b3J5IjpbLTgzNjEzMzU0MiwtNDI5NTA3MjcyLDE5OD
 EyMzU1MTcsLTY2NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5
 LC04NzI5NTU3ODEsMzEwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MT
 M3MTA2Miw5NzM4MzEzODAsMTIwMTQ2OTk5LDY4MDU0OTgwLC0x
