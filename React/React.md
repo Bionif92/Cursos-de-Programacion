@@ -7662,8 +7662,13 @@ Need to import queryclients to app.js too
 import { queryClient } from '../../util/http.js';
 ````
 
+And in util/http.js
+````
+export const queryClient = new QueryClient();
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NDM0MDMxNSwxODU5NDAwNjM0LDEwNz
+eyJoaXN0b3J5IjpbMTExNzU3MzM0MSwxODU5NDAwNjM0LDEwNz
 U1MTI1MDksLTExODgyNzU5OTMsLTQyOTUwNzI3MiwxOTgxMjM1
 NTE3LC02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOSwtOD
 cyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NTEzNzEw
