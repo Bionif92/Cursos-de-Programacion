@@ -7921,6 +7921,7 @@ const { mutate } = useMutation({
 Only to show some events:
 
 ````
+//neweventssection.jsx
   const { data, isPending, isError, error } = useQuery({
    -- queryKey: ['events', { max: 3 }],
     queryFn: ({ signal, queryKey }) => fetchEvents({ signal, ...queryKey[1] }),
@@ -7928,15 +7929,43 @@ Only to show some events:
     // gcTime: 1000
   });
 ````
+````
+//util/http.js
+export async function fetchEvents({ signal, searchTerm, max }) {
+  let url = 'http://localhost:3000/events';
+
+  if (searchTerm && max) {
+    url += '?search=' + searchTerm + '&max=' + max;
+  } else if (searchTerm) {
+    url += '?search=' + searchTerm;
+  } else if (max) {
+    url += '?max=' + max
+  }
+
+  const response = await fetch(url, { signal: signal });
+
+  if (!response.ok) {
+    const error = new Error('An error occurred while fetching the events');
+    error.code = response.status;
+    error.info = await response.json();
+    throw error;
+  }
+
+  const { events } = await response.json();
+
+  return events;
+}
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ4NDk1OSwtMTI4OTM3NDc2MywtMT
-M5OTAyNjk1LDM4MTM2MjUxNywxNDA1NzQ0MzUzLC0xNzA2ODM5
-ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYzNCwxMDc1NTEyNTA5LC
-0xMTg4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1
-NzgwODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MS
-wzMTAzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3Mzgz
-MTM4MF19
+eyJoaXN0b3J5IjpbLTE1MTE4MTk4MjEsLTEyODkzNzQ3NjMsLT
+EzOTkwMjY5NSwzODEzNjI1MTcsMTQwNTc0NDM1MywtMTcwNjgz
+OTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUwOS
+wtMTE4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2
+NTc4MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3OD
+EsMzEwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4
+MzEzODBdfQ==
 -->
