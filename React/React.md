@@ -7891,17 +7891,40 @@ export default function EditEvent() {
 
 ### Optimistic Updating
 
-Confirm an update, we want it to change instantly without waiting the response
+Confirm an update, we want it to change instantly without waiting the response. If it didnt work, roll back
+
+````
+const { mutate } = useMutation({
+    mutationFn: updateEvent,
+    onMutate: async (data) => {
+      const newEvent = data.event;
+
+      await queryClient.cancelQueries({ queryKey: ['events', params.id] });
+      const previousEvent = queryClient.getQueryData(['events', params.id]);
+
+      queryClient.setQueryData(['events', params.id], newEvent);
+
+      return { previousEvent };
+    },
+    onError: (error, data, context) => {
+      queryClient.setQueryData(['events', params.id], context.previousEvent);
+    },
+    onSettled: () => {
+      queryClient.invalidateQueries(['events', params.id]);
+    }
+  });
+
+````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwMTM3NzU1MiwtMTM5OTAyNjk1LDM4MT
-M2MjUxNywxNDA1NzQ0MzUzLC0xNzA2ODM5ODgwLDExMTc1NzMz
-NDEsMTg1OTQwMDYzNCwxMDc1NTEyNTA5LC0xMTg4Mjc1OTkzLC
-00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1NzgwODksNDE0Nzg3
-ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAsNj
-Y2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4MCwxMjAxNDY5
-OTldfQ==
+eyJoaXN0b3J5IjpbNTQxMDkwNDgyLC0xMzk5MDI2OTUsMzgxMz
+YyNTE3LDE0MDU3NDQzNTMsLTE3MDY4Mzk4ODAsMTExNzU3MzM0
+MSwxODU5NDAwNjM0LDEwNzU1MTI1MDksLTExODgyNzU5OTMsLT
+QyOTUwNzI3MiwxOTgxMjM1NTE3LC02NjU3ODA4OSw0MTQ3ODc4
+NzUsLTgxMzM1MjQwOSwtODcyOTU1NzgxLDMxMDMyMzEwMCw2Nj
+Y4MjM4NDEsLTE3NTEzNzEwNjIsOTczODMxMzgwLDEyMDE0Njk5
+OV19
 -->
