@@ -7528,13 +7528,63 @@ Instead of `isPending` to `isLoading` you dont have the spinner waiting for data
 
 Can send data also
 
+````
+//newevent.jsx
+import { Link, useNavigate } from 'react-router-dom';
+import { useMutation } from '@tanstack/react-query';
+
+import Modal from '../UI/Modal.jsx';
+import EventForm from './EventForm.jsx';
+import { createNewEvent } from '../../util/http.js';
+import ErrorBlock from '../UI/ErrorBlock.jsx';
+
+export default function NewEvent() {
+  const navigate = useNavigate();
+
+  const { mutate, isPending, isError, error } = useMutation({
+    mutationFn: createNewEvent,
+  });
+
+  function handleSubmit(formData) {
+    mutate({ event: formData });
+  }
+
+  return (
+    <Modal onClose={() => navigate('../')}>
+      <EventForm onSubmit={handleSubmit}>
+        {isPending && 'Submitting...'}
+        {!isPending && (
+          <>
+            <Link to="../" className="button-text">
+              Cancel
+            </Link>
+            <button type="submit" className="button">
+              Create
+            </button>
+          </>
+        )}
+      </EventForm>
+      {isError && (
+        <ErrorBlock
+          title="Failed to create event"
+          message={
+            error.info?.message ||
+            'Failed to create event. Please check your inputs and try again later.'
+          }
+        />
+      )}
+    </Modal>
+  );
+}
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg0ODQyNDgsMTA3NTUxMjUwOSwtMT
-E4ODI3NTk5MywtNDI5NTA3MjcyLDE5ODEyMzU1MTcsLTY2NTc4
-MDg5LDQxNDc4Nzg3NSwtODEzMzUyNDA5LC04NzI5NTU3ODEsMz
-EwMzIzMTAwLDY2NjgyMzg0MSwtMTc1MTM3MTA2Miw5NzM4MzEz
-ODAsMTIwMTQ2OTk5LDY4MDU0OTgwLC0xNDI2MzAwOTI2LC0xOD
-Q1MDAwMDUyLC03NjgxNDAwNTYsOTc1MTYxNzA3LC0xMDExMjAz
-MDM2XX0=
+eyJoaXN0b3J5IjpbLTE3NTcxODc5NSwxMDc1NTEyNTA5LC0xMT
+g4Mjc1OTkzLC00Mjk1MDcyNzIsMTk4MTIzNTUxNywtNjY1Nzgw
+ODksNDE0Nzg3ODc1LC04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMT
+AzMjMxMDAsNjY2ODIzODQxLC0xNzUxMzcxMDYyLDk3MzgzMTM4
+MCwxMjAxNDY5OTksNjgwNTQ5ODAsLTE0MjYzMDA5MjYsLTE4ND
+UwMDAwNTIsLTc2ODE0MDA1Niw5NzUxNjE3MDcsLTEwMTEyMDMw
+MzZdfQ==
 -->
