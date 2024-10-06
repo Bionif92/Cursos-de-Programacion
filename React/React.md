@@ -7924,7 +7924,7 @@ Only to show some events:
 //neweventssection.jsx
   const { data, isPending, isError, error } = useQuery({
    -- queryKey: ['events', { max: 3 }],
-   -- queryFn: ({ signal, queryKey }) => fetchEvents({ signal, ...queryKey[1] }),
+   -- queryFn: ({ signal, queryKey }) => fetchEvents({ signal, ...queryKey[1] }), // the max:3
     staleTime: 5000,
     // gcTime: 1000
   });
@@ -7961,11 +7961,11 @@ export async function fetchEvents({ signal, searchTerm, max }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU0OTk1OTU1LC0xNTExODE5ODIxLC0xMj
-g5Mzc0NzYzLC0xMzk5MDI2OTUsMzgxMzYyNTE3LDE0MDU3NDQz
-NTMsLTE3MDY4Mzk4ODAsMTExNzU3MzM0MSwxODU5NDAwNjM0LD
-EwNzU1MTI1MDksLTExODgyNzU5OTMsLTQyOTUwNzI3MiwxOTgx
-MjM1NTE3LC02NjU3ODA4OSw0MTQ3ODc4NzUsLTgxMzM1MjQwOS
-wtODcyOTU1NzgxLDMxMDMyMzEwMCw2NjY4MjM4NDEsLTE3NTEz
-NzEwNjJdfQ==
+eyJoaXN0b3J5IjpbNTcwMDIyODM3LDg1NDk5NTk1NSwtMTUxMT
+gxOTgyMSwtMTI4OTM3NDc2MywtMTM5OTAyNjk1LDM4MTM2MjUx
+NywxNDA1NzQ0MzUzLC0xNzA2ODM5ODgwLDExMTc1NzMzNDEsMT
+g1OTQwMDYzNCwxMDc1NTEyNTA5LC0xMTg4Mjc1OTkzLC00Mjk1
+MDcyNzIsMTk4MTIzNTUxNywtNjY1NzgwODksNDE0Nzg3ODc1LC
+04MTMzNTI0MDksLTg3Mjk1NTc4MSwzMTAzMjMxMDAsNjY2ODIz
+ODQxXX0=
 -->
