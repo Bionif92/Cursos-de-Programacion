@@ -8713,13 +8713,13 @@ export default function WelcomePage() {
           </Link>
         </motion.div>
         <motion.img
-          style={{ opacity: opacityCity, y: yCity }}
+          --style={{ opacity: opacityCity, y: yCity }}
           src={cityImg}
           alt="A city skyline touched by sunlight"
           id="city-image"
         />
         <motion.img
-          style={{ y: yHero, opacity: opacityHero }}
+         -- style={{ y: yHero, opacity: opacityHero }}
           src={heroImg}
           alt="A superhero wearing a cape"
           id="hero-image"
@@ -8786,11 +8786,11 @@ export default function WelcomePage() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkzMjg5NzgwLDgyNTkxMjkwMyw5ODY4ND
-I0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1
-LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMT
-cyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0
-NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC
-01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEz
-NDcwNF19
+eyJoaXN0b3J5IjpbLTcwMzUyMDY1Miw4MjU5MTI5MDMsOTg2OD
+QyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2
+NSwtNTY0NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMD
+E3Mjc3ODM4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0
+NDYyNzgsNzkzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMi
+wtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUx
+MzQ3MDRdfQ==
 -->
