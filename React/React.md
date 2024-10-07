@@ -8598,7 +8598,25 @@ return (
 
 ### Combining Animations With Layout Animations
 
-Need to put the 
+Need to put the animation of each element to not see a weird bahaviour in the screen
+
+````
+<AnimatePresence>
+            {isExpanded && (
+              <motion.div
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: 'auto', opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+              >
+                <p className="challenge-item-description">
+                  {challenge.description}
+                </p>
+              </motion.div>
+            )}
+          </AnimatePresence>
+
+````
+
 
 
 
@@ -8612,7 +8630,7 @@ Need to put the
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzM5NzcxOSw5ODY4NDI0ODYsLTE4Mj
+eyJoaXN0b3J5IjpbMTY0ODA4MjI5OSw5ODY4NDI0ODYsLTE4Mj
 Q5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2MzI2
 MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4MzgsMT
 gwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5
