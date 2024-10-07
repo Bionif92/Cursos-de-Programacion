@@ -8089,6 +8089,13 @@ CSS Transition and Animation Can be enough
   margin-left: 0.25rem;
   transition: transform 0.3s ease-out;
 }
+.challenge-item-details.expanded .challenge-item-details-icon {
+  transform: rotate(180deg);
+}
+````
+Need to add class conditionally
+````
+<div className={`challenge-item-details ${isExpanded ? 'expanded' : ''}`}>
 ````
 
 
@@ -8097,11 +8104,11 @@ CSS Transition and Animation Can be enough
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2NzUxODM2MywxNDY1MTM0NzA0LDg4Mj
-U0MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcs
-LTEzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMz
-AzMDQsNTcwMDIyODM3LDg1NDk5NTk1NSwtMTUxMTgxOTgyMSwt
-MTI4OTM3NDc2MywtMTM5OTAyNjk1LDM4MTM2MjUxNywxNDA1Nz
-Q0MzUzLC0xNzA2ODM5ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYz
-NF19
+eyJoaXN0b3J5IjpbLTE5NTg2MzcyMzksMTQ2NTEzNDcwNCw4OD
+I1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3
+LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMz
+MwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MTk4MjEs
+LTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzODEzNjI1MTcsMTQwNT
+c0NDM1MywtMTcwNjgzOTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2
+MzRdfQ==
 -->
