@@ -8087,7 +8087,7 @@ CSS Transition and Animation Can be enough
   display: inline-block;
   font-size: 0.85rem;
   margin-left: 0.25rem;
-  transition: transform 0.3s ease-out;
+  transition: transform 0.3s ease-out; // only transform property
 }
 .challenge-item-details.expanded .challenge-item-details-icon {
   transform: rotate(180deg);
@@ -8104,11 +8104,11 @@ Need to add class conditionally
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg2MzcyMzksMTQ2NTEzNDcwNCw4OD
-I1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3
-LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMz
-MwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MTk4MjEs
-LTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzODEzNjI1MTcsMTQwNT
-c0NDM1MywtMTcwNjgzOTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2
-MzRdfQ==
+eyJoaXN0b3J5IjpbMTEzMTM5NjY4LDE0NjUxMzQ3MDQsODgyNT
+QyOTM4LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0Nywt
+MTMwODc2MzM2MSwzODE3NjU3MDMsLTc0MTMzNDY2LDE4MTMzMD
+MwNCw1NzAwMjI4MzcsODU0OTk1OTU1LC0xNTExODE5ODIxLC0x
+Mjg5Mzc0NzYzLC0xMzk5MDI2OTUsMzgxMzYyNTE3LDE0MDU3ND
+QzNTMsLTE3MDY4Mzk4ODAsMTExNzU3MzM0MSwxODU5NDAwNjM0
+XX0=
 -->
