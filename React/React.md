@@ -8469,6 +8469,7 @@ export default function NewChallenge({ onDone }) {
 
 ### Animating Layout Changes
 
+Animate by itself the changes in the layout (move an item to a different position)
 ````
 //challengeitem.jsx
  return (
@@ -8526,11 +8527,11 @@ export default function NewChallenge({ onDone }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODM1Njg4MzcsMTgzNjA5NDk0MCwtOD
-k4NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5
-NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NC
-wtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYz
-NjEzNzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxND
-EsMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQz
-NDgyOTFdfQ==
+eyJoaXN0b3J5IjpbLTkyNzk4NzA0NCwxODM2MDk0OTQwLC04OT
+g3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1
+MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC
+0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2
+MTM3MDIsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3OTE0MS
+wxNDY1MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3NjgsLTkwNDM0
+ODI5MV19
 -->
