@@ -8214,9 +8214,9 @@ import { motion } from 'framer-motion';
 
 <div className="backdrop" onClick={onClose} />
       <motion.dialog
-        initial={{ opacity: 0, y: 30 }}
+        --initial={{ opacity: 0, y: 30 }} // initial state after adding to the dom
         animate={{ opacity: 1, y: 0 }}
-        exit={{ opacity: 0, y: 30 }}
+        --exit={{ opacity: 0, y: 30 }}
         open
         className="modal"
       >
@@ -8234,11 +8234,11 @@ import { motion } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMT
-Y3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEz
-NzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMT
-Q2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgy
-OTEsNTkzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNz
-QxMzM0NjYsMTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTVd
-fQ==
+eyJoaXN0b3J5IjpbLTE4NjE1NTk1OTksMTgwOTEwMjE3MywtMT
+A5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4
+NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLD
+EyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUz
+NzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3LC0xMzA4NzYzMzYxLD
+M4MTc2NTcwMywtNzQxMzM0NjYsMTgxMzMwMzA0LDU3MDAyMjgz
+N119
 -->
