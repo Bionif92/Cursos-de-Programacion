@@ -8363,6 +8363,7 @@ Multiple steps of animation: keyframes
 
 ### Imperative Animations
 
+Use the animation in a function
 ````
 //newchallenge.jsx
 import { useContext, useRef, useState } from 'react';
@@ -8480,11 +8481,11 @@ export default function NewChallenge({ onDone }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNT
-Y2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIx
-NzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLD
-E4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUz
-NjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4LD
-cwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0NywtMTMwODc2
-MzM2MV19
+eyJoaXN0b3J5IjpbMTU0OTg2MjYxMywtODk4NzEzMTY1LC01Nj
+Q2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4
+MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OC
+w3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEw
+Mjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNC
+w4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1
+NjQ3XX0=
 -->
