@@ -8194,7 +8194,7 @@ export default App;
 
 ### Animating Between Conditional Values
 
-
+Animate the span 
 ````
 import { motion } from 'framer-motion';
 
@@ -8205,6 +8205,8 @@ import { motion } from 'framer-motion';
                 &#9650;
               </motion.span>
 ````
+
+### Adding Entry Animations
 
 
 
@@ -8218,7 +8220,7 @@ import { motion } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk4MTg1NTksLTE2NzA0NDYyNzgsNz
+eyJoaXN0b3J5IjpbLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNz
 kzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5
 NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsOD
 gyNTQyOTM4LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0
