@@ -8252,6 +8252,21 @@ Different animation starting with `while` (search them)
 
 ### Reusing Animation States
 
+Create variants with the format
+````
+<motion.dialog
+        --variants={{
+          hidden: { opacity: 0, y: 30 },
+          visible: { opacity: 1, y: 0 }
+        }}
+        initial="hidden"
+        animate="visible"
+        exit="hidden"
+        open
+        className="modal"
+      >
+````
+
 
 
 
@@ -8265,7 +8280,7 @@ Different animation starting with `while` (search them)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTM5MDUxNCwxMDE3Mjc3ODM4LDE4MD
+eyJoaXN0b3J5IjpbMjAwODQ2NTI5NCwxMDE3Mjc3ODM4LDE4MD
 kxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4
 MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LD
 Y3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQy
