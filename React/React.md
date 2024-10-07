@@ -8517,6 +8517,64 @@ Animate by itself the changes in the layout (move an item to a different positio
 
 ### Orchestrating Multi-Element Animations
 
+````
+//challenges.jsx
+<AnimatePresence>
+                {displayedChallenges.map((challenge) => (
+                  <ChallengeItem
+                    key={challenge.id}
+                    challenge={challenge}
+                    onViewDetails={() => handleViewDetails(challenge.id)}
+                    isExpanded={expanded === challenge.id}
+                  />
+                ))}
+              </AnimatePresence>
+````
+````
+//challengeitem.jsx
+return (
+    --<motion.li layout exit={{ y: -30, opacity: 0 }}>
+      <article className="challenge-item">
+        <header>
+          <img {...challenge.image} />
+          <div className="challenge-item-meta">
+            <h2>{challenge.title}</h2>
+            <p>Complete until {formattedDate}</p>
+            <p className="challenge-item-actions">
+              <button onClick={handleCancel} className="btn-negative">
+                Mark as failed
+              </button>
+              <button onClick={handleComplete}>Mark as completed</button>
+            </p>
+          </div>
+        </header>
+        <div className="challenge-item-details">
+          <p>
+            <button onClick={onViewDetails}>
+              View Details{' '}
+              <motion.span
+                animate={{ rotate: isExpanded ? 180 : 0 }}
+                className="challenge-item-details-icon"
+              >
+                &#9650;
+              </motion.span>
+            </button>
+          </p>
+
+          {isExpanded && (
+            <div>
+              <p className="challenge-item-description">
+                {challenge.description}
+              </p>
+            </div>
+          )}
+        </div>
+      </article>
+    </motion.li>
+  );
+}
+````
+
 
 
 
@@ -8529,7 +8587,7 @@ Animate by itself the changes in the layout (move an item to a different positio
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzY4NDgyNDEsMTgzNjA5NDk0MCwtOD
+eyJoaXN0b3J5IjpbLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtOD
 k4NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5
 NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NC
 wtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYz
