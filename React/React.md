@@ -8654,6 +8654,27 @@ export default function Badge({ caption }) {
   );
 }
 ````
+````
+//challengestab.jsx
+import { motion } from 'framer-motion';
+
+import Badge from './Badge.jsx';
+
+function Tab({ isSelected, onSelect, badgeCaption, children }) {
+  return (
+    <li>
+      <button
+        className={isSelected ? 'selected' : undefined}
+        onClick={onSelect}
+      >
+        {children}
+        <Badge key={badgeCaption} caption={badgeCaption}></Badge>
+      </button>
+      {isSelected && <motion.div layoutId="tab-indicator" className="active-tab-indicator" />}
+    </li>
+  );
+}
+````
 
 
 
@@ -8668,11 +8689,11 @@ export default function Badge({ caption }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2MzYzMTk0LDk4Njg0MjQ4NiwtMTgyND
-k3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYx
-LC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxOD
-A5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5Mzkz
-ODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNy
-w2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0
-MjkzOF19
+eyJoaXN0b3J5IjpbMTU5MDA5OTU4NSw5ODY4NDI0ODYsLTE4Mj
+Q5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2MzI2
+MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4MzgsMT
+gwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5
+MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0MD
+csNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1
+NDI5MzhdfQ==
 -->
