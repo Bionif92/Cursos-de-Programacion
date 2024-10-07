@@ -8234,6 +8234,21 @@ import { AnimatePresence } from 'framer-motion';
       </AnimatePresence>
 ````
 
+### Making Elements "Pop" With Hover Animations
+
+````
+import { motion } from 'framer-motion';
+
+<motion.button
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: 'spring', stiffness: 500 }}
+          onClick={handleStartAddNewChallenge}
+          className="button"
+        >
+          Add Challenge
+        </motion.button>
+````
+
 
 
 
@@ -8247,11 +8262,11 @@ import { AnimatePresence } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTQ0NjUyNzAsMTAxNzI3NzgzOCwxOD
-A5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5Mzkz
-ODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNy
-w2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0
-MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcsLT
-EzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMzAz
-MDRdfQ==
+eyJoaXN0b3J5IjpbMTI1ODA1NDk1MSwxMDE3Mjc3ODM4LDE4MD
+kxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4
+MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LD
+Y3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQy
+OTM4LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0NywtMT
+MwODc2MzM2MSwzODE3NjU3MDMsLTc0MTMzNDY2LDE4MTMzMDMw
+NF19
 -->
