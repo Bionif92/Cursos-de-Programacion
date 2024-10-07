@@ -8248,6 +8248,7 @@ import { motion } from 'framer-motion';
           Add Challenge
         </motion.button>
 ````
+Different animation starting with `while` (search them)
 
 
 
@@ -8262,7 +8263,7 @@ import { motion } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1ODA1NDk1MSwxMDE3Mjc3ODM4LDE4MD
+eyJoaXN0b3J5IjpbLTI1NzY3NTI2OCwxMDE3Mjc3ODM4LDE4MD
 kxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4
 MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LD
 Y3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQy
