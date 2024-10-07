@@ -8138,7 +8138,7 @@ npm install framer-motion
 
 ````
 import { useState } from 'react';
-import { motion } from 'framer-motion';
+--import { motion } from 'framer-motion';
 
 function App() {
   const [x, setX] = useState(0);
@@ -8147,7 +8147,7 @@ function App() {
 
   return (
     <div id="demo">
-      <motion.div
+      --<motion.div
         id="box"
         animate={{ x, y, rotate }}
         transition={{
@@ -8202,7 +8202,7 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODQwMTk1NSwxMDYzNjEzNzAyLC01Mj
+eyJoaXN0b3J5IjpbMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01Mj
 EwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcw
 NCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMT
 Q1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYs
