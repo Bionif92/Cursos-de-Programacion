@@ -8269,7 +8269,28 @@ Create variants with the format
 
 ### Nested Animations & Variants
 
+Can use variants in ancestors
 
+````
+//ancestor
+ <ul id="new-challenge-images">
+          {images.map((image) => (
+            <motion.li
+              variants={{
+                hidden: { opacity: 0, scale: 0.5 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+              exit={{ opacity: 1, scale: 1 }}
+              transition={{ type: 'spring' }}
+              key={image.alt}
+              onClick={() => handleSelectImage(image)}
+              className={selectedImage === image ? 'selected' : undefined}
+            >
+              <img {...image} />
+            </motion.li>
+          ))}
+        </ul>
+````
 
 
 
@@ -8284,11 +8305,11 @@ Create variants with the format
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU1MjUwNTg1LDEwMTcyNzc4MzgsMTgwOT
-EwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5Mzgw
-MDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0MDcsNj
-c4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1NDI5
-MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3LC0xMz
-A4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMzMwMzA0
-XX0=
+eyJoaXN0b3J5IjpbLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxOD
+A5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5Mzkz
+ODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNy
+w2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0
+MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcsLT
+EzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMzAz
+MDRdfQ==
 -->
