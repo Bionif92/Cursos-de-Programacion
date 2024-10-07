@@ -8081,16 +8081,27 @@ See it later
 
 CSS Transition and Animation Can be enough
 
+````
+//css
+.challenge-item-details-icon {
+  display: inline-block;
+  font-size: 0.85rem;
+  margin-left: 0.25rem;
+  transition: transform 0.3s ease-out;
+}
+````
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNj
-UzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3LC0xMzA4NzYzMzYx
-LDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMzMwMzA0LDU3MDAyMj
-gzNyw4NTQ5OTU5NTUsLTE1MTE4MTk4MjEsLTEyODkzNzQ3NjMs
-LTEzOTkwMjY5NSwzODEzNjI1MTcsMTQwNTc0NDM1MywtMTcwNj
-gzOTg4MCwxMTE3NTczMzQxLDE4NTk0MDA2MzQsMTA3NTUxMjUw
-OV19
+eyJoaXN0b3J5IjpbLTU2NzUxODM2MywxNDY1MTM0NzA0LDg4Mj
+U0MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcs
+LTEzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMz
+AzMDQsNTcwMDIyODM3LDg1NDk5NTk1NSwtMTUxMTgxOTgyMSwt
+MTI4OTM3NDc2MywtMTM5OTAyNjk1LDM4MTM2MjUxNywxNDA1Nz
+Q0MzUzLC0xNzA2ODM5ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYz
+NF19
 -->
