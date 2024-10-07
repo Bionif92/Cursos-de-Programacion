@@ -8596,6 +8596,8 @@ return (
 }
 ````
 
+### Combining Animations With Layout Animations
+
 
 
 
@@ -8608,7 +8610,7 @@ return (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ4OTc0OTk5LC0xODI0OTczODgwLDE4Mz
+eyJoaXN0b3J5IjpbOTg2ODQyNDg2LC0xODI0OTczODgwLDE4Mz
 YwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMx
 MCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLT
 EwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4NzU4
