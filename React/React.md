@@ -8301,7 +8301,7 @@ Want to play animation one by one instead of all at the same time
 <motion.ul 
           id="new-challenge-images" 
           --variants={{
-            visible: { transition: { staggerChildren: 0.05 } }
+            visible: { transition: { staggerChildren: 0.05 } } // cab change the value
           }}>
           {images.map((image) => (
             <motion.li
@@ -8337,7 +8337,7 @@ Want to play animation one by one instead of all at the same time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2MTQ4NjAzLC0xODkzMzk5NTI1LDEwMT
+eyJoaXN0b3J5IjpbMTI4MDAzMzgzLC0xODkzMzk5NTI1LDEwMT
 cyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0
 NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC
 01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEz
