@@ -8100,17 +8100,41 @@ Need to add class conditionally
 
 ### Animating with CSS Animations
 
+````
+//css
+.modal {
+  top: 10%;
+  border-radius: 6px;
+  padding: 1.5rem;
+  width: 30rem;
+  max-width: 90%;
+  z-index: 10;
+  animation: slide-up-fade-in 0.3s ease-out forwards;
+}
+
+@keyframes slide-up-fade-in {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+    100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+````
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4Mj
-U0MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcs
-LTEzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMz
-AzMDQsNTcwMDIyODM3LDg1NDk5NTk1NSwtMTUxMTgxOTgyMSwt
-MTI4OTM3NDc2MywtMTM5OTAyNjk1LDM4MTM2MjUxNywxNDA1Nz
-Q0MzUzLC0xNzA2ODM5ODgwLDExMTc1NzMzNDEsMTg1OTQwMDYz
-NF19
+eyJoaXN0b3J5IjpbNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NT
+EzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEs
+NTkzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMz
+M0NjYsMTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTUsLTE1
+MTE4MTk4MjEsLTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzODEzNj
+I1MTcsMTQwNTc0NDM1MywtMTcwNjgzOTg4MCwxMTE3NTczMzQx
+XX0=
 -->
