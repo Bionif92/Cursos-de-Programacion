@@ -8416,7 +8416,7 @@ export default function NewChallenge({ onDone }) {
 
   return (
     <Modal title="New Challenge" onClose={onDone}>
-      <form id="new-challenge" onSubmit={handleSubmit} ref={scope}>
+      --<form id="new-challenge" onSubmit={handleSubmit} ref={scope}>
         <p>
           <label htmlFor="title">Title</label>
           <input ref={title} type="text" name="title" id="title" />
@@ -8481,11 +8481,11 @@ export default function NewChallenge({ onDone }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0OTg2MjYxMywtODk4NzEzMTY1LC01Nj
-Q2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4
-MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OC
-w3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEw
-Mjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNC
-w4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1
-NjQ3XX0=
+eyJoaXN0b3J5IjpbLTEyNTYzMzIxMDcsLTg5ODcxMzE2NSwtNT
+Y0NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3
+ODM4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNz
+gsNzkzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIx
+MDI5NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MD
+QsODgyNTQyOTM4LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0
+NTY0N119
 -->
