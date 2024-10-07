@@ -8206,7 +8206,7 @@ import { motion } from 'framer-motion';
               </motion.span>
 ````
 
-### Adding Entry Animations/Element Disappearance
+### Adding Entry Animations
 
 ````
 //modal.jsx
@@ -8222,6 +8222,16 @@ import { motion } from 'framer-motion';
       >
 ````
 
+### Animating Element Disappearances / Removal
+
+````
+//header.jsx
+import { AnimatePresence } from 'framer-motion';
+
+ <AnimatePresence>
+        {isCreatingNewChallenge && <NewChallenge onDone={handleDone} />}
+      </AnimatePresence>
+````
 
 
 
@@ -8236,11 +8246,11 @@ import { motion } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMD
-k1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1
-NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMT
-I3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3
-NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcsLTEzMDg3NjMzNjEsMz
-gxNzY1NzAzLC03NDEzMzQ2NiwxODEzMzAzMDQsNTcwMDIyODM3
+eyJoaXN0b3J5IjpbNzEyMzYxMjQ3LDEwMTcyNzc4MzgsMTgwOT
+EwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5Mzgw
+MDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0MDcsNj
+c4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1NDI5
+MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3LC0xMz
+A4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMzMwMzA0
 XX0=
 -->
