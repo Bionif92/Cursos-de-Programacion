@@ -8276,7 +8276,7 @@ Can use variants in ancestors
  <ul id="new-challenge-images">
           {images.map((image) => (
             <motion.li
-              variants={{
+              variants={{ // automatically adding the animations
                 hidden: { opacity: 0, scale: 0.5 },
                 visible: { opacity: 1, scale: 1 },
               }}
@@ -8305,11 +8305,11 @@ Can use variants in ancestors
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxOD
-A5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5Mzkz
-ODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNy
-w2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0
-MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcsLT
-EzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMzAz
-MDRdfQ==
+eyJoaXN0b3J5IjpbLTEzNTQwMjkyMDksLTE4OTMzOTk1MjUsMT
+AxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcw
+NDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MD
+IsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1
+MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MS
+w1OTMxNDU2NDcsLTEzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEz
+MzQ2Nl19
 -->
