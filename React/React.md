@@ -8522,7 +8522,7 @@ Animate by itself the changes in the layout (move an item to a different positio
 --<AnimatePresence mode="wait"> //
           {displayedChallenges.length > 0 && (
             <motion.ol // need to add this for the last item to be animated
-              key="list"
+              --key="list" //need to add a key to each animation
               exit={{ y: -30, opacity: 0 }}
               className="challenge-items"
             >
@@ -8541,7 +8541,7 @@ Animate by itself the changes in the layout (move an item to a different positio
 
           {displayedChallenges.length === 0 && (
             <motion.p
-              key="fallback"
+              --key="fallback" //need to add a key to each animation
               initial={{ opacity: 0, y: -20 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -20 }}
@@ -8608,7 +8608,7 @@ return (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTc5MjE5OTQsLTE4MjQ5NzM4ODAsMT
+eyJoaXN0b3J5IjpbLTExNzkyNjU5OTQsLTE4MjQ5NzM4ODAsMT
 gzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4
 MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3My
 wtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3
