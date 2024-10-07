@@ -8519,7 +8519,7 @@ Animate by itself the changes in the layout (move an item to a different positio
 
 ````
 //challenges.jsx
-<AnimatePresence mode="wait">
+--<AnimatePresence mode="wait"> //
           {displayedChallenges.length > 0 && (
             <motion.ol // need to add this for the last item to be animated
               key="list"
@@ -8608,11 +8608,11 @@ return (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MzA2MTUyLC0xODI0OTczODgwLDE4Mz
-YwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMx
-MCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLT
-EwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4NzU4
-ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0MC
-wxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4LDcwMzY1
-Mzc2OF19
+eyJoaXN0b3J5IjpbLTExOTc5MjE5OTQsLTE4MjQ5NzM4ODAsMT
+gzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4
+MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3My
+wtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3
+NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0MDcsNjc4NTM2NT
+QwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAz
+NjUzNzY4XX0=
 -->
