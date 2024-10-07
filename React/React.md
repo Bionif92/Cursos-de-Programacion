@@ -8128,13 +8128,22 @@ Need to add class conditionally
 
 The are limitations with css
 
+Install it:
+````
+//terminal 
+npm install framer-motion
+````
+
+
+
+
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA5Nzg0MzU3LC01MjEwMjk0MDcsNjc4NT
+eyJoaXN0b3J5IjpbODEzMjEyNTAzLC01MjEwMjk0MDcsNjc4NT
 M2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1NDI5Mzgs
 NzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3LC0xMzA4Nz
 YzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMzMwMzA0LDU3
