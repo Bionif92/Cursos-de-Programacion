@@ -8639,7 +8639,21 @@ Animation with the same layoutId
 
 ### Re-triggering Animations via Keys
 
+````
+import { motion } from 'framer-motion';
 
+export default function Badge({ caption }) {
+  return (
+    <motion.span
+      animate={{ scale: [1, 1.2, 1] }}
+      transition={{ duration: 0.3 }}
+      className="badge"
+    >
+      {caption}
+    </motion.span>
+  );
+}
+````
 
 
 
@@ -8654,11 +8668,11 @@ Animation with the same layoutId
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzcxNjYwNzMsOTg2ODQyNDg2LC0xOD
-I0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMy
-NjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LD
-E4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkz
-OTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5ND
-A3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgy
-NTQyOTM4XX0=
+eyJoaXN0b3J5IjpbNzE2MzYzMTk0LDk4Njg0MjQ4NiwtMTgyND
+k3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYx
+LC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxOD
+A5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5Mzkz
+ODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNy
+w2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0
+MjkzOF19
 -->
