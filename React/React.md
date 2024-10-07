@@ -8324,6 +8324,17 @@ Want to play animation one by one instead of all at the same time
 ### Animating Colors & Working with Keyframes
 
 ````
+ <header id="main-header">
+        <h1>Your Challenges</h1>
+        <motion.button
+          whileHover={{ scale: 1.1 , backgroundColor: '#8b11f0'}}
+          transition={{ type: 'spring', stiffness: 500 }}
+          onClick={handleStartAddNewChallenge}
+          className="button"
+        >
+          Add Challenge
+        </motion.button>
+      </header>
 ````
 
 
@@ -8340,11 +8351,11 @@ Want to play animation one by one instead of all at the same time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMD
-E3Mjc3ODM4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0
-NDYyNzgsNzkzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMi
-wtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUx
-MzQ3MDQsODgyNTQyOTM4LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLD
-U5MzE0NTY0NywtMTMwODc2MzM2MSwzODE3NjU3MDMsLTc0MTMz
-NDY2XX0=
+eyJoaXN0b3J5IjpbMzkyOTk1OCwtMjA1NjY4MzEwLC0xODkzMz
+k5NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0
+NCwtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMD
+YzNjEzNzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4Nzkx
+NDEsMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MD
+QzNDgyOTEsNTkzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcw
+M119
 -->
