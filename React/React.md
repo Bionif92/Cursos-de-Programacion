@@ -8294,7 +8294,34 @@ Can use variants in ancestors
 
 ### Animating Staggered Lists
 
-Want to 
+Want to play animation one by one instead of all at the same time
+
+````
+<motion.ul 
+          id="new-challenge-images" 
+          variants={{
+            visible: { transition: { staggerChildren: 0.05 } }
+          }}>
+          {images.map((image) => (
+            <motion.li
+              variants={{
+                hidden: { opacity: 0, scale: 0.5 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+              exit={{ opacity: 1, scale: 1 }}
+              transition={{ type: 'spring' }}
+              key={image.alt}
+              onClick={() => handleSelectImage(image)}
+              className={selectedImage === image ? 'selected' : undefined}
+            >
+              <img {...image} />
+            </motion.li>
+          ))}
+        </motion.ul>
+````
+````
+````
+
 
 
 
@@ -8309,11 +8336,11 @@ Want to
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg1NTU1MzMwLC0xODkzMzk5NTI1LDEwMT
-cyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0
-NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC
-01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEz
-NDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNT
-kzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0
-NjZdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ3MzgxMDIsLTE4OTMzOTk1MjUsMT
+AxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcw
+NDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MD
+IsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1
+MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MS
+w1OTMxNDU2NDcsLTEzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEz
+MzQ2Nl19
 -->
