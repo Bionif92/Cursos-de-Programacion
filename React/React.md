@@ -8361,6 +8361,8 @@ Multiple steps of animation: keyframes
             </motion.li>
 ````
 
+### Imperative Animations
+
 
 
 
@@ -8375,7 +8377,7 @@ Multiple steps of animation: keyframes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUzOTg5NTU5LC0yMDU2NjgzMTAsLTE4OT
+eyJoaXN0b3J5IjpbLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OT
 MzOTk1MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4
 MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LD
 EwNjM2MTM3MDIsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3
