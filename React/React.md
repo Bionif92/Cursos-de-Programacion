@@ -8692,7 +8692,7 @@ export default function WelcomePage() {
  -- const yCity = useTransform(scrollY, [0, 200], [0, -100]);
  -- const opacityCity = useTransform(
     scrollY,
-    [0, 200, 300, 500],
+    [0, 200, 300, 500], // tanslate the position to the animation
     [1, 0.5, 0.5, 0]
   );
  -- const yHero = useTransform(scrollY, [0, 200], [0, -150]);
@@ -8786,11 +8786,11 @@ export default function WelcomePage() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwMzUyMDY1Miw4MjU5MTI5MDMsOTg2OD
-QyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2
-NSwtNTY0NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMD
-E3Mjc3ODM4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0
-NDYyNzgsNzkzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMi
-wtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUx
-MzQ3MDRdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Nj
+g0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMx
+NjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMT
+AxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcw
+NDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MD
+IsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1
+MTM0NzA0XX0=
 -->
