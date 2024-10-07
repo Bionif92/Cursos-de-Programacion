@@ -8297,9 +8297,10 @@ Can use variants in ancestors
 Want to play animation one by one instead of all at the same time
 
 ````
+//ancestor
 <motion.ul 
           id="new-challenge-images" 
-          variants={{
+          --variants={{
             visible: { transition: { staggerChildren: 0.05 } }
           }}>
           {images.map((image) => (
@@ -8336,11 +8337,11 @@ Want to play animation one by one instead of all at the same time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ3MzgxMDIsLTE4OTMzOTk1MjUsMT
-AxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcw
-NDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MD
-IsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1
-MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MS
-w1OTMxNDU2NDcsLTEzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEz
-MzQ2Nl19
+eyJoaXN0b3J5IjpbLTQ2MTQ4NjAzLC0xODkzMzk5NTI1LDEwMT
+cyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0
+NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC
+01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEz
+NDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNT
+kzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0
+NjZdfQ==
 -->
