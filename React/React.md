@@ -8617,6 +8617,8 @@ Need to put the animation of each element to not see a weird bahaviour in the sc
 
 ````
 
+### Animating Shared Elements
+
 
 
 
@@ -8630,7 +8632,7 @@ Need to put the animation of each element to not see a weird bahaviour in the sc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODA4MjI5OSw5ODY4NDI0ODYsLTE4Mj
+eyJoaXN0b3J5IjpbMjE0MzgwODUzNCw5ODY4NDI0ODYsLTE4Mj
 Q5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2MzI2
 MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4MzgsMT
 gwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5
