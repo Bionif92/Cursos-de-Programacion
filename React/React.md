@@ -8403,7 +8403,7 @@ export default function NewChallenge({ onDone }) {
       !challenge.image
     ) {
       animate(
-        'input, textarea',
+        'input, textarea', //things to animate
         { x: [-10, 0, 10, 0] },
         { type: 'spring', duration: 0.2, delay: stagger(0.05) }
       );
@@ -8481,7 +8481,7 @@ export default function NewChallenge({ onDone }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTYzMzIxMDcsLTg5ODcxMzE2NSwtNT
+eyJoaXN0b3J5IjpbLTE1NzU5ODMzMTYsLTg5ODcxMzE2NSwtNT
 Y0NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3
 ODM4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNz
 gsNzkzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIx
