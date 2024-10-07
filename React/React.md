@@ -8155,7 +8155,7 @@ function App() {
           // bounce: 0,
           type: 'spring',
         }}
-      />
+      /> //when the value changes it animates
 
       <div id="inputs">
         <p>
@@ -8202,11 +8202,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01Mj
-EwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcw
-NCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMT
-Q1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYs
-MTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MT
-k4MjEsLTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzODEzNjI1MTdd
+eyJoaXN0b3J5IjpbNzkzOTM4MDAxLDE4NzU4ODU0MDUsMTA2Mz
+YxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQx
+LDE0NjUxMzQ3MDQsODgyNTQyOTM4LDcwMzY1Mzc2OCwtOTA0Mz
+Q4MjkxLDU5MzE0NTY0NywtMTMwODc2MzM2MSwzODE3NjU3MDMs
+LTc0MTMzNDY2LDE4MTMzMDMwNCw1NzAwMjI4MzcsODU0OTk1OT
+U1LC0xNTExODE5ODIxLC0xMjg5Mzc0NzYzLC0xMzk5MDI2OTVd
 fQ==
 -->
