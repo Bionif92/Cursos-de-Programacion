@@ -8136,6 +8136,63 @@ npm install framer-motion
 
 ### Framer Motion Basics & Fundamentals
 
+````
+import { useState } from 'react';
+import { motion } from 'framer-motion';
+
+function App() {
+  const [x, setX] = useState(0);
+  const [y, setY] = useState(0);
+  const [rotate, setRotate] = useState(0);
+
+  return (
+    <div id="demo">
+      <motion.div
+        id="box"
+        animate={{ x, y, rotate }}
+        transition={{
+          duration: 0.3,
+          // bounce: 0,
+          type: 'spring',
+        }}
+      />
+
+      <div id="inputs">
+        <p>
+          <label htmlFor="x">X</label>
+          <input
+            type="number"
+            id="x"
+            onChange={(event) => setX(+event.target.value)}
+          />
+        </p>
+
+        <p>
+          <label htmlFor="y">Y</label>
+          <input
+            type="number"
+            id="y"
+            onChange={(event) => setY(+event.target.value)}
+          />
+        </p>
+
+        <p>
+          <label htmlFor="rotate">Rotate</label>
+          <input
+            type="number"
+            id="rotate"
+            onChange={(event) => setRotate(+event.target.value)}
+          />
+        </p>
+      </div>
+    </div>
+  );
+}
+
+export default App;
+````
+
+
 
 
 
@@ -8145,11 +8202,11 @@ npm install framer-motion
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3OD
-UzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4
-LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0NywtMTMwOD
-c2MzM2MSwzODE3NjU3MDMsLTc0MTMzNDY2LDE4MTMzMDMwNCw1
-NzAwMjI4MzcsODU0OTk1OTU1LC0xNTExODE5ODIxLC0xMjg5Mz
-c0NzYzLC0xMzk5MDI2OTUsMzgxMzYyNTE3LDE0MDU3NDQzNTNd
+eyJoaXN0b3J5IjpbLTEwODQwMTk1NSwxMDYzNjEzNzAyLC01Mj
+EwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcw
+NCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMT
+Q1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYs
+MTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MT
+k4MjEsLTEyODkzNzQ3NjMsLTEzOTkwMjY5NSwzODEzNjI1MTdd
 fQ==
 -->
