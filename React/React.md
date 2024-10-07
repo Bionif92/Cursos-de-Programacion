@@ -8336,7 +8336,7 @@ Want to play animation one by one instead of all at the same time
         </motion.button>
       </header>
 ````
-Multiple steps of anima
+Multiple steps of animation: keyframes
 ````
 <motion.ul
           id="new-challenge-images"
@@ -8374,7 +8374,7 @@ Multiple steps of anima
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjQxNjI2MzgsLTIwNTY2ODMxMCwtMT
+eyJoaXN0b3J5IjpbLTEyNDkxOTAwMjksLTIwNTY2ODMxMCwtMT
 g5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLTEwOTU0
 NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4NzU4ODU0MD
 UsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcy
