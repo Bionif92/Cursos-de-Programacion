@@ -8323,6 +8323,7 @@ Want to play animation one by one instead of all at the same time
 
 ### Animating Colors & Working with Keyframes
 
+Animating Colors
 ````
  <header id="main-header">
         <h1>Your Challenges</h1>
@@ -8374,11 +8375,11 @@ Multiple steps of animation: keyframes
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkxOTAwMjksLTIwNTY2ODMxMCwtMT
-g5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLTEwOTU0
-NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4NzU4ODU0MD
-UsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcy
-ODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4LDcwMzY1Mzc2OC
-wtOTA0MzQ4MjkxLDU5MzE0NTY0NywtMTMwODc2MzM2MSwzODE3
-NjU3MDNdfQ==
+eyJoaXN0b3J5IjpbODUzOTg5NTU5LC0yMDU2NjgzMTAsLTE4OT
+MzOTk1MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4
+MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LD
+EwNjM2MTM3MDIsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3
+OTE0MSwxNDY1MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3NjgsLT
+kwNDM0ODI5MSw1OTMxNDU2NDcsLTEzMDg3NjMzNjEsMzgxNzY1
+NzAzXX0=
 -->
