@@ -8194,6 +8194,18 @@ export default App;
 
 ### Animating Between Conditional Values
 
+````
+import { motion } from 'framer-motion';
+
+<motion.span
+                animate={{ rotate: isExpanded ? 180 : 0 }}
+                className="challenge-item-details-icon"
+              >
+                &#9650;
+              </motion.span>
+
+````
+
 
 
 
@@ -8204,11 +8216,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4Nz
-U4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0
-MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4LDcwMz
-Y1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0NywtMTMwODc2MzM2
-MSwzODE3NjU3MDMsLTc0MTMzNDY2LDE4MTMzMDMwNCw1NzAwMj
-I4MzcsODU0OTk1OTU1LC0xNTExODE5ODIxLC0xMjg5Mzc0NzYz
-XX0=
+eyJoaXN0b3J5IjpbLTc0MDI2MzEzMSwtMTY3MDQ0NjI3OCw3OT
+M5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0
+MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4OD
+I1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3
+LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMz
+MwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTUsLTE1MTE4MTk4MjFd
+fQ==
 -->
