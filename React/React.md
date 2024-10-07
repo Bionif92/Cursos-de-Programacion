@@ -8689,23 +8689,23 @@ import heroImg from '../assets/hero.png';
 export default function WelcomePage() {
   --const { scrollY } = useScroll();
 
-  const yCity = useTransform(scrollY, [0, 200], [0, -100]);
-  const opacityCity = useTransform(
+ -- const yCity = useTransform(scrollY, [0, 200], [0, -100]);
+ -- const opacityCity = useTransform(
     scrollY,
     [0, 200, 300, 500],
     [1, 0.5, 0.5, 0]
   );
-  const yHero = useTransform(scrollY, [0, 200], [0, -150]);
-  const opacityHero = useTransform(scrollY, [0, 300, 500], [1, 1, 0]);
-  const yText = useTransform(scrollY, [0, 200, 300, 500], [0, 50, 50, 300]);
-  const scaleText = useTransform(scrollY, [0, 300], [1, 1.5]);
+ -- const yHero = useTransform(scrollY, [0, 200], [0, -150]);
+ -- const opacityHero = useTransform(scrollY, [0, 300, 500], [1, 1, 0]);
+ -- const yText = useTransform(scrollY, [0, 200, 300, 500], [0, 50, 50, 300]);
+ -- const scaleText = useTransform(scrollY, [0, 300], [1, 1.5]);
 
   return (
     <>
       <header id="welcome-header">
         <motion.div
           id="welcome-header-content"
-          style={{ scale: scaleText, y: yText }}
+          --style={{ scale: scaleText, y: yText }}
         >
           <h1>Ready for a challenge?</h1>
           <Link id="cta-link" to="/challenges">
@@ -8786,7 +8786,7 @@ export default function WelcomePage() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMTY0MjY4LDgyNTkxMjkwMyw5ODY4ND
+eyJoaXN0b3J5IjpbMjkzMjg5NzgwLDgyNTkxMjkwMyw5ODY4ND
 I0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1
 LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMT
 cyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0
