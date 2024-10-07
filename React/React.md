@@ -8687,7 +8687,7 @@ import cityImg from '../assets/city.jpg';
 import heroImg from '../assets/hero.png';
 
 export default function WelcomePage() {
-  const { scrollY } = useScroll();
+  --const { scrollY } = useScroll();
 
   const yCity = useTransform(scrollY, [0, 200], [0, -100]);
   const opacityCity = useTransform(
@@ -8786,11 +8786,11 @@ export default function WelcomePage() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzA3NTE2OTIsODI1OTEyOTAzLDk4Nj
-g0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMx
-NjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMT
-AxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcw
-NDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MD
-IsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1
-MTM0NzA0XX0=
+eyJoaXN0b3J5IjpbLTcxMTY0MjY4LDgyNTkxMjkwMyw5ODY4ND
+I0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1
+LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMT
+cyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0
+NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC
+01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEz
+NDcwNF19
 -->
