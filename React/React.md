@@ -8208,6 +8208,20 @@ import { motion } from 'framer-motion';
 
 ### Adding Entry Animations
 
+````
+//modal.jsx
+import { motion } from 'framer-motion';
+
+<div className="backdrop" onClick={onClose} />
+      <motion.dialog
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: 30 }}
+        open
+        className="modal"
+      >
+````
+
 
 
 
@@ -8220,11 +8234,11 @@ import { motion } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNz
-kzOTM4MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5
-NDA3LDY3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsOD
-gyNTQyOTM4LDcwMzY1Mzc2OCwtOTA0MzQ4MjkxLDU5MzE0NTY0
-NywtMTMwODc2MzM2MSwzODE3NjU3MDMsLTc0MTMzNDY2LDE4MT
-MzMDMwNCw1NzAwMjI4MzcsODU0OTk1OTU1LC0xNTExODE5ODIx
-XX0=
+eyJoaXN0b3J5IjpbMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMT
+Y3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEz
+NzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxNDEsMT
+Q2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQzNDgy
+OTEsNTkzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcwMywtNz
+QxMzM0NjYsMTgxMzMwMzA0LDU3MDAyMjgzNyw4NTQ5OTU5NTVd
+fQ==
 -->
