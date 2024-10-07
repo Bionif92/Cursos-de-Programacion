@@ -8250,6 +8250,8 @@ import { motion } from 'framer-motion';
 ````
 Different animation starting with `while` (search them)
 
+### Reusing Animation States
+
 
 
 
@@ -8263,7 +8265,7 @@ Different animation starting with `while` (search them)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTU0MTM4MCwxMDE3Mjc3ODM4LDE4MD
+eyJoaXN0b3J5IjpbLTExNTM5MDUxNCwxMDE3Mjc3ODM4LDE4MD
 kxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4
 MDAxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LD
 Y3ODUzNjU0MCwxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQy
