@@ -8206,7 +8206,7 @@ import { motion } from 'framer-motion';
               </motion.span>
 ````
 
-### Adding Entry Animations
+### Adding Entry Animations/Element Disappearance
 
 ````
 //modal.jsx
@@ -8222,7 +8222,7 @@ import { motion } from 'framer-motion';
       >
 ````
 
-###
+
 
 
 
@@ -8236,7 +8236,7 @@ import { motion } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNjY4ODI0NCwxODA5MTAyMTczLC0xMD
+eyJoaXN0b3J5IjpbMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMD
 k1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1
 NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMT
 I3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0MjkzOCw3MDM2NTM3
