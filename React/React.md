@@ -8327,7 +8327,7 @@ Want to play animation one by one instead of all at the same time
  <header id="main-header">
         <h1>Your Challenges</h1>
         <motion.button
-          whileHover={{ scale: 1.1 , backgroundColor: '#8b11f0'}}
+          --whileHover={{ scale: 1.1 , backgroundColor: '#8b11f0'}}
           transition={{ type: 'spring', stiffness: 500 }}
           onClick={handleStartAddNewChallenge}
           className="button"
@@ -8335,6 +8335,29 @@ Want to play animation one by one instead of all at the same time
           Add Challenge
         </motion.button>
       </header>
+````
+Multiple steps of anima
+````
+<motion.ul
+          id="new-challenge-images"
+          variants={{
+            visible: { transition: { staggerChildren: 0.05 } },
+          }}
+        >
+          {images.map((image) => (
+            <motion.li
+              variants={{
+                hidden: { opacity: 0, scale: 0.5 },
+                --visible: { opacity: 1, scale: [0.8, 1.3, 1] }, // keyframes 
+              }}
+              exit={{ opacity: 1, scale: 1 }}
+              transition={{ type: 'spring' }}
+              key={image.alt}
+              onClick={() => handleSelectImage(image)}
+              className={selectedImage === image ? 'selected' : undefined}
+            >
+              <img {...image} />
+            </motion.li>
 ````
 
 
@@ -8351,11 +8374,11 @@ Want to play animation one by one instead of all at the same time
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyOTk1OCwtMjA1NjY4MzEwLC0xODkzMz
-k5NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0
-NCwtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMD
-YzNjEzNzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4Nzkx
-NDEsMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MD
-QzNDgyOTEsNTkzMTQ1NjQ3LC0xMzA4NzYzMzYxLDM4MTc2NTcw
-M119
+eyJoaXN0b3J5IjpbLTIwMjQxNjI2MzgsLTIwNTY2ODMxMCwtMT
+g5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLTEwOTU0
+NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4NzU4ODU0MD
+UsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0MCwxMjcy
+ODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4LDcwMzY1Mzc2OC
+wtOTA0MzQ4MjkxLDU5MzE0NTY0NywtMTMwODc2MzM2MSwzODE3
+NjU3MDNdfQ==
 -->
