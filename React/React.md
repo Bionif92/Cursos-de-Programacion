@@ -8224,6 +8224,7 @@ import { motion } from 'framer-motion';
 
 ### Animating Element Disappearances / Removal
 
+Animate the disappearance, will play the exit animation of the previous component
 ````
 //header.jsx
 import { AnimatePresence } from 'framer-motion';
@@ -8246,11 +8247,11 @@ import { AnimatePresence } from 'framer-motion';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzEyMzYxMjQ3LDEwMTcyNzc4MzgsMTgwOT
-EwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3OTM5Mzgw
-MDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01MjEwMjk0MDcsNj
-c4NTM2NTQwLDEyNzI4NzkxNDEsMTQ2NTEzNDcwNCw4ODI1NDI5
-MzgsNzAzNjUzNzY4LC05MDQzNDgyOTEsNTkzMTQ1NjQ3LC0xMz
-A4NzYzMzYxLDM4MTc2NTcwMywtNzQxMzM0NjYsMTgxMzMwMzA0
-XX0=
+eyJoaXN0b3J5IjpbLTEzMTQ0NjUyNzAsMTAxNzI3NzgzOCwxOD
+A5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5Mzkz
+ODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNy
+w2Nzg1MzY1NDAsMTI3Mjg3OTE0MSwxNDY1MTM0NzA0LDg4MjU0
+MjkzOCw3MDM2NTM3NjgsLTkwNDM0ODI5MSw1OTMxNDU2NDcsLT
+EzMDg3NjMzNjEsMzgxNzY1NzAzLC03NDEzMzQ2NiwxODEzMzAz
+MDRdfQ==
 -->
