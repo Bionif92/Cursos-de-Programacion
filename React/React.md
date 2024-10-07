@@ -8519,7 +8519,14 @@ Animate by itself the changes in the layout (move an item to a different positio
 
 ````
 //challenges.jsx
-<AnimatePresence>
+<AnimatePresence mode="wait">
+          {displayedChallenges.length > 0 && (
+            <motion.ol // need to add this for the last item to be animated
+              key="list"
+              exit={{ y: -30, opacity: 0 }}
+              className="challenge-items"
+            >
+              <AnimatePresence>
                 {displayedChallenges.map((challenge) => (
                   <ChallengeItem
                     key={challenge.id}
@@ -8529,6 +8536,20 @@ Animate by itself the changes in the layout (move an item to a different positio
                   />
                 ))}
               </AnimatePresence>
+            </motion.ol>
+          )}
+
+          {displayedChallenges.length === 0 && (
+            <motion.p
+              key="fallback"
+              initial={{ opacity: 0, y: -20 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -20 }}
+            >
+              No challenges found.
+            </motion.p>
+          )}
+        </AnimatePresence>
 ````
 ````
 //challengeitem.jsx
@@ -8587,11 +8608,11 @@ return (
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtOD
-k4NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5
-NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NC
-wtMTY3MDQ0NjI3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYz
-NjEzNzAyLC01MjEwMjk0MDcsNjc4NTM2NTQwLDEyNzI4NzkxND
-EsMTQ2NTEzNDcwNCw4ODI1NDI5MzgsNzAzNjUzNzY4LC05MDQz
-NDgyOTFdfQ==
+eyJoaXN0b3J5IjpbNTY4MzA2MTUyLC0xODI0OTczODgwLDE4Mz
+YwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMx
+MCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLT
+EwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4NzU4
+ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3ODUzNjU0MC
+wxMjcyODc5MTQxLDE0NjUxMzQ3MDQsODgyNTQyOTM4LDcwMzY1
+Mzc2OF19
 -->
