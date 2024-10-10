@@ -9258,6 +9258,8 @@ export const ProductsContext = React.createContext({
 
 Context used for low frecuency updates - is not optimized for high frecency updates
 
+### Getting Started with a Custom Hook as a Store
+
 
 
 
@@ -9270,11 +9272,11 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzIzMzU1MzYsODA5MjYxMjkxLC04MT
-M1ODI1MjMsMTk5MTA3MDI0NywtNTI5NjU5MjY1LC0xMTUzMjA5
-NjcxLDIwMjQzNjMyNTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLT
-k1NTMxODYyMywtMTI3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2
-NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2Nz
-UsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4
-Njg0MjQ4Nl19
+eyJoaXN0b3J5IjpbMTE1MzM5MDE5Nyw4MDkyNjEyOTEsLTgxMz
+U4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2
+NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOT
+U1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3
+NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NS
+wtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2
+ODQyNDg2XX0=
 -->
