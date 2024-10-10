@@ -9194,6 +9194,35 @@ root.render(
   </ProductsProvider>
 );
 ````
+````
+//products.js
+--import React, { useContext } from 'react';
+
+import ProductItem from '../components/Products/ProductItem';
+--import { ProductsContext } from '../context/products-context';
+import './Products.css';
+
+const Products = props => {
+  const productList = useContext(ProductsContext).products;
+  return (
+    <ul className="products-list">
+      {productList.map(prod => (
+        <ProductItem
+          key={prod.id}
+          id={prod.id}
+          title={prod.title}
+          description={prod.description}
+          isFav={prod.isFavorite}
+        />
+      ))}
+    </ul>
+  );
+};
+
+export default Products;
+````
+
+
 
 
 
@@ -9206,11 +9235,11 @@ root.render(
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzQ1NTQwNCwxOTkxMDcwMjQ3LC01Mj
-k2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0
-OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LD
-EzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkz
-Mzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOT
-gyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4
-MzYwOTQ5NDBdfQ==
+eyJoaXN0b3J5IjpbLTExNTQwOTQ4ODEsMTk5MTA3MDI0NywtNT
+I5NjU5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNjMyNTUsODY0ODgz
+NDk0LC03ODIwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5Ny
+wxMzYxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5
+MzM3NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mj
+k4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwx
+ODM2MDk0OTQwXX0=
 -->
