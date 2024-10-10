@@ -8781,6 +8781,32 @@ Multiple components that dont work standalone but instead together
 
 Ej: select and option htlm tags work together
 
+Making an acordeon that display the content when clicked
+````
+//
+import { useAccordionContext } from './Accordion.jsx';
+
+export default function AccordionItem({ id, className, title, children }) {
+  const { openItemId, toggleItem } = useAccordionContext();
+
+  const isOpen = openItemId === id;
+
+  return (
+    <li className={className}>
+      <h3 onClick={() => toggleItem(id)}>{title}</h3>
+      <div
+        className={
+          isOpen ? 'accordion-item-content open' : 'accordion-item-content'
+        }
+      >
+        {children}
+      </div>
+    </li>
+  );
+}
+````
+
+
 
 
 
@@ -8793,11 +8819,11 @@ Ej: select and option htlm tags work together
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMT
-YzODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTcz
-ODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLT
-IwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkx
-MDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MD
-AxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3
-ODUzNjU0MF19
+eyJoaXN0b3J5IjpbLTQ5MTIyNDUzNywtNTIxMTI5Njc1LC0xNj
+U1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0
+ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC
+01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcy
+Nzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0Nj
+I3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01
+MjEwMjk0MDddfQ==
 -->
