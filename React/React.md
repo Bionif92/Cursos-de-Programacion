@@ -8992,7 +8992,7 @@ export default function SearchableList({ items }) {
 ````
 import { useState } from 'react';
 
-export default function SearchableList({ items, itemKeyFn, children }) {
+--export default function SearchableList({ items, itemKeyFn, children }) {
   const [searchTerm, setSearchTerm] = useState('');
 
   const searchResults = items.filter((item) =>
@@ -9016,7 +9016,17 @@ export default function SearchableList({ items, itemKeyFn, children }) {
     </div>
   );
 }
-
+````
+````
+//app.jsx
+<section>
+        <SearchableList items={PLACES} itemKeyFn={(item) => item.id}>
+          {(item) => <Place item={item} />} // e
+        </SearchableList>
+        <SearchableList items={['item 1', 'item 2']} itemKeyFn={(item) => item}>
+          {(item) => item}
+        </SearchableList>
+      </section>
 ````
 
 
@@ -9031,7 +9041,7 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NDA0Njc1NiwtNzgyMDk0NTAxLC05NT
+eyJoaXN0b3J5IjpbLTE1Nzc1ODExNiwtNzgyMDk0NTAxLC05NT
 UzMTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3
 MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC
 0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4
