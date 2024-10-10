@@ -8949,6 +8949,8 @@ export default function AccordionTitle({ className, children }) {
 
 ### Introducing & Using Render Props
 
+Passing a function as a value as a children prop
+
 
 
 
@@ -8960,11 +8962,11 @@ export default function AccordionTitle({ className, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQyMDQ4MDYsLTEyNzcyMTc3OTcsMT
-M2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMz
-Nzc5MywtNTIxMTI5Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5OD
-IwLDgyNTkxMjkwMyw5ODY4NDI0ODYsLTE4MjQ5NzM4ODAsMTgz
-NjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4Mz
-EwLC0xODkzMzk5NTI1LDEwMTcyNzc4MzgsMTgwOTEwMjE3Mywt
-MTA5NTQ2ODE0NF19
+eyJoaXN0b3J5IjpbNDYyNjA2MTA5LC0xMjc3MjE3Nzk3LDEzNj
+E0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3
+OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMC
+w4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4MzYw
+OTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMxMC
+wtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLTEw
+OTU0NjgxNDRdfQ==
 -->
