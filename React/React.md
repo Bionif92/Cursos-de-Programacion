@@ -9203,7 +9203,7 @@ import ProductItem from '../components/Products/ProductItem';
 import './Products.css';
 
 const Products = props => {
-  const productList = useContext(ProductsContext).products;
+  --const productList = useContext(ProductsContext).products;
   return (
     <ul className="products-list">
       {productList.map(prod => (
@@ -9235,11 +9235,11 @@ export default Products;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTQwOTQ4ODEsMTk5MTA3MDI0NywtNT
-I5NjU5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNjMyNTUsODY0ODgz
-NDk0LC03ODIwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5Ny
-wxMzYxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5
-MzM3NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mj
-k4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwx
-ODM2MDk0OTQwXX0=
+eyJoaXN0b3J5IjpbNTMzNjY5MTEsMTk5MTA3MDI0NywtNTI5Nj
+U5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNjMyNTUsODY0ODgzNDk0
+LC03ODIwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5NywxMz
+YxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3
+NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4Mj
+AsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2
+MDk0OTQwXX0=
 -->
