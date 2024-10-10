@@ -8775,6 +8775,10 @@ export default function WelcomePage() {
 
 ## React Patterns & Best Practices
 
+### Introducing Compound Components
+
+Multiple components that dont work s
+
 
 
 
@@ -8787,11 +8791,11 @@ export default function WelcomePage() {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsOD
-I1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0
-OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLT
-E4OTMzOTk1MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1
-NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1ND
-A1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNyw2Nzg1MzY1NDAsMTI3
-Mjg3OTE0MV19
+eyJoaXN0b3J5IjpbLTE4MjkzNDI3NzgsLTE2NTUzMzMzNzYsLT
+E2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3
+Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC
+0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxODA5
+MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzOD
+AwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNyw2
+Nzg1MzY1NDBdfQ==
 -->
