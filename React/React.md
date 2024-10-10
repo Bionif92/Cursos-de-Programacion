@@ -9285,7 +9285,7 @@ export const useStore = () => {
     listeners.push(setState); //setState never change in the useStage
 
     return () => {
-      listeners = listeners.filter(li => li !== setState);
+      listeners = listeners.filter(li => li !== setState); // to delete the listener, if the component is deleted
     };
   }, [setState]);
 
@@ -9313,11 +9313,11 @@ export const initStore = (userActions, initialState) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNz
-ExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAy
-NDcsLTUyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMDI0MzYzMjU1LD
-g2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2MjMsLTEyNzcy
-MTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NT
-EyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0xNjU1MzMzMzc2LC0x
-NjM4OTI5ODIwXX0=
+eyJoaXN0b3J5IjpbLTE1NzU0Mzg2ODYsMTYyODIyMTk4NSwtMT
+EyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgy
+NTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOTY3MS
+wyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUz
+MTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3Mz
+MxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0x
+NjU1MzMzMzc2XX0=
 -->
