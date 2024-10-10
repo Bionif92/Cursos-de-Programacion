@@ -8989,6 +8989,8 @@ export default function SearchableList({ items }) {
 
 ### Implementing a Search Functionality With Help Of Render Props
 
+Render the prop for each element
+
 ````
 import { useState } from 'react';
 
@@ -9041,11 +9043,11 @@ import { useState } from 'react';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1Njk0NDMyMCwtNzgyMDk0NTAxLC05NT
-UzMTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3
-MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC
-0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4
-NDI0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMT
-Y1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEw
-MTcyNzc4MzhdfQ==
+eyJoaXN0b3J5IjpbLTEzMjgzNzQ2NjAsLTc4MjA5NDUwMSwtOT
+U1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3
+NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NS
+wtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2
+ODQyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMz
+E2NSwtNTY0NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwx
+MDE3Mjc3ODM4XX0=
 -->
