@@ -8951,6 +8951,34 @@ export default function AccordionTitle({ className, children }) {
 
 Passing a function as a value as a children prop
 
+````
+//sercheablelist.jsx
+import { useState } from 'react';
+
+export default function SearchableList({ items }) {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const searchResults = items.filter((item) =>
+    JSON.stringify(item).toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  function handleChange(event) {
+    setSearchTerm(event.target.value);
+  }
+
+  return (
+    <div className="searchable-list">
+      <input type="search" placeholder="Search" onChange={handleChange} />
+      <ul>
+        {searchResults.map((item, index) => (
+          <li key={index}>{item.toString()}</li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+````
+
 
 
 
@@ -8962,11 +8990,11 @@ Passing a function as a value as a children prop
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYyNjA2MTA5LC0xMjc3MjE3Nzk3LDEzNj
-E0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3
-OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMC
-w4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4MzYw
-OTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMxMC
-wtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNzMsLTEw
-OTU0NjgxNDRdfQ==
+eyJoaXN0b3J5IjpbLTk1NTMxODYyMywtMTI3NzIxNzc5NywxMz
+YxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3
+NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4Mj
+AsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2
+MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMT
+AsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0x
+MDk1NDY4MTQ0XX0=
 -->
