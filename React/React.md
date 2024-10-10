@@ -9222,6 +9222,24 @@ const Products = props => {
 export default Products;
 ````
 
+### Toggling Favorites with the Context API
+
+````
+//context
+  const toggleFavorite = productId => {
+    setProductsList(currentProdList => {
+      const prodIndex = currentProdList.findIndex(p => p.id === productId);
+      const newFavStatus = !currentProdList[prodIndex].isFavorite;
+      const updatedProducts = [...currentProdList];
+      updatedProducts[prodIndex] = {
+        ...currentProdList[prodIndex],
+        isFavorite: newFavStatus
+      };
+      return updatedProducts;
+    });
+  };
+
+````
 
 
 
@@ -9235,11 +9253,11 @@ export default Products;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzNjY5MTEsMTk5MTA3MDI0NywtNTI5Nj
-U5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNjMyNTUsODY0ODgzNDk0
-LC03ODIwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5NywxMz
-YxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3
-NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4Mj
-AsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2
-MDk0OTQwXX0=
+eyJoaXN0b3J5IjpbLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC01Mj
+k2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0
+OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LD
+EzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkz
+Mzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOT
+gyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4
+MzYwOTQ5NDBdfQ==
 -->
