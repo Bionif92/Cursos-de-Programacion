@@ -9061,6 +9061,21 @@ import { useState } from 'react';
   );
 }
 ````
+````
+//app.jsx
+<section>
+        <SearchableList items={PLACES} itemKeyFn={(item) => item.id}>
+          {(item) => <Place item={item} />} // extract the object
+        </SearchableList>
+        <SearchableList items={['item 1', 'item 2']} itemKeyFn={(item) => item}>
+          {(item) => item}
+        </SearchableList>
+      </section>
+````
+
+### Working with Debouncing
+
+
 
 
 
@@ -9074,11 +9089,11 @@ import { useState } from 'react';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQxNDk4MjQsLTc4MjA5NDUwMSwtOT
-U1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3
-NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NS
-wtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2
-ODQyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMz
-E2NSwtNTY0NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwx
-MDE3Mjc3ODM4XX0=
+eyJoaXN0b3J5IjpbODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NT
+MxODYyMywtMTI3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2Nzcz
+MzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2NzUsLT
+E2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0
+MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNj
+UsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAx
+NzI3NzgzOF19
 -->
