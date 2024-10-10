@@ -8779,7 +8779,7 @@ export default function WelcomePage() {
 
 Multiple components that dont work standalone but instead together
 
-Ej: select and option htlm ta
+Ej: select and option htlm tags work together
 
 
 
@@ -8793,11 +8793,11 @@ Ej: select and option htlm ta
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzI2ODA2MzAsLTE2NTUzMzMzNzYsLT
-E2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3
-Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC
-0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxODA5
-MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mjc4LDc5MzkzOD
-AwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUyMTAyOTQwNyw2
-Nzg1MzY1NDBdfQ==
+eyJoaXN0b3J5IjpbLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMT
+YzODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTcz
+ODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLT
+IwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkx
+MDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MD
+AxLDE4NzU4ODU0MDUsMTA2MzYxMzcwMiwtNTIxMDI5NDA3LDY3
+ODUzNjU0MF19
 -->
