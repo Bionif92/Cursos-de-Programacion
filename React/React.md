@@ -9265,7 +9265,7 @@ Share data an logic
 //hooks/store.js
 import { useState, useEffect } from 'react';
 
-let globalState = {}; //managing data out
+let globalState = {}; //managing data outside the hook
 let listeners = [];
 let actions = {};
 
@@ -9313,11 +9313,11 @@ export const initStore = (userActions, initialState) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjE1MjcxMTgsLTExMjQyMDIzNjMsMT
-cxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcw
-MjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NS
-w4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3
-MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2OD
-UxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3Niwt
-MTYzODkyOTgyMF19
+eyJoaXN0b3J5IjpbNzY4MTAyMDA1LC0xMTI0MjAyMzYzLDE3MT
+ExNDY3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5MTA3MDI0
+NywtNTI5NjU5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNjMyNTUsOD
+Y0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIx
+Nzc5NywxMzYxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MT
+IsLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2
+Mzg5Mjk4MjBdfQ==
 -->
