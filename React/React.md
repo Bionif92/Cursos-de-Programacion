@@ -8844,8 +8844,9 @@ export default function Accordion({ children, className }) {
   );
 }
 
-Accordion.Item = AccordionItem
+--Accordion.Item = AccordionItem // rename the property
 ````
+Change the name for the Accor
 ````
 //App.jsx
 import Accordion from './components/Accordion/Accordion.jsx';
@@ -8857,7 +8858,7 @@ function App() {
         <h2>Why work with us?</h2>
 
         <Accordion className="accordion">
-          <Accordion.Item
+          --<Accordion.Item // new name 
             --id="experience" //need to add to toggle
             className="accordion-item"
             title="We got 20 years of experience"
@@ -8907,11 +8908,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNT
-kzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODky
-OTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLD
-E4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2
-ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNz
-MsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4
-NzU4ODU0MDVdfQ==
+eyJoaXN0b3J5IjpbLTE3MzM5OTYxNTYsLTEyNTY3NzMzMSwtMT
+IzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMz
+MzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC
+0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0
+NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3OD
+M4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgs
+NzkzOTM4MDAxXX0=
 -->
