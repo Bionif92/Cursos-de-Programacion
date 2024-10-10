@@ -9260,11 +9260,12 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 
 ### Getting Started with a Custom Hook as a Store
 
+Share data an logic 
 ````
 //hooks/store.js
 import { useState, useEffect } from 'react';
 
-let globalState = {}; //to use it in different components
+let globalState = {}; //managing data out
 let listeners = [];
 let actions = {};
 
@@ -9281,7 +9282,7 @@ export const useStore = () => {
   };
 
   useEffect(() => {
-    listeners.push(setState); //setState never change in 
+    listeners.push(setState); //setState never change in the useStage
 
     return () => {
       listeners = listeners.filter(li => li !== setState);
@@ -9312,7 +9313,7 @@ export const initStore = (userActions, initialState) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTAyMzI2ODMsLTExMjQyMDIzNjMsMT
+eyJoaXN0b3J5IjpbLTE3MjE1MjcxMTgsLTExMjQyMDIzNjMsMT
 cxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcw
 MjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NS
 w4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3
