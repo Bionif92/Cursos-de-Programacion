@@ -9300,6 +9300,58 @@ export const initStore = (userActions, initialState) => {
 };
 ````
 
+### Creating a Concrete Store
+
+````
+//hooks/productstore
+import { initStore } from './store';
+
+const configureStore = () => {
+  const actions = {
+    TOGGLE_FAV: (curState, productId) => {
+      const prodIndex = curState.products.findIndex(p => p.id === productId);
+      const newFavStatus = !curState.products[prodIndex].isFavorite;
+      const updatedProducts = [...curState.products];
+      updatedProducts[prodIndex] = {
+        ...curState.products[prodIndex],
+        isFavorite: newFavStatus
+      };
+      return { products: updatedProducts };
+    }
+  };
+  initStore(actions, {
+    products: [
+      {
+        id: 'p1',
+        title: 'Red Scarf',
+        description: 'A pretty red scarf.',
+        isFavorite: false
+      },
+      {
+        id: 'p2',
+        title: 'Blue T-Shirt',
+        description: 'A pretty blue t-shirt.',
+        isFavorite: false
+      },
+      {
+        id: 'p3',
+        title: 'Green Trousers',
+        description: 'A pair of lightly green trousers.',
+        isFavorite: false
+      },
+      {
+        id: 'p4',
+        title: 'Orange Hat',
+        description: 'Street style! An orange hat.',
+        isFavorite: false
+      }
+    ]
+  });
+};
+
+export default configureStore;
+````
+
 
 
 
@@ -9313,11 +9365,11 @@ export const initStore = (userActions, initialState) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU0Mzg2ODYsMTYyODIyMTk4NSwtMT
-EyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgy
-NTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOTY3MS
-wyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUz
-MTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3Mz
-MxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0x
-NjU1MzMzMzc2XX0=
+eyJoaXN0b3J5IjpbNTMwNzA5NTI1LC0xNTc1NDM4Njg2LDE2Mj
+gyMjE5ODUsLTExMjQyMDIzNjMsMTcxMTE0Njc3Miw4MDkyNjEy
+OTEsLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTkyNjUsLT
+ExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5
+NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0Nj
+EsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUy
+MTEyOTY3NV19
 -->
