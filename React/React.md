@@ -8777,7 +8777,9 @@ export default function WelcomePage() {
 
 ### Introducing Compound Components
 
-Multiple components that dont work s
+Multiple components that dont work standalone but instead together
+
+Ej: select and option htlm ta
 
 
 
@@ -8791,7 +8793,7 @@ Multiple components that dont work s
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjkzNDI3NzgsLTE2NTUzMzMzNzYsLT
+eyJoaXN0b3J5IjpbLTIwMzI2ODA2MzAsLTE2NTUzMzMzNzYsLT
 E2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3
 Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC
 0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwxODA5
