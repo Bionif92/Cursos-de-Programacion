@@ -9021,7 +9021,7 @@ import { useState } from 'react';
 //app.jsx
 <section>
         <SearchableList items={PLACES} itemKeyFn={(item) => item.id}>
-          {(item) => <Place item={item} />} // e
+          {(item) => <Place item={item} />} // extract the object
         </SearchableList>
         <SearchableList items={['item 1', 'item 2']} itemKeyFn={(item) => item}>
           {(item) => item}
@@ -9041,7 +9041,7 @@ import { useState } from 'react';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzc1ODExNiwtNzgyMDk0NTAxLC05NT
+eyJoaXN0b3J5IjpbMTM1Njk0NDMyMCwtNzgyMDk0NTAxLC05NT
 UzMTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3
 MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC
 0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4
