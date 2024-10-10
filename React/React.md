@@ -8813,7 +8813,7 @@ import AccordionItem from './AccordionItem.jsx';
 
 const AccordionContext = createContext();
 
-export function useAccordionContext() { //custom hook
+--export function useAccordionContext() { //custom hook to use the context in other components
   const ctx = useContext(AccordionContext);
 
   if (!ctx) {
@@ -8905,7 +8905,7 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTc2MzAwMDMsLTU5MzM3NzkzLC01Mj
+eyJoaXN0b3J5IjpbLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01Mj
 ExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEy
 OTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC
 04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMz
