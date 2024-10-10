@@ -9226,6 +9226,11 @@ export default Products;
 
 ````
 //context
+export const ProductsContext = React.createContext({
+  products: [],
+  toggleFav: (id) => {}
+});
+
   const toggleFavorite = productId => {
     setProductsList(currentProdList => {
       const prodIndex = currentProdList.findIndex(p => p.id === productId);
@@ -9239,6 +9244,14 @@ export default Products;
     });
   };
 
+ return (
+    <ProductsContext.Provider
+      --value={{ products: productsList, toggleFav: toggleFavorite }}
+    >
+      {props.children}
+    </ProductsContext.Provider>
+  );
+};
 ````
 
 
@@ -9253,11 +9266,11 @@ export default Products;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC01Mj
-k2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0
-OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LD
-EzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkz
-Mzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOT
-gyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4
-MzYwOTQ5NDBdfQ==
+eyJoaXN0b3J5IjpbODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5MT
+A3MDI0NywtNTI5NjU5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNjMy
+NTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NTMxODYyMywtMT
+I3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4
+Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNz
+YsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgy
+NDk3Mzg4MF19
 -->
