@@ -9075,6 +9075,9 @@ import { useState } from 'react';
 
 ### Working with Debouncing
 
+Dont refresh the component rendering with every key stroke
+
+````
 
 
 
@@ -9089,11 +9092,11 @@ import { useState } from 'react';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NT
-MxODYyMywtMTI3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2Nzcz
-MzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2NzUsLT
-E2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0
-MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNj
-UsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAx
-NzI3NzgzOF19
+eyJoaXN0b3J5IjpbLTIwODI4MDAzOTgsODY0ODgzNDk0LC03OD
+IwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5NywxMzYxNDE3
+NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC
+01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1
+OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OT
+QwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4
+OTMzOTk1MjVdfQ==
 -->
