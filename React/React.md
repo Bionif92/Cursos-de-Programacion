@@ -9352,6 +9352,28 @@ const configureStore = () => {
 export default configureStore;
 ````
 
+### Using the Custom Store
+
+````
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+
+import './index.css';
+import App from './App';
+--import configureProductsStore from './hooks-store/products-store';
+
+--configureProductsStore(); //set the store
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+);
+
+````
+
 
 
 
@@ -9365,11 +9387,11 @@ export default configureStore;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwNzA5NTI1LC0xNTc1NDM4Njg2LDE2Mj
-gyMjE5ODUsLTExMjQyMDIzNjMsMTcxMTE0Njc3Miw4MDkyNjEy
-OTEsLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTkyNjUsLT
-ExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5
-NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0Nj
-EsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUy
-MTEyOTY3NV19
+eyJoaXN0b3J5IjpbLTg2MTg2NDcxMCw1MzA3MDk1MjUsLTE1Nz
+U0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMTQ2
+NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcsLT
+UyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMDI0MzYzMjU1LDg2NDg4
+MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2MjMsLTEyNzcyMTc3OT
+csMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NTEyLC01
+OTMzNzc5M119
 -->
