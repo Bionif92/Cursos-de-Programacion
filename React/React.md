@@ -8858,7 +8858,7 @@ function App() {
 
         <Accordion className="accordion">
           <Accordion.Item
-            id="experience"
+            --id="experience" //need to add to toggle
             className="accordion-item"
             title="We got 20 years of experience"
           >
@@ -8871,7 +8871,7 @@ function App() {
             </article>
           </Accordion.Item>
           <Accordion.Item
-            id="local-guides"
+            --id="local-guides"
             className="accordion-item"
             title="We're working with local guides"
           >
@@ -8905,11 +8905,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01Mj
-ExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEy
-OTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC
-04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMz
-OTk1MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MT
-Q0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEw
-NjM2MTM3MDJdfQ==
+eyJoaXN0b3J5IjpbLTkzNzg0NDQ0OSwtMTIzNTg2ODUxMiwtNT
+kzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODky
+OTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLD
+E4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2
+ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4MDkxMDIxNz
+MsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgsNzkzOTM4MDAxLDE4
+NzU4ODU0MDVdfQ==
 -->
