@@ -9175,7 +9175,25 @@ export default props => {
   );
 };
 ````
-``
+````
+//index.js
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
+
+import './index.css';
+import App from './App';
+--import ProductsProvider from './context/products-context';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  --<ProductsProvider>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </ProductsProvider>
+);
+````
 
 
 
@@ -9188,11 +9206,11 @@ export default props => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc5MjI5NTI1LDE5OTEwNzAyNDcsLTUyOT
-Y1OTI2NSwtMTE1MzIwOTY3MSwyMDI0MzYzMjU1LDg2NDg4MzQ5
-NCwtNzgyMDk0NTAxLC05NTUzMTg2MjMsLTEyNzcyMTc3OTcsMT
-M2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMz
-Nzc5MywtNTIxMTI5Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5OD
-IwLDgyNTkxMjkwMyw5ODY4NDI0ODYsLTE4MjQ5NzM4ODAsMTgz
-NjA5NDk0MF19
+eyJoaXN0b3J5IjpbLTk0NzQ1NTQwNCwxOTkxMDcwMjQ3LC01Mj
+k2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0
+OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LD
+EzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkz
+Mzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOT
+gyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4
+MzYwOTQ5NDBdfQ==
 -->
