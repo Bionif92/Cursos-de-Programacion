@@ -9260,6 +9260,12 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 
 ### Getting Started with a Custom Hook as a Store
 
+````
+//hooks/store.js
+
+````
+
+
 
 
 
@@ -9272,7 +9278,7 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MzM5MDE5Nyw4MDkyNjEyOTEsLTgxMz
+eyJoaXN0b3J5IjpbMTcxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMz
 U4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2
 NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOT
 U1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3
