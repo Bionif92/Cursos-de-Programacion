@@ -9094,7 +9094,7 @@ export default function SearchableList({ items, itemKeyFn, children }) {
     }
 
     lastChange.current = setTimeout(() => {
-      lastChange.current = null
+      lastChange.current = null // to clear the timer
       setSearchTerm(event.target.value);
     }, 500);
   }
@@ -9124,11 +9124,11 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4Mj
-A5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0
-NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLT
-UyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5
-MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5ND
-AsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMxMCwtMTg5
-MzM5OTUyNV19
+eyJoaXN0b3J5IjpbLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4Nj
+Q4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3
+Nzk3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMi
+wtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYz
+ODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczOD
+gwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIw
+NTY2ODMxMF19
 -->
