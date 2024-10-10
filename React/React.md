@@ -9112,6 +9112,8 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 }
 ````
 
+## Replacing Redux with 
+
 
 
 
@@ -9124,11 +9126,11 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4Nj
-Q4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3
-Nzk3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMi
-wtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYz
-ODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczOD
-gwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIw
-NTY2ODMxMF19
+eyJoaXN0b3J5IjpbLTYwMDgwMjAyLC0xMTUzMjA5NjcxLDIwMj
+QzNjMyNTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NTMxODYy
+MywtMTI3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2NzczMzEsLT
+EyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NTUz
+MzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4Ni
+wtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2
+NDYzMjYxXX0=
 -->
