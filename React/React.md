@@ -9031,6 +9031,37 @@ import { useState } from 'react';
       </section>
 ````
 
+### Handling Keys Dynamically
+
+````
+import { useState } from 'react';
+
+--export default function SearchableList({ items, itemKeyFn, children }) {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const searchResults = items.filter((item) =>
+    JSON.stringify(item).toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  function handleChange(event) {
+    setSearchTerm(event.target.value);
+  }
+
+  return (
+    <div className="searchable-list">
+      <input type="search" placeholder="Search" onChange={handleChange} />
+      <ul>
+        {searchResults.map((item) => (
+          --<li key={itemKeyFn(item)}>
+            {children(item)}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+````
+
 
 
 
@@ -9043,7 +9074,7 @@ import { useState } from 'react';
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjgzNzQ2NjAsLTc4MjA5NDUwMSwtOT
+eyJoaXN0b3J5IjpbLTEwNzQxNDk4MjQsLTc4MjA5NDUwMSwtOT
 U1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3
 NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NS
 wtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2
