@@ -8781,9 +8781,9 @@ Multiple components that dont work standalone but instead together
 
 Ej: select and option htlm tags work together
 
-Making an acordeon that display the content when clicked
+Making an accordion that display the content when clicked
 ````
-//
+//Accordionitem
 import { useAccordionContext } from './Accordion.jsx';
 
 export default function AccordionItem({ id, className, title, children }) {
@@ -8805,6 +8805,92 @@ export default function AccordionItem({ id, className, title, children }) {
   );
 }
 ````
+````
+//Accordion
+import { createContext, useContext, useState } from 'react';
+
+import AccordionItem from './AccordionItem.jsx';
+
+const AccordionContext = createContext();
+
+export function useAccordionContext() {
+  const ctx = useContext(AccordionContext);
+
+  if (!ctx) {
+    throw new Error(
+      'Accordion-related components must be wrapped by <Accordion>.'
+    );
+  }
+
+  return ctx;
+}
+
+export default function Accordion({ children, className }) {
+  const [openItemId, setOpenItemId] = useState();
+
+  function toggleItem(id) {
+    setOpenItemId((prevId) => (prevId === id ? null : id));
+  }
+
+  const contextValue = {
+    openItemId,
+    toggleItem,
+  };
+
+  return (
+    <AccordionContext.Provider value={contextValue}>
+      <ul className={className}>{children}</ul>
+    </AccordionContext.Provider>
+  );
+}
+
+Accordion.Item = AccordionItem
+````
+````
+//App.jsx
+import Accordion from './components/Accordion/Accordion.jsx';
+
+function App() {
+  return (
+    <main>
+      <section>
+        <h2>Why work with us?</h2>
+
+        <Accordion className="accordion">
+          <Accordion.Item
+            id="experience"
+            className="accordion-item"
+            title="We got 20 years of experience"
+          >
+            <article>
+              <p>You can&apos;t go wrong with us.</p>
+              <p>
+                We are in the business of planning highly individualized
+                vacation trips for more than 20 years.
+              </p>
+            </article>
+          </Accordion.Item>
+          <Accordion.Item
+            id="local-guides"
+            className="accordion-item"
+            title="We're working with local guides"
+          >
+            <article>
+              <p>We are not doing this along from our office.</p>
+              <p>
+                Instead, we are working with local guides to ensure a safe and
+                pleasant vacation.
+              </p>
+            </article>
+          </Accordion.Item>
+        </Accordion>
+      </section>
+    </main>
+  );
+}
+
+export default App;
+````
 
 
 
@@ -8819,11 +8905,11 @@ export default function AccordionItem({ id, className, title, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MTIyNDUzNywtNTIxMTI5Njc1LC0xNj
-U1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0
-ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC
-01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcy
-Nzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0Nj
-I3OCw3OTM5MzgwMDEsMTg3NTg4NTQwNSwxMDYzNjEzNzAyLC01
-MjEwMjk0MDddfQ==
+eyJoaXN0b3J5IjpbLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NT
+UzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4
+NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLT
+U2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3
+NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mj
+c4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUy
+MTAyOTQwN119
 -->
