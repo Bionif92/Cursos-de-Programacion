@@ -9117,8 +9117,63 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 ### Alternative: Using the Context API
 
 ````
-//context/product-context
+//context/product-context.js
+import React, { useState } from 'react';
 
+export const ProductsContext = React.createContext({
+  products: [],
+  toggleFav: (id) => {}
+});
+
+export default props => {
+  const [productsList, setProductsList] = useState([
+    {
+      id: 'p1',
+      title: 'Red Scarf',
+      description: 'A pretty red scarf.',
+      isFavorite: false
+    },
+    {
+      id: 'p2',
+      title: 'Blue T-Shirt',
+      description: 'A pretty blue t-shirt.',
+      isFavorite: false
+    },
+    {
+      id: 'p3',
+      title: 'Green Trousers',
+      description: 'A pair of lightly green trousers.',
+      isFavorite: false
+    },
+    {
+      id: 'p4',
+      title: 'Orange Hat',
+      description: 'Street style! An orange hat.',
+      isFavorite: false
+    }
+  ]);
+
+  const toggleFavorite = productId => {
+    setProductsList(currentProdList => {
+      const prodIndex = currentProdList.findIndex(p => p.id === productId);
+      const newFavStatus = !currentProdList[prodIndex].isFavorite;
+      const updatedProducts = [...currentProdList];
+      updatedProducts[prodIndex] = {
+        ...currentProdList[prodIndex],
+        isFavorite: newFavStatus
+      };
+      return updatedProducts;
+    });
+  };
+
+  return (
+    <ProductsContext.Provider
+      value={{ products: productsList, toggleFav: toggleFavorite }}
+    >
+      {props.children}
+    </ProductsContext.Provider>
+  );
+};
 ````
 
 
@@ -9132,11 +9187,11 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMzMDA1NzAwLC01Mjk2NTkyNjUsLTExNT
-MyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5NDUw
-MSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLT
-EyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEy
-OTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MD
-MsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5
-ODcxMzE2NV19
+eyJoaXN0b3J5IjpbMTk5MTA3MDI0NywtNTI5NjU5MjY1LC0xMT
+UzMjA5NjcxLDIwMjQzNjMyNTUsODY0ODgzNDk0LC03ODIwOTQ1
+MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5NywxMzYxNDE3NDYxLC
+0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjEx
+Mjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOT
+AzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04
+OTg3MTMxNjVdfQ==
 -->
