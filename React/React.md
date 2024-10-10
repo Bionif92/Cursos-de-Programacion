@@ -8903,7 +8903,32 @@ Can configure more easily
 
 ### Sharing Cross-Component State When Working With Compound Components
 
+````
+//AccordionItem
+import { createContext, useContext } from 'react';
 
+const AccordionItemContext = createContext();
+
+export function useAccordionItemContext() {
+  const ctx = useContext(AccordionItemContext);
+
+  if (!ctx) {
+    throw new Error(
+      'AccordionItem-related components must be wrapped by <Accordion.Item>.'
+    );
+  }
+
+  return ctx;
+}
+
+export default function AccordionItem({ id, className, children }) {
+  return (
+    <AccordionItemContext.Provider value={id}>
+      <li className={className}>{children}</li>
+    </AccordionItemContext.Provider>
+  );
+}
+````
 
 
 
@@ -8916,11 +8941,11 @@ Can configure more easily
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTU5NDkyNDksMTM2MTQxNzQ2MSwtMT
-I1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5
-Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMy
-w5ODY4NDI0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4
-NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NT
-I1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwt
-MTY3MDQ0NjI3OF19
+eyJoaXN0b3J5IjpbMTczOTEyMzg0NywxMzYxNDE3NDYxLC0xMj
+U2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2
+NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLD
+k4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3
+MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1Mj
+UsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0x
+NjcwNDQ2Mjc4XX0=
 -->
