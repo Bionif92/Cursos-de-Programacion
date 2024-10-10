@@ -9265,7 +9265,7 @@ Share data an logic
 //hooks/store.js
 import { useState, useEffect } from 'react';
 
-let globalState = {}; //managing data outside the hook
+let globalState = {}; //managing data outside the hook, is shared between components
 let listeners = []; // adding the state change for every component that use the hook
 let actions = {};
 
@@ -9414,11 +9414,11 @@ export default Products;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE2MjYzNzIsNTMwNzA5NTI1LC0xNT
-c1NDM4Njg2LDE2MjgyMjE5ODUsLTExMjQyMDIzNjMsMTcxMTE0
-Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC
-01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4
-ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nz
-k3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwt
-NTkzMzc3OTNdfQ==
+eyJoaXN0b3J5IjpbMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1Mz
+A3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIw
+MjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLD
+E5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMDI0
+MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2Mj
+MsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC0x
+MjM1ODY4NTEyXX0=
 -->
