@@ -9262,7 +9262,41 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 
 ````
 //hooks/store.js
+import { useState, useEffect } from 'react';
 
+let globalState = {};
+let listeners = [];
+let actions = {};
+
+export const useStore = () => {
+  const setState = useState(globalState)[1];
+
+  const dispatch = (actionIdentifier, payload) => {
+    const newState = actions[actionIdentifier](globalState, payload);
+    globalState = { ...globalState, ...newState };
+
+    for (const listener of listeners) {
+      listener(globalState);
+    }
+  };
+
+  useEffect(() => {
+    listeners.push(setState);
+
+    return () => {
+      listeners = listeners.filter(li => li !== setState);
+    };
+  }, [setState]);
+
+  return [globalState, dispatch];
+};
+
+export const initStore = (userActions, initialState) => {
+  if (initialState) {
+    globalState = { ...globalState, ...initialState };
+  }
+  actions = { ...actions, ...userActions };
+};
 ````
 
 
@@ -9278,11 +9312,11 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMz
-U4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2
-NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOT
-U1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3
-NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NS
-wtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2
-ODQyNDg2XX0=
+eyJoaXN0b3J5IjpbMTQyNDE0MDU0OCwxNzExMTQ2NzcyLDgwOT
+I2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2
+NSwtMTE1MzIwOTY3MSwyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNz
+gyMDk0NTAxLC05NTUzMTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQx
+NzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5My
+wtNTIxMTI5Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgy
+NTkxMjkwM119
 -->
