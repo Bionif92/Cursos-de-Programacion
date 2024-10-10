@@ -8937,7 +8937,7 @@ import { useAccordionItemContext } from './AccordionItem.jsx';
 
 export default function AccordionTitle({ className, children }) {
   const { toggleItem } = useAccordionContext();
-  const id = useAccordionItemContext();
+  --const id = useAccordionItemContext(); //extract the id
   return (
     <h3 className={className} onClick={() => toggleItem(id)}>
       {children}
@@ -8956,11 +8956,11 @@ export default function AccordionTitle({ className, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY4Njk2MTAsMTM2MTQxNzQ2MSwtMT
-I1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5
-Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMy
-w5ODY4NDI0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4
-NzEzMTY1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NT
-I1LDEwMTcyNzc4MzgsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwt
-MTY3MDQ0NjI3OF19
+eyJoaXN0b3J5IjpbLTQ4MTQyMDcyNywxMzYxNDE3NDYxLC0xMj
+U2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2
+NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLD
+k4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3
+MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1Mj
+UsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0x
+NjcwNDQ2Mjc4XX0=
 -->
