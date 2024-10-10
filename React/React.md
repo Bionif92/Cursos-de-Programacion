@@ -8893,7 +8893,7 @@ function App() {
 export default App;
 ````
 
-###
+### Adding Extra Components For Reusability & Configurability
 
 
 
@@ -8908,7 +8908,7 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjU3NjA4MywtMTI1Njc3MzMxLC0xMj
+eyJoaXN0b3J5IjpbMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMj
 M1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0xNjU1MzMz
 Mzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0ODYsLT
 E4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2
