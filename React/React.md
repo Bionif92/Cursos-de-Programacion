@@ -9114,6 +9114,12 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 ## Replacing Redux with React Hooks
 
+### Alternative: Using the Context API
+
+````
+//context/product-context
+
+````
 
 
 
@@ -9126,11 +9132,11 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMD
-I0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2
-MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC
-0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0xNjU1
-MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0OD
-YsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01
-NjQ2MzI2MV19
+eyJoaXN0b3J5IjpbOTMzMDA1NzAwLC01Mjk2NTkyNjUsLTExNT
+MyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4MjA5NDUw
+MSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0NjEsLT
+EyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEy
+OTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MD
+MsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5
+ODcxMzE2NV19
 -->
