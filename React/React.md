@@ -8947,7 +8947,7 @@ export default function AccordionTitle({ className, children }) {
 }
 ````
 
-### Introducing & Using Render Props
+### Introducing & Using Render Props - Adding Search
 
 Passing a function as a value as a children prop
 
@@ -8981,7 +8981,10 @@ export default function SearchableList({ items }) {
 
 ````
 //app.jsx
-
+ <section>
+        <SearchableList items={PLACES} />
+        <SearchableList items={['item 1', 'item 2']} />
+      </section>
 ````
 
 
@@ -8996,11 +8999,11 @@ export default function SearchableList({ items }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTU0ODQ2OTksLTk1NTMxODYyMywtMT
-I3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2NzczMzEsLTEyMzU4
-Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NTUzMzMzNz
-YsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4NiwtMTgy
-NDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2NDYzMj
-YxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3NzgzOCwx
-ODA5MTAyMTczXX0=
+eyJoaXN0b3J5IjpbLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMj
+c3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2
+ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3Ni
+wtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0
+OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNj
+EsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4
+MDkxMDIxNzNdfQ==
 -->
