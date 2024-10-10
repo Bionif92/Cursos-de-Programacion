@@ -8846,7 +8846,7 @@ export default function Accordion({ children, className }) {
 
 --Accordion.Item = AccordionItem // rename the property
 ````
-Change the name for the Accor
+Belong to the accordion component, have error if you want to use it in other part
 ````
 //App.jsx
 import Accordion from './components/Accordion/Accordion.jsx';
@@ -8908,11 +8908,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM5OTYxNTYsLTEyNTY3NzMzMSwtMT
-IzNTg2ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMz
-MzM3NiwtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC
-0xODI0OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0
-NjMyNjEsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3OD
-M4LDE4MDkxMDIxNzMsLTEwOTU0NjgxNDQsLTE2NzA0NDYyNzgs
-NzkzOTM4MDAxXX0=
+eyJoaXN0b3J5IjpbLTE3NjU3NjA4MywtMTI1Njc3MzMxLC0xMj
+M1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0xNjU1MzMz
+Mzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0ODYsLT
+E4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2
+MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4Mz
+gsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3
+OTM5MzgwMDFdfQ==
 -->
