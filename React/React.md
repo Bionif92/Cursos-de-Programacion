@@ -9081,7 +9081,7 @@ Dont refresh the component rendering with every key stroke
 import { useRef, useState } from 'react';
 
 export default function SearchableList({ items, itemKeyFn, children }) {
-  const lastChange = useRef();
+  --const lastChange = useRef();
   const [searchTerm, setSearchTerm] = useState('');
 
   const searchResults = items.filter((item) =>
@@ -9124,11 +9124,11 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzQ4OTg3MjksODY0ODgzNDk0LC03OD
-IwOTQ1MDEsLTk1NTMxODYyMywtMTI3NzIxNzc5NywxMzYxNDE3
-NDYxLC0xMjU2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC
-01MjExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1
-OTEyOTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OT
-QwLC04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4
-OTMzOTk1MjVdfQ==
+eyJoaXN0b3J5IjpbMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLTc4Mj
+A5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0MTc0
+NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OTMsLT
+UyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4MjU5
+MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLDE4MzYwOTQ5ND
+AsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2ODMxMCwtMTg5
+MzM5OTUyNV19
 -->
