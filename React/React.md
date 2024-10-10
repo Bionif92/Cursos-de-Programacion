@@ -8781,7 +8781,7 @@ Multiple components that dont work standalone but instead together
 
 Ej: select and option htlm tags work together
 
-Making an accordion that display the content when clicked
+Making an accordion that display the content when clicked, oppen one at a time
 ````
 //Accordionitem
 import { useAccordionContext } from './Accordion.jsx';
@@ -8892,6 +8892,8 @@ function App() {
 export default App;
 ````
 
+###
+
 
 
 
@@ -8905,7 +8907,7 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzg0NDQ0OSwtMTIzNTg2ODUxMiwtNT
+eyJoaXN0b3J5IjpbLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNT
 kzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODky
 OTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0OTczODgwLD
 E4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNjEsLTIwNTY2
