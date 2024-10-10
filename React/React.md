@@ -8895,6 +8895,10 @@ export default App;
 
 ### Adding Extra Components For Reusability & Configurability
 
+Could use the same structure for nested components then put the name like this:
+
+`Accortion.Title = AccordionTitle` and use it like that en the fa
+
 
 
 
@@ -8908,11 +8912,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMj
-M1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0xNjU1MzMz
-Mzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0ODYsLT
-E4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01NjQ2
-MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEwMTcyNzc4Mz
-gsMTgwOTEwMjE3MywtMTA5NTQ2ODE0NCwtMTY3MDQ0NjI3OCw3
-OTM5MzgwMDFdfQ==
+eyJoaXN0b3J5IjpbLTk3NzgzNDQ5MywxMzYxNDE3NDYxLC0xMj
+U2NzczMzEsLTEyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2
+NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLD
+k4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3
+MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1Mj
+UsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0x
+NjcwNDQ2Mjc4XX0=
 -->
