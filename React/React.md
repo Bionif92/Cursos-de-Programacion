@@ -8987,6 +8987,38 @@ export default function SearchableList({ items }) {
       </section>
 ````
 
+### Implementing a Search Functionality With Help Of Render Props
+
+````
+import { useState } from 'react';
+
+export default function SearchableList({ items, itemKeyFn, children }) {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const searchResults = items.filter((item) =>
+    JSON.stringify(item).toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
+  function handleChange(event) {
+    setSearchTerm(event.target.value);
+  }
+
+  return (
+    <div className="searchable-list">
+      <input type="search" placeholder="Search" onChange={handleChange} />
+      <ul>
+        {searchResults.map((item) => (
+          <li key={itemKeyFn(item)}>
+            --{children(item)}
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+````
+
 
 
 
@@ -8999,11 +9031,11 @@ export default function SearchableList({ items }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMj
-c3MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2
-ODUxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3Ni
-wtMTYzODkyOTgyMCw4MjU5MTI5MDMsOTg2ODQyNDg2LC0xODI0
-OTczODgwLDE4MzYwOTQ5NDAsLTg5ODcxMzE2NSwtNTY0NjMyNj
-EsLTIwNTY2ODMxMCwtMTg5MzM5OTUyNSwxMDE3Mjc3ODM4LDE4
-MDkxMDIxNzNdfQ==
+eyJoaXN0b3J5IjpbMTY4NDA0Njc1NiwtNzgyMDk0NTAxLC05NT
+UzMTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3
+MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC
+0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4
+NDI0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMT
+Y1LC01NjQ2MzI2MSwtMjA1NjY4MzEwLC0xODkzMzk5NTI1LDEw
+MTcyNzc4MzhdfQ==
 -->
