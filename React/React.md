@@ -9264,7 +9264,7 @@ Context used for low frecuency updates - is not optimized for high frecency upda
 //hooks/store.js
 import { useState, useEffect } from 'react';
 
-let globalState = {};
+let globalState = {}; //to use it in different components
 let listeners = [];
 let actions = {};
 
@@ -9312,11 +9312,11 @@ export const initStore = (userActions, initialState) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNDE0MDU0OCwxNzExMTQ2NzcyLDgwOT
-I2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2
-NSwtMTE1MzIwOTY3MSwyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNz
-gyMDk0NTAxLC05NTUzMTg2MjMsLTEyNzcyMTc3OTcsMTM2MTQx
-NzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5My
-wtNTIxMTI5Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgy
-NTkxMjkwM119
+eyJoaXN0b3J5IjpbLTExMjQyMDIzNjMsMTcxMTE0Njc3Miw4MD
+kyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTky
+NjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLT
+c4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0
+MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OT
+MsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4
+MjU5MTI5MDNdfQ==
 -->
