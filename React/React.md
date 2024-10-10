@@ -8899,6 +8899,10 @@ Could use the same structure for nested components then put the name like this:
 
 `Accortion.Title = AccordionTitle` and use it like that en the father component
 
+Can configure more easily
+
+### Sharing Cross-Component State When Working With Compound Components
+
 
 
 
@@ -8912,7 +8916,7 @@ Could use the same structure for nested components then put the name like this:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODc5NzQ4NDMsMTM2MTQxNzQ2MSwtMT
+eyJoaXN0b3J5IjpbLTE1NTU5NDkyNDksMTM2MTQxNzQ2MSwtMT
 I1Njc3MzMxLC0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5
 Njc1LC0xNjU1MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMy
 w5ODY4NDI0ODYsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4
