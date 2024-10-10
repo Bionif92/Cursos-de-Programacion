@@ -9112,7 +9112,7 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 }
 ````
 
-## Replacing Redux with 
+## Replacing Redux with React Hooks
 
 
 
@@ -9126,11 +9126,11 @@ export default function SearchableList({ items, itemKeyFn, children }) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMDgwMjAyLC0xMTUzMjA5NjcxLDIwMj
-QzNjMyNTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NTMxODYy
-MywtMTI3NzIxNzc5NywxMzYxNDE3NDYxLC0xMjU2NzczMzEsLT
-EyMzU4Njg1MTIsLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NTUz
-MzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4Ni
-wtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLTU2
-NDYzMjYxXX0=
+eyJoaXN0b3J5IjpbLTUyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMD
+I0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2
+MjMsLTEyNzcyMTc3OTcsMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC
+0xMjM1ODY4NTEyLC01OTMzNzc5MywtNTIxMTI5Njc1LC0xNjU1
+MzMzMzc2LC0xNjM4OTI5ODIwLDgyNTkxMjkwMyw5ODY4NDI0OD
+YsLTE4MjQ5NzM4ODAsMTgzNjA5NDk0MCwtODk4NzEzMTY1LC01
+NjQ2MzI2MV19
 -->
