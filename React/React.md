@@ -9281,7 +9281,7 @@ export const useStore = () => {
   };
 
   useEffect(() => {
-    listeners.push(setState);
+    listeners.push(setState); //setState never change in 
 
     return () => {
       listeners = listeners.filter(li => li !== setState);
@@ -9312,11 +9312,11 @@ export const initStore = (userActions, initialState) => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjQyMDIzNjMsMTcxMTE0Njc3Miw4MD
-kyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC01Mjk2NTky
-NjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4ODM0OTQsLT
-c4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nzk3LDEzNjE0
-MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwtNTkzMzc3OT
-MsLTUyMTEyOTY3NSwtMTY1NTMzMzM3NiwtMTYzODkyOTgyMCw4
-MjU5MTI5MDNdfQ==
+eyJoaXN0b3J5IjpbLTE5NTAyMzI2ODMsLTExMjQyMDIzNjMsMT
+cxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcw
+MjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NS
+w4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3
+MjE3Nzk3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2OD
+UxMiwtNTkzMzc3OTMsLTUyMTEyOTY3NSwtMTY1NTMzMzM3Niwt
+MTYzODkyOTgyMF19
 -->
