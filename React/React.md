@@ -9378,7 +9378,7 @@ root.render(
 import React, { useContext } from 'react';
 
 import ProductItem from '../components/Products/ProductItem';
-import { useStore } from '../hooks-store/store';
+--import { useStore } from '../hooks-store/store';
 import './Products.css';
 
 const Products = props => {
@@ -9414,11 +9414,11 @@ export default Products;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzI3OTE0MCw1MzA3MDk1MjUsLTE1Nz
-U0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMTQ2
-NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcsLT
-UyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMDI0MzYzMjU1LDg2NDg4
-MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2MjMsLTEyNzcyMTc3OT
-csMTM2MTQxNzQ2MSwtMTI1Njc3MzMxLC0xMjM1ODY4NTEyLC01
-OTMzNzc5M119
+eyJoaXN0b3J5IjpbLTEzOTE2MjYzNzIsNTMwNzA5NTI1LC0xNT
+c1NDM4Njg2LDE2MjgyMjE5ODUsLTExMjQyMDIzNjMsMTcxMTE0
+Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkxMDcwMjQ3LC
+01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2MzI1NSw4NjQ4
+ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0xMjc3MjE3Nz
+k3LDEzNjE0MTc0NjEsLTEyNTY3NzMzMSwtMTIzNTg2ODUxMiwt
+NTkzMzc3OTNdfQ==
 -->
