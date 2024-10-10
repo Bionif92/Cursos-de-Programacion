@@ -8813,7 +8813,7 @@ import AccordionItem from './AccordionItem.jsx';
 
 const AccordionContext = createContext();
 
-export function useAccordionContext() {
+export function useAccordionContext() { //custom hook
   const ctx = useContext(AccordionContext);
 
   if (!ctx) {
@@ -8905,11 +8905,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5MzM3NzkzLC01MjExMjk2NzUsLTE2NT
-UzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEyOTAzLDk4Njg0MjQ4
-NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC04OTg3MTMxNjUsLT
-U2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMzOTk1MjUsMTAxNzI3
-NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MTQ0LC0xNjcwNDQ2Mj
-c4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEwNjM2MTM3MDIsLTUy
-MTAyOTQwN119
+eyJoaXN0b3J5IjpbLTExMTc2MzAwMDMsLTU5MzM3NzkzLC01Mj
+ExMjk2NzUsLTE2NTUzMzMzNzYsLTE2Mzg5Mjk4MjAsODI1OTEy
+OTAzLDk4Njg0MjQ4NiwtMTgyNDk3Mzg4MCwxODM2MDk0OTQwLC
+04OTg3MTMxNjUsLTU2NDYzMjYxLC0yMDU2NjgzMTAsLTE4OTMz
+OTk1MjUsMTAxNzI3NzgzOCwxODA5MTAyMTczLC0xMDk1NDY4MT
+Q0LC0xNjcwNDQ2Mjc4LDc5MzkzODAwMSwxODc1ODg1NDA1LDEw
+NjM2MTM3MDJdfQ==
 -->
