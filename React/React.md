@@ -9470,7 +9470,7 @@ test('renders Hello World as a text', () => {
   // ... nothing
 
   // Assert
-  const helloWorldElement = screen.getByText('Hello World!');
+  const helloWorldElement = screen.getByText('Hello World!'); // look for exact match
   expect(helloWorldElement).toBeInTheDocument();
 });
 ````
@@ -9478,11 +9478,11 @@ test('renders Hello World as a text', () => {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTY3OTgxNzUsMzEzMzE1Mzk5LC0yMT
-A0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5ODA5OCwxMzkyMzQ1
-NTE0LDEyMTI4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNS
-wtMTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYy
-ODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MT
-I5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwt
-MTE1MzIwOTY3MV19
+eyJoaXN0b3J5IjpbMTE0NTg4ODA3NywtMTUxNjc5ODE3NSwzMT
+MzMTUzOTksLTIxMDQ2NzIwNzIsMTMwNDQ2MjY3NSwxNTU0Mzk4
+MDk4LDEzOTIzNDU1MTQsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OC
+wxNTg1MTk4ODA1LC0xMzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3
+NTQzODY4NiwxNjI4MjIxOTg1LC0xMTI0MjAyMzYzLDE3MTExND
+Y3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5MTA3MDI0Nywt
+NTI5NjU5MjY1XX0=
 -->
