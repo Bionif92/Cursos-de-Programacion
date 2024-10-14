@@ -9424,12 +9424,26 @@ We need a toll for rendering oir React App/Components - Reacting Testing Library
 
 ### Running a First Test
 
+````
+//app.test.js
+import { render, screen } from '@testing-library/react';
+import App from './App';
+
+test('renders learn react link', () => {
+  render(<App />);
+  const linkElement = screen.getByText(/learn react/i);
+  expect(linkElement).toBeInTheDocument();
+});
+
+````
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU1NDM5ODA5OCwxMzkyMzQ1NTE0LDEyMT
-I4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwtMTM5MTYy
-NjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NS
-wtMTEyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEz
-NTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOT
-Y3MSwyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05
-NTUzMTg2MjNdfQ==
+eyJoaXN0b3J5IjpbLTgwODI4MjE5NiwxNTU0Mzk4MDk4LDEzOT
+IzNDU1MTQsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OCwxNTg1MTk4
+ODA1LC0xMzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3NTQzODY4Ni
+wxNjI4MjIxOTg1LC0xMTI0MjAyMzYzLDE3MTExNDY3NzIsODA5
+MjYxMjkxLC04MTM1ODI1MjMsMTk5MTA3MDI0NywtNTI5NjU5Mj
+Y1LC0xMTUzMjA5NjcxLDIwMjQzNjMyNTUsODY0ODgzNDk0LC03
+ODIwOTQ1MDFdfQ==
 -->
