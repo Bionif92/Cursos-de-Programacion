@@ -9482,7 +9482,7 @@ test('renders Hello World as a text', () => {
 import { render, screen } from '@testing-library/react';
 import Greeting from './Greeting';
 
-describe('Greeting component', () => {
+describe('Greeting component', () => { // testing suit
   test('renders Hello World as a text', () => {
     // Arrange
     render(<Greeting />);
@@ -9497,12 +9497,14 @@ describe('Greeting component', () => {
 });
 ````
 
+### Testing User Interaction & State
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcyMTU3MjcsLTE1MTY3OTgxNzUsMz
-EzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5
-ODA5OCwxMzkyMzQ1NTE0LDEyMTI4NjY2MjYsLTExMDIzMTEyOD
-gsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1
-NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMT
-Q2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcs
-LTUyOTY1OTI2NV19
+eyJoaXN0b3J5IjpbMTc3NjQ1OTk1MSwtMTUxNjc5ODE3NSwzMT
+MzMTUzOTksLTIxMDQ2NzIwNzIsMTMwNDQ2MjY3NSwxNTU0Mzk4
+MDk4LDEzOTIzNDU1MTQsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OC
+wxNTg1MTk4ODA1LC0xMzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3
+NTQzODY4NiwxNjI4MjIxOTg1LC0xMTI0MjAyMzYzLDE3MTExND
+Y3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5MTA3MDI0Nywt
+NTI5NjU5MjY1XX0=
 -->
