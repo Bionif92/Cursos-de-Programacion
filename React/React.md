@@ -9609,14 +9609,28 @@ const Async = () => {
 };
 
 export default Async;
-
 ````
+````
+//async.test.js
+import { render, screen } from '@testing-library/react';
+import Async from './Async';
+
+describe('Async component', () => {
+  test('renders posts if request succeeds', async () => {
+    render(<Async />)
+
+    const listItemElements = await screen.findAllByRole('listitem');
+    expect(listItemElements).not.toHaveLength(0);
+  });
+});
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDYwNzQ4MSwtMTk3MzM2MTc1MiwtMT
-E3Nzg0ODg3MiwtMTUxNjc5ODE3NSwzMTMzMTUzOTksLTIxMDQ2
-NzIwNzIsMTMwNDQ2MjY3NSwxNTU0Mzk4MDk4LDEzOTIzNDU1MT
-QsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OCwxNTg1MTk4ODA1LC0x
-MzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3NTQzODY4NiwxNjI4Mj
-IxOTg1LC0xMTI0MjAyMzYzLDE3MTExNDY3NzIsODA5MjYxMjkx
-LC04MTM1ODI1MjNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTMyMTc4ODIsLTE5NzMzNjE3NTIsLT
+ExNzc4NDg4NzIsLTE1MTY3OTgxNzUsMzEzMzE1Mzk5LC0yMTA0
+NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5ODA5OCwxMzkyMzQ1NT
+E0LDEyMTI4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwt
+MTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyOD
+IyMTk4NSwtMTEyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5
+MSwtODEzNTgyNTIzXX0=
 -->
