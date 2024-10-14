@@ -9499,12 +9499,38 @@ describe('Greeting component', () => { // testing suit
 
 ### Testing User Interaction & State
 
+````
+//greeting.js
+import { useState } from 'react';
+
+const Greeting = () => {
+  const [changedText, setChangedText] = useState(false);
+
+  const changeTextHandler = () => {
+    setChangedText(true);
+  };
+
+  return (
+    <div>
+      <h2>Hello World!</h2>
+      {!changedText && <p>It's good to see you!</p>}
+      {changedText && <p>Changed!</p>}
+      <button onClick={changeTextHandler}>Change Text!</button>
+    </div>
+  );
+};
+
+export default Greeting;
+````
+````
+//greeting.test.js
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NjQ1OTk1MSwtMTUxNjc5ODE3NSwzMT
-MzMTUzOTksLTIxMDQ2NzIwNzIsMTMwNDQ2MjY3NSwxNTU0Mzk4
-MDk4LDEzOTIzNDU1MTQsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OC
-wxNTg1MTk4ODA1LC0xMzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3
-NTQzODY4NiwxNjI4MjIxOTg1LC0xMTI0MjAyMzYzLDE3MTExND
-Y3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5MTA3MDI0Nywt
-NTI5NjU5MjY1XX0=
+eyJoaXN0b3J5IjpbLTExNzc4NDg4NzIsLTE1MTY3OTgxNzUsMz
+EzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5
+ODA5OCwxMzkyMzQ1NTE0LDEyMTI4NjY2MjYsLTExMDIzMTEyOD
+gsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1
+NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMT
+Q2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcs
+LTUyOTY1OTI2NV19
 -->
