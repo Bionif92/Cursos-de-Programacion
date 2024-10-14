@@ -9628,8 +9628,27 @@ describe('Async component', () => {
 ### Working With Mocks
 
 Change fetch with dummy function 
+
+````
+//async.test.js
+import { render, screen } from '@testing-library/react';
+import Async from './Async';
+
+describe('Async component', () => {
+  test('renders posts if request succeeds', async () => {
+    window.fetch = jest.fn(); // mock function
+    window.fetch.mockResolvedValueOnce({
+      json: async () => [{ id: 'p1', title: 'First post' }],
+    });
+    render(<Async />);
+
+    const listItemElements = await screen.findAllByRole('listitem');
+    expect(listItemElements).not.toHaveLength(0);
+  });
+});
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDc2MjE4OSwxMjEwMjUyNzU3LC0xMD
+eyJoaXN0b3J5IjpbMTk5OTEzMjMwMiwxMjEwMjUyNzU3LC0xMD
 EzMjE3ODgyLC0xOTczMzYxNzUyLC0xMTc3ODQ4ODcyLC0xNTE2
 Nzk4MTc1LDMxMzMxNTM5OSwtMjEwNDY3MjA3MiwxMzA0NDYyNj
 c1LDE1NTQzOTgwOTgsMTM5MjM0NTUxNCwxMjEyODY2NjI2LC0x
