@@ -9444,13 +9444,45 @@ npm test
 
 Need to create a separate file for test of the component
 
+````
+//greeting.js
+const Greeting = () => {
+  return (
+    <div>
+      <h2>Hello World!</h2>
+      <p>It's good to see you!</p>
+    </div>
+  );
+};
+
+export default Greeting;
+````
+````
+//greeting.test.js
+import { render, screen } from '@testing-library/react';
+import Greeting from './Greeting';
+
+test('renders Hello World as a text', () => {
+  // Arrange
+  render(<Greeting />);
+
+  // Act
+  // ... nothing
+
+  // Assert
+  const helloWorldElement = screen.getByText('Hello World!');
+  expect(helloWorldElement).toBeInTheDocument();
+});
+````
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMD
-Q0NjI2NzUsMTU1NDM5ODA5OCwxMzkyMzQ1NTE0LDEyMTI4NjY2
-MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Mi
-w1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEy
-NDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgyNT
-IzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOTY3MSwy
-MDI0MzYzMjU1XX0=
+eyJoaXN0b3J5IjpbLTE1MTY3OTgxNzUsMzEzMzE1Mzk5LC0yMT
+A0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5ODA5OCwxMzkyMzQ1
+NTE0LDEyMTI4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNS
+wtMTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYy
+ODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MT
+I5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwt
+MTE1MzIwOTY3MV19
 -->
