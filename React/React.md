@@ -9475,14 +9475,34 @@ test('renders Hello World as a text', () => {
 });
 ````
 
+### Grouping Tests Together With Test Suites
 
+````
+//greeting.test.js
+import { render, screen } from '@testing-library/react';
+import Greeting from './Greeting';
+
+describe('Greeting component', () => {
+  test('renders Hello World as a text', () => {
+    // Arrange
+    render(<Greeting />);
+
+    // Act
+    // ... nothing
+
+    // Assert
+    const helloWorldElement = screen.getByText('Hello World!');
+    expect(helloWorldElement).toBeInTheDocument();
+  });
+});
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0NTg4ODA3NywtMTUxNjc5ODE3NSwzMT
-MzMTUzOTksLTIxMDQ2NzIwNzIsMTMwNDQ2MjY3NSwxNTU0Mzk4
-MDk4LDEzOTIzNDU1MTQsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OC
-wxNTg1MTk4ODA1LC0xMzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3
-NTQzODY4NiwxNjI4MjIxOTg1LC0xMTI0MjAyMzYzLDE3MTExND
-Y3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5MTA3MDI0Nywt
-NTI5NjU5MjY1XX0=
+eyJoaXN0b3J5IjpbLTE3MTcyMTU3MjcsLTE1MTY3OTgxNzUsMz
+EzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5
+ODA5OCwxMzkyMzQ1NTE0LDEyMTI4NjY2MjYsLTExMDIzMTEyOD
+gsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1
+NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMT
+Q2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcs
+LTUyOTY1OTI2NV19
 -->
