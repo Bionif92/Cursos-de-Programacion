@@ -9434,12 +9434,15 @@ test('renders learn react link', () => {
   const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
-
+````
+````
+//terminal
+npm test
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwODI4MjE5NiwxNTU0Mzk4MDk4LDEzOT
+eyJoaXN0b3J5IjpbMTMwNDQ2MjY3NSwxNTU0Mzk4MDk4LDEzOT
 IzNDU1MTQsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OCwxNTg1MTk4
 ODA1LC0xMzkxNjI2MzcyLDUzMDcwOTUyNSwtMTU3NTQzODY4Ni
 wxNjI4MjIxOTg1LC0xMTI0MjAyMzYzLDE3MTExNDY3NzIsODA5
