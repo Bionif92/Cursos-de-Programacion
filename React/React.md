@@ -9417,12 +9417,17 @@ Types:
  - Integration test - Also important, but focus on unit test most cases
  - End to End test
 
+### Understanding the Technical Setup & Involved Tools
+
+We need a tool for running our tests and accerting our results
+We need a toll for rende
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjM0NTUxNCwxMjEyODY2NjI2LC0xMT
-AyMzExMjg4LDE1ODUxOTg4MDUsLTEzOTE2MjYzNzIsNTMwNzA5
-NTI1LC0xNTc1NDM4Njg2LDE2MjgyMjE5ODUsLTExMjQyMDIzNj
-MsMTcxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkx
-MDcwMjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2Mz
-I1NSw4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0x
-Mjc3MjE3Nzk3XX0=
+eyJoaXN0b3J5IjpbMjE0NDcxNDkzNCwxMzkyMzQ1NTE0LDEyMT
+I4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwtMTM5MTYy
+NjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NS
+wtMTEyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEz
+NTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOT
+Y3MSwyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05
+NTUzMTg2MjNdfQ==
 -->
