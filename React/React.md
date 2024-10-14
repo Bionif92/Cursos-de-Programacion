@@ -9524,13 +9524,63 @@ export default Greeting;
 ````
 ````
 //greeting.test.js
+import { render, screen } from '@testing-library/react';
+import userEvent from '@testing-library/user-event';
+import Greeting from './Greeting';
+
+describe('Greeting component', () => {
+  test('renders "Hello World" as a text', () => {
+    // Arrange
+    render(<Greeting />);
+
+    // Act
+    // ... nothing
+
+    // Assert
+    const helloWorldElement = screen.getByText('Hello World!');
+    expect(helloWorldElement).toBeInTheDocument();
+  });
+
+  test('renders "good to see" you if the button was NOT clicked', () => {
+    render(<Greeting />);
+
+    const outputElement = screen.getByText('good to see you', { exact: false });
+    expect(outputElement).toBeInTheDocument();
+  });
+
+  test('renders "Changed!" if the button was clicked', () => {
+    // Arrange
+    render(<Greeting />);
+
+    // Act
+    const buttonElement = screen.getByRole('button');
+    userEvent.click(buttonElement)
+
+    // Assert
+    const outputElement = screen.getByText('Changed!');
+    expect(outputElement).toBeInTheDocument();
+  });
+
+  test('does not render "good to see you" if the button was clicked', () => {
+     // Arrange
+     render(<Greeting />);
+
+     // Act
+     const buttonElement = screen.getByRole('button');
+     userEvent.click(buttonElement)
+ 
+     // Assert
+     const outputElement = screen.queryByText('good to see you', { exact: false });
+     expect(outputElement).toBeNull();
+  });
+});
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc4NDg4NzIsLTE1MTY3OTgxNzUsMz
-EzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5
-ODA5OCwxMzkyMzQ1NTE0LDEyMTI4NjY2MjYsLTExMDIzMTEyOD
-gsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1MzA3MDk1MjUsLTE1
-NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2MywxNzExMT
-Q2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEwNzAyNDcs
-LTUyOTY1OTI2NV19
+eyJoaXN0b3J5IjpbLTE5NzMzNjE3NTIsLTExNzc4NDg4NzIsLT
+E1MTY3OTgxNzUsMzEzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMDQ0
+NjI2NzUsMTU1NDM5ODA5OCwxMzkyMzQ1NTE0LDEyMTI4NjY2Mj
+YsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1
+MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyND
+IwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIz
+LDE5OTEwNzAyNDddfQ==
 -->
