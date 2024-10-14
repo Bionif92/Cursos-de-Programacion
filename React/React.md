@@ -9413,12 +9413,12 @@ Automated testing: write code that automatically test your code
 
 Types:
 
- - Unit test 
+ - Unit test - Most coo
  - Integration test
  - End to End test
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzOTg0MTk3OSwxMjEyODY2NjI2LC0xMT
+eyJoaXN0b3J5IjpbLTQ2MDU1ODM3MCwxMjEyODY2NjI2LC0xMT
 AyMzExMjg4LDE1ODUxOTg4MDUsLTEzOTE2MjYzNzIsNTMwNzA5
 NTI1LC0xNTc1NDM4Njg2LDE2MjgyMjE5ODUsLTExMjQyMDIzNj
 MsMTcxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkx
