@@ -9403,9 +9403,11 @@ export default Products;
 
 ## Testing React Apps
 
-Automated testing
+Automated testing - is an addition
 
 Manual testing: it is hard to test all possible combinations and scenarios
+
+Automated testing: write code that automatically test your code
 
 
 
@@ -9422,11 +9424,11 @@ Manual testing: it is hard to test all possible combinations and scenarios
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzNjg3MTcxLDEyMTI4NjY2MjYsLTExMD
-IzMTEyODgsMTU4NTE5ODgwNSwtMTM5MTYyNjM3Miw1MzA3MDk1
-MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NSwtMTEyNDIwMjM2My
-wxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEzNTgyNTIzLDE5OTEw
-NzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOTY3MSwyMDI0MzYzMj
-U1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05NTUzMTg2MjMsLTEy
-NzcyMTc3OTddfQ==
+eyJoaXN0b3J5IjpbLTIwMDY3ODEzMTMsMTIxMjg2NjYyNiwtMT
+EwMjMxMTI4OCwxNTg1MTk4ODA1LC0xMzkxNjI2MzcyLDUzMDcw
+OTUyNSwtMTU3NTQzODY4NiwxNjI4MjIxOTg1LC0xMTI0MjAyMz
+YzLDE3MTExNDY3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5
+MTA3MDI0NywtNTI5NjU5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNj
+MyNTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NTMxODYyMywt
+MTI3NzIxNzc5N119
 -->
