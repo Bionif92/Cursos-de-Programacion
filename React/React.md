@@ -9578,9 +9578,41 @@ describe('Greeting component', () => {
 
 ### Testing Connected Components
 
-The test run the ne
+The test run the nested components without problem
+
+### Testing Asynchronous Code
+
+````
+//async.js
+import { useEffect, useState } from 'react';
+
+const Async = () => {
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/posts')
+      .then((response) => response.json())
+      .then((data) => {
+        setPosts(data);
+      });
+  }, []);
+
+  return (
+    <div>
+      <ul>
+        {posts.map((post) => (
+          <li key={post.id}>{post.title}</li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default Async;
+
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMzMzOTc2NCwtMTk3MzM2MTc1MiwtMT
+eyJoaXN0b3J5IjpbLTQ1MDYwNzQ4MSwtMTk3MzM2MTc1MiwtMT
 E3Nzg0ODg3MiwtMTUxNjc5ODE3NSwzMTMzMTUzOTksLTIxMDQ2
 NzIwNzIsMTMwNDQ2MjY3NSwxNTU0Mzk4MDk4LDEzOTIzNDU1MT
 QsMTIxMjg2NjYyNiwtMTEwMjMxMTI4OCwxNTg1MTk4ODA1LC0x
