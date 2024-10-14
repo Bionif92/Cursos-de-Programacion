@@ -9409,6 +9409,11 @@ Manual testing: it is hard to test all possible combinations and scenarios
 
 Automated testing: write code that automatically test your code
 
+### Understanding Different Kinds Of Tests
+
+Types:
+
+
 
 
 
@@ -9424,11 +9429,11 @@ Automated testing: write code that automatically test your code
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDY3ODEzMTMsMTIxMjg2NjYyNiwtMT
-EwMjMxMTI4OCwxNTg1MTk4ODA1LC0xMzkxNjI2MzcyLDUzMDcw
-OTUyNSwtMTU3NTQzODY4NiwxNjI4MjIxOTg1LC0xMTI0MjAyMz
-YzLDE3MTExNDY3NzIsODA5MjYxMjkxLC04MTM1ODI1MjMsMTk5
-MTA3MDI0NywtNTI5NjU5MjY1LC0xMTUzMjA5NjcxLDIwMjQzNj
-MyNTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1NTMxODYyMywt
-MTI3NzIxNzc5N119
+eyJoaXN0b3J5IjpbMTYwNDEyMDM5NSwxMjEyODY2NjI2LC0xMT
+AyMzExMjg4LDE1ODUxOTg4MDUsLTEzOTE2MjYzNzIsNTMwNzA5
+NTI1LC0xNTc1NDM4Njg2LDE2MjgyMjE5ODUsLTExMjQyMDIzNj
+MsMTcxMTE0Njc3Miw4MDkyNjEyOTEsLTgxMzU4MjUyMywxOTkx
+MDcwMjQ3LC01Mjk2NTkyNjUsLTExNTMyMDk2NzEsMjAyNDM2Mz
+I1NSw4NjQ4ODM0OTQsLTc4MjA5NDUwMSwtOTU1MzE4NjIzLC0x
+Mjc3MjE3Nzk3XX0=
 -->
