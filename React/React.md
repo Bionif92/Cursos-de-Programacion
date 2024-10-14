@@ -9627,7 +9627,7 @@ describe('Async component', () => {
 
 ### Working With Mocks
 
-Change fetch with dummy function 
+Change fetch with dummy function, fetch can have an error bringing data and is not what we want to test. We use mocks
 
 ````
 //async.test.js
@@ -9648,11 +9648,11 @@ describe('Async component', () => {
 });
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5OTEzMjMwMiwxMjEwMjUyNzU3LC0xMD
-EzMjE3ODgyLC0xOTczMzYxNzUyLC0xMTc3ODQ4ODcyLC0xNTE2
-Nzk4MTc1LDMxMzMxNTM5OSwtMjEwNDY3MjA3MiwxMzA0NDYyNj
-c1LDE1NTQzOTgwOTgsMTM5MjM0NTUxNCwxMjEyODY2NjI2LC0x
-MTAyMzExMjg4LDE1ODUxOTg4MDUsLTEzOTE2MjYzNzIsNTMwNz
-A5NTI1LC0xNTc1NDM4Njg2LDE2MjgyMjE5ODUsLTExMjQyMDIz
-NjMsMTcxMTE0Njc3Ml19
+eyJoaXN0b3J5IjpbMTU5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMT
+AyNTI3NTcsLTEwMTMyMTc4ODIsLTE5NzMzNjE3NTIsLTExNzc4
+NDg4NzIsLTE1MTY3OTgxNzUsMzEzMzE1Mzk5LC0yMTA0NjcyMD
+cyLDEzMDQ0NjI2NzUsMTU1NDM5ODA5OCwxMzkyMzQ1NTE0LDEy
+MTI4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwtMTM5MT
+YyNjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4
+NSwtMTEyNDIwMjM2M119
 -->
