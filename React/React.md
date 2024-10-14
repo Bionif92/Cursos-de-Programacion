@@ -9419,15 +9419,15 @@ Types:
 
 ### Understanding the Technical Setup & Involved Tools
 
-We need a tool for running our tests and accerting our results
-We need a toll for rende
+We need a tool for running our tests and accerting our results - Jest
+We need a toll for rendering oir React App/Components - Reacting Testing Library
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDcxNDkzNCwxMzkyMzQ1NTE0LDEyMT
-I4NjY2MjYsLTExMDIzMTEyODgsMTU4NTE5ODgwNSwtMTM5MTYy
-NjM3Miw1MzA3MDk1MjUsLTE1NzU0Mzg2ODYsMTYyODIyMTk4NS
-wtMTEyNDIwMjM2MywxNzExMTQ2NzcyLDgwOTI2MTI5MSwtODEz
-NTgyNTIzLDE5OTEwNzAyNDcsLTUyOTY1OTI2NSwtMTE1MzIwOT
-Y3MSwyMDI0MzYzMjU1LDg2NDg4MzQ5NCwtNzgyMDk0NTAxLC05
-NTUzMTg2MjNdfQ==
+eyJoaXN0b3J5IjpbODQ1MjM3NjUzLDEzOTIzNDU1MTQsMTIxMj
+g2NjYyNiwtMTEwMjMxMTI4OCwxNTg1MTk4ODA1LC0xMzkxNjI2
+MzcyLDUzMDcwOTUyNSwtMTU3NTQzODY4NiwxNjI4MjIxOTg1LC
+0xMTI0MjAyMzYzLDE3MTExNDY3NzIsODA5MjYxMjkxLC04MTM1
+ODI1MjMsMTk5MTA3MDI0NywtNTI5NjU5MjY1LC0xMTUzMjA5Nj
+cxLDIwMjQzNjMyNTUsODY0ODgzNDk0LC03ODIwOTQ1MDEsLTk1
+NTMxODYyM119
 -->
