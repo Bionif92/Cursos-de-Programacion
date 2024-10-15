@@ -9705,12 +9705,13 @@ React.FC is a function type for component
 
 **Benefits of using TS: auto completion, and the sceurity of using the props right**
 
+### 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ3OTUwMTMzLDM0ODY5OTE3MCwtMTg3Mz
+eyJoaXN0b3J5IjpbODc4NTA1NzM0LDM0ODY5OTE3MCwtMTg3Mz
 kwNzc2Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEs
 LTE4OTYyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNj
 E5NDg1NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIz
