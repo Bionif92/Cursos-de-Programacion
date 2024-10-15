@@ -9796,7 +9796,7 @@ import { useRef } from 'react';
 const NewTodo = () => {
   const todoTextInputRef = useRef<HTMLInputElement>(null);
 
-  const submitHandler = (event: React.FormEvent) => {
+  --const submitHandler = (event: React.FormEvent) => {
     event.preventDefault();
 
     const enteredText = todoTextInputRef.current!.value;
@@ -9823,11 +9823,11 @@ export default NewTodo;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDA5MTA3NiwtMTU4ODI4MDI3NiwxNj
-kxODE0ODIxLC01Mzc2NzQzMSwtNTE1MzMzOTM5LDg3ODUwNTcz
-NCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NT
-Y0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2
-OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1MiwxOTQ0OTYwMDEsMT
-U5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAyNTI3NTcsLTEwMTMy
-MTc4ODJdfQ==
+eyJoaXN0b3J5IjpbLTE4MDkxMTEwMTIsLTE3MDA5MTA3NiwtMT
+U4ODI4MDI3NiwxNjkxODE0ODIxLC01Mzc2NzQzMSwtNTE1MzMz
+OTM5LDg3ODUwNTczNCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsND
+MxMTI5MDU4LC02NTY0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5
+ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1Mi
+wxOTQ0OTYwMDEsMTU5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAy
+NTI3NTddfQ==
 -->
