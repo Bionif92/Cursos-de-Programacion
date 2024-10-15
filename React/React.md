@@ -9891,14 +9891,51 @@ export default App;
 
 ### Removing a Todo
 
+````
+//app.tsx
+import { useState } from 'react';
+
+import NewTodo from './components/NewTodo';
+import Todos from './components/Todos';
+import Todo from './models/todo';
+
+function App() {
+  const [todos, setTodos] = useState<Todo[]>([]);
+
+  const addTodoHandler = (todoText: string) => {
+    const newTodo = new Todo(todoText);
+
+    setTodos((prevTodos) => {
+      return prevTodos.concat(newTodo);
+    });
+  };
+
+  const removeTodoHandler = (todoId: string) => {
+    setTodos((prevTodos) => {
+      return prevTodos.filter(todo => todo.id !== todoId);
+    });
+  };
+
+  return (
+    <div>
+      <NewTodo onAddTodo={addTodoHandler} />
+      <Todos items={todos} onRemoveTodo={removeTodoHandler} />
+    </div>
+  );
+}
+
+export default App;
+
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDAxODE2MjEsMTA0NDM3MjEyMiwxMz
-YwMTU3MTIxLC0xMjU5Nzk1Mjk4LDIxMzk4MTEzNTMsLTE3MDA5
-MTA3NiwtMTU4ODI4MDI3NiwxNjkxODE0ODIxLC01Mzc2NzQzMS
-wtNTE1MzMzOTM5LDg3ODUwNTczNCwzNDg2OTkxNzAsLTE4NzM5
-MDc3NjcsNDMxMTI5MDU4LC02NTY0NjM4NzQsMzg0OTI3NTkxLC
-0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIzNTEsMTYx
-OTQ4NTc1Ml19
+eyJoaXN0b3J5IjpbNDg2NDM1NTc1LC0xOTAwMTgxNjIxLDEwND
+QzNzIxMjIsMTM2MDE1NzEyMSwtMTI1OTc5NTI5OCwyMTM5ODEx
+MzUzLC0xNzAwOTEwNzYsLTE1ODgyODAyNzYsMTY5MTgxNDgyMS
+wtNTM3Njc0MzEsLTUxNTMzMzkzOSw4Nzg1MDU3MzQsMzQ4Njk5
+MTcwLC0xODczOTA3NzY3LDQzMTEyOTA1OCwtNjU2NDYzODc0LD
+M4NDkyNzU5MSwtMTg5NjI3OTg1MSwxOTg1MzQ1NjkwLC0xMDUz
+MzMyMzUxXX0=
 -->
