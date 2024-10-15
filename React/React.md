@@ -9794,7 +9794,7 @@ export default TodoItem;
 import { useRef } from 'react';
 
 const NewTodo = () => {
-  const todoTextInputRef = useRef<HTMLInputElement>(null);
+  --const todoTextInputRef = useRef<HTMLInputElement>(null);
 
   --const submitHandler = (event: React.FormEvent) => {
     event.preventDefault();
@@ -9823,11 +9823,11 @@ export default NewTodo;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY5MzMxMjcsLTE3MDA5MTA3NiwtMT
-U4ODI4MDI3NiwxNjkxODE0ODIxLC01Mzc2NzQzMSwtNTE1MzMz
-OTM5LDg3ODUwNTczNCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsND
-MxMTI5MDU4LC02NTY0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5
-ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1Mi
-wxOTQ0OTYwMDEsMTU5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAy
-NTI3NTddfQ==
+eyJoaXN0b3J5IjpbMjEzOTgxMTM1MywtMTcwMDkxMDc2LC0xNT
+g4MjgwMjc2LDE2OTE4MTQ4MjEsLTUzNzY3NDMxLC01MTUzMzM5
+MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2Nyw0Mz
+ExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OTYyNzk4
+NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1NzUyLD
+E5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMTIxMDI1
+Mjc1N119
 -->
