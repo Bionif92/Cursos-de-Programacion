@@ -9824,15 +9824,44 @@ export default NewTodo;
 ### Working with "Function Props"
 
 ````
+//newtodo
+import { useRef } from 'react';
+
+--const NewTodo: React.FC<{onAddTodo: (text: string) => void }> = (props) => {
+  const todoTextInputRef = useRef<HTMLInputElement>(null);
+
+  const submitHandler = (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const enteredText = todoTextInputRef.current!.value;
+
+    if (enteredText.trim().length === 0) {
+      // throw an error
+      return;
+    }
+
+    props.onAddTodo(enteredText);
+  };
+
+  return (
+    <form onSubmit={submitHandler}>
+      <label htmlFor='text'>Todo text</label>
+      <input type='text' id='text' ref={todoTextInputRef} />
+      <button>Add Todo</button>
+    </form>
+  );
+};
+
+export default NewTodo;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzNTkzNTI4NiwyMTM5ODExMzUzLC0xNz
-AwOTEwNzYsLTE1ODgyODAyNzYsMTY5MTgxNDgyMSwtNTM3Njc0
-MzEsLTUxNTMzMzkzOSw4Nzg1MDU3MzQsMzQ4Njk5MTcwLC0xOD
-czOTA3NzY3LDQzMTEyOTA1OCwtNjU2NDYzODc0LDM4NDkyNzU5
-MSwtMTg5NjI3OTg1MSwxOTg1MzQ1NjkwLC0xMDUzMzMyMzUxLD
-E2MTk0ODU3NTIsMTk0NDk2MDAxLDE1OTEyMDA5NDYsMTk5OTEz
-MjMwMl19
+eyJoaXN0b3J5IjpbLTEyNTk3OTUyOTgsMjEzOTgxMTM1MywtMT
+cwMDkxMDc2LC0xNTg4MjgwMjc2LDE2OTE4MTQ4MjEsLTUzNzY3
+NDMxLC01MTUzMzM5MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMT
+g3MzkwNzc2Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1
+OTEsLTE4OTYyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MS
+wxNjE5NDg1NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkx
+MzIzMDJdfQ==
 -->
