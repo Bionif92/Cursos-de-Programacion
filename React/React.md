@@ -9788,7 +9788,7 @@ const TodoItem: React.FC<{ text: string }> = (props) => {
 export default TodoItem;
 ````
 
-### Form Submissions In TypeScript Projects
+### Form Submissions In TypeScript Projects - Ref/useRef
 
 ````
 import { useRef } from 'react';
@@ -9823,7 +9823,7 @@ export default NewTodo;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDkxMTEwMTIsLTE3MDA5MTA3NiwtMT
+eyJoaXN0b3J5IjpbLTEwNDY5MzMxMjcsLTE3MDA5MTA3NiwtMT
 U4ODI4MDI3NiwxNjkxODE0ODIxLC01Mzc2NzQzMSwtNTE1MzMz
 OTM5LDg3ODUwNTczNCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsND
 MxMTI5MDU4LC02NTY0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5
