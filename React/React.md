@@ -9703,18 +9703,18 @@ export default Todos;
 ````
 React.FC is a function type for component
 
-Benefits of using TS: auto completion, and the sceurity of using the props right
+**Benefits of using TS: auto completion, and the sceurity of using the props right**
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzY3ODk4NywzNDg2OTkxNzAsLTE4Nz
-M5MDc3NjcsNDMxMTI5MDU4LC02NTY0NjM4NzQsMzg0OTI3NTkx
-LC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIzNTEsMT
-YxOTQ4NTc1MiwxOTQ0OTYwMDEsMTU5MTIwMDk0NiwxOTk5MTMy
-MzAyLDEyMTAyNTI3NTcsLTEwMTMyMTc4ODIsLTE5NzMzNjE3NT
-IsLTExNzc4NDg4NzIsLTE1MTY3OTgxNzUsMzEzMzE1Mzk5LC0y
-MTA0NjcyMDcyXX0=
+eyJoaXN0b3J5IjpbNTQ3OTUwMTMzLDM0ODY5OTE3MCwtMTg3Mz
+kwNzc2Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEs
+LTE4OTYyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNj
+E5NDg1NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIz
+MDIsMTIxMDI1Mjc1NywtMTAxMzIxNzg4MiwtMTk3MzM2MTc1Mi
+wtMTE3Nzg0ODg3MiwtMTUxNjc5ODE3NSwzMTMzMTUzOTksLTIx
+MDQ2NzIwNzJdfQ==
 -->
