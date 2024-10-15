@@ -9683,11 +9683,17 @@ npx create-react-app my-app --template typescript
 
 package.json / types -- to translate TS to JS
 
+### Working with Props & TypeScript
+
+````
+````
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgzNTcwMTEzLC02NTY0NjM4NzQsMzg0OT
+eyJoaXN0b3J5IjpbNDMxMTI5MDU4LC02NTY0NjM4NzQsMzg0OT
 I3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIz
 NTEsMTYxOTQ4NTc1MiwxOTQ0OTYwMDEsMTU5MTIwMDk0NiwxOT
 k5MTMyMzAyLDEyMTAyNTI3NTcsLTEwMTMyMTc4ODIsLTE5NzMz
