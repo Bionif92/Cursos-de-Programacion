@@ -9720,6 +9720,7 @@ class Todo {
 
 export default Todo;
 ````
+Can use the class as a Type
 ````
 //component
 import React from 'react';
@@ -9739,17 +9740,31 @@ const Todos: React.FC<{ items: Todo[] }> = (props) => {
 export default Todos;
 ````
 ````
-//App.js
+//App.tsx
+import Todos from './components/Todos';
+import Todo from './models/todo';
+
+function App() {
+  const todos = [new Todo('Learn React'), new Todo('Learn TypeScript')];
+
+  return (
+    <div>
+      <Todos items={todos} />
+    </div>
+  );
+}
+
+export default App;
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTg5OTIyMTIsLTUzNzY3NDMxLC01MT
-UzMzM5MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2
-Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OT
-YyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1
-NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMT
-IxMDI1Mjc1NywtMTAxMzIxNzg4MiwtMTk3MzM2MTc1MiwtMTE3
-Nzg0ODg3Ml19
+eyJoaXN0b3J5IjpbMTY5MTgxNDgyMSwtNTM3Njc0MzEsLTUxNT
+MzMzkzOSw4Nzg1MDU3MzQsMzQ4Njk5MTcwLC0xODczOTA3NzY3
+LDQzMTEyOTA1OCwtNjU2NDYzODc0LDM4NDkyNzU5MSwtMTg5Nj
+I3OTg1MSwxOTg1MzQ1NjkwLC0xMDUzMzMyMzUxLDE2MTk0ODU3
+NTIsMTk0NDk2MDAxLDE1OTEyMDA5NDYsMTk5OTEzMjMwMiwxMj
+EwMjUyNzU3LC0xMDEzMjE3ODgyLC0xOTczMzYxNzUyLC0xMTc3
+ODQ4ODcyXX0=
 -->
