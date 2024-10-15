@@ -9868,7 +9868,7 @@ import Todos from './components/Todos';
 import Todo from './models/todo';
 
 function App() {
-  const [todos, setTodos] = useState<Todo[]>([]);
+  const [todos, setTodos] = useState<Todo[]>([]); //need to define the type of the state
 
   const addTodoHandler = (todoText: string) => {
     const newTodo = new Todo(todoText);
@@ -9892,11 +9892,11 @@ export default App;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk5MDA0NjAsMTM2MDE1NzEyMSwtMT
-I1OTc5NTI5OCwyMTM5ODExMzUzLC0xNzAwOTEwNzYsLTE1ODgy
-ODAyNzYsMTY5MTgxNDgyMSwtNTM3Njc0MzEsLTUxNTMzMzkzOS
-w4Nzg1MDU3MzQsMzQ4Njk5MTcwLC0xODczOTA3NzY3LDQzMTEy
-OTA1OCwtNjU2NDYzODc0LDM4NDkyNzU5MSwtMTg5NjI3OTg1MS
-wxOTg1MzQ1NjkwLC0xMDUzMzMyMzUxLDE2MTk0ODU3NTIsMTk0
-NDk2MDAxXX0=
+eyJoaXN0b3J5IjpbMTA0NDM3MjEyMiwxMzYwMTU3MTIxLC0xMj
+U5Nzk1Mjk4LDIxMzk4MTEzNTMsLTE3MDA5MTA3NiwtMTU4ODI4
+MDI3NiwxNjkxODE0ODIxLC01Mzc2NzQzMSwtNTE1MzMzOTM5LD
+g3ODUwNTczNCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5
+MDU4LC02NTY0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLD
+E5ODUzNDU2OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1MiwxOTQ0
+OTYwMDFdfQ==
 -->
