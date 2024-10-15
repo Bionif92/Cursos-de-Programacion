@@ -9788,14 +9788,46 @@ const TodoItem: React.FC<{ text: string }> = (props) => {
 export default TodoItem;
 ````
 
+### Form Submissions In TypeScript Projects
+
+````
+import { useRef } from 'react';
+
+const NewTodo = () => {
+  const todoTextInputRef = useRef<HTMLInputElement>(null);
+
+  const submitHandler = (event: React.FormEvent) => {
+    event.preventDefault();
+
+    const enteredText = todoTextInputRef.current!.value;
+
+    if (enteredText.trim().length === 0) {
+      // throw an error
+      return;
+    }
+
+    
+  };
+
+  return (
+    <form onSubmit={submitHandler}>
+      <label htmlFor='text'>Todo text</label>
+      <input type='text' id='text' ref={todoTextInputRef} />
+      <button>Add Todo</button>
+    </form>
+  );
+};
+
+export default NewTodo;
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkyNjgwNDYsLTE1ODgyODAyNzYsMT
-Y5MTgxNDgyMSwtNTM3Njc0MzEsLTUxNTMzMzkzOSw4Nzg1MDU3
-MzQsMzQ4Njk5MTcwLC0xODczOTA3NzY3LDQzMTEyOTA1OCwtNj
-U2NDYzODc0LDM4NDkyNzU5MSwtMTg5NjI3OTg1MSwxOTg1MzQ1
-NjkwLC0xMDUzMzMyMzUxLDE2MTk0ODU3NTIsMTk0NDk2MDAxLD
-E1OTEyMDA5NDYsMTk5OTEzMjMwMiwxMjEwMjUyNzU3LC0xMDEz
-MjE3ODgyXX0=
+eyJoaXN0b3J5IjpbLTE3MDA5MTA3NiwtMTU4ODI4MDI3NiwxNj
+kxODE0ODIxLC01Mzc2NzQzMSwtNTE1MzMzOTM5LDg3ODUwNTcz
+NCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NT
+Y0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2
+OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1MiwxOTQ0OTYwMDEsMT
+U5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAyNTI3NTcsLTEwMTMy
+MTc4ODJdfQ==
 -->
