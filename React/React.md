@@ -10038,15 +10038,40 @@ function App() {
 
 export default App;
 ````
+````
+//todo.tsx
+import React, { useContext } from 'react';
 
+import TodoItem from './TodoItem';
+import { TodosContext } from '../store/todos-context';
+import classes from './Todos.module.css';
+
+const Todos: React.FC = () => {
+  const todosCtx = useContext(TodosContext);
+
+  return (
+    <ul className={classes.todos}>
+      {todosCtx.items.map((item) => (
+        <TodoItem
+          key={item.id}
+          text={item.text}
+          onRemoveTodo={todosCtx.removeTodo.bind(null, item.id)}
+        />
+      ))}
+    </ul>
+  );
+};
+
+export default Todos;
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyOTY4NzUzNywtOTMwMDYwNzI1LC0yMD
-QyMjM0NTU2LC0xOTAwMTgxNjIxLDEwNDQzNzIxMjIsMTM2MDE1
-NzEyMSwtMTI1OTc5NTI5OCwyMTM5ODExMzUzLC0xNzAwOTEwNz
-YsLTE1ODgyODAyNzYsMTY5MTgxNDgyMSwtNTM3Njc0MzEsLTUx
-NTMzMzkzOSw4Nzg1MDU3MzQsMzQ4Njk5MTcwLC0xODczOTA3Nz
-Y3LDQzMTEyOTA1OCwtNjU2NDYzODc0LDM4NDkyNzU5MSwtMTg5
-NjI3OTg1MV19
+eyJoaXN0b3J5IjpbLTE4NTgyMzk0ODUsLTkzMDA2MDcyNSwtMj
+A0MjIzNDU1NiwtMTkwMDE4MTYyMSwxMDQ0MzcyMTIyLDEzNjAx
+NTcxMjEsLTEyNTk3OTUyOTgsMjEzOTgxMTM1MywtMTcwMDkxMD
+c2LC0xNTg4MjgwMjc2LDE2OTE4MTQ4MjEsLTUzNzY3NDMxLC01
+MTUzMzM5MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNz
+c2Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4
+OTYyNzk4NTFdfQ==
 -->
