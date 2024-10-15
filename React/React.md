@@ -9699,7 +9699,6 @@ const Todos: React.FC<{ items: string[] }> = (props) => {
 };
 
 export default Todos;
-
 ````
 React.FC is a function type for component
 
@@ -9707,15 +9706,18 @@ React.FC is a function type for component
 
 ### Adding a Data Model
 
+````
+//model/
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNTMzMzkzOSw4Nzg1MDU3MzQsMzQ4Nj
-k5MTcwLC0xODczOTA3NzY3LDQzMTEyOTA1OCwtNjU2NDYzODc0
-LDM4NDkyNzU5MSwtMTg5NjI3OTg1MSwxOTg1MzQ1NjkwLC0xMD
-UzMzMyMzUxLDE2MTk0ODU3NTIsMTk0NDk2MDAxLDE1OTEyMDA5
-NDYsMTk5OTEzMjMwMiwxMjEwMjUyNzU3LC0xMDEzMjE3ODgyLC
-0xOTczMzYxNzUyLC0xMTc3ODQ4ODcyLC0xNTE2Nzk4MTc1LDMx
-MzMxNTM5OV19
+eyJoaXN0b3J5IjpbLTM2MTc3Nzk0OSwtNTE1MzMzOTM5LDg3OD
+UwNTczNCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4
+LC02NTY0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5OD
+UzNDU2OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1MiwxOTQ0OTYw
+MDEsMTU5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAyNTI3NTcsLT
+EwMTMyMTc4ODIsLTE5NzMzNjE3NTIsLTExNzc4NDg4NzIsLTE1
+MTY3OTgxNzVdfQ==
 -->
