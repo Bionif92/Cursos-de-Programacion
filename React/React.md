@@ -9707,17 +9707,28 @@ React.FC is a function type for component
 ### Adding a Data Model
 
 ````
-//model/
+//model/todo.ts
+class Todo {
+  id: string;
+  text: string;
+
+  constructor(todoText: string) {
+    this.text = todoText;
+    this.id = new Date().toISOString();
+  }
+}
+
+export default Todo;
 ````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTc3Nzk0OSwtNTE1MzMzOTM5LDg3OD
-UwNTczNCwzNDg2OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4
-LC02NTY0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5OD
-UzNDU2OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1MiwxOTQ0OTYw
-MDEsMTU5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAyNTI3NTcsLT
-EwMTMyMTc4ODIsLTE5NzMzNjE3NTIsLTExNzc4NDg4NzIsLTE1
-MTY3OTgxNzVdfQ==
+eyJoaXN0b3J5IjpbLTUzNzY3NDMxLC01MTUzMzM5MzksODc4NT
+A1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2Nyw0MzExMjkwNTgs
+LTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OTYyNzk4NTEsMTk4NT
+M0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1NzUyLDE5NDQ5NjAw
+MSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMTIxMDI1Mjc1NywtMT
+AxMzIxNzg4MiwtMTk3MzM2MTc1MiwtMTE3Nzg0ODg3MiwtMTUx
+Njc5ODE3NV19
 -->
