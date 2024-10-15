@@ -9686,6 +9686,20 @@ package.json / types -- to translate TS to JS
 ### Working with Props & TypeScript
 
 ````
+import React from 'react';
+
+const Todos: React.FC<{ items: string[] }> = (props) => {
+  return (
+    <ul>
+      {props.items.map((item) => (
+        <li key={item}>{item}</li>
+      ))}
+    </ul>
+  );
+};
+
+export default Todos;
+
 ````
 
 
@@ -9693,11 +9707,11 @@ package.json / types -- to translate TS to JS
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMxMTI5MDU4LC02NTY0NjM4NzQsMzg0OT
-I3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIz
-NTEsMTYxOTQ4NTc1MiwxOTQ0OTYwMDEsMTU5MTIwMDk0NiwxOT
-k5MTMyMzAyLDEyMTAyNTI3NTcsLTEwMTMyMTc4ODIsLTE5NzMz
-NjE3NTIsLTExNzc4NDg4NzIsLTE1MTY3OTgxNzUsMzEzMzE1Mz
-k5LC0yMTA0NjcyMDcyLDEzMDQ0NjI2NzUsMTU1NDM5ODA5OCwx
-MzkyMzQ1NTE0XX0=
+eyJoaXN0b3J5IjpbLTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NT
+Y0NjM4NzQsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2
+OTAsLTEwNTMzMzIzNTEsMTYxOTQ4NTc1MiwxOTQ0OTYwMDEsMT
+U5MTIwMDk0NiwxOTk5MTMyMzAyLDEyMTAyNTI3NTcsLTEwMTMy
+MTc4ODIsLTE5NzMzNjE3NTIsLTExNzc4NDg4NzIsLTE1MTY3OT
+gxNzUsMzEzMzE1Mzk5LC0yMTA0NjcyMDcyLDEzMDQ0NjI2NzUs
+MTU1NDM5ODA5OF19
 -->
