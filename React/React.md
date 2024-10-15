@@ -9959,7 +9959,7 @@ const Todos: React.FC<{ items: Todo[]; onRemoveTodo: (id: string) => void }> = (
         <TodoItem
           key={item.id}
           text={item.text}
-          onRemoveTodo={props.onRemoveTodo.bind(null, item.id)}
+          onRemoveTodo={props.onRemoveTodo.bind(null, item.id)} //instead of passing the id prop to the next one
         />
       ))}
     </ul>
@@ -9973,11 +9973,11 @@ export default Todos;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDIyMzQ1NTYsLTE5MDAxODE2MjEsMT
-A0NDM3MjEyMiwxMzYwMTU3MTIxLC0xMjU5Nzk1Mjk4LDIxMzk4
-MTEzNTMsLTE3MDA5MTA3NiwtMTU4ODI4MDI3NiwxNjkxODE0OD
-IxLC01Mzc2NzQzMSwtNTE1MzMzOTM5LDg3ODUwNTczNCwzNDg2
-OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NTY0NjM4Nz
-QsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEw
-NTMzMzIzNTFdfQ==
+eyJoaXN0b3J5IjpbMTA3ODE3NTc2NiwtMjA0MjIzNDU1NiwtMT
+kwMDE4MTYyMSwxMDQ0MzcyMTIyLDEzNjAxNTcxMjEsLTEyNTk3
+OTUyOTgsMjEzOTgxMTM1MywtMTcwMDkxMDc2LC0xNTg4MjgwMj
+c2LDE2OTE4MTQ4MjEsLTUzNzY3NDMxLC01MTUzMzM5MzksODc4
+NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2Nyw0MzExMjkwNT
+gsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OTYyNzk4NTEsMTk4
+NTM0NTY5MF19
 -->
