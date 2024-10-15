@@ -9672,10 +9672,18 @@ npx tsc file
 
 ### Creating a React + TypeScript Project
 
+Install TS ina new Project
+
+````
+//terminal
+npx create-react-app my-app --template typescript
+````
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNzkzMjEzNiwzODQ5Mjc1OTEsLTE4OT
+eyJoaXN0b3J5IjpbLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OT
 YyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1
 NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMT
 IxMDI1Mjc1NywtMTAxMzIxNzg4MiwtMTk3MzM2MTc1MiwtMTE3
