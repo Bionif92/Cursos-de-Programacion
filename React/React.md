@@ -9760,15 +9760,41 @@ export default App;
 ### Practice
 
 ````
+//todo.tsx
+import React from 'react';
+
+import TodoItem from './TodoItem';
+import Todo from '../models/todo';
+
+const Todos: React.FC<{ items: Todo[] }> = (props) => {
+  return (
+    <ul>
+      {props.items.map((item) => (
+        <TodoItem key={item.id} text={item.text} />
+      ))}
+    </ul>
+  );
+};
+
+export default Todos;
+````
+````
+//todoitem.tsx
+const TodoItem: React.FC<{ text: string }> = (props) => {
+  return <li>{props.text}</li>;
+};
+
+export default TodoItem;
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzU4MDczMSwxNjkxODE0ODIxLC01Mz
-c2NzQzMSwtNTE1MzMzOTM5LDg3ODUwNTczNCwzNDg2OTkxNzAs
-LTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NTY0NjM4NzQsMzg0OT
-I3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEwNTMzMzIz
-NTEsMTYxOTQ4NTc1MiwxOTQ0OTYwMDEsMTU5MTIwMDk0NiwxOT
-k5MTMyMzAyLDEyMTAyNTI3NTcsLTEwMTMyMTc4ODIsLTE5NzMz
-NjE3NTJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODgyODAyNzYsMTY5MTgxNDgyMSwtNT
+M3Njc0MzEsLTUxNTMzMzkzOSw4Nzg1MDU3MzQsMzQ4Njk5MTcw
+LC0xODczOTA3NzY3LDQzMTEyOTA1OCwtNjU2NDYzODc0LDM4ND
+kyNzU5MSwtMTg5NjI3OTg1MSwxOTg1MzQ1NjkwLC0xMDUzMzMy
+MzUxLDE2MTk0ODU3NTIsMTk0NDk2MDAxLDE1OTEyMDA5NDYsMT
+k5OTEzMjMwMiwxMjEwMjUyNzU3LC0xMDEzMjE3ODgyLC0xOTcz
+MzYxNzUyXX0=
 -->
