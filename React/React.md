@@ -9927,15 +9927,57 @@ function App() {
 export default App;
 ````
 ````
+//todoitem.tsx
+import classes from './TodoItem.module.css';
+
+const TodoItem: React.FC<{ text: string; onRemoveTodo: () => void }> = (
+  props
+) => {
+  return (
+    <li className={classes.item} onClick={props.onRemoveTodo}>
+      {props.text}
+    </li>
+  );
+};
+
+export default TodoItem;
+````
+````
+//todo.tsx
+import React from 'react';
+
+import TodoItem from './TodoItem';
+import Todo from '../models/todo';
+import classes from './Todos.module.css';
+
+const Todos: React.FC<{ items: Todo[]; onRemoveTodo: (id: string) => void }> = (
+  props
+) => {
+  return (
+    <ul className={classes.todos}>
+      {props.items.map((item) => (
+        <TodoItem
+          key={item.id}
+          text={item.text}
+          onRemoveTodo={props.onRemoveTodo.bind(null, item.id)}
+        />
+      ))}
+    </ul>
+  );
+};
+
+export default Todos;
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTE5NTksLTE5MDAxODE2MjEsMTA0ND
-M3MjEyMiwxMzYwMTU3MTIxLC0xMjU5Nzk1Mjk4LDIxMzk4MTEz
-NTMsLTE3MDA5MTA3NiwtMTU4ODI4MDI3NiwxNjkxODE0ODIxLC
-01Mzc2NzQzMSwtNTE1MzMzOTM5LDg3ODUwNTczNCwzNDg2OTkx
-NzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NTY0NjM4NzQsMz
-g0OTI3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEwNTMz
-MzIzNTFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDIyMzQ1NTYsLTE5MDAxODE2MjEsMT
+A0NDM3MjEyMiwxMzYwMTU3MTIxLC0xMjU5Nzk1Mjk4LDIxMzk4
+MTEzNTMsLTE3MDA5MTA3NiwtMTU4ODI4MDI3NiwxNjkxODE0OD
+IxLC01Mzc2NzQzMSwtNTE1MzMzOTM5LDg3ODUwNTczNCwzNDg2
+OTkxNzAsLTE4NzM5MDc3NjcsNDMxMTI5MDU4LC02NTY0NjM4Nz
+QsMzg0OTI3NTkxLC0xODk2Mjc5ODUxLDE5ODUzNDU2OTAsLTEw
+NTMzMzIzNTFdfQ==
 -->
