@@ -10021,14 +10021,32 @@ const TodosContextProvider: React.FC = (props) => {
 
 export default TodosContextProvider;
 ````
+````
+//App.tsx
+import NewTodo from './components/NewTodo';
+import Todos from './components/Todos';
+import TodosContextProvider from './store/todos-context';
+
+function App() {
+  return (
+    <TodosContextProvider>
+      <NewTodo />
+      <Todos />
+    </TodosContextProvider>
+  );
+}
+
+export default App;
+````
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMDA2MDcyNSwtMjA0MjIzNDU1NiwtMT
-kwMDE4MTYyMSwxMDQ0MzcyMTIyLDEzNjAxNTcxMjEsLTEyNTk3
-OTUyOTgsMjEzOTgxMTM1MywtMTcwMDkxMDc2LC0xNTg4MjgwMj
-c2LDE2OTE4MTQ4MjEsLTUzNzY3NDMxLC01MTUzMzM5MzksODc4
-NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2Nyw0MzExMjkwNT
-gsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OTYyNzk4NTEsMTk4
-NTM0NTY5MF19
+eyJoaXN0b3J5IjpbMjAyOTY4NzUzNywtOTMwMDYwNzI1LC0yMD
+QyMjM0NTU2LC0xOTAwMTgxNjIxLDEwNDQzNzIxMjIsMTM2MDE1
+NzEyMSwtMTI1OTc5NTI5OCwyMTM5ODExMzUzLC0xNzAwOTEwNz
+YsLTE1ODgyODAyNzYsMTY5MTgxNDgyMSwtNTM3Njc0MzEsLTUx
+NTMzMzkzOSw4Nzg1MDU3MzQsMzQ4Njk5MTcwLC0xODczOTA3Nz
+Y3LDQzMTEyOTA1OCwtNjU2NDYzODc0LDM4NDkyNzU5MSwtMTg5
+NjI3OTg1MV19
 -->
