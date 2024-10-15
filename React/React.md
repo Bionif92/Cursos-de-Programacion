@@ -9799,7 +9799,7 @@ const NewTodo = () => {
   --const submitHandler = (event: React.FormEvent) => {
     event.preventDefault();
 
-    const enteredText = todoTextInputRef.current!.value;
+    const enteredText = todoTextInputRef.current!.value; // can be a string or null with the !
 
     if (enteredText.trim().length === 0) {
       // throw an error
@@ -9822,12 +9822,14 @@ export default NewTodo;
 ````
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzOTgxMTM1MywtMTcwMDkxMDc2LC0xNT
-g4MjgwMjc2LDE2OTE4MTQ4MjEsLTUzNzY3NDMxLC01MTUzMzM5
-MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2Nyw0Mz
-ExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OTYyNzk4
-NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1NzUyLD
-E5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMTIxMDI1
-Mjc1N119
+eyJoaXN0b3J5IjpbLTEwMzk1MzkzMzAsMjEzOTgxMTM1MywtMT
+cwMDkxMDc2LC0xNTg4MjgwMjc2LDE2OTE4MTQ4MjEsLTUzNzY3
+NDMxLC01MTUzMzM5MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMT
+g3MzkwNzc2Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1
+OTEsLTE4OTYyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MS
+wxNjE5NDg1NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkx
+MzIzMDJdfQ==
 -->
