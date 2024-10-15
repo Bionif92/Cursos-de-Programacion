@@ -9969,11 +9969,13 @@ const Todos: React.FC<{ items: Todo[]; onRemoveTodo: (id: string) => void }> = (
 export default Todos;
 ````
 
+### The Context API & TypeScript
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3ODE3NTc2NiwtMjA0MjIzNDU1NiwtMT
+eyJoaXN0b3J5IjpbMjA5NTczMDk5MiwtMjA0MjIzNDU1NiwtMT
 kwMDE4MTYyMSwxMDQ0MzcyMTIyLDEzNjAxNTcxMjEsLTEyNTk3
 OTUyOTgsMjEzOTgxMTM1MywtMTcwMDkxMDc2LC0xNTg4MjgwMj
 c2LDE2OTE4MTQ4MjEsLTUzNzY3NDMxLC01MTUzMzM5MzksODc4
