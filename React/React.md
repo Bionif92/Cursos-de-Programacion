@@ -9720,15 +9720,36 @@ class Todo {
 
 export default Todo;
 ````
+````
+//component
+import React from 'react';
+
+import Todo from '../models/todo';
+
+const Todos: React.FC<{ items: Todo[] }> = (props) => {
+  return (
+    <ul>
+      {props.items.map((item) => (
+        <li key={item.id}>{item.text}</li>
+      ))}
+    </ul>
+  );
+};
+
+export default Todos;
+````
+````
+//App.js
+````
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzY3NDMxLC01MTUzMzM5MzksODc4NT
-A1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2Nyw0MzExMjkwNTgs
-LTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OTYyNzk4NTEsMTk4NT
-M0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1NzUyLDE5NDQ5NjAw
-MSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMTIxMDI1Mjc1NywtMT
-AxMzIxNzg4MiwtMTk3MzM2MTc1MiwtMTE3Nzg0ODg3MiwtMTUx
-Njc5ODE3NV19
+eyJoaXN0b3J5IjpbLTE0OTg5OTIyMTIsLTUzNzY3NDMxLC01MT
+UzMzM5MzksODc4NTA1NzM0LDM0ODY5OTE3MCwtMTg3MzkwNzc2
+Nyw0MzExMjkwNTgsLTY1NjQ2Mzg3NCwzODQ5Mjc1OTEsLTE4OT
+YyNzk4NTEsMTk4NTM0NTY5MCwtMTA1MzMzMjM1MSwxNjE5NDg1
+NzUyLDE5NDQ5NjAwMSwxNTkxMjAwOTQ2LDE5OTkxMzIzMDIsMT
+IxMDI1Mjc1NywtMTAxMzIxNzg4MiwtMTk3MzM2MTc1MiwtMTE3
+Nzg0ODg3Ml19
 -->
