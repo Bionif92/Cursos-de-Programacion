@@ -7,10 +7,10 @@ Select Authentication, and choose the type of method
 Put data of firebase into a firebase.js
 
 ````
-import {createUserWithEmailAndPassword,getAuth,} from "firebase/auth";
+import {createUserWithEmailAndPassword,getAuth,} from"firebase/auth";
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNDA2OTcsMTE0NTgzMzcxXX0=
+eyJoaXN0b3J5IjpbLTE5OTg4MDI0NzEsMTE0NTgzMzcxXX0=
 -->
