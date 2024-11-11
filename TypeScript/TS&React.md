@@ -51,9 +51,10 @@ export default function CourseGoal({ title, children }: CourseGoalProps) {
   );
 }
 ````
-Can use both aproaches
+Can use both aproches
+With the key dont need to define props
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MjY4MDUxNyw1MzE1MDgwNTEsMTAyMj
-I3MDIwOSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5OTgzOTMz
-MF19
+eyJoaXN0b3J5IjpbMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMxNT
+A4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5MzksMjEyNzAyMjY2
+LDE5OTk4MzkzMzBdfQ==
 -->
