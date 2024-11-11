@@ -30,7 +30,7 @@ Can put it on a type or interface
 ### Defining a Type for Props with children
 
 ````
-import { type PropsWithChildren } from 'react';
+import { type PropsWithChildren, type ReactNode } from 'react';
 
 // interface CourseGoalProps { // alternative
 //   title: string;
@@ -53,7 +53,7 @@ export default function CourseGoal({ title, children }: CourseGoalProps) {
 ````
 Can use both aproaches
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMzgzMTg2MCw1MzE1MDgwNTEsMTAyMj
+eyJoaXN0b3J5IjpbMTM5MjY4MDUxNyw1MzE1MDgwNTEsMTAyMj
 I3MDIwOSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5OTgzOTMz
 MF19
 -->
