@@ -51,8 +51,9 @@ export default function CourseGoal({ title, children }: CourseGoalProps) {
   );
 }
 ````
+Can use both aproaches
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTY3MTI3Miw1MzE1MDgwNTEsMTAyMj
+eyJoaXN0b3J5IjpbMjExMzgzMTg2MCw1MzE1MDgwNTEsMTAyMj
 I3MDIwOSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5OTgzOTMz
 MF19
 -->
