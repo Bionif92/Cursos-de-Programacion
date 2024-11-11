@@ -25,7 +25,10 @@ export default function CourseGoal({
 }
 ````
 
+Can put it on a type or interface
+
+#
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyMjI3MDIwOSwtMTY0OTk1OTkzOSwyMT
-I3MDIyNjYsMTk5OTgzOTMzMF19
+eyJoaXN0b3J5IjpbMjAyMDAyMDc0MiwxMDIyMjcwMjA5LC0xNj
+Q5OTU5OTM5LDIxMjcwMjI2NiwxOTk5ODM5MzMwXX0=
 -->
