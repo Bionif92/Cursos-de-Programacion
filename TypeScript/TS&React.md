@@ -27,8 +27,8 @@ export default function CourseGoal({
 
 Can put it on a type or interface
 
-#
+### Defining a Type for Props with children
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMDAyMDc0MiwxMDIyMjcwMjA5LC0xNj
-Q5OTU5OTM5LDIxMjcwMjI2NiwxOTk5ODM5MzMwXX0=
+eyJoaXN0b3J5IjpbNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2ND
+k5NTk5MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
 -->
