@@ -78,8 +78,12 @@ import { type FC } from 'react';
 
 // export default CourseGoal;
 ````
+
+### UseState and TS
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LDEzOT
-I2ODA1MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5
-MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
+eyJoaXN0b3J5IjpbLTY0ODE4Njk2NCwtMTQ5MzE2NDgyNSwzOD
+c5MzgwNTksMTM5MjY4MDUxNyw1MzE1MDgwNTEsMTAyMjI3MDIw
+OSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5OTgzOTMzMF19
 -->
