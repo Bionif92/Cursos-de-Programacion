@@ -53,8 +53,26 @@ export default function CourseGoal({ title, children }: CourseGoalProps) {
 ````
 Can use both aproches
 With the key dont need to define props
+
+### Alternative
+
+````
+// const CourseGoal: FC<CourseGoalProps> = ({ title, children }) => {
+//   return (
+//     <article>
+//       <div>
+//         <h2>{title}</h2>
+//         {children}
+//       </div>
+//       <button>Delete</button>
+//     </article>
+//   );
+// };
+
+// export default CourseGoal;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMxNT
-A4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5MzksMjEyNzAyMjY2
-LDE5OTk4MzkzMzBdfQ==
+eyJoaXN0b3J5IjpbLTE4Mzk2NTMxMzgsMzg3OTM4MDU5LDEzOT
+I2ODA1MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5
+MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
 -->
