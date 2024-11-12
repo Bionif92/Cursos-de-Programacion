@@ -57,6 +57,13 @@ With the key dont need to define props
 ### Alternative
 
 ````
+import { type FC } from 'react';
+
+// interface CourseGoalProps {
+//   title: string;
+//   children: ReactNode
+// }
+
 // const CourseGoal: FC<CourseGoalProps> = ({ title, children }) => {
 //   return (
 //     <article>
@@ -72,7 +79,7 @@ With the key dont need to define props
 // export default CourseGoal;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mzk2NTMxMzgsMzg3OTM4MDU5LDEzOT
+eyJoaXN0b3J5IjpbLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LDEzOT
 I2ODA1MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5
 MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
 -->
