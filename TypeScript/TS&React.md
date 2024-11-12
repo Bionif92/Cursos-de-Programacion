@@ -81,9 +81,55 @@ import { type FC } from 'react';
 
 ### UseState and TS
 
+````
+import { useState } from 'react';
 
+import CourseGoal from './components/CourseGoal.tsx';
+import Header from './components/Header.tsx';
+import goalsImg from './assets/goals.jpg';
+
+type CourseGoal = {
+  title: string;
+  description: string;
+  id: number;
+};
+
+export default function App() {
+  const [goals, setGoals] = useState<CourseGoal[]>([]);
+
+  function handleAddGoal() {
+    setGoals((prevGoals) => {
+      const newGoal: CourseGoal = {
+        id: Math.random(),
+        title: 'Learn React + TS',
+        description: 'Learn it in depth!',
+      };
+      return [...prevGoals, newGoal];
+    });
+  }
+
+  return (
+    <main>
+      <Header image={{ src: goalsImg, alt: 'A list of goals' }}>
+        <h1>Your Course Goals</h1>
+      </Header>
+      <button onClick={handleAddGoal}>Add Goal</button>
+      <ul>
+        {goals.map((goal) => (
+          <li key={goal.id}>
+            <CourseGoal title={goal.title}>
+              <p>{goal.description}</p>
+            </CourseGoal>
+          </li>
+        ))}
+      </ul>
+    </main>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODE4Njk2NCwtMTQ5MzE2NDgyNSwzOD
-c5MzgwNTksMTM5MjY4MDUxNyw1MzE1MDgwNTEsMTAyMjI3MDIw
-OSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5OTgzOTMzMF19
+eyJoaXN0b3J5IjpbMTc4MDYyNTAzOSwtNjQ4MTg2OTY0LC0xND
+kzMTY0ODI1LDM4NzkzODA1OSwxMzkyNjgwNTE3LDUzMTUwODA1
+MSwxMDIyMjcwMjA5LC0xNjQ5OTU5OTM5LDIxMjcwMjI2NiwxOT
+k5ODM5MzMwXX0=
 -->
