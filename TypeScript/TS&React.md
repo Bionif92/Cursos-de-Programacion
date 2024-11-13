@@ -184,10 +184,52 @@ export default function NewGoal() {
   );
 }
 ````
+
+### Ref() with TS
+
+````
+import { useRef, type FormEvent } from 'react';
+
+type NewGoalProps = {
+  onAddGoal: (goal: string, summary: string) => void;
+};
+
+export default function NewGoal({ onAddGoal }: NewGoalProps) {
+  const goal = useRef<HTMLInputElement>(null);
+  const summary = useRef<HTMLInputElement>(null);
+
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const enteredGoal = goal.current!.value;
+    const enteredSummary = summary.current!.value;
+
+    event.currentTarget.reset();
+    onAddGoal(enteredGoal, enteredSummary);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <p>
+        <label htmlFor="goal">Your goal</label>
+        <input id="goal" type="text" ref={goal} />
+      </p>
+      <p>
+        <label htmlFor="summary">Short summary</label>
+        <input id="summary" type="text" ref={summary} />
+      </p>
+      <p>
+        <button>Add Goal</button>
+      </p>
+    </form>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzEzODA2MCwtMTQ2NDExNDA3OSwxMj
-UyMzcxMjUsLTEwMTc4NzU0NDIsLTg2MjAwMDE3NywxNzgwNjI1
-MDM5LC02NDgxODY5NjQsLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LD
-EzOTI2ODA1MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5
-NTk5MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
+eyJoaXN0b3J5IjpbLTIwODA0NDc5MzMsMTExMzEzODA2MCwtMT
+Q2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4NzU0NDIsLTg2MjAw
+MDE3NywxNzgwNjI1MDM5LC02NDgxODY5NjQsLTE0OTMxNjQ4Mj
+UsMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMxNTA4MDUxLDEwMjIy
+NzAyMDksLTE2NDk5NTk5MzksMjEyNzAyMjY2LDE5OTk4MzkzMz
+BdfQ==
 -->
