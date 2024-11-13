@@ -195,8 +195,8 @@ type NewGoalProps = {
 };
 
 export default function NewGoal({ onAddGoal }: NewGoalProps) {
-  const goal = useRef<HTMLInputElement>(null);
-  const summary = useRef<HTMLInputElement>(null);
+  -- const goal = useRef<HTMLInputElement>(null); // need to start with null not to have error
+ -- const summary = useRef<HTMLInputElement>(null);
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -226,10 +226,10 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODA0NDc5MzMsMTExMzEzODA2MCwtMT
-Q2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4NzU0NDIsLTg2MjAw
-MDE3NywxNzgwNjI1MDM5LC02NDgxODY5NjQsLTE0OTMxNjQ4Mj
-UsMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMxNTA4MDUxLDEwMjIy
-NzAyMDksLTE2NDk5NTk5MzksMjEyNzAyMjY2LDE5OTk4MzkzMz
-BdfQ==
+eyJoaXN0b3J5IjpbLTEwMzk2MzM5NTksLTIwODA0NDc5MzMsMT
+ExMzEzODA2MCwtMTQ2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4
+NzU0NDIsLTg2MjAwMDE3NywxNzgwNjI1MDM5LC02NDgxODY5Nj
+QsLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMx
+NTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5MzksMjEyNzAyMj
+Y2LDE5OTk4MzkzMzBdfQ==
 -->
