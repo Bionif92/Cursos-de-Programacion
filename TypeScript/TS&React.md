@@ -160,11 +160,34 @@ export default function CourseGoalList({
 ### Handling & Typing Events
 
 ````
+import { type FormEvent } from 'react';
+
+export default function NewGoal() {
+  --function handleSubmit(event: FormEvent) {
+    event.preventDefault();
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <p>
+        <label htmlFor="goal">Your goal</label>
+        <input id="goal" type="text" />
+      </p>
+      <p>
+        <label htmlFor="summary">Short summary</label>
+        <input id="summary" type="text" />
+      </p>
+      <p>
+        <button>Add Goal</button>
+      </p>
+    </form>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjQxMTQwNzksMTI1MjM3MTI1LC0xMD
-E3ODc1NDQyLC04NjIwMDAxNzcsMTc4MDYyNTAzOSwtNjQ4MTg2
-OTY0LC0xNDkzMTY0ODI1LDM4NzkzODA1OSwxMzkyNjgwNTE3LD
-UzMTUwODA1MSwxMDIyMjcwMjA5LC0xNjQ5OTU5OTM5LDIxMjcw
-MjI2NiwxOTk5ODM5MzMwXX0=
+eyJoaXN0b3J5IjpbMTExMzEzODA2MCwtMTQ2NDExNDA3OSwxMj
+UyMzcxMjUsLTEwMTc4NzU0NDIsLTg2MjAwMDE3NywxNzgwNjI1
+MDM5LC02NDgxODY5NjQsLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LD
+EzOTI2ODA1MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5
+NTk5MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
 -->
