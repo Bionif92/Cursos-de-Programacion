@@ -95,11 +95,11 @@ type CourseGoal = {
 };
 
 export default function App() {
-  const [goals, setGoals] = useState<CourseGoal[]>([]);
+  --const [goals, setGoals] = useState<CourseGoal[]>([]);
 
   function handleAddGoal() {
     setGoals((prevGoals) => {
-      const newGoal: CourseGoal = {
+      --const newGoal: CourseGoal = {
         id: Math.random(),
         title: 'Learn React + TS',
         description: 'Learn it in depth!',
@@ -128,8 +128,8 @@ export default function App() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MDYyNTAzOSwtNjQ4MTg2OTY0LC0xND
-kzMTY0ODI1LDM4NzkzODA1OSwxMzkyNjgwNTE3LDUzMTUwODA1
-MSwxMDIyMjcwMjA5LC0xNjQ5OTU5OTM5LDIxMjcwMjI2NiwxOT
-k5ODM5MzMwXX0=
+eyJoaXN0b3J5IjpbLTg2MjAwMDE3NywxNzgwNjI1MDM5LC02ND
+gxODY5NjQsLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LDEzOTI2ODA1
+MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5MzksMj
+EyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
 -->
