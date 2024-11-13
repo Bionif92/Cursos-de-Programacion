@@ -128,10 +128,38 @@ export default function App() {
 }
 ````
 
-### 
+### Passing Functions as Values in a TS way
+
+````
+import CourseGoal from './CourseGoal.tsx';
+import { type CourseGoal as CGoal } from '../App.tsx';
+
+type CourseGoalListProps = {
+  goals: CGoal[];
+  onDeleteGoal: (id: number) => void;
+};
+
+export default function CourseGoalList({
+  goals,
+  onDeleteGoal,
+}: CourseGoalListProps) {
+  return (
+    <ul>
+      {goals.map((goal) => (
+        <li key={goal.id}>
+          <CourseGoal id={goal.id} title={goal.title} onDelete={onDeleteGoal}>
+            <p>{goal.description}</p>
+          </CourseGoal>
+        </li>
+      ))}
+    </ul>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc4NzU0NDIsLTg2MjAwMDE3NywxNz
-gwNjI1MDM5LC02NDgxODY5NjQsLTE0OTMxNjQ4MjUsMzg3OTM4
-MDU5LDEzOTI2ODA1MTcsNTMxNTA4MDUxLDEwMjIyNzAyMDksLT
-E2NDk5NTk5MzksMjEyNzAyMjY2LDE5OTk4MzkzMzBdfQ==
+eyJoaXN0b3J5IjpbMTI1MjM3MTI1LC0xMDE3ODc1NDQyLC04Nj
+IwMDAxNzcsMTc4MDYyNTAzOSwtNjQ4MTg2OTY0LC0xNDkzMTY0
+ODI1LDM4NzkzODA1OSwxMzkyNjgwNTE3LDUzMTUwODA1MSwxMD
+IyMjcwMjA5LC0xNjQ5OTU5OTM5LDIxMjcwMjI2NiwxOTk5ODM5
+MzMwXX0=
 -->
