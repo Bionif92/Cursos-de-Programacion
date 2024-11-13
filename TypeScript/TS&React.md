@@ -201,7 +201,7 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const enteredGoal = goal.current!.value;
+    const enteredGoal = goal.current!.value; // ! you know it wont be null
     const enteredSummary = summary.current!.value;
 
     event.currentTarget.reset();
@@ -226,10 +226,10 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk2MzM5NTksLTIwODA0NDc5MzMsMT
-ExMzEzODA2MCwtMTQ2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4
-NzU0NDIsLTg2MjAwMDE3NywxNzgwNjI1MDM5LC02NDgxODY5Nj
-QsLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMx
-NTA4MDUxLDEwMjIyNzAyMDksLTE2NDk5NTk5MzksMjEyNzAyMj
-Y2LDE5OTk4MzkzMzBdfQ==
+eyJoaXN0b3J5IjpbLTk1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMT
+EzMTM4MDYwLC0xNDY0MTE0MDc5LDEyNTIzNzEyNSwtMTAxNzg3
+NTQ0MiwtODYyMDAwMTc3LDE3ODA2MjUwMzksLTY0ODE4Njk2NC
+wtMTQ5MzE2NDgyNSwzODc5MzgwNTksMTM5MjY4MDUxNyw1MzE1
+MDgwNTEsMTAyMjI3MDIwOSwtMTY0OTk1OTkzOSwyMTI3MDIyNj
+YsMTk5OTgzOTMzMF19
 -->
