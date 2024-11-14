@@ -325,16 +325,30 @@ export default function InfoBox(props: InfoBoxProps) {
 
 ### Wrapper component with ComponentPropsWithoutRefs
 
-
-
+Spreading the props
 ````
+import { ComponentPropsWithoutRef } from 'react';
+
+type InputProps = {
+  label: string;
+  id: string;
+} & ComponentPropsWithoutRef<'input'>;
+
+export default function Input({label, id, ...props}: InputProps) {
+  return (
+    <p>
+      <label htmlFor={id}>{label}</label>
+      <input id={id} {...props} />
+    </p>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3OTQ3NTM3NiwtMjY5NzE5OTQ2LDM5Mj
-Q4NDMzOCwxMjk0ODQ1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5
-MiwtODcxNTg4MjY4LC05NTkzODQyNjEsLTIwODA0NDc5MzMsMT
-ExMzEzODA2MCwtMTQ2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4
-NzU0NDIsLTg2MjAwMDE3NywxNzgwNjI1MDM5LC02NDgxODY5Nj
-QsLTE0OTMxNjQ4MjUsMzg3OTM4MDU5LDEzOTI2ODA1MTcsNTMx
-NTA4MDUxXX0=
+eyJoaXN0b3J5IjpbLTE0MDExNjM2NTUsLTI2OTcxOTk0NiwzOT
+I0ODQzMzgsMTI5NDg0NTk2MSw4MDQ2OTY4MjcsLTExMzgzMzE3
+OTIsLTg3MTU4ODI2OCwtOTU5Mzg0MjYxLC0yMDgwNDQ3OTMzLD
+ExMTMxMzgwNjAsLTE0NjQxMTQwNzksMTI1MjM3MTI1LC0xMDE3
+ODc1NDQyLC04NjIwMDAxNzcsMTc4MDYyNTAzOSwtNjQ4MTg2OT
+Y0LC0xNDkzMTY0ODI1LDM4NzkzODA1OSwxMzkyNjgwNTE3LDUz
+MTUwODA1MV19
 -->
