@@ -441,10 +441,14 @@ export default function Container<C extends ElementType>({
 }
 ````
 
-###
+### Using forwardRef with TS
+
+````
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDMwNzA3NywtMTg3MjExMDQ4NCwzND
+eyJoaXN0b3J5IjpbMTUzODk3NzY2NCwtMTg3MjExMDQ4NCwzND
 UxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAwMywxNDM0OTU2NjMs
 LTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMTAzMzI3MDk5LC0yNj
 k3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Njk2ODI3
