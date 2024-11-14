@@ -395,11 +395,12 @@ export default function Button(props: ButtonProps | AnchorProps) {
 
 ### Polimorphic Component
 
+Render a component with nested components
 ````
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDMyOTkwMyw1NzE3OTUwMDMsMTQzND
+eyJoaXN0b3J5IjpbMTk1NzUyMzE5NCw1NzE3OTUwMDMsMTQzND
 k1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMyNzA5
 OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0ODQ1OTYxLDgwND
 Y5NjgyNywtMTEzODMzMTc5MiwtODcxNTg4MjY4LC05NTkzODQy
