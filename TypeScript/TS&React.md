@@ -369,7 +369,8 @@ export default function Button(props: ButtonProps | AnchorProps) {
 
 ### Type Predicates & Facing TS Limitations
 
-Eliminate the prop for choosing an a or button, see if 
+Eliminate the prop for choosing an a or button, see if it has the prop to render conditionally
+
 ````
 import { type ComponentPropsWithoutRef } from 'react';
 
@@ -406,13 +407,13 @@ type ContainerProps = {
 };
 
 export default function Container({as}: ContainerProps) {
-  const Component = as;
+  const Component = as; // need an uppercase element in the component
   return <Component />
 }
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY4MjE2ODU4LDU3MTc5NTAwMywxNDM0OT
+eyJoaXN0b3J5IjpbODQ0MzA5NDQ3LDU3MTc5NTAwMywxNDM0OT
 U2NjMsLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMTAzMzI3MDk5
 LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Nj
 k2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLTk1OTM4NDI2
