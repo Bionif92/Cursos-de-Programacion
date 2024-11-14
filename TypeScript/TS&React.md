@@ -284,6 +284,7 @@ export default function CourseGoalList({
 
 ### Flexible Components with required prop combinations
 
+Use Discriminated Unions
 ````
 import { type ReactNode } from 'react';
 
@@ -322,11 +323,11 @@ export default function InfoBox(props: InfoBoxProps) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDg0NTk2MSw4MDQ2OTY4MjcsLTExMz
-gzMzE3OTIsLTg3MTU4ODI2OCwtOTU5Mzg0MjYxLC0yMDgwNDQ3
-OTMzLDExMTMxMzgwNjAsLTE0NjQxMTQwNzksMTI1MjM3MTI1LC
-0xMDE3ODc1NDQyLC04NjIwMDAxNzcsMTc4MDYyNTAzOSwtNjQ4
-MTg2OTY0LC0xNDkzMTY0ODI1LDM4NzkzODA1OSwxMzkyNjgwNT
-E3LDUzMTUwODA1MSwxMDIyMjcwMjA5LC0xNjQ5OTU5OTM5LDIx
-MjcwMjI2Nl19
+eyJoaXN0b3J5IjpbMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Nj
+k2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLTk1OTM4NDI2
+MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0MTE0MDc5LD
+EyNTIzNzEyNSwtMTAxNzg3NTQ0MiwtODYyMDAwMTc3LDE3ODA2
+MjUwMzksLTY0ODE4Njk2NCwtMTQ5MzE2NDgyNSwzODc5MzgwNT
+ksMTM5MjY4MDUxNyw1MzE1MDgwNTEsMTAyMjI3MDIwOSwtMTY0
+OTk1OTkzOV19
 -->
