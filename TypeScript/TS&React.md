@@ -366,12 +366,17 @@ export default function Button(props: ButtonProps | AnchorProps) {
   return <button className="button" {...props}></button>;
 }
 ````
+
+### Type Predicates & Facing TS Limitations
+
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMT
-AzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5
-NjEsODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLT
-k1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0
-MTE0MDc5LDEyNTIzNzEyNSwtMTAxNzg3NTQ0MiwtODYyMDAwMT
-c3LDE3ODA2MjUwMzksLTY0ODE4Njk2NCwtMTQ5MzE2NDgyNSwz
-ODc5MzgwNTldfQ==
+eyJoaXN0b3J5IjpbMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNT
+kyMjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMz
+OCwxMjk0ODQ1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5MiwtOD
+cxNTg4MjY4LC05NTkzODQyNjEsLTIwODA0NDc5MzMsMTExMzEz
+ODA2MCwtMTQ2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4NzU0ND
+IsLTg2MjAwMDE3NywxNzgwNjI1MDM5LC02NDgxODY5NjQsLTE0
+OTMxNjQ4MjVdfQ==
 -->
