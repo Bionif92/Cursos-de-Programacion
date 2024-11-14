@@ -370,13 +370,34 @@ export default function Button(props: ButtonProps | AnchorProps) {
 ### Type Predicates & Facing TS Limitations
 
 ````
+import { type ComponentPropsWithoutRef } from 'react';
+
+type ButtonProps = ComponentPropsWithoutRef<'button'> & {
+  href?: never;
+};
+
+type AnchorProps = ComponentPropsWithoutRef<'a'> & {
+  href?: string;
+};
+
+--function isAnchorProps(props: ButtonProps | AnchorProps): props is AnchorProps {
+  return 'href' in props; // type, is a boolean, if it is true, the prop is AnchorProps
+}
+
+export default function Button(props: ButtonProps | AnchorProps) {
+  if (isAnchorProps(props)) {
+    return <a className="button" {...props}></a>;
+  }
+
+  return <button className="button" {...props}></button>;
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNT
-kyMjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMz
-OCwxMjk0ODQ1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5MiwtOD
-cxNTg4MjY4LC05NTkzODQyNjEsLTIwODA0NDc5MzMsMTExMzEz
-ODA2MCwtMTQ2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4NzU0ND
-IsLTg2MjAwMDE3NywxNzgwNjI1MDM5LC02NDgxODY5NjQsLTE0
-OTMxNjQ4MjVdfQ==
+eyJoaXN0b3J5IjpbNTcxNzk1MDAzLDE0MzQ5NTY2MywtMTM5MT
+YzNTAzMCwzMDU5MjI0MDIsLTIxMDMzMjcwOTksLTI2OTcxOTk0
+NiwzOTI0ODQzMzgsMTI5NDg0NTk2MSw4MDQ2OTY4MjcsLTExMz
+gzMzE3OTIsLTg3MTU4ODI2OCwtOTU5Mzg0MjYxLC0yMDgwNDQ3
+OTMzLDExMTMxMzgwNjAsLTE0NjQxMTQwNzksMTI1MjM3MTI1LC
+0xMDE3ODc1NDQyLC04NjIwMDAxNzcsMTc4MDYyNTAzOSwtNjQ4
+MTg2OTY0XX0=
 -->
