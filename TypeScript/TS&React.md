@@ -347,13 +347,31 @@ export default function Input({label, id, ...props}: InputProps) {
 ### Wrapper component render different elements
 
 ````
+import { type ComponentPropsWithoutRef } from 'react';
+
+type ButtonProps = {
+  el: 'button';
+} & ComponentPropsWithoutRef<'button'>;
+
+type AnchorProps = {
+  el: 'anchor';
+} & ComponentPropsWithoutRef<'a'>;
+
+export default function Button(props: ButtonProps | AnchorProps) {
+  // const {el, ...otherProps} = props;
+  if (props.el === 'anchor') {
+    return <a className="button" {...props}></a>;
+  }
+
+  return <button className="button" {...props}></button>;
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1OTIyNDAyLC0yMTAzMzI3MDk5LC0yNj
-k3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Njk2ODI3
-LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLTk1OTM4NDI2MSwtMj
-A4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0MTE0MDc5LDEyNTIz
-NzEyNSwtMTAxNzg3NTQ0MiwtODYyMDAwMTc3LDE3ODA2MjUwMz
-ksLTY0ODE4Njk2NCwtMTQ5MzE2NDgyNSwzODc5MzgwNTksMTM5
-MjY4MDUxN119
+eyJoaXN0b3J5IjpbLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMT
+AzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5
+NjEsODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLT
+k1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0
+MTE0MDc5LDEyNTIzNzEyNSwtMTAxNzg3NTQ0MiwtODYyMDAwMT
+c3LDE3ODA2MjUwMzksLTY0ODE4Njk2NCwtMTQ5MzE2NDgyNSwz
+ODc5MzgwNTldfQ==
 -->
