@@ -369,6 +369,7 @@ export default function Button(props: ButtonProps | AnchorProps) {
 
 ### Type Predicates & Facing TS Limitations
 
+Eliminate the prop for choosing an a or button, see if 
 ````
 import { type ComponentPropsWithoutRef } from 'react';
 
@@ -396,15 +397,26 @@ export default function Button(props: ButtonProps | AnchorProps) {
 ### Polimorphic Component
 
 Render a component with nested components
+
 ````
+import { type ElementType } from 'react';
+
+type ContainerProps = {
+  as: ElementType
+};
+
+export default function Container({as}: ContainerProps) {
+  const Component = as;
+  return <Component />
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzUyMzE5NCw1NzE3OTUwMDMsMTQzND
-k1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMyNzA5
-OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0ODQ1OTYxLDgwND
-Y5NjgyNywtMTEzODMzMTc5MiwtODcxNTg4MjY4LC05NTkzODQy
-NjEsLTIwODA0NDc5MzMsMTExMzEzODA2MCwtMTQ2NDExNDA3OS
-wxMjUyMzcxMjUsLTEwMTc4NzU0NDIsLTg2MjAwMDE3NywxNzgw
-NjI1MDM5XX0=
+eyJoaXN0b3J5IjpbNDY4MjE2ODU4LDU3MTc5NTAwMywxNDM0OT
+U2NjMsLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMTAzMzI3MDk5
+LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Nj
+k2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLTk1OTM4NDI2
+MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0MTE0MDc5LD
+EyNTIzNzEyNSwtMTAxNzg3NTQ0MiwtODYyMDAwMTc3LDE3ODA2
+MjUwMzldfQ==
 -->
