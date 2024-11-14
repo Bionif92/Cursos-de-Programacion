@@ -332,7 +332,7 @@ import { ComponentPropsWithoutRef } from 'react';
 type InputProps = {
   label: string;
   id: string;
-} & ComponentPropsWithoutRef<'input'>;
+} & ComponentPropsWithoutRef<'input'>; // all the ..props for an input
 
 export default function Input({label, id, ...props}: InputProps) {
   return (
@@ -344,7 +344,7 @@ export default function Input({label, id, ...props}: InputProps) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDExNjM2NTUsLTI2OTcxOTk0NiwzOT
+eyJoaXN0b3J5IjpbLTIxMDMzMjcwOTksLTI2OTcxOTk0NiwzOT
 I0ODQzMzgsMTI5NDg0NTk2MSw4MDQ2OTY4MjcsLTExMzgzMzE3
 OTIsLTg3MTU4ODI2OCwtOTU5Mzg0MjYxLC0yMDgwNDQ3OTMzLD
 ExMTMxMzgwNjAsLTE0NjQxMTQwNzksMTI1MjM3MTI1LC0xMDE3
