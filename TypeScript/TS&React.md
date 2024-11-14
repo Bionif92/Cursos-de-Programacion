@@ -229,12 +229,64 @@ export default function NewGoal({ onAddGoal }: NewGoalProps) {
 ## Advanced Component Types - Dynamic Components, Polymorphic Components & More
 
 ### Dynamic & Flexible Component
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgzMzE3OTIsLTg3MTU4ODI2OCwtOT
-U5Mzg0MjYxLC0yMDgwNDQ3OTMzLDExMTMxMzgwNjAsLTE0NjQx
-MTQwNzksMTI1MjM3MTI1LC0xMDE3ODc1NDQyLC04NjIwMDAxNz
-csMTc4MDYyNTAzOSwtNjQ4MTg2OTY0LC0xNDkzMTY0ODI1LDM4
-NzkzODA1OSwxMzkyNjgwNTE3LDUzMTUwODA1MSwxMDIyMjcwMj
-A5LC0xNjQ5OTU5OTM5LDIxMjcwMjI2NiwxOTk5ODM5MzMwXX0=
 
+Adding a React Node dynamically
+````
+import { type ReactNode } from 'react';
+
+import CourseGoal from './CourseGoal.tsx';
+import { type CourseGoal as CGoal } from '../App.tsx';
+import InfoBox from './InfoBox.tsx';
+
+type CourseGoalListProps = {
+  goals: CGoal[];
+  onDeleteGoal: (id: number) => void;
+};
+
+export default function CourseGoalList({
+  goals,
+  onDeleteGoal,
+}: CourseGoalListProps) {
+  if (goals.length === 0) {
+    return (
+      <InfoBox mode="hint">
+        You have no course goals yet. Start adding some!
+      </InfoBox>
+    );
+  }
+
+--  let warningBox: ReactNode; // adding jsx code
+
+--  if (goals.length >= 4) {
+    warningBox = (
+      <InfoBox mode="warning">
+        You're collecting a lot of goals. Don't put too much on your plate!
+      </InfoBox>
+    );
+  }
+
+  return (
+    <>
+      {warningBox}
+      <ul>
+        {goals.map((goal) => (
+          <li key={goal.id}>
+            <CourseGoal id={goal.id} title={goal.title} onDelete={onDeleteGoal}>
+              <p>{goal.description}</p>
+            </CourseGoal>
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+````
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04Nz
+E1ODgyNjgsLTk1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4
+MDYwLC0xNDY0MTE0MDc5LDEyNTIzNzEyNSwtMTAxNzg3NTQ0Mi
+wtODYyMDAwMTc3LDE3ODA2MjUwMzksLTY0ODE4Njk2NCwtMTQ5
+MzE2NDgyNSwzODc5MzgwNTksMTM5MjY4MDUxNyw1MzE1MDgwNT
+EsMTAyMjI3MDIwOSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5
+OTgzOTMzMF19
 -->
