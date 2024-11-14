@@ -281,12 +281,52 @@ export default function CourseGoalList({
   );
 }
 ````
+
+### Flexible Components with required prop combinations
+
+````
+import { type ReactNode } from 'react';
+
+type HintBoxProps = {
+  mode: 'hint';
+  children: ReactNode;
+};
+
+type WarningBoxProps = {
+  mode: 'warning';
+  severity: 'low' | 'medium' | 'high';
+  children: ReactNode;
+};
+
+type InfoBoxProps = HintBoxProps | WarningBoxProps;
+
+export default function InfoBox(props: InfoBoxProps) {
+  const { children, mode } = props;
+
+  if (mode === 'hint') {
+    return (
+      <aside className="infobox infobox-hint">
+        <p>{children}</p>
+      </aside>
+    );
+  }
+
+  const { severity } = props;
+
+  return (
+    <aside className={`infobox infobox-warning warning--${severity}`}>
+      <h2>Warning</h2>
+      <p>{children}</p>
+    </aside>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04Nz
-E1ODgyNjgsLTk1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4
-MDYwLC0xNDY0MTE0MDc5LDEyNTIzNzEyNSwtMTAxNzg3NTQ0Mi
-wtODYyMDAwMTc3LDE3ODA2MjUwMzksLTY0ODE4Njk2NCwtMTQ5
-MzE2NDgyNSwzODc5MzgwNTksMTM5MjY4MDUxNyw1MzE1MDgwNT
-EsMTAyMjI3MDIwOSwtMTY0OTk1OTkzOSwyMTI3MDIyNjYsMTk5
-OTgzOTMzMF19
+eyJoaXN0b3J5IjpbMTI5NDg0NTk2MSw4MDQ2OTY4MjcsLTExMz
+gzMzE3OTIsLTg3MTU4ODI2OCwtOTU5Mzg0MjYxLC0yMDgwNDQ3
+OTMzLDExMTMxMzgwNjAsLTE0NjQxMTQwNzksMTI1MjM3MTI1LC
+0xMDE3ODc1NDQyLC04NjIwMDAxNzcsMTc4MDYyNTAzOSwtNjQ4
+MTg2OTY0LC0xNDkzMTY0ODI1LDM4NzkzODA1OSwxMzkyNjgwNT
+E3LDUzMTUwODA1MSwxMDIyMjcwMjA5LC0xNjQ5OTU5OTM5LDIx
+MjcwMjI2Nl19
 -->
