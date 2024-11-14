@@ -416,13 +416,37 @@ export default function Container({as}: ContainerProps) {
 
 Add props of the concrete component
 ````
+import {
+  type ReactNode,
+  type ElementType,
+  type ComponentPropsWithoutRef,
+} from 'react';
+
+type ContainerProps<T extends ElementType> = {
+  as?: T;
+  children: ReactNode;
+} & ComponentPropsWithoutRef<T>;
+
+export default function Container<C extends ElementType>({
+  as,
+  children,
+  ...props
+}: ContainerProps<C>) {
+  const Component = as || 'div';
+  return (
+    <Component {...props}>
+      {children}
+    </Component>
+  );
+}
 ````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OT
-UwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwt
-MjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0OD
-Q1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5MiwtODcxNTg4MjY4
-LC05NTkzODQyNjEsLTIwODA0NDc5MzMsMTExMzEzODA2MCwtMT
-Q2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4NzU0NDIsLTg2MjAw
-MDE3N119
+eyJoaXN0b3J5IjpbLTE4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNz
+I2NDA3Nyw1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMw
+LDMwNTkyMjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5Mj
+Q4NDMzOCwxMjk0ODQ1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5
+MiwtODcxNTg4MjY4LC05NTkzODQyNjEsLTIwODA0NDc5MzMsMT
+ExMzEzODA2MCwtMTQ2NDExNDA3OSwxMjUyMzcxMjUsLTEwMTc4
+NzU0NDJdfQ==
 -->
