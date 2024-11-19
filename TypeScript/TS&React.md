@@ -468,16 +468,30 @@ export default Input;
 ````
 ````
 //App.tsx
+import { useRef } from 'react';
 
+import Input from './components/Input.tsx';
+
+function App() {
+  const input = useRef<HTMLInputElement>(null);
+
+  return (
+    <main>
+      <Input label="Test" id="test" ref={input} />
+    </main>
+  );
+}
+
+export default App;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzI1NzUzMTEsMTUzODk3NzY2NCwtMT
-g3MjExMDQ4NCwzNDUxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAw
-MywxNDM0OTU2NjMsLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMT
-AzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5
-NjEsODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLT
-k1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0
-MTE0MDc5XX0=
+eyJoaXN0b3J5IjpbMjAyNTUyNDQxMywxNTM4OTc3NjY0LC0xOD
+cyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAz
+LDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMD
+MzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2
+MSw4MDQ2OTY4MjcsLTExMzgzMzE3OTIsLTg3MTU4ODI2OCwtOT
+U5Mzg0MjYxLC0yMDgwNDQ3OTMzLDExMTMxMzgwNjAsLTE0NjQx
+MTQwNzldfQ==
 -->
