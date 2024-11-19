@@ -485,9 +485,33 @@ function App() {
 export default App;
 ````
 
+### Wrapper Component
 
+````
+import { type FormEvent, type ComponentPropsWithoutRef } from 'react';
+
+type FormProps = ComponentPropsWithoutRef<'form'> & {
+  onSave: (value: unknown) => void;
+};
+
+export default function Form({ onSave, children, ...otherProps }: FormProps) {
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const data = Object.fromEntries(formData);
+    onSave(data);
+  }
+
+  return (
+    <form onSubmit={handleSubmit} {...otherProps}>
+      {children}
+    </form>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNTUyNDQxMywxNTM4OTc3NjY0LC0xOD
+eyJoaXN0b3J5IjpbLTM1MDA5MjQ2MCwxNTM4OTc3NjY0LC0xOD
 cyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAz
 LDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMD
 MzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2
