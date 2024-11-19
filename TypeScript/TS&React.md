@@ -888,13 +888,39 @@ export default function TimersContextProvider({
 }
 ````
 
+### Finishing the app
+
+````
+//header.tsx
+import Button from './UI/Button.tsx';
+import { useTimersContext } from '../store/timers-context.tsx';
+
+export default function Header() {
+  const timersCtx = useTimersContext();
+
+  return (
+    <header>
+      <h1>ReactTimer</h1>
+
+      <Button
+        onClick={
+          timersCtx.isRunning ? timersCtx.stopTimers : timersCtx.startTimers
+        }
+      >
+        {timersCtx.isRunning ? 'Stop' : 'Start'} Timers
+      </Button>
+    </header>
+  );
+}
+````
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMj
-I0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4MDI1OSwxNjUzODEw
-NjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOT
-k0NTc2NTMzLC0xODczODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2
-NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxOD
-YyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkx
-NjM1MDMwXX0=
+eyJoaXN0b3J5IjpbMTMwMDk1MzMwLC05NDM3NTYwNDYsLTE2ND
+gzMzE5NTAsMjIyNDcyNDE4LC0yMTAxMDAxNjkxLDE3NDQ3ODAy
+NTksMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NTUzMTkzLC0yMD
+QwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4NCwtMTQ3MzA4
+ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC0xODcyMTEwND
+g0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAzLDE0MzQ5
+NTY2M119
 -->
