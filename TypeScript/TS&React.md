@@ -944,15 +944,46 @@ export default function AddTimer() {
 }
 ````
 ````
+//timer.tsx
+import Container from './UI/Container.tsx';
+import { type Timer as TimerProps } from '../store/timers-context.tsx';
+
+export default function Timer({ name, duration }: TimerProps) {
+  return (
+    <Container as="article">
+      <h2>{name}</h2>
+      <p>{duration}</p>
+    </Container>
+  );
+}
+````
+````
+//timers.tsx
+import { useTimersContext } from '../store/timers-context.tsx';
+import Timer from './Timer.tsx';
+
+export default function Timers() {
+  const { timers } = useTimersContext();
+  return (
+    <ul>
+      {timers.map((timer) => (
+        <li key={timer.name}>
+          <Timer {...timer} />
+        </li>
+      ))}
+    </ul>
+  );
+}
 ````
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODg4NTc4ODcsLTk0Mzc1NjA0NiwtMT
-Y0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4
-MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLT
-IwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODczODUyMjg0LC0xNDcz
-MDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIxMT
-A0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMTQz
-NDk1NjYzXX0=
+eyJoaXN0b3J5IjpbLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNj
+Q4MzMxOTUwLDIyMjQ3MjQxOCwtMjEwMTAwMTY5MSwxNzQ0Nzgw
+MjU5LDE2NTM4MTA2ODMsMTc1ODM0ODgxLDk3ODU1MzE5MywtMj
+A0MDIyMDYzMiw5OTQ1NzY1MzMsLTE4NzM4NTIyODQsLTE0NzMw
+ODg3NzIsLTE3MjY1MjEyNDgsMTUzODk3NzY2NCwtMTg3MjExMD
+Q4NCwzNDUxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAwMywxNDM0
+OTU2NjNdfQ==
 -->
