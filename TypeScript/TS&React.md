@@ -444,15 +444,35 @@ export default function Container<C extends ElementType>({
 ### Using forwardRef with TS
 
 ````
+import { forwardRef, type ComponentPropsWithoutRef } from 'react';
+
+type InputProps = {
+  label: string;
+  id: string;
+} & ComponentPropsWithoutRef<'input'>;
+
+const Input = forwardRef<HTMLInputElement, InputProps>(function Input(
+  { label, id, ...props },
+  ref
+) {
+  return (
+    <p>
+      <label htmlFor={id}>{label}</label>
+      <input id={id} {...props} ref={ref} />
+    </p>
+  );
+});
+
+export default Input;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzODk3NzY2NCwtMTg3MjExMDQ4NCwzND
-UxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAwMywxNDM0OTU2NjMs
-LTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMTAzMzI3MDk5LC0yNj
-k3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Njk2ODI3
-LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLTk1OTM4NDI2MSwtMj
-A4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0MTE0MDc5LDEyNTIz
-NzEyNV19
+eyJoaXN0b3J5IjpbMTg5NDEzMDY3OSwxNTM4OTc3NjY0LC0xOD
+cyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAz
+LDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMD
+MzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2
+MSw4MDQ2OTY4MjcsLTExMzgzMzE3OTIsLTg3MTU4ODI2OCwtOT
+U5Mzg0MjYxLC0yMDgwNDQ3OTMzLDExMTMxMzgwNjAsLTE0NjQx
+MTQwNzldfQ==
 -->
