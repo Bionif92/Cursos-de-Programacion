@@ -744,7 +744,20 @@ export default App;
 ### Accesing Context with Custom Hook
 
  useTimersContext is the hook
- 
+````
+//context
+import { type ReactNode, createContext, useContext } from 'react';
+
+export function useTimersContext() {
+  const timersCtx = useContext(TimersContext)
+
+  if (timersCtx === null) {
+    throw new Error('TimersContext is null - that should not be the case!');
+  }
+
+  return timersCtx;
+}
+````
 ````
 //header.tsx
 import Button from './UI/Button.tsx';
@@ -763,7 +776,7 @@ export default function Header() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk2MjAwNDEsLTIxMDEwMDE2OTEsMT
+eyJoaXN0b3J5IjpbLTExOTY4NzA0OTMsLTIxMDEwMDE2OTEsMT
 c0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMx
 OTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODczODUyMjg0LC
 0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4
