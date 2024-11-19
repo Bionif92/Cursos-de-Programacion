@@ -557,7 +557,7 @@ import {
   forwardRef,
 } from 'react';
 
-export type FormHandle = {
+--export type FormHandle = {
   clear: () => void;
 };
 
@@ -611,7 +611,7 @@ function App() {
   function handleSave(data: unknown) {
     const extractedData = data as { name: string; age: string };
     console.log(extractedData);
-    customForm.current?.clear();
+    --customForm.current?.clear();
   }
 
   return (
@@ -630,7 +630,7 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1MjYxOTA5LC0xODczODUyMjg0LC0xND
+eyJoaXN0b3J5IjpbOTk0NTc2NTMzLC0xODczODUyMjg0LC0xND
 czMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIx
 MTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMT
 QzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMy
