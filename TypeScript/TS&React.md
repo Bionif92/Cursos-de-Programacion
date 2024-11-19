@@ -718,13 +718,35 @@ export default function TimersContextProvider({ children }: TimersContextProvide
   );
 }
 ````
+Wrap component with provider:
+````
+//app.tsx
+import AddTimer from './components/AddTimer.tsx';
+import Header from './components/Header.tsx';
+import Timers from './components/Timers.tsx';
+import TimersContextProvider from './store/timers-context.tsx';
+
+function App() {
+  return (
+    <TimersContextProvider>
+      <Header />
+      <main>
+        <AddTimer />
+        <Timers />
+      </main>
+    </TimersContextProvider>
+  );
+}
+
+export default App;
+````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NT
-gzNDg4MSw5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMz
-LC0xODczODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LD
-E1Mzg5Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNzI2
-NDA3Nyw1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLD
-MwNTkyMjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4
-NDMzOF19
+eyJoaXN0b3J5IjpbLTIxMDEwMDE2OTEsMTc0NDc4MDI1OSwxNj
+UzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLTIwNDAyMjA2
+MzIsOTk0NTc2NTMzLC0xODczODUyMjg0LC0xNDczMDg4NzcyLC
+0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1
+MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMTQzNDk1NjYzLC
+0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMyNzA5OSwtMjY5
+NzE5OTQ2XX0=
 -->
