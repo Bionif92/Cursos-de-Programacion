@@ -488,6 +488,7 @@ export default App;
 ### Wrapper Component
 
 ````
+//form.ts
 import { type FormEvent, type ComponentPropsWithoutRef } from 'react';
 
 type FormProps = ComponentPropsWithoutRef<'form'> & {
@@ -511,7 +512,7 @@ export default function Form({ onSave, children, ...otherProps }: FormProps) {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDA5MjQ2MCwxNTM4OTc3NjY0LC0xOD
+eyJoaXN0b3J5IjpbMTg0OTA2NjA2NSwxNTM4OTc3NjY0LC0xOD
 cyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAz
 LDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMD
 MzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2
