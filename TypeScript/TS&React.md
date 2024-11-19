@@ -521,7 +521,7 @@ import Button from './components/Button.tsx';
 
 function App() {
   function handleSave(data: unknown) {
-    const extractedData = data as { name: string; age: string };
+    --const extractedData = data as { name: string; age: string }; // as to convert the type
     console.log(extractedData);
   }
 
@@ -541,7 +541,7 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDIwMjA3MjcsLTE3MjY1MjEyNDgsMT
+eyJoaXN0b3J5IjpbLTE0NzMwODg3NzIsLTE3MjY1MjEyNDgsMT
 UzODk3NzY2NCwtMTg3MjExMDQ4NCwzNDUxNjE4NjIsODE3MjY0
 MDc3LDU3MTc5NTAwMywxNDM0OTU2NjMsLTEzOTE2MzUwMzAsMz
 A1OTIyNDAyLC0yMTAzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0
