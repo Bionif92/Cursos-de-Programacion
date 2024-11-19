@@ -779,15 +779,122 @@ export default function Header() {
 ### useReducer
 
 ````
+//context
+import { type ReactNode, createContext, useContext, useReducer } from 'react';
+
+type Timer = {
+  name: string;
+  duration: number;
+};
+
+type TimersState = {
+  isRunning: boolean;
+  timers: Timer[];
+};
+
+--const initialState: TimersState = {
+  isRunning: true,
+  timers: [],
+};
+
+type TimersContextValue = TimersState & {
+  addTimer: (timerData: Timer) => void;
+  startTimers: () => void;
+  stopTimers: () => void;
+};
+
+const TimersContext = createContext<TimersContextValue | null>(null);
+
+export function useTimersContext() {
+  const timersCtx = useContext(TimersContext);
+
+  if (timersCtx === null) {
+    throw new Error('TimersContext is null - that should not be the case!');
+  }
+
+  return timersCtx;
+}
+
+type TimersContextProviderProps = {
+  children: ReactNode;
+};
+
+type StartTimersAction = {
+  type: 'START_TIMERS';
+};
+
+type StopTimersAction = {
+  type: 'STOP_TIMERS';
+};
+
+type AddTimerAction = {
+  type: 'ADD_TIMER';
+  payload: Timer;
+};
+
+type Action = StartTimersAction | StopTimersAction | AddTimerAction;
+
+function timersReducer(state: TimersState, action: Action): TimersState {
+  if (action.type === 'START_TIMERS') {
+    // state.isRunning = true;
+    return {
+      ...state,
+      isRunning: true,
+    };
+  }
+  if (action.type === 'STOP_TIMERS') {
+    return {
+      ...state,
+      isRunning: false,
+    };
+  }
+  if (action.type === 'ADD_TIMER') {
+    return {
+      ...state,
+      timers: [
+        ...state.timers,
+        {
+          name: action.payload.name,
+          duration: action.payload.duration,
+        },
+      ],
+    };
+  }
+
+  return state;
+}
+
+export default function TimersContextProvider({
+  children,
+}: TimersContextProviderProps) {
+  const [timersState, dispatch] = useReducer(timersReducer, initialState);
+
+  const ctx: TimersContextValue = {
+    timers: timersState.timers,
+    isRunning: timersState.isRunning,
+    addTimer(timerData) {
+      dispatch({ type: 'ADD_TIMER', payload: timerData });
+    },
+    startTimers() {
+      dispatch({ type: 'START_TIMERS' });
+    },
+    stopTimers() {
+      dispatch({ type: 'STOP_TIMERS' });
+    },
+  };
+  return (
+    <TimersContext.Provider value={ctx}>{children}</TimersContext.Provider>
+  );
+}
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMjA0NDY0MywyMjI0NzI0MTgsLTIxMD
-EwMDE2OTEsMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4
-MSw5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xOD
-czODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5
-Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Ny
-w1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTky
-MjQwMl19
+eyJoaXN0b3J5IjpbLTE2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMT
+AxMDAxNjkxLDE3NDQ3ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4
+ODEsOTc4NTUzMTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMT
+g3Mzg1MjI4NCwtMTQ3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4
+OTc3NjY0LC0xODcyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNz
+csNTcxNzk1MDAzLDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5
+MjI0MDJdfQ==
 -->
