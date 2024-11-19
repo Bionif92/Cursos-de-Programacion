@@ -928,7 +928,7 @@ export default function AddTimer() {
 
   function handleSaveTimer(data: unknown) {
     const extractedData = data as { name: string; duration: string };
-    addTimer({ name: extractedData.name, duration: +extractedData.duration });
+   -- addTimer({ name: extractedData.name, duration: +extractedData.duration });
     form.current?.clear();
   }
 
@@ -943,10 +943,12 @@ export default function AddTimer() {
   );
 }
 ````
+````
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDUwNDE2MjcsLTk0Mzc1NjA0NiwtMT
+eyJoaXN0b3J5IjpbLTE0ODg4NTc4ODcsLTk0Mzc1NjA0NiwtMT
 Y0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4
 MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLT
 IwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODczODUyMjg0LC0xNDcz
