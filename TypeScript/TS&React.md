@@ -744,11 +744,24 @@ export default App;
 ### Accesing Context with Custom Hook
 
 ````
-//
+//header.tsx
+import Button from './UI/Button.tsx';
+import { useTimersContext } from '../store/timers-context.tsx';
 
+export default function Header() {
+  const timersCtx = useTimersContext();
+
+  return (
+    <header>
+      <h1>ReactTimer</h1>
+
+      <Button>{timersCtx.isRunning ? 'Stop' : 'Start'} Timers</Button>
+    </header>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MjU3MTQwNiwtMjEwMTAwMTY5MSwxNz
+eyJoaXN0b3J5IjpbLTE1NzgwOTczOSwtMjEwMTAwMTY5MSwxNz
 Q0NzgwMjU5LDE2NTM4MTA2ODMsMTc1ODM0ODgxLDk3ODU1MzE5
 MywtMjA0MDIyMDYzMiw5OTQ1NzY1MzMsLTE4NzM4NTIyODQsLT
 E0NzMwODg3NzIsLTE3MjY1MjEyNDgsMTUzODk3NzY2NCwtMTg3
