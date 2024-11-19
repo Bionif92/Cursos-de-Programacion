@@ -492,7 +492,7 @@ export default App;
 import { type FormEvent, type ComponentPropsWithoutRef } from 'react';
 
 type FormProps = ComponentPropsWithoutRef<'form'> & {
-  onSave: (value: unknown) => void;
+  onSave: (value: unknown) => void; // use unknown type
 };
 
 export default function Form({ onSave, children, ...otherProps }: FormProps) {
@@ -541,11 +541,11 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjY1MjEyNDgsMTUzODk3NzY2NCwtMT
-g3MjExMDQ4NCwzNDUxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAw
-MywxNDM0OTU2NjMsLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMT
-AzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5
-NjEsODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLT
-k1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0
-MTE0MDc5XX0=
+eyJoaXN0b3J5IjpbLTEwMDIwMjA3MjcsLTE3MjY1MjEyNDgsMT
+UzODk3NzY2NCwtMTg3MjExMDQ4NCwzNDUxNjE4NjIsODE3MjY0
+MDc3LDU3MTc5NTAwMywxNDM0OTU2NjMsLTEzOTE2MzUwMzAsMz
+A1OTIyNDAyLC0yMTAzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0
+MzM4LDEyOTQ4NDU5NjEsODA0Njk2ODI3LC0xMTM4MzMxNzkyLC
+04NzE1ODgyNjgsLTk1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEz
+MTM4MDYwXX0=
 -->
