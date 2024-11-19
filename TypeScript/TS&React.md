@@ -488,7 +488,7 @@ export default App;
 ### Wrapper Component
 
 ````
-//form.ts
+//form.tsx
 import { type FormEvent, type ComponentPropsWithoutRef } from 'react';
 
 type FormProps = ComponentPropsWithoutRef<'form'> & {
@@ -511,12 +511,41 @@ export default function Form({ onSave, children, ...otherProps }: FormProps) {
   );
 }
 ````
+````
+//app.tsx
+import { useRef } from 'react';
+
+import Input from './components/Input.tsx';
+import Form from './components/Form.tsx';
+import Button from './components/Button.tsx';
+
+function App() {
+  function handleSave(data: unknown) {
+    const extractedData = data as { name: string; age: string };
+    console.log(extractedData);
+  }
+
+  return (
+    <main>
+      <Form onSave={handleSave}>
+        <Input type="text" label="Name" id="name" />
+        <Input type="number" label="Age" id="age" />
+        <p>
+          <Button>Save</Button>
+        </p>
+      </Form>
+    </main>
+  );
+}
+
+export default App;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0OTA2NjA2NSwxNTM4OTc3NjY0LC0xOD
-cyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAz
-LDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMD
-MzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2
-MSw4MDQ2OTY4MjcsLTExMzgzMzE3OTIsLTg3MTU4ODI2OCwtOT
-U5Mzg0MjYxLC0yMDgwNDQ3OTMzLDExMTMxMzgwNjAsLTE0NjQx
-MTQwNzldfQ==
+eyJoaXN0b3J5IjpbLTE3MjY1MjEyNDgsMTUzODk3NzY2NCwtMT
+g3MjExMDQ4NCwzNDUxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAw
+MywxNDM0OTU2NjMsLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMT
+AzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5
+NjEsODA0Njk2ODI3LC0xMTM4MzMxNzkyLC04NzE1ODgyNjgsLT
+k1OTM4NDI2MSwtMjA4MDQ0NzkzMywxMTEzMTM4MDYwLC0xNDY0
+MTE0MDc5XX0=
 -->
