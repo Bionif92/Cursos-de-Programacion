@@ -662,7 +662,7 @@ function handleSave(data: unknown) {
 
 ## Advanced Type-Safe State with Context API & useReducer()
 
-### Creating a Context & Fitting Types
+### Creating a Context & Provider Component
 
 ````
 import { type ReactNode, createContext, useContext } from 'react';
@@ -720,11 +720,11 @@ export default function TimersContextProvider({ children }: TimersContextProvide
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NT
-UzMTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4
-NCwtMTQ3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC
-0xODcyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1
-MDAzLDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLT
-IxMDMzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0
-NTk2MV19
+eyJoaXN0b3J5IjpbMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NT
+gzNDg4MSw5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMz
+LC0xODczODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LD
+E1Mzg5Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNzI2
+NDA3Nyw1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLD
+MwNTkyMjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4
+NDMzOF19
 -->
