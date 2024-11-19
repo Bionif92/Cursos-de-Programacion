@@ -571,7 +571,7 @@ const Form = forwardRef<FormHandle, FormProps>(function Form(
 ) {
   const form = useRef<HTMLFormElement>(null);
 
-  useImperativeHandle(ref, () => {
+  --useImperativeHandle(ref, () => {
     return {
       clear() {
         console.log('CLEARING');
@@ -599,7 +599,7 @@ export default Form;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTIzMzg0OSwtMTg3Mzg1MjI4NCwtMT
+eyJoaXN0b3J5IjpbLTYyNTE4NTgzMSwtMTg3Mzg1MjI4NCwtMT
 Q3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC0xODcy
 MTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAzLD
 E0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMDMz
