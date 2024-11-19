@@ -913,14 +913,44 @@ export default function Header() {
   );
 }
 ````
+````
+//addtimer.tsx
+import { useRef } from 'react';
+
+import Button from './UI/Button.tsx';
+import Form, { FormHandle } from './UI/Form.tsx';
+import Input from './UI/Input.tsx';
+import { useTimersContext } from '../store/timers-context.tsx';
+
+export default function AddTimer() {
+  const form = useRef<FormHandle>(null);
+ -- const { addTimer } = useTimersContext();
+
+  function handleSaveTimer(data: unknown) {
+    const extractedData = data as { name: string; duration: string };
+    addTimer({ name: extractedData.name, duration: +extractedData.duration });
+    form.current?.clear();
+  }
+
+  return (
+    <Form ref={form} onSave={handleSaveTimer} id="add-timer">
+      <Input type="text" label="Name" id="name" />
+      <Input type="number" label="Duration" id="duration" />
+      <p>
+        <Button>Add Timer</Button>
+      </p>
+    </Form>
+  );
+}
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMDk1MzMwLC05NDM3NTYwNDYsLTE2ND
-gzMzE5NTAsMjIyNDcyNDE4LC0yMTAxMDAxNjkxLDE3NDQ3ODAy
-NTksMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NTUzMTkzLC0yMD
-QwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4NCwtMTQ3MzA4
-ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC0xODcyMTEwND
-g0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAzLDE0MzQ5
-NTY2M119
+eyJoaXN0b3J5IjpbLTE0MDUwNDE2MjcsLTk0Mzc1NjA0NiwtMT
+Y0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4
+MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLT
+IwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODczODUyMjg0LC0xNDcz
+MDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIxMT
+A0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMTQz
+NDk1NjYzXX0=
 -->
