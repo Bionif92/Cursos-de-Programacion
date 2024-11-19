@@ -565,7 +565,7 @@ type FormProps = ComponentPropsWithoutRef<'form'> & {
   onSave: (value: unknown) => void;
 };
 
-const Form = forwardRef<FormHandle, FormProps>(function Form(
+const Form = forwardRef<FormHandle// for the ref, FormProps>(function Form(
   { onSave, children, ...otherProps },
   ref
 ) {
@@ -630,11 +630,11 @@ function App() {
 export default App;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0NTc2NTMzLC0xODczODUyMjg0LC0xND
-czMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIx
-MTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMT
-QzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMy
-NzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0ODQ1OTYxLD
-gwNDY5NjgyNywtMTEzODMzMTc5MiwtODcxNTg4MjY4LC05NTkz
-ODQyNjFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xOD
+czODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5
+Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Ny
+w1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTky
+MjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOC
+wxMjk0ODQ1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5MiwtODcx
+NTg4MjY4XX0=
 -->
