@@ -629,12 +629,43 @@ function App() {
 
 export default App;
 ````
+
+### Avoid Type Casting with as
+
+In the previous lecture, we used  _"Type Casting"_ (also called  _"Type Assertion"_) via TypeScript's  `as`  keyword to  _"tell"_  TypeScript that a value is of a specific type.
+
+This is a technique that makes sense when working with data where TypeScript has no chance of inferring the type where you on the other hand no the exact type.
+
+If you're not 100% sure about the type of value you'll be dealing with at runtime (i.e., if there are multiple possible value types) or if you want to be extra safe, you can also use a combination of  _"Type Guards"_  to narrow down the type until TypeScript is able to infer the final type.
+
+Here's the code from the previous lecture, now adjusted to use  _"Type Guards"_  for  _"Type Narrowing"_:
+
+````
+function handleSave(data: unknown) {
+  // const extractedData = data as { name: string; age: string };
+  if (
+    !data ||
+    typeof data !== 'object' ||
+    !('name' in data) ||
+    !('age' in data)
+  ) {
+      return;
+  }
+
+  // at this point, TypeScript knows that data MUST BE an object 
+  // with a name and age property
+  // otherwise, the previous if statement would have returned
+  console.log(data);
+  customForm.current?.clear();
+}
+````
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xOD
-czODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5
-Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Ny
-w1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTky
-MjQwMiwtMjEwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOC
-wxMjk0ODQ1OTYxLDgwNDY5NjgyNywtMTEzODMzMTc5MiwtODcx
-NTg4MjY4XX0=
+eyJoaXN0b3J5IjpbMTA2MzY4MjA1NSwtMjA0MDIyMDYzMiw5OT
+Q1NzY1MzMsLTE4NzM4NTIyODQsLTE0NzMwODg3NzIsLTE3MjY1
+MjEyNDgsMTUzODk3NzY2NCwtMTg3MjExMDQ4NCwzNDUxNjE4Nj
+IsODE3MjY0MDc3LDU3MTc5NTAwMywxNDM0OTU2NjMsLTEzOTE2
+MzUwMzAsMzA1OTIyNDAyLC0yMTAzMzI3MDk5LC0yNjk3MTk5ND
+YsMzkyNDg0MzM4LDEyOTQ4NDU5NjEsODA0Njk2ODI3LC0xMTM4
+MzMxNzkyXX0=
 -->
