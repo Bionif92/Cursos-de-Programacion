@@ -545,15 +545,65 @@ export default App;
 
 Expose some callable function
 
+Need to be wrapped in a fowardedref to use it
+
 ````
+//form.tsx
+import {
+  type FormEvent,
+  type ComponentPropsWithoutRef,
+  useRef,
+  useImperativeHandle,
+  forwardRef,
+} from 'react';
+
+export type FormHandle = {
+  clear: () => void;
+};
+
+type FormProps = ComponentPropsWithoutRef<'form'> & {
+  onSave: (value: unknown) => void;
+};
+
+const Form = forwardRef<FormHandle, FormProps>(function Form(
+  { onSave, children, ...otherProps },
+  ref
+) {
+  const form = useRef<HTMLFormElement>(null);
+
+  useImperativeHandle(ref, () => {
+    return {
+      clear() {
+        console.log('CLEARING');
+        form.current?.reset();
+      },
+    };
+  });
+
+  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const data = Object.fromEntries(formData);
+    onSave(data);
+  }
+
+  return (
+    <form onSubmit={handleSubmit} {...otherProps} ref={form}>
+      {children}
+    </form>
+  );
+});
+
+export default Form;
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEwMDM3OTA4LC0xODczODUyMjg0LC0xND
-czMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIx
-MTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMT
-QzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMy
-NzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0ODQ1OTYxLD
-gwNDY5NjgyNywtMTEzODMzMTc5MiwtODcxNTg4MjY4LC05NTkz
-ODQyNjFdfQ==
+eyJoaXN0b3J5IjpbMTM3NTIzMzg0OSwtMTg3Mzg1MjI4NCwtMT
+Q3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC0xODcy
+MTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAzLD
+E0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMDMz
+MjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2MS
+w4MDQ2OTY4MjcsLTExMzgzMzE3OTIsLTg3MTU4ODI2OCwtOTU5
+Mzg0MjYxXX0=
 -->
