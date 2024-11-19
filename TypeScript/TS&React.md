@@ -597,13 +597,44 @@ const Form = forwardRef<FormHandle, FormProps>(function Form(
 
 export default Form;
 ````
+````
+//app.tsx
+import { useRef } from 'react';
 
+import Input from './components/Input.tsx';
+import Form, { type FormHandle } from './components/Form.tsx';
+import Button from './components/Button.tsx';
+
+function App() {
+  --const customForm = useRef<FormHandle>(null);
+
+  function handleSave(data: unknown) {
+    const extractedData = data as { name: string; age: string };
+    console.log(extractedData);
+    customForm.current?.clear();
+  }
+
+  return (
+    <main>
+      --<Form onSave={handleSave} ref={customForm}>
+        <Input type="text" label="Name" id="name" />
+        <Input type="number" label="Age" id="age" />
+        <p>
+          <Button>Save</Button>
+        </p>
+      </Form>
+    </main>
+  );
+}
+
+export default App;
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyNTE4NTgzMSwtMTg3Mzg1MjI4NCwtMT
-Q3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC0xODcy
-MTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1MDAzLD
-E0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLTIxMDMz
-MjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0NTk2MS
-w4MDQ2OTY4MjcsLTExMzgzMzE3OTIsLTg3MTU4ODI2OCwtOTU5
-Mzg0MjYxXX0=
+eyJoaXN0b3J5IjpbMjU1MjYxOTA5LC0xODczODUyMjg0LC0xND
+czMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIx
+MTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMT
+QzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMjEwMzMy
+NzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0ODQ1OTYxLD
+gwNDY5NjgyNywtMTEzODMzMTc5MiwtODcxNTg4MjY4LC05NTkz
+ODQyNjFdfQ==
 -->
