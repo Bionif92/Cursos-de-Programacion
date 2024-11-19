@@ -867,7 +867,7 @@ function timersReducer(state: TimersState, action: Action): TimersState {
 export default function TimersContextProvider({
   children,
 }: TimersContextProviderProps) {
-  const [timersState, dispatch] = useReducer(timersReducer, initialState);
+  --const [timersState, dispatch] = useReducer(timersReducer, initialState);
 
   const ctx: TimersContextValue = {
     timers: timersState.timers,
@@ -890,11 +890,11 @@ export default function TimersContextProvider({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMT
-AxMDAxNjkxLDE3NDQ3ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4
-ODEsOTc4NTUzMTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMT
-g3Mzg1MjI4NCwtMTQ3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4
-OTc3NjY0LC0xODcyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNz
-csNTcxNzk1MDAzLDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5
-MjI0MDJdfQ==
+eyJoaXN0b3J5IjpbLTk0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMj
+I0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4MDI1OSwxNjUzODEw
+NjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOT
+k0NTc2NTMzLC0xODczODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2
+NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4NzIxMTA0ODQsMzQ1MTYxOD
+YyLDgxNzI2NDA3Nyw1NzE3OTUwMDMsMTQzNDk1NjYzLC0xMzkx
+NjM1MDMwXX0=
 -->
