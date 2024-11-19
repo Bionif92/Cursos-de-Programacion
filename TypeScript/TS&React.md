@@ -665,14 +665,66 @@ function handleSave(data: unknown) {
 ### Creating a Context & Fitting Types
 
 ````
+import { type ReactNode, createContext, useContext } from 'react';
+
+type Timer = {
+  name: string;
+  duration: number;
+};
+
+type TimersState = {
+  isRunning: boolean;
+  timers: Timer[];
+};
+
+type TimersContextValue = TimersState & {
+  addTimer: (timerData: Timer) => void;
+  startTimers: () => void;
+  stopTimers: () => void;
+};
+
+const TimersContext = createContext<TimersContextValue | null>(null);
+
+export function useTimersContext() {
+  const timersCtx = useContext(TimersContext)
+
+  if (timersCtx === null) {
+    throw new Error('TimersContext is null - that should not be the case!');
+  }
+
+  return timersCtx;
+}
+
+type TimersContextProviderProps = {
+  children: ReactNode;
+};
+
+export default function TimersContextProvider({ children }: TimersContextProviderProps) {
+  const ctx: TimersContextValue = {
+    timers: [],
+    isRunning: true,
+    addTimer(timerData) {
+      // ...
+    },
+    startTimers() {
+      // ...
+    },
+    stopTimers() {
+      // ...
+    },
+  };
+  return (
+    <TimersContext.Provider value={ctx}>{children}</TimersContext.Provider>
+  );
+}
 ````
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUwMjY1OTMxLDE3NTgzNDg4MSw5Nzg1NT
-MxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODczODUyMjg0
-LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLT
-E4NzIxMTA0ODQsMzQ1MTYxODYyLDgxNzI2NDA3Nyw1NzE3OTUw
-MDMsMTQzNDk1NjYzLC0xMzkxNjM1MDMwLDMwNTkyMjQwMiwtMj
-EwMzMyNzA5OSwtMjY5NzE5OTQ2LDM5MjQ4NDMzOCwxMjk0ODQ1
-OTYxXX0=
+eyJoaXN0b3J5IjpbMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NT
+UzMTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4
+NCwtMTQ3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC
+0xODcyMTEwNDg0LDM0NTE2MTg2Miw4MTcyNjQwNzcsNTcxNzk1
+MDAzLDE0MzQ5NTY2MywtMTM5MTYzNTAzMCwzMDU5MjI0MDIsLT
+IxMDMzMjcwOTksLTI2OTcxOTk0NiwzOTI0ODQzMzgsMTI5NDg0
+NTk2MV19
 -->
