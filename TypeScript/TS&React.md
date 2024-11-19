@@ -444,6 +444,7 @@ export default function Container<C extends ElementType>({
 ### Using forwardRef with TS
 
 ````
+//Input.tsx
 import { forwardRef, type ComponentPropsWithoutRef } from 'react';
 
 type InputProps = {
@@ -465,10 +466,14 @@ const Input = forwardRef<HTMLInputElement // linked to the type of ref, InputPro
 
 export default Input;
 ````
+````
+//App.tsx
+
+````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTg5MDU2NzYsMTUzODk3NzY2NCwtMT
+eyJoaXN0b3J5IjpbLTEyNzI1NzUzMTEsMTUzODk3NzY2NCwtMT
 g3MjExMDQ4NCwzNDUxNjE4NjIsODE3MjY0MDc3LDU3MTc5NTAw
 MywxNDM0OTU2NjMsLTEzOTE2MzUwMzAsMzA1OTIyNDAyLC0yMT
 AzMzI3MDk5LC0yNjk3MTk5NDYsMzkyNDg0MzM4LDEyOTQ4NDU5
