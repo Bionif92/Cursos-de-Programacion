@@ -1084,7 +1084,7 @@ export async function get(url: string) {
     throw new Error('Failed to fetch data.');
   }
 
-  const data = await response.json() as unknown; 
+  const data = await response.json() as unknown; // more type security than with any
   return data;
 }
 ````
@@ -1095,11 +1095,11 @@ export async function get(url: string) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLT
-Q1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkx
-MTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMj
-csMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0NiwtMTY0
-ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4MD
-I1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLTIw
-NDAyMjA2MzJdfQ==
+eyJoaXN0b3J5IjpbMzI4Mjg3NzI5LC0xMDY4MDcyOTU3LC0xOT
+YwNTAzODAzLC00NTE5NzM0NzQsLTEwNzAwNDY2MCwxMTkzMTY3
+NDk0LDExMTg5MTEwNTYsLTQwMjY5OTYyNywtMTc5OTA0MjM1Mi
+wtMzg0OTY1MjI3LDI1NTY1MzM2MiwtMzUwNzgzMDk1LC05NDM3
+NTYwNDYsLTE2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMTAxMDAxNj
+kxLDE3NDQ3ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4
+NTUzMTkzXX0=
 -->
