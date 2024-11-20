@@ -980,7 +980,7 @@ export default function Timers() {
 
 ### Side Effect
 
-
+No difference with TS
 
 ````
 import { useEffect, useRef, useState } from 'react';
@@ -1025,11 +1025,11 @@ export default function Timer({ name, duration }: TimerProps) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5MDE4MTU2LC0xNzk5MDQyMzUyLC0zOD
-Q5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0
-NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMT
-c0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMx
-OTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODczODUyMjg0LC
-0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1Mzg5Nzc2NjQsLTE4
-NzIxMTA0ODRdfQ==
+eyJoaXN0b3J5IjpbLTQwMjY5OTYyNywtMTc5OTA0MjM1MiwtMz
+g0OTY1MjI3LDI1NTY1MzM2MiwtMzUwNzgzMDk1LC05NDM3NTYw
+NDYsLTE2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMTAxMDAxNjkxLD
+E3NDQ3ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NTUz
+MTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4NC
+wtMTQ3MzA4ODc3MiwtMTcyNjUyMTI0OCwxNTM4OTc3NjY0LC0x
+ODcyMTEwNDg0XX0=
 -->
