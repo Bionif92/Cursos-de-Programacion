@@ -980,16 +980,54 @@ export default function Timers() {
 
 ### Side Effect
 
+````
+import { useEffect, useRef, useState } from 'react';
+
+import Container from './UI/Container.tsx';
+import { type Timer as TimerProps } from '../store/timers-context.tsx';
+
+export default function Timer({ name, duration }: TimerProps) {
+  const interval = useRef<number | null>(null);
+  const [remainingTime, setRemainingTime] = useState(duration * 1000);
+
+  if (remainingTime <= 0 && interval.current) {
+    clearInterval(interval.current);
+  }
+
+  useEffect(() => {
+    const timer = setInterval(function () {
+      setRemainingTime((prevTime) => prevTime - 50);
+    }, 50);
+    interval.current = timer;
+
+    return () => clearInterval(timer);
+  }, []);
+
+  const formattedRemainingTime = (remainingTime / 1000).toFixed(2);
+
+  return (
+    <Container as="article">
+      <h2>{name}</h2>
+      <p>
+        <progress max={duration * 1000} value={remainingTime} />
+      </p>
+      <p>{formattedRemainingTime}</p>
+    </Container>
+  );
+}
+
+````
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NDk2NTIyNywyNTU2NTMzNjIsLTM1MD
-c4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMxOTUwLDIyMjQ3MjQx
-OCwtMjEwMTAwMTY5MSwxNzQ0NzgwMjU5LDE2NTM4MTA2ODMsMT
-c1ODM0ODgxLDk3ODU1MzE5MywtMjA0MDIyMDYzMiw5OTQ1NzY1
-MzMsLTE4NzM4NTIyODQsLTE0NzMwODg3NzIsLTE3MjY1MjEyND
-gsMTUzODk3NzY2NCwtMTg3MjExMDQ4NCwzNDUxNjE4NjIsODE3
-MjY0MDc3XX0=
+eyJoaXN0b3J5IjpbLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNT
+U2NTMzNjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMx
+OTUwLDIyMjQ3MjQxOCwtMjEwMTAwMTY5MSwxNzQ0NzgwMjU5LD
+E2NTM4MTA2ODMsMTc1ODM0ODgxLDk3ODU1MzE5MywtMjA0MDIy
+MDYzMiw5OTQ1NzY1MzMsLTE4NzM4NTIyODQsLTE0NzMwODg3Nz
+IsLTE3MjY1MjEyNDgsMTUzODk3NzY2NCwtMTg3MjExMDQ4NCwz
+NDUxNjE4NjJdfQ==
 -->
