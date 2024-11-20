@@ -999,7 +999,7 @@ export default function Timer({ name, duration }: TimerProps) {
   }
 
   useEffect(() => {
-    const timer = setInterval(function () {
+    const timer = setInterval(function () { // need a local variable 
       setRemainingTime((prevTime) => 
       if (prevTime <= 0) {
     return prevTime;
@@ -1031,11 +1031,11 @@ export default function Timer({ name, duration }: TimerProps) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MD
-I2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNTU2NTMz
-NjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMxOTUwLD
-IyMjQ3MjQxOCwtMjEwMTAwMTY5MSwxNzQ0NzgwMjU5LDE2NTM4
-MTA2ODMsMTc1ODM0ODgxLDk3ODU1MzE5MywtMjA0MDIyMDYzMi
-w5OTQ1NzY1MzMsLTE4NzM4NTIyODQsLTE0NzMwODg3NzIsLTE3
-MjY1MjEyNDhdfQ==
+eyJoaXN0b3J5IjpbLTEwNzAwNDY2MCwxMTkzMTY3NDk0LDExMT
+g5MTEwNTYsLTQwMjY5OTYyNywtMTc5OTA0MjM1MiwtMzg0OTY1
+MjI3LDI1NTY1MzM2MiwtMzUwNzgzMDk1LC05NDM3NTYwNDYsLT
+E2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMTAxMDAxNjkxLDE3NDQ3
+ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NTUzMTkzLC
+0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4NCwtMTQ3
+MzA4ODc3Ml19
 -->
