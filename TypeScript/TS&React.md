@@ -1089,7 +1089,10 @@ export async function get(url: string) {
 }
 ````
 
-### Fet
+### Fetching and transforming data
+
+````
+````
 
 
 
@@ -1097,7 +1100,7 @@ export async function get(url: string) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTQ2MTMwMDEsLTEwNjgwNzI5NTcsLT
+eyJoaXN0b3J5IjpbLTE2NDI0OTU2NDEsLTEwNjgwNzI5NTcsLT
 E5NjA1MDM4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOTMx
 Njc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQyMz
 UyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0
