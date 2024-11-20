@@ -978,9 +978,11 @@ export default function Timers() {
 
 ## Side Effects, useEffect() & Data Fetching with TypeScript
 
-### Side Effect
+### Side Effect, ref
 
 No difference with TS
+
+Use ref to have the reference of the timer and clear it
 
 ````
 import { useEffect, useRef, useState } from 'react';
@@ -1029,11 +1031,11 @@ export default function Timer({ name, duration }: TimerProps) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNz
-k5MDQyMzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMw
-OTUsLTk0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLT
-IxMDEwMDE2OTEsMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgz
-NDg4MSw5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC
-0xODczODUyMjg0LC0xNDczMDg4NzcyLC0xNzI2NTIxMjQ4LDE1
-Mzg5Nzc2NjRdfQ==
+eyJoaXN0b3J5IjpbMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MD
+I2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNTU2NTMz
+NjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMxOTUwLD
+IyMjQ3MjQxOCwtMjEwMTAwMTY5MSwxNzQ0NzgwMjU5LDE2NTM4
+MTA2ODMsMTc1ODM0ODgxLDk3ODU1MzE5MywtMjA0MDIyMDYzMi
+w5OTQ1NzY1MzMsLTE4NzM4NTIyODQsLTE0NzMwODg3NzIsLTE3
+MjY1MjEyNDhdfQ==
 -->
