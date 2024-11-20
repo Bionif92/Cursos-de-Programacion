@@ -1043,7 +1043,7 @@ export default function Timer({ name, duration }: TimerProps) {
     clearInterval(interval.current);
   }
 
-  useEffect(() => {
+ -- useEffect(() => {
     let timer: number;
     
     if (isRunning) {
@@ -1078,11 +1078,11 @@ export default function Timer({ name, duration }: TimerProps) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDA2MDA0NTAsLTEwNzAwNDY2MCwxMT
-kzMTY3NDk0LDExMTg5MTEwNTYsLTQwMjY5OTYyNywtMTc5OTA0
-MjM1MiwtMzg0OTY1MjI3LDI1NTY1MzM2MiwtMzUwNzgzMDk1LC
-05NDM3NTYwNDYsLTE2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMTAx
-MDAxNjkxLDE3NDQ3ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4OD
-EsOTc4NTUzMTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3
-Mzg1MjI4NF19
+eyJoaXN0b3J5IjpbLTQ1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOT
+MxNjc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQy
+MzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLT
+k0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEw
+MDE2OTEsMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MS
+w5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODcz
+ODUyMjg0XX0=
 -->
