@@ -1075,16 +1075,31 @@ export default function Timer({ name, duration }: TimerProps) {
 
 ### Data Fetching, get Utility function with TS
 
+````
+//util/htpp.ts
+export async function get(url: string) {
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch data.');
+  }
+
+  const data = await response.json() as unknown; 
+  return data;
+}
+````
+
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4Mjk0OTA1OCwtMTk2MDUwMzgwMywtND
-UxOTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTEx
-MDU2LC00MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNy
-wyNTU2NTMzNjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4
-MzMxOTUwLDIyMjQ3MjQxOCwtMjEwMTAwMTY5MSwxNzQ0NzgwMj
-U5LDE2NTM4MTA2ODMsMTc1ODM0ODgxLDk3ODU1MzE5MywtMjA0
-MDIyMDYzMl19
+eyJoaXN0b3J5IjpbLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLT
+Q1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkx
+MTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMj
+csMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0NiwtMTY0
+ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4MD
+I1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5Nzg1NTMxOTMsLTIw
+NDAyMjA2MzJdfQ==
 -->
