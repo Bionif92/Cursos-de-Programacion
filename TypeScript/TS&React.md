@@ -1023,7 +1023,12 @@ export default function Timer({ name, duration }: TimerProps) {
     </Container>
   );
 }
+````
 
+### useEffect & Its Deppendencies
+
+Stop the timers
+````
 ````
 
 
@@ -1031,11 +1036,11 @@ export default function Timer({ name, duration }: TimerProps) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzAwNDY2MCwxMTkzMTY3NDk0LDExMT
-g5MTEwNTYsLTQwMjY5OTYyNywtMTc5OTA0MjM1MiwtMzg0OTY1
-MjI3LDI1NTY1MzM2MiwtMzUwNzgzMDk1LC05NDM3NTYwNDYsLT
-E2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMTAxMDAxNjkxLDE3NDQ3
-ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4ODEsOTc4NTUzMTkzLC
-0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3Mzg1MjI4NCwtMTQ3
-MzA4ODc3Ml19
+eyJoaXN0b3J5IjpbLTg3OTYzODI3MywtMTA3MDA0NjYwLDExOT
+MxNjc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQy
+MzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLT
+k0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEw
+MDE2OTEsMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MS
+w5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODcz
+ODUyMjg0XX0=
 -->
