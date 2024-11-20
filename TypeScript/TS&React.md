@@ -1029,6 +1029,48 @@ export default function Timer({ name, duration }: TimerProps) {
 
 Stop the timers
 ````
+import { useEffect, useRef, useState } from 'react';
+
+import Container from './UI/Container.tsx';
+import { useTimersContext, type Timer as TimerProps } from '../store/timers-context.tsx';
+
+export default function Timer({ name, duration }: TimerProps) {
+  const interval = useRef<number | null>(null);
+  const [remainingTime, setRemainingTime] = useState(duration * 1000);
+ -- const { isRunning } = useTimersContext();
+
+  if (remainingTime <= 0 && interval.current) {
+    clearInterval(interval.current);
+  }
+
+  useEffect(() => {
+    let timer: number;
+    
+    if (isRunning) {
+      timer = setInterval(function () {
+        setRemainingTime((prevTime) => prevTime - 50);
+      }, 50);
+      interval.current = timer;
+
+    } else if (interval.current) {
+      clearInterval(interval.current)
+    }
+
+    return () => clearInterval(timer);
+  }, [isRunning]);
+
+  const formattedRemainingTime = (remainingTime / 1000).toFixed(2);
+
+  return (
+    <Container as="article">
+      <h2>{name}</h2>
+      <p>
+        <progress max={duration * 1000} value={remainingTime} />
+      </p>
+      <p>{formattedRemainingTime}</p>
+    </Container>
+  );
+}
 ````
 
 
@@ -1036,11 +1078,11 @@ Stop the timers
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3OTYzODI3MywtMTA3MDA0NjYwLDExOT
-MxNjc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQy
-MzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLT
-k0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEw
-MDE2OTEsMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MS
-w5Nzg1NTMxOTMsLTIwNDAyMjA2MzIsOTk0NTc2NTMzLC0xODcz
-ODUyMjg0XX0=
+eyJoaXN0b3J5IjpbLTEzNDA2MDA0NTAsLTEwNzAwNDY2MCwxMT
+kzMTY3NDk0LDExMTg5MTEwNTYsLTQwMjY5OTYyNywtMTc5OTA0
+MjM1MiwtMzg0OTY1MjI3LDI1NTY1MzM2MiwtMzUwNzgzMDk1LC
+05NDM3NTYwNDYsLTE2NDgzMzE5NTAsMjIyNDcyNDE4LC0yMTAx
+MDAxNjkxLDE3NDQ3ODAyNTksMTY1MzgxMDY4MywxNzU4MzQ4OD
+EsOTc4NTUzMTkzLC0yMDQwMjIwNjMyLDk5NDU3NjUzMywtMTg3
+Mzg1MjI4NF19
 -->
