@@ -1172,11 +1172,32 @@ const rawDataBlogPostSchema = z.object({
 });
 ````
 
+**Important:** This is JavaScript code! It will be compiled and will execute at runtime.
 
+But, under the hood, it's written such that, during development, TypeScript is able to infer the type of the values that will be parsed / validated via that schema.
 
+Speaking of that, here's how you would use this  `rawDataBlogPostSchema`  to validate a value:
 
+````
+const parsedData = rawDataBlogPostSchema.parse(someData)
+````
+
+This will throw an error if  `someData`  is not in line with the defined schema (e.g., if a property is missing or of a different value type).
+
+It will return the parsed data if validation succeeds.
+
+The great thing is, that TypeScript now knows the type of  `parsedData`  => It will be the type you set up in your schema.
+
+In this example, TypeScript would know that  `parsedData`  contains the properties  `id`  (number),  `userId`  (number),  `title`  (string) and  `body`  (string).
+
+Therefore, even if  `someData`  was  `any`  or  `unknown`,  `parsedData`  will be a known type.
+
+When using Zod in the course demo app, you could therefore adjust the  `App`  component file like this:
+
+````
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTM0ODkwMDQsLTYzOTkyNDAxMywtMT
+eyJoaXN0b3J5IjpbLTE3NDU0Njg0NjYsLTYzOTkyNDAxMywtMT
 Y0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUx
 OTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMD
 U2LC00MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywy
