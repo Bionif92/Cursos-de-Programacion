@@ -1356,7 +1356,15 @@ export default App;
 
 ````
 store/store.ts
+import { configureStore } from '@reduxjs/toolkit';
 
+import { cartSlice } from './cart-slice.ts';
+
+configureStore({
+  reducer: {
+    cart: cartSlice.reducer
+  }
+});
 ````
 ````
 store/cart-slice.ts
@@ -1391,11 +1399,11 @@ export const cartSlice = createSlice({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MjU2Mjc1NywtMTg2Nzc2NDAwMiwtMj
-AyNDQxNTkyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5
-NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczND
-c0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00
-MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNTU2NT
-MzNjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMxOTUw
-LDIyMjQ3MjQxOF19
+eyJoaXN0b3J5IjpbLTE2Mjg4MzQ0NjgsLTE4Njc3NjQwMDIsLT
+IwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5MjQwMTMsLTE2NDI0
+OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3Mz
+Q3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1Niwt
+NDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMjcsMjU1Nj
+UzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0NiwtMTY0ODMzMTk1
+MCwyMjI0NzI0MThdfQ==
 -->
