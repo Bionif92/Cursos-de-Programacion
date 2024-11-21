@@ -1360,18 +1360,42 @@ store/store.ts
 ````
 ````
 store/cart-slice.ts
+import { createSlice } from '@reduxjs/toolkit';
 
+type CartItem = {
+  id: string;
+  title: string;
+  price: number;
+  quantity: number;
+};
+
+type CartState = {
+  items: CartItem[]
+};
+
+const initialState: CartState = {
+  items: []
+}
+
+export const cartSlice = createSlice({
+  name: 'cart',
+  initialState,
+  reducers: {
+    addToCart() {},
+    removeFromCart() {}
+  }
+});
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOT
-UzNDAxNTEzLC02Mzk5MjQwMTMsLTE2NDI0OTU2NDEsLTEwNjgw
-NzI5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0Nj
-YwLDExOTMxNjc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0x
-Nzk5MDQyMzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3OD
-MwOTUsLTk0Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgs
-LTIxMDEwMDE2OTFdfQ==
+eyJoaXN0b3J5IjpbLTg3MjU2Mjc1NywtMTg2Nzc2NDAwMiwtMj
+AyNDQxNTkyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5
+NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczND
+c0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00
+MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNTU2NT
+MzNjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMxOTUw
+LDIyMjQ3MjQxOF19
 -->
