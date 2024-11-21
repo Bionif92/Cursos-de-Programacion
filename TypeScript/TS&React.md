@@ -1149,17 +1149,38 @@ function App() {
 export default App;
 ````
 
+### Using Zod Library for Response Data Validation
 
+When fetching data, it can be a good idea to parse & validate the fetched data to check if it's in line with your data structure expectations.
+
+A great library for doing that validation is the  [Zod](https://zod.dev/)  library because this library embraces TypeScript and is written such that TypeScript is able to infer the structure of the parsed / validated data.
+
+I could create an entire course about Zod, but here's a very brief introduction.
+
+When working with Zod (after installing it via  `npm install zod`), your main task is to create a schema for the data you're trying to validate.
+
+For example, when fetching blog posts, you would define the schema for a single blog post:
+
+````
+import { z } from 'zod';
+
+const rawDataBlogPostSchema = z.object({
+  id: z.number(),
+  userId: z.number(),
+  title: z.string(),
+  body: z.string(),
+});
+````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzY3ODU2LC02Mzk5MjQwMTMsLTE2ND
-I0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3
-MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1Ni
-wtNDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMjcsMjU1
-NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0NiwtMTY0ODMzMT
-k1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4MDI1OSwx
-NjUzODEwNjgzXX0=
+eyJoaXN0b3J5IjpbLTE1NTM0ODkwMDQsLTYzOTkyNDAxMywtMT
+Y0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUx
+OTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMD
+U2LC00MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywy
+NTU2NTMzNjIsLTM1MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4Mz
+MxOTUwLDIyMjQ3MjQxOCwtMjEwMTAwMTY5MSwxNzQ0NzgwMjU5
+LDE2NTM4MTA2ODNdfQ==
 -->
