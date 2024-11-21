@@ -1249,8 +1249,33 @@ function App() {
 ````
 
 ### Alternative Generic Function
+
+As always, there are, of course, multiple ways of building the  `get`  function.
+
+You could, for example, also build it as a generic function that accepts the expected return value type as a type argument:
+
+````
+export async function get<T>(url: string) {
+  const response = await fetch(url);
+
+  if (!response.ok) {
+    throw new Error('Failed to fetch data.');
+  }
+
+  const data = await response.json() as unknown; 
+  return data as T;
+}
+````
+````
+const data = await get<RawDataBlogPost[]>(
+  'https://jsonplaceholder.typicode.com/posts'
+);
+````
+
+### Handling E
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDE1NDgwMjcsLTYzOTkyNDAxMywtMT
+eyJoaXN0b3J5IjpbLTIwNjAzMTQ4NzksLTYzOTkyNDAxMywtMT
 Y0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUx
 OTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMD
 U2LC00MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywy
