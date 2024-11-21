@@ -1468,15 +1468,39 @@ export type AppDispatch = typeof store.dispatch;
 ````
 ````
 //app.tsx
+--import { Provider } from 'react-redux';
+
+import Header from './components/Header.tsx';
+import Shop from './components/Shop.tsx';
+import Product from './components/Product.tsx';
+import { DUMMY_PRODUCTS } from './dummy-products.ts';
+import { store } from './store/store.ts';
+
+function App() {
+  return (
+    --<Provider store={store}>
+      <Header />
+      <Shop>
+        {DUMMY_PRODUCTS.map((product) => (
+          <li key={product.id}>
+            <Product {...product} />
+          </li>
+        ))}
+      </Shop>
+    </Provider>
+  );
+}
+
+export default App;
 ````
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxMTk5ODYyNSwtMTgxOTUyOTQ2MiwtMT
-Y5ODA0OTg5MywtMTYyODgzNDQ2OCwtMTg2Nzc2NDAwMiwtMjAy
-NDQxNTkyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NT
-Y0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0
-LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MD
-I2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNTU2NTMz
-NjIsLTM1MDc4MzA5NV19
+eyJoaXN0b3J5IjpbLTEzOTMxMDAxMjcsLTE4MTk1Mjk0NjIsLT
+E2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4Njc3NjQwMDIsLTIw
+MjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5MjQwMTMsLTE2NDI0OT
+U2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3MzQ3
+NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1NiwtND
+AyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMjcsMjU1NjUz
+MzYyLC0zNTA3ODMwOTVdfQ==
 -->
