@@ -1422,7 +1422,7 @@ export const cartSlice = createSlice({
   reducers: {
     addToCart(
       state,
-      action: PayloadAction<{ id: string; title: string; price: number }>
+    --action: PayloadAction<{ id: string; title: string; price: number }>
     ) {
       const itemIndex = state.items.findIndex(
         (item) => item.id === action.payload.id
@@ -1453,11 +1453,11 @@ export const cartSlice = createSlice({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDY5MzYxMCwtMTY5ODA0OTg5MywtMT
-YyODgzNDQ2OCwtMTg2Nzc2NDAwMiwtMjAyNDQxNTkyNCw5NTM0
-MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwtMTA2ODA3Mj
-k1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0LC0xMDcwMDQ2NjAs
-MTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MDI2OTk2MjcsLTE3OT
-kwNDIzNTIsLTM4NDk2NTIyNywyNTU2NTMzNjIsLTM1MDc4MzA5
-NSwtOTQzNzU2MDQ2XX0=
+eyJoaXN0b3J5IjpbLTE4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLT
+E2Mjg4MzQ0NjgsLTE4Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOTUz
+NDAxNTEzLC02Mzk5MjQwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNz
+I5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0NjYw
+LDExOTMxNjc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNz
+k5MDQyMzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMw
+OTUsLTk0Mzc1NjA0Nl19
 -->
