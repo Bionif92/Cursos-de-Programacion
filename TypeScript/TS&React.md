@@ -1275,15 +1275,90 @@ const data = await get<RawDataBlogPost[]>(
 ### Handling Errors & Loading States
 
 ````
+import { type ReactNode, useEffect, useState } from 'react';
+
+import BlogPosts, { BlogPost } from './components/BlogPosts.tsx';
+import { get } from './util/http.ts';
+import fetchingImg from './assets/data-fetching.png';
+import ErrorMessage from './components/ErrorMessage.tsx';
+
+type RawDataBlogPost = {
+  id: number;
+  userId: number;
+  title: string;
+  body: string;
+};
+
+function App() {
+  const [fetchedPosts, setFetchedPosts] = useState<BlogPost[]>();
+  const [isFetching, setIsFetching] = useState(false);
+  const [error, setError] = useState<string>();
+
+  useEffect(() => {
+    async function fetchPosts() {
+      setIsFetching(true);
+      try {
+        const data = (await get(
+          'https://jsonplaceholder.typicode.com/posts'
+        )) as RawDataBlogPost[];
+        const blogPosts: BlogPost[] = data.map((rawPost) => {
+          return {
+            id: rawPost.id,
+            title: rawPost.title,
+            text: rawPost.body,
+          };
+        });
+        setFetchedPosts(blogPosts);
+      } catch (error) {
+        if (error instanceof Error) { // see if it is the object error
+          setError(error.message);
+        }
+        // setError('Failed to fetch posts!');
+      }
+
+      setIsFetching(false);
+    }
+
+    fetchPosts();
+  }, []);
+
+  let content: ReactNode;
+
+  if (error) {
+    content = <ErrorMessage text={error} />;
+  }
+
+  if (fetchedPosts) {
+    content = <BlogPosts posts={fetchedPosts} />;
+  }
+
+  if (isFetching) {
+    content = <p id="loading-fallback">Fetching posts...</p>;
+  }
+
+  return (
+    <main>
+      <img
+        src={fetchingImg}
+        alt="An abstract image depicting a data fetching process."
+      />
+      {content}
+    </main>
+  );
+}
+
+export default App;
 ````
+
+## Using Redux with TypeScript
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTUzNDAxNTEzLC02Mzk5MjQwMTMsLTE2ND
-I0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3
-MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1Ni
-wtNDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMjcsMjU1
-NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0NiwtMTY0ODMzMT
-k1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEsMTc0NDc4MDI1OSwx
-NjUzODEwNjgzXX0=
+eyJoaXN0b3J5IjpbLTIwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mz
+k5MjQwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1
+MDM4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OT
+QsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0z
+ODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1Nj
+A0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMDE2OTEs
+MTc0NDc4MDI1OV19
 -->
