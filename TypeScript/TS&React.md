@@ -1398,17 +1398,66 @@ export const cartSlice = createSlice({
 ### First Reducer & Controling the action payload Type
 
 ````
+store/cart-slice.ts
+-- import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
+
+type CartItem = {
+  id: string;
+  title: string;
+  price: number;
+  quantity: number;
+};
+
+type CartState = {
+  items: CartItem[];
+};
+
+const initialState: CartState = {
+  items: [],
+};
+
+export const cartSlice = createSlice({
+  name: 'cart',
+  initialState,
+  reducers: {
+    addToCart(
+      state,
+      action: PayloadAction<{ id: string; title: string; price: number }>
+    ) {
+      const itemIndex = state.items.findIndex(
+        (item) => item.id === action.payload.id
+      );
+
+      if (itemIndex >= 0) {
+        state.items[itemIndex].quantity++;
+      } else {
+        state.items.push({ ...action.payload, quantity: 1 });
+      }
+    },
+    removeFromCart(state, action: PayloadAction<string>) {
+      const itemIndex = state.items.findIndex(
+        (item) => item.id === action.payload
+      );
+
+      if (state.items[itemIndex].quantity === 1) {
+        state.items.splice(itemIndex, 1);
+      } else {
+        state.items[itemIndex].quantity--;
+      }
+    },
+  },
+});
 ````
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLT
-E4Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5
-MjQwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MD
-M4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQs
-MTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQyMzUyLC0zOD
-Q5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0Mzc1NjA0
-NiwtMTY0ODMzMTk1MF19
+eyJoaXN0b3J5IjpbMTAyNDY5MzYxMCwtMTY5ODA0OTg5MywtMT
+YyODgzNDQ2OCwtMTg2Nzc2NDAwMiwtMjAyNDQxNTkyNCw5NTM0
+MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwtMTA2ODA3Mj
+k1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0LC0xMDcwMDQ2NjAs
+MTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MDI2OTk2MjcsLTE3OT
+kwNDIzNTIsLTM4NDk2NTIyNywyNTU2NTMzNjIsLTM1MDc4MzA5
+NSwtOTQzNzU2MDQ2XX0=
 -->
