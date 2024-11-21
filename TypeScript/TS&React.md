@@ -1195,9 +1195,62 @@ Therefore, even if  `someData`  was  `any`  or  `unknown`,  `parsedData`  will b
 When using Zod in the course demo app, you could therefore adjust the  `App`  component file like this:
 
 ````
+import { z } from 'zod';
+// other imports ...
+
+// outside of App component function (since this doesn't need to be re-created all the time)
+const rawDataBlogPostSchema = z.object({
+  id: z.number(),
+  userId: z.number(),
+  title: z.string(),
+  body: z.string(),
+});
+// z.array() is a Zod method that creates a new schema based on another schema
+// as the name suggests, it's simply an array containing the expected objects
+const expectedResponseDataSchema = z.array(rawDataBlogPostSchema);
+
+function App() {
+  // other code like useState() etc ...
+
+  useEffect(() => {
+    async function fetchPosts() {
+      setIsFetching(true);
+      try {
+        const data = await get(
+          'https://jsonplaceholder.typicode.com/posts'
+        );
+        const parsedData = expectedResponseDataSchema.parse(data);
+        // No more type casting via "as" needed!
+        // Instead, here, TypeScript "knows" that parsedData will be an array
+        // full with objects as defined by the above schema
+        const blogPosts: BlogPost[] = parsedData.map((rawPost) => {
+          return {
+            id: rawPost.id,
+            title: rawPost.title,
+            text: rawPost.body,
+          };
+        });
+        setFetchedPosts(blogPosts);
+      } catch (error) {
+        if (error instanceof Error) {
+          setError(error.message);
+        }
+        // setError('Failed to fetch posts!');
+      }
+
+      setIsFetching(false);
+    }
+
+    fetchPosts();
+  }, []);
+
+  // other code ...
+}
 ````
+
+### Alternative Generic Function
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDU0Njg0NjYsLTYzOTkyNDAxMywtMT
+eyJoaXN0b3J5IjpbLTEzNDE1NDgwMjcsLTYzOTkyNDAxMywtMT
 Y0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUx
 OTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMD
 U2LC00MDI2OTk2MjcsLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywy
