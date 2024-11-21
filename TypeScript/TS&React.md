@@ -1354,11 +1354,16 @@ export default App;
 
 ### Redux Store & First Slice
 
+````
+store/store.ts
+
+````
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODM0MDY0MCwtMjAyNDQxNTkyNCw5NT
+eyJoaXN0b3J5IjpbMjA3NzE1MTIxMiwtMjAyNDQxNTkyNCw5NT
 M0MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwtMTA2ODA3
 Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0LC0xMDcwMDQ2Nj
 AsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MDI2OTk2MjcsLTE3
