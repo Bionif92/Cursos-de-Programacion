@@ -1397,6 +1397,7 @@ export const cartSlice = createSlice({
 
 ### First Reducer & Controling the action payload Type
 
+Can mutate the state in redux not with useReducer
 ````
 store/cart-slice.ts
 -- import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
@@ -1453,11 +1454,11 @@ export const cartSlice = createSlice({
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLT
-E2Mjg4MzQ0NjgsLTE4Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOTUz
-NDAxNTEzLC02Mzk5MjQwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNz
-I5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0NjYw
-LDExOTMxNjc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNz
-k5MDQyMzUyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMw
-OTUsLTk0Mzc1NjA0Nl19
+eyJoaXN0b3J5IjpbLTEyNDcyODU2NTksLTE4MTk1Mjk0NjIsLT
+E2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4Njc3NjQwMDIsLTIw
+MjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5MjQwMTMsLTE2NDI0OT
+U2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MTk3MzQ3
+NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1NiwtND
+AyNjk5NjI3LC0xNzk5MDQyMzUyLC0zODQ5NjUyMjcsMjU1NjUz
+MzYyLC0zNTA3ODMwOTVdfQ==
 -->
