@@ -1092,6 +1092,61 @@ export async function get(url: string) {
 ### Fetching and transforming data
 
 ````
+import { type ReactNode, useEffect, useState } from 'react';
+
+import BlogPosts, { BlogPost } from './components/BlogPosts.tsx';
+import { get } from './util/http.ts';
+import fetchingImg from './assets/data-fetching.png';
+
+type RawDataBlogPost = {
+  id: number;
+  userId: number;
+  title: string;
+  body: string;
+};
+
+function App() {
+  const [fetchedPosts, setFetchedPosts] = useState<BlogPost[]>();
+
+  useEffect(() => {
+    async function fetchPosts() {
+      const data = (await get(
+        'https://jsonplaceholder.typicode.com/posts'
+      )) as RawDataBlogPost[];
+
+//convert data into the data needed in the state
+      const blogPosts: BlogPost[] = data.map((rawPost) => {
+        return {
+          id: rawPost.id,
+          title: rawPost.title,
+          text: rawPost.body,
+        };
+      });
+
+      setFetchedPosts(blogPosts);
+    }
+
+    fetchPosts();
+  }, []);
+
+  let content: ReactNode;
+
+  if (fetchedPosts) {
+    content = <BlogPosts posts={fetchedPosts} />;
+  }
+
+  return (
+    <main>
+      <img
+        src={fetchingImg}
+        alt="An abstract image depicting a data fetching process."
+      />
+      {content}
+    </main>
+  );
+}
+
+export default App;
 ````
 
 
@@ -1100,11 +1155,11 @@ export async function get(url: string) {
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI0OTU2NDEsLTEwNjgwNzI5NTcsLT
-E5NjA1MDM4MDMsLTQ1MTk3MzQ3NCwtMTA3MDA0NjYwLDExOTMx
-Njc0OTQsMTExODkxMTA1NiwtNDAyNjk5NjI3LC0xNzk5MDQyMz
-UyLC0zODQ5NjUyMjcsMjU1NjUzMzYyLC0zNTA3ODMwOTUsLTk0
-Mzc1NjA0NiwtMTY0ODMzMTk1MCwyMjI0NzI0MTgsLTIxMDEwMD
-E2OTEsMTc0NDc4MDI1OSwxNjUzODEwNjgzLDE3NTgzNDg4MSw5
-Nzg1NTMxOTNdfQ==
+eyJoaXN0b3J5IjpbLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwtMT
+A2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0LC0xMDcw
+MDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MDI2OTk2Mj
+csLTE3OTkwNDIzNTIsLTM4NDk2NTIyNywyNTU2NTMzNjIsLTM1
+MDc4MzA5NSwtOTQzNzU2MDQ2LC0xNjQ4MzMxOTUwLDIyMjQ3Mj
+QxOCwtMjEwMTAwMTY5MSwxNzQ0NzgwMjU5LDE2NTM4MTA2ODMs
+MTc1ODM0ODgxXX0=
 -->
