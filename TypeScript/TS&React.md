@@ -1553,6 +1553,18 @@ export const cartSlice = createSlice({
 For extra type safety, create your file
 
 ````
+/store/store.ts
+import { configureStore } from '@reduxjs/toolkit';
+
+import { cartSlice } from './cart-slice.ts';
+
+export const store = configureStore({
+  reducer: {
+    cart: cartSlice.reducer
+  }
+});
+
+--export type AppDispatch = typeof store.dispatch; // type of dispatch
 ````
 
 ````
@@ -1612,11 +1624,11 @@ export default function Product({
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzM1NDk2NjIsMTU5MjY3MDE5LC0xNj
-g1OTM5MzAxLDU3MDE2Njk1NywtMTM5MzEwMDEyNywtMTgxOTUy
-OTQ2MiwtMTY5ODA0OTg5MywtMTYyODgzNDQ2OCwtMTg2Nzc2ND
-AwMiwtMjAyNDQxNTkyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywt
-MTY0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtND
-UxOTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTEx
-MDU2LC00MDI2OTk2MjddfQ==
+eyJoaXN0b3J5IjpbMTAzOTU0OTgxMywxNTkyNjcwMTksLTE2OD
+U5MzkzMDEsNTcwMTY2OTU3LC0xMzkzMTAwMTI3LC0xODE5NTI5
+NDYyLC0xNjk4MDQ5ODkzLC0xNjI4ODM0NDY4LC0xODY3NzY0MD
+AyLC0yMDI0NDE1OTI0LDk1MzQwMTUxMywtNjM5OTI0MDEzLC0x
+NjQyNDk1NjQxLC0xMDY4MDcyOTU3LC0xOTYwNTAzODAzLC00NT
+E5NzM0NzQsLTEwNzAwNDY2MCwxMTkzMTY3NDk0LDExMTg5MTEw
+NTYsLTQwMjY5OTYyN119
 -->
