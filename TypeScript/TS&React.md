@@ -1627,7 +1627,7 @@ export default function Product({
 ### Creating a Type-Safe useSelector Hook
 
 ````
-/hooks.ts
+/store/hooks.ts
 import {
   useDispatch,
   useSelector,
@@ -1643,13 +1643,26 @@ export const useCartSelector: TypedUseSelectorHook<RootState> = useSelector;
 ````
 
 ````
+/store/store.ts
+import { configureStore } from '@reduxjs/toolkit';
+
+import { cartSlice } from './cart-slice.ts';
+
+export const store = configureStore({
+  reducer: {
+    cart: cartSlice.reducer
+  }
+});
+
+--export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY2ODc4MzQsLTc2ODg2ODMyNCwtMz
-I1NTYzNDU4LDEwMzk1NDk4MTMsMTU5MjY3MDE5LC0xNjg1OTM5
-MzAxLDU3MDE2Njk1NywtMTM5MzEwMDEyNywtMTgxOTUyOTQ2Mi
-wtMTY5ODA0OTg5MywtMTYyODgzNDQ2OCwtMTg2Nzc2NDAwMiwt
-MjAyNDQxNTkyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywtMTY0Mj
-Q5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTcz
-NDc0LC0xMDcwMDQ2NjBdfQ==
+eyJoaXN0b3J5IjpbMjA0NDQ0NzE1NCwtMTY3NjY4NzgzNCwtNz
+Y4ODY4MzI0LC0zMjU1NjM0NTgsMTAzOTU0OTgxMywxNTkyNjcw
+MTksLTE2ODU5MzkzMDEsNTcwMTY2OTU3LC0xMzkzMTAwMTI3LC
+0xODE5NTI5NDYyLC0xNjk4MDQ5ODkzLC0xNjI4ODM0NDY4LC0x
+ODY3NzY0MDAyLC0yMDI0NDE1OTI0LDk1MzQwMTUxMywtNjM5OT
+I0MDEzLC0xNjQyNDk1NjQxLC0xMDY4MDcyOTU3LC0xOTYwNTAz
+ODAzLC00NTE5NzM0NzRdfQ==
 -->
