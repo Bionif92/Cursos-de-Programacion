@@ -1550,7 +1550,7 @@ export const cartSlice = createSlice({
 --export const { addToCart, removeFromCart } = cartSlice.actions;
 ````
 
-For extra type safety, create your file
+For extra type safety, create your file with useDispatch
 
 ````
 /store/store.ts
@@ -1603,7 +1603,7 @@ export default function Product({
   const dispatch = useCartDispatch();
 
   function handleAddToCart() {
-    dispatch(addToCart({ id, title, price }));
+    --dispatch(addToCart({ id, title, price }));
   }
 
   return (
@@ -1624,11 +1624,11 @@ export default function Product({
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTU0OTgxMywxNTkyNjcwMTksLTE2OD
-U5MzkzMDEsNTcwMTY2OTU3LC0xMzkzMTAwMTI3LC0xODE5NTI5
-NDYyLC0xNjk4MDQ5ODkzLC0xNjI4ODM0NDY4LC0xODY3NzY0MD
-AyLC0yMDI0NDE1OTI0LDk1MzQwMTUxMywtNjM5OTI0MDEzLC0x
-NjQyNDk1NjQxLC0xMDY4MDcyOTU3LC0xOTYwNTAzODAzLC00NT
-E5NzM0NzQsLTEwNzAwNDY2MCwxMTkzMTY3NDk0LDExMTg5MTEw
-NTYsLTQwMjY5OTYyN119
+eyJoaXN0b3J5IjpbNjIzODY1ODQwLDEwMzk1NDk4MTMsMTU5Mj
+Y3MDE5LC0xNjg1OTM5MzAxLDU3MDE2Njk1NywtMTM5MzEwMDEy
+NywtMTgxOTUyOTQ2MiwtMTY5ODA0OTg5MywtMTYyODgzNDQ2OC
+wtMTg2Nzc2NDAwMiwtMjAyNDQxNTkyNCw5NTM0MDE1MTMsLTYz
+OTkyNDAxMywtMTY0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MD
+UwMzgwMywtNDUxOTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5
+NCwxMTE4OTExMDU2XX0=
 -->
