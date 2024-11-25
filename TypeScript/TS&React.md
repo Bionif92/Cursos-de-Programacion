@@ -1552,7 +1552,19 @@ export const cartSlice = createSlice({
 
 For extra type safety, create your file
 
+````
+````
 
+````
+/store/hooks.ts
+import { useDispatch } from 'react-redux';
+
+import { AppDispatch } from './store.ts';
+
+type DispatchFunction = () => AppDispatch;
+
+export const useCartDispatch: DispatchFunction = useDispatch;
+````
 
 Use the actions
 
@@ -1600,11 +1612,11 @@ export default function Product({
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIwNjQ3MDYxLDE1OTI2NzAxOSwtMTY4NT
-kzOTMwMSw1NzAxNjY5NTcsLTEzOTMxMDAxMjcsLTE4MTk1Mjk0
-NjIsLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4Njc3NjQwMD
-IsLTIwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5MjQwMTMsLTE2
-NDI0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MT
-k3MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1
-NiwtNDAyNjk5NjI3XX0=
+eyJoaXN0b3J5IjpbLTEyMzM1NDk2NjIsMTU5MjY3MDE5LC0xNj
+g1OTM5MzAxLDU3MDE2Njk1NywtMTM5MzEwMDEyNywtMTgxOTUy
+OTQ2MiwtMTY5ODA0OTg5MywtMTYyODgzNDQ2OCwtMTg2Nzc2ND
+AwMiwtMjAyNDQxNTkyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywt
+MTY0MjQ5NTY0MSwtMTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtND
+UxOTczNDc0LC0xMDcwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTEx
+MDU2LC00MDI2OTk2MjddfQ==
 -->
