@@ -1659,12 +1659,49 @@ export type AppDispatch = typeof store.dispatch;
 ````
 
 ### Selecting & Transforming Redux Store Data
+
+````
+import { useState } from 'react';
+
+import Cart from './Cart.tsx';
+--import { useCartSelector } from '../store/hooks.ts';
+
+export default function Header() {
+  const [cartIsVisible, setCartIsVisible] = useState(false);
+  const cartQuantity = useCartSelector((state) =>
+    state.cart.items.reduce((val, item) => val + item.quantity, 0)
+  );
+
+  function handleOpenCartClick() {
+    setCartIsVisible(true);
+  }
+
+  function handleCloseCartClick() {
+    setCartIsVisible(false);
+  }
+
+  return (
+    <>
+      {cartIsVisible && <Cart onClose={handleCloseCartClick} />}
+      <header id="main-header">
+        <div id="main-title">
+          <img src="logo.png" alt="Elegant model" />
+          <h1>Elegant Redux</h1>
+        </div>
+        <p>
+          <button onClick={handleOpenCartClick}>Cart ({cartQuantity})</button>
+        </p>
+      </header>
+    </>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4ODE0OTI0MywtMTY3NjY4NzgzNCwtNz
-Y4ODY4MzI0LC0zMjU1NjM0NTgsMTAzOTU0OTgxMywxNTkyNjcw
-MTksLTE2ODU5MzkzMDEsNTcwMTY2OTU3LC0xMzkzMTAwMTI3LC
-0xODE5NTI5NDYyLC0xNjk4MDQ5ODkzLC0xNjI4ODM0NDY4LC0x
-ODY3NzY0MDAyLC0yMDI0NDE1OTI0LDk1MzQwMTUxMywtNjM5OT
-I0MDEzLC0xNjQyNDk1NjQxLC0xMDY4MDcyOTU3LC0xOTYwNTAz
-ODAzLC00NTE5NzM0NzRdfQ==
+eyJoaXN0b3J5IjpbODA1NTA3NDE5LC0xNjc2Njg3ODM0LC03Nj
+g4NjgzMjQsLTMyNTU2MzQ1OCwxMDM5NTQ5ODEzLDE1OTI2NzAx
+OSwtMTY4NTkzOTMwMSw1NzAxNjY5NTcsLTEzOTMxMDAxMjcsLT
+E4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4
+Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5Mj
+QwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4
+MDMsLTQ1MTk3MzQ3NF19
 -->
