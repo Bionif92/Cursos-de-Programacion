@@ -1689,7 +1689,7 @@ export default function Header() {
           <h1>Elegant Redux</h1>
         </div>
         <p>
-          <button onClick={handleOpenCartClick}>Cart ({cartQuantity})</button>
+         -- <button onClick={handleOpenCartClick}>Cart ({cartQuantity})</button>
         </p>
       </header>
     </>
@@ -1697,7 +1697,7 @@ export default function Header() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTUxNDA5ODUxLC0xNjc2Njg3ODM0LC03Nj
+eyJoaXN0b3J5IjpbODMzMTg3MDM1LC0xNjc2Njg3ODM0LC03Nj
 g4NjgzMjQsLTMyNTU2MzQ1OCwxMDM5NTQ5ODEzLDE1OTI2NzAx
 OSwtMTY4NTkzOTMwMSw1NzAxNjY5NTcsLTEzOTMxMDAxMjcsLT
 E4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4
