@@ -1550,6 +1550,10 @@ export const cartSlice = createSlice({
 --export const { addToCart, removeFromCart } = cartSlice.actions;
 ````
 
+For extra type safety, create your file
+
+
+
 Use the actions
 
 ````
@@ -1596,11 +1600,11 @@ export default function Product({
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjY3MDE5LC0xNjg1OTM5MzAxLDU3MD
-E2Njk1NywtMTM5MzEwMDEyNywtMTgxOTUyOTQ2MiwtMTY5ODA0
-OTg5MywtMTYyODgzNDQ2OCwtMTg2Nzc2NDAwMiwtMjAyNDQxNT
-kyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwt
-MTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0LC0xMD
-cwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MDI2OTk2
-MjcsLTE3OTkwNDIzNTJdfQ==
+eyJoaXN0b3J5IjpbNjIwNjQ3MDYxLDE1OTI2NzAxOSwtMTY4NT
+kzOTMwMSw1NzAxNjY5NTcsLTEzOTMxMDAxMjcsLTE4MTk1Mjk0
+NjIsLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4Njc3NjQwMD
+IsLTIwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5MjQwMTMsLTE2
+NDI0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4MDMsLTQ1MT
+k3MzQ3NCwtMTA3MDA0NjYwLDExOTMxNjc0OTQsMTExODkxMTA1
+NiwtNDAyNjk5NjI3XX0=
 -->
