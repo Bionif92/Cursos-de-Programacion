@@ -1496,14 +1496,111 @@ export default App;
 
 ### Dispatching Actions & Adjusting the useDispatch Hook
 
+Export the actions
 ````
+import { createSlice, type PayloadAction } from '@reduxjs/toolkit';
+
+type CartItem = {
+  id: string;
+  title: string;
+  price: number;
+  quantity: number;
+};
+
+type CartState = {
+  items: CartItem[];
+};
+
+const initialState: CartState = {
+  items: [],
+};
+
+export const cartSlice = createSlice({
+  name: 'cart',
+  initialState,
+  reducers: {
+    addToCart(
+      state,
+      action: PayloadAction<{ id: string; title: string; price: number }>
+    ) {
+      const itemIndex = state.items.findIndex(
+        (item) => item.id === action.payload.id
+      );
+
+      if (itemIndex >= 0) {
+        state.items[itemIndex].quantity++;
+      } else {
+        state.items.push({ ...action.payload, quantity: 1 });
+      }
+    },
+    removeFromCart(state, action: PayloadAction<string>) {
+      const itemIndex = state.items.findIndex(
+        (item) => item.id === action.payload
+      );
+
+      if (state.items[itemIndex].quantity === 1) {
+        state.items.splice(itemIndex, 1);
+      } else {
+        state.items[itemIndex].quantity--;
+      }
+    },
+  },
+});
+
+--export const { addToCart, removeFromCart } = cartSlice.actions;
+````
+
+Use the actions
+
+````
+/product.tsx
+import { addToCart } from '../store/cart-slice.ts';
+import { useCartDispatch } from '../store/hooks.ts';
+
+type ProductProps = {
+  id: string;
+  image: string;
+  title: string;
+  price: number;
+  description: string;
+};
+
+export default function Product({
+  id,
+  image,
+  title,
+  price,
+  description,
+}: ProductProps) {
+  const dispatch = useCartDispatch();
+
+  function handleAddToCart() {
+    dispatch(addToCart({ id, title, price }));
+  }
+
+  return (
+    <article className="product">
+      <img src={image} alt={title} />
+      <div className="product-content">
+        <div>
+          <h3>{title}</h3>
+          <p className="product-price">${price}</p>
+          <p>{description}</p>
+        </div>
+        <p className="product-actions">
+          <button onClick={handleAddToCart}>Add to Cart</button>
+        </p>
+      </div>
+    </article>
+  );
+}
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU5MzkzMDEsNTcwMTY2OTU3LC0xMz
-kzMTAwMTI3LC0xODE5NTI5NDYyLC0xNjk4MDQ5ODkzLC0xNjI4
-ODM0NDY4LC0xODY3NzY0MDAyLC0yMDI0NDE1OTI0LDk1MzQwMT
-UxMywtNjM5OTI0MDEzLC0xNjQyNDk1NjQxLC0xMDY4MDcyOTU3
-LC0xOTYwNTAzODAzLC00NTE5NzM0NzQsLTEwNzAwNDY2MCwxMT
-kzMTY3NDk0LDExMTg5MTEwNTYsLTQwMjY5OTYyNywtMTc5OTA0
-MjM1MiwtMzg0OTY1MjI3XX0=
+eyJoaXN0b3J5IjpbMTU5MjY3MDE5LC0xNjg1OTM5MzAxLDU3MD
+E2Njk1NywtMTM5MzEwMDEyNywtMTgxOTUyOTQ2MiwtMTY5ODA0
+OTg5MywtMTYyODgzNDQ2OCwtMTg2Nzc2NDAwMiwtMjAyNDQxNT
+kyNCw5NTM0MDE1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwt
+MTA2ODA3Mjk1NywtMTk2MDUwMzgwMywtNDUxOTczNDc0LC0xMD
+cwMDQ2NjAsMTE5MzE2NzQ5NCwxMTE4OTExMDU2LC00MDI2OTk2
+MjcsLTE3OTkwNDIzNTJdfQ==
 -->
