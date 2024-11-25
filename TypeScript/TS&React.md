@@ -1654,15 +1654,15 @@ export const store = configureStore({
   }
 });
 
---export type RootState = ReturnType<typeof store.getState>;
+--export type RootState = ReturnType<typeof store.getState>; // give the store data
 export type AppDispatch = typeof store.dispatch;
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NDQ0NzE1NCwtMTY3NjY4NzgzNCwtNz
-Y4ODY4MzI0LC0zMjU1NjM0NTgsMTAzOTU0OTgxMywxNTkyNjcw
-MTksLTE2ODU5MzkzMDEsNTcwMTY2OTU3LC0xMzkzMTAwMTI3LC
-0xODE5NTI5NDYyLC0xNjk4MDQ5ODkzLC0xNjI4ODM0NDY4LC0x
-ODY3NzY0MDAyLC0yMDI0NDE1OTI0LDk1MzQwMTUxMywtNjM5OT
-I0MDEzLC0xNjQyNDk1NjQxLC0xMDY4MDcyOTU3LC0xOTYwNTAz
-ODAzLC00NTE5NzM0NzRdfQ==
+eyJoaXN0b3J5IjpbLTg5MzYwMjgzLC0xNjc2Njg3ODM0LC03Nj
+g4NjgzMjQsLTMyNTU2MzQ1OCwxMDM5NTQ5ODEzLDE1OTI2NzAx
+OSwtMTY4NTkzOTMwMSw1NzAxNjY5NTcsLTEzOTMxMDAxMjcsLT
+E4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4
+Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOTUzNDAxNTEzLC02Mzk5Mj
+QwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNzI5NTcsLTE5NjA1MDM4
+MDMsLTQ1MTk3MzQ3NF19
 -->
