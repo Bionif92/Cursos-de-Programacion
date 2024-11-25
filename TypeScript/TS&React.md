@@ -1661,6 +1661,7 @@ export type AppDispatch = typeof store.dispatch;
 ### Selecting & Transforming Redux Store Data
 
 ````
+/header.tsx
 import { useState } from 'react';
 
 import Cart from './Cart.tsx';
@@ -1699,13 +1700,74 @@ export default function Header() {
 
 ### Finishing the app
 
-``
+````
+/carditem.tsx
+import {
+  type CartItem,
+  addToCart,
+  removeFromCart,
+} from '../store/cart-slice.ts';
+import { useCartDispatch, useCartSelector } from '../store/hooks.ts';
+
+export default function CartItems() {
+  const cartItems = useCartSelector((state) => state.cart.items);
+  const dispatch = useCartDispatch();
+
+  const totalPrice = cartItems.reduce(
+    (val, item) => val + item.price * item.quantity,
+    0
+  );
+  const formattedTotalPrice = totalPrice.toFixed(2);
+
+  function handleAddToCart(item: CartItem) {
+    dispatch(addToCart(item));
+  }
+
+  function handleRemoveFromCart(id: string) {
+    dispatch(removeFromCart(id));
+  }
+
+  return (
+    <div id="cart">
+      {cartItems.length === 0 && <p>No items in cart!</p>}
+
+      {cartItems.length > 0 && (
+        <ul id="cart-items">
+          {cartItems.map((item) => {
+            const formattedPrice = `$${item.price.toFixed(2)}`;
+
+            return (
+              <li key={item.id}>
+                <div>
+                  <span>{item.title}</span>
+                  <span> ({formattedPrice})</span>
+                </div>
+                <div className="cart-item-actions">
+                  <button onClick={() => handleRemoveFromCart(item.id)}>
+                    -
+                  </button>
+                  <span>{item.quantity}</span>
+                  <button onClick={() => handleAddToCart(item)}>+</button>
+                </div>
+              </li>
+            );
+          })}
+        </ul>
+      )}
+
+      <p id="cart-total-price">
+        Cart Total: <strong>${formattedTotalPrice}</strong>
+      </p>
+    </div>
+  );
+}
+````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTExMzEwOSw4MzMxODcwMzUsLTE2Nz
-Y2ODc4MzQsLTc2ODg2ODMyNCwtMzI1NTYzNDU4LDEwMzk1NDk4
-MTMsMTU5MjY3MDE5LC0xNjg1OTM5MzAxLDU3MDE2Njk1NywtMT
-M5MzEwMDEyNywtMTgxOTUyOTQ2MiwtMTY5ODA0OTg5MywtMTYy
-ODgzNDQ2OCwtMTg2Nzc2NDAwMiwtMjAyNDQxNTkyNCw5NTM0MD
-E1MTMsLTYzOTkyNDAxMywtMTY0MjQ5NTY0MSwtMTA2ODA3Mjk1
-NywtMTk2MDUwMzgwM119
+eyJoaXN0b3J5IjpbLTE3Njg2ODMzOTQsODMzMTg3MDM1LC0xNj
+c2Njg3ODM0LC03Njg4NjgzMjQsLTMyNTU2MzQ1OCwxMDM5NTQ5
+ODEzLDE1OTI2NzAxOSwtMTY4NTkzOTMwMSw1NzAxNjY5NTcsLT
+EzOTMxMDAxMjcsLTE4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLTE2
+Mjg4MzQ0NjgsLTE4Njc3NjQwMDIsLTIwMjQ0MTU5MjQsOTUzND
+AxNTEzLC02Mzk5MjQwMTMsLTE2NDI0OTU2NDEsLTEwNjgwNzI5
+NTcsLTE5NjA1MDM4MDNdfQ==
 -->
