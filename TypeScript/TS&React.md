@@ -1668,7 +1668,7 @@ import Cart from './Cart.tsx';
 
 export default function Header() {
   const [cartIsVisible, setCartIsVisible] = useState(false);
-  const cartQuantity = useCartSelector((state) =>
+  --const cartQuantity = useCartSelector((state) =>
     state.cart.items.reduce((val, item) => val + item.quantity, 0)
   );
 
@@ -1697,7 +1697,7 @@ export default function Header() {
 }
 ````
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1NTA3NDE5LC0xNjc2Njg3ODM0LC03Nj
+eyJoaXN0b3J5IjpbNTUxNDA5ODUxLC0xNjc2Njg3ODM0LC03Nj
 g4NjgzMjQsLTMyNTU2MzQ1OCwxMDM5NTQ5ODEzLDE1OTI2NzAx
 OSwtMTY4NTkzOTMwMSw1NzAxNjY5NTcsLTEzOTMxMDAxMjcsLT
 E4MTk1Mjk0NjIsLTE2OTgwNDk4OTMsLTE2Mjg4MzQ0NjgsLTE4
